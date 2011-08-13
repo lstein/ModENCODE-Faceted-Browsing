@@ -1,0 +1,66 @@
+td {
+    font-size: 10pt
+}
+.indent {
+    position:relative;
+    left: 10em;
+}
+div.header {
+    background: #6ECCF8 url('top_gradient.png') repeat-x;
+    height:60;
+    color: white;
+}
+div.submission {
+    float:      left;
+    width:      280px;
+    height:     150px;
+    border:     1px solid #BCB79E;
+    background: #F0FFF0;
+    padding:    1em;
+    margin:     0.5em;
+    text-align: left;
+    overflow: auto;
+}
+
+div.status {
+    font-weight:bold;
+    text-align:center;
+    border:     1px solid #BCB79E;
+    background: #F0FFF0;
+}
+span.exhibit-collectionView-group-count {
+    color:       #ccc;
+    font-weight: normal;
+}
+div.exhibit-facet-value-selected {
+    background:  none;
+    font-weight: bold;
+}
+
+div.name {
+    font-weight: bold;
+    font-size:   110%;
+}
+.submission {
+    border:     1px solid #ddd;
+    font-size: 9pt;
+}
+.organism {
+    font-style: italic;
+}
+.condition {
+}
+.field-label {
+    font-weight: bold;
+    color: grey;
+}
+div.selected {
+    background-color: wheat;
+}
+div.select-track {
+    font-size: 110%;
+    font-weight: bold;
+    color: blue;
+    float: right;  
+}
+
