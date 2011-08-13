@@ -1,4 +1,8 @@
 var SelectedItems = new Hash();
+var balloon       = new Balloon;
+BalloonConfig(balloon,'GBubble');
+balloon.images    = 'GBubble';
+balloon.delayTime = 500;
 
 function clear_all () {
     SelectedItems = new Hash();
@@ -6,11 +10,21 @@ function clear_all () {
     $('selection_count').innerHTML   = 'No tracks selected';
 }
 
+function get_id (container) {
+    return container.getAttribute('ex:itemid');
+}
+
+function popup (event, container) {
+    var html = container.select('div.popup');
+    balloon.showTooltip(event,html[0].innerHTML);
+}
+
 function toggle_track (checkbox,turn_on) {
     var container = checkbox.ancestors().find(
 	function(el) { return el.hasClassName('submission')});
 
-    var id = container.getAttribute('ex:itemid');
+//    var id = container.getAttribute('ex:itemid');
+    var id = get_id(container);
 
     if (turn_on == null)
 	turn_on = !container.hasClassName('selected');
