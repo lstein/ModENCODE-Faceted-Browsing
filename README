@@ -1,0 +1,4 @@
+To run:
+
+ln -sf /var/www/modencode `pwd`/htdocs
+point your browser at http://localhost/modencode
