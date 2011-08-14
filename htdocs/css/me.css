@@ -5,21 +5,28 @@ td {
     position:relative;
     left: 10em;
 }
+.centered {
+    text-align: center;
+}
 div.header {
-    background: #6ECCF8 url('top_gradient.png') repeat-x;
+    background: #6ECCF8 url('../top_gradient.png') repeat-x;
     height:60;
     color: white;
 }
+div.label-header {
+    background: #6ECCF8;
+}
 div.submission {
     float:      left;
-    width:      280px;
-/*    height:     150px; */
-    cursor:     hand;
+/*    width:      280px;
+    height:     150px; */
+    cursor:     pointer;
     height:     50px;
+    width:      350px;
     border:     1px solid #BCB79E;
     background: #F0FFF0;
-    padding:    1em;
-    margin:     0.5em;
+    padding:    0.2em;
+    margin:     0.2em;
     text-align: left;
     overflow: auto;
 }
@@ -27,12 +34,14 @@ div.popup {
     display: none;
 }
 div.popup-contents {
+    border-style: double;
     font-family: sans-serif;
     font-size:   10pt;
+    padding: 0.5em;
 }
 div.status {
     font-weight:bold;
-    text-align:center;
+/*    text-align:center; */
     border:     1px solid #BCB79E;
     background: #F0FFF0;
 }
@@ -62,6 +71,9 @@ div.name {
     font-weight: bold;
     color: red;
 }
+.field-value {
+    font-weight: bold;
+}
 div.selected {
     background-color: wheat;
 }
@@ -71,4 +83,20 @@ div.select-track {
     color: blue;
     float: right;  
 }
-
+div.exhibit-thumbnailView-itemContainer {
+/*    margin: -4px; */
+    padding: 0px;
+}
+ul,ol#shopping_cart {
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+    height: 80px;
+    resize: vertical;
+    overflow: auto;
+    list-style-type: none;
+}
+.strikeout {
+    text-decoration: line-through;
+    color:           gray;
+}

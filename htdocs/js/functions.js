@@ -1,4 +1,11 @@
+// functions.js
+// part of modENCODE faceted search infrastructure
+// Author: Lincoln D. Stein <lincoln.stein@gmail.com>
+// (c) 2011 Ontario Institute for Cancer Research
+// License: Perl Artistic License 2.0; allows for redistribution with citation of original author
+
 var SelectedItems = new Hash();
+var GlobalTimeout = new Hash();
 var balloon       = new Balloon;
 BalloonConfig(balloon,'GBubble');
 balloon.images    = 'GBubble';
@@ -8,6 +15,8 @@ function clear_all () {
     SelectedItems = new Hash();
     hilight_items();
     $('selection_count').innerHTML   = 'No tracks selected';
+    $('dataset_count').innerHTML     = 'Selected Datasets:';
+    refresh_shopping_cart();
 }
 
 function get_id (container) {
@@ -22,8 +31,6 @@ function popup (event, container) {
 function toggle_track (checkbox,turn_on) {
     var container = checkbox.ancestors().find(
 	function(el) { return el.hasClassName('submission')});
-
-//    var id = container.getAttribute('ex:itemid');
     var id = get_id(container);
 
     if (turn_on == null)
@@ -36,14 +43,16 @@ function toggle_track (checkbox,turn_on) {
 	container.removeClassName('selected');
 	SelectedItems.unset(id);
     }
+    checkbox.checked = turn_on;
     
     var selected = SelectedItems.keys();
     if (selected.size() > 0) {
 	var url     = format_url();
 	var sources = url.keys();
-	$('selection_count').innerHTML   = selected.size()+' tracks selected';
+	$('dataset_count').innerHTML     = selected.size()+' Selected Datasets:';
+	$('selection_count').innerHTML   = selected.size()+' datasets selected';
 	$('selection_count').innerHTML  += ' [<a href="javascript:clear_all()">clear</a>].';
-	$('selection_count').innerHTML += '<br/>Browse ';
+	$('selection_count').innerHTML  += '<br/>Browse ';
 	if (url.keys().size() > 0) {
 	    url.keys().each(function (e) { 
 		var u = url.get(e);
@@ -54,8 +63,24 @@ function toggle_track (checkbox,turn_on) {
 	}
 	$('selection_count').innerHTML += '.<br/><a href="foobar">Download</a> selected data.';
     } else {
+	$('dataset_count').innerHTML     = 'Selected Datasets:';
 	$('selection_count').innerHTML='No tracks selected';
     }
+    refresh_shopping_cart();
+}
+
+function refresh_shopping_cart () {
+    var cart = $('shopping_cart');
+    if (cart == null) return;
+    cart.innerHTML = '';
+    var selected = SelectedItems.keys().sort();
+    if (selected.size() == 0) cart.innerHTML = '<i style="color:gray">No datasets selected</i>';
+    selected.each(function (e) {
+	var id               = 'check_'+e;
+	var remove           = '<input type="checkbox" checked="on" id="'+id+'" onchange="trash(this)"/>';
+//	cart.insert('<li>'+remove+'<label for="'+id+'">'+e+'</label></li>');
+	cart.insert('<li>'+remove+'<span>'+e+'</span>'+'</li>');
+    });
 }
 
 function hilight_items () {
@@ -70,6 +95,27 @@ function hilight_items () {
             d.select('input')[0].checked=0;
         }
     });
+}
+
+function trash (checkbox) {
+    var us    = checkbox.id.indexOf('_');
+    var id    = checkbox.id.substr(us+1);
+    var label = checkbox.nextSiblings()[0];
+    if (!checkbox.checked) {
+	label.addClassName('strikeout');
+	var t = window.setTimeout(function () {
+	    toggle_track($(id),false);
+	    GlobalTimeout.unset(id);
+	},2000);
+	GlobalTimeout.set(id,t);
+    } else {
+	label.removeClassName('strikeout');
+	var t = GlobalTimeout.get(id);
+	if (t) {
+	    window.clearTimeout(t);
+	    GlobalTimeout.unset(id);
+	}
+    }
 }
 
 function format_url() {
