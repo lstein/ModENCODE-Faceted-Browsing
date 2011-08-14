@@ -6,6 +6,7 @@
 
 var SelectedItems = new Hash();
 var GlobalTimeout = new Hash();
+var Popups        = new Hash();
 var balloon       = new Balloon;
 BalloonConfig(balloon,'GBubble');
 balloon.images    = 'GBubble';
@@ -16,6 +17,7 @@ function clear_all () {
     hilight_items();
     $('selection_count').innerHTML   = 'No tracks selected';
     $('dataset_count').innerHTML     = 'Selected Datasets:';
+    $('retrieve_buttons').hide();
     refresh_shopping_cart();
 }
 
@@ -28,9 +30,14 @@ function popup (event, container) {
     balloon.showTooltip(event,html[0].innerHTML);
 }
 
-function toggle_track (checkbox,turn_on) {
+function find_container (checkbox) {
     var container = checkbox.ancestors().find(
 	function(el) { return el.hasClassName('submission')});
+    return container;
+}
+
+function toggle_track (checkbox,turn_on) {
+    var container = find_container(checkbox);
     var id = get_id(container);
 
     if (turn_on == null)
@@ -49,6 +56,7 @@ function toggle_track (checkbox,turn_on) {
     if (selected.size() > 0) {
 	var url     = format_url();
 	var sources = url.keys();
+	$('retrieve_buttons').show();
 	$('dataset_count').innerHTML     = selected.size()+' Selected Datasets:';
 	$('selection_count').innerHTML   = selected.size()+' datasets selected';
 	$('selection_count').innerHTML  += ' [<a href="javascript:clear_all()">clear</a>].';
@@ -63,6 +71,7 @@ function toggle_track (checkbox,turn_on) {
 	}
 	$('selection_count').innerHTML += '.<br/><a href="foobar">Download</a> selected data.';
     } else {
+	$('retrieve_buttons').hide();
 	$('dataset_count').innerHTML     = 'Selected Datasets:';
 	$('selection_count').innerHTML='No tracks selected';
     }
@@ -76,10 +85,12 @@ function refresh_shopping_cart () {
     var selected = SelectedItems.keys().sort();
     if (selected.size() == 0) cart.innerHTML = '<i style="color:gray">No datasets selected</i>';
     selected.each(function (e) {
+	var html             = find_container($(e)).select('div.popup')[0].innerHTML;
+	Popups.set(e,html);
 	var id               = 'check_'+e;
 	var remove           = '<input type="checkbox" checked="on" id="'+id+'" onchange="trash(this)"/>';
-//	cart.insert('<li>'+remove+'<label for="'+id+'">'+e+'</label></li>');
-	cart.insert('<li>'+remove+'<span>'+e+'</span>'+'</li>');
+	var handler          = 'balloon.showTooltip(window.event,Popups.get(\''+e.gsub("'","\\'")+'\'))';
+	cart.insert('<li>'+remove+'<span style="cursor:pointer" onmouseover="'+handler+'">'+e+'</span>'+'</li>');
     });
 }
 
@@ -105,6 +116,7 @@ function trash (checkbox) {
 	label.addClassName('strikeout');
 	var t = window.setTimeout(function () {
 	    toggle_track($(id),false);
+	    Popups.unset(id);
 	    GlobalTimeout.unset(id);
 	},2000);
 	GlobalTimeout.set(id,t);
