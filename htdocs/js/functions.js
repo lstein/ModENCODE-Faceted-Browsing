@@ -15,7 +15,6 @@ balloon.delayTime = 500;
 function clear_all () {
     SelectedItems = new Hash();
     hilight_items();
-    $('selection_count').innerHTML   = 'No tracks selected';
     $('dataset_count').innerHTML     = 'Selected Datasets:';
     $('retrieve_buttons').hide();
     shopping_cart_clear();
@@ -58,30 +57,7 @@ function toggle_dataset (id,turn_on) {
 	var container    = find_container(checkbox);
 	if (turn_on) { container.addClassName('selected') } else {container.removeClassName('selected')}
     }
-    
-    var selected = SelectedItems.keys();
-    if (selected.size() > 0) {
-	var url     = format_url();
-	var sources = url.keys();
-	$('retrieve_buttons').show();
-	$('dataset_count').innerHTML     = selected.size()+' Selected Datasets:';
-	$('selection_count').innerHTML   = selected.size()+' datasets selected';
-	$('selection_count').innerHTML  += ' [<a href="javascript:clear_all()">clear</a>].';
-	$('selection_count').innerHTML  += '<br/>Browse ';
-	if (url.keys().size() > 0) {
-	    url.keys().each(function (e) { 
-		var u = url.get(e);
-		$('selection_count').innerHTML += '<a target="_new" href="' + u + '">'+e+' tracks</a> ';
-	    });
-	} else {
-	    $('selection_count').innerHTML += '<i>invalid track</i>';
-	}
-	$('selection_count').innerHTML += '.<br/><a href="foobar">Download</a> selected data.';
-    } else {
-	$('retrieve_buttons').hide();
-	$('dataset_count').innerHTML     = 'Selected Datasets:';
-	$('selection_count').innerHTML='No tracks selected';
-    }
+    shopping_cart_check();
 }
 
 function shopping_cart_clear () { 
@@ -94,8 +70,31 @@ function shopping_cart_clear () {
 
 function shopping_cart_check () {
     var element = $('shopping_cart');
-    if (element.select('li').size() == 0)
+    if (element.select('li').size() == 0) {
 	element.innerHTML = '<i style="color:gray">No datasets selected</i>';
+	$('retrieve_buttons').innerHTML = '';
+	$('retrieve_buttons').hide();
+    } else {
+	var selected = SelectedItems.keys();
+	$('dataset_count').innerHTML     = selected.size()+' Selected Datasets:';
+	var buttons = $('retrieve_buttons');
+	buttons.innerHTML = '';
+	var url     = format_url();
+	var sources = url.keys();
+	url.keys().each(function (e) {
+	    var u = url.get(e);
+	    var window_name = 'browse_'+e;
+	    buttons.insert(new Element('button',
+				       {onClick:'window.open("'+u+'","'+window_name+'")'}).update('Browse '+e.ucfirst()+' Tracks'));
+	});
+	var accessions = selected.map(function (l) {
+	    return window.database.getObjects(l,'submission').toArray();
+	});
+	var url = 'http://www.foo.org/cgi-bin/me_download?download='+accessions.join('+');
+	buttons.insert(new Element('button',{onClick:'alert("'+url+'")'}).update('Download Datasets'));
+	buttons.insert(new Element('button',{onClick:'clear_all()'}).update('Clear All'));
+	$('retrieve_buttons').show();
+    }
 }
 
 function shopping_cart_add (dataset) {
@@ -114,9 +113,10 @@ function shopping_cart_add (dataset) {
 
     var handler          = 'balloon.showTooltip(window.event,Popups.get(\''+dataset.gsub("'","\\'")+'\'))';
     var remove           = new Element('input',{type:'checkbox',
-						checked:'on',
+						checked:true,
 						id: 'check_'+dataset,
-						onchange: 'trash(this)'});
+						onchange: 'trash(this)'
+					       });
     var span = new Element('span',{style:'cursor:pointer',
 				   onmouseover: handler}).update(dataset);
     var org  = window.database.getObjects(dataset,'organism').toArray().join(',');
@@ -124,6 +124,14 @@ function shopping_cart_add (dataset) {
     var li   = new Element('li',{id:item_id});
     li.insert(remove).insert(span);
     cart.insert({top:li});
+
+    //IE 8 workarounds
+    if (Prototype.Browser.IE) {
+	remove.checked  = true;
+	remove.id       = 'check_'+dataset;
+	remove.onclick  = function () {trash(remove)};
+	span.onmouseover = function() {balloon.showTooltip(window.event,popup_html)}
+    }
 }
 
 function shopping_cart_remove (dataset) {
@@ -171,7 +179,6 @@ function trash (checkbox) {
 }
 
 function format_url() {
-//    var selected = $$('.selected.submission');
     var selected = SelectedItems.keys();
 
     // consolidate sources, tracks and subtracks
@@ -206,3 +213,23 @@ function format_url() {
     });
     return url;
 }
+
+String.prototype.ucfirst = function () {
+
+    // Split the string into words if string contains multiple words.
+    var x = this.split(/\s+/g);
+
+    for (var i = 0; i < x.length; i++) {
+
+        // Splits the word into two parts. One part being the first letter,
+        // second being the rest of the word.
+        var parts = x[i].match(/(\w)(\w*)/);
+
+        // Put it back together but uppercase the first letter and
+        // lowercase the rest of the word.
+        x[i] = parts[1].toUpperCase() + parts[2].toLowerCase();
+    }
+
+    // Rejoin the string and return.
+    return x.join(' ');
+};

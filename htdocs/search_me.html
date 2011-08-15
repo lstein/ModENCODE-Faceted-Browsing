@@ -6,8 +6,12 @@
 
     <link rel='stylesheet' href="css/common.css" type='text/css' />
     <link rel='stylesheet' href="css/me.css" type='text/css' />
-
+    <!--
     <script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js"
+            type="text/javascript"></script>
+    -->
+
+    <script src="js/exhibit/exhibit-api.js"
             type="text/javascript"></script>
 
     <script src="js/prototype.js"
@@ -20,9 +24,12 @@
 	    type="text/javascript">
     </script>
 
-
+    <script type="text/javascript">
+      if (Prototype.Browser.IE) alert("IE User: If IE asks you to stop execution of this page, press NO!");
+    </script>
  </head> 
 
+<body>
 <div class="header">
     <h1><a href="www.modencode.org"><img src="http://www.modencode.org/img/modENCODE_logo_small.png" height="60" align="middle" border="0"/></a>
       Search modENCODE Data Sets</h1>
@@ -32,10 +39,11 @@
 <div class="status">
   <table width="100%" border='0'>
     <tr valign="bottom">
-      <td width="20%"  style="vertical-align:middle">
-	Search: <span ex:role="facet" ex:facetClass="TextSearch"></span>
+      <td width="15%"  style="vertical-align:middle">
+	<b>Internet Explorer users: please click "NO" if browser asks you to stop!</b><br><br>
+	<b>Search:</b> <span ex:role="facet" ex:facetClass="TextSearch"></span>
       </td>
-      <td colspan="2" width="80%">
+      <td colspan="2" width="70%">
 	<table width="100%">
 	  <tr>
 	    <th id="dataset_count">Selected Datasets:</th>
@@ -66,10 +74,10 @@
 </div>
 	    
 <!-- this is the faceted search area and results-->
-<table width="100%" border='0'>
+<table border='0'>
 
 <!-- left column, organism, technique, target and factor facets -->
-  <td id="left-column" width="20%">
+  <td id="left-column" width="15%">
     <div  ex:role="facet" ex:expression=".organism"  ex:height="8em" ex:facetLabel="Organism"></div>
     <div  ex:role="facet" ex:expression=".technique" ex:height="8em" ex:facetLabel="Technique"></div>
     <div  ex:role="facet" ex:expression=".target"    ex:height="8em" ex:facetLabel="Target Type"></div>
@@ -77,13 +85,14 @@
   </td>
   
 <!-- middle column: exhibit results -->
-  <td id="middle-column" width="60%">
-    <div ex:role="view" ex:viewClass="Thumbnail" id="filter_results"></div>
+  <td id="middle-column">
+    <div ex:role="view" ex:viewClass="Tile" id="filter_results"></div>
+
     <div ex:role="lens" ex:onshow="hilight_items()" class="submission" style="display:none">
       <div class="select-track">
 	<div>
 	  <label>
-	    <input type="checkbox" ex:onClick-subcontent="toggle_track(this)" ex:id-subcontent="{{.label}}"/>Select
+	    <input type="checkbox" onClick="toggle_track(this)" ex:id-subcontent="{{.label}}"></input>Select
 	  </label>
 	</div>
       </div>
@@ -138,7 +147,7 @@
   </td>
 	
 <!-- right column: developmental stage, strain, cell line and tissue facets -->
-  <td id="right-column" width="20%">
+  <td id="right-column" width="15%>
     <div  ex:role="facet" ex:expression=".Developmental-Stage" ex:height="8em" ex:facetLabel="Developmental Stage"></div>
     <div  ex:role="facet" ex:expression=".Strain"              ex:height="8em" ex:facetLabel="Strain"></div> 
     <div  ex:role="facet" ex:expression=".Cell-Line"           ex:height="8em" ex:facetLabel="Cell Line"></div>
@@ -147,21 +156,6 @@
   </td>
 </tr>
 </table>
-<!--    
-    <div ex:role="facet" 
-	 ex:facetClass="Cloud"
-	 ex:expression=".technique" 
-    </div>
-    <div ex:role="facet" 
-	 ex:facetClass="Cloud"
-	 ex:expression=".Developmental-Stage" 
-     </div>
-    <div ex:role="facet" 
-	 ex:facetClass="Cloud"
-	 ex:expression=".Cell-Line" 
-     </div>
--->
 
-
- </body>
- </html>
+</body>
+</html>

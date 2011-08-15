@@ -16,17 +16,17 @@ div.header {
 div.label-header {
     background: #6ECCF8;
 }
-div.submission {
-    float:      left;
-/*    width:      280px;
-    height:     150px; */
+.submission {
+    float: left;
+    font-size:  8pt;
     cursor:     pointer;
-    height:     50px;
-    width:      350px;
+    height:     60px;
+    width:      380px;
     border:     1px solid #BCB79E;
-    background: #F0FFF0;
     padding:    0.2em;
-    margin:     0.2em;
+    background: #F0FFF0;
+    margin:     0.2em;/* auto; */
+    vertical-align: top;
     text-align: left;
     overflow: auto;
 }
@@ -41,7 +41,6 @@ div.popup-contents {
 }
 div.status {
     font-weight:bold;
-/*    text-align:center; */
     border:     1px solid #BCB79E;
     background: #F0FFF0;
 }
@@ -53,14 +52,9 @@ div.exhibit-facet-value-selected {
     background:  none;
     font-weight: bold;
 }
-
 div.name {
     font-weight: bold;
     font-size:   110%;
-}
-.submission {
-    border:     1px solid #ddd;
-    font-size: 9pt;
 }
 .organism {
     font-style: italic;
@@ -84,8 +78,10 @@ div.select-track {
     float: right;  
 }
 div.exhibit-thumbnailView-itemContainer {
-/*    margin: -4px; */
     padding: 0px;
+}
+ol.exhibit-tileView-body {
+    list-style-type: none;
 }
 ul,ol#shopping_cart {
     border: 1px;
