@@ -28,6 +28,7 @@
       Search modENCODE Data Sets</h1>
 </div>
 
+<!-- this is the search box, list of selected tracks, and control buttons -->
 <div class="status">
   <table width="100%" border='0'>
     <tr valign="bottom">
@@ -43,98 +44,109 @@
 	    <th align="left">
 	      <ul id="shopping_cart"><i style="color:gray">No datasets selected</i></ul>
 	    </th>
-	    <td>
+	  </tr>
+	  <tr>
+	    <th>
 	      <div id="retrieve_buttons" style="display:none">
-		<button>Browse</button><br><button>Download</button><br><button onclick="clear_all()">Clear All</button>
+		<button id="browse_worm">Browse worm tracks</button>
+		<button id="browse_fly">Browse fly tracks</button>
+		<button id="download data">Download</button>
+		<button id="clear data" onclick="clear_all()">Clear All</button>
 	      </div>
-	    </td>
+	    </th>
 	  </tr>
 	</table>
+
 	<div id="selection_count"></div>
+
       </td>
       <td>&nbsp;</td>
     </tr>
   </table>
 </div>
 	    
-
+<!-- this is the faceted search area and results-->
 <table width="100%" border='0'>
-	<td id="left-column" width="20%">
-	  <div  ex:role="facet" ex:expression=".organism"  ex:height="8em" ex:facetLabel="Organism"></div>
-	  <div  ex:role="facet" ex:expression=".technique" ex:height="8em" ex:facetLabel="Technique"></div>
-	  <div  ex:role="facet" ex:expression=".target"    ex:height="8em" ex:facetLabel="Target Type"></div>
-	  <div  ex:role="facet" ex:expression=".factor"    ex:height="8em" ex:facetLabel="Factor"></div>
-	</td>
 
-	<td id="middle-column" width="60%">
-	  <div ex:role="view" ex:viewClass="Thumbnail" id="filter_results"></div>
-	  <div ex:role="lens" ex:onshow="hilight_items()" class="submission" style="display:none">
-	    <div class="select-track">
-	      <div>
-		<label>
-		  <input type="checkbox" ex:onClick-subcontent="toggle_track(this)" ex:id-subcontent="{{.label}}"/>Select
-		</label>
-	      </div>
-	    </div>
-	    <div class="name" onmouseover="popup(event,this)">
-	      <span  ex:content=".submission" class="field-label"></span>:
-	      <span  ex:content=".technique"></span><br>
-	      <span  ex:content=".label"></span>
-	      (<span class="organism" ex:content=".organism"></span>)
-	    </div>
-
-	    <!-- This is the details balloon -->
-	    <div class="popup">
-	      <div class="popup-contents">
-		<div class="label-header field-value">
-		  <span ex:content=".submission"></span>: <span ex:content=".label"></span>
-		</div>
-		<div>
-		  <span class="field-label">Biological Source:</span>
-		  <span class="organism">
-		    <span ex:content=".organism"></span>
-		    <span ex:content=".Strain" class="field-value"></span>
-		  </span>
-		</div>
-		<div class="experiment">
-		  <span class="field-label">Experiment type:</span>
-		  <span ex:if-exists=".technique">
-		    <span ex:content=".technique" class="field-value"></span>
-		  </span>
-		  <span ex:if-exists=".target">
-		    <span ex:content=".target" class="field-value"></span>
-		  </span>
-		</div>
-		<div ex:if-exists=".factor">
-		  <span class="field-label">Factor:</span>	
-		  <span ex:content=".factor" class="field-value"></span>
-		</div>
-		<div class="condition">
-		  <span class="field-label">Conditions:</span>
-		  <span ex:if-exists=".Developmental-Stage">
-		    <span ex:content=".Developmental-Stage" class="field-value"></span>
-		  </span>
-		  <span ex:if-exists=".temperature">
-		    <span ex:content=".temperature" class="field-value"></span>
-		  </span>
-		  <span ex:if-exists=".Compound">
-		    <span ex:content=".Compound" class="field-value"></span> salt
-		  </span>
-		</div>
-	      </div>
-	    </div>
+<!-- left column, organism, technique, target and factor facets -->
+  <td id="left-column" width="20%">
+    <div  ex:role="facet" ex:expression=".organism"  ex:height="8em" ex:facetLabel="Organism"></div>
+    <div  ex:role="facet" ex:expression=".technique" ex:height="8em" ex:facetLabel="Technique"></div>
+    <div  ex:role="facet" ex:expression=".target"    ex:height="8em" ex:facetLabel="Target Type"></div>
+    <div  ex:role="facet" ex:expression=".factor"    ex:height="8em" ex:facetLabel="Factor"></div>
+  </td>
+  
+<!-- middle column: exhibit results -->
+  <td id="middle-column" width="60%">
+    <div ex:role="view" ex:viewClass="Thumbnail" id="filter_results"></div>
+    <div ex:role="lens" ex:onshow="hilight_items()" class="submission" style="display:none">
+      <div class="select-track">
+	<div>
+	  <label>
+	    <input type="checkbox" ex:onClick-subcontent="toggle_track(this)" ex:id-subcontent="{{.label}}"/>Select
+	  </label>
+	</div>
+      </div>
+      <div class="name" onmouseover="popup(event,this)">
+	<span  ex:content=".submission" class="field-label"></span>:
+	<span  ex:content=".technique"></span><br>
+	<span  ex:content=".label"></span>
+	(<span class="organism" ex:content=".organism"></span>)
+      </div>
+      
+      <!-- This is the details balloon -->
+      <div class="popup">
+	<div class="popup-contents">
+	  <div class="label-header field-value">
+	    <span ex:content=".submission"></span>: <span ex:content=".label"></span>
 	  </div>
-	</td>
+	  <div>
+	    <span class="field-label">Biological Source:</span>
+	    <span class="organism">
+	      <span ex:content=".organism"></span>
+	      <span ex:content=".Strain" class="field-value"></span>
+	    </span>
+	  </div>
+	  <div class="experiment">
+	    <span class="field-label">Experiment type:</span>
+	    <span ex:if-exists=".technique">
+	      <span ex:content=".technique" class="field-value"></span>
+	    </span>
+	    <span ex:if-exists=".target">
+	      <span ex:content=".target" class="field-value"></span>
+	    </span>
+	  </div>
+	  <div ex:if-exists=".factor">
+	    <span class="field-label">Factor:</span>	
+	    <span ex:content=".factor" class="field-value"></span>
+	  </div>
+	  <div class="condition">
+	    <span class="field-label">Conditions:</span>
+	    <span ex:if-exists=".Developmental-Stage">
+	      <span ex:content=".Developmental-Stage" class="field-value"></span>
+	    </span>
+	    <span ex:if-exists=".temperature">
+	      <span ex:content=".temperature" class="field-value"></span>
+	    </span>
+	    <span ex:if-exists=".Compound">
+	      <span ex:content=".Compound" class="field-value"></span> salt
+	    </span>
+	  </div>
+	</div>
+      </div>
+    </div>
+  </td>
 	
-	<td id="right-column" width="20%">
-	  <div  ex:role="facet" ex:expression=".Developmental-Stage" ex:height="8em" ex:facetLabel="Developmental Stage"></div>
-	  <div  ex:role="facet" ex:expression=".Strain"              ex:height="8em" ex:facetLabel="Strain"></div> 
-	  <div  ex:role="facet" ex:expression=".Cell-Line"           ex:height="8em" ex:facetLabel="Cell Line"></div>
-	  <div  ex:role="facet" ex:expression=".Tissue"              ex:height="8em" ex:facetLabel="Tissue"></div>
-	  <div  ex:role="facet" ex:expression=".temperature"         ex:height="8em" ex:facetLabel="Temperature"></div>
-	</td>
-      </tr>
-    </table>
+<!-- right column: developmental stage, strain, cell line and tissue facets -->
+  <td id="right-column" width="20%">
+    <div  ex:role="facet" ex:expression=".Developmental-Stage" ex:height="8em" ex:facetLabel="Developmental Stage"></div>
+    <div  ex:role="facet" ex:expression=".Strain"              ex:height="8em" ex:facetLabel="Strain"></div> 
+    <div  ex:role="facet" ex:expression=".Cell-Line"           ex:height="8em" ex:facetLabel="Cell Line"></div>
+    <div  ex:role="facet" ex:expression=".Tissue"              ex:height="8em" ex:facetLabel="Tissue"></div>
+    <div  ex:role="facet" ex:expression=".temperature"         ex:height="8em" ex:facetLabel="Temperature"></div>
+  </td>
+</tr>
+</table>
 <!--    
     <div ex:role="facet" 
 	 ex:facetClass="Cloud"
