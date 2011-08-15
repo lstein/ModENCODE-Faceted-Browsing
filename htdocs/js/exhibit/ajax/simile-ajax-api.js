@@ -15,7 +15,7 @@ if (typeof SimileAjax == "undefined") {
         error:                  null,
         params:                 { bundle:"true" }
     };
-    
+
     SimileAjax.Platform = new Object();
         /*
             HACK: We need these 2 things here because we cannot simply append
