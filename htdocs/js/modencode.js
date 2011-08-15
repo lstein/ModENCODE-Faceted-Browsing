@@ -1839,7 +1839,7 @@
          "factor" : "DPY-26",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_DC"
+            "worm/LIEB_WIG_CHIPCHIP_DC/DPY26_N2_MXEMB"
          ],
          "submission" : "modENCODE_334",
          "label" : "JL00003_DPY26_N2_MXEMB",
@@ -1853,8 +1853,7 @@
          "factor" : "MIX-1",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_DC/MIX1_N2_MXEMB",
-            "worm/LIEB_WIG_CHIPCHIP_DC/DPY26_N2_MXEMB"
+            "worm/LIEB_WIG_CHIPCHIP_DC/MIX1_N2_MXEMB"
          ],
          "submission" : "modENCODE_336",
          "label" : "JL00004_MIX1_N2_MXEMB",
@@ -2940,7 +2939,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/PEMBRYO_FAX_WIG/L2_GABA_neurons"
+            "worm/PEMBRYO_FAX_WIG/L2_GABA_motor_neurons"
          ],
          "submission" : "modENCODE_466",
          "label" : "L2_GABA_motor_neurons_tiling_array",
@@ -3421,7 +3420,7 @@
          "factor" : "SDC-3",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_DC/SDC3_N2_MXEMB_1_A"
+            "worm/LIEB_WIG_CHIPCHIP_DC/SDC3_N2_MXEMB_A"
          ],
          "submission" : "modENCODE_553",
          "label" : "Lieb validation of SDC-3",
@@ -3435,7 +3434,7 @@
          "factor" : "SDC-3",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_DC/SDC3_N2_MXEMB_1_B"
+            "worm/LIEB_WIG_CHIPCHIP_DC/SDC3_N2_MXEMB_B"
          ],
          "submission" : "modENCODE_575",
          "label" : "Lieb validation of SDC-3",
@@ -3449,7 +3448,7 @@
          "factor" : "DPY-27",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_N2_MXEMB_1_A"
+            "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_N2_MXEMB_A"
          ],
          "submission" : "modENCODE_578",
          "label" : "Lieb validation of DPY-27",
@@ -3477,9 +3476,7 @@
          "factor" : "pha-4",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_PHA4_WIG_REPS_GFP/PHA4_emb_GFP_rep2",
-            "worm/Snyder_PHA4_GFP_COMB/PHA4_emb_GFP",
-            "worm/Snyder_PHA4_WIG_REPS_GFP/PHA4_emb_GFP_rep1"
+            "worm/Snyder_PHA4_GFP_COMB/PHA4_emb_GFP"
          ],
          "submission" : "modENCODE_582",
          "label" : "Identification of Transcription Factor PHA-4::GFP Binding Regions in Embryos",
@@ -3494,9 +3491,7 @@
          "factor" : "pha-4",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_PHA4_GFP_COMB/PHA4_StarvedL1_GFP",
-            "worm/Snyder_PHA4_WIG_REPS_GFP/PHA4_StarvedL1_GFP_rep2",
-            "worm/Snyder_PHA4_WIG_REPS_GFP/PHA4_StarvedL1_GFP_rep1"
+            "worm/Snyder_PHA4_GFP_COMB/PHA4_StarvedL1_GFP"
          ],
          "submission" : "modENCODE_584",
          "label" : "Identification of Transcription Factor PHA-4::GFP Binding Regions on Starved L1",
@@ -3511,9 +3506,7 @@
          "factor" : "pha-4",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_PHA4_GFP_COMB/PHA4_FedL1_GFP",
-            "worm/Snyder_PHA4_WIG_REPS_GFP/PHA4_FedL1_GFP_rep2",
-            "worm/Snyder_PHA4_WIG_REPS_GFP/PHA4_FedL1_GFP_rep1"
+            "worm/Snyder_PHA4_GFP_COMB/PHA4_FedL1_GFP"
          ],
          "submission" : "modENCODE_585",
          "label" : "Identification of Transcription Factor PHA-4::GFP Binding Regions on Fed L1",
@@ -3528,9 +3521,7 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_PHA4_POLII_COMB/PHA4_POLII_emb",
-            "worm/Snyder_PHA4_WIG_REPS_POLII/PHA4_emb_POLII_rep2",
-            "worm/Snyder_PHA4_WIG_REPS_POLII/PHA4_emb_POLII_rep1"
+            "worm/Snyder_PHA4_POLII_COMB/PHA4_POLII_emb"
          ],
          "submission" : "modENCODE_586",
          "label" : "Identification of Pol II Binding Regions in PHA-4::GFP Embryos",
@@ -3545,8 +3536,6 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_PHA4_WIG_REPS_POLII/PHA4_FedL1_POLII_rep2",
-            "worm/Snyder_PHA4_WIG_REPS_POLII/PHA4_FedL1_POLII_rep1",
             "worm/Snyder_PHA4_POLII_COMB/PHA4_POLII_FedL1"
          ],
          "submission" : "modENCODE_587",
@@ -3562,9 +3551,7 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_PHA4_WIG_REPS_POLII/PHA4_StarvedL1_POLII_rep2",
-            "worm/Snyder_PHA4_POLII_COMB/PHA4_POLII_StarvedL1",
-            "worm/Snyder_PHA4_WIG_REPS_POLII/PHA4_StarvedL1_POLII_rep1"
+            "worm/Snyder_PHA4_POLII_COMB/PHA4_POLII_StarvedL1"
          ],
          "submission" : "modENCODE_588",
          "label" : "Identification of Pol II Binding Regions in PHA-4::GFP Starved L1",
@@ -3579,8 +3566,6 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_AMA1_L4YA_GFP/AMA1_L4YA_GFP_rep2",
-            "worm/Snyder_ANTIGFP_WIG_REPS_AMA1_L4YA_GFP/AMA1_L4YA_GFP_rep1",
             "worm/Snyder_ANTIGFP_WIG_AMA1_COMB"
          ],
          "submission" : "modENCODE_589",
@@ -3596,8 +3581,6 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIAMA_WIG_REPS_AMA1_L4YA_POLII/AMA1_L4YA_POLII_rep2",
-            "worm/Snyder_ANTIAMA_WIG_REPS_AMA1_L4YA_POLII/AMA1_L4YA_POLII_rep1",
             "worm/Snyder_ANTIAMA_WIG_COMB_AMA1_POLII_L4YA"
          ],
          "submission" : "modENCODE_590",
@@ -3613,8 +3596,6 @@
          "factor" : "daf-16",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_DAF16_L4YA_GFP/DAF16_L4YA_GFP_rep1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_DAF16_L4YA_GFP/DAF16_L4YA_GFP_rep2",
             "worm/Snyder_ANTIGFP_WIG_COMB_DAF16_L4YA_GFP"
          ],
          "submission" : "modENCODE_591",
@@ -3630,8 +3611,6 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIAMA_WIG_REPS_DAF16_L4YA_POLII/DAF16_L4YA_POLII_rep2",
-            "worm/Snyder_ANTIAMA_WIG_REPS_DAF16_L4YA_POLII/DAF16_L4YA_POLII_rep1",
             "worm/Snyder_ANTIAMA_WIG_COMB_DAF16_POLII_L4YA"
          ],
          "submission" : "modENCODE_592",
@@ -3647,9 +3626,7 @@
          "factor" : "mab-5",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_MAB5_L3_GFP/MAB5_L3_GFP_rep1",
-            "worm/Snyder_ANTIGFP_WIG_COMB_MAB5_L3_GFP",
-            "worm/Snyder_ANTIGFP_WIG_REPS_MAB5_L3_GFP/MAB5_L3_GFP_rep2"
+            "worm/Snyder_ANTIGFP_WIG_COMB_MAB5_L3_GFP"
          ],
          "submission" : "modENCODE_593",
          "label" : "Identification of Transcription Factor MAB-5::GFP Binding Regions in L3",
@@ -3664,8 +3641,6 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIAMA_WIG_REPS_MAB5_L3_POLII/MAB5_L3_POLII_rep1",
-            "worm/Snyder_ANTIAMA_WIG_REPS_MAB5_L3_POLII/MAB5_L3_POLII_rep2",
             "worm/Snyder_ANTIAMA_WIG_COMB_MAB5_POLII_L3"
          ],
          "submission" : "modENCODE_594",
@@ -3694,7 +3669,7 @@
          "factor" : "RNA polII CTD domain unphosophorylated",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_POL2/8WG16_N2_L4_1"
+            "worm/LIEB_WIG_CHIPCHIP_POL2/8WG16_N2_L4"
          ],
          "submission" : "modENCODE_599",
          "label" : "CVMMS126R_8WG16_N2_L4",
@@ -4093,7 +4068,7 @@
          "factor" : "DPY-27",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_N2_L4_1"
+            "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_N2_L4"
          ],
          "submission" : "modENCODE_630",
          "label" : "JL00001_DPY27_N2_L4",
@@ -4122,7 +4097,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/Egg_s_3.S-3.WS180.soap.sam.bam.sorted"
+            "worm/Egg_s_3.S-3.WS220.soap.sam_sorted"
          ],
          "submission" : "modENCODE_634",
          "label" : "embryo N2 hermaphrodite small ncRNA RNA-Seq",
@@ -4136,7 +4111,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/L1_s_5.S-3.WS180.soap.sam.bam.sorted"
+            "worm/L1_s_5.S-3.WS220.soap.sam_sorted"
          ],
          "submission" : "modENCODE_635",
          "label" : "mid-L1 N2 hermaphrodite small ncRNA RNA-Seq",
@@ -4150,7 +4125,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/L2_s_6.S-3.WS180.soap.sam1_header.sam.bam.sorted"
+            "worm/L2_s_6.S-3.WS220.soap.sam1_header.sam_sorted"
          ],
          "submission" : "modENCODE_636",
          "label" : "mid-L2 N2 hermaphrodite small ncRNA RNA-Seq",
@@ -4164,7 +4139,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/L3_s_7.S-3.WS180.soap.sam1_header.sam.bam.sorted"
+            "worm/L3_s_7.S-3.WS220.soap.sam1_header.sam_sorted"
          ],
          "submission" : "modENCODE_637",
          "label" : "mid-L3 N2 hermaphrodite small ncRNA RNA-Seq",
@@ -4178,7 +4153,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/L4_s_8.S-3.WS180.soap.sam1_header.sam.bam.sorted"
+            "worm/L4_s_8.S-3.WS220.soap.sam1_header.sam_sorted"
          ],
          "submission" : "modENCODE_638",
          "label" : "mid-L4 N2 hermaphrodite small ncRNA RNA-Seq",
@@ -4192,7 +4167,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/YA_Adult_s_1.S-3.WS180.soap.sam1_header.sam.bam.sorted"
+            "worm/YA_Adult_s_1.S-3.WS220.soap.sam1_header.sam_sorted"
          ],
          "submission" : "modENCODE_639",
          "label" : "young adult N2 hermaphrodite small ncRNA RNA-Seq",
@@ -4207,7 +4182,7 @@
          "him-8(e1489)" : null,
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/yMale_dpyhim_s_6.S-3.WS180.soap.sam.bam.sorted"
+            "worm/yMale_dpyhim_s_6.S-3.WS220.soap.sam_sorted"
          ],
          "submission" : "modENCODE_640",
          "label" : "adult dpy-28;him-8 male small ncRNA RNA-Seq",
@@ -4234,7 +4209,7 @@
          "factor" : "DPY-28",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_DC/DPY28_N2_MXEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_DC/DPY28_N2_MXEMB"
          ],
          "submission" : "modENCODE_644",
          "label" : "JL00012_DPY28_N2_MXEMB",
@@ -4248,7 +4223,7 @@
          "factor" : "SDC-2",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_DC/SDC2_N2_MXEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_DC/SDC2_N2_MXEMB"
          ],
          "submission" : "modENCODE_645",
          "label" : "SDQ3146_SDC2_N2_MXEMB",
@@ -4324,7 +4299,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/PEMBRYO_FAX_WIG/L3_L4_dopa"
+            "worm/PEMBRYO_FAX_WIG/L3_L4_dopa_neuron"
          ],
          "submission" : "modENCODE_655",
          "label" : "L3-L4_dopaminergic_neuron_tiling_array",
@@ -4451,7 +4426,7 @@
          "factor" : "RNA polII CTD domain unphosophorylated",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_POL2/8WG16_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_POL2/8WG16_N2_EEMB"
          ],
          "submission" : "modENCODE_663",
          "label" : "Strome ABAB817_8WG16_N2_EEMB",
@@ -4540,7 +4515,7 @@
          "factor" : "Trimethylated Lys-9 on histone H3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME3_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME3_N2_EEMB"
          ],
          "submission" : "modENCODE_691",
          "label" : "Strome UP07442_H3K9ME3_N2_EEMB",
@@ -4554,7 +4529,7 @@
          "factor" : "DPY-27",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_11dh_MXEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_DC/DPY271dh_MXEMB"
          ],
          "submission" : "modENCODE_693",
          "label" : "JL00001_DPY27_11DH_MXEMB",
@@ -4569,7 +4544,7 @@
          "factor" : "DPY-27",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_YPT41_MXEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_YPT41_MXEMB"
          ],
          "submission" : "modENCODE_695",
          "label" : "DPY27_YPT41(II;X)_MXEMB",
@@ -4584,7 +4559,7 @@
          "factor" : "DPY-27",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_YPT47_MXEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_YPT47_MXEMB"
          ],
          "submission" : "modENCODE_696",
          "label" : "DPY27_YPT47(V;X)_MXEMB",
@@ -4599,7 +4574,7 @@
          "factor" : "SDC-3",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_DC/SDC3_YPT47_MXEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_DC/SDC3_YPT47_MXEMB"
          ],
          "submission" : "modENCODE_701",
          "label" : "SDC3_YPT47(V;X)_MXEMB",
@@ -4777,9 +4752,7 @@
          "factor" : "ceh-14",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_CEH14_L2_GFP/CEH14_L2_GFP_rep2",
-            "worm/Snyder_ANTIGFP_WIG_CEH14_COMB",
-            "worm/Snyder_ANTIGFP_WIG_REPS_CEH14_L2_GFP/CEH14_L2_GFP_rep1"
+            "worm/Snyder_ANTIGFP_WIG_CEH14_COMB"
          ],
          "submission" : "modENCODE_734",
          "label" : "Identification of Transcription Factor CEH-14::GFP Binding Regions in L2",
@@ -6868,12 +6841,12 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L4_pilot.sam.bam.sorted",
-            "worm/emb_pilot.sam.bam.sorted",
-            "worm/L1_pilot.sam.bam.sorted",
-            "worm/L2_pilot.sam.bam.sorted",
-            "worm/YA_herm_pilot.sam.bam.sorted",
-            "worm/L3_pilot.sam.bam.sorted"
+            "worm/L2_pilot.sam_sorted",
+            "worm/L3_pilot.sam_sorted",
+            "worm/emb_pilot.sam_sorted",
+            "worm/L4_pilot.sam_sorted",
+            "worm/L1_pilot.sam_sorted",
+            "worm/YA_herm_pilot.sam_sorted"
          ],
          "submission" : "modENCODE_896",
          "label" : "3'RACE polyA-capture N2 emb-thru-adult 454 sequencing pilot",
@@ -7040,7 +7013,7 @@
          "factor" : "H3K36me3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME22C3_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME22C3_N2_EEMB"
          ],
          "submission" : "modENCODE_909",
          "label" : "Strome HK00012_H3K36ME22C3_N2_EEMB",
@@ -7054,7 +7027,7 @@
          "factor" : "MES4",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_CHR_MES4/MES4_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_CHR_MES4/MES4_N2_EEMB"
          ],
          "submission" : "modENCODE_911",
          "label" : "Strome SDQ0791_MES4_N2_EEMB",
@@ -7730,7 +7703,7 @@
          "factor" : "H3K36me3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME313C9_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME313C9_N2_EEMB"
          ],
          "submission" : "modENCODE_973",
          "label" : "Strome HK00001_H3K36ME313C9_N2_EEMB",
@@ -7771,7 +7744,7 @@
          "factor" : "H3K9me3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME32F3_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME32F3_N2_EEMB"
          ],
          "submission" : "modENCODE_982",
          "label" : "Strome HK00009_H3K9ME32F3_N2_EEMB",
@@ -7830,12 +7803,12 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L4_pilot.sam.bam.sorted",
-            "worm/emb_pilot.sam.bam.sorted",
-            "worm/L1_pilot.sam.bam.sorted",
-            "worm/L2_pilot.sam.bam.sorted",
-            "worm/YA_herm_pilot.sam.bam.sorted",
-            "worm/L3_pilot.sam.bam.sorted"
+            "worm/L2_pilot.sam_sorted",
+            "worm/L3_pilot.sam_sorted",
+            "worm/emb_pilot.sam_sorted",
+            "worm/L4_pilot.sam_sorted",
+            "worm/L1_pilot.sam_sorted",
+            "worm/YA_herm_pilot.sam_sorted"
          ],
          "submission" : "modENCODE_992",
          "label" : "3'RACE polyA-capture N2 emb-thru-adult 454 alignments pilot",
@@ -7851,9 +7824,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG10128_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1011",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG10128 (tra2) in S2-DRSC RNA-Seq",
@@ -7867,9 +7837,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG10203_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1012",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG10203 (xl6) in S2-DRSC RNA-Seq",
@@ -7883,9 +7850,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG10851_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1013",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG10851 (B52) in S2-DRSC RNA-Seq",
@@ -7899,9 +7863,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG12749_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1014",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG12749 (Hrb87F) in S2-DRSC RNA-Seq",
@@ -7915,9 +7876,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG13425_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1015",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG13425 (bl) in S2-DRSC RNA-Seq",
@@ -7931,9 +7889,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG1559_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1016",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG1559 (Upf1) in S2-DRSC RNA-Seq",
@@ -7947,9 +7902,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG16901_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1017",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG16901 (sqd) in S2-DRSC RNA-Seq",
@@ -7963,9 +7915,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG17136_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1018",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG17136 (Rbp1) in S2-DRSC RNA-Seq",
@@ -7979,9 +7928,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG17838_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1019",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG17838 in S2-DRSC RNA-Seq",
@@ -7995,9 +7941,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG18426_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1020",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG18426 (ytr) in S2-DRSC RNA-Seq",
@@ -8011,9 +7954,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG1987_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1021",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG1987 (Rbp1-like) in S2-DRSC RNA-Seq",
@@ -8027,9 +7967,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG30122_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1022",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG30122 in S2-DRSC RNA-Seq",
@@ -8043,9 +7980,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG31000_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1023",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG31000 (heph) in S2-DRSC RNA-Seq",
@@ -8059,9 +7993,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG3249_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1024",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG3249 (yu) in S2-DRSC RNA-Seq",
@@ -8075,9 +8006,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG4602_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1025",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG4602 (Srp54) in S2-DRSC RNA-Seq",
@@ -8091,9 +8019,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG5099_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1026",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG5099 (msi) in S2-DRSC RNA-Seq",
@@ -8107,9 +8032,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG5442_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1027",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG5442 (SC35) in S2-DRSC RNA-Seq",
@@ -8123,9 +8045,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG5655_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1028",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG5655 (Rsf1) in S2-DRSC RNA-Seq",
@@ -8139,9 +8058,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG5821_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1029",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG5821 (qkr58E-2) in S2-DRSC RNA-Seq",
@@ -8155,9 +8071,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG5836_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1030",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG5836 (SF1) in S2-DRSC RNA-Seq",
@@ -8171,9 +8084,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG6946_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1031",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG6946 (glo) in S2-DRSC RNA-Seq",
@@ -8187,9 +8097,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG7437_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1032",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG7437 (mub) in S2-DRSC RNA-Seq",
@@ -8203,9 +8110,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG7878_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1033",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG7878 in S2-DRSC RNA-Seq",
@@ -8219,9 +8123,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG7971_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_1034",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG7971 in S2-DRSC RNA-Seq",
@@ -8513,9 +8414,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG9983_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_2301",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG9983 in S2-DRSC RNA-Seq",
@@ -8529,9 +8427,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_CG9373_RNAi-1.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_2302",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi CG9373 in S2-DRSC RNA-Seq",
@@ -8545,9 +8440,6 @@
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "Tracks" : [
-            "fly/S2_DRSC_Untreated_RNAi-5.SAM.bam.sorted"
-         ],
          "submission" : "modENCODE_2305",
          "Cell-Line" : "S2-DRSC",
          "label" : "RNAi Control (untreated-B) in S2-DRSC RNA-Seq",
@@ -8560,7 +8452,7 @@
          "factor" : "histone H3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3144_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3144_N2_EEMB"
          ],
          "submission" : "modENCODE_2312",
          "label" : "Strome AR0144_H3144_N2_EEMB",
@@ -8574,7 +8466,7 @@
          "factor" : "Histone H3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3609253_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3609253_N2_EEMB"
          ],
          "submission" : "modENCODE_2313",
          "label" : "Strome AB1791_H3609253_N2_EEMB",
@@ -8588,9 +8480,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/RNAseq_WIG_RAW/early_embryo",
-            "worm/early_embryo.alignments.gff3.sam.gz.bam.sorted",
-            "worm/RNAseq_WIG_WIN/early_embryo"
+            "worm/early_embryo.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2321",
          "label" : "C. elegans early embryo N2 RNA-Seq sequences and alignments",
@@ -8605,9 +8495,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/RNAseq_WIG_RAW/late_embryo",
-            "worm/RNAseq_WIG_WIN/late_embryo",
-            "worm/embryo_20dC_4.5hrs_post-early_embryo.alignments.gff3.sam.gz.bam.sorted"
+            "worm/embryo_20dC_4.5hrs_post-early_embryo.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2324",
          "label" : "C. elegans late embryo N2 RNA-Seq sequences and alignments",
@@ -8623,9 +8511,7 @@
          "him-8(e1489)" : null,
          "target" : "mRNA",
          "Tracks" : [
-            "worm/RNAseq_WIG_WIN/male_mid-L4_dpy28_him8",
-            "worm/yM_male_mid-L4_25dC_30hrs_post-L1.alignments.gff3.sam.gz.bam.sorted",
-            "worm/RNAseq_WIG_RAW/male_mid-L4_dpy28_him8"
+            "worm/yM_male_mid-L4_25dC_30hrs_post-L1.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2325",
          "label" : "C. elegans male mid-L4 dpy-28(y1);him-8(e1489) RNA-Seq sequences and alignments",
@@ -8640,9 +8526,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L1_20dC_4hrs_post-L1.alignments.gff3.sam.gz.bam.sorted",
-            "worm/RNAseq_WIG_RAW/mid-L1",
-            "worm/RNAseq_WIG_WIN/mid-L1"
+            "worm/L1_20dC_4hrs_post-L1.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2326",
          "label" : "C. elegans mid-L1 N2 RNA-Seq sequences and alignments",
@@ -8659,7 +8543,7 @@
          "Tracks" : [
             "worm/UTRome_V2_3_three_prime_UTR_6102_2745",
             "worm/UTRome_V2_3_polyA_signal_sequence_6102_2745",
-            "worm/L1.ws190.sam.bam.sorted",
+            "worm/L1.ws220.sam_sorted",
             "worm/UTRome_V2_3_polyA_site_6102_2745"
          ],
          "submission" : "modENCODE_2327",
@@ -8675,7 +8559,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L2.ws190.sam.bam.sorted"
+            "worm/L2.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2328",
          "label" : "3'RACE polyA-capture N2 L2 454 alignments",
@@ -8690,7 +8574,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L3.ws190.sam.bam.sorted"
+            "worm/L3.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2329",
          "label" : "3'RACE polyA-capture N2 L3 454 alignments",
@@ -8705,7 +8589,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L4.ws190.sam.bam.sorted"
+            "worm/L4.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2330",
          "label" : "3'RACE polyA-capture N2 L4 454 alignments",
@@ -8720,7 +8604,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/E.ws190.sam.bam.sorted"
+            "worm/E.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2331",
          "label" : "3'RACE polyA-capture N2 embryo 454 alignments",
@@ -8735,7 +8619,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/YA_herm.ws190.sam.bam.sorted"
+            "worm/YA_herm.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2332",
          "label" : "3'RACE polyA-capture N2 hermaphrodite 454 alignments",
@@ -8750,7 +8634,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/YM_male.ws190.sam.bam.sorted"
+            "worm/YM_male.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2333",
          "label" : "3'RACE polyA-capture N2 male 454 alignments",
@@ -8765,7 +8649,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L33daf11.ws190.sam.bam.sorted"
+            "worm/L33daf11.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2334",
          "label" : "3'RACE polyA-capture  daf-11 dauer 454 alignments",
@@ -8780,7 +8664,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L33daf02.ws190.sam.bam.sorted"
+            "worm/L33daf02.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2335",
          "label" : "3'RACE polyA-capture daf-2 dauer 454 alignments",
@@ -8795,7 +8679,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L33daf07.ws190.sam.bam.sorted"
+            "worm/L33daf07.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2336",
          "label" : "3'RACE polyA-capture daf-7 dauer 454 alignments",
@@ -8810,7 +8694,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L33daf09.ws190.sam.bam.sorted"
+            "worm/L33daf09.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2337",
          "label" : "3'RACE polyA-capture daf-9 dauer 454 alignments",
@@ -8825,7 +8709,7 @@
          "factor" : "H3K36me2",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME2608457_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME2608457_N2_EEMB"
          ],
          "submission" : "modENCODE_2338",
          "label" : "Strome AB9049_H3K36ME2608457_N2_EEMB",
@@ -8839,7 +8723,7 @@
          "factor" : "H3K9me3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME3339901_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K79ME1361912_N2_EEMB"
          ],
          "submission" : "modENCODE_2339",
          "label" : "Strome AB8898_H3K9ME3339901_N2_EEMB",
@@ -8898,9 +8782,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/RNAseq_WIG_RAW/mid-L1_lin-35",
-            "worm/RNAseq_WIG_WIN/mid-L1_lin-35",
-            "worm/L1_lin35.alignments.gff3.sam.gz.bam.sorted"
+            "worm/L1_lin35.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2343",
          "label" : "C. elegans mid-L1 lin-35(n745) 25dC 4hrs post-L1 RNA-Seq sequences and alignments",
@@ -8915,9 +8797,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/RNAseq_WIG_WIN/Adult_spe-9",
-            "worm/YA_Adult_spe-9_23dC_8days_post-L4_molt.alignments.gff3.sam.gz.bam.sorted",
-            "worm/RNAseq_WIG_RAW/Adult_spe-9"
+            "worm/YA_Adult_spe-9_23dC_8days_post-L4_molt.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2345",
          "label" : "C. elegans Adult spe-9 RNA-Seq sequences and alignments",
@@ -8932,9 +8812,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/RNAseq_WIG_WIN/embryo_him-8",
-            "worm/RNAseq_WIG_RAW/embryo_him-8",
-            "worm/embryo_him-8_20dC_post-L1.alignments.gff3.sam.gz.bam.sorted"
+            "worm/embryo_him-8_20dC_post-L1.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2346",
          "label" : "C. elegans Embryo him-8 RNA-Seq sequences and alignments",
@@ -8949,9 +8827,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L33_dauer_daf-2_25dC_91hrs_post-L1.alignments.gff3.sam.gz.bam.sorted",
-            "worm/RNAseq_WIG_WIN/dauer_daf-2",
-            "worm/RNAseq_WIG_RAW/dauer_daf-2"
+            "worm/L33_dauer_daf-2_25dC_91hrs_post-L1.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2347",
          "label" : "C. elegans dauer daf-2 25dC 91hrs post-L1 RNA-Seq sequences and alignments",
@@ -8966,9 +8842,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L33_dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.alignments.gff3.sam.gz.bam.sorted",
-            "worm/RNAseq_WIG_RAW/dauer_exit_daf-2",
-            "worm/RNAseq_WIG_WIN/dauer_exit_daf-2"
+            "worm/L33_dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2349",
          "label" : "C. elegans dauer exit daf-2 25dC 91hrs15dC 12hrs post-L1 RNA-Seq sequences and alignments",
@@ -8983,9 +8857,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/RNAseq_WIG_WIN/mid-L2",
-            "worm/L2_20dC_14hrs_post-L1.all_alignments.gff3.sam.gz.bam.sorted",
-            "worm/RNAseq_WIG_RAW/mid-L2"
+            "worm/L2_20dC_14hrs_post-L1.all_alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2351",
          "label" : "C. elegans mid-L2 N2 RNA-Seq sequences and alignments",
@@ -9000,9 +8872,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/RNAseq_WIG_WIN/mid-L3",
-            "worm/RNAseq_WIG_RAW/mid-L3",
-            "worm/L3_20dC_25hrs_post-L1.alignments.gff3.sam.gz.bam.sorted"
+            "worm/L3_20dC_25hrs_post-L1.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2352",
          "label" : "C. elegans mid-L3 N2 RNA-Seq sequences and alignments",
@@ -9017,9 +8887,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L4_20dC_36hrs_post-L1.alignments.gff3.sam.gz.bam.sorted",
-            "worm/RNAseq_WIG_RAW/mid-L4",
-            "worm/RNAseq_WIG_WIN/mid-L4"
+            "worm/L4_20dC_36hrs_post-L1.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2353",
          "label" : "C. elegans mid-L4 N2 RNA-Seq sequences and alignments",
@@ -9034,9 +8902,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/RNAseq_WIG_WIN/Young_Adult",
-            "worm/RNAseq_WIG_RAW/Young_Adult",
-            "worm/YA_Young_Adult_25dC_46hrs_post-L1.alignments.gff3.sam.gz.bam.sorted"
+            "worm/YA_Young_Adult_25dC_46hrs_post-L1.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2354",
          "label" : "C. elegans Young Adult N2 RNA-Seq sequences and alignments",
@@ -9051,7 +8917,7 @@
          "factor" : "Not Applicable",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/NA_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/NA_N2_EEMB"
          ],
          "submission" : "modENCODE_2364",
          "label" : "Strome NA_N2_EEMB",
@@ -9163,7 +9029,7 @@
          "factor" : "na",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_DC/IGG_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_DC/IGG_N2_EEMB"
          ],
          "submission" : "modENCODE_2382",
          "label" : "Strome SS00050_IGG_N2_EEMB",
@@ -9207,9 +9073,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L33_dauer_entry_daf-2_25dC_48hrs_post-L1.alignments.gff3.sam.gz.bam.sorted",
-            "worm/RNAseq_WIG_RAW/dauer_entry_daf-2",
-            "worm/RNAseq_WIG_WIN/dauer_entry_daf-2"
+            "worm/L33_dauer_entry_daf-2_25dC_48hrs_post-L1.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2387",
          "label" : "C. elegans dauer entry daf-2 25dC 48hrs post-L1 RNA-Seq sequences and alignments",
@@ -9224,7 +9088,7 @@
          "factor" : "H3K9me3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME32F3_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME32F3_N2_L3"
          ],
          "submission" : "modENCODE_2398",
          "label" : "Ahringer HK00009_H3K9ME32F3_N2_L3",
@@ -9239,7 +9103,7 @@
          "factor" : "H3K36me3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME22C3_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME22C3_N2_L3"
          ],
          "submission" : "modENCODE_2399",
          "label" : "Ahringer HK00012_H3K36ME22C3_N2_L3",
@@ -9254,7 +9118,7 @@
          "factor" : "H3K27me3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K27ME31E7_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K27ME31E7_N2_L3"
          ],
          "submission" : "modENCODE_2400",
          "label" : "Ahringer HK00013_H3K27ME31E7_N2_L3",
@@ -9269,7 +9133,7 @@
          "factor" : "H3K36me3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME313C9_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME313C9_N2_L3"
          ],
          "submission" : "modENCODE_2401",
          "label" : "Ahringer HK00001_H3K36ME313C9_N2_L3",
@@ -9284,7 +9148,7 @@
          "factor" : "H3K4me2",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K4ME2_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K4ME2_N2_L3"
          ],
          "submission" : "modENCODE_2402",
          "label" : "Ahringer WA30834809_H3K4ME2_N2_L3",
@@ -9299,7 +9163,7 @@
          "factor" : "H3K9me2",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME26D11_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME26D11_N2_L3"
          ],
          "submission" : "modENCODE_2406",
          "label" : "Ahringer HK00008_H3K9ME26D11_N2_L3",
@@ -9314,7 +9178,7 @@
          "factor" : "histone H3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3144_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3144_N2_L3"
          ],
          "submission" : "modENCODE_2407",
          "label" : "Ahringer AR0144_H3144_N2_L3",
@@ -9329,7 +9193,7 @@
          "factor" : "histone H3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3144_N2_L3_LM_1"
+            "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3144_N2_L3_LM"
          ],
          "submission" : "modENCODE_2408",
          "label" : "Ahringer AR0144_H3144_N2_L3_LM",
@@ -9344,7 +9208,7 @@
          "factor" : "Histone H3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3_N2_L3"
          ],
          "submission" : "modENCODE_2409",
          "label" : "Ahringer AB1791_H3_N2_L3",
@@ -9359,7 +9223,7 @@
          "factor" : "H3K4me3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K79ME1361912_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME3339901_N2_EEMB"
          ],
          "submission" : "modENCODE_2410",
          "label" : "Strome AB2886_H3K79ME1361912_N2_EEMB",
@@ -9373,9 +9237,7 @@
          "factor" : "dpy-27",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_DPY27_emb_GFP/DPY27_emb_GFP_rep2",
-            "worm/Snyder_ANTIGFP_WIG_DPY27_COMB",
-            "worm/Snyder_ANTIGFP_WIG_REPS_DPY27_emb_GFP/DPY27_emb_GFP_rep1"
+            "worm/Snyder_ANTIGFP_WIG_DPY27_COMB"
          ],
          "submission" : "modENCODE_2416",
          "label" : "Identification of Dosage Compensation Complex Protein DPY-27::GFP Binding Regions in Embryos",
@@ -9389,11 +9251,6 @@
          "technique" : "ChIP-seq",
          "factor" : "hlh-8",
          "target" : "Transcriptional-Factor",
-         "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_HLH8_COMB",
-            "worm/Snyder_ANTIGFP_WIG_REPS_HLH8_L3_GFP/HLH8_L3_GFP_rep2",
-            "worm/Snyder_ANTIGFP_WIG_REPS_HLH8_L3_GFP/HLH8_L3_GFP_rep1"
-         ],
          "submission" : "modENCODE_2418",
          "label" : "Identification of Transcription Factor HLH-8::GFP Binding Regions in L3",
          "type" : "data set",
@@ -9407,8 +9264,6 @@
          "factor" : "lin-11",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_LIN11_L2_GFP/LIN11_L2_GFP_rep1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_LIN11_L2_GFP/LIN11_L2_GFP_rep2",
             "worm/Snyder_ANTIGFP_WIG_LIN11_COMB"
          ],
          "submission" : "modENCODE_2429",
@@ -9424,8 +9279,6 @@
          "factor" : "unc-130",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_UNC130_L1_GFP/UNC130_L1_GFP_rep1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_UNC130_L1_GFP/UNC130_L1_GFP_rep2",
             "worm/Snyder_ANTIGFP_WIG_UNC130_COMB"
          ],
          "submission" : "modENCODE_2430",
@@ -9441,8 +9294,6 @@
          "factor" : "hlh-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_HLH1_emb_GFP/HLH1_emb_GFP_rep1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_HLH1_emb_GFP/HLH1_emb_GFP_rep2",
             "worm/Snyder_ANTIGFP_WIG_COMB_HLH1_emb_GFP"
          ],
          "submission" : "modENCODE_2431",
@@ -9458,8 +9309,6 @@
          "factor" : "lin-39",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_LIN39_L3_GFP/LIN39_L3_GFP_rep1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_LIN39_L3_GFP/LIN39_L3_GFP_rep2",
             "worm/Snyder_ANTIGFP_WIG_COMB_LIN39_L3_GFP"
          ],
          "submission" : "modENCODE_2432",
@@ -9474,11 +9323,6 @@
          "technique" : "ChIP-seq",
          "factor" : "nhr-6",
          "target" : "Transcriptional-Factor",
-         "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_COMB_NHR6_L2_GFP",
-            "worm/Snyder_ANTIGFP_WIG_REPS_NHR6_L2_GFP/NHR6_L2_GFP_rep1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_NHR6_L2_GFP/NHR6_L2_GFP_rep2"
-         ],
          "submission" : "modENCODE_2433",
          "label" : "Identification of Transcription Factor NHR-6::GFP Binding Regions in L2",
          "type" : "data set",
@@ -9492,8 +9336,6 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_N2_WIG_REPS/N2_eemb_POLII_rep2",
-            "worm/Snyder_N2_WIG_REPS/N2_eemb_POLII_rep1",
             "worm/Snyder_N2_WIG_COMB/N2_POLII_eemb"
          ],
          "submission" : "modENCODE_2435",
@@ -9509,9 +9351,7 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_N2_WIG_REPS/N2_lemb_POLII_rep2",
-            "worm/Snyder_N2_WIG_COMB/N2_POLII_lemb",
-            "worm/Snyder_N2_WIG_REPS/N2_lemb_POLII_rep1"
+            "worm/Snyder_N2_WIG_COMB/N2_POLII_lemb"
          ],
          "submission" : "modENCODE_2436",
          "label" : "Identification of Transcription Factor N2::POL II Binding Regions in Late Embryo",
@@ -9526,8 +9366,6 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_N2_WIG_REPS/N2_L1_POLII_rep1",
-            "worm/Snyder_N2_WIG_REPS/N2_L1_POLII_rep2",
             "worm/Snyder_N2_WIG_COMB/N2_POLII_L1"
          ],
          "submission" : "modENCODE_2437",
@@ -9543,9 +9381,7 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_N2_WIG_COMB/N2_POLII_L2",
-            "worm/Snyder_N2_WIG_REPS/N2_L2_POLII_rep1",
-            "worm/Snyder_N2_WIG_REPS/N2_L2_POLII_rep2"
+            "worm/Snyder_N2_WIG_COMB/N2_POLII_L2"
          ],
          "submission" : "modENCODE_2438",
          "label" : "Identification of Transcription Factor N2::POL II Binding Regions in L2",
@@ -9560,8 +9396,6 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_N2_WIG_REPS/N2_L3_POLII_rep2",
-            "worm/Snyder_N2_WIG_REPS/N2_L3_POLII_rep1",
             "worm/Snyder_N2_WIG_COMB/N2_POLII_L3"
          ],
          "submission" : "modENCODE_2439",
@@ -9577,9 +9411,7 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_N2_WIG_COMB/N2_POLII_L4",
-            "worm/Snyder_N2_WIG_REPS/N2_L4_POLII_rep1",
-            "worm/Snyder_N2_WIG_REPS/N2_L4_POLII_rep2"
+            "worm/Snyder_N2_WIG_COMB/N2_POLII_L4"
          ],
          "submission" : "modENCODE_2440",
          "label" : "Identification of Transcription Factor N2::POL II Binding Regions in L4",
@@ -9594,9 +9426,7 @@
          "factor" : "ama-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_N2_WIG_COMB/N2_POLII_YA",
-            "worm/Snyder_N2_WIG_REPS/N2_YA_POLII_rep2",
-            "worm/Snyder_N2_WIG_REPS/N2_YA_POLII_rep1"
+            "worm/Snyder_N2_WIG_COMB/N2_POLII_YA"
          ],
          "submission" : "modENCODE_2441",
          "label" : "Identification of Transcription Factor N2::POL II Binding Regions in Young Adult",
@@ -9611,7 +9441,7 @@
          "factor" : "H3K79me2",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K79ME2346021_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K79ME2346021_N2_EEMB"
          ],
          "submission" : "modENCODE_2442",
          "label" : "Strome AB3594_H3K79ME2346021_N2_EEMB",
@@ -9625,7 +9455,7 @@
          "factor" : "H3K79me3",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K79ME3361576_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K79ME3361576_N2_EEMB"
          ],
          "submission" : "modENCODE_2443",
          "label" : "Lieb AB2621_H3K79ME3361576_N2_EEMB",
@@ -9639,7 +9469,7 @@
          "factor" : "H3K9me2",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME26D11_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME26D11_N2_EEMB"
          ],
          "submission" : "modENCODE_2444",
          "label" : "Strome HK00008_H3K9ME26D11_N2_EEMB",
@@ -9653,7 +9483,7 @@
          "factor" : "HCP-3",
          "target" : "Chromatin-Structure",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_CSP/HCP3_N2_MXEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_CSP/HCP3_N2_MXEMB"
          ],
          "submission" : "modENCODE_2446",
          "label" : "Desai OD00079_HCP3_N2_MXEMB",
@@ -9667,9 +9497,7 @@
          "factor" : "gei-11",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_COMB_GEI11_L4_GFP",
-            "worm/Snyder_ANTIGFP_WIG_REPS_GEI11_L4_GFP/GEI11_L4_GFP_rep1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_GEI11_L4_GFP/GEI11_L4_GFP_rep2"
+            "worm/Snyder_ANTIGFP_WIG_COMB_GEI11_L4_GFP"
          ],
          "submission" : "modENCODE_2451",
          "label" : "Identification of Transcription Factor GEI-1::GFP Binding Regions in L4",
@@ -9685,7 +9513,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/PEMBRYO_FAX_WIG/L3_L4_hypodermal"
+            "worm/PEMBRYO_FAX_WIG/L3-L4_hypodermis"
          ],
          "submission" : "modENCODE_2454",
          "label" : "L3-L4_hypodermis_tiling_array",
@@ -9700,7 +9528,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L1.ws190.sam.bam.sorted"
+            "worm/L1.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2455",
          "label" : "3'RACE polyA-capture L1 454 sequencing",
@@ -9715,8 +9543,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L2.ws190.sam.bam.sorted",
-            "worm/L3.ws190.sam.bam.sorted"
+            "worm/L2.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2456",
          "label" : "3'RACE polyA-capture L2 454 sequencing",
@@ -9730,6 +9557,9 @@
          "technique" : "RACE",
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
+         "Tracks" : [
+            "worm/L3.ws220.sam_sorted"
+         ],
          "submission" : "modENCODE_2457",
          "label" : "3'RACE polyA-capture L3 454 sequencing",
          "type" : "data set",
@@ -9743,7 +9573,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L4.ws190.sam.bam.sorted"
+            "worm/L4.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2458",
          "label" : "3'RACE polyA-capture N2 L4 454 sequencing",
@@ -9758,7 +9588,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/YM_male.ws190.sam.bam.sorted"
+            "worm/YM_male.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2459",
          "label" : "3'RACE polyA-capture adult males 454 sequencing",
@@ -9772,6 +9602,9 @@
          "technique" : "RACE",
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
+         "Tracks" : [
+            "worm/YA_herm.ws220.sam_sorted"
+         ],
          "submission" : "modENCODE_2460",
          "label" : "3'RACE polyA-capture adult hermaphrodite 454 sequencing",
          "type" : "data set",
@@ -9785,7 +9618,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L33daf02.ws190.sam.bam.sorted"
+            "worm/L33daf02.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2461",
          "label" : "3'RACE polyA-capture daf-2 dauer 454 sequencing",
@@ -9800,7 +9633,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L33daf07.ws190.sam.bam.sorted"
+            "worm/L33daf07.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2462",
          "label" : "3'RACE polyA-capture daf-7 dauer 454 sequencing",
@@ -9815,7 +9648,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L33daf09.ws190.sam.bam.sorted"
+            "worm/L33daf09.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2463",
          "label" : "3'RACE polyA-capture daf-9 dauer 454 sequencing",
@@ -9830,7 +9663,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L33daf11.ws190.sam.bam.sorted"
+            "worm/L33daf11.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2464",
          "label" : "3'RACE polyA-capture daf-11 dauer 454 sequencing",
@@ -9845,8 +9678,7 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/YA_herm.ws190.sam.bam.sorted",
-            "worm/E.ws190.sam.bam.sorted"
+            "worm/E.ws220.sam_sorted"
          ],
          "submission" : "modENCODE_2465",
          "label" : "3'RACE polyA-capture N2 embryos 454 sequencing",
@@ -9861,23 +9693,23 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/marco1_A.sam.bam.sorted",
-            "worm/marco1_C.sam.bam.sorted",
-            "worm/marco1_E.sam.bam.sorted",
-            "worm/marco1_F.sam.bam.sorted",
-            "worm/marco2_F.sam.bam.sorted",
-            "worm/marco1_D.sam.bam.sorted",
-            "worm/marco1_H.sam.bam.sorted",
-            "worm/marco2_E.sam.bam.sorted",
-            "worm/marco2_G.sam.bam.sorted",
-            "worm/marco1_B.sam.bam.sorted",
-            "worm/marco2_H.sam.bam.sorted",
-            "worm/marco1_G.sam.bam.sorted",
-            "worm/marco2_A.sam.bam.sorted",
-            "worm/marco2_C.sam.bam.sorted",
-            "worm/marco2_D.sam.bam.sorted",
-            "worm/marco1_V1.sam.bam.sorted",
-            "worm/marco2_B.sam.bam.sorted"
+            "worm/marco2_A_sorted",
+            "worm/marco2_E_sorted",
+            "worm/marco2_B_sorted",
+            "worm/marco1_B_sorted",
+            "worm/marco2_H_sorted",
+            "worm/marco1_A_sorted",
+            "worm/marco1_D_sorted",
+            "worm/marco1_E_sorted",
+            "worm/marco2_G_sorted",
+            "worm/marco1_V1_sorted",
+            "worm/marco2_C_sorted",
+            "worm/marco1_F_sorted",
+            "worm/marco1_H_sorted",
+            "worm/marco2_F_sorted",
+            "worm/marco2_D_sorted",
+            "worm/marco1_G_sorted",
+            "worm/marco1_C_sorted"
          ],
          "submission" : "modENCODE_2482",
          "label" : "Mixed-stage 3'RACE 454 sequencing & alignment",
@@ -9905,12 +9737,12 @@
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/D_bowtie.map.sam.gz.bam.sorted",
-            "worm/G_bowtie.map.sam.gz.bam.sorted",
-            "worm/H_bowtie.map.sam.gz.bam.sorted",
-            "worm/A_bowtie.map.sam.gz.bam.sorted",
-            "worm/C_bowtie.map.sam.gz.bam.sorted",
-            "worm/F_bowtie.map.sam.gz.bam.sorted"
+            "worm/F_bowtie.map.sam.gz_sorted",
+            "worm/A_bowtie.map.sam.gz_sorted",
+            "worm/D_bowtie.map.sam.gz_sorted",
+            "worm/G_bowtie.map.sam.gz_sorted",
+            "worm/H_bowtie.map.sam.gz_sorted",
+            "worm/C_bowtie.map.sam.gz_sorted"
          ],
          "submission" : "modENCODE_2484",
          "label" : "Mixed-stage 3'RACE Solexa sequencing & alignment",
@@ -10662,6 +10494,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
+            "fly/P0_GSM360260.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_PE/0-1day_pupae"
          ],
          "submission" : "modENCODE_2543",
@@ -10706,7 +10539,8 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "fly/Lai_RNASEQ_DUAL_PE/L1_2ndRep"
+            "fly/Lai_RNASEQ_DUAL_PE/L1_2ndRep",
+            "fly/L1_GSM360257.sam.bam.sorted"
          ],
          "submission" : "modENCODE_2546",
          "label" : "Lai - small RNA from 1st instar larvae",
@@ -10797,6 +10631,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
+            "fly/YAM2_GSM399107.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_T/Male_body_2ndRep"
          ],
          "submission" : "modENCODE_2554",
@@ -10812,6 +10647,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
+            "fly/YAF2_GSM399106.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_T/Female_body_2ndRep"
          ],
          "submission" : "modENCODE_2555",
@@ -10827,7 +10663,8 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "fly/Lai_RNASEQ_DUAL_PE/0-2day_pupae"
+            "fly/Lai_RNASEQ_DUAL_PE/0-2day_pupae",
+            "fly/P02_GSM360262.sam.bam.sorted"
          ],
          "submission" : "modENCODE_2556",
          "label" : "Lai - small RNA from 0-2 day old pupae",
@@ -11129,9 +10966,7 @@
          "target" : "mRNA",
          "GrowthCondition" : "Harposporium",
          "Tracks" : [
-            "worm/RNAseq_WIG_WIN/Harposporium_exp_2-24hrs",
-            "worm/YA_Adult_Harposporium_exposed_2_24hrs.alignments.gff3.sam.gz.bam.sorted",
-            "worm/RNAseq_WIG_RAW/Harposporium_exp_2-24hrs"
+            "worm/YA_Adult_Harposporium_exposed_2_24hrs.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2580",
          "label" : "pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments",
@@ -11147,9 +10982,7 @@
          "target" : "mRNA",
          "GrowthCondition" : "E. coli (OP50)",
          "Tracks" : [
-            "worm/YA_Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.alignments.gff3.sam.gz.bam.sorted",
-            "worm/RNAseq_WIG_RAW/Harposporium_cntr_exp_OP50_2-24hrs",
-            "worm/RNAseq_WIG_WIN/Harposporium_cntr_exp_OP50_2-24hrs"
+            "worm/YA_Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2581",
          "label" : "pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments",
@@ -11165,9 +10998,7 @@
          "target" : "mRNA",
          "GrowthCondition" : "S. marcescens (Db11)",
          "Tracks" : [
-            "worm/YA_Adult_S_macescens_Db10_exposed_1_24hrs.alignments.gff3.sam.gz.bam.sorted",
-            "worm/RNAseq_WIG_RAW/S.macescens_Db10_exp_1-24hrs",
-            "worm/RNAseq_WIG_WIN/S.macescens_Db10_exp_1-24hrs"
+            "worm/YA_Adult_S_macescens_Db10_exposed_1_24hrs.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2582",
          "label" : "RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment",
@@ -11182,9 +11013,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/L4_soma_JK1107_no_DNaseI.alignments.gff3.sam.gz.bam.sorted",
-            "worm/RNAseq_WIG_WIN/L4_soma_no_DNAse_I",
-            "worm/RNAseq_WIG_RAW/L4_soma_no_DNAse_I"
+            "worm/L4_soma_JK1107_no_DNaseI.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2583",
          "label" : "RNAseq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments",
@@ -11200,9 +11029,7 @@
          "target" : "mRNA",
          "GrowthCondition" : "E. coli (OP50)",
          "Tracks" : [
-            "worm/RNAseq_WIG_WIN/S.macescens_cntr_exp_OP50_1-24hrs",
-            "worm/RNAseq_WIG_RAW/S.macescens_cntr_exp_OP50_1-24hrs",
-            "worm/YA_Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.alignments.gff3.sam.gz.bam.sorted"
+            "worm/YA_Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.alignments.ws220.bam.sorted"
          ],
          "submission" : "modENCODE_2584",
          "label" : "RNA-Seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments",
@@ -11389,9 +11216,7 @@
          "factor" : "hlh-8",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIAMA_WIG_COMB_HLH8_POLII_L3",
-            "worm/Snyder_ANTIAMA_WIG_REPS_HLH8_POLII_L3/HLH8_POLII_L3_rep1",
-            "worm/Snyder_ANTIAMA_WIG_REPS_HLH8_POLII_L3/HLH8_POLII_L3_rep2"
+            "worm/Snyder_ANTIAMA_WIG_COMB_HLH8_POLII_L3"
          ],
          "submission" : "modENCODE_2597",
          "label" : "Identification of Pol II Binding Regions in L3 HLH-8::GFP",
@@ -11406,9 +11231,7 @@
          "factor" : "pha-4",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_PHA4_WIG_REPS_GFP/PHA4_GFP_lemb_rep2",
-            "worm/Snyder_PHA4_GFP_COMB/PHA4_GFP_lemb",
-            "worm/Snyder_PHA4_WIG_REPS_GFP/PHA4_GFP_lemb_rep1"
+            "worm/Snyder_PHA4_GFP_COMB/PHA4_GFP_lemb"
          ],
          "submission" : "modENCODE_2598",
          "label" : "Identification of Transcription Factor PHA-4::GFP Binding Regions in Late Embryo",
@@ -11423,8 +11246,6 @@
          "factor" : "mep-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_MEP1_GFP_emb/MEP1_GFP_emb_rep2",
-            "worm/Snyder_ANTIGFP_WIG_REPS_MEP1_GFP_emb/MEP1_GFP_emb_rep1",
             "worm/Snyder_ANTIGFP_WIG_COMB_MEP1_GFP_emb"
          ],
          "submission" : "modENCODE_2600",
@@ -11440,9 +11261,7 @@
          "factor" : "mdl-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_MDL1_GFP_L1/MDL1_GFP_L1_rep1",
-            "worm/Snyder_ANTIGFP_WIG_COMB_MDL1_GFP_L1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_MDL1_GFP_L1/MDL1_GFP_L1_rep2"
+            "worm/Snyder_ANTIGFP_WIG_COMB_MDL1_GFP_L1"
          ],
          "submission" : "modENCODE_2601",
          "label" : "Identification of Transcription Factor MDL-1::GFP Binding Regions in L1",
@@ -11484,7 +11303,7 @@
          "factor" : "H3K36me1",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9048_H3K36ME1206009_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9048_H3K36ME1206009_N2_EEMB"
          ],
          "submission" : "modENCODE_2604",
          "label" : "Strome AB9048_H3K36ME1206009_N2_EEMB",
@@ -11546,9 +11365,7 @@
          "factor" : "lin-15B",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_LIN15B_GFP_L3/LIN15B_GFP_L3_rep1",
-            "worm/Snyder_ANTIGFP_WIG_COMB_LIN15B_GFP_L3",
-            "worm/Snyder_ANTIGFP_WIG_REPS_LIN15B_GFP_L3/LIN15B_GFP_L3_rep2"
+            "worm/Snyder_ANTIGFP_WIG_COMB_LIN15B_GFP_L3"
          ],
          "submission" : "modENCODE_2610",
          "label" : "Identification of Transcription Factor LIN-15B::GFP Binding Regions in L3",
@@ -11563,8 +11380,6 @@
          "factor" : "blmp-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_BLMP1_GFP_L1/BLMP1_GFP_L1_rep2",
-            "worm/Snyder_ANTIGFP_WIG_REPS_BLMP1_GFP_L1/BLMP1_GFP_L1_rep1",
             "worm/Snyder_ANTIGFP_WIG_COMB_BLMP1_GFP_L1"
          ],
          "submission" : "modENCODE_2612",
@@ -11580,8 +11395,6 @@
          "factor" : "lin-13",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_LIN13_GFP_emb/LIN13_GFP_emb_rep1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_LIN13_GFP_emb/LIN13_GFP_emb_rep2",
             "worm/Snyder_ANTIGFP_WIG_COMB_LIN13_GFP_emb"
          ],
          "submission" : "modENCODE_2613",
@@ -11597,9 +11410,7 @@
          "factor" : "elt-3",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_COMB_ELT3_GFP_L1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_ELT3_GFP_L1/ELT3_GFP_L1_rep2",
-            "worm/Snyder_ANTIGFP_WIG_REPS_ELT3_GFP_L1/ELT3_GFP_L1_rep1"
+            "worm/Snyder_ANTIGFP_WIG_COMB_ELT3_GFP_L1"
          ],
          "submission" : "modENCODE_2614",
          "label" : "Identification of Transcription Factor ELT-3::GFP Binding Regions in L1",
@@ -11613,11 +11424,6 @@
          "technique" : "ChIP-seq",
          "factor" : "nhr-105",
          "target" : "Transcriptional-Factor",
-         "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_COMB_NHR105_GFP_L3",
-            "worm/Snyder_ANTIGFP_WIG_REPS_NHR105_GFP_L3/NHR105_GFP_L3_rep1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_NHR105_GFP_L3/NHR105_GFP_L3_rep2"
-         ],
          "submission" : "modENCODE_2617",
          "label" : "Identification of Transcription Factor NHR-105::GFP Binding Regions in L3",
          "type" : "data set",
@@ -11631,9 +11437,7 @@
          "factor" : "ceh-30",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_CEH30_GFP_lemb/CEH30_GFP_lemb_rep1",
-            "worm/Snyder_ANTIGFP_WIG_COMB_CEH30_GFP_lemb",
-            "worm/Snyder_ANTIGFP_WIG_REPS_CEH30_GFP_lemb/CEH30_GFP_lemb_rep2"
+            "worm/Snyder_ANTIGFP_WIG_COMB_CEH30_GFP_lemb"
          ],
          "submission" : "modENCODE_2620",
          "label" : "Identification of Transcription Factor CEH-30::GFP Binding Regions in Late Embyros",
@@ -11648,8 +11452,6 @@
          "factor" : "egl-27",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_EGL27_GFP_L1/EGL27_GFP_L1_rep1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_EGL27_GFP_L1/EGL27_GFP_L1_rep2",
             "worm/Snyder_ANTIGFP_WIG_COMB_EGL27_GFP_L1"
          ],
          "submission" : "modENCODE_2621",
@@ -11665,9 +11467,7 @@
          "factor" : "skn-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_COMB_SKN1_GFP_L1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_SKN1_GFP_L1/SKN1_GFP_L1_rep1",
-            "worm/Snyder_ANTIGFP_WIG_REPS_SKN1_GFP_L1/SKN1_GFP_L1_rep2"
+            "worm/Snyder_ANTIGFP_WIG_COMB_SKN1_GFP_L1"
          ],
          "submission" : "modENCODE_2622",
          "label" : "Identification of Transcription Factor SKN-1::GFP Binding Regions in L1",
@@ -11682,9 +11482,7 @@
          "factor" : "pqm-1",
          "target" : "Transcriptional-Factor",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_REPS_PQM1_GFP_L3/PQM1_GFP_L3_rep1",
-            "worm/Snyder_ANTIGFP_WIG_COMB_PQM1_GFP_L3",
-            "worm/Snyder_ANTIGFP_WIG_REPS_PQM1_GFP_L3/PQM1_GFP_L3_rep2"
+            "worm/Snyder_ANTIGFP_WIG_COMB_PQM1_GFP_L3"
          ],
          "submission" : "modENCODE_2623",
          "label" : "Identification of Transcription Factor PQM-1::GFP Binding Regions in L3",
@@ -11953,7 +11751,7 @@
          "factor" : "H3K9me1",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9045_H3K9ME1291918_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9045_H3K9ME1291918_N2_EEMB"
          ],
          "submission" : "modENCODE_2646",
          "label" : "Strome AB9045_H3K9ME1291918_N2_EEMB",
@@ -12575,7 +12373,7 @@
          "factor" : "H3K4me1",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB8895_H3K4ME1733246_N2_EEMB_2"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/AB8895_H3K4ME1733246_N2_EEMB"
          ],
          "submission" : "modENCODE_2726",
          "label" : "Strome AB8895_H3K4ME1733246_N2_EEMB",
@@ -12589,7 +12387,7 @@
          "factor" : "LEM-2",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHROMNUC_ENV/SDQ3891_LEM2_N2_MXEMB_1"
+            "worm/LIEB_WIG_CHROMNUC_ENV/SDQ3891_LEM2_N2_MXEMB"
          ],
          "submission" : "modENCODE_2729",
          "label" : "Strome SDQ3891_LEM2_N2_MXEMB",
@@ -12603,7 +12401,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/YA_spe9day0_merged_ws190.soap.sam.bam.sorted"
+            "worm/YA_spe9day0_merged_ws220.soap.sam.bam.sorted"
          ],
          "submission" : "modENCODE_2730",
          "label" : "spe-9 adult hermaphrodite 0days post-L4 small ncRNA RNA-Seq",
@@ -12618,7 +12416,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/YA_spe9day5_s_2.S3_ws190.soap.sam.bam.sorted"
+            "worm/YA_spe9day5_s_2.S3_ws220.soap.sam.bam.sorted"
          ],
          "submission" : "modENCODE_2732",
          "label" : "spe-9 adult hermaphrodite 5days post-L4 small ncRNA RNA-Seq",
@@ -12633,7 +12431,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/YA_spe9day8_merged_ws190.soap.sam.bam.sorted"
+            "worm/YA_spe9day8_merged_ws220.soap.sam.bam.sorted"
          ],
          "submission" : "modENCODE_2733",
          "label" : "spe-9 adult hermaphrodite 8 days post-L4 small ncRNA RNA-Seq",
@@ -12648,7 +12446,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/YA_spe9day12_s_5.S3_ws190.soap.sam.bam.sorted"
+            "worm/YA_spe9day12_s_5.S3_ws220.soap.sam.bam.sorted"
          ],
          "submission" : "modENCODE_2734",
          "label" : "spe-9 adult hermaphrodite 12 days post-L4 small ncRNA RNA-Seq",
@@ -12663,7 +12461,7 @@
          "factor" : "NPP-13",
          "target" : "Non-TF-Chromatin-binding-factor",
          "Tracks" : [
-            "worm/LIEB_WIG_CHROMNUC_ENV/SDQ3897_NPP13_N2_MXEMB_1"
+            "worm/LIEB_WIG_CHROMNUC_ENV/SDQ3897_NPP13_N2_MXEMB"
          ],
          "submission" : "modENCODE_2738",
          "label" : "Strome SDQ3897_NPP13_N2_MXEMB",
@@ -12677,7 +12475,7 @@
          "factor" : "H3K9me1",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB8896_H3K9ME1104560_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/AB8896_H3K9ME1104560_N2_EEMB"
          ],
          "submission" : "modENCODE_2739",
          "label" : "Strome AB8896_H3K9ME1104560_N2_EEMB",
@@ -12691,7 +12489,7 @@
          "factor" : "H3K27ac",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB4729_H3K27AC361571_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/AB4729_H3K27AC361571_N2_EEMB"
          ],
          "submission" : "modENCODE_2740",
          "label" : "Strome AB4729_H3K27AC361571_N2_EEMB",
@@ -12831,9 +12629,7 @@
          "factor" : "Drosophila ORC2p",
          "target" : "DNA-Replication",
          "Tracks" : [
-            "fly/MacAlpine_ORC_CHIPSEQ_REP/S2_dOrc2_rep1",
-            "fly/MacAlpine_ORC_CHIPSEQ_COMB/S2_dOrc2",
-            "fly/MacAlpine_ORC_CHIPSEQ_REP/S2_dOrc2_rep2"
+            "fly/MacAlpine_ORC_CHIPSEQ_COMB/S2_dOrc2"
          ],
          "submission" : "modENCODE_2753",
          "Cell-Line" : "S2-DRSC",
@@ -12848,9 +12644,7 @@
          "factor" : "Drosophila ORC2p",
          "target" : "DNA-Replication",
          "Tracks" : [
-            "fly/MacAlpine_ORC_CHIPSEQ_REP/BG3_dOrc2_rep2",
-            "fly/MacAlpine_ORC_CHIPSEQ_COMB/BG3_dOrc2",
-            "fly/MacAlpine_ORC_CHIPSEQ_REP/BG3_dOrc2_rep1"
+            "fly/MacAlpine_ORC_CHIPSEQ_COMB/BG3_dOrc2"
          ],
          "submission" : "modENCODE_2754",
          "Cell-Line" : "ML-DmBG3-c2",
@@ -12865,9 +12659,7 @@
          "factor" : "Drosophila ORC2p",
          "target" : "DNA-Replication",
          "Tracks" : [
-            "fly/MacAlpine_ORC_CHIPSEQ_COMB/Kc167_dOrc2",
-            "fly/MacAlpine_ORC_CHIPSEQ_REP/Kc167_dOrc2_rep2",
-            "fly/MacAlpine_ORC_CHIPSEQ_REP/Kc167_dOrc2_rep1"
+            "fly/MacAlpine_ORC_CHIPSEQ_COMB/Kc167_dOrc2"
          ],
          "submission" : "modENCODE_2755",
          "Cell-Line" : "Kc167",
@@ -12965,6 +12757,9 @@
          "technique" : "RNA-tiling-array",
          "factor" : "PolyA-RNA",
          "target" : "mRNA",
+         "Tracks" : [
+            "worm/Henikoff_Transcription_Ext_VISTA"
+         ],
          "submission" : "modENCODE_2762",
          "label" : "N2_Worm_Embryo_mRNA_Expression",
          "type" : "data set",
@@ -12977,7 +12772,7 @@
          "factor" : "H4K20me1",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9051_H4K20ME1104513_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9051_H4K20ME1104513_N2_EEMB"
          ],
          "submission" : "modENCODE_2765",
          "label" : "Strome AB9051_H4K20ME1104513_N2_EEMB",
@@ -12991,7 +12786,7 @@
          "factor" : "H4tetraac",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/LPAR109_H4TETRAAC109_N2_EEMB_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/LPAR109_H4TETRAAC109_N2_EEMB"
          ],
          "submission" : "modENCODE_2766",
          "label" : "Strome LPAR109_H4TETRAAC109_N2_EEMB",
@@ -13019,7 +12814,7 @@
          "factor" : "H4",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_COREHIS/MP05858_H4DAM1636076_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_COREHIS/MP05858_H4DAM1636076_N2_L3"
          ],
          "submission" : "modENCODE_2768",
          "label" : "Ahringer MP05858_H4DAM1636076_N2_L3",
@@ -13045,7 +12840,7 @@
          "factor" : "H3K9me1",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9045_H3K9ME1291918_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9045_H3K9ME1291918_N2_L3"
          ],
          "submission" : "modENCODE_2770",
          "label" : "Ahringer AB9045_H3K9ME1291918_N2_L3",
@@ -13059,7 +12854,7 @@
          "factor" : "H3K27ac",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB4729_H3K27AC361571_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/AB4729_H3K27AC361571_N2_L3"
          ],
          "submission" : "modENCODE_2771",
          "label" : "Ahringer AB4729_H3K27AC361571_N2_L3",
@@ -13073,7 +12868,7 @@
          "factor" : "H3K27ac",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/WA30634849_H3K27AC_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/WA30634849_H3K27AC_N2_L3"
          ],
          "submission" : "modENCODE_2773",
          "label" : "Ahringer WA30634849_H3K27AC_N2_L3",
@@ -13087,7 +12882,7 @@
          "factor" : "H4K8ac",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB15823_H4K8AC487128_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/AB15823_H4K8AC487128_N2_L3"
          ],
          "submission" : "modENCODE_2774",
          "label" : "Ahringer AB15823_H4K8AC487128_N2_L3",
@@ -13101,7 +12896,7 @@
          "factor" : "H3K4me1",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB8895_H3K4ME1733246_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/AB8895_H3K4ME1733246_N2_L3"
          ],
          "submission" : "modENCODE_2775",
          "label" : "Ahringer AB8895_H3K4ME1733246_N2_L3",
@@ -13215,9 +13010,7 @@
          "factor" : "MCM2-7 complex",
          "target" : "DNA-Replication",
          "Tracks" : [
-            "fly/MacAlpine_MCM_CHIPSEQ_COMB/Kc167_MCM_2_7",
-            "fly/MacAlpine_MCM_CHIPSEQ_REP/Kc167_MCM_2_7_rep1",
-            "fly/MacAlpine_MCM_CHIPSEQ_REP/Kc167_MCM_2_7_rep2"
+            "fly/MacAlpine_MCM_CHIPSEQ_COMB/Kc167_MCM_2_7"
          ],
          "submission" : "modENCODE_2783",
          "Cell-Line" : "Kc167",
@@ -13231,7 +13024,7 @@
          "factor" : "H4K20me1",
          "target" : "Histone-Modification",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9051_H4K20ME1104513_N2_L3_1"
+            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9051_H4K20ME1104513_N2_L3"
          ],
          "submission" : "modENCODE_2784",
          "label" : "Ahringer AB9051_H4K20ME1104513_N2_L3",
@@ -13321,7 +13114,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/miRNA_eri-1_solexa.ws190.sam.gz.bam.sorted"
+            "worm/miRNA_eri-1_solexa.ws220.sam.gz_sorted"
          ],
          "submission" : "modENCODE_2821",
          "label" : "miRNA isolation and Illumina sequencing from eri-1(mg366) young adult whole worms",
@@ -13336,7 +13129,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/miRNA-glp-4_solexa.ws190.sam.gz.bam.sorted"
+            "worm/miRNA-glp-4_solexa.ws220.sam.gz_sorted"
          ],
          "submission" : "modENCODE_2822",
          "label" : "miRNA isolation and Illumina sequencing from glp-4(bn2) young adult whole worms",
@@ -13352,7 +13145,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/miRNA_spermatids_solexa.ws190.sam.gz.bam.sorted"
+            "worm/miRNA_spermatids_solexa.ws220.sam.gz_sorted"
          ],
          "submission" : "modENCODE_2823",
          "label" : "miRNA isolation and Illumina sequencing from him-8 male spermatids",
@@ -13367,7 +13160,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/miRNA_mixed_stage_solexa.ws190.sam.gz.bam.sorted"
+            "worm/miRNA_mixed_stage_solexa.ws220.sam.gz_sorted"
          ],
          "submission" : "modENCODE_2825",
          "label" : "miRNA isolation and Illumina sequencing from N2 mixed-stage whole worms",
@@ -13382,7 +13175,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/miRNA_embryos_solexa.ws190.sam.gz.bam.sorted"
+            "worm/miRNA_embryos_solexa.ws220.sam.gz_sorted"
          ],
          "submission" : "modENCODE_2826",
          "label" : "miRNA isolation and Illumina sequencing from N2 embryos",
@@ -13397,7 +13190,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/miRNA_eri-1.ws190.sam.gz.bam.sorted"
+            "worm/miRNA_eri-1.ws220.sam.gz_sorted"
          ],
          "submission" : "modENCODE_2827",
          "label" : "miRNA isolation and 454 sequencing from eri-1(mg366) young adult whole worms",
@@ -13412,7 +13205,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/miRNA-glp-4.ws190.sam.gz.bam.sorted"
+            "worm/miRNA-glp-4.ws220.sam.gz_sorted"
          ],
          "submission" : "modENCODE_2828",
          "label" : "miRNA isolation and 454 sequencing from glp-4(bn2) young adult whole worms",
@@ -13428,7 +13221,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/miRNA_spermatids.ws190.sam.gz.bam.sorted"
+            "worm/miRNA_spermatids.ws220.sam.gz_sorted"
          ],
          "submission" : "modENCODE_2829",
          "label" : "miRNA isolation and 454 sequencing from him-8 male spermatids",
@@ -13444,7 +13237,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/miRNA_oocytes_solexa.ws190.sam.gz.bam.sorted"
+            "worm/miRNA_oocytes_solexa.ws220.sam.gz_sorted"
          ],
          "submission" : "modENCODE_2830",
          "label" : "miRNA isolation and Illumina sequencing from fer-1 unfertilized oocytes",
@@ -13459,7 +13252,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/miRNA_young_adult.ws190.sam.gz.bam.sorted"
+            "worm/miRNA_young_adult.ws220.sam.gz_sorted"
          ],
          "submission" : "modENCODE_2831",
          "label" : "miRNA isolation and 454 sequencing from N2 whole worms",
@@ -13475,7 +13268,7 @@
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
-            "worm/miRNA_oocytes.ws190.sam.gz.bam.sorted"
+            "worm/miRNA_oocytes.ws220.sam.gz_sorted"
          ],
          "submission" : "modENCODE_2832",
          "label" : "miRNA isolation and 454 sequencing from fer-1 unfertilized oocytes",
@@ -14309,9 +14102,7 @@
          "factor" : "Replication-Timing",
          "target" : "DNA-Replication",
          "Tracks" : [
-            "fly/MacAlpine_MCM_CHIPSEQ_COMB/S2_DRSC_MCM_2_7",
-            "fly/MacAlpine_MCM_CHIPSEQ_REP/S2_DRSC_MCM_2_7_rep1",
-            "fly/MacAlpine_MCM_CHIPSEQ_REP/S2_DRSC_MCM_2_7_rep2"
+            "fly/MacAlpine_MCM_CHIPSEQ_COMB/S2_DRSC_MCM_2_7"
          ],
          "read" : "length",
          "submission" : "modENCODE_2979",
@@ -14429,7 +14220,7 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "Tracks" : [
-            "worm/EMBRYO_FAX_WIG/EMB_0hr_ref_array_v2"
+            "worm/EMBRYO_FAX_WIG/EMB_0hr_ref_array"
          ],
          "submission" : "modENCODE_3172",
          "label" : "embryo 0h reference tiling array",

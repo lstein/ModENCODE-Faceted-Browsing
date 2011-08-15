@@ -18,7 +18,7 @@ function clear_all () {
     $('selection_count').innerHTML   = 'No tracks selected';
     $('dataset_count').innerHTML     = 'Selected Datasets:';
     $('retrieve_buttons').hide();
-    refresh_shopping_cart();
+    shopping_cart_clear();
 }
 
 function get_id (container) {
@@ -26,7 +26,7 @@ function get_id (container) {
 }
 
 function popup (event, container) {
-    var html = container.select('div.popup');
+    var html = container.parentNode.select('div.popup');
     balloon.showTooltip(event,html[0].innerHTML);
 }
 
@@ -38,19 +38,26 @@ function find_container (checkbox) {
 
 function toggle_track (checkbox,turn_on) {
     var container = find_container(checkbox);
-    var id = get_id(container);
-
+    var id        = get_id(container);
     if (turn_on == null)
 	turn_on = !container.hasClassName('selected');
+    toggle_dataset(id,turn_on);
+}
 
+function toggle_dataset (id,turn_on) {
     if (turn_on) {
-	container.addClassName('selected');
 	SelectedItems.set(id,1);
+	shopping_cart_add(id);
     } else {
-	container.removeClassName('selected');
 	SelectedItems.unset(id);
+	shopping_cart_remove(id);
     }
-    checkbox.checked = turn_on;
+    var checkbox = $(id);
+    if (checkbox != null) {
+	checkbox.checked = turn_on;
+	var container    = find_container(checkbox);
+	if (turn_on) { container.addClassName('selected') } else {container.removeClassName('selected')}
+    }
     
     var selected = SelectedItems.keys();
     if (selected.size() > 0) {
@@ -75,23 +82,57 @@ function toggle_track (checkbox,turn_on) {
 	$('dataset_count').innerHTML     = 'Selected Datasets:';
 	$('selection_count').innerHTML='No tracks selected';
     }
-    refresh_shopping_cart();
 }
 
-function refresh_shopping_cart () {
+function shopping_cart_clear () { 
     var cart = $('shopping_cart');
     if (cart == null) return;
     cart.innerHTML = '';
-    var selected = SelectedItems.keys().sort();
-    if (selected.size() == 0) cart.innerHTML = '<i style="color:gray">No datasets selected</i>';
-    selected.each(function (e) {
-	var html             = find_container($(e)).select('div.popup')[0].innerHTML;
-	Popups.set(e,html);
-	var id               = 'check_'+e;
-	var remove           = '<input type="checkbox" checked="on" id="'+id+'" onchange="trash(this)"/>';
-	var handler          = 'balloon.showTooltip(window.event,Popups.get(\''+e.gsub("'","\\'")+'\'))';
-	cart.insert('<li>'+remove+'<span style="cursor:pointer" onmouseover="'+handler+'">'+e+'</span>'+'</li>');
-    });
+    Popups = new Hash();  // clear it
+    shopping_cart_check();
+}
+
+function shopping_cart_check () {
+    var element = $('shopping_cart');
+    if (element.select('li').size() == 0)
+	element.innerHTML = '<i style="color:gray">No datasets selected</i>';
+}
+
+function shopping_cart_add (dataset) {
+    var cart = $('shopping_cart');
+    if (cart == null) return;
+    var item_id = 'cart_'+dataset;
+    if ($(item_id) != null) 
+	return; // already there
+    if (cart.select('li').size() == 0)
+	cart.innerHTML = '';
+
+    // popup balloon data needs to be cached
+    var container              = find_container($(dataset));
+    var popup_html             = container.select('div.popup')[0].innerHTML;
+    Popups.set(dataset,popup_html);
+
+    var handler          = 'balloon.showTooltip(window.event,Popups.get(\''+dataset.gsub("'","\\'")+'\'))';
+    var remove           = new Element('input',{type:'checkbox',
+						checked:'on',
+						id: 'check_'+dataset,
+						onchange: 'trash(this)'});
+    var span = new Element('span',{style:'cursor:pointer',
+				   onmouseover: handler}).update(dataset);
+    var org  = window.database.getObjects(dataset,'organism').toArray().join(',');
+    span.insert(' (<i>'+org+'</i>)');
+    var li   = new Element('li',{id:item_id});
+    li.insert(remove).insert(span);
+    cart.insert({top:li});
+}
+
+function shopping_cart_remove (dataset) {
+    var item_id = 'cart_'+dataset;
+    var element = $(item_id);
+    if (element==null) return;
+    element.remove();
+    Popups.unset(dataset);
+    shopping_cart_check();
 }
 
 function hilight_items () {
@@ -115,8 +156,7 @@ function trash (checkbox) {
     if (!checkbox.checked) {
 	label.addClassName('strikeout');
 	var t = window.setTimeout(function () {
-	    toggle_track($(id),false);
-	    Popups.unset(id);
+	    toggle_dataset(id,false);
 	    GlobalTimeout.unset(id);
 	},2000);
 	GlobalTimeout.set(id,t);
@@ -131,12 +171,13 @@ function trash (checkbox) {
 }
 
 function format_url() {
-    var selected = $$('.selected.submission');
+//    var selected = $$('.selected.submission');
+    var selected = SelectedItems.keys();
 
     // consolidate sources, tracks and subtracks
     var tra    = new Hash();
     for (var i=0;i<selected.size();i++) {
-	var tracks = window.database.getObjects(selected[i].getAttribute('ex:itemid'),'Tracks').toArray();
+	var tracks = window.database.getObjects(selected[i],'Tracks').toArray();
 	tracks.each(function (e) {
 	    var fields = e.split('/');
 	    var source    = fields[0];

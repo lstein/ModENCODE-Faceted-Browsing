@@ -28,26 +28,37 @@
       Search modENCODE Data Sets</h1>
 </div>
 
-    <table width="100%" border='0'>
-      <tr valign="middle">
-	<td width="20%">
-	  Search: <span ex:role="facet" ex:facetClass="TextSearch"></span>
-	</td>
-	<td width="60%">
-	  <div class="status">
-	    <b id="dataset_count">Selected Datasets:</b>
-	    <ul id="shopping_cart"><i style="color:gray">No datasets selected</i></ul>
-	    <div id="retrieve_buttons" style="display:none">
-	      <button>Browse</button><button>Download</button><button onclick="clear_all()">Clear All</button>
-	    </div>
-	    <div id="selection_count"></div>
-	  </div>
-	</td>
-	<td>&nbsp;</td>
-      </tr>
-    </table>
+<div class="status">
+  <table width="100%" border='0'>
+    <tr valign="bottom">
+      <td width="20%"  style="vertical-align:middle">
+	Search: <span ex:role="facet" ex:facetClass="TextSearch"></span>
+      </td>
+      <td colspan="2" width="80%">
+	<table width="100%">
+	  <tr>
+	    <th id="dataset_count">Selected Datasets:</th>
+	  </tr>
+	  <tr>
+	    <th align="left">
+	      <ul id="shopping_cart"><i style="color:gray">No datasets selected</i></ul>
+	    </th>
+	    <td>
+	      <div id="retrieve_buttons" style="display:none">
+		<button>Browse</button><br><button>Download</button><br><button onclick="clear_all()">Clear All</button>
+	      </div>
+	    </td>
+	  </tr>
+	</table>
+	<div id="selection_count"></div>
+      </td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+	    
 
-    <table width="100%" border='0'>
+<table width="100%" border='0'>
 	<td id="left-column" width="20%">
 	  <div  ex:role="facet" ex:expression=".organism"  ex:height="8em" ex:facetLabel="Organism"></div>
 	  <div  ex:role="facet" ex:expression=".technique" ex:height="8em" ex:facetLabel="Technique"></div>
@@ -57,7 +68,7 @@
 
 	<td id="middle-column" width="60%">
 	  <div ex:role="view" ex:viewClass="Thumbnail" id="filter_results"></div>
-	  <div ex:role="lens" ex:onshow="hilight_items()" class="submission" style="display:none" onmouseover="popup(event,this)">
+	  <div ex:role="lens" ex:onshow="hilight_items()" class="submission" style="display:none">
 	    <div class="select-track">
 	      <div>
 		<label>
@@ -65,10 +76,11 @@
 		</label>
 	      </div>
 	    </div>
-	    <div class="name">
+	    <div class="name" onmouseover="popup(event,this)">
 	      <span  ex:content=".submission" class="field-label"></span>:
 	      <span  ex:content=".technique"></span><br>
 	      <span  ex:content=".label"></span>
+	      (<span class="organism" ex:content=".organism"></span>)
 	    </div>
 
 	    <!-- This is the details balloon -->
