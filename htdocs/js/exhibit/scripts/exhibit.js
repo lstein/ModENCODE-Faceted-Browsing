@@ -282,8 +282,8 @@ Exhibit._Impl.prototype.configureFromDOM = function(root) {
 
     processElmts(coordinatorElmts);
     processElmts(coderElmts);
-    processElmts(lensElmts);
     processElmts(facetElmts);
+    processElmts(lensElmts);
     processElmts(otherElmts);
 
     var exporters = Exhibit.getAttribute(document.body, "exporters");

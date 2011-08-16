@@ -7,6 +7,17 @@
  *==================================================
  */
 
+// thanks to http://bytes.com/arodicus for this trick
+// http://bytes.com/topic/javascript/answers/794422-how-javascript-can-get-its-own-file-path
+var thisDir = function() {
+    var ScriptID = "ScriptID" + Math.round(100000*Math.random());
+    document.write("<script id='"+ScriptID+"'></script>");
+    var path = document.getElementById(ScriptID).previousSibling.getAttribute("src");
+    var index = path.lastIndexOf('/');
+    if (index < 0) return '.';
+    return path.substring(0,index);
+};
+
 (function() {
     var useLocalResources = false;
     if (document.location.search.length > 0) {
@@ -234,11 +245,11 @@
      */
     if (typeof SimileAjax == "undefined") {
         window.SimileAjax_onLoad = loadMe;
-        
+
         var url = useLocalResources ?
             "http://127.0.0.1:8888/ajax/api/simile-ajax-api.js?bundle=false" :
-            "js/exhibit/ajax/simile-ajax-api.js";
-            
+            thisDir() + "/ajax/simile-ajax-api.js";
+
         var createScriptElement = function() {
             var script = document.createElement("script");
             script.type = "text/javascript";

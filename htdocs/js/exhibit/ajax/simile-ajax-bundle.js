@@ -2584,8 +2584,7 @@ SimileAjax.XmlHttp._createRequest=D;
 return F;
 }catch(E){throw new Error("Failed to create an XMLHttpRequest object");
 }};
-SimileAjax.XmlHttp.get=function(A,D,C){
-var B=SimileAjax.XmlHttp._createRequest();
+SimileAjax.XmlHttp.get=function(A,D,C){var B=SimileAjax.XmlHttp._createRequest();
 B.open("GET",A,true);
 B.onreadystatechange=function(){SimileAjax.XmlHttp._onReadyStateChange(B,D,C);
 };

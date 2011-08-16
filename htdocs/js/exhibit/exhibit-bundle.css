@@ -431,9 +431,9 @@ div.exhibit-facet-childrenContainer {
  */
 
 div.exhibit-slider-bar { 
-    
-    border-top: 1px #999 solid;
-    height: 1px;
+    background: #eee;
+/*     border-top: 1px #999 solid; */
+    height: 14px;
     line-height: 0;
     margin: 10px;
     width: 150px;
@@ -446,10 +446,11 @@ div.exhibit-slider-handle {
     position: relative;
     top: 0px;
     width: 7px;
+    z-index: 1;
 }
 
-div.exhibit-slider-display { 
-
+canvas.exhibit-slider-histogram { 
+    margin-top: -14px;
 }/*==================================================
  * Common styles for views
  *==================================================

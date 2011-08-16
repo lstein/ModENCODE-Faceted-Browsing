@@ -7,7 +7,6 @@
  *
  *==================================================
  */
-
 if (typeof SimileAjax == "undefined") {
     var SimileAjax = {
         loaded:                 false,
@@ -49,10 +48,14 @@ if (typeof SimileAjax == "undefined") {
         onerror = onerror || "";
         if (doc.body == null) {
             try {
-                var q = "'" + onerror.replace( /'/g, '&apos' ) + "'"; // "
-                doc.write("<script src='" + url + "' onerror="+ q +
-                          (charset ? " charset='"+ charset +"'" : "") +
-                          " type='text/javascript'>"+ onerror + "</script>");
+		if (onerror.length>0) {
+                    var q = "'" + onerror.replace( /'/g, '&apos' ) + "'"; // "
+                    doc.write("<script src='" + url + "' onerror="+ q +
+                              (charset ? " charset='"+ charset +"'" : "") +
+                              " type='text/javascript'>"+ onerror + "</script>");
+		} else {
+                    doc.write("<script src='" + url + "' type='text/javascript'></script>");
+		}
                 return;
             } catch (e) {
                 // fall through
