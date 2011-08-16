@@ -92,7 +92,12 @@
   
 <!-- middle column: exhibit results -->
   <td id="middle-column">
-    <div ex:role="view" ex:viewClass="Thumbnail" ex:abbreviatedCount="20" id="filter_results"></div>
+
+    <script type="text/javascript">
+      var view_class = Prototype.Browser.IE ? 'Thumbnail' : 'Tile';
+      document.write('<div ex:role="view" ex:viewClass="'+view_class+'" ex:abbreviatedCount="20" id="filter_results"></div>');
+    </script>
+    
 
     <div ex:role="lens" ex:onshow="hilight_items()" class="submission" style="display:none">
       <div class="select-track">
