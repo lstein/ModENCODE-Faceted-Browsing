@@ -25,11 +25,13 @@ function get_id (container) {
 }
 
 function popup (event, container) {
-    var html = container.parentNode.select('div.popup');
+//    var html = container.parentNode.select('div.popup');
+    var html = Element.select(container.parentNode,'div.popup');
     balloon.showTooltip(event,html[0].innerHTML);
 }
 
 function find_container (checkbox) {
+    Element.extend(checkbox);
     var container = checkbox.ancestors().find(
 	function(el) { return el.hasClassName('submission')});
     return container;
@@ -70,6 +72,7 @@ function shopping_cart_clear () {
 
 function shopping_cart_check () {
     var element = $('shopping_cart');
+    var urls;
     if (element.select('li').size() == 0) {
 	element.innerHTML = '<i style="color:gray">No datasets selected</i>';
 	$('retrieve_buttons').innerHTML = '';
@@ -79,20 +82,28 @@ function shopping_cart_check () {
 	$('dataset_count').innerHTML     = selected.size()+' Selected Datasets:';
 	var buttons = $('retrieve_buttons');
 	buttons.innerHTML = '';
-	var url     = format_url();
-	var sources = url.keys();
-	url.keys().each(function (e) {
-	    var u = url.get(e);
+	urls        = format_url();
+	var sources = urls.keys();
+	urls.keys().each(function (e) {
+	    var u = urls.get(e);
 	    var window_name = 'browse_'+e;
 	    buttons.insert(new Element('button',
-				       {onClick:'window.open("'+u+'","'+window_name+'")'}).update('Browse '+e.ucfirst()+' Tracks'));
+				       {id:window_name}).update('Browse '+e.ucfirst()+' Tracks'));
 	});
 	var accessions = selected.map(function (l) {
 	    return window.database.getObjects(l,'submission').toArray();
 	});
 	var url = 'http://www.foo.org/cgi-bin/me_download?download='+accessions.join('+');
-	buttons.insert(new Element('button',{onClick:'alert("'+url+'")'}).update('Download Datasets'));
-	buttons.insert(new Element('button',{onClick:'clear_all()'}).update('Clear All'));
+	buttons.insert(new Element('button',{id:'download'}).update('Download Datasets'));
+	buttons.insert(new Element('button',{id:"clear_all"}).update('Clear All'));
+
+	$('clear_all').onclick = function() {clear_all()};
+	$('download').onclick  = function() {alert(url)};
+	urls.keys().each(function (e) {
+	    var u = urls.get(e);
+	    var window_name = 'browse_'+e;
+	    $(window_name).onclick = function () {window.open(u,window_name)};
+	});
 	$('retrieve_buttons').show();
     }
 }
@@ -125,7 +136,7 @@ function shopping_cart_add (dataset) {
     li.insert(remove).insert(span);
     cart.insert({top:li});
 
-    //IE 8 workarounds
+    //IE workarounds
     if (Prototype.Browser.IE) {
 	remove.checked  = true;
 	remove.id       = 'check_'+dataset;
@@ -145,6 +156,7 @@ function shopping_cart_remove (dataset) {
 
 function hilight_items () {
     var divs = $$('.submission');
+    if (divs == null) return;
     divs.each (function (d) {
         var id = d.getAttribute('ex:itemid');
         if (SelectedItems.get(id)) {

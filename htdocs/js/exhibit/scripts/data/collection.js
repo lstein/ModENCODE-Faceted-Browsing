@@ -19,7 +19,6 @@ Exhibit.Collection.createAllItemsCollection = function(id, database) {
     collection._update = Exhibit.Collection._allItemsCollection_update;
     
     Exhibit.Collection._initializeBasicCollection(collection, database);
-    
     return collection;
 };
 

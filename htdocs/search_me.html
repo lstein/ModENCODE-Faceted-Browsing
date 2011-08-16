@@ -6,12 +6,16 @@
 
     <link rel='stylesheet' href="css/common.css" type='text/css' />
     <link rel='stylesheet' href="css/me.css" type='text/css' />
+
     <!--
     <script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js"
             type="text/javascript"></script>
     -->
 
-    <script src="js/exhibit/exhibit-api.js"
+    <script src="js/exhibit/ajax/simile-ajax-api.js?bundle=false"
+            type="text/javascript"></script>
+
+    <script src="js/exhibit/exhibit-api.js?bundle=false"
             type="text/javascript"></script>
 
     <script src="js/prototype.js"
@@ -24,9 +28,11 @@
 	    type="text/javascript">
     </script>
 
+<!--  no longer necessary?
     <script type="text/javascript">
       if (Prototype.Browser.IE) alert("IE User: If IE asks you to stop execution of this page, press NO!");
     </script>
+-->
  </head> 
 
 <body>
@@ -40,7 +46,7 @@
   <table width="100%" border='0'>
     <tr valign="bottom">
       <td width="15%"  style="vertical-align:middle">
-	<b>Internet Explorer users: please click "NO" if browser asks you to stop!</b><br><br>
+	<b>Internet Explorer users: If this page is too slow for you, consider Firefox, Safari or Chrome.</b><br><br>
 	<b>Search:</b> <span ex:role="facet" ex:facetClass="TextSearch"></span>
       </td>
       <td colspan="2" width="70%">
@@ -86,7 +92,7 @@
   
 <!-- middle column: exhibit results -->
   <td id="middle-column">
-    <div ex:role="view" ex:viewClass="Tile" id="filter_results"></div>
+    <div ex:role="view" ex:viewClass="Thumbnail" ex:abbreviatedCount="20" id="filter_results"></div>
 
     <div ex:role="lens" ex:onshow="hilight_items()" class="submission" style="display:none">
       <div class="select-track">

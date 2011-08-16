@@ -45,7 +45,6 @@ Exhibit.LensRegistry.prototype.getLens = function(itemID, database) {
 
 Exhibit.LensRegistry.prototype.createLens = function(itemID, div, uiContext) {
     var lens = new Exhibit.Lens();
-    
     var lensTemplate = this.getLens(itemID, uiContext.getDatabase());
     if (lensTemplate == null) {
         lens._constructDefaultUI(itemID, div, uiContext);
@@ -192,7 +191,7 @@ Exhibit.Lens.prototype._constructFromLensTemplateDOM =
         id = "exhibitLensTemplate" + Math.floor(Math.random() * 10000);
         lensTemplateNode.id = id;
     }
-    
+
     var compiledTemplate = Exhibit.Lens._compiledTemplates[id];
     if (compiledTemplate == null) {
         compiledTemplate = {
@@ -505,16 +504,17 @@ Exhibit.Lens._performConstructFromLensTemplateJob = function(job) {
     } else {
         node.style.display = "block";
     }
-    
+
     node.setAttribute("ex:itemID", job.itemID);
-    
+
     if (!Exhibit.params.safe) {
         var onshow = Exhibit.getAttribute(node, "onshow");
         if (onshow != null && onshow.length > 0) {
             try {
-                eval("(function() { " + onshow + " })").call(node);
+		var fn = new Function(onshow);
+		fn.call(node);
             } catch (e) {
-                SimileAjax.Debug.log(e);
+                SimileAjax.Debug.log(e.message);
             }
         }
     }

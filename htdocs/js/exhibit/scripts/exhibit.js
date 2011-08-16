@@ -256,29 +256,37 @@ Exhibit._Impl.prototype.configureFromDOM = function(root) {
     }
     
     var self = this;
-    var processElmts = function(elmts) {
-        for (var i = 0; i < elmts.length; i++) {
-            var elmt = elmts[i];
-            try {
-                var component = Exhibit.UI.createFromDOM(elmt, uiContext);
-                if (component != null) {
-                    var id = elmt.id;
-                    if (id == null || id.length == 0) {
-                        id = "component" + Math.floor(Math.random() * 1000000);
-                    }
-                    self.setComponent(id, component);
+    var processElmt = function(elmt) {
+        try {
+            var component = Exhibit.UI.createFromDOM(elmt, uiContext);
+            if (component != null) {
+                var id = elmt.id;
+                if (id == null || id.length == 0) {
+                    id = "component" + Math.floor(Math.random() * 1000000);
                 }
-            } catch (e) {
-                SimileAjax.Debug.exception(e);
+                self.setComponent(id, component);
             }
+        } catch (e) {
+            SimileAjax.Debug.exception(e);
         }
     };
+    var _processElmts = function(elmts,start) {
+	if (start < elmts.length)
+	    setTimeout(function () {processElmt(elmts[start]);
+				    _processElmts(elmts,start+1)
+				   },1);
+    };
+    var processElmts = function(elmts) {
+	_processElmts(elmts,0);
+    };
+
+
     processElmts(coordinatorElmts);
     processElmts(coderElmts);
     processElmts(lensElmts);
     processElmts(facetElmts);
     processElmts(otherElmts);
-    
+
     var exporters = Exhibit.getAttribute(document.body, "exporters");
     if (exporters != null) {
         exporters = exporters.split(";");
@@ -303,7 +311,7 @@ Exhibit._Impl.prototype.configureFromDOM = function(root) {
             }
         }
     }
-    
+
     var hash = document.location.hash;
     if (hash.length > 1) {
         var itemID = decodeURIComponent(hash.substr(1));
@@ -312,6 +320,26 @@ Exhibit._Impl.prototype.configureFromDOM = function(root) {
         }
     }
 };
+
+Exhibit._Impl.prototype.processElmts = function(elmts,uicontext) {
+    alert('processElmts('+elmts.length+')');
+    for (var i = 0; i < elmts.length; i++) {
+        var elmt = elmts[i];
+        try {
+            var component = Exhibit.UI.createFromDOM(elmt, uiContext);
+            if (component != null) {
+                var id = elmt.id;
+                if (id == null || id.length == 0) {
+                    id = "component" + Math.floor(Math.random() * 1000000);
+                }
+		alert(id);
+                this.setComponent(id, component);
+            }
+        } catch (e) {
+            SimileAjax.Debug.exception(e.message);
+        }
+    }
+}
 
 Exhibit._Impl.prototype._showFocusDialogOnItem = function(itemID) {
     var dom = SimileAjax.DOM.createDOMFromString(
