@@ -19,4 +19,4 @@ Exhibit.CollectionSummaryWidget.l10n.noResultsTemplate =
 
 Exhibit.CollectionSummaryWidget.l10n.filteredResultsTemplate =
     "<span class='%0' id='resultDescription'></span> " +
-    "filtered from <span id='originalCountSpan'>0</span> originally (<span id='resetActionLink'></span>)";
+    "&nbsp;filtered from <span id='originalCountSpan'>0</span> originally (<span id='resetActionLink'></span>)";
