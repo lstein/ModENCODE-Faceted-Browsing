@@ -16,7 +16,7 @@ div.header {
 div.label-header {
     background: #6ECCF8;
 }
-.submission {
+.submission-tile {
     float: left;
     font-size:  8pt;
     cursor:     pointer;
@@ -68,8 +68,14 @@ div.name {
 .field-value {
     font-weight: bold;
 }
-div.selected {
+.selected {
     background-color: wheat;
+}
+tr.odd {
+    background-color: #eee;
+}
+tr.even {
+    background-color: #ccc;
 }
 div.select-track {
     font-size: 110%;

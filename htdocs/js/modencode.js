@@ -10057,7 +10057,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His2Av",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/600mM_pellet"
@@ -10075,7 +10075,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His2Av",
-         "Compound" : "150 mM",
+         "Compound" : "150 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/150mM_fraction"
@@ -10093,7 +10093,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His2Av",
-         "Compound" : "15 mM",
+         "Compound" : "15 mM salt",
          "target" : "Chromatin-Structure",
          "extract" : "soluble fraction",
          "submission" : "modENCODE_2504",
@@ -10108,7 +10108,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His2A",
-         "Compound" : "15 mM",
+         "Compound" : "15 mM salt",
          "target" : "Chromatin-Structure",
          "extract" : "soluble fraction",
          "submission" : "modENCODE_2505",
@@ -10123,7 +10123,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His2Av",
-         "Compound" : "15 mM",
+         "Compound" : "15 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/HenikoffNUCL/Nucleosome_Density_S2"
@@ -10140,7 +10140,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "Nucleosome",
-         "Compound" : "150 mM",
+         "Compound" : "150 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/150mM_fraction_Emb_1-3hr"
@@ -10157,7 +10157,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "Nucleosome",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/600mM_fraction_Emb_1-3hr"
@@ -10174,7 +10174,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "Nucleosome",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/600mM_pellet_Emb_1-3hr"
@@ -10191,7 +10191,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "Nucleosome",
-         "Compound" : "150 mM",
+         "Compound" : "150 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/150mM_fraction_Emb_4-6hr"
@@ -10208,7 +10208,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "Nucleosome",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/600mM_fraction_Emb_4-6hr"
@@ -10225,7 +10225,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "Nucleosome",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/600mM_Pellet_Emb_4-6hr"
@@ -10243,7 +10243,7 @@
          "sampling" : "time",
          "Tissue" : "dorsal mesothoracic disc",
          "factor" : "Nucleosome",
-         "Compound" : "80 mM",
+         "Compound" : "80 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_wing_disc"
@@ -10261,7 +10261,7 @@
          "sampling" : "time",
          "Tissue" : "dorsal mesothoracic disc",
          "factor" : "Nucleosome",
-         "Compound" : "150 mM",
+         "Compound" : "150 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/150mM_fraction_wing_disc"
@@ -10279,7 +10279,7 @@
          "sampling" : "time",
          "Tissue" : "dorsal mesothoracic disc",
          "factor" : "Nucleosome",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/600mM_fraction_wing_disc"
@@ -10297,7 +10297,7 @@
          "sampling" : "time",
          "Tissue" : "dorsal mesothoracic disc",
          "factor" : "Nucleosome",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/600mM_pellet_wing_disc"
@@ -10315,7 +10315,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "Nucleosome",
-         "Compound" : "80 mM",
+         "Compound" : "80 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_S2"
@@ -10333,7 +10333,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His2A",
-         "Compound" : "80 mM",
+         "Compound" : "80 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_H2A"
@@ -10351,7 +10351,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His2Av",
-         "Compound" : "80 mM",
+         "Compound" : "80 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_H2Av"
@@ -10369,7 +10369,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His3.3A",
-         "Compound" : "80 mM",
+         "Compound" : "80 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_H3.3"
@@ -10387,7 +10387,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His2Av",
-         "Compound" : "80-150 mM",
+         "Compound" : "80-150 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/80-150mM_fraction_H2Av"
@@ -10405,7 +10405,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "Nucleosome",
-         "Compound" : "80-150 mM",
+         "Compound" : "80-150 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/80-150mM_fraction_S2"
@@ -10423,7 +10423,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His3.3A",
-         "Compound" : "80-600 mM",
+         "Compound" : "80-600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/80-600mM_fraction_H3.3"
@@ -10441,7 +10441,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His2Av",
-         "Compound" : "80-600 mM",
+         "Compound" : "80-600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/80-600mM_fraction_H2Av"
@@ -10459,7 +10459,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His2Av",
-         "Compound" : "150-600 mM",
+         "Compound" : "150-600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/150-600mM_fraction_H2Av"
@@ -10477,7 +10477,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His3",
-         "Compound" : "150-600 mM",
+         "Compound" : "150-600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/150-600mM_fraction_H3.3"
@@ -10495,7 +10495,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "Nucleosome",
-         "Compound" : "150-600 mM",
+         "Compound" : "150-600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/Henikoff_Salt_Ext_WIG/150-600mM_fraction_S2"
@@ -10513,7 +10513,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His3.3A",
-         "Compound" : "15 mM",
+         "Compound" : "15 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/HenikoffNUCL/Mononucleosomes_H3.3"
@@ -10531,7 +10531,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "His2Av",
-         "Compound" : "15 mM",
+         "Compound" : "15 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "fly/HenikoffNUCL/Mononucleosomes_H2Av"
@@ -10548,7 +10548,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "his-72",
-         "Compound" : "80 mM",
+         "Compound" : "80 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "worm/Henikoff_Salt_Ext_VISTA/80mM_fraction"
@@ -10565,7 +10565,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "his-72",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "worm/Henikoff_Salt_Ext_VISTA/600mM_fraction"
@@ -10582,7 +10582,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "his-72",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "worm/Henikoff_Salt_Ext_VISTA/600mM_Pellet"
@@ -10599,7 +10599,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "his-72",
-         "Compound" : "80 mM",
+         "Compound" : "80 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "worm/Henikoff_Salt_H3_VISTA/80mM_fraction"
@@ -10616,7 +10616,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "his-72",
-         "Compound" : "350 mM",
+         "Compound" : "350 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "worm/Henikoff_Salt_H3_VISTA/350mM_fraction"
@@ -10633,7 +10633,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "his-72",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "worm/Henikoff_Salt_H3_VISTA/600mM_fraction"
@@ -10650,7 +10650,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "his-72",
-         "Compound" : "80 mM",
+         "Compound" : "80 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "worm/HenikoffNUCL/Emb_Mononucleosomes"
@@ -10667,7 +10667,7 @@
          "technique" : "DNA-tiling-array",
          "sampling" : "time",
          "factor" : "his-72",
-         "Compound" : "80 mM",
+         "Compound" : "80 mM salt",
          "target" : "Chromatin-Structure",
          "Tracks" : [
             "worm/HenikoffNUCL/Adt_Mononucleosomes"
@@ -12911,7 +12911,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "Nucleosome",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "extract" : "soluble fraction",
          "submission" : "modENCODE_2756",
@@ -12926,7 +12926,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "Nucleosome",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "extract" : "precipitate",
          "submission" : "modENCODE_2757",
@@ -12953,7 +12953,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "Nucleosome",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "extract" : "soluble fraction",
          "submission" : "modENCODE_2759",
@@ -12968,7 +12968,7 @@
          "sampling" : "time",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "Nucleosome",
-         "Compound" : "600 mM",
+         "Compound" : "600 mM salt",
          "target" : "Chromatin-Structure",
          "extract" : "precipitate",
          "submission" : "modENCODE_2760",

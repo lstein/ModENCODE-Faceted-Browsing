@@ -26,7 +26,6 @@ function get_id (container) {
 }
 
 function popup (event, container) {
-//    var html = container.parentNode.select('div.popup');
     var html = Element.select(container.parentNode,'div.popup');
     balloon.showTooltip(event,html[0].innerHTML);
 }
@@ -40,7 +39,7 @@ function find_container (checkbox) {
 
 function toggle_track (checkbox,turn_on) {
     var container = find_container(checkbox);
-    var id        = get_id(container);
+    var id        = checkbox.id;
     if (turn_on == null)
 	turn_on = !container.hasClassName('selected');
     toggle_dataset(id,turn_on);
@@ -58,7 +57,7 @@ function toggle_dataset (id,turn_on) {
     if (checkbox != null) {
 	checkbox.checked = turn_on;
 	var container    = find_container(checkbox);
-	if (turn_on) { container.addClassName('selected') } else {container.removeClassName('selected')}
+	hilite_row(container,turn_on);
     }
     shopping_cart_check();
 }
@@ -120,17 +119,29 @@ function shopping_cart_add (dataset) {
 
     // popup balloon data needs to be cached
     var container              = find_container($(dataset));
-    var popup_html             = container.select('div.popup')[0].innerHTML;
-    Popups.set(dataset,popup_html);
+    var handler;
+    try {
+	var popup_html  = container.select('div.popup')[0].innerHTML;
+	Popups.set(dataset,popup_html);
+	handler = 'balloon.showTooltip(window.event,Popups.get(\''+dataset.gsub("'","\\'")+'\'))';
+    } catch (e) {
+	try {
+	    var popup_html = build_popup(dataset);
+	    Popups.set(dataset,popup_html);
+	    handler = 'balloon.showTooltip(window.event,Popups.get(\''+dataset.gsub("'","\\'")+'\'))';	    
+	} catch (e) {
+	    handler = null;
+	}
+    }
 
-    var handler          = 'balloon.showTooltip(window.event,Popups.get(\''+dataset.gsub("'","\\'")+'\'))';
     var remove           = new Element('input',{type:'checkbox',
 						checked:true,
 						id: 'check_'+dataset,
 						onchange: 'trash(this)'
 					       });
-    var span = new Element('span',{style:'cursor:pointer',
-				   onmouseover: handler}).update(dataset);
+    var span = new Element('span',{style      :'cursor:pointer',
+				   onmouseover: handler
+				  }).update(dataset);
     var org  = window.database.getObjects(dataset,'organism').toArray().join(',');
     span.insert(' (<i>'+org+'</i>)');
     var li   = new Element('li',{id:item_id});
@@ -191,6 +202,22 @@ function trash (checkbox) {
     }
 }
 
+function build_popup (label) {
+    var html   = '';
+    var fields = new Array('organism','experiment','technique','target','factor',
+			   'Developmental-Stage','Cell-Line','Tissue','temperature','Compound');
+    fields.each(function (a) {
+	var value = window.database.getObjects(label,a).toArray()[0];
+	if (value != null) {
+	    html += '<div>';
+            html += '<span class="field-label">'+a.ucfirst()+':</span> ';
+	    html += '<span class="field-value">'+value+'</span>';
+	    html += '</div>';
+	}
+     });
+    return html;
+}
+
 function format_url() {
     var selected = SelectedItems.keys();
 
@@ -236,7 +263,7 @@ String.prototype.ucfirst = function () {
 
         // Splits the word into two parts. One part being the first letter,
         // second being the rest of the word.
-        var parts = x[i].match(/(\w)(\w*)/);
+        var parts = x[i].match(/(\w)(.*)/);
 
         // Put it back together but uppercase the first letter and
         // lowercase the rest of the word.
@@ -249,9 +276,22 @@ String.prototype.ucfirst = function () {
 
 function zebraStyler (item, database, tr, index) {
     var tr=tr.rows[index+1];
-    if (rowIndex++ % 2) {
-        tr.style.background = '#eee';
+    hilite_row(tr,SelectedItems.get(item),item);
+}
+
+function hilite_row (row,turn_on) {
+    row.removeClassName('odd');
+    row.removeClassName('even');
+
+    if (turn_on) {
+	var cb = row.select('input')[0];
+	cb.checked = true;
+    }
+
+    if (turn_on) {
+	row.addClassName('selected') 
     } else {
-        tr.style.background = '#ccc';
+	row.removeClassName('selected');
+	row.addClassName(row.rowIndex %2 ? 'odd' : 'even');
     }
 }

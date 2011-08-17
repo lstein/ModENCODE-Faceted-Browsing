@@ -32,6 +32,9 @@ while (<FH>) {
     my @conditions;
     for my $c (split ';',$condition) {
 	my ($key,$value) = split '_',$c;
+	if ($key eq 'Compound' && $value =~ /mM/) {
+	    $value .= ' salt';
+	}
 	push @conditions,($key,$value);
     }
     $DATA{$id} = {
