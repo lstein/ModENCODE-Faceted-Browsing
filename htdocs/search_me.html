@@ -79,11 +79,45 @@
 <!-- middle column: exhibit results -->
   <td id="middle-column">
 
+<!--
     <script type="text/javascript">
       var view_class = Prototype.Browser.IE ? 'Thumbnail' : 'Tile';
       document.write('<div ex:role="view" ex:viewClass="'+view_class+'" ex:abbreviatedCount="20" id="filter_results"></div>');
     </script>
-    
+-->
+
+   <div ex:role="view" 
+	ex:viewClass="Tabular" 
+	ex:columnLabels="Select Dataset,Organism,Technique,Target,Factor,Conditions"
+	ex:rowStyler="zebraStyler"
+	ex:border="1"
+	ex:cellSpacing="0"
+	ex:cellPadding="0"
+	ex:columns=".label,.organism,.technique,.target,.factor,.Developmental-Stage" 
+	ex:abbreviatedCount="20" id="filter_results">
+     <table>
+       <tr>
+	 <td><input type="checkbox" onClick="toggle_track(this)" ex:id-subcontent="{{.label}}"></input>
+	   <span ex:content=".label"></span>
+	 </td>
+	 <td><span ex:content=".organism"></span></td>
+	 <td><span ex:content=".technique"></span></td>
+	 <td><span ex:content=".target"></span></td>
+	 <td><span ex:content=".factor"></span></td>
+	 <td>
+	   <span ex:if-exists=".Developmental-Stage">
+	     <span ex:content=".Developmental-Stage"></span>
+	   </span>
+	   <span ex:if-exists=".temperature">
+	     <span ex:content=".temperature"></span>
+	   </span>
+	   <span ex:if-exists=".Compound">
+	     <span ex:content=".Compound"></span> salt
+	   </span>
+	 </td>
+       </tr>
+     </table>
+</div>
 
     <div ex:role="lens" ex:onshow="hilight_items()" class="submission" style="display:none">
       <div class="select-track">

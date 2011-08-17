@@ -71,6 +71,17 @@
          "Developmental-Stage" : "Embryo 0-12h"
       },
       {
+         "technique" : "integrated-gene-model",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_34",
+         "label" : "Celniker embryonic 5'RACE",
+         "type" : "data set",
+         "Strain" : "Y cn bw sp",
+         "Developmental-Stage" : "Mixed Embryos 0-24h",
+         "organism" : "Dmel_r5.4"
+      },
+      {
          "technique" : "RNA-tiling-array",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
@@ -1041,6 +1052,36 @@
          "temperature" : "20 degree celsius"
       },
       {
+         "technique" : "RT-PCR",
+         "Tissue" : "ventral prothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/DMG2_RTPCR_mRNA_1404_214",
+            "fly/DMG1_RTPCR_cDNA_match_1278_214"
+         ],
+         "submission" : "modENCODE_214",
+         "label" : "DMG1 RTPCR",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RT-PCR",
+         "Tissue" : "ventral prothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/DMG1_RTPCR_mRNA_1273_215",
+            "fly/DMG2_RTPCR_cDNA_match_1412_215"
+         ],
+         "submission" : "modENCODE_215",
+         "label" : "DMG2 RTPCR",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
          "technique" : "RNA-tiling-array",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "total-RNA",
@@ -1701,6 +1742,18 @@
       },
       {
          "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "HP1a",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_323",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "HP1_wa191.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
          "Tissue" : "CNS-derived cell-line",
          "factor" : "MOD(MDG4)67.2",
          "target" : "Non-TF-Chromatin-binding-factor",
@@ -1890,6 +1943,36 @@
          "organism" : "Cele_WS190",
          "Developmental-Stage" : "Mixed Embryo",
          "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "RT-PCR",
+         "Tissue" : "ventral prothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/DMG3_RTPCR_cDNA_match_1431_339",
+            "fly/DMG3_RTPCR_mRNA_1429_339"
+         ],
+         "submission" : "modENCODE_339",
+         "label" : "DMG3 RTPCR",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RT-PCR",
+         "Tissue" : "ventral prothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/DMG4_RTPCR_cDNA_match_1456_340",
+            "fly/DMG4_RTPCR_mRNA_1452_340"
+         ],
+         "submission" : "modENCODE_340",
+         "label" : "DMG4 RTPCR",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
       },
       {
          "technique" : "RNA-seq",
@@ -2758,6 +2841,78 @@
          "Developmental-Stage" : "Adult Female"
       },
       {
+         "PCR" : "primer",
+         "technique" : "RT-PCR",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "worm/Waterston_intron_all/IntronsS4",
+            "worm/Waterston_EST_match_all/IntronsS4",
+            "worm/Waterston_intron_3553_445",
+            "worm/Waterston_match_part_3553_445"
+         ],
+         "submission" : "modENCODE_445",
+         "label" : "C. elegans Intron Identification set.20090106.2_3_2_2_3_2_2_2_2",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
+         "organism" : "Cele_WS190"
+      },
+      {
+         "PCR" : "primer",
+         "technique" : "RT-PCR",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "worm/Waterston_intron_all/IntronsS1",
+            "worm/Waterston_match_part_3633_446",
+            "worm/Waterston_EST_match_all/IntronsS1",
+            "worm/Waterston_intron_3633_446"
+         ],
+         "submission" : "modENCODE_446",
+         "label" : "C. elegans Intron Identification set.20090106.2_3_2_2_4_4_3_2_2",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
+         "organism" : "Cele_WS190"
+      },
+      {
+         "PCR" : "primer",
+         "technique" : "RT-PCR",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "worm/Waterston_EST_match_all/IntronsS2",
+            "worm/Waterston_intron_all/IntronsS2",
+            "worm/Waterston_intron_3641_447",
+            "worm/Waterston_match_part_3641_447"
+         ],
+         "submission" : "modENCODE_447",
+         "label" : "C. elegans Intron Identification set.20090106.2_3_2_2_5_3_3_2_2",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
+         "organism" : "Cele_WS190"
+      },
+      {
+         "PCR" : "primer",
+         "technique" : "RT-PCR",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "worm/Waterston_intron_3655_448",
+            "worm/Waterston_intron_all/IntronsS3",
+            "worm/Waterston_match_part_3655_448",
+            "worm/Waterston_EST_match_all/IntronsS3"
+         ],
+         "submission" : "modENCODE_448",
+         "label" : "C. elegans Intron Identification set.20090106.2_3_2_2_4_3_3_2_2",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
+         "organism" : "Cele_WS190"
+      },
+      {
          "technique" : "RNA-tiling-array",
          "Tissue" : "panneural",
          "factor" : "total-RNA",
@@ -3286,6 +3441,24 @@
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryo 14-16h",
          "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RACE",
+         "factor" : "3-prime-UTR",
+         "target" : "mRNA",
+         "Tracks" : [
+            "worm/CEUP1_three_prime_UTR_3373_515",
+            "worm/CEUP1_RST_match_3373_515",
+            "worm/CEUP1_UST_match_3373_515",
+            "worm/CEUP1_polyA_site_3373_515"
+         ],
+         "submission" : "modENCODE_515",
+         "label" : "Mixed-stage 3'RACE sequencing, alignment, and 3'UTR annotation",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Mixed Population Worms",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
       },
       {
          "technique" : "RNA-seq",
@@ -8409,6 +8582,18 @@
          "organism" : "Dmel_r5.4"
       },
       {
+         "technique" : "RT-PCR",
+         "Tissue" : "ventral prothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_2270",
+         "Cell-Line" : "CME-L1",
+         "label" : "MB6 RTPCR",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
          "RNAi" : "reagent",
          "technique" : "RNA-seq",
          "Tissue" : "embryo-derived cell-line",
@@ -8433,6 +8618,24 @@
          "type" : "data set",
          "Developmental-Stage" : "late embryonic stage",
          "organism" : "Dmel_r5.4"
+      },
+      {
+         "PCR" : "primer",
+         "technique" : "RT-PCR",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "worm/Waterston_match_part_3637_2304",
+            "worm/Waterston_intron_3637_2304",
+            "worm/Waterston_EST_match_all/IntronsChrII",
+            "worm/Waterston_intron_all/IntronsChrII"
+         ],
+         "submission" : "modENCODE_2304",
+         "label" : "C. elegans Intron Identification set.20090921.2_3_2_2_4_3_3_2_2.ws180",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
+         "organism" : "Cele_WS190"
       },
       {
          "RNAi" : "reagent",
@@ -12312,6 +12515,24 @@
          "organism" : "Dmel_r5.4"
       },
       {
+         "PCR" : "primer",
+         "technique" : "RT-PCR",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "worm/Waterston_intron_all",
+            "worm/Waterston_EST_match_all/IntronsChrI",
+            "worm/Waterston_match_part_5252_2718",
+            "worm/Waterston_intron_5252_2718"
+         ],
+         "submission" : "modENCODE_2718",
+         "label" : "C. elegans Intron Identification set.20100126.2_3_2_2_4_3_3_2_2_2.ws180",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
+         "organism" : "Cele_WS190"
+      },
+      {
          "technique" : "RNA-seq",
          "Tissue" : "CNS-derived cell-line",
          "factor" : "small-RNA",
@@ -12322,6 +12543,23 @@
          "type" : "data set",
          "Developmental-Stage" : "third instar larval stage",
          "organism" : "Dmel_r5.4"
+      },
+      {
+         "PCR" : "primer",
+         "technique" : "RACE",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "worm/SL_Acceptor_site_W2720",
+            "worm/Waterston_match_part_5277_2720",
+            "worm/Waterston_EST_match_all/SL_Acceptor_Site"
+         ],
+         "submission" : "modENCODE_2720",
+         "label" : "C. elegans SL Acceptor Site Identification set.20100203.2_3_2_2_4_3_3_2_3_3.ws180",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
+         "organism" : "Cele_WS190"
       },
       {
          "technique" : "RNA-seq",
@@ -12766,6 +13004,36 @@
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult",
          "organism" : "Cele_WS190"
+      },
+      {
+         "technique" : "DNA-seq",
+         "factor" : "Nucleosome",
+         "target" : "Chromatin-Structure",
+         "Tracks" : [
+            "worm/LiebNUCL/MXEMB"
+         ],
+         "submission" : "modENCODE_2763",
+         "label" : "Genome wide analysis of nucleosome positioning in C. elegans",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Mixed Embryo",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "DNA-seq",
+         "factor" : "Nucleosome",
+         "target" : "Chromatin-Structure",
+         "Tracks" : [
+            "worm/LiebNUCL/GermlinelessAdults"
+         ],
+         "submission" : "modENCODE_2764",
+         "label" : "Genome wide analysis of nucleosome positioning in C. elegans",
+         "type" : "data set",
+         "Strain" : "JK1107",
+         "Developmental-Stage" : "Germlineless young adult",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
       },
       {
          "technique" : "ChIP-chip",
@@ -14035,6 +14303,53 @@
       },
       {
          "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/2928_MXEMB.bam.sorted"
+         ],
+         "submission" : "modENCODE_2928",
+         "label" : "Dm mixed-stage embryos, RNA-Seq, multi mappers",
+         "type" : "data set",
+         "Strain" : "Y cn bw sp",
+         "Developmental-Stage" : "Mixed Embryos 0-24h",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "integrated-gene-model",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_2961",
+         "label" : "Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, and wormbase splice junctions",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Young Adult (pre-gravid) 25dC 46 hrs post-L1",
+         "organism" : "Cele_WS190"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "ZFP-1",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_2969",
+         "label" : "Lieb JL00006_ZFP1_N2_MXEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Mixed Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "Y39G10AR.18",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_2970",
+         "label" : "Lieb SDQ4129_Y39G10AR18_N2_MXEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Mixed Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
          "factor" : "small-RNA",
          "target" : "small-RNA",
          "Tracks" : [
@@ -14082,6 +14397,22 @@
       },
       {
          "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_RNASEQ_DUAL_CELLS/Kc_Rubin_Ecdysone",
+            "fly/2974_merged_sam"
+         ],
+         "submission" : "modENCODE_2974",
+         "Cell-Line" : "Kc-Rubin",
+         "label" : "Kc-Rubin + Ecdysone smallRNA RNA-Seq",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
          "Tissue" : "Adult ovaries",
          "factor" : "small-RNA",
          "target" : "small-RNA",
@@ -14097,9 +14428,25 @@
          "organism" : "Dmel_r5.4"
       },
       {
+         "technique" : "RNA-seq",
+         "Tissue" : "Adult ovaries",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/V097.sam.gz.bam.sorted",
+            "fly/Lai_RNASEQ_DUAL_T/CantonS_Adult_ovaries"
+         ],
+         "submission" : "modENCODE_2976",
+         "label" : "Canton S Adult ovaries",
+         "type" : "data set",
+         "Strain" : "Canton S",
+         "Developmental-Stage" : "Adult Female",
+         "organism" : "Dmel_r5.4"
+      },
+      {
          "technique" : "ChIP-seq",
          "Tissue" : "embryo-derived cell-line",
-         "factor" : "Replication-Timing",
+         "factor" : "Mcm2-7",
          "target" : "DNA-Replication",
          "Tracks" : [
             "fly/MacAlpine_MCM_CHIPSEQ_COMB/S2_DRSC_MCM_2_7"
@@ -14126,12 +14473,915 @@
       },
       {
          "technique" : "ChIP-chip",
+         "factor" : "AGO2",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_2982",
+         "label" : "Ago2 (clone 9D6).D.mel 3rd Instar Larvae Nuclei",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "3rd Instar Larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "AGO2",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_2983",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "Ago2 (clone 9D6).S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "ASH1",
          "target" : "Non-TF-Chromatin-binding-factor",
          "submission" : "modENCODE_2984",
          "Cell-Line" : "S2-DRSC",
          "label" : "ASH1 Q4177.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "BRE1",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_2985",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "BRE1(Q4146).S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "dSFMBT",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_2986",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "dSFMBT Q2642.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "E(Z)",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_2987",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "EZ-Q3421.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "E(Z)",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_2988",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "EZ-Q3421.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H2AV",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_2989",
+         "label" : "H2AV_9751.14-16 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 14-16hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H2AV",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_2990",
+         "label" : "H2AV_9751.2-4 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 2-4hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H2AV",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_2991",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "H2AV_9751.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H2Bubi",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_2992",
+         "label" : "H2B-ubiq (NRO3).14-16 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 14-16hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H2Bubi",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_2993",
+         "label" : "H2B-ubiq (NRO3).2-4 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 2-4hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "H2Bubi",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_2994",
+         "Cell-Line" : "CME-W1-Cl.8+",
+         "label" : "H2B-ubiq (NRO3).Clone_8",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K18Ac",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_2995",
+         "label" : "H3K18Ac (new lot).D.mel 3rd Instar Larvae Nuclei",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "3rd Instar Larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H3K18Ac",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_2996",
+         "Cell-Line" : "Kc167",
+         "label" : "H3K18Ac (new lot).Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K23ac",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_2997",
+         "label" : "H3K23ac.14-16 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 14-16hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H3K23ac",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_2998",
+         "Cell-Line" : "Kc167",
+         "label" : "H3K23ac.Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "H3K27me2",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_2999",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "H3K27me2-TJ.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H3K27me2",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3000",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "H3K27me2-TJ.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K36me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3001",
+         "label" : "H3K36me1.2-4 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 2-4hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "H3K36me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3002",
+         "Cell-Line" : "CME-W1-Cl.8+",
+         "label" : "H3K36me1.Clone_8",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H3K36me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3003",
+         "Cell-Line" : "Kc167",
+         "label" : "H3K36me1.Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "H3K36me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3004",
+         "Cell-Line" : "CME-W1-Cl.8+",
+         "label" : "H3K36me3.Clone_8",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "H3K79me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3005",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "H3K79Me1.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K9ac",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3006",
+         "label" : "H3K9ac.D.mel 3rd Instar Larvae Nuclei",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "3rd Instar Larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H3K9ac",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3007",
+         "Cell-Line" : "Kc167",
+         "label" : "H3K9ac.Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K9acS10P",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3008",
+         "label" : "H3K9acS10P (new abcam lot).D.mel 3rd Instar Larvae Nuclei",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "3rd Instar Larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H3K9acS10P",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3009",
+         "Cell-Line" : "Kc167",
+         "label" : "H3K9acS10P (new abcam lot).Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "H3K9acS10P",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3010",
+         "Cell-Line" : "CME-W1-Cl.8+",
+         "label" : "H3K9acS10P (new lot).Clone_8",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H3K9me2",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3011",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "H3K9me2-Ab2 (new lot).S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K9me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3012",
+         "label" : "H3K9me3 abcam.2-4 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 2-4hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H3K9me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3013",
+         "Cell-Line" : "Kc167",
+         "label" : "H3K9me3 abcam.Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H4K20me",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3014",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "H4K20me.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "HP1b",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3015",
+         "label" : "HP1b (Henikoff).14-16 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 14-16hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "HP1b",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3017",
+         "Cell-Line" : "CME-W1-Cl.8+",
+         "label" : "HP1b (Henikoff).Clone_8",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "HP1b",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3019",
+         "Cell-Line" : "Kc167",
+         "label" : "HP1b (Henikoff).Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "HP1b",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3020",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "HP1b Q4114.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "HP1c",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3021",
+         "label" : "HP1c (MO 462).14-16 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 14-16hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "HP1c",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3022",
+         "label" : "HP1c (MO 462).2-4 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 2-4hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "HP1c",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3023",
+         "label" : "HP1c (MO 462).D.mel 3rd Instar Larvae Nuclei",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "3rd Instar Larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "HP1a",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3024",
+         "label" : "HP1 wa191.14-16 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 14-16hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "HP2",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3025",
+         "label" : "HP2 (Ab2-90).14-16 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 14-16hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "HP2",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3026",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "HP2 (Ab2-90).BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "HP2",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3027",
+         "Cell-Line" : "CME-W1-Cl.8+",
+         "label" : "HP2 (Ab2-90).Clone_8",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "HP2",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3028",
+         "label" : "HP2 (Ab2-90).D.mel 3rd Instar Larvae Nuclei",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "3rd Instar Larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "HP2",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3029",
+         "Cell-Line" : "Kc167",
+         "label" : "HP2 (Ab2-90).Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "ISWI",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3030",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "ISWI_Q4095.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "ISWI",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3031",
+         "Cell-Line" : "Kc167",
+         "label" : "ISWI_Q4095.Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "ISWI",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3032",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "ISWI_Q4095.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "JHDM1",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3033",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "JHDM1_Q2634.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "JIL1",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3034",
+         "label" : "JIL1_Q3433.14-16 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 14-16hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "JIL1",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3035",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "JIL1_Q3433.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "JIL1",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3036",
+         "Cell-Line" : "CME-W1-Cl.8+",
+         "label" : "JIL1_Q3433.Clone_8",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "JIL1",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3037",
+         "Cell-Line" : "Kc167",
+         "label" : "JIL1_Q3433.Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "JIL-1",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3038",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "JIL-1(Q4170).S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "MBD-R2",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3039",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "MBD-R2(Q4167).S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "MLE",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3040",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "MLE_Q4142.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "MOF",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3041",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "MOF_Q4145.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "MOF",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3042",
+         "Cell-Line" : "CME-W1-Cl.8+",
+         "label" : "MOF_Q4145.Clone_8",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "MOF",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3043",
+         "Cell-Line" : "Kc167",
+         "label" : "MOF_Q4145.Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "MOF",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3044",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "MOF_Q4145.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "MRG15",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3045",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "MRG15_Q2481.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "MRG15",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3046",
+         "Cell-Line" : "Kc167",
+         "label" : "MRG15_Q2481.Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "MRG15",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3047",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "MRG15_Q2481.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "Nurf301",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3048",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "Nurf301_Q4159.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "PCL",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3049",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "PCL Q3412.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "PIWI",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3050",
+         "Cell-Line" : "CME-W1-Cl.8+",
+         "label" : "PIWI-Q2569.Clone_8",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "PIWI",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3051",
+         "label" : "PIWI-Q2569.D.mel 3rd Instar Larvae Nuclei",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "3rd Instar Larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "POF",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3052",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "POF (MO 459).BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "POF",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3053",
+         "label" : "POF (MO 459).D.mel 3rd Instar Larvae Nuclei",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "3rd Instar Larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "PR-Set7",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3054",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "PR-Set7_Q3484.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "Psc",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3055",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "Psc.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "Psc",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3056",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "Psc.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "RPD3",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3057",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RPD3-Q3451.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "SPT16",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3058",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "SPT16_Q2583.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "Su(var)3-7",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3060",
+         "Cell-Line" : "Kc167",
+         "label" : "Su(var)3-7-Q3448.Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "Su(var)3-9",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3061",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "Su(var)3-9-Q2598.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "WDS",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3062",
+         "Cell-Line" : "Kc167",
+         "label" : "WDS_Q2691.Kc",
          "type" : "data set",
          "Developmental-Stage" : "late embryonic stage",
          "organism" : "Dmel_r5.4"
@@ -14147,6 +15397,126 @@
          "type" : "data set",
          "Developmental-Stage" : "third instar larval stage",
          "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "ceh-26",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3068",
+         "label" : "Identification of Transcription Factor CEH-26::GFP Binding Regions in LE",
+         "type" : "data set",
+         "Strain" : "OP500",
+         "Developmental-Stage" : "late embryo",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "mef-2",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3071",
+         "label" : "Identification of Transcription Factor MEF-2::GFP Binding Regions in L1",
+         "type" : "data set",
+         "Strain" : "OP301",
+         "Developmental-Stage" : "fed L1",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "efl-1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3072",
+         "label" : "Identification of Transcription Factor Ppie1_EFL1::GFP Binding Regions in YA",
+         "type" : "data set",
+         "Strain" : "YL445",
+         "Developmental-Stage" : "Young Adult",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "dpl-1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3073",
+         "label" : "Identification of Transcription Factor Ppie1_DPL1::GFP Binding Regions in YA",
+         "type" : "data set",
+         "Strain" : "YL390",
+         "Developmental-Stage" : "Young Adult",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "efl-1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3074",
+         "label" : "Identification of Transcription Factor Pefl1_EFL1::GFP Binding Regions in L1",
+         "type" : "data set",
+         "Strain" : "YL424",
+         "Developmental-Stage" : "fed L1",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "dpl-1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3075",
+         "label" : "Identification of Transcription Factor Pdpl1_DPL1::GFP Binding Regions in L1",
+         "type" : "data set",
+         "Strain" : "YL425",
+         "Developmental-Stage" : "fed L1",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "ces-1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3076",
+         "label" : "Identification of Transcription Factor CES1::GFP Binding Regions in L1",
+         "type" : "data set",
+         "Strain" : "OP174",
+         "Developmental-Stage" : "fed L1",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "lin-15B",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3078",
+         "label" : "Identification of Transcription Factor LIN15B::GFP Binding Regions in L4",
+         "type" : "data set",
+         "Strain" : "OP184",
+         "Developmental-Stage" : "L4",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "nhr-11",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3079",
+         "label" : "Identification of Transcription Factor NHR11::GFP Binding Regions in L2",
+         "type" : "data set",
+         "Strain" : "OP305",
+         "Developmental-Stage" : "L2",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "sea-2",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3082",
+         "label" : "Identification of Transcription Factor SEA2::GFP Binding Regions in L3",
+         "type" : "data set",
+         "Strain" : "OP193",
+         "Developmental-Stage" : "L3",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
       },
       {
          "technique" : "RNA-seq",
@@ -14215,6 +15585,1136 @@
          "organism" : "Dmoj_r1.3"
       },
       {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG10128.sub_3089.merged"
+         ],
+         "submission" : "modENCODE_3089",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG10128 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG9373.sub_3090.merged"
+         ],
+         "submission" : "modENCODE_3090",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG9373 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG8781.sub_3091.merged"
+         ],
+         "submission" : "modENCODE_3091",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG8781 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG8636.sub_3092.merged"
+         ],
+         "submission" : "modENCODE_3092",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG8636 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG6779.sub_3094.merged"
+         ],
+         "submission" : "modENCODE_3094",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG6779 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG6227.sub_3095.merged"
+         ],
+         "submission" : "modENCODE_3095",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG6227 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG5655.sub_3096.merged"
+         ],
+         "submission" : "modENCODE_3096",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG5655 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG33106.sub_3097.merged"
+         ],
+         "submission" : "modENCODE_3097",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG33106 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG32423.sub_3098.merged"
+         ],
+         "submission" : "modENCODE_3098",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG32423 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG17838.sub_3099.merged"
+         ],
+         "submission" : "modENCODE_3099",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG17838 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG1101.sub_3100.merged"
+         ],
+         "submission" : "modENCODE_3100",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG1101 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG10203.sub_3101.merged"
+         ],
+         "submission" : "modENCODE_3101",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG10203 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG8749.sub_3102.merged"
+         ],
+         "submission" : "modENCODE_3102",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG8749 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG5821.sub_3103.merged"
+         ],
+         "submission" : "modENCODE_3103",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG5821 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG5170.sub_3104.merged"
+         ],
+         "submission" : "modENCODE_3104",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG5170 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG4602.sub_3105.merged"
+         ],
+         "submission" : "modENCODE_3105",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG4602 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG6841.sub_3106.merged"
+         ],
+         "submission" : "modENCODE_3106",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG6841 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG6203.sub_3107.merged"
+         ],
+         "submission" : "modENCODE_3107",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG6203 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG5422.sub_3108.merged"
+         ],
+         "submission" : "modENCODE_3108",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG5422 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG8912.sub_3109.merged"
+         ],
+         "submission" : "modENCODE_3109",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG8912 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG8241.sub_3110.merged"
+         ],
+         "submission" : "modENCODE_3110",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG8241 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG16901.sub_3111.merged"
+         ],
+         "submission" : "modENCODE_3111",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG16901 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG13425.sub_3112.merged"
+         ],
+         "submission" : "modENCODE_3112",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG13425 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG10279.sub_3113.merged"
+         ],
+         "submission" : "modENCODE_3113",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG10279 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG6049.sub_3114.merged"
+         ],
+         "submission" : "modENCODE_3114",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG6049 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG3312.sub_3115.merged"
+         ],
+         "submission" : "modENCODE_3115",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG3312 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG31716.sub_3116.merged"
+         ],
+         "submission" : "modENCODE_3116",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG31716 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG30122.sub_3117.merged"
+         ],
+         "submission" : "modENCODE_3117",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG30122 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG11266.sub_3118.merged"
+         ],
+         "submission" : "modENCODE_3118",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG11266 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG8019.sub_3119.merged"
+         ],
+         "submission" : "modENCODE_3119",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG8019 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG7971.sub_3120.merged"
+         ],
+         "submission" : "modENCODE_3120",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG7971 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG4816.sub_3121.merged"
+         ],
+         "submission" : "modENCODE_3121",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG4816 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG3584.sub_3122.merged"
+         ],
+         "submission" : "modENCODE_3122",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG3584 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG1646.sub_3123.merged"
+         ],
+         "submission" : "modENCODE_3123",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG1646 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG10851.sub_3124.merged"
+         ],
+         "submission" : "modENCODE_3124",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG10851 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG5099.sub_3125.merged"
+         ],
+         "submission" : "modENCODE_3125",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG5099 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG4760.sub_3126.merged"
+         ],
+         "submission" : "modENCODE_3126",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG4760 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG18350.sub_3127.merged"
+         ],
+         "submission" : "modENCODE_3127",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG18350 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG16788.sub_3128.merged"
+         ],
+         "submission" : "modENCODE_3128",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG16788 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG1559.sub_3129.merged"
+         ],
+         "submission" : "modENCODE_3129",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG1559 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG10377.sub_3130.merged"
+         ],
+         "submission" : "modENCODE_3130",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG10377 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG9412.sub_3131.merged"
+         ],
+         "submission" : "modENCODE_3131",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG9412 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG6946.sub_3132.merged"
+         ],
+         "submission" : "modENCODE_3132",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG6946 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG1987.sub_3133.merged"
+         ],
+         "submission" : "modENCODE_3133",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG1987 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG9983.sub_3134.merged"
+         ],
+         "submission" : "modENCODE_3134",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG9983 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG5442.sub_3135.merged"
+         ],
+         "submission" : "modENCODE_3135",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG5442 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG31000.sub_3136.merged"
+         ],
+         "submission" : "modENCODE_3136",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG31000 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG17136.sub_3137.merged"
+         ],
+         "submission" : "modENCODE_3137",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG17136 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/Untreated.sub_3138.merged"
+         ],
+         "submission" : "modENCODE_3138",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi Untreated in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG4878.sub_3139.merged"
+         ],
+         "submission" : "modENCODE_3139",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG4878 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG4262.sub_3140.merged"
+         ],
+         "submission" : "modENCODE_3140",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG4262 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG18426.sub_3141.merged"
+         ],
+         "submission" : "modENCODE_3141",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG18426 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG12749.sub_3142.merged"
+         ],
+         "submission" : "modENCODE_3142",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG12749 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG7878.sub_3143.merged"
+         ],
+         "submission" : "modENCODE_3143",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG7878 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG5836.sub_3144.merged"
+         ],
+         "submission" : "modENCODE_3144",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG5836 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG3249.sub_3145.merged"
+         ],
+         "submission" : "modENCODE_3145",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG3249 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "RNAi" : "reagent",
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CG10328.sub_3146.merged"
+         ],
+         "submission" : "modENCODE_3146",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNAi CG10328 in S2-DRSC RNA-seq uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "daf-12",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3147",
+         "label" : "Identification of Transcription Factor DAF12::GFP Binding Regions in L3",
+         "type" : "data set",
+         "Strain" : "OP167",
+         "Developmental-Stage" : "L3",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "F16B12.6",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3148",
+         "label" : "Identification of Transcription Factor F16B12.6::GFP Binding Regions in L1",
+         "type" : "data set",
+         "Strain" : "OP114",
+         "Developmental-Stage" : "fed L1",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "gei-11",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3149",
+         "label" : "Identification of Transcription Factor GEI-11::GFP Binding Regions in L2",
+         "type" : "data set",
+         "Strain" : "OP179",
+         "Developmental-Stage" : "L2",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K79me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3151",
+         "label" : "Lieb AB2621_H3K79ME3361576_N2_MXEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Mixed Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "N/A (negative control IgG)",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3153",
+         "label" : "Lieb AB46540_NIGG_N2_MXEMB",
+         "type" : "data set",
+         "Strain" : "Ab:AB46540 NIgG:JL:1",
+         "Developmental-Stage" : "Mixed Embryo",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "RNA-tiling-array",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3154",
+         "label" : "Lieb SDQ4051_LEM2_N2_MXEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Mixed Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "eor-1",
+         "target" : "Transcriptional-Factor",
+         "Tracks" : [
+            "worm/Snyder_ANTIGFP_WIG_EOR1_COMB"
+         ],
+         "submission" : "modENCODE_3155",
+         "label" : "Identification of Transcription Factor EOR-1::GFP Binding Regions in L3",
+         "type" : "data set",
+         "Strain" : "OP81",
+         "Developmental-Stage" : "L3",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "alr-1",
+         "target" : "Transcriptional-Factor",
+         "Tracks" : [
+            "worm/Snyder_ANTIGFP_WIG_ALR1_COMB"
+         ],
+         "submission" : "modENCODE_3156",
+         "label" : "Identification of Transcription Factor ALR-1::GFP Binding Regions in L2",
+         "type" : "data set",
+         "Strain" : "OP200",
+         "Developmental-Stage" : "L2",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "pes-1",
+         "target" : "Transcriptional-Factor",
+         "Tracks" : [
+            "worm/Snyder_ANTIGFP_WIG_COMB_PES1_L4_GFP"
+         ],
+         "submission" : "modENCODE_3157",
+         "label" : "Identification of Transcription Factor PES-1::GFP Binding Regions in L4",
+         "type" : "data set",
+         "Strain" : "OP87",
+         "Developmental-Stage" : "L4",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "pha-4",
+         "target" : "Transcriptional-Factor",
+         "Tracks" : [
+            "worm/Snyder_PHA4_GFP_COMB/PHA4_L2_GFP"
+         ],
+         "submission" : "modENCODE_3158",
+         "label" : "Identification of Transcription Factor PHA-4::GFP Binding Regions in L2",
+         "type" : "data set",
+         "Strain" : "OP37",
+         "Developmental-Stage" : "L2",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "egl-5",
+         "target" : "Transcriptional-Factor",
+         "Tracks" : [
+            "worm/Snyder_ANTIGFP_WIG_COMB_EGL5_L3_GFP"
+         ],
+         "submission" : "modENCODE_3159",
+         "label" : "Identification of Transcription Factor EGL-5::GFP Binding Regions in L3",
+         "type" : "data set",
+         "Strain" : "OP54",
+         "Developmental-Stage" : "L3",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "pha-4",
+         "target" : "Transcriptional-Factor",
+         "Tracks" : [
+            "worm/Snyder_PHA4_GFP_COMB/PHA4_GFP_YA"
+         ],
+         "submission" : "modENCODE_3161",
+         "label" : "Identification of Transcription Factor PHA-4::GFP Binding Regions in YA",
+         "type" : "data set",
+         "Strain" : "OP37",
+         "Developmental-Stage" : "Young Adult",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "LEM-2",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3164",
+         "label" : "Lieb SDQ4051_LEM2_SP646_MXEMB_SP646",
+         "type" : "data set",
+         "Strain" : "SP646",
+         "Developmental-Stage" : "Mixed Embryo",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "LEM-2",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3165",
+         "label" : "Lieb SDQ3891_LEM2_VC1317_MXEMB",
+         "type" : "data set",
+         "Strain" : "VC1317",
+         "Developmental-Stage" : "Mixed Embryo",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "LEM-2",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3166",
+         "label" : "Lieb SDQ4051_LEM2_N2_MXEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Mixed Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H3K36me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3170",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "H3K36me1.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K27me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3171",
+         "label" : "Strome HK00013_H3K27ME31E7_N2_EEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
          "technique" : "RNA-tiling-array",
          "Tissue" : "reference (early embryo)",
          "factor" : "total-RNA",
@@ -14244,6 +16744,50 @@
          "Strain" : "NC1750",
          "Developmental-Stage" : "Mixed stage of embryos 20dC",
          "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K27me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3179",
+         "label" : "Strome UP07448_H3K27ME124439_N2_EEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K27me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3180",
+         "label" : "Strome TJ00001_H3K27ME18835_N2_EEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H4K8ac",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3181",
+         "label" : "Strome AB15823_H4K8AC487128_N2_EEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H4K16ac",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3182",
+         "label" : "Strome MP07329_H4K16ACDAM1612187_N2_EEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
          "temperature" : "20 degree celsius"
       },
       {
@@ -14319,6 +16863,70 @@
          "organism" : "Dmel_r5.4"
       },
       {
+         "technique" : "ChIP-chip",
+         "factor" : "H4K20me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3196",
+         "label" : "Strome DISN147_H4K20ME1001_N2_LTEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Late Embryos",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K4me3",
+         "target" : "Histone-Modification",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K4ME3_N2_EEMB"
+         ],
+         "submission" : "modENCODE_3197",
+         "label" : "Strome WA30534819_H3K4ME3_N2_EEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K4me2",
+         "target" : "Histone-Modification",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K4ME2_N2_EEMB"
+         ],
+         "submission" : "modENCODE_3198",
+         "label" : "StromeWA30834809_H3K4ME2_N2_EEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K4me2",
+         "target" : "Histone-Modification",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_HIS/MP07030_H3K4ME2DAM1570816_N2_EEMB"
+         ],
+         "submission" : "modENCODE_3199",
+         "label" : "Strome MP07030_H3K4ME2_DAM1570816_N2_EEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K27ac",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3200",
+         "label" : "Strome WA30634849_H3K27AC_N2_EEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
          "technique" : "CNV-seq",
          "Tissue" : "dorsal mesothoracic disc",
          "factor" : "Replication-Copy-Number",
@@ -14331,6 +16939,3073 @@
          "label" : "CNV CME W1 Cl.8+ Cells",
          "type" : "data set",
          "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K79me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3202",
+         "label" : "Lieb AB2886_H3K79ME1361912_N2_MXEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Mixed Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K27me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3203",
+         "label" : "Ahringer UP07448_H3K27ME124439_N2_L3",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L3 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K79me2",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3204",
+         "label" : "Lieb AB3594_H3K79ME2346021_N2_MXEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Mixed Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K36me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3205",
+         "label" : "Ahringer AB9048_H3K36ME1206009_N2_L3",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L3 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "Histone H3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3206",
+         "label" : "Ahringer AB1791_H3_N2_L3",
+         "type" : "data set",
+         "Strain" : "Ab:AB1791 H3 :JL:1",
+         "Developmental-Stage" : "L3 Larva",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "W03F9.2",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3217",
+         "label" : "Identification of Transcription Factor W03F9.2::GFP Binding Regions in YA",
+         "type" : "data set",
+         "Strain" : "OP215",
+         "Developmental-Stage" : "L4-Young Adult",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "zag-1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3220",
+         "label" : "Identification of Transcription Factor ZAG-1::GFP Binding Regions in L2",
+         "type" : "data set",
+         "Strain" : "OP83",
+         "Developmental-Stage" : "L2",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "ces-1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3221",
+         "label" : "Identification of Transcription Factor CES-1::GFP Binding Regions in L4",
+         "type" : "data set",
+         "Strain" : "OP174",
+         "Developmental-Stage" : "L4",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "unc-62",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3222",
+         "label" : "Identification of Transcription Factor UNC-62::GFP Binding Regions in L3",
+         "type" : "data set",
+         "Strain" : "OP600",
+         "Developmental-Stage" : "L3",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "nhr-28",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3223",
+         "label" : "Identification of Transcription Factor NHR-28::GFP Binding Regions in L4",
+         "type" : "data set",
+         "Strain" : "OP317",
+         "Developmental-Stage" : "L4",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "fos-1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3224",
+         "label" : "Identification of Transcription Factor FOS-1::GFP Binding Regions in L2",
+         "type" : "data set",
+         "Strain" : "OP304",
+         "Developmental-Stage" : "L2",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "dfd",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3229",
+         "label" : "10T-E16-24h_GFP",
+         "type" : "data set",
+         "Strain" : "10T-DFD-GFP",
+         "Developmental-Stage" : "Embryo 16-24h",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "dfd",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3230",
+         "label" : "10T-W3L_GFP",
+         "type" : "data set",
+         "Strain" : "10T-DFD-GFP",
+         "Developmental-Stage" : "L3",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "cad",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3231",
+         "label" : "7T_3dFemale",
+         "type" : "data set",
+         "Strain" : "7T-CAD",
+         "Developmental-Stage" : "Adult Female 3days",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "Sin3A",
+         "target" : "Transcriptional-Factor",
+         "Tracks" : [
+            "fly/White_CS_SG_CHROMISOL/Sin3A"
+         ],
+         "submission" : "modENCODE_3232",
+         "label" : "E0-12_Sin3A",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 0-12h"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "nejire",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3233",
+         "label" : "E0-4_CBP",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "E0-4"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "tll",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3234",
+         "label" : "E0-4_GFP[tll]",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "E0-4"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "Disco",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3235",
+         "label" : "E0-8_disco",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 0-8"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "dfd",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3236",
+         "label" : "E0-8_GFP[Dfd]",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 0-8"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "PCL",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3237",
+         "label" : "E0-8_Pcl",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 0-8"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "GAF",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3238",
+         "label" : "E16-24_Trl",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 16-24h"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "eve",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3239",
+         "label" : "E1-6_GFP[eve]",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 1-6h"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "CG8478",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3240",
+         "label" : "E8-16_CG8478",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 8-16h"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "Huckebein",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3242",
+         "label" : "E8-16_hkb",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 8-16h"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "KNI",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3243",
+         "label" : "E8-16_kni",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 8-16h"
+      },
+      {
+         "devstage" : "DevStage:Mixed Embryos 0-24h:SC:1",
+         "technique" : "ChIP-seq",
+         "factor" : "ORC2",
+         "target" : "DNA-Replication",
+         "Tracks" : [
+            "fly/MacAlpine_CHIPSEQ_TISSUES/Overnight_embryo_ORC"
+         ],
+         "read" : "length",
+         "submission" : "modENCODE_3247",
+         "label" : "24 Hour ORC ChIP-Seq experiment",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Mixed Embryos 0-24h"
+      },
+      {
+         "technique" : "RNA-tiling-array",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/EMBRYO_SG7b_Total"
+         ],
+         "submission" : "modENCODE_3248",
+         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_4-6h_TotalRNA_p200_224-226-228_7bp",
+         "type" : "data set",
+         "Strain" : "Y cn bw sp",
+         "Developmental-Stage" : "Embryo 4-6h",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-tiling-array",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/EMBRYO_SG7b_polyA"
+         ],
+         "submission" : "modENCODE_3250",
+         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_4-6h_Poly-Ap_p200_409-410-411_7bp",
+         "type" : "data set",
+         "Strain" : "Y cn bw sp",
+         "Developmental-Stage" : "Embryo 4-6h",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "devstage" : "DevStage:Mixed Embryos 0-24h:SC:1",
+         "technique" : "ChIP-seq",
+         "factor" : "polII",
+         "target" : "Transcriptional-Factor",
+         "Tracks" : [
+            "fly/MacAlpine_CHIPSEQ_TISSUES/Overnight_embryo_PolII"
+         ],
+         "read" : "length",
+         "submission" : "modENCODE_3251",
+         "label" : "24 Hour RNA PolII ChIP-Seq experiment",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Mixed Embryos 0-24h"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "base pair" : "36 base pair",
+         "Tissue" : "salivary gland",
+         "factor" : "ORC2",
+         "whole" : "organism",
+         "target" : "DNA-Replication",
+         "Tracks" : [
+            "fly/MacAlpine_CHIPSEQ_TISSUES/Salivary_Gland_ORC"
+         ],
+         "submission" : "modENCODE_3253",
+         "label" : "SG ORC ChIP-Seq experiment",
+         "type" : "data set",
+         "Strain" : "SuUR - Orr-Weaver",
+         "Developmental-Stage" : "L3 stage wandering larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "unc-62",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3254",
+         "label" : "Identification of Transcription Factor UNC-62::GFP Binding Regions in L2",
+         "type" : "data set",
+         "Strain" : "OP600",
+         "Developmental-Stage" : "L2",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/1182-4H.sub_3255.bam"
+         ],
+         "submission" : "modENCODE_3255",
+         "Cell-Line" : "1182-4H",
+         "label" : "Cell line 1182-4H stranded library prep, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD16-c3.sub_3256.bam"
+         ],
+         "submission" : "modENCODE_3256",
+         "Cell-Line" : "ML-DmD16-c3",
+         "label" : "Cell line ML-DmD16-3 stranded library prep, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD9.sub_3257.bam"
+         ],
+         "submission" : "modENCODE_3257",
+         "Cell-Line" : "ML-DmD9",
+         "label" : "Cell line ML-DmD9 stranded library prep, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD8.sub_3258.bam"
+         ],
+         "submission" : "modENCODE_3258",
+         "Cell-Line" : "ML-DmD8",
+         "label" : "Cell line ML-DmD8 stranded library prep, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD32.sub_3259.bam"
+         ],
+         "submission" : "modENCODE_3259",
+         "Cell-Line" : "ML-DmD32",
+         "label" : "Cell line ML-DmD32 stranded library prep, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/GM2.sub_3260.bam"
+         ],
+         "submission" : "modENCODE_3260",
+         "Cell-Line" : "GM2",
+         "label" : "Cell line GM2 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD21.sub_3261.bam"
+         ],
+         "submission" : "modENCODE_3261",
+         "Cell-Line" : "ML-DmD21",
+         "label" : "Cell line ML-DMD21 stranded library prep, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/BG2c2.sub_3262.bam"
+         ],
+         "submission" : "modENCODE_3262",
+         "Cell-Line" : "ML-DmBG2-c2",
+         "label" : "Cell line BG2c2 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/Kc167.sub_3263.bam"
+         ],
+         "submission" : "modENCODE_3263",
+         "Cell-Line" : "Kc167",
+         "label" : "Cell line Kc167 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CME_W2.sub_3264.bam"
+         ],
+         "submission" : "modENCODE_3264",
+         "Cell-Line" : "CME W2",
+         "label" : "Cell line CME_W2 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryonic/larval hemocyte",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/MBN2.sub_3265.bam"
+         ],
+         "submission" : "modENCODE_3265",
+         "Cell-Line" : "Mbn2",
+         "label" : "Cell line MBN2 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/S1.sub_3266.bam"
+         ],
+         "submission" : "modENCODE_3266",
+         "Cell-Line" : "S1",
+         "label" : "Cell line S1 stranded library prep, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/S2Rplus.sub_3267.bam"
+         ],
+         "submission" : "modENCODE_3267",
+         "Cell-Line" : "S2R+",
+         "label" : "Cell line S2R+ univ RNA-seq primer1 part # 15005502, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD17-c3.sub_3268.bam"
+         ],
+         "submission" : "modENCODE_3268",
+         "Cell-Line" : "ML-DmD17-c3",
+         "label" : "Cell line ML-DmD17-c3 stranded library prep, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "eye-antenna disc-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD11.sub_3270.bam"
+         ],
+         "submission" : "modENCODE_3270",
+         "Cell-Line" : "ML-DmD11",
+         "label" : "Cell line ML-DmD11 stranded library prep, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "imaginal disc-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD4-c1.sub_3271.bam"
+         ],
+         "submission" : "modENCODE_3271",
+         "Cell-Line" : "ML-DmD4-c1",
+         "label" : "Cell line ML-DmD4-c1 stranded library prep, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmBG1-c1.sub_3272.bam"
+         ],
+         "submission" : "modENCODE_3272",
+         "Cell-Line" : "ML-DmBG1-c1",
+         "label" : "Cell line ML-DmBG1-c1 stranded library prep, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/S3.sub_3273.bam"
+         ],
+         "submission" : "modENCODE_3273",
+         "Cell-Line" : "S3",
+         "label" : "Cell line S3 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "antenna disc-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DMD20-c5.sub_3274.bam"
+         ],
+         "submission" : "modENCODE_3274",
+         "Cell-Line" : "ML-DmD20-c5",
+         "label" : "Cell line ML-DMD20-c5 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "DNA-seq",
+         "factor" : "Nucleosome",
+         "target" : "Chromatin-Structure",
+         "submission" : "modENCODE_3276",
+         "label" : "Genome wide analysis of nucleosome positioning in C. elegans",
+         "type" : "data set",
+         "Strain" : "fem-2(b245)",
+         "Developmental-Stage" : "Germline containing young adult",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "Tissue" : "fat body",
+         "factor" : "Replication-Copy-Number",
+         "whole" : "organism",
+         "target" : "DNA-Replication",
+         "Tracks" : [
+            "fly/MacAlpine_CNV_TISSUES/Fatbody_CGH"
+         ],
+         "submission" : "modENCODE_3277",
+         "label" : "Fat Body - CGH Differential Replication",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "L3 stage wandering larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "Tissue" : "midgut",
+         "factor" : "Replication-Copy-Number",
+         "whole" : "organism",
+         "target" : "DNA-Replication",
+         "Tracks" : [
+            "fly/MacAlpine_CNV_TISSUES/Midgut_CGH"
+         ],
+         "submission" : "modENCODE_3278",
+         "label" : "Midgut - CGH Differential Replication",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "L3 stage wandering larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "ASH1",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3279",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "ASH1 Q4177.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "CTCF",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3280",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "CTCF.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "CTCF",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3281",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "CTCF.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H2AV",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3282",
+         "Cell-Line" : "Kc167",
+         "label" : "H2AV_9751.Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H2BK5ac",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3283",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "H2BK5ac.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H4K20me",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3285",
+         "label" : "H4K20me (2nd lot).14-16 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 14-16hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "H4K20me",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3286",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "H4K20me (2nd lot).BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H4K20me",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3287",
+         "Cell-Line" : "Kc167",
+         "label" : "H4K20me (2nd lot).Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "H4K8ac",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3288",
+         "Cell-Line" : "CME-W1-Cl.8+",
+         "label" : "H4K8ac.Clone_8",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H4K8ac",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3289",
+         "Cell-Line" : "Kc167",
+         "label" : "H4K8ac.Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "HP1b",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3290",
+         "label" : "HP1b Q4114.14-16 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 14-16hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "HP1c",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3291",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "HP1c Q4064.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "MSL-1",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3293",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "MSL-1(Q4453).S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "PolII",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3295",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "RNA Pol II (abcam).S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "RPD3",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3296",
+         "Cell-Line" : "Kc167",
+         "label" : "RPD3-Q3451.Kc",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "Su(var)3-7",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3297",
+         "label" : "Su(var)3-7-Q3448.14-16 hr OR embryo",
+         "type" : "data set",
+         "Strain" : "Oregon-R",
+         "Developmental-Stage" : "Embryo 14-16hr OR",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "XNP",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3298",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "XNP (Fyodorov).S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "H1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3299",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "H1.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3300",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "H1.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "H3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3302",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "H3 antibody3.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "H4",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3303",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "H4.BG3",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H4",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3304",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "H4.S2",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_GM2.sorted",
+            "fly/Lai_RNASEQ_DUAL_CELLS/GM2cells"
+         ],
+         "submission" : "modENCODE_3307",
+         "Cell-Line" : "GM2",
+         "label" : "Lai_GM2/BS32/BS33",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmD16c3",
+            "fly/V034.sam.gz.bam.sorted"
+         ],
+         "submission" : "modENCODE_3309",
+         "Cell-Line" : "ML-DmD16-c3",
+         "label" : "Lai - ML-DmD16c3/BS13",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "antenna disc-derived cell-line",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_RNASEQ_DUAL_CELLS/MLDmD20c5",
+            "fly/Lai_ML-DmD20c5.sorted"
+         ],
+         "submission" : "modENCODE_3310",
+         "Cell-Line" : "ML-DmD20-c5",
+         "label" : "Lai_ML-DmD20c5/BS16/BS18",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_RNASEQ_DUAL_CELLS/S1",
+            "fly/V032.sam.gz.bam.sorted"
+         ],
+         "submission" : "modENCODE_3311",
+         "Cell-Line" : "S1",
+         "label" : "Lai - S1/BS79",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "PCR" : "primer",
+         "technique" : "RACE",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3312",
+         "label" : "C. elegans Transcription Start Site Identification set.20101124.2_3_2_2_4_3_3_2_4_4.ws180",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
+         "organism" : "Cele_WS190"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "Adult ovaries",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_r2d2_ovary",
+            "fly/Lai_RNASEQ_DUAL_T/r2d2_ovaries_totalRNA"
+         ],
+         "submission" : "modENCODE_3314",
+         "label" : "r2d2 ovary total RNA",
+         "type" : "data set",
+         "Strain" : "r2d2 1",
+         "Developmental-Stage" : "Adult Female",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "Adult ovaries",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_ago2_ovary.sorted",
+            "fly/Lai_RNASEQ_DUAL_T/Ago2-414_ovaries_total_RNA"
+         ],
+         "submission" : "modENCODE_3315",
+         "label" : "ago2[414] ovary total RNA",
+         "type" : "data set",
+         "Strain" : "Ago2 414",
+         "Developmental-Stage" : "Adult Female",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3317.sorted"
+         ],
+         "submission" : "modENCODE_3317",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "ML-DmBG3.c2_Capped_small-RNA_max-200nt_PolyA-tail_RNA-seq",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/V014.sam.gz.bam.sorted",
+            "fly/Lai_RNASEQ_DUAL_CELLS/S2-DRSC_DTT-4h"
+         ],
+         "submission" : "modENCODE_3318",
+         "Cell-Line" : "S2-HDR",
+         "label" : "S2 + DTT-4h smallRNA RNA-Seq",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K79me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3320",
+         "label" : "Lieb AB2886_H3K79ME1_361912_N2_L3",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L3 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K79me2",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3321",
+         "label" : "Lieb AB3594_H3K79ME2346021_N2_L3",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L3 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K79me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3322",
+         "label" : "Lieb AB2621_H3K79ME3_361576_N2_L3",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L3 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "submission" : "modENCODE_3326",
+         "label" : "N2 untreated control 1 day post-L4 small ncRNA RNA-Seq",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "yAdult 23dC DAY1post-L4 molt",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "submission" : "modENCODE_3327",
+         "label" : "N2 heatshock 32C-6hr 1 day post-L4 small ncRNA RNA-Seq",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "yAdult 23dC DAY1post-L4 molt",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "submission" : "modENCODE_3328",
+         "label" : "PA14 12-hr treatment 1 day post-L4 small ncRNA RNA-Seq",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "yAdult 23dC DAY1post-L4 molt",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "submission" : "modENCODE_3329",
+         "label" : "L1 arrest small ncRNA RNA-seq",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "L1 arrest larva 24hr post-L1",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3358.sorted"
+         ],
+         "submission" : "modENCODE_3358",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "S2-DRSC_Capped_small-RNA_max-200nt_PolyA-tail_RNA-seq",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3359.sorted"
+         ],
+         "submission" : "modENCODE_3359",
+         "Cell-Line" : "Kc167",
+         "label" : "Kc-167_Capped_small-RNA_max-200nt_PolyA-tail_RNA-seq",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3360.sorted"
+         ],
+         "submission" : "modENCODE_3360",
+         "Cell-Line" : "CME-W1-Cl.8+",
+         "label" : "Cl.8+_Capped_small-RNA_max-200nt_PolyA-tail_RNA-seq",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "ZFP-1",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3361",
+         "label" : "Lieb JL00006_ZFP1_RB774_MXEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Mixed Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "C01B12.2",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3371",
+         "label" : "Identification of Transcription Factor C01B12.2::GFP Binding Regions in L2",
+         "type" : "data set",
+         "Strain" : "OP343",
+         "Developmental-Stage" : "L2",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "eor-1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3372",
+         "label" : "Identification of Transcription Factor EOR-1::GFP Binding Regions in GFP",
+         "type" : "data set",
+         "Strain" : "OP81",
+         "Developmental-Stage" : "L3",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "nhr-6",
+         "target" : "Transcriptional-Factor",
+         "Tracks" : [
+            "worm/Snyder_ANTIGFP_WIG_COMB_NHR6v2_L2_GFP"
+         ],
+         "submission" : "modENCODE_3374",
+         "label" : "Identification of Transcription Factor NHR-6::GFP Binding Regions in L2",
+         "type" : "data set",
+         "Strain" : "OP90",
+         "Developmental-Stage" : "L2",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "unc-62",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3375",
+         "label" : "Identification of Transcription Factor UNC-62::GFP Binding Regions in L1",
+         "type" : "data set",
+         "Strain" : "OP600",
+         "Developmental-Stage" : "fed L1",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "zag-1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3376",
+         "label" : "Identification of Transcription Factor ZAG-1::GFP Binding Regions in L3",
+         "type" : "data set",
+         "Strain" : "OP83",
+         "Developmental-Stage" : "L3",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "zag-1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3377",
+         "label" : "Identification of Transcription Factor ZAG-1::GFP Binding Regions in L1",
+         "type" : "data set",
+         "Strain" : "OP83",
+         "Developmental-Stage" : "fed L1",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "F45C12.2",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3378",
+         "label" : "Identification of Transcription Factor F45C12.2::GFP Binding Regions in L3",
+         "type" : "data set",
+         "Strain" : "OP212",
+         "Developmental-Stage" : "L3",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "daf-12",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3380",
+         "label" : "Identification of Transcription Factor DAF-12::GFP Binding Regions in L4",
+         "type" : "data set",
+         "Strain" : "OP222",
+         "Developmental-Stage" : "L4",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "daf-12",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3381",
+         "label" : "Identification of Transcription Factor DAF-12::GFP Binding Regions in L3",
+         "type" : "data set",
+         "Strain" : "OP222",
+         "Developmental-Stage" : "L3",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "aly-2",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3382",
+         "label" : "Identification of Transcription Factor ALY-2::GFP Binding Regions in L3",
+         "type" : "data set",
+         "Strain" : "OP217",
+         "Developmental-Stage" : "L3",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "aly-2",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3384",
+         "label" : "Identification of Transcription Factor ALY-2::GFP Binding Regions in L1",
+         "type" : "data set",
+         "Strain" : "OP217",
+         "Developmental-Stage" : "fed L1",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "R02D3.7",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3385",
+         "label" : "Identification of Transcription Factor R02D3.7::GFP Binding Regions in L2",
+         "type" : "data set",
+         "Strain" : "OP218",
+         "Developmental-Stage" : "L2",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "nhr-28",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3386",
+         "label" : "Identification of Transcription Factor NHR-28::GFP Binding Regions in L3",
+         "type" : "data set",
+         "Strain" : "OP317",
+         "Developmental-Stage" : "L3",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "fos-1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3387",
+         "label" : "Identification of Transcription Factor FOS-1::GFP Binding Regions in L1",
+         "type" : "data set",
+         "Strain" : "OP304",
+         "Developmental-Stage" : "fed L1",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "Drosophila ORC2p",
+         "target" : "DNA-Replication",
+         "submission" : "modENCODE_3388",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "ORC Meta-peak generation",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "LEM-2",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3389",
+         "label" : "Lieb SDQ3891_LEM2_SP646_MXEMB",
+         "type" : "data set",
+         "Strain" : "SP646",
+         "Developmental-Stage" : "Mixed Embryo",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "Hr39",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3390",
+         "label" : "E16-24h_Hr39",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 16-24h"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "HP1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3391",
+         "label" : "E16-24h_HP1_Abcam",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 16-24h"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "HP1",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3392",
+         "label" : "E16-24h_HP1_Covance",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 16-24h"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "bonus",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3393",
+         "label" : "E16-24h_bon",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 16-24h"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "Kruppel",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3394",
+         "label" : "E16-24h_Kr-D2",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 16-24h"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "Dichaete",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3395",
+         "label" : "E0-8h_D",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 0-8"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "Su(var)3-9",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3396",
+         "label" : "E0-12h_SuVar3-9",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Embryo 0-12h"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "trem",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3399",
+         "label" : "A.Female_Trem",
+         "type" : "data set",
+         "organism" : "Dmel_r5.4",
+         "Developmental-Stage" : "Adult Female"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "set2",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3400",
+         "label" : "R13_E1-6h_Set2",
+         "type" : "data set",
+         "Strain" : "R13-YFP",
+         "Developmental-Stage" : "Embryo 1-6h",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "nw",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3401",
+         "label" : "5T_8-16_NW_GFP",
+         "type" : "data set",
+         "Strain" : "5T-eve-GFP",
+         "Developmental-Stage" : "Embryo 8-16h",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "ChIP-seq",
+         "factor" : "cad",
+         "target" : "Transcriptional-Factor",
+         "submission" : "modENCODE_3403",
+         "label" : "7T_W3L_GFP",
+         "type" : "data set",
+         "Strain" : "7T-CAD",
+         "Developmental-Stage" : "L3",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RACE",
+         "factor" : "3-prime-UTR",
+         "target" : "mRNA",
+         "Tracks" : [
+            "worm/minipool1.sam.bam.sorted",
+            "worm/minipool2.sam.bam.sorted"
+         ],
+         "submission" : "modENCODE_3404",
+         "label" : "Encyclopedia of C. elegans 3' UTRs and their regulatory elements - 454 sequencing of RACE clones",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Mixed Population Worms",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "AMA-1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3432",
+         "label" : "Lieb SDQ2357_AMA1_N2_MXEMB_1",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Mixed Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H4K20me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3434",
+         "label" : "Strome DISN147_H4K20ME1_001_N2_EEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "DPY-27",
+         "target" : "Non-TF-Chromatin-binding-factor",
+         "submission" : "modENCODE_3435",
+         "label" : "Strome JL00001_DPY27_N2_EEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "HPL-2",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3438",
+         "label" : "Strome SDQ2324_HPL2_N2_LTEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Late Embryos",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "LIN-15B",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3439",
+         "label" : "Strome SDQ2330_LIN15B_N2_LTEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Late Embryos",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "Early-replication-origin",
+         "target" : "DNA-Replication",
+         "submission" : "modENCODE_3441",
+         "Cell-Line" : "Kc167",
+         "label" : "Early Origins Meta-peak generation",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "Female virgin heads",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3442.sorted"
+         ],
+         "submission" : "modENCODE_3442",
+         "label" : "Dm Tissue Expression RNA-seq  virgin female eclosion + 1 day heads uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "Adult female, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "Mated Female heads",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3443.sorted"
+         ],
+         "submission" : "modENCODE_3443",
+         "label" : "Dm Tissue Expression RNA-seq  mated female eclosion + 1 day heads uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "Adult mated female eclosion + 20 days",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "male heads",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3444.sorted"
+         ],
+         "submission" : "modENCODE_3444",
+         "label" : "Dm Tissue Expression RNA-seq  mated male eclosion + 1 day heads uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "Adult male, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "digestive system",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3445.sorted"
+         ],
+         "submission" : "modENCODE_3445",
+         "label" : "Dm Tissue Expression RNA-seq mixed males and females eclosion + 1 day digestive system uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "adult, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "carcass",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3446.sorted"
+         ],
+         "submission" : "modENCODE_3446",
+         "label" : "Dm Tissue Expression RNA-seq mixed males and females eclosion + 1 day carcass uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "adult, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "Female virgin heads",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3447.sorted"
+         ],
+         "submission" : "modENCODE_3447",
+         "label" : "Dm Tissue Expression RNA-seq  virgin female eclosion + 4 days heads uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "Adult female, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "Mated Female heads",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3448.sorted"
+         ],
+         "submission" : "modENCODE_3448",
+         "label" : "Dm Tissue Expression RNA-seq mated female eclosion + 4 days heads uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "Adult mated female eclosion + 20 days",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "male heads",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3449.sorted"
+         ],
+         "submission" : "modENCODE_3449",
+         "label" : "Dm Tissue Expression RNA-seq mated male eclosion + 4 days heads uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "Adult male, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "virgin adult ovaries",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3450.sorted"
+         ],
+         "submission" : "modENCODE_3450",
+         "label" : "Dm Tissue Expression RNA-seq virgin female eclosion + 4 days ovaries uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "adult female, eclosion + 4 days",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "mated adult ovaries",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3451.sorted"
+         ],
+         "submission" : "modENCODE_3451",
+         "label" : "Dm Tissue Expression RNA-seq  mated female eclosion + 4 days ovaries uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "adult mated female, eclosion + 4 days",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "testes",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3452.sorted"
+         ],
+         "submission" : "modENCODE_3452",
+         "label" : "Dm Tissue Expression RNA-seq mated male eclosion + 4 days testes uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "adult male, eclosion + 4 days",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "male accessory glands",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3453.sorted"
+         ],
+         "submission" : "modENCODE_3453",
+         "label" : "Dm Tissue Expression RNA-seq mated male eclosion + 4 days accessory glands uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "adult male, eclosion + 4 days",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "digestive system",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3454.sorted"
+         ],
+         "submission" : "modENCODE_3454",
+         "label" : "Dm Tissue Expression RNA-seq mixed males and females eclosion + 4 days digestive system uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "adult, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "carcass",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3455.sorted"
+         ],
+         "submission" : "modENCODE_3455",
+         "label" : "Dm Tissue Expression RNA-seq mixed males and females eclosion + 4 days carcass uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "adult, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "Female virgin heads",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3456.sorted"
+         ],
+         "submission" : "modENCODE_3456",
+         "label" : "Dm Tissue Expression RNA-seq virgin female eclosion + 20 days heads uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "Adult female, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "Mated Female heads",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3457.sorted"
+         ],
+         "submission" : "modENCODE_3457",
+         "label" : "Dm Tissue Expression RNA-seq mated female eclosion + 20 days heads uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "Adult mated female eclosion + 20 days",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "male heads",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3458.sorted"
+         ],
+         "submission" : "modENCODE_3458",
+         "label" : "Dm Tissue Expression RNA-seq mated male eclosion + 20 days heads uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "Adult male, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "digestive system",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3459.sorted"
+         ],
+         "submission" : "modENCODE_3459",
+         "label" : "Dm Tissue Expression RNA-seq mixed males and females eclosion + 20 days digestive system uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "adult, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "carcass",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3460.sorted"
+         ],
+         "submission" : "modENCODE_3460",
+         "label" : "Dm Tissue Expression RNA-seq mixed males and females eclosion + 20 days carcass uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "adult, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "fat body",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3461.sorted"
+         ],
+         "submission" : "modENCODE_3461",
+         "label" : "Dm Tissue Expression RNA-seq third instar larvae wandering stage fat body uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "L3 stage wandering larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "imaginal discs",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3462.sorted"
+         ],
+         "submission" : "modENCODE_3462",
+         "label" : "Dm Tissue Expression RNA-seq third instar larvae wandering stage imaginal discs uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "L3 stage wandering larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "salivary glands",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3463.sorted"
+         ],
+         "submission" : "modENCODE_3463",
+         "label" : "Dm Tissue Expression RNA-seq third instar larvae wandering stage salivary glands uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "L3 stage wandering larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "digestive system",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3464.sorted"
+         ],
+         "submission" : "modENCODE_3464",
+         "label" : "Dm Tissue Expression RNA-seq third instar larvae wandering stage digestive system uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "adult, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "carcass",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3465.sorted"
+         ],
+         "submission" : "modENCODE_3465",
+         "label" : "Dm Tissue Expression RNA-seq third instar larvae wandering stage carcass uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "adult, eclosion + 1 day",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "central nervous system",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3466.sorted"
+         ],
+         "submission" : "modENCODE_3466",
+         "label" : "Dm Tissue Expression RNA-seq third instar larvae CNS uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "L3 stage wandering larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "salivary glands",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3467.sorted"
+         ],
+         "submission" : "modENCODE_3467",
+         "label" : "Dm Tissue Expression RNA-seq WPP salivary glands uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "L3 stage wandering larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "fat body",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3468.sorted"
+         ],
+         "submission" : "modENCODE_3468",
+         "label" : "Dm Tissue Expression RNA-seq WPP fat body uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "L3 stage wandering larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "central nervous system",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3469.sorted"
+         ],
+         "submission" : "modENCODE_3469",
+         "label" : "Dm Tissue Expression RNA-seq Pupae WPP+2d CNS uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "L3 stage wandering larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "fat body",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/submission_3470.sorted"
+         ],
+         "submission" : "modENCODE_3470",
+         "label" : "Dm Tissue Expression RNA-seq WPP+2d fat uniquely mapping reads",
+         "type" : "data set",
+         "Strain" : "Oregon R-modENCODE",
+         "Developmental-Stage" : "L3 stage wandering larvae",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/1182-4H.sub_3471.sorted"
+         ],
+         "submission" : "modENCODE_3471",
+         "Cell-Line" : "1182-4H",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq 1182-4H uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CME_W2.sub_3472.merged"
+         ],
+         "submission" : "modENCODE_3472",
+         "Cell-Line" : "CME W2",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq CME_W2 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/GM2.sub_3473.merged"
+         ],
+         "submission" : "modENCODE_3473",
+         "Cell-Line" : "GM2",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq GM2 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmBG2-c2.sub_3474.merged"
+         ],
+         "submission" : "modENCODE_3474",
+         "Cell-Line" : "ML-DmBG2-c2",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmBG2-c2 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "antenna disc-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD20-c5.sub_3475.merged"
+         ],
+         "submission" : "modENCODE_3475",
+         "Cell-Line" : "ML-DmD20-c5",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD20-c5 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "ventral prothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/CME_L1.sub_3476.merged"
+         ],
+         "submission" : "modENCODE_3476",
+         "Cell-Line" : "CME-L1",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq CME_L1 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmBG1-c1.sub_3477.sorted"
+         ],
+         "submission" : "modENCODE_3477",
+         "Cell-Line" : "ML-DmD17-c3",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmBG1-c1 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "eye-antenna disc-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD11.sub_3478.merged"
+         ],
+         "submission" : "modENCODE_3478",
+         "Cell-Line" : "ML-DmD11",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD11 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD16-c3.sub_3479.merged"
+         ],
+         "submission" : "modENCODE_3479",
+         "Cell-Line" : "ML-DmD16-c3",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD16-c3 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD17-c3.sub_3480.merged"
+         ],
+         "submission" : "modENCODE_3480",
+         "Cell-Line" : "ML-DmD17-c3",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD17-c3 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD21.sub_3481.sorted"
+         ],
+         "submission" : "modENCODE_3481",
+         "Cell-Line" : "ML-DmD21",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD21 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD32.sub_3482.merged"
+         ],
+         "submission" : "modENCODE_3482",
+         "Cell-Line" : "ML-DmD32",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD32 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "imaginal disc-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD4-c1.sub_3483.merged"
+         ],
+         "submission" : "modENCODE_3483",
+         "Cell-Line" : "ML-DmD4-c1",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD4-c1 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD8.sub_3484.sorted"
+         ],
+         "submission" : "modENCODE_3484",
+         "Cell-Line" : "ML-DmD8",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD8 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/ML-DmD9.sub_3485.sorted"
+         ],
+         "submission" : "modENCODE_3485",
+         "Cell-Line" : "ML-DmD9",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD9 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/S1.sub_3486.merged"
+         ],
+         "submission" : "modENCODE_3486",
+         "Cell-Line" : "S1",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq S1 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/S2Rplus.sub_3487.merged"
+         ],
+         "submission" : "modENCODE_3487",
+         "Cell-Line" : "S2R+",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq S2-R+ uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/Sg4.sub_3488.sorted"
+         ],
+         "submission" : "modENCODE_3488",
+         "Cell-Line" : "Sg4",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq Sg4 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryonic/larval hemocyte",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/MBN2.sub_3492.merged"
+         ],
+         "submission" : "modENCODE_3492",
+         "Cell-Line" : "Mbn2",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq MBN2 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/Kc167.sub_3493.merged"
+         ],
+         "submission" : "modENCODE_3493",
+         "Cell-Line" : "Kc167",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq Kc167 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/S3.sub_3494.merged"
+         ],
+         "submission" : "modENCODE_3494",
+         "Cell-Line" : "S3",
+         "label" : "D.melanogaster Cell Line Expression RNA-seq S3 uniquely mapping reads",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_Sg4.sorted",
+            "fly/Lai_RNASEQ_DUAL_CELLS/Sg4"
+         ],
+         "submission" : "modENCODE_3506",
+         "Cell-Line" : "Sg4",
+         "label" : "Lai – Sg4/BS35/BS34",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_ML-DmBG1-C1.sorted",
+            "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmBG1c1"
+         ],
+         "submission" : "modENCODE_3508",
+         "Cell-Line" : "ML-DmBG1-c1",
+         "label" : "Lai-ML-DmBG1-C1/BS176/BS177",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmBG3-C2",
+            "fly/Lai_ML-DmBG3-C2.sorted"
+         ],
+         "submission" : "modENCODE_3510",
+         "Cell-Line" : "ML-DmBG3-c2",
+         "label" : "Lai_ML-DmBG3-C2/BS179/180",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_S2-DRSC.sorted",
+            "fly/Lai_RNASEQ_DUAL_CELLS/S2_DRSC"
+         ],
+         "submission" : "modENCODE_3511",
+         "Cell-Line" : "S2-DRSC",
+         "label" : "Lai_S2-DRSC/BS10/BS11",
+         "type" : "data set",
+         "Developmental-Stage" : "late embryonic stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmD9",
+            "fly/Lai_MLDmD9.sorted"
+         ],
+         "submission" : "modENCODE_3512",
+         "Cell-Line" : "ML-DmD9",
+         "label" : "Lai – MLDmD9/BS101/BS102",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_MLDmD8.sorted",
+            "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmD8"
+         ],
+         "submission" : "modENCODE_3513",
+         "Cell-Line" : "ML-DmD8",
+         "label" : "Lai – MLDmD8/BS37/BS38",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "dorsal mesothoracic disc",
+         "factor" : "small-RNA",
+         "target" : "small-RNA",
+         "Tracks" : [
+            "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmD32",
+            "fly/Lai_MLDmD32.sorted"
+         ],
+         "submission" : "modENCODE_3514",
+         "Cell-Line" : "ML-DmD32",
+         "label" : "Lai – MLDmD32/BS25/BS26",
+         "type" : "data set",
+         "Developmental-Stage" : "third instar larval stage",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3515",
+         "label" : "C. elegans late embryo (replicate) N2 RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "late embryo LE-1",
+         "organism" : "Cele_WS190",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3516",
+         "label" : "C. elegans N2 exposed to endoparasitic fungus Drechmeria coniospora for 5 hours N2 RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Adult Drechmeria coniospora 1 5 hrs",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3517",
+         "label" : "C. elegans N2 exposed to endoparasitic fungus Drechmeria coniospora for 12 hours N2 RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Adult Drechmeria coniospora 2 12 hrs",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3518",
+         "label" : "C. elegans dauer entry daf-2(el370) sample 2 DauerEntryDAF2-2 polyA+ RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "dauer entry daf-2 DauerEntryDAF2-2",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3519",
+         "label" : "C. elegans Male N2 exposed to bacterium Enterococcus faecalis for 24 hours RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Adult Enterococcus faecalis 1 24hrs",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3520",
+         "label" : "C. elegans embryo him-8(e1480) sample 2 EmMalesHIM8-2 polyA+ RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "embryo him-8(e1480) EmMalesHIM8-2",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3521",
+         "label" : "C. elegans N2 larval L1 (lin-35) L1LIN35-1 array capture 1 experiment 36bp polyA+ RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "L1LIN35-1cap1",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3522",
+         "label" : "C. elegans strain JK1107 mid-L4 soma-only not treated with DNaseI sample 2 L4JK1107soma-2 polyA+ RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "L4 soma JK1107 no DNaseI L4JK1107soma-2",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3523",
+         "label" : "C. elegans Male L4  N2 RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Male larva mid-L4 L4MALE5",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3524",
+         "label" : "C. elegans N2 larval L4 male sample 6 L4MALE6 array capture 4 experiment polyA+ RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "L4MALE6cap2",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3526",
+         "label" : "C. elegans N2 early embryo biological replicate array capture EE-2cap5 polyA+ RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "early embryo capture EE-2cap5",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3527",
+         "label" : "C. elegans N2 larval L1 biological replicate L1-1 polyA+ RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "larva L1-1",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3528",
+         "label" : "C. elegans N2 larval L2 biological replicate L2-4 polyA+ RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "larva L2-4",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3529",
+         "label" : "C. elegans N2 larval L3 biological replicate L3-1 polyA+ RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "larva L3-1",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3530",
+         "label" : "C. elegans dauer entry daf-2(el370) sample 2 DauerEntryDAF2-2 polyA+ RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "N2 L4cap4",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3531",
+         "label" : "C. elegans Late Embryo array capture 6  N2 RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "N2 LE-2cap6",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3532",
+         "label" : "C. elegans N2 Young Adult RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Young Adult",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3533",
+         "label" : "C. elegans N2 control for Drechmeria coniospora exposed to E. coli OP50 for 12 hrs polyA+ RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Adult Drechmeria coniospora control EcoliOP50 exposed 2 12hrs",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3534",
+         "label" : "C. elegans N2 exposed to enterobacterium Photorhabdus luminescens for 24 hours RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "Adult Photorhabdus luminescens 2 24hrs",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3535",
+         "label" : "C. elegans N2 larval L4 ribominus array capture 3 experiment polyA+ RNA-Seq sequences and alignments",
+         "type" : "data set",
+         "Strain" : "N2",
+         "Developmental-Stage" : "N2 L4RRcap3",
+         "organism" : "Cele_WS190",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H4K20me1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3538",
+         "label" : "Ahringer DISN147_H4K20ME1_001_N2_L3",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L3 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "RNA polII CTD domain unphosophorylated",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3544",
+         "label" : "Desai ABAB817_8WG16_N2_EEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "RNA polII CTD domain unphosophorylated",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3545",
+         "label" : "Desai ABAB817_8WG16_N2_LTEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Late Embryos",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K4me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3546",
+         "label" : "Strome WA30534819_H3K4ME3_N2_EEMB_s1",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K4me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3547",
+         "label" : "Strome WA30534819_H3K4ME3_N2_LTEMB_s2",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Late Embryos",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K4me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3548",
+         "label" : "Strome WA30534819_H3K4ME3_N2_L1_s3",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L1 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K4me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3549",
+         "label" : "Strome WA30534819_H3K4ME3_N2_L2_s4",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L2 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K4me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3550",
+         "label" : "Strome WA30534819_H3K4ME3_N2_L3_s5",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L3 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K4me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3551",
+         "label" : "Strome WA30534819_H3K4ME3_N2_L4_s6",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L4 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K4me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3552",
+         "label" : "Strome WA30534819_H3K4ME3_N2_YA_s7",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Germline containing young adult",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K36me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3553",
+         "label" : "Strome HK00001_H3K36ME3_13C9_N2_EEMB_s1",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Early Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K36me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3554",
+         "label" : "Strome HK00001_H3K36ME3_13C9_N2_LTEMB_s2",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Late Embryos",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K36me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3555",
+         "label" : "Strome HK00001_H3K36ME3_13C9_N2_L1_s3",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L1 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K36me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3556",
+         "label" : "Strome HK00001_H3K36ME3_13C9_N2_L2_s4",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L2 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K36me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3557",
+         "label" : "Strome HK00001_H3K36ME3_13C9_N2_L3_s5",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L3 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K36me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3558",
+         "label" : "Strome HK00001_H3K36ME3_13C9_N2_L4_s6",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "L4 Larva",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K36me3",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3559",
+         "label" : "Strome HK00001_H3K36ME3_13C9_N2_YA_s7",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Germline containing young adult",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "ZFP-1",
+         "target" : "Histone-Modification",
+         "submission" : "modENCODE_3561",
+         "label" : "Lieb SDQ3517_ZFP1_N2_MXEMB",
+         "type" : "data set",
+         "organism" : "Cele_WS190",
+         "Developmental-Stage" : "Mixed Embryo",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3608",
+         "label" : "D. simulans wildtype male RNA-seq",
+         "type" : "data set",
+         "Strain" : "Dsim wildtype",
+         "Developmental-Stage" : "Dsim Adult Male Whole Species",
+         "organism" : "Dsim"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3609",
+         "label" : "D. simulans wildtype female RNA-seq",
+         "type" : "data set",
+         "Strain" : "Dsim wildtype",
+         "Developmental-Stage" : "Dsim Adult Female Whole Species",
+         "organism" : "Dsim"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3610",
+         "label" : "D. mojavensis male RNA-seq",
+         "type" : "data set",
+         "Strain" : "Dmojavensis",
+         "Developmental-Stage" : "Dmoj Adult Male Whole Species",
+         "organism" : "Dmoj_r1.3"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3611",
+         "label" : "D. mojavensis female RNA-seq",
+         "type" : "data set",
+         "Strain" : "Dmojavensis",
+         "Developmental-Stage" : "Dmoj Adult Female Whole Species",
+         "organism" : "Dmoj_r1.3"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3613",
+         "label" : "D. virilis female RNA-seq",
+         "type" : "data set",
+         "Strain" : "Dvir wildtype",
+         "Developmental-Stage" : "Dvir Adult Female Whole Species",
+         "organism" : "Dvir"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3615",
+         "label" : "D. yakuba female RNA-seq",
+         "type" : "data set",
+         "Strain" : "Dyak wildtype",
+         "Developmental-Stage" : "Dyak Adult Female Whole Species",
+         "organism" : "Dyak"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3617",
+         "label" : "D. anannassae female RNA-seq",
+         "type" : "data set",
+         "Strain" : "Dananassae",
+         "Developmental-Stage" : "Dana Adult Female Whole Species",
+         "organism" : "Dananassae"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3620",
+         "label" : "D. pseudoobscura whole male RNA-seq",
+         "type" : "data set",
+         "Strain" : "D.pseudoobscura wild-type",
+         "Developmental-Stage" : "Dpse Adult Male Whole Species",
+         "organism" : "Dpse_r2.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3621",
+         "label" : "D. Pseudoobscura female RNA-seq",
+         "type" : "data set",
+         "Strain" : "D.pseudoobscura wild-type",
+         "Developmental-Stage" : "Dpse Adult Female Whole Species",
+         "organism" : "Dpse_r2.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3622",
+         "label" : "D. simulans w501 female RNA-seq",
+         "type" : "data set",
+         "Strain" : "D.sim w501",
+         "Developmental-Stage" : "Dsim Adult Female Whole Species",
+         "organism" : "Dsim"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "submission" : "modENCODE_3623",
+         "label" : "D. simulans w501 male RNA-seq",
+         "type" : "data set",
+         "Strain" : "D.sim w501",
+         "Developmental-Stage" : "Dsim Adult Male Whole Species",
+         "organism" : "Dsim"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/Dmel_sub3631.merged.bam"
+         ],
+         "submission" : "modENCODE_3631",
+         "label" : "D. melanogaster y1w67c23 female RNA-seq",
+         "type" : "data set",
+         "Strain" : "Dmel y1w67c23",
+         "Developmental-Stage" : "Dmel Adult Female Whole Species",
+         "organism" : "Dmel_r5.4"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "Tracks" : [
+            "fly/Dmel_sub3632.merged.bam"
+         ],
+         "submission" : "modENCODE_3632",
+         "label" : "D. melanogaster y1w67c23 male RNA-seq",
+         "type" : "data set",
+         "Strain" : "Dmel y1w67c23",
+         "Developmental-Stage" : "Dmel Adult Male Whole Species",
          "organism" : "Dmel_r5.4"
       }
    ]

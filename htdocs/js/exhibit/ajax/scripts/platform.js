@@ -94,8 +94,10 @@ SimileAjax.Platform.browser = {
     
     if (!("localeCompare" in String.prototype)) {
         String.prototype.localeCompare = function (s) {
-            if (this < s) return -1;
-            else if (this > s) return 1;
+	    var a = this.toLowerCase;
+	    var b = s.toLowerCase;
+            if (a < b) return -1;
+            else if (a > b) return 1;
             else return 0;
         };
     }

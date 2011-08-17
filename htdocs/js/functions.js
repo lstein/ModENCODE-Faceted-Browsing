@@ -7,6 +7,7 @@
 var SelectedItems = new Hash();
 var GlobalTimeout = new Hash();
 var Popups        = new Hash();
+var rowIndex   = 0;
 var balloon       = new Balloon;
 BalloonConfig(balloon,'GBubble');
 balloon.images    = 'GBubble';
@@ -245,3 +246,12 @@ String.prototype.ucfirst = function () {
     // Rejoin the string and return.
     return x.join(' ');
 };
+
+function zebraStyler (item, database, tr, index) {
+    var tr=tr.rows[index+1];
+    if (rowIndex++ % 2) {
+        tr.style.background = '#eee';
+    } else {
+        tr.style.background = '#ccc';
+    }
+}

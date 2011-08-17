@@ -1,4 +1,5 @@
-To run:
+To install and run:
 
-ln -sf /var/www/modencode `pwd`/htdocs
-point your browser at http://localhost/modencode
+1) bin/generate_database.pl > htdocs/js/modencode.js
+2) ln -sf /var/www/modencode `pwd`/htdocs
+3) point your browser at http://your.host/modencode
