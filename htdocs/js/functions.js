@@ -280,9 +280,9 @@ function zebraStyler (item, database, tr, index) {
 }
 
 function hilite_row (row,turn_on) {
+    Element.extend(row);
     row.removeClassName('odd');
     row.removeClassName('even');
-
     if (turn_on) {
 	var cb = row.select('input')[0];
 	cb.checked = true;
