@@ -1073,13 +1073,13 @@ if(D>=0){E(A.substring(D+5,B(A,";",D)));
 if(D>=0){E(A.substring(D+3,B(A,")",D)));
 }}if(SimileAjax.Platform.browser.isFirefox){var D=A.indexOf("firefox/");
 if(D>=0){E(A.substring(D+8,B(A," ",D)));
-}}if(!("localeCompare" in String.prototype)){String.prototype.localeCompare=function(H){var G=this.toLowerCase;
-var F=H.toLowerCase;
+}}String.prototype.localeCompare=function(H){var G=this.toLowerCase();
+var F=H.toLowerCase();
 if(G<F){return -1;
 }else{if(G>F){return 1;
 }else{return 0;
 }}};
-}})();
+})();
 SimileAjax.Platform.getDefaultLocale=function(){return SimileAjax.Platform.clientLocale;
 };
 

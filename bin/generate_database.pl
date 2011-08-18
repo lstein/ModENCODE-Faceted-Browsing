@@ -27,16 +27,25 @@ while (<FH>) {
 	$format,$factor,$condition,
 	undef,undef,undef,undef,undef,
 	$submission) = split ("\t");
+
     next if $id eq 'DCC id';
     next unless $id;
+
     my @conditions;
     for my $c (split ';',$condition) {
 	my ($key,$value) = split '_',$c;
 	if ($key eq 'Compound' && $value =~ /mM/) {
 	    $value .= ' salt';
+	} elsif ($key eq 'Developmental-Stage') {
+	    $value  = fix_stage($value);
 	}
 	push @conditions,($key,$value);
     }
+
+    $organism = fix_organism($organism);
+    $factor   = fix_factor($factor);
+    $target   =~ tr/-/ /;
+
     $DATA{$id} = {
 	submission => $submission,
 	label      => $title,
@@ -82,3 +91,53 @@ print $json->pretty->encode({items=>\@items,
 			     types => {'data set' => {pluralLabel=>'data sets'}}
 			    });
 
+exit 0;
+
+sub fix_organism {
+    my $org = shift;
+    return $org =~ /^Cele/ ? 'C. elegans'
+	  :$org =~ /^Dmel/ ? 'D. melanogaster'
+	  :$org =~ /^Dmoj/ ? 'D. mojavensis'
+	  :$org =~ /^Dyak/ ? 'D. yakuba'
+	  :$org =~ /^Dana/ ? 'D. ananassae'
+	  :$org =~ /^Dpse/ ? 'D. pseudoobscura'
+	  :$org =~ /^Dsim/ ? 'D. simulans'
+	  :$org =~ /^Dvir/ ? 'D. virilis'
+	  :$org;
+}
+
+sub fix_stage {
+    my $stage = shift;
+    $stage   =~ tr/_/ /;  # get rid of underscores
+    $stage   =~ s/embryo/Embryo/;
+    $stage   =~ s/Embyro/Embryo/;
+    $stage   =~ s/^E(?=\d)/Embryo /;
+    $stage  .= ' h' if $stage =~ /^Embryo.*\d$/;
+    $stage   =~ s/hr$/h/;
+    $stage   =~ s/(\d)h$/$1 h/;
+    $stage   =~ s/^DevStage://;
+    $stage   .= ' stage larvae' if $stage =~ /L\d/;
+    $stage   =~ s/Larvae? stage larvae/stage larvae/i;
+    $stage   =~ s/^late/Late/;
+    $stage   =~ s/^early/Early/;
+    $stage   =~ s/^larva L(\d)/L$1/i;
+    $stage   =~ s/^yAdult/Young adult/i;
+    $stage   =~ s/(\d)\s?hr?/$1 hr/g;
+    $stage   =~ s/larvae?(.+stage larvae)/$1/;
+    $stage   =~ s/\s+\d+dc//i;
+    $stage   =~ s/embryo\b/Embryos/i;
+    $stage   =~ s/stage stage/stage/;
+    $stage   =~ s/WPP/White prepupae (WPP)/;
+    return ucfirst($stage);
+}
+
+sub fix_factor {
+    my $factor = shift;
+    $factor =~ s!^(H\d+[A-Z]\d+)(\w+)!$1\l$2!;
+    $factor =~ s!H4tetraac!H4acTetra!;
+    $factor =~ s!Trimethylated Lys-4 o[fn] histone H3!H3K4me3!i;
+    $factor =~ s!Trimethylated Lys-9 o[fn] histone H3!H3K9me3!i;
+    $factor =~ s!Trimethylated Lys-36 o[fn] histone H3!H3K36me3!i;
+    $factor =~ s!SU\(HW\)!Su(Hw)!i;
+    return $factor;
+}

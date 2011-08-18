@@ -231,7 +231,6 @@ Exhibit.ListFacet.prototype._computeFacet = function(items) {
             entry.actionLabel = entry.selectionLabel = labeler(entry.value);
             entry.selected = selection.contains(entry.value);
         }
-        
         entries.sort(this._createSortFunction(valueType));
     }
     
