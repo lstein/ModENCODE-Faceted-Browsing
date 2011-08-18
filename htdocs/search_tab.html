@@ -70,9 +70,9 @@
 
 <!-- left column, organism, technique, target and factor facets -->
   <td id="left-column" width="20%">
-    <div  ex:role="facet" ex:expression=".organism"  ex:scroll="false" ex:facetLabel="Organism"></div>
-    <div  ex:role="facet" ex:expression=".technique" ex:scroll="false" ex:facetLabel="Technique"></div>
-    <div  ex:role="facet" ex:expression=".target"    ex:scroll="false" ex:facetLabel="Target Type"></div>
+    <div  ex:role="facet" ex:expression=".organism"  ex:scroll="false" ex:facetLabel="Organism"    ex:sortMode="count"></div>
+    <div  ex:role="facet" ex:expression=".technique" ex:scroll="false" ex:facetLabel="Technique"   ex:sortMode="count"></div>
+    <div  ex:role="facet" ex:expression=".target"    ex:scroll="false" ex:facetLabel="Target Type" ex:sortMode="count"></div>
     <div  ex:role="facet" ex:expression=".factor"    ex:scroll="true" ex:facetLabel="Factor"></div>
   </td>
   
@@ -115,7 +115,7 @@
 <!-- right column: developmental stage, strain, cell line and tissue facets -->
   <td id="right-column" width="20%">
     <div  ex:role="facet" ex:expression=".Developmental-Stage" ex:scroll="true" ex:facetLabel="Developmental Stage"></div>
-    <div  ex:role="facet" ex:expression=".Strain"              ex:scroll="true" ex:facetLabel="Strain"></div> 
+    <div  ex:role="facet" ex:expression=".Strain"              ex:scroll="true" ex:facetLabel="Strain" ex:sortMode="count"></div> 
     <div  ex:role="facet" ex:expression=".Cell-Line"           ex:scroll="true" ex:facetLabel="Cell Line"></div>
     <div  ex:role="facet" ex:expression=".Tissue"              ex:scroll="true" ex:facetLabel="Tissue"></div>
     <div  ex:role="facet" ex:expression=".Compound"            ex:scroll="true" ex:facetLabel="Compound"></div>
