@@ -31,11 +31,11 @@
 <div class="status">
   <table width="100%" border='0'>
     <tr valign="bottom">
-      <td width="15%"  style="vertical-align:middle">
+      <td width="20%"  style="vertical-align:middle">
 	<b>Internet Explorer users: If this page is too slow for you, consider Firefox, Safari or Chrome.</b><br><br>
 	<b>Search:</b> <span id="searchbox" ex:role="facet" ex:facetClass="TextSearch"></span>
       </td>
-      <td colspan="2" width="70%">
+      <td colspan="2">
 	<table width="100%">
 	  <tr>
 	    <th id="dataset_count">Selected Datasets:</th>
@@ -69,11 +69,11 @@
 <table border='0'>
 
 <!-- left column, organism, technique, target and factor facets -->
-  <td id="left-column" width="15%">
-    <div  ex:role="facet" ex:expression=".organism"  ex:height="8em" ex:facetLabel="Organism"></div>
-    <div  ex:role="facet" ex:expression=".technique" ex:height="8em" ex:facetLabel="Technique"></div>
-    <div  ex:role="facet" ex:expression=".target"    ex:height="8em" ex:facetLabel="Target Type"></div>
-    <div  ex:role="facet" ex:expression=".factor"    ex:height="8em" ex:facetLabel="Factor"></div>
+  <td id="left-column" width="20%">
+    <div  ex:role="facet" ex:expression=".organism"  ex:scroll="false" ex:facetLabel="Organism"></div>
+    <div  ex:role="facet" ex:expression=".technique" ex:scroll="false" ex:facetLabel="Technique"></div>
+    <div  ex:role="facet" ex:expression=".target"    ex:scroll="false" ex:facetLabel="Target Type"></div>
+    <div  ex:role="facet" ex:expression=".factor"    ex:scroll="true" ex:facetLabel="Factor"></div>
   </td>
   
 <!-- middle column: exhibit results -->
@@ -85,7 +85,7 @@
 	ex:columnLabels="Select Dataset,Organism,Technique,Target,Factor,Conditions"
 	ex:rowStyler="zebraStyler"
 	ex:border="1"
-	ex:cellSpacing="1"
+	ex:cellSpacing="2"
 	ex:cellPadding="3"
 	ex:columns=".label,.organism,.technique,.target,.factor,.Developmental-Stage" 
 	ex:abbreviatedCount="20" id="filter_results">
@@ -113,13 +113,13 @@
      </table>
 </div>
 <!-- right column: developmental stage, strain, cell line and tissue facets -->
-  <td id="right-column" width="15%">
-    <div  ex:role="facet" ex:expression=".Developmental-Stage" ex:height="8em" ex:facetLabel="Developmental Stage"></div>
-    <div  ex:role="facet" ex:expression=".Strain"              ex:height="8em" ex:facetLabel="Strain"></div> 
-    <div  ex:role="facet" ex:expression=".Cell-Line"           ex:height="8em" ex:facetLabel="Cell Line"></div>
-    <div  ex:role="facet" ex:expression=".Tissue"              ex:height="8em" ex:facetLabel="Tissue"></div>
-    <div  ex:role="facet" ex:expression=".Compound"            ex:height="8em" ex:facetLabel="Compound"></div>
-    <div  ex:role="facet" ex:expression=".temperature"         ex:height="8em" ex:facetLabel="Temperature"></div>
+  <td id="right-column" width="20%">
+    <div  ex:role="facet" ex:expression=".Developmental-Stage" ex:scroll="true" ex:facetLabel="Developmental Stage"></div>
+    <div  ex:role="facet" ex:expression=".Strain"              ex:scroll="true" ex:facetLabel="Strain"></div> 
+    <div  ex:role="facet" ex:expression=".Cell-Line"           ex:scroll="true" ex:facetLabel="Cell Line"></div>
+    <div  ex:role="facet" ex:expression=".Tissue"              ex:scroll="true" ex:facetLabel="Tissue"></div>
+    <div  ex:role="facet" ex:expression=".Compound"            ex:scroll="true" ex:facetLabel="Compound"></div>
+    <div  ex:role="facet" ex:expression=".temperature"         ex:scroll="true" ex:facetLabel="Temperature"></div>
   </td>
 </tr>
 </table>

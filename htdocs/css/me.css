@@ -48,6 +48,11 @@ span.exhibit-collectionView-group-count {
     color:       #ccc;
     font-weight: normal;
 }
+div.exhibit-facet-body,div.exhibit-flowingFacet-body {
+    border: 1px solid #ccc;
+    background: #F0FFF0;
+}
+
 div.exhibit-facet-value-selected {
     background:  none;
     font-weight: bold;
@@ -72,10 +77,10 @@ div.name {
     background-color: wheat;
 }
 tr.odd {
-    background-color: #eee;
+    background-color: #F0FFF0;
 }
 tr.even {
-    background-color: #ccc;
+    background-color: white;
 }
 div.select-track {
     font-size: 110%;
