@@ -29,7 +29,7 @@
     </script>
  </head> 
 
-<body onload="register_handlers()">
+<body onload="register_handlers()" ex:afterdataload="alert('loaded?')">
 <div class="header">
     <h1><a href="www.modencode.org"><img src="http://www.modencode.org/img/modENCODE_logo_small.png" height="60" align="middle" border="0"/></a>
       Search modENCODE Data Sets</h1>
@@ -92,7 +92,10 @@
 <!-- middle column: exhibit results -->
   <td id="middle-column">
 
-   <div style="height:800px; overflow:auto"
+    <b>Select</b><label><input type="radio" name="selectall" id='select-all'><b>all</b></input></label>
+                 <label><input type="radio" name="selectall" id='select-none' checked="true"><b>none</b></input></label>
+    <div style="height:800px; overflow:auto"
+	id="data-table"
 	ex:role="view" 
 	ex:viewClass="Tabular" 
 	ex:columnLabels="Select Dataset,Organism,Technique,Target,Factor,Conditions"
@@ -104,7 +107,7 @@
 	ex:abbreviatedCount="20" id="filter_results">
      <table>
        <tr class="submission">
-	 <td><input type="checkbox" onClick="toggle_track(this)" ex:id-subcontent="{{.label}}"></input>
+	 <td><input type="checkbox" class="submission-select" onClick="toggle_track(this)" ex:id-subcontent="{{.label}}"></input>
 	   <span ex:content=".label"></span>
 	 </td>
 	 <td><span ex:content=".organism"></span></td>

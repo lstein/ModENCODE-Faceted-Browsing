@@ -60,6 +60,10 @@ function toggle_dataset (id,turn_on) {
 	hilite_row(container,turn_on);
     }
     shopping_cart_check();
+    var all_selected  = $$('.submission').size() <= $$('.submission.selected').size();
+    var none_selected = $$('.submission.selected').size() == 0;
+    $('select-all').checked=all_selected;
+    $('select-none').checked=none_selected;
 }
 
 function shopping_cart_clear () { 
@@ -68,6 +72,9 @@ function shopping_cart_clear () {
     cart.innerHTML = '';
     Popups = new Hash();  // clear it
     shopping_cart_check();
+    var rows = $$('tr.submission');
+    for (var i=0;i<rows.size();i++)
+	rows[i].addClassName(i%2 ? 'even' : 'odd');
 }
 
 function shopping_cart_check () {
@@ -323,4 +330,30 @@ function register_handlers () {
 	    }
 	});
     });
+
+    $('select-all').observe('change',function () {
+	var checked = this.checked;
+	var selected = $$('.submission-select');
+	select_with_yield(selected,checked);
+    });
+    $('select-none').observe('change',function () {
+	var checked = this.checked;
+	clear_all();
+    });
 }
+
+function select_with_yield (track,turnon,index) {
+    if (index == null) index = 0;
+    if (track == null) return;
+    var count = 0;
+    var i     = index;
+    while (i < track.size() && count++ < 25) {
+	toggle_track(track[i++],turnon);
+    }
+    if (i < track.size()) {
+	setTimeout(function () {select_with_yield(track,turnon,i)},1);
+    }
+}
+
+
+
