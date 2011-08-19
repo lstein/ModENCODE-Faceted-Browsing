@@ -1,5 +1,5 @@
 To install and run:
 
 1) bin/generate_database.pl > htdocs/js/modencode.js
-2) ln -sf /var/www/modencode `pwd`/htdocs
+2) ln -sf `pwd`/htdocs /var/www/modencode 
 3) point your browser at http://your.host/modencode
