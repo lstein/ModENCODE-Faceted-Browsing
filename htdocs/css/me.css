@@ -117,3 +117,11 @@ span.expand,span.contract {
 span.expand {
     display:block;
 }
+.link {
+    cursor:pointer;
+    color:blue;
+}
+.centered {
+    margin:    0px auto;
+    text-align:center    
+}

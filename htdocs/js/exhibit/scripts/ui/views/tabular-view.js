@@ -3,17 +3,20 @@
  *==================================================
  */
 
+
 Exhibit.TabularView = function(containerElmt, uiContext) {
     this._div = containerElmt;
     this._uiContext = uiContext;
     
-    this._settings = { rowStyler: null, tableStyler: null };
+    this._settings = { rowStyler: null, tableStyler: null, tableMunger: null };
     this._columns = [];
     this._rowTemplate = null;
+    this._offset = 0;
 
     var view = this;
     this._listener = { 
         onItemsChanged: function() {
+	    view._offset = 0;
             view._reconstruct(); 
         }
     };
@@ -27,7 +30,8 @@ Exhibit.TabularView._settingSpecs = {
     "showToolbox":          { type: "boolean", defaultValue: true },
     "border":               { type: "int",     defaultValue: 1 },
     "cellPadding":          { type: "int",     defaultValue: 5 },
-    "cellSpacing":          { type: "int",     defaultValue: 3 }
+    "cellSpacing":          { type: "int",     defaultValue: 3 },
+    "maxRows":              { type: "int",     defaultValue: 0 }
 };
 
 Exhibit.TabularView.create = function(configuration, containerElmt, uiContext) {
@@ -116,6 +120,14 @@ Exhibit.TabularView.createFromDOM = function(configElmt, containerElmt, uiContex
         f = eval(s);
         if (typeof f == "function") {
             view._settings.tableStyler = f;
+        }
+    }
+
+    s = Exhibit.getAttribute(configElmt, "tableMunger");
+    if (s != null && s.length > 0) {
+        f = eval(s);
+        if (typeof f == "function") {
+            view._settings.tableMunger = f;
         }
     }
         
@@ -295,7 +307,6 @@ Exhibit.TabularView.prototype._reconstruct = function() {
                     return false;
                 }
             );
-
             tr.appendChild(td);
         };
         for (var i = 0; i < this._columns.length; i++) {
@@ -312,7 +323,7 @@ Exhibit.TabularView.prototype._reconstruct = function() {
                 var tr = Exhibit.Lens.constructFromLensTemplate(item.id, self._rowTemplate, table, self._uiContext);
                 
                 if (self._settings.rowStyler != null) {
-                    self._settings.rowStyler(item.id, database, tr, i);
+                    self._settings.rowStyler(item.id, database, tr, i-self._offset);
                 }
             }
         } else {
@@ -349,11 +360,37 @@ Exhibit.TabularView.prototype._reconstruct = function() {
                 }
             }
         }
-        for (var i = 0; i < items.length; i++) {
-            renderItem(i);
+	var max   = this._settings.maxRows;
+	var limit = (max > 0 && max+self._offset < items.length) ? max : items.length-self._offset;
+
+        for (var i = 0; i < limit; i++) {
+            renderItem(self._offset+i);
         }
 
         bodyDiv.appendChild(table);
+	if ($('navigate') != null) {
+	    $('navigate').innerHTML = '';
+	} else {
+	    navigate = new Element('span',{id:'navigate'});
+	    bodyDiv.insert({before:navigate});
+	}
+	if (self._offset > 0) {
+	    navigate.insert('<div id="goback" class="exhibit-link" style="float:left">&lt;&lt; Previous ' +max+'</div> ');
+	}
+	if (self._offset < items.length-max-1) {
+	    navigate.insert('<div id="goforward" class="exhibit-link" style="float:right">Next '     +max+'&gt;&gt;</div>');
+	}
+	if ($('goforward') || $('goback')) {
+	    navigate.insert('<div class="exhibit-centered">Showing items '+(self._offset+1)+'-'+(self._offset+limit)+'</div>');
+        }
+	if ($('goback') != null)
+	    $('goback').onclick    = function () { self._offset -= max; self._reconstruct() };
+	if ($('goforward') != null)
+	    $('goforward').onclick = function () { self._offset += max; self._reconstruct() };
+
+        if (this._settings.tableMunger != null) {
+            this._settings.tableMunger(table, database);
+        }
     }
 };
 

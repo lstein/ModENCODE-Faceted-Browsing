@@ -61,9 +61,8 @@ function toggle_dataset (id,turn_on) {
     }
     shopping_cart_check();
     var all_selected  = $$('.submission').size() <= $$('.submission.selected').size();
-    var none_selected = $$('.submission.selected').size() == 0;
-    $('select-all').checked=all_selected;
-    $('select-none').checked=none_selected;
+    $('toggle-all').checked=all_selected;
+
 }
 
 function shopping_cart_clear () { 
@@ -287,6 +286,7 @@ function zebraStyler (item, database, tr, index) {
 }
 
 function hilite_row (row,turn_on) {
+    if (row == null) return;
     Element.extend(row);
     row.removeClassName('odd');
     row.removeClassName('even');
@@ -330,16 +330,6 @@ function register_handlers () {
 	    }
 	});
     });
-
-    $('select-all').observe('change',function () {
-	var checked = this.checked;
-	var selected = $$('.submission-select');
-	select_with_yield(selected,checked);
-    });
-    $('select-none').observe('change',function () {
-	var checked = this.checked;
-	clear_all();
-    });
 }
 
 function select_with_yield (track,turnon,index) {
@@ -355,5 +345,19 @@ function select_with_yield (track,turnon,index) {
     }
 }
 
-
-
+function add_selectall_checkbox (table,database) {
+    try {
+	var colheader = table.select('tr')[0].select('th')[0];
+	colheader.insert({top:'<input type="checkbox" id="toggle-all"/> '});
+	$('toggle-all').onclick=function(e) {
+	    if (this.checked) {
+		select_with_yield($$('.submission-select'),true)
+	    } else {
+		clear_all();
+	    }
+	    e.stopPropagation();
+	};
+    }
+    catch (e) { }
+    
+}

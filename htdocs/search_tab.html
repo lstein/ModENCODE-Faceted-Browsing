@@ -9,10 +9,10 @@
     <link rel='stylesheet' href="css/common.css" type='text/css' />
     <link rel='stylesheet' href="css/me.css" type='text/css' />
 
-    <script src="js/exhibit/exhibit-api.js?bundle=false"
+    <script src="js/exhibit/ajax/simile-ajax-api.js?bundle=false"
             type="text/javascript"></script>
 
-    <script src="js/exhibit/ajax/simile-ajax-api.js?bundle=false"
+    <script src="js/exhibit/exhibit-api.js?bundle=false"
             type="text/javascript"></script>
 
     <script src="js/prototype.js"
@@ -92,13 +92,12 @@
 <!-- middle column: exhibit results -->
   <td id="middle-column">
 
-    <b>Select</b><label><input type="radio" name="selectall" id='select-all'><b>all</b></input></label>
-                 <label><input type="radio" name="selectall" id='select-none' checked="true"><b>none</b></input></label>
-    <div style="height:800px; overflow:auto"
-	id="data-table"
+    <div id="data-table"
 	ex:role="view" 
 	ex:viewClass="Tabular" 
+        ex:maxRows = "20"
 	ex:columnLabels="Select Dataset,Organism,Technique,Target,Factor,Conditions"
+	ex:tableMunger="add_selectall_checkbox"
 	ex:rowStyler="zebraStyler"
 	ex:border="1"
 	ex:cellSpacing="2"

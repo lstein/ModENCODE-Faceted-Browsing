@@ -168,3 +168,11 @@ div.exhibit-focusDialog-controls {
 .exhibit-busyIndicator-content img {
     vertical-align: middle;
 }
+.exhibit-link {
+    cursor:pointer;
+    color:blue;
+}
+.exhibit-centered {
+    margin:    0px auto;
+    text-align:center    
+}
