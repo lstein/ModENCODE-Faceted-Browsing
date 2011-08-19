@@ -97,6 +97,8 @@ Exhibit.ListFacet._configure = function(facet, configuration) {
     }
     
     if (!("facetLabel" in facet._settings)) {
+        facet._settings.facetLabel = "";
+	/*
         facet._settings.facetLabel = "missing ex:facetLabel";
         if (facet._expression != null && facet._expression.isPath()) {
             var segment = facet._expression.getPath().getLastSegment();
@@ -105,6 +107,7 @@ Exhibit.ListFacet._configure = function(facet, configuration) {
                 facet._settings.facetLabel = segment.forward ? property.getLabel() : property.getReverseLabel();
             }
         }
+	*/
     }
     if ("fixedOrder" in facet._settings) {
         var values = facet._settings.fixedOrder.split(";");

@@ -91,6 +91,10 @@ div.select-track {
 div.exhibit-thumbnailView-itemContainer {
     padding: 0px;
 }
+div.exhibit-flowingFacet-body {
+    max-height: 400px;
+    overflow: auto;
+}
 ol.exhibit-tileView-body {
     list-style-type: none;
 }
@@ -106,4 +110,7 @@ ul,ol#shopping_cart {
 .strikeout {
     text-decoration: line-through;
     color:           gray;
+}
+span.expand,span.contract {
+    cursor: pointer;
 }

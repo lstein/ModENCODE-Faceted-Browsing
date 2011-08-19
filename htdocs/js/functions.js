@@ -295,3 +295,32 @@ function hilite_row (row,turn_on) {
 	row.addClassName(row.rowIndex %2 ? 'odd' : 'even');
     }
 }
+
+function register_handlers () {
+    var span = $$('span.expand,span.contract');
+    span.each(function (d) {
+	if (d.hasClassName('expand')) {
+	    d.select('img')[0].src='js/exhibit/images/right.png';
+	    d.select('div')[0].hide();
+	} else {
+	    d.select('img')[0].src='js/exhibit/images/down-arrow.png';
+	}
+	d.observe('click',function() {
+	    var s = d.select('div')[0];
+	    if (s.visible()) {
+		new Effect.SlideUp(s,{duration:0.5});
+	    } else {
+		new Effect.SlideDown(s,{duration:0.5});
+	    }
+	    if (d.hasClassName('contract')) {
+		d.removeClassName('contract');
+		d.addClassName('expand');
+		d.select('img')[0].src='js/exhibit/images/right.png';
+	    } else {
+		d.addClassName('contract');
+		d.removeClassName('expand');
+		d.select('img')[0].src='js/exhibit/images/down-arrow.png';
+	    }
+	});
+    });
+}

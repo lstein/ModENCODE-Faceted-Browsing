@@ -1,3 +1,5 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
  <head>
     <title>Faceted Search of modENCODE Data Sets</title>
@@ -7,11 +9,17 @@
     <link rel='stylesheet' href="css/common.css" type='text/css' />
     <link rel='stylesheet' href="css/me.css" type='text/css' />
 
-    <script src="js/exhibit/exhibit-api.js"
+    <script src="js/exhibit/exhibit-api.js?bundle=false"
+            type="text/javascript"></script>
+
+    <script src="js/exhibit/ajax/simile-ajax-api.js?bundle=false"
             type="text/javascript"></script>
 
     <script src="js/prototype.js"
             type="text/javascript"></script>
+
+    <script src="js/scriptaculous/scriptaculous.js"
+	    type="text/javascript"></script>
 
     <script type="text/javascript" src="js/balloon.config.js"></script>
     <script type="text/javascript" src="js/balloon.js"></script>
@@ -21,7 +29,7 @@
     </script>
  </head> 
 
-<body>
+<body onload="register_handlers()">
 <div class="header">
     <h1><a href="www.modencode.org"><img src="http://www.modencode.org/img/modENCODE_logo_small.png" height="60" align="middle" border="0"/></a>
       Search modENCODE Data Sets</h1>
@@ -64,16 +72,21 @@
     </tr>
   </table>
 </div>
-	    
+
 <!-- this is the faceted search area and results-->
 <table border='0'>
 
 <!-- left column, organism, technique, target and factor facets -->
   <td id="left-column" width="20%">
-    <div  ex:role="facet" ex:expression=".organism"  ex:scroll="false" ex:facetLabel="Organism"    ex:sortMode="count"></div>
-    <div  ex:role="facet" ex:expression=".technique" ex:scroll="false" ex:facetLabel="Technique"   ex:sortMode="count"></div>
-    <div  ex:role="facet" ex:expression=".target"    ex:scroll="false" ex:facetLabel="Target Type" ex:sortMode="count"></div>
-    <div  ex:role="facet" ex:expression=".factor"    ex:scroll="true" ex:facetLabel="Factor"></div>
+    <span class="contract"><img/><b>Organism</b>
+      <div ex:role="facet" ex:expression=".organism"  ex:scroll="false" ex:sortMode="count"></div>
+    </span>
+    <span class="contract"><img/><b>Technique</b>
+      <div  ex:role="facet" ex:expression=".technique" ex:scroll="false" ex:sortMode="count"></div>
+    </span>
+    <span class="contract"><img/><b>Target Type</b>
+      <div  ex:role="facet" ex:expression=".target"    ex:scroll="false" ex:facetLabel="" ex:sortMode="count"></div>
+    </span>
   </td>
   
 <!-- middle column: exhibit results -->
@@ -114,12 +127,27 @@
 </div>
 <!-- right column: developmental stage, strain, cell line and tissue facets -->
   <td id="right-column" width="20%">
-    <div  ex:role="facet" ex:expression=".Developmental-Stage" ex:scroll="true" ex:facetLabel="Developmental Stage"></div>
-    <div  ex:role="facet" ex:expression=".Strain"              ex:scroll="true" ex:facetLabel="Strain" ex:sortMode="count"></div> 
-    <div  ex:role="facet" ex:expression=".Cell-Line"           ex:scroll="true" ex:facetLabel="Cell Line"></div>
-    <div  ex:role="facet" ex:expression=".Tissue"              ex:scroll="true" ex:facetLabel="Tissue"></div>
-    <div  ex:role="facet" ex:expression=".Compound"            ex:scroll="true" ex:facetLabel="Compound"></div>
-    <div  ex:role="facet" ex:expression=".temperature"         ex:scroll="true" ex:facetLabel="Temperature"></div>
+    <span class="expand"><img/><b>Factor</b>
+      <div  ex:role="facet" ex:expression=".factor"  ex:height:"200px"  ex:scroll="false" ex:facetLabel=""></div>
+    </span>
+    <span class="expand"><img/><b>Developmental Stage</b>
+      <div  ex:role="facet" ex:expression=".Developmental-Stage" ex:scroll="false" ex:facetLabel=""></div>
+    </span>
+    <span class="expand"><img/><b>Strain</b>
+      <div  ex:role="facet" ex:expression=".Strain"              ex:scroll="false" ex:sortMode="count"></div> 
+    </span>
+    <span class="expand"><img/><b>Cell Line</b>
+      <div  ex:role="facet" ex:expression=".Cell-Line"           ex:scroll="false" ex:facetLabel=""></div>
+    </span>
+    <span class="expand"><img/><b>Tissue</b>
+      <div  ex:role="facet" ex:expression=".Tissue"              ex:scroll="false" ex:facetLabel=""></div>
+    </span>
+    <span class="expand"><img/><b>Compound</b>
+      <div  ex:role="facet" ex:expression=".Compound"            ex:scroll="false" ex:facetLabel=""></div>
+    </span>
+    <span class="expand"><img/><b>Temperature</b>
+      <div  ex:role="facet" ex:expression=".temperature"         ex:scroll="false" ex:facetLabel=""></div>
+    </span>
   </td>
 </tr>
 </table>
