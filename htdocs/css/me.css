@@ -114,3 +114,6 @@ ul,ol#shopping_cart {
 span.expand,span.contract {
     cursor: pointer;
 }
+span.expand {
+    display:block;
+}
