@@ -3230,7 +3230,7 @@
          "label" : "L2_reference_tiling_array",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L2 22 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -3247,7 +3247,7 @@
          "label" : "L2_panneural_tiling_array",
          "type" : "data set",
          "Strain" : "SD1241",
-         "Developmental-Stage" : " mid-L2 22 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -3264,7 +3264,7 @@
          "label" : "L2_intestine_tiling_array",
          "type" : "data set",
          "Strain" : "SD1084",
-         "Developmental-Stage" : " mid-L2 22 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -3281,7 +3281,7 @@
          "label" : "L2_excretory_cell_tiling_array",
          "type" : "data set",
          "Strain" : "NC1598",
-         "Developmental-Stage" : " mid-L2 22 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -3298,7 +3298,7 @@
          "label" : "L2_body_wall_muscle_tiling_array",
          "type" : "data set",
          "Strain" : "SD1075",
-         "Developmental-Stage" : " mid-L2 22 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -3315,7 +3315,7 @@
          "label" : "L2_GABA_motor_neurons_tiling_array",
          "type" : "data set",
          "Strain" : "NC1627",
-         "Developmental-Stage" : " mid-L2 22 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -3366,7 +3366,7 @@
          "label" : "L2_A-class_neurons_tiling_array",
          "type" : "data set",
          "Strain" : "NC694",
-         "Developmental-Stage" : " mid-L2 22 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -3399,7 +3399,7 @@
          "label" : "mid-L2_25dC_14hrs_post-L1_N2_tiling_array",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L2 17.75 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L2 17.75 hrs post-L1 stage larvae",
          "organism" : "C. elegans"
       },
       {
@@ -3414,7 +3414,7 @@
          "label" : "mid-L4_25dC_36hrs_post-L1_N2_tiling_array",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L4 34.25 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
          "organism" : "C. elegans"
       },
       {
@@ -3429,7 +3429,7 @@
          "label" : "mid-L3_25dC_25hrs_post-L1_N2_tiling_array",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L3 26.75 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L3 26.75 hrs post-L1 stage larvae",
          "organism" : "C. elegans"
       },
       {
@@ -3474,7 +3474,7 @@
          "label" : "mid-L2_polA_enriched_20dC_14hrs_post-L1_N2_tiling_array",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L2 17.75 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L2 17.75 hrs post-L1 stage larvae",
          "organism" : "C. elegans"
       },
       {
@@ -3536,7 +3536,7 @@
          "label" : "L1_20dC_0hrs_post-L1_N2_tiling_array",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L1 4.0 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L1 4.0 hrs post-L1 stage larvae",
          "organism" : "C. elegans"
       },
       {
@@ -3551,7 +3551,7 @@
          "label" : "soma-only_mid-L4_25dC_36hrs_post-L1_JK1107_tiling_array",
          "type" : "data set",
          "Strain" : "JK1107",
-         "Developmental-Stage" : " mid-L4 34.25 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
          "organism" : "C. elegans"
       },
       {
@@ -4823,7 +4823,7 @@
          "label" : "L2_coelomocytes_tiling_array",
          "type" : "data set",
          "Strain" : "NC1668",
-         "Developmental-Stage" : " mid-L2 22 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -4840,7 +4840,7 @@
          "label" : "L2_glutamate_receptor_expressing_neurons_tiling_array",
          "type" : "data set",
          "Strain" : "NC1842",
-         "Developmental-Stage" : " mid-L2 22 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -9331,7 +9331,7 @@
          "label" : "C. elegans mid-L1 N2 RNA-Seq sequences and alignments",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L1 4.0 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L1 4.0 hrs post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -9684,7 +9684,7 @@
          "label" : "C. elegans mid-L2 N2 RNA-Seq sequences and alignments",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L2 17.75 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L2 17.75 hrs post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "25 degree celsius"
       },
@@ -9700,7 +9700,7 @@
          "label" : "C. elegans mid-L3 N2 RNA-Seq sequences and alignments",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L3 26.75 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L3 26.75 hrs post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "25 degree celsius"
       },
@@ -9716,7 +9716,7 @@
          "label" : "C. elegans mid-L4 N2 RNA-Seq sequences and alignments",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L4 34.25 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "25 degree celsius"
       },
@@ -11977,7 +11977,7 @@
          "label" : "RNAseq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments",
          "type" : "data set",
          "Strain" : "JK1107",
-         "Developmental-Stage" : " mid-L4 34.25 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "25 degree celsius"
       },
@@ -12107,7 +12107,7 @@
          "label" : "RNAseq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 genelets",
          "type" : "data set",
          "Strain" : "JK1107",
-         "Developmental-Stage" : " mid-L4 34.25 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "25 degree celsius"
       },
@@ -14706,7 +14706,7 @@
          "label" : "C. elegans mid-L1 N2 RNA-Seq genelets",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L1 4.0 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L1 4.0 hrs post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -14726,7 +14726,7 @@
          "label" : "C. elegans mid-L2 N2 RNA-Seq genelets",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L2 17.75 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L2 17.75 hrs post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "25 degree celsius"
       },
@@ -14747,7 +14747,7 @@
          "label" : "C. elegans mid-L3 N2 RNA-Seq genelets",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L3 26.75 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L3 26.75 hrs post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "25 degree celsius"
       },
@@ -14767,7 +14767,7 @@
          "label" : "C. elegans mid-L4 N2 RNA-Seq genelets",
          "type" : "data set",
          "Strain" : "N2",
-         "Developmental-Stage" : " mid-L4 34.25 hrs post-L1 stage larvae",
+         "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "25 degree celsius"
       },

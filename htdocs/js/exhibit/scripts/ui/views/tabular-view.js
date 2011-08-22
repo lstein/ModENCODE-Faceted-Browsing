@@ -268,6 +268,14 @@ Exhibit.TabularView.prototype._reconstruct = function() {
         currentSet.visit(function(itemID) { items.push({ id: itemID, sortKey: "" }); });
     }
     
+    // the next if-else hacked in by Lincoln Stein
+    if ($('navigate') != null) {
+	$('navigate').innerHTML = '';
+    } else {
+	navigate = new Element('span',{id:'navigate'});
+	bodyDiv.insert({before:navigate});
+    }
+
     if (items.length > 0) {
         /*
          *  Sort the items
@@ -360,34 +368,42 @@ Exhibit.TabularView.prototype._reconstruct = function() {
                 }
             }
         }
-	var max   = this._settings.maxRows;
-	var limit = (max > 0 && max+self._offset < items.length) ? max : items.length-self._offset;
+	var max   = +this._settings.maxRows;
+	var limit = (max > 0 && max+ self._offset < items.length) ? max : items.length - self._offset;
 
         for (var i = 0; i < limit; i++) {
             renderItem(self._offset+i);
         }
 
         bodyDiv.appendChild(table);
-	if ($('navigate') != null) {
-	    $('navigate').innerHTML = '';
-	} else {
-	    navigate = new Element('span',{id:'navigate'});
-	    bodyDiv.insert({before:navigate});
-	}
+
+	// the next section is hacked in by Lincoln Stein
 	if (self._offset > 0) {
 	    navigate.insert('<div id="goback" class="exhibit-link" style="float:left">&lt;&lt; Previous ' +max+'</div> ');
 	}
-	if (self._offset < items.length-max-1) {
+	if (max > 0 && self._offset < items.length-max-1) {
 	    navigate.insert('<div id="goforward" class="exhibit-link" style="float:right">Next '     +max+'&gt;&gt;</div>');
 	}
-	if ($('goforward') || $('goback')) {
-	    navigate.insert('<div class="exhibit-centered">Showing items '+(self._offset+1)+'-'+(self._offset+limit)+'</div>');
-        }
+	
+	var select = new Element('select',{name:'max-values'});
+	var values = [10,20,50,100,500,0];
+	values.each(function (v) {
+	    var option = new Element('option',{value:v}).update(v==0?'All':v);
+	    if (v == max) option.selected='selected';
+	    select.insert(option);
+	    select.onchange=function (e) {self._settings.maxRows=e.element().getValue(); self._offset = 0; self._reconstruct()};
+	});
+	var top = self._offset + limit;
+	navigate.insert('<div class="exhibit-centered" id="tab-items-showing-label"><b>Showing items '+(self._offset+1)+'-'+top+',</b></div>');
+	$('tab-items-showing-label').insert('&nbsp;');
+	$('tab-items-showing-label').insert('Max items: ');
+	$('tab-items-showing-label').insert(select);
+	
 	if ($('goback') != null)
 	    $('goback').onclick    = function () { self._offset -= max; self._reconstruct() };
 	if ($('goforward') != null)
 	    $('goforward').onclick = function () { self._offset += max; self._reconstruct() };
-
+	
         if (this._settings.tableMunger != null) {
             this._settings.tableMunger(table, database);
         }

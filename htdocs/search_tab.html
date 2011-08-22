@@ -38,37 +38,28 @@
 <!-- this is the search box, list of selected tracks, and control buttons -->
 <div class="status">
   <table width="100%" border='0'>
-    <tr valign="bottom">
-      <td width="20%"  style="vertical-align:middle">
-	<span class="notice">Internet Explorer users: If this page is too slow for you, consider Firefox, Safari or Chrome. Please do not stop script execution if you are asked to.</span><br><br>
-	<b>Search:</b> <span id="searchbox" ex:role="facet" ex:facetClass="TextSearch"></span>
+    <tr>
+      <td width="20%"></td>
+      <th id="dataset_count">Selected Datasets:</th>
+    </tr>
+    <tr>
+      <td>
+	<span class="notice">Internet Explorer users: If this page is too slow for you, consider Firefox, Safari or Chrome. Please do not abort script execution.</span>
       </td>
-      <td colspan="2">
-	<table width="100%">
-	  <tr>
-	    <th id="dataset_count">Selected Datasets:</th>
-	  </tr>
-	  <tr>
-	    <th align="left">
-	      <ul id="shopping_cart"><i style="color:gray">No datasets selected</i></ul>
-	    </th>
-	  </tr>
-	  <tr>
-	    <th>
-	      <div id="retrieve_buttons" style="display:none">
-		<button id="browse_worm">Browse worm tracks</button>
-		<button id="browse_fly">Browse fly tracks</button>
-		<button id="download data">Download</button>
-		<button id="clear data" onclick="clear_all()">Clear All</button>
-	      </div>
-	    </th>
-	  </tr>
-	</table>
-
-	<div id="selection_count"></div>
-
-      </td>
-      <td>&nbsp;</td>
+      <th align="left">
+	<ul id="shopping_cart"><i style="color:gray">No datasets selected</i></ul>
+      </th>
+    </tr>
+    <tr>
+      <td><b>Search:</b> <span id="searchbox" ex:role="facet" ex:facetClass="TextSearch"></span></td>
+      <th>
+	<div id="retrieve_buttons" style="display:none">
+	  <button id="browse_worm">Browse worm tracks</button>
+	  <button id="browse_fly">Browse fly tracks</button>
+	  <button id="download data">Download</button>
+	  <button id="clear data" onclick="clear_all()">Clear All</button>
+	</div>
+      </th>
     </tr>
   </table>
 </div>

@@ -5,9 +5,6 @@ td {
     position:relative;
     left: 10em;
 }
-.centered {
-    text-align: center;
-}
 div.header {
     background: #6ECCF8 url('../top_gradient.png') repeat-x;
     height:60;
@@ -113,6 +110,8 @@ ul,ol#shopping_cart {
     resize: vertical;
     overflow: auto;
     list-style-type: none;
+    margin-top: 0em;
+    margin-bottom: 0em;
 }
 .strikeout {
     text-decoration: line-through;
@@ -131,4 +130,7 @@ span.expand {
 .centered {
     margin:    0px auto;
     text-align:center    
+}
+.bold {
+    font-weight:bold;
 }

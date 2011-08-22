@@ -141,6 +141,7 @@ sub fix_stage {
     $stage   =~ s/embryo\b/Embryos/i;
     $stage   =~ s/stage stage/stage/;
     $stage   =~ s/WPP/White prepupae (WPP)/;
+    $stage   =~ s/^\s+//;
     return ucfirst($stage);
 }
 
