@@ -123,6 +123,9 @@ span.expand,span.contract {
     cursor: pointer;
     color:  #5EA2B9;
 }
+div.exhibit-flowingFacet-header {
+    color:  #5EA2B9;
+}
 span.expand {
     display:block;
 }

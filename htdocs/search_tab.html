@@ -73,15 +73,9 @@
 <!-- left column, organism, technique, target and factor facets -->
   <td id="left-column" width="20%">
     <div class="notice">Search Filters</div>
-    <span class="contract"><img/><b>Organism</b>
-      <div ex:role="facet" ex:expression=".organism"  ex:scroll="false" ex:sortMode="count"></div>
-    </span>
-    <span class="contract"><img/><b>Genomic Target Element</b>
-      <div  ex:role="facet" ex:expression=".target"    ex:scroll="false" ex:facetLabel="" ex:sortMode="count"></div>
-    </span>
-    <span class="contract"><img/><b>Technique</b>
-      <div  ex:role="facet" ex:expression=".technique" ex:scroll="false" ex:sortMode="count"></div>
-    </span>
+    <div ex:role="facet" ex:collapsible="true" ex:facetLabel="Organism" ex:expression=".organism"  ex:scroll="false" ex:sortMode="count"></div>
+    <div  ex:role="facet" ex:collapsible="true" ex:facetLabel="Genomic Target Element" ex:expression=".target"    ex:scroll="false" ex:facetLabel="" ex:sortMode="count"></div>
+    <div  ex:role="facet" ex:collapsible="true" ex:facetLabel="Technique" ex:expression=".technique" ex:scroll="false" ex:sortMode="count"></div>
   </td>
   
 <!-- middle column: exhibit results -->
@@ -128,33 +122,15 @@
 <!-- right column: developmental stage, strain, cell line and tissue facets -->
   <td id="right-column" width="20%">
     <div class="notice">More Search Filters</div>
-    <span class="contract"><img/><b>Project Category</b>
-      <div ex:role="facet" ex:expression=".category"  ex:scroll="false" ex:sortMode="count"></div>
-    </span>
-    <span class="expand"><img/><b>Principal Investigator</b>
-      <div ex:role="facet" ex:expression=".principal_investigator"  ex:scroll="false"></div>
-    </span>
-    <span class="expand"><img/><b>Assay Factor</b>
-      <div  ex:role="facet" ex:expression=".factor"  ex:height:"200px"  ex:scroll="false" ex:facetLabel=""></div>
-    </span>
-    <span class="expand"><img/><b>Developmental Stage</b>
-      <div  ex:role="facet" ex:expression=".Developmental-Stage" ex:scroll="false" ex:facetLabel=""></div>
-    </span>
-    <span class="expand"><img/><b>Strain</b>
-      <div  ex:role="facet" ex:expression=".Strain"              ex:scroll="false" ex:sortMode="count"></div> 
-    </span>
-    <span class="expand"><img/><b>Cell Line</b>
-      <div  ex:role="facet" ex:expression=".Cell-Line"           ex:scroll="false" ex:facetLabel=""></div>
-    </span>
-    <span class="expand"><img/><b>Tissue</b>
-      <div  ex:role="facet" ex:expression=".Tissue"              ex:scroll="false" ex:facetLabel=""></div>
-    </span>
-    <span class="expand"><img/><b>Compound</b>
-      <div  ex:role="facet" ex:expression=".Compound"            ex:scroll="false" ex:facetLabel=""></div>
-    </span>
-    <span class="expand"><img/><b>Temperature</b>
-      <div  ex:role="facet" ex:expression=".temperature"         ex:scroll="false" ex:facetLabel=""></div>
-    </span>
+    <div ex:role="facet" ex:collapsible="true" ex:collapsed="false" ex:facetLabel="Project Category" ex:expression=".category"  ex:scroll="false" ex:sortMode="value"></div>
+    <div ex:role="facet" ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Principal Investigator" ex:expression=".principal_investigator"  ex:scroll="false"></div>
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Assay Factor" ex:expression=".factor"  ex:height:"200px"  ex:scroll="false" ex:facetLabel=""></div>
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Developmental Stage" ex:expression=".Developmental-Stage" ex:scroll="false" ex:facetLabel=""></div>
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Strain" ex:expression=".Strain"              ex:scroll="false" ex:sortMode="count"></div> 
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Cell Line" ex:expression=".Cell-Line"           ex:scroll="false" ex:facetLabel=""></div>
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Tissue" ex:expression=".Tissue"              ex:scroll="false" ex:facetLabel=""></div>
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Compound" ex:expression=".Compound"            ex:scroll="false" ex:facetLabel=""></div>
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Temperature" ex:expression=".temperature"         ex:scroll="false" ex:facetLabel=""></div>
   </td>
 </tr>
 </table>
