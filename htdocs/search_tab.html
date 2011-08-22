@@ -43,8 +43,8 @@
       <th id="dataset_count">Selected Datasets:</th>
     </tr>
     <tr>
-      <td>
-	<span class="notice">Internet Explorer users: If this page is too slow for you, consider Firefox, Safari or Chrome. Please do not abort script execution.</span>
+      <td class="notice">
+	<span>Internet Explorer users: If this page is too slow for you, consider Firefox, Safari or Chrome. Please do not abort script execution.</span>
       </td>
       <td align="left">
 	<ul id="shopping_cart"><i style="color:gray">No datasets selected</i></ul>
@@ -76,14 +76,11 @@
     <span class="contract"><img/><b>Organism</b>
       <div ex:role="facet" ex:expression=".organism"  ex:scroll="false" ex:sortMode="count"></div>
     </span>
-    <span class="contract"><img/><b>Principal Investigator</b>
-      <div ex:role="facet" ex:expression=".principal_investigator"  ex:scroll="false"></div>
+    <span class="contract"><img/><b>Genomic Target Element</b>
+      <div  ex:role="facet" ex:expression=".target"    ex:scroll="false" ex:facetLabel="" ex:sortMode="count"></div>
     </span>
     <span class="contract"><img/><b>Technique</b>
       <div  ex:role="facet" ex:expression=".technique" ex:scroll="false" ex:sortMode="count"></div>
-    </span>
-    <span class="contract"><img/><b>Target Type</b>
-      <div  ex:role="facet" ex:expression=".target"    ex:scroll="false" ex:facetLabel="" ex:sortMode="count"></div>
     </span>
   </td>
   
@@ -95,13 +92,13 @@
 	ex:viewClass="Tabular" 
 	ex:showToolbox="false"
         ex:maxRows = "20"
-	ex:columnLabels="Dataset,Organism,PI,Technique,Target,Factor,Conditions,ID"
+	ex:columnLabels="Dataset,Organism,Technique,Target Element,Assay Factor,Conditions,PI,ID"
 	ex:tableMunger="add_selectall_checkbox"
 	ex:rowStyler="zebraStyler"
 	ex:border="1"
 	ex:cellSpacing="2"
 	ex:cellPadding="3"
-	ex:columns=".label,.organism,.principal_investigator,.technique,.target,.factor,.Developmental-Stage,.submission" 
+	ex:columns=".label,.organism,.technique,.target,.factor,.Developmental-Stage,.principal_investigator,.submission" 
 	ex:abbreviatedCount="20" id="filter_results">
      <table>
        <tr class="submission" onclick="toggle_tr(this)">
@@ -109,7 +106,6 @@
 	   <span ex:content=".label"></span>
 	 </td>
 	 <td><span ex:content=".organism"></span></td>
-	 <td nowrap="1"><span ex:content=".principal_investigator"></span></td>
 	 <td><span ex:content=".technique"></span></td>
 	 <td><span ex:content=".target"></span></td>
 	 <td><span ex:content=".factor"></span></td>
@@ -124,6 +120,7 @@
 	     <span ex:content=".Compound"></span>
 	   </span>
 	 </td>
+	 <td nowrap="1"><span ex:content=".principal_investigator"></span></td>
 	 <td><span ex:content=".submission"></span></td>
        </tr>
      </table>
@@ -131,7 +128,13 @@
 <!-- right column: developmental stage, strain, cell line and tissue facets -->
   <td id="right-column" width="20%">
     <div class="notice">More Search Filters</div>
-    <span class="expand"><img/><b>Factor</b>
+    <span class="contract"><img/><b>Project Category</b>
+      <div ex:role="facet" ex:expression=".category"  ex:scroll="false" ex:sortMode="count"></div>
+    </span>
+    <span class="expand"><img/><b>Principal Investigator</b>
+      <div ex:role="facet" ex:expression=".principal_investigator"  ex:scroll="false"></div>
+    </span>
+    <span class="expand"><img/><b>Assay Factor</b>
       <div  ex:role="facet" ex:expression=".factor"  ex:height:"200px"  ex:scroll="false" ex:facetLabel=""></div>
     </span>
     <span class="expand"><img/><b>Developmental Stage</b>

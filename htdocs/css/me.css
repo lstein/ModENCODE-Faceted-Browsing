@@ -1,3 +1,5 @@
+body { background:#FFF url('../img/bg.png') repeat-x top left; font-family:Arial,"Gill Sans","Gill Sans MT", "Myriad Pro",
+    Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, sans-serif; }
 td {
     font-size: 10pt
 }
@@ -13,8 +15,9 @@ div.header {
 div.label-header {
     background: #6ECCF8;
 }
-span.notice,div.notice {
-    color: red;
+td.notice,span.notice,div.notice {
+    background-color: #5EA2B9;
+    color: white;
     font-weight:bold;
 }
 .submission {
@@ -80,7 +83,7 @@ div.name {
     background-color: wheat;
 }
 tr.odd {
-    background-color: #F0FFF0;
+    background-color:#EEF0E3;
 }
 tr.even {
     background-color: white;
@@ -118,6 +121,7 @@ ul,ol#shopping_cart {
 }
 span.expand,span.contract {
     cursor: pointer;
+    color:  #5EA2B9;
 }
 span.expand {
     display:block;

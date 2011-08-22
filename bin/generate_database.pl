@@ -57,9 +57,11 @@ while (<FH>) {
     $factor   = fix_factor($factor);
     $target   =~ tr/-/ /;
     $pi       =~ s/^(\w)\w+\s*(\w+)/$2, $1./;
+    $pi      ||= 'Oliver B.';   # nasty fix
     $submission =~ s/^modencode_//i;
     my %conditions = @conditions;
     my $label   = join(';',$technique,$factor,values %conditions);
+    my $category = find_category($pi,$technique,$target);
 
     $DATA{$id} = {
 	submission => $submission,
@@ -69,6 +71,7 @@ while (<FH>) {
 	target     => $target,
 	technique  => $technique,
 	factor    => $factor,
+	category  => $category,
 	type      => 'data set',
 	$pi ? (principal_investigator => $pi) : (),
 	@conditions,
@@ -159,4 +162,74 @@ sub fix_factor {
     $factor =~ s!SU\(HW\)!Su(Hw)!i;
     return $factor;
 }
+
+sub find_category {
+    my ($pi,$technique,$target) = @_;
+
+    if ($pi =~ /Henikoff/) {
+	return 'Chromatin structure'      if $target =~ /chromatin structure/i;
+	return 'RNA expression profiling' if $target =~ /mRNA/;
+	return;
+    }
+
+    if ($pi =~ /Celniker/) {
+	return 'RNA expression profiling' if $technique eq 'RNA-tiling-array';
+	return 'Gene Structure';
+    }
+
+    if ($pi =~ /Waterston/) {
+	return 'RNA expression profiling' if $technique eq 'RNA-tiling-array';
+	return 'Gene Structure';
+    }
+
+    if ($pi =~ /Karpen/) {
+	return 'Histone modification and replacement' if $target =~ /Histone Modification/;
+	return 'Other chromatin binding sites'        if $target =~ /Non TF Chromatin binding factor/;
+	return;
+    }
+
+    if ($pi =~ /Lai/) {
+	return 'RNA expression profiling' if $target eq 'small RNA';
+	return;
+    }
+
+    if ($pi =~ /Lieb/) {
+	return 'Histone modification and replacement' if $target =~ /Histone Modification/;
+	return 'Other chromatin binding sites'        if $target =~ /Non TF Chromatin binding factor/;
+	return 'Chromatin structure'                  if $target =~ /chromatin structure/i;
+	return 'RNA expression profiling'             if $target =~ /mRNA/;
+	return;
+    }
+
+    if ($pi =~ /MacAlpine/i) {
+	return 'Replication'                          if $target =~ /DNA Replication/i;
+	return 'Copy Number Variation'                if $target =~ /Copy Number Variation/i;
+	return 'TF binding sites'                     if $target =~ /Transcriptional Factor/i;
+	return;
+    }
+
+    if ($pi =~ /Oliver/) {
+	return 'RNA expression profiling' if $target =~ /mRNA/;
+    }
+
+    if ($pi =~ /Piano/) {
+	return 'Gene Structure'                       if $target =~ /mRNA/;
+	return 'RNA expression profiling'             if $target =~ /small RNA/i;
+	return;
+    }
+
+    if ($pi =~ /Snyder/) {
+	return 'TF binding sites'                     if $target =~ /Transcriptional Factor/i;
+	return;
+    }
+
+    if ($pi =~ /White/) {
+	return 'Histone modification and replacement' if $target =~ /Histone Modification/i;
+	return 'TF binding sites'                     if $target =~ /Transcriptional Factor/i;
+	return 'Other chromatin binding sites'        if $target =~ /Non TF Chromatin binding factor/i;
+	return 'RNA expression profiling'             if $target =~ /mRNA/;
+    }
+
+    return;
+ }
 
