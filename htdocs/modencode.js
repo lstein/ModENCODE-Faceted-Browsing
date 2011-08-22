@@ -13,8 +13,8 @@
          "Tracks" : [
             "fly/White_INSULATORS_WIG/BEAF32"
          ],
-         "submission" : "modENCODE_21",
-         "label" : "E0-12 BEAF-32 ChIP-chip",
+         "submission" : "21",
+         "label" : "ChIP-chip;BEAF-32;Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -27,8 +27,8 @@
          "Tracks" : [
             "fly/White_INSULATORS_WIG/CP190"
          ],
-         "submission" : "modENCODE_22",
-         "label" : "E0-12 CP190 ChIP-chip",
+         "submission" : "22",
+         "label" : "ChIP-chip;CP190;Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -41,8 +41,8 @@
          "Tracks" : [
             "fly/White_INSULATORS_WIG/GAF"
          ],
-         "submission" : "modENCODE_23",
-         "label" : "E0-12_insulator_GAF",
+         "submission" : "23",
+         "label" : "ChIP-chip;GAF;Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -55,8 +55,8 @@
          "Tracks" : [
             "fly/White_INSULATORS_WIG/MDG4"
          ],
-         "submission" : "modENCODE_24",
-         "label" : "Embryo 0-12h insulator Mod(mdg4) ChIP-chip",
+         "submission" : "24",
+         "label" : "ChIP-chip;mod(mdg4);Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -69,8 +69,8 @@
          "Tracks" : [
             "fly/White_INSULATORS_WIG/SuHw"
          ],
-         "submission" : "modENCODE_27",
-         "label" : "Embryo 0-12h su(Hw) ChIP-chip",
+         "submission" : "27",
+         "label" : "ChIP-chip;Su(Hw);Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -80,8 +80,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_34",
-         "label" : "Celniker embryonic 5'RACE",
+         "submission" : "34",
+         "label" : "integrated-gene-model;total-RNA;Y cn bw sp;Mixed Embryos 0-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Mixed Embryos 0-24 hr",
@@ -96,9 +96,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/1182-4H"
          ],
-         "submission" : "modENCODE_40",
+         "submission" : "40",
          "Cell-Line" : "1182-4H",
-         "label" : "Dm_1182-4H_TotalRNA_p200_038-040-042_38bp",
+         "label" : "RNA-tiling-array;total-RNA;1182-4H;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -111,8 +111,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HVARS"
          ],
-         "submission" : "modENCODE_43",
-         "label" : "HTZ-1_N2_Mixed_Embryos (BK00001_HTZ1_N2_MXEMB)",
+         "submission" : "43",
+         "label" : "ChIP-chip;HTZ-1;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -126,8 +126,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_POL2/8WG16_N2_MXEMB"
          ],
-         "submission" : "modENCODE_44",
-         "label" : "POL-2_N2_Mixed_Embryos (CVMMS126R_8WG16_N2_MXEMB)",
+         "submission" : "44",
+         "label" : "ChIP-chip;RNA polII CTD domain unphosophorylated;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -142,9 +142,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/CME-L1"
          ],
-         "submission" : "modENCODE_48",
+         "submission" : "48",
          "Cell-Line" : "CME-L1",
-         "label" : "Dm_CME-L1_TotalRNA_p200_086-088-090_38bp",
+         "label" : "RNA-tiling-array;total-RNA;CME-L1;Third instar larval stage;ventral prothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -158,9 +158,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/CME-W1-CL8%2B"
          ],
-         "submission" : "modENCODE_49",
+         "submission" : "49",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "Dm_CME-W1-Cl.8p_TotalRNA_p200_060-062-064_38bp",
+         "label" : "RNA-tiling-array;total-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -174,9 +174,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/GM2"
          ],
-         "submission" : "modENCODE_50",
+         "submission" : "50",
          "Cell-Line" : "GM2",
-         "label" : "Dm_GM2_TotalRNA_p200_008-010-012_38bp",
+         "label" : "RNA-tiling-array;total-RNA;GM2;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -190,9 +190,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/Kc167"
          ],
-         "submission" : "modENCODE_51",
+         "submission" : "51",
          "Cell-Line" : "Kc167",
-         "label" : "Dm_Kc167_TotalRNA_p200_002-004-006_38bp",
+         "label" : "RNA-tiling-array;total-RNA;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -206,9 +206,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML-DmBG1-c2"
          ],
-         "submission" : "modENCODE_52",
+         "submission" : "52",
          "Cell-Line" : "ML-DmBG1-c1",
-         "label" : "Dm_ML-DmBG1-c2_TotalRNA_p200_116-118-120_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmBG1-c1;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -222,9 +222,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML-DmBG3-c2"
          ],
-         "submission" : "modENCODE_53",
+         "submission" : "53",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Dm_ML-DmBG3-c2_TotalRNA_p200_122-124-126_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -238,9 +238,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML-DmD11"
          ],
-         "submission" : "modENCODE_54",
+         "submission" : "54",
          "Cell-Line" : "ML-DmD11",
-         "label" : "Dm_ML-DmD11_TotalRNA_p200_170-172-174_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmD11;Third instar larval stage;eye-antenna disc-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -254,9 +254,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML-DmD17-c3"
          ],
-         "submission" : "modENCODE_55",
+         "submission" : "55",
          "Cell-Line" : "ML-DmD17-c3",
-         "label" : "Dm_DmD17-c3_TotalRNA_p200_194-196-198_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmD17-c3;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -270,9 +270,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML-DmD20-c2"
          ],
-         "submission" : "modENCODE_56",
+         "submission" : "56",
          "Cell-Line" : "ML-DmD20-c2",
-         "label" : "Dm_DmD20-c2_TotalRNA_p200_182-184-186_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmD20-c2;Third instar larval stage;antenna disc-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -286,9 +286,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML-DmD20-c5"
          ],
-         "submission" : "modENCODE_57",
+         "submission" : "57",
          "Cell-Line" : "ML-DmD20-c5",
-         "label" : "Dm_DmD20-c5_TotalRNA_p200_188-190-192_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmD20-c5;Third instar larval stage;antenna disc-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -302,9 +302,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML-DmD21"
          ],
-         "submission" : "modENCODE_58",
+         "submission" : "58",
          "Cell-Line" : "ML-DmD21",
-         "label" : "Dm_DmD21_TotalRNA_p200_050-052-054_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmD21;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -318,9 +318,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML-DmD32"
          ],
-         "submission" : "modENCODE_59",
+         "submission" : "59",
          "Cell-Line" : "ML-DmD32",
-         "label" : "Dm_DmD32_TotalRNA_p200_164-166-168_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmD32;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -334,9 +334,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML-DmD4-c1"
          ],
-         "submission" : "modENCODE_60",
+         "submission" : "60",
          "Cell-Line" : "ML-DmD4-c1",
-         "label" : "Dm_DmD4-c1_TotalRNA_p200_140-142-144_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmD4-c1;Third instar larval stage;imaginal disc-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -350,9 +350,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML-DmD8"
          ],
-         "submission" : "modENCODE_61",
+         "submission" : "61",
          "Cell-Line" : "ML-DmD8",
-         "label" : "Dm_DmD8_TotalRNA_p200_206-208-210_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmD8;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -366,9 +366,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML-DmD9"
          ],
-         "submission" : "modENCODE_62",
+         "submission" : "62",
          "Cell-Line" : "ML-DmD9",
-         "label" : "Dm_DmD9_TotalRNA_p200_072-074-076_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmD9;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -382,9 +382,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/S1"
          ],
-         "submission" : "modENCODE_63",
+         "submission" : "63",
          "Cell-Line" : "S1",
-         "label" : "Dm_S1_TotalRNA_p200_026-028-030_38bp",
+         "label" : "RNA-tiling-array;total-RNA;S1;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -398,9 +398,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/S2-DRSC"
          ],
-         "submission" : "modENCODE_64",
+         "submission" : "64",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Dm_S2-DRSC_TotalRNA_p200_014-016-018_38bp",
+         "label" : "RNA-tiling-array;total-RNA;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -414,9 +414,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/S2R%2B"
          ],
-         "submission" : "modENCODE_65",
+         "submission" : "65",
          "Cell-Line" : "S2R+",
-         "label" : "Dm_S2R+_TotalRNA_p200_020-022-024_38bp",
+         "label" : "RNA-tiling-array;total-RNA;S2R+;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -430,9 +430,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/S3"
          ],
-         "submission" : "modENCODE_66",
+         "submission" : "66",
          "Cell-Line" : "S3",
-         "label" : "Dm_S3_TotalRNA_p200_104-106-108_38bp",
+         "label" : "RNA-tiling-array;total-RNA;S3;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -446,9 +446,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/Sg4"
          ],
-         "submission" : "modENCODE_67",
+         "submission" : "67",
          "Cell-Line" : "Sg4",
-         "label" : "Dm_Sg4_TotalRNA_p200_200-202-204_38bp",
+         "label" : "RNA-tiling-array;total-RNA;Sg4;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -462,9 +462,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML-DmD16-c3"
          ],
-         "submission" : "modENCODE_69",
+         "submission" : "69",
          "Cell-Line" : "ML-DmD16-c3",
-         "label" : "Dm_DmD16-c3_TotalRNA_p200_138-136-138_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmD16-c3;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -477,8 +477,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_N2_MXEMB"
          ],
-         "submission" : "modENCODE_90",
-         "label" : "DPY-27_N2_Mixed_Embryos (JL00001_DPY27_N2_MXEMB)",
+         "submission" : "90",
+         "label" : "ChIP-chip;DPY-27;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -492,8 +492,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_larval_L1"
          ],
-         "submission" : "modENCODE_93",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_larval_L1_TotalRNA_p200_284-286-288_38bp",
+         "submission" : "93",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;L1 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L1 stage larvae",
@@ -507,8 +507,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_larval_L2"
          ],
-         "submission" : "modENCODE_94",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_larval_L2_TotalRNA_p200_290-292-294_38bp",
+         "submission" : "94",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -522,8 +522,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_prepupae_White"
          ],
-         "submission" : "modENCODE_95",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_prepupa_WhitePrePupae_TotalRNA_p200_326-328-330_38bp",
+         "submission" : "95",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;White prepupae (White prepupae (WPP))",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "White prepupae (White prepupae (WPP))",
@@ -537,8 +537,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_adult_Female_1dayPostEclosion"
          ],
-         "submission" : "modENCODE_96",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_adult_Female_1dayPostEclosion_TotalRNA_p200_374-376-378_38bp",
+         "submission" : "96",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Adult female, eclosion + 1 day",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult female, eclosion + 1 day",
@@ -552,8 +552,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_adult_Female_5dayPostEclosion"
          ],
-         "submission" : "modENCODE_97",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_adult_Female_5dayPostEclosion_TotalRNA_p200_386-388-390_38bp",
+         "submission" : "97",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Adult female, eclosion + 5 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult female, eclosion + 5 days",
@@ -567,8 +567,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_adult_Male_1dayPostEclosion"
          ],
-         "submission" : "modENCODE_98",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_adult_Male_1dayPostEclosion_TotalRNA_p200_368-370-372_38bp",
+         "submission" : "98",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Adult male, eclosion + 1 day",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult male, eclosion + 1 day",
@@ -582,8 +582,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_adult_Male_5dayPostEclosion"
          ],
-         "submission" : "modENCODE_99",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_adult_Male_5dayPostEclosion_TotalRNA_p200_380-382-384_38bp",
+         "submission" : "99",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Adult male, eclosion + 5 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult male, eclosion + 5 days",
@@ -597,8 +597,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_larval_L3_gut_stage1"
          ],
-         "submission" : "modENCODE_100",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_larval_L3_gut_stage1_TotalRNA_p200_440-442-444_38bp",
+         "submission" : "100",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;L3 stage , dark blue gut PS(1-2) stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage , dark blue gut PS(1-2) stage larvae",
@@ -612,8 +612,8 @@
          "Tracks" : [
             "fly/EMBRYO_Total/embryo_0-2h"
          ],
-         "submission" : "modENCODE_101",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_0-2h_TotalRNA_p200_212-214-216_38bp",
+         "submission" : "101",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 0-2 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-2 hr",
@@ -627,8 +627,8 @@
          "Tracks" : [
             "fly/EMBRYO_polyA/embryo_0-2h"
          ],
-         "submission" : "modENCODE_102",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_0-2h_poly-Ap_p200_403-404-405_38bp",
+         "submission" : "102",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 0-2 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-2 hr",
@@ -642,8 +642,8 @@
          "Tracks" : [
             "fly/EMBRYO_Total/embryo_8-10h"
          ],
-         "submission" : "modENCODE_103",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_8-10h_TotalRNA_p200_236-238-240_38bp",
+         "submission" : "103",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 8-10 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-10 hr",
@@ -657,8 +657,8 @@
          "Tracks" : [
             "fly/EMBRYO_polyA/embryo_8-10h"
          ],
-         "submission" : "modENCODE_104",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_8-10h_poly-Ap_p200_415-416-417_38bp",
+         "submission" : "104",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 8-10 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-10 hr",
@@ -672,8 +672,8 @@
          "Tracks" : [
             "fly/EMBRYO_Total/embryo_10-12h"
          ],
-         "submission" : "modENCODE_105",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_10-12h_TotalRNA_p200_242-244-246_38bp",
+         "submission" : "105",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 10-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 10-12 hr",
@@ -687,8 +687,8 @@
          "Tracks" : [
             "fly/EMBRYO_polyA/embryo_10-12h"
          ],
-         "submission" : "modENCODE_106",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_10-12h_poly-Ap_p200_418-419-420_38bp",
+         "submission" : "106",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 10-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 10-12 hr",
@@ -702,8 +702,8 @@
          "Tracks" : [
             "fly/EMBRYO_Total/embryo_12-14h"
          ],
-         "submission" : "modENCODE_107",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_12-14h_TotalRNA_p200_248-250-252_38bp",
+         "submission" : "107",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 12-14 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-14 hr",
@@ -717,8 +717,8 @@
          "Tracks" : [
             "fly/EMBRYO_polyA/embryo_12-14h"
          ],
-         "submission" : "modENCODE_108",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_12-14h_poly-Ap_p200_421-422-423_38bp",
+         "submission" : "108",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 12-14 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-14 hr",
@@ -732,8 +732,8 @@
          "Tracks" : [
             "fly/EMBRYO_Total/embryo_14-16h"
          ],
-         "submission" : "modENCODE_109",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_14-16h_TotalRNA_p200_254-256-258_38bp",
+         "submission" : "109",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 14-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 14-16 hr",
@@ -747,8 +747,8 @@
          "Tracks" : [
             "fly/EMBRYO_polyA/embryo_14-16h"
          ],
-         "submission" : "modENCODE_110",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_14-16h_poly-Ap_p200_424-425-426_38bp",
+         "submission" : "110",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 14-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 14-16 hr",
@@ -762,8 +762,8 @@
          "Tracks" : [
             "fly/EMBRYO_Total/embryo_16-18h"
          ],
-         "submission" : "modENCODE_111",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_16-18h_TotalRNA_p200_260-262-264_38bp",
+         "submission" : "111",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 16-18 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-18 hr",
@@ -777,8 +777,8 @@
          "Tracks" : [
             "fly/EMBRYO_polyA/embryo_16-18h"
          ],
-         "submission" : "modENCODE_112",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_16-18h_poly-Ap_p200_427-428-429_38bp",
+         "submission" : "112",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 16-18 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-18 hr",
@@ -792,8 +792,8 @@
          "Tracks" : [
             "fly/EMBRYO_Total/embryo_18-20h"
          ],
-         "submission" : "modENCODE_113",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_18-20h_TotalRNA_p200_266-268-270_38bp",
+         "submission" : "113",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 18-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 18-20 hr",
@@ -808,8 +808,8 @@
             "fly/EMBRYO_polyA/embryo_18-20h",
             "fly/EMBRYO_Total"
          ],
-         "submission" : "modENCODE_114",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_18-20h_poly-Ap_p200_430-431-432_38bp",
+         "submission" : "114",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 18-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 18-20 hr",
@@ -823,8 +823,8 @@
          "Tracks" : [
             "fly/EMBRYO_polyA/embryo_20-22h"
          ],
-         "submission" : "modENCODE_115",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_20-22h_poly-Ap_p200_433-434-435_38bp",
+         "submission" : "115",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 20-22 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-22 hr",
@@ -838,8 +838,8 @@
          "Tracks" : [
             "fly/EMBRYO_Total/embryo_20-22h"
          ],
-         "submission" : "modENCODE_116",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_20-22h_TotalRNA_p200_272-274-276_38bp",
+         "submission" : "116",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 20-22 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-22 hr",
@@ -853,8 +853,8 @@
          "Tracks" : [
             "fly/EMBRYO_Total/embryo_22-24h"
          ],
-         "submission" : "modENCODE_117",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_22-24h_TotalRNA_p200_278-280-282_38bp",
+         "submission" : "117",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 22-24 hrSC",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 22-24 hrSC",
@@ -868,8 +868,8 @@
          "Tracks" : [
             "fly/EMBRYO_Total/embryo_2-4h"
          ],
-         "submission" : "modENCODE_118",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_2-4h_TotalRNA_p200_218-220-222_38bp",
+         "submission" : "118",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 2-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 2-4 hr",
@@ -883,8 +883,8 @@
          "Tracks" : [
             "fly/EMBRYO_polyA/embryo_2-4h"
          ],
-         "submission" : "modENCODE_119",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_2-4h_poly-Ap_p200_406-407-408_38bp",
+         "submission" : "119",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 2-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 2-4 hr",
@@ -898,8 +898,8 @@
          "Tracks" : [
             "fly/EMBRYO_Total/embryo_4-6h"
          ],
-         "submission" : "modENCODE_120",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_4-6h_TotalRNA_p200_224-226-228_38bp",
+         "submission" : "120",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 4-6 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-6 hr",
@@ -913,8 +913,8 @@
          "Tracks" : [
             "fly/EMBRYO_polyA/embryo_4-6h"
          ],
-         "submission" : "modENCODE_121",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_4-6h_poly-Ap_p200_409-410-411_38bp",
+         "submission" : "121",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 4-6 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-6 hr",
@@ -928,8 +928,8 @@
          "Tracks" : [
             "fly/EMBRYO_polyA/embryo_6-8h"
          ],
-         "submission" : "modENCODE_122",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_6-8h_poly-Ap_p200_412-413-414_38bp",
+         "submission" : "122",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 6-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 6-8 hr",
@@ -943,8 +943,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/SDC3_N2_MXEMB"
          ],
-         "submission" : "modENCODE_127",
-         "label" : "SDC-3_N2_Mixed_Embryos (JL00002_SDC3_N2_MXEMB)",
+         "submission" : "127",
+         "label" : "ChIP-chip;SDC-3;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -959,9 +959,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/mbn2"
          ],
-         "submission" : "modENCODE_139",
+         "submission" : "139",
          "Cell-Line" : "Mbn2",
-         "label" : "Dm_mbn2_TotalRNA_p200_044-046-048_38bp",
+         "label" : "RNA-tiling-array;total-RNA;Mbn2;Late Embryonic stage;embryonic/larval hemocyte",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -975,9 +975,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/CME_W2"
          ],
-         "submission" : "modENCODE_140",
+         "submission" : "140",
          "Cell-Line" : "CME W2",
-         "label" : "Dm_CME_W2_TotalRNA_p200_460-462-464_38bp",
+         "label" : "RNA-tiling-array;total-RNA;CME W2;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -990,8 +990,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_POL2/POLII4H8_N2_MXEMB"
          ],
-         "submission" : "modENCODE_174",
-         "label" : "Desai PolII-4H8",
+         "submission" : "174",
+         "label" : "ChIP-chip;RNA polymerase II CTD repeat YSPTSPS;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -1005,8 +1005,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB9050_H3K36ME3_N2_L3"
          ],
-         "submission" : "modENCODE_175",
-         "label" : "Ahringer AR0169_H3K4ME3_N2_L3",
+         "submission" : "175",
+         "label" : "ChIP-chip;H3K36me3;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -1021,8 +1021,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K4ME3_N2_L3"
          ],
-         "submission" : "modENCODE_176",
-         "label" : "Ahringer AR0169_H3K4ME3_N2_L3",
+         "submission" : "176",
+         "label" : "ChIP-chip;H3K4me3;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -1037,8 +1037,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_CHR_IGG"
          ],
-         "submission" : "modENCODE_179",
-         "label" : "Ahringer JA00002_IGG_N2_L3",
+         "submission" : "179",
+         "label" : "ChIP-chip;na;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -1053,8 +1053,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME3_N2_L3"
          ],
-         "submission" : "modENCODE_188",
-         "label" : "Ahringer UP07442_H3K9ME3_N2_L3",
+         "submission" : "188",
+         "label" : "ChIP-chip;H3K9me3;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -1069,8 +1069,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_CSP/HCP3_N2_MXEMB"
          ],
-         "submission" : "modENCODE_194",
-         "label" : "HCP-3_CENP-A_Mixed_Embryos",
+         "submission" : "194",
+         "label" : "ChIP-chip;HCP-3;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -1084,8 +1084,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_CHR_MES4/MES4_N2_EEMB"
          ],
-         "submission" : "modENCODE_195",
-         "label" : "Strome SGF3165_FLAG_MES4FLAG_EEMB",
+         "submission" : "195",
+         "label" : "ChIP-chip;MES-4;MES4FLAG;Early Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "MES4FLAG",
          "Developmental-Stage" : "Early Embryos",
@@ -1101,9 +1101,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H4AcTetra"
          ],
-         "submission" : "modENCODE_201",
+         "submission" : "201",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H4AcTetra.S2 ChIP-chip",
+         "label" : "ChIP-chip;H4acTetra;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1116,8 +1116,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_CHR_MES4/MES4FLAG_N2_EEMB"
          ],
-         "submission" : "modENCODE_202",
-         "label" : "Strome NA_MES4FLAG_EEMB",
+         "submission" : "202",
+         "label" : "ChIP-chip;Not Applicable;MES4FLAG;Early Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "MES4FLAG",
          "Developmental-Stage" : "Early Embryos",
@@ -1134,8 +1134,8 @@
             "fly/DMG2_RTPCR_mRNA_1404_214",
             "fly/DMG1_RTPCR_cDNA_match_1278_214"
          ],
-         "submission" : "modENCODE_214",
-         "label" : "DMG1 RTPCR",
+         "submission" : "214",
+         "label" : "RT-PCR;total-RNA;Third instar larval stage;ventral prothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1150,8 +1150,8 @@
             "fly/DMG1_RTPCR_mRNA_1273_215",
             "fly/DMG2_RTPCR_cDNA_match_1412_215"
          ],
-         "submission" : "modENCODE_215",
-         "label" : "DMG2 RTPCR",
+         "submission" : "215",
+         "label" : "RT-PCR;total-RNA;Third instar larval stage;ventral prothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1165,9 +1165,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/Kc167-nucl.RNA"
          ],
-         "submission" : "modENCODE_267",
+         "submission" : "267",
          "Cell-Line" : "Kc167",
-         "label" : "Dm_Kc167_nuclearRNA_p200_475-476-477_38bp",
+         "label" : "RNA-tiling-array;total-RNA;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1181,9 +1181,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/Kc167-polyA.RNA"
          ],
-         "submission" : "modENCODE_268",
+         "submission" : "268",
          "Cell-Line" : "Kc167",
-         "label" : "Dm_Kc167_polyApRNA_p200_145-146-147_38bp",
+         "label" : "RNA-tiling-array;total-RNA;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1197,9 +1197,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/BEAF-HB.S2"
          ],
-         "submission" : "modENCODE_274",
+         "submission" : "274",
          "Cell-Line" : "S2-DRSC",
-         "label" : "BEAF-HB.S2 ChIP-chip",
+         "label" : "ChIP-chip;BEAF32A and BEAF32B;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1213,9 +1213,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_BG3/CHRIZ_BR.BG3"
          ],
-         "submission" : "modENCODE_275",
+         "submission" : "275",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Chro(Chriz)BR.BG3 ChIP-chip",
+         "label" : "ChIP-chip;Chriz;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1229,9 +1229,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_CL8/CHRIZ_BR.Clone_8"
          ],
-         "submission" : "modENCODE_276",
+         "submission" : "276",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "Chro(Chriz)BR.Clone_8 ChIP-chip",
+         "label" : "ChIP-chip;Chriz;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1245,9 +1245,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_Kc/CHRIZ_BR.Kc"
          ],
-         "submission" : "modENCODE_277",
+         "submission" : "277",
          "Cell-Line" : "Kc167",
-         "label" : "Chro(Chriz)BR.Kc ChIP-chip",
+         "label" : "ChIP-chip;Chriz;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1261,9 +1261,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/CHRIZ_BR.S2"
          ],
-         "submission" : "modENCODE_278",
+         "submission" : "278",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Chro(Chriz)BR.S2 ChIP-chip",
+         "label" : "ChIP-chip;Chriz;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1277,9 +1277,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/CHRIZ_WR.S2"
          ],
-         "submission" : "modENCODE_279",
+         "submission" : "279",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Chro(Chriz)WR.S2 ChIP-chip",
+         "label" : "ChIP-chip;Chriz;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1293,9 +1293,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/CP190_VC.S2"
          ],
-         "submission" : "modENCODE_280",
+         "submission" : "280",
          "Cell-Line" : "S2-DRSC",
-         "label" : "CP190-VC.S2 ChIP-chip",
+         "label" : "ChIP-chip;CP190;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1309,9 +1309,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_BG3/CTCF_VC.BG3"
          ],
-         "submission" : "modENCODE_282",
+         "submission" : "282",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "CTCF-VC.BG3 ChIP-chip",
+         "label" : "ChIP-chip;CTCF;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1325,9 +1325,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/CTCF_VC.S2"
          ],
-         "submission" : "modENCODE_283",
+         "submission" : "283",
          "Cell-Line" : "S2-DRSC",
-         "label" : "CTCF-VC.S2 ChIP-chip",
+         "label" : "ChIP-chip;CTCF;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1341,9 +1341,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_S2/Ez.S2"
          ],
-         "submission" : "modENCODE_284",
+         "submission" : "284",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Ez.S2 ChIP-chip",
+         "label" : "ChIP-chip;Ez;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1357,9 +1357,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/GAF.S2"
          ],
-         "submission" : "modENCODE_285",
+         "submission" : "285",
          "Cell-Line" : "S2-DRSC",
-         "label" : "GAF.S2 ChIP-chip",
+         "label" : "ChIP-chip;GAF;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1373,9 +1373,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H2B.ubiq_NRO3.BG3"
          ],
-         "submission" : "modENCODE_288",
+         "submission" : "288",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H2B-ubiq (NRO3).BG3 ChIP-chip",
+         "label" : "ChIP-chip;H2Bubi;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1389,9 +1389,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_Kc/H2B.ubiq_NRO3.Kc"
          ],
-         "submission" : "modENCODE_289",
+         "submission" : "289",
          "Cell-Line" : "Kc167",
-         "label" : "H2B-ubiq (NRO3).Kc ChIP-chip",
+         "label" : "ChIP-chip;H2Bubi;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1405,9 +1405,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H2B.ubiq_NRO3.S2"
          ],
-         "submission" : "modENCODE_290",
+         "submission" : "290",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H2B-ubiq (NRO3).S2 ChIP-chip",
+         "label" : "ChIP-chip;H2Bubi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1421,9 +1421,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K18Ac.BG3"
          ],
-         "submission" : "modENCODE_291",
+         "submission" : "291",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K18ac.BG3 ChIP-chip",
+         "label" : "ChIP-chip;H3K18ac;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1437,9 +1437,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K18Ac.S2"
          ],
-         "submission" : "modENCODE_292",
+         "submission" : "292",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K18ac.S2 ChIP-chip",
+         "label" : "ChIP-chip;H3K18ac;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1453,9 +1453,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K23Ac.BG3"
          ],
-         "submission" : "modENCODE_293",
+         "submission" : "293",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K23ac.BG3 ChIP-chip",
+         "label" : "ChIP-chip;H3K23ac;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1469,9 +1469,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K23Ac.S2"
          ],
-         "submission" : "modENCODE_294",
+         "submission" : "294",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K23ac.S2 ChIP-chip",
+         "label" : "ChIP-chip;H3K23ac;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1485,9 +1485,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K27Ac.BG3"
          ],
-         "submission" : "modENCODE_295",
+         "submission" : "295",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K27Ac.BG3 ChIP-chip",
+         "label" : "ChIP-chip;H3K27ac;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1501,9 +1501,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K27Ac_S2"
          ],
-         "submission" : "modENCODE_296",
+         "submission" : "296",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K27Ac.S2 ChIP-chip",
+         "label" : "ChIP-chip;H3K27ac;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1517,9 +1517,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K27Me3_Abcam2.BG3"
          ],
-         "submission" : "modENCODE_297",
+         "submission" : "297",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K27Me3 (Abcam2).BG3 ChIP-chip",
+         "label" : "ChIP-chip;H3K27me3;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1533,9 +1533,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K27Me3_Abcam2.S2"
          ],
-         "submission" : "modENCODE_298",
+         "submission" : "298",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K27me3 (Abcam2).S2 ChIP-chip",
+         "label" : "ChIP-chip;H3K27me3;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1549,9 +1549,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K36Me1.BG3"
          ],
-         "submission" : "modENCODE_299",
+         "submission" : "299",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K36me1.BG3 ChIP-chip",
+         "label" : "ChIP-chip;H3K36me1;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1565,9 +1565,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K36Me3.BG3"
          ],
-         "submission" : "modENCODE_301",
+         "submission" : "301",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K36me3.BG3 ChIP-chip",
+         "label" : "ChIP-chip;H3K36me3;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1581,9 +1581,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_Kc/H3K36Me3.Kc"
          ],
-         "submission" : "modENCODE_302",
+         "submission" : "302",
          "Cell-Line" : "Kc167",
-         "label" : "H3K36me3.Kc ChIP-chip",
+         "label" : "ChIP-chip;H3K36me3;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1597,9 +1597,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K36Me3.S2"
          ],
-         "submission" : "modENCODE_303",
+         "submission" : "303",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K36me3.S2 ChIP-chip",
+         "label" : "ChIP-chip;H3K36me3;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1613,9 +1613,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K4Me1.S2"
          ],
-         "submission" : "modENCODE_304",
+         "submission" : "304",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K4me1.S2 ChIP-chip",
+         "label" : "ChIP-chip;H3K4me1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1629,8 +1629,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K4Me3_LP.S2"
          ],
-         "submission" : "modENCODE_305",
-         "label" : "H3K4Me3(LP).S2",
+         "submission" : "305",
+         "label" : "ChIP-chip;H3K4me3;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1644,9 +1644,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K79Me2.BG3"
          ],
-         "submission" : "modENCODE_306",
+         "submission" : "306",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K79Me2.BG3 ChIP-chip",
+         "label" : "ChIP-chip;H3K79me2;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1660,9 +1660,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K79Me2.S2"
          ],
-         "submission" : "modENCODE_307",
+         "submission" : "307",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K79Me2.S2 ChIP-chip",
+         "label" : "ChIP-chip;H3K79me2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1676,9 +1676,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K9Ac.S2"
          ],
-         "submission" : "modENCODE_309",
+         "submission" : "309",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K9ac.S2 ChIP-chip",
+         "label" : "ChIP-chip;H3K9ac;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1692,9 +1692,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K9Me2_Ab2_new.lot.BG3"
          ],
-         "submission" : "modENCODE_310",
+         "submission" : "310",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K9me2-Ab2 (new lot).BG3 ChIP-chip",
+         "label" : "ChIP-chip;H3K9me2;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1708,9 +1708,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K9Me2_Ab2.S2"
          ],
-         "submission" : "modENCODE_311",
+         "submission" : "311",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K9me2 antibody2.S2 ChIP-chip",
+         "label" : "ChIP-chip;H3K9me2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1724,9 +1724,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K9Me3_new.lot.BG3"
          ],
-         "submission" : "modENCODE_312",
+         "submission" : "312",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K9me3 (new lot).BG3 ChIP-chip",
+         "label" : "ChIP-chip;H3K9me3;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1740,9 +1740,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K9Me3.S2"
          ],
-         "submission" : "modENCODE_313",
+         "submission" : "313",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K9me3.S2 ChIP-chip",
+         "label" : "ChIP-chip;H3K9me3;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1756,9 +1756,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H4K16Ac_L.BG3"
          ],
-         "submission" : "modENCODE_316",
+         "submission" : "316",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H4K16ac(L).BG3 ChIP-chip",
+         "label" : "ChIP-chip;H4K16ac;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1772,9 +1772,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_CL8/H4K16Ac_L.Clone_8"
          ],
-         "submission" : "modENCODE_317",
+         "submission" : "317",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "H4K16ac(L).Clone_8 ChIP-chip",
+         "label" : "ChIP-chip;H4K16ac;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1788,9 +1788,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_Kc/H4K16Ac_L.Kc"
          ],
-         "submission" : "modENCODE_318",
+         "submission" : "318",
          "Cell-Line" : "Kc167",
-         "label" : "H4K16ac(L).Kc ChIP-chip",
+         "label" : "ChIP-chip;H4K16ac;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1804,9 +1804,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H4K16Ac_L.S2"
          ],
-         "submission" : "modENCODE_319",
+         "submission" : "319",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H4K16ac(L).S2 ChIP-chip",
+         "label" : "ChIP-chip;H4K16ac;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1820,9 +1820,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H4K16Ac_M.S2"
          ],
-         "submission" : "modENCODE_320",
+         "submission" : "320",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H4K16ac(M).S2 ChIP-chip",
+         "label" : "ChIP-chip;H4K16ac;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1836,9 +1836,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H4K5Ac.S2"
          ],
-         "submission" : "modENCODE_321",
+         "submission" : "321",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H4K5ac.S2 ChIP-chip",
+         "label" : "ChIP-chip;H4K5ac;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1852,9 +1852,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H4K8Ac.S2"
          ],
-         "submission" : "modENCODE_322",
+         "submission" : "322",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H4K8ac.S2 ChIP-chip",
+         "label" : "ChIP-chip;H4K8ac;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1865,9 +1865,9 @@
          "factor" : "HP1a",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_323",
+         "submission" : "323",
          "Cell-Line" : "S2-DRSC",
-         "label" : "HP1_wa191.S2",
+         "label" : "ChIP-chip;HP1a;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1881,9 +1881,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_BG3/MDG4"
          ],
-         "submission" : "modENCODE_324",
+         "submission" : "324",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "mod2.2-VC.BG3 ChIP-chip",
+         "label" : "ChIP-chip;MOD(MDG4)67.2;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1897,9 +1897,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_BG3/Pc.BG3"
          ],
-         "submission" : "modENCODE_325",
+         "submission" : "325",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Pc.BG3 ChIP-chip",
+         "label" : "ChIP-chip;Pc;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1913,9 +1913,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/Pc.S2"
          ],
-         "submission" : "modENCODE_326",
+         "submission" : "326",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Pc.S2 ChIP-chip",
+         "label" : "ChIP-chip;Pc;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1929,9 +1929,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_CL8/POL_II_ALG.Clone_8"
          ],
-         "submission" : "modENCODE_327",
+         "submission" : "327",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "RNA pol II (ALG).Clone_8 ChIP-chip",
+         "label" : "ChIP-chip;PolII;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -1945,9 +1945,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_Kc/POL_II_ALG.Kc"
          ],
-         "submission" : "modENCODE_328",
+         "submission" : "328",
          "Cell-Line" : "Kc167",
-         "label" : "RNA pol II (ALG).Kc ChIP-chip",
+         "label" : "ChIP-chip;PolII;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1961,9 +1961,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/POL_II_ALG.S2"
          ],
-         "submission" : "modENCODE_329",
+         "submission" : "329",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNA pol II (ALG).S2 ChIP-chip",
+         "label" : "ChIP-chip;PolII;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1977,9 +1977,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/Su_Hw-HB.S2"
          ],
-         "submission" : "modENCODE_330",
+         "submission" : "330",
          "Cell-Line" : "S2-DRSC",
-         "label" : "SU(HW)-HB.S2 ChIP-chip",
+         "label" : "ChIP-chip;Su(Hw);S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -1993,9 +1993,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/Su_Hw-VC.S2"
          ],
-         "submission" : "modENCODE_331",
+         "submission" : "331",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Su(Hw)-VC.S2 ChIP-chip",
+         "label" : "ChIP-chip;Su(Hw);S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -2009,9 +2009,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_S2/Trx_C.S2"
          ],
-         "submission" : "modENCODE_332",
+         "submission" : "332",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Trx-C.S2 ChIP-chip",
+         "label" : "ChIP-chip;Trx;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -2024,8 +2024,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/DPY26_N2_MXEMB"
          ],
-         "submission" : "modENCODE_334",
-         "label" : "JL00003_DPY26_N2_MXEMB",
+         "submission" : "334",
+         "label" : "ChIP-chip;DPY-26;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -2039,8 +2039,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/MIX1_N2_MXEMB"
          ],
-         "submission" : "modENCODE_336",
-         "label" : "JL00004_MIX1_N2_MXEMB",
+         "submission" : "336",
+         "label" : "ChIP-chip;MIX-1;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -2055,9 +2055,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML-DmBG2-c2"
          ],
-         "submission" : "modENCODE_337",
+         "submission" : "337",
          "Cell-Line" : "ML-DmBG2-c2",
-         "label" : "Dm_ML-DmBG2-c2_TotalRNA_p200_470-472-474_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmBG2-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -2070,8 +2070,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/SDC2_N2_MXEMB"
          ],
-         "submission" : "modENCODE_338",
-         "label" : "JL00005_SDC2_N2_MXEMB",
+         "submission" : "338",
+         "label" : "ChIP-chip;SDC-2;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -2087,8 +2087,8 @@
             "fly/DMG3_RTPCR_cDNA_match_1431_339",
             "fly/DMG3_RTPCR_mRNA_1429_339"
          ],
-         "submission" : "modENCODE_339",
-         "label" : "DMG3 RTPCR",
+         "submission" : "339",
+         "label" : "RT-PCR;total-RNA;Third instar larval stage;ventral prothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -2103,8 +2103,8 @@
             "fly/DMG4_RTPCR_cDNA_match_1456_340",
             "fly/DMG4_RTPCR_mRNA_1452_340"
          ],
-         "submission" : "modENCODE_340",
-         "label" : "DMG4 RTPCR",
+         "submission" : "340",
+         "label" : "RT-PCR;total-RNA;Third instar larval stage;ventral prothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -2118,9 +2118,9 @@
          "Tracks" : [
             "fly/KC167_Total_Ap_p200_Tap_467_ExactUniq_BR1_TR1-8.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_342",
+         "submission" : "342",
          "Cell-Line" : "Kc167",
-         "label" : "Dm_Kc167_polyA_467_C-tailed_RNA-Seq",
+         "label" : "RNA-seq;total-RNA;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -2130,8 +2130,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_343",
-         "label" : "Dm_embryo_16-18h_polyA_259_C-tailed_RNA-Seq",
+         "submission" : "343",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 16-18 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-18 hr",
@@ -2145,8 +2145,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Female/AdF_H3K27Me3"
          ],
-         "submission" : "modENCODE_346",
-         "label" : "Adult_Female-H3K27me3",
+         "submission" : "346",
+         "label" : "ChIP-chip;H3K27me3;Adult Female",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Female"
@@ -2159,8 +2159,8 @@
          "Tracks" : [
             "fly/White_CC_L3/L3_H3K9Me3"
          ],
-         "submission" : "modENCODE_358",
-         "label" : "L3-H3K9me3",
+         "submission" : "358",
+         "label" : "ChIP-chip;H3K9me3;L3 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L3 stage larvae"
@@ -2173,8 +2173,8 @@
          "Tracks" : [
             "fly/White_CC_L3/L3_H3K27Me3"
          ],
-         "submission" : "modENCODE_359",
-         "label" : "L3-H3K27me3",
+         "submission" : "359",
+         "label" : "ChIP-chip;H3K27me3;L3 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L3 stage larvae"
@@ -2188,9 +2188,9 @@
          "Tracks" : [
             "fly/KC167_Total_m200_Tap_RiboM_ExactUniq_TR1-2.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_360",
+         "submission" : "360",
          "Cell-Line" : "Kc167",
-         "label" : "Dm_Kc167_001_003_C-tailed_RNA-Seq",
+         "label" : "RNA-seq;total-RNA;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -2204,9 +2204,9 @@
          "Tracks" : [
             "fly/S2-DRSC_Total_m200_Tap_RiboM_ExactUniq_TR1-4.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_362",
+         "submission" : "362",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Dm_S2-DRSC_013-015_C-tailed_RNA-Seq",
+         "label" : "RNA-seq;total-RNA;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -2220,9 +2220,9 @@
          "Tracks" : [
             "fly/Cl.8_Total_m200_Tap_RiboM_ExactUniq_TR1.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_364",
+         "submission" : "364",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "Dm_CME_W1_Cl.8+_059-061_C-tailed_RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -2236,9 +2236,9 @@
          "Tracks" : [
             "fly/ML_BG3-c2_Total_m200_Tap_RiboM_ExactUniq_TR1.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_366",
+         "submission" : "366",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Dm_BG3-c2_121-123_C-tailed_RNA-Seq",
+         "label" : "RNA-seq;total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -2251,8 +2251,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_20_24h/E20_24_K27Me3"
          ],
-         "submission" : "modENCODE_370",
-         "label" : "E20-24-H3K27me3",
+         "submission" : "370",
+         "label" : "ChIP-chip;H3K27me3;Embryos 20-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 20-24 hr"
@@ -2265,8 +2265,8 @@
          "Tracks" : [
             "fly/White_CC_L2/L2_H3K27Me3"
          ],
-         "submission" : "modENCODE_371",
-         "label" : "L2_H3K27Me3",
+         "submission" : "371",
+         "label" : "ChIP-chip;H3K27me3;L2 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L2 stage larvae"
@@ -2279,8 +2279,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Male/AdM_H3K27Me3"
          ],
-         "submission" : "modENCODE_372",
-         "label" : "AdultMale-H3K27me3",
+         "submission" : "372",
+         "label" : "ChIP-chip;H3K27me3;Y cn bw sp;Adult Male",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Male",
@@ -2294,8 +2294,8 @@
          "Tracks" : [
             "fly/White_CC_L1/L1_H3K27Me3"
          ],
-         "submission" : "modENCODE_373",
-         "label" : "L1-H3K27me3",
+         "submission" : "373",
+         "label" : "ChIP-chip;H3K27me3;L1 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L1 stage larvae"
@@ -2308,8 +2308,8 @@
          "Tracks" : [
             "fly/White_CC_L1/L1_H3K9Me3"
          ],
-         "submission" : "modENCODE_374",
-         "label" : "L1-H3K9me3",
+         "submission" : "374",
+         "label" : "ChIP-chip;H3K9me3;L1 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L1 stage larvae"
@@ -2322,8 +2322,8 @@
          "Tracks" : [
             "fly/White_CC_L2/L2_H3K9Me3"
          ],
-         "submission" : "modENCODE_375",
-         "label" : "L2-H3K9me3",
+         "submission" : "375",
+         "label" : "ChIP-chip;H3K9me3;L2 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L2 stage larvae"
@@ -2336,8 +2336,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_16_20h/E16_20_H3K27Me3"
          ],
-         "submission" : "modENCODE_376",
-         "label" : "E16-20-H3K27me3",
+         "submission" : "376",
+         "label" : "ChIP-chip;H3K27me3;Embryos 16-20 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 16-20 hr"
@@ -2350,8 +2350,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_20_24h/E20_24_H3K9Me3"
          ],
-         "submission" : "modENCODE_377",
-         "label" : "E20-24-H3K9me3",
+         "submission" : "377",
+         "label" : "ChIP-chip;H3K9me3;Embryos 20-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 20-24 hr"
@@ -2364,8 +2364,8 @@
          "Tracks" : [
             "fly/White_CC_Pupae/Pupae_H3K9Ac"
          ],
-         "submission" : "modENCODE_381",
-         "label" : "Pupae_H3K9Ac",
+         "submission" : "381",
+         "label" : "ChIP-chip;H3K9ac;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -2379,8 +2379,8 @@
          "Tracks" : [
             "fly/White_CC_Pupae/Pupae_H3K4Me3"
          ],
-         "submission" : "modENCODE_382",
-         "label" : "Pupae_H3K4Me3",
+         "submission" : "382",
+         "label" : "ChIP-chip;H3K4me3;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -2394,8 +2394,8 @@
          "Tracks" : [
             "fly/White_CC_Pupae/Pupae_H3K4Me1"
          ],
-         "submission" : "modENCODE_383",
-         "label" : "Pupae_H3K4Me1",
+         "submission" : "383",
+         "label" : "ChIP-chip;H3K4me1;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -2409,8 +2409,8 @@
          "Tracks" : [
             "fly/White_CC_Pupae/Pupae_H3K27Ac"
          ],
-         "submission" : "modENCODE_384",
-         "label" : "Pupae_H3K27Ac",
+         "submission" : "384",
+         "label" : "ChIP-chip;H3K27ac;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -2424,8 +2424,8 @@
          "Tracks" : [
             "fly/White_CC_L3/L3_H3K9Ac"
          ],
-         "submission" : "modENCODE_386",
-         "label" : "L3_H3K9Ac",
+         "submission" : "386",
+         "label" : "ChIP-chip;H3K9ac;Y cn bw sp;L3 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage larvae",
@@ -2439,8 +2439,8 @@
          "Tracks" : [
             "fly/White_CC_L3/L3_H3K4Me3"
          ],
-         "submission" : "modENCODE_387",
-         "label" : "L3_H3K4Me3",
+         "submission" : "387",
+         "label" : "ChIP-chip;H3K4me3;Y cn bw sp;L3 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage larvae",
@@ -2454,8 +2454,8 @@
          "Tracks" : [
             "fly/White_CC_L3/L3_H3K4Me1"
          ],
-         "submission" : "modENCODE_388",
-         "label" : "L3_H3K4Me1",
+         "submission" : "388",
+         "label" : "ChIP-chip;H3K4me1;Y cn bw sp;L3 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage larvae",
@@ -2469,8 +2469,8 @@
          "Tracks" : [
             "fly/White_CC_L3/L3_H3K27Ac"
          ],
-         "submission" : "modENCODE_389",
-         "label" : "L3_H3K27Ac",
+         "submission" : "389",
+         "label" : "ChIP-chip;H3K27ac;Y cn bw sp;L3 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage larvae",
@@ -2484,8 +2484,8 @@
          "Tracks" : [
             "fly/White_CC_L2/L2_H3K9Ac"
          ],
-         "submission" : "modENCODE_391",
-         "label" : "L2-H3K9AC",
+         "submission" : "391",
+         "label" : "ChIP-chip;H3K9ac;L2 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L2 stage larvae"
@@ -2498,8 +2498,8 @@
          "Tracks" : [
             "fly/White_CC_L2/L2_H3K4Me3"
          ],
-         "submission" : "modENCODE_392",
-         "label" : "L2-H3K4me3",
+         "submission" : "392",
+         "label" : "ChIP-chip;H3K4me3;L2 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L2 stage larvae"
@@ -2512,8 +2512,8 @@
          "Tracks" : [
             "fly/White_CC_L2/L2_H3K4Me1"
          ],
-         "submission" : "modENCODE_393",
-         "label" : "L2_H3K4Me1",
+         "submission" : "393",
+         "label" : "ChIP-chip;H3K4me1;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -2527,8 +2527,8 @@
          "Tracks" : [
             "fly/White_CC_L2/L2_H3K27Ac"
          ],
-         "submission" : "modENCODE_394",
-         "label" : "L2_H3K27Ac",
+         "submission" : "394",
+         "label" : "ChIP-chip;H3K27ac;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -2542,8 +2542,8 @@
          "Tracks" : [
             "fly/White_CC_L1/L1_H3K9Ac"
          ],
-         "submission" : "modENCODE_396",
-         "label" : "L1-H3K9AC",
+         "submission" : "396",
+         "label" : "ChIP-chip;H3K9ac;L1 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L1 stage larvae"
@@ -2556,8 +2556,8 @@
          "Tracks" : [
             "fly/White_CC_L1/L1_H3K4Me3"
          ],
-         "submission" : "modENCODE_397",
-         "label" : "L1-H3K4me3",
+         "submission" : "397",
+         "label" : "ChIP-chip;H3K4me3;L1 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L1 stage larvae"
@@ -2570,8 +2570,8 @@
          "Tracks" : [
             "fly/White_CC_L1/L1_H3K4Me1"
          ],
-         "submission" : "modENCODE_398",
-         "label" : "L1_H3K4Me1",
+         "submission" : "398",
+         "label" : "ChIP-chip;H3K4me1;Y cn bw sp;L1 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L1 stage larvae",
@@ -2585,8 +2585,8 @@
          "Tracks" : [
             "fly/White_CC_L1/L1_H3K27Ac"
          ],
-         "submission" : "modENCODE_399",
-         "label" : "L1_H3K27Ac",
+         "submission" : "399",
+         "label" : "ChIP-chip;H3K27ac;Y cn bw sp;L1 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L1 stage larvae",
@@ -2600,8 +2600,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_4_8h/E4_8_H3K9Ac"
          ],
-         "submission" : "modENCODE_401",
-         "label" : "E4-8_H3K9Ac",
+         "submission" : "401",
+         "label" : "ChIP-chip;H3K9ac;Y cn bw sp;Embryos 4-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-8 hr",
@@ -2615,8 +2615,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_4_8h/E4_8_H3K4Me3"
          ],
-         "submission" : "modENCODE_402",
-         "label" : "E4-8-H3K4me3",
+         "submission" : "402",
+         "label" : "ChIP-chip;H3K4me3;Embryos 4-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 4-8 hr"
@@ -2629,8 +2629,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_4_8h/E4_8_H3K4Me1"
          ],
-         "submission" : "modENCODE_403",
-         "label" : "E4-8_H3K4Me1",
+         "submission" : "403",
+         "label" : "ChIP-chip;H3K4me1;Embryos 4-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 4-8 hr"
@@ -2643,8 +2643,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_4_8h/E4_8_H3K27Ac"
          ],
-         "submission" : "modENCODE_404",
-         "label" : "E4-8_H3K27Ac",
+         "submission" : "404",
+         "label" : "ChIP-chip;H3K27ac;Embryos 4-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 4-8 hr"
@@ -2657,8 +2657,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_20_24h/E20_24_H3K9Ac"
          ],
-         "submission" : "modENCODE_406",
-         "label" : "E20-24_H3K9Ac",
+         "submission" : "406",
+         "label" : "ChIP-chip;H3K9ac;Y cn bw sp;Embryos 20-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-24 hr",
@@ -2672,8 +2672,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_20_24h/E20_24_H3K4Me3"
          ],
-         "submission" : "modENCODE_407",
-         "label" : "E20-24-H3K4me3",
+         "submission" : "407",
+         "label" : "ChIP-chip;H3K4me3;Embryos 20-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 20-24 hr"
@@ -2686,8 +2686,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_20_24h/E20_24_H3K4Me1"
          ],
-         "submission" : "modENCODE_408",
-         "label" : "E20-24-H3K4me1",
+         "submission" : "408",
+         "label" : "ChIP-chip;H3K4me1;Embryos 20-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 20-24 hr"
@@ -2700,8 +2700,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_20_24h/E20_24_H3K27Ac"
          ],
-         "submission" : "modENCODE_409",
-         "label" : "E20-24_H3K27Ac",
+         "submission" : "409",
+         "label" : "ChIP-chip;H3K27ac;Y cn bw sp;Embryos 20-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-24 hr",
@@ -2715,8 +2715,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_16_20h/E16_20_H3K9Me3"
          ],
-         "submission" : "modENCODE_410",
-         "label" : "E16-20_H3K9Me3",
+         "submission" : "410",
+         "label" : "ChIP-chip;H3K9me3;Y cn bw sp;Embryos 16-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-20 hr",
@@ -2730,8 +2730,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_16_20h/E16_20_H3K9Ac"
          ],
-         "submission" : "modENCODE_411",
-         "label" : "E16-20_H3K9Ac",
+         "submission" : "411",
+         "label" : "ChIP-chip;H3K9ac;Y cn bw sp;Embryos 16-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-20 hr",
@@ -2745,8 +2745,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_16_20h/E16_20_H3K4Me3"
          ],
-         "submission" : "modENCODE_412",
-         "label" : "E16-20-H3K4me3",
+         "submission" : "412",
+         "label" : "ChIP-chip;H3K4me3;Embryos 16-20 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 16-20 hr"
@@ -2759,8 +2759,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_16_20h/E16_20_H3K4Me1"
          ],
-         "submission" : "modENCODE_413",
-         "label" : "E16-20-H3K4me1",
+         "submission" : "413",
+         "label" : "ChIP-chip;H3K4me1;Embryos 16-20 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 16-20 hr"
@@ -2773,8 +2773,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_16_20h/E16_20_H3K27Ac"
          ],
-         "submission" : "modENCODE_414",
-         "label" : "E16-20_H3K27Ac",
+         "submission" : "414",
+         "label" : "ChIP-chip;H3K27ac;Y cn bw sp;Embryos 16-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-20 hr",
@@ -2788,8 +2788,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_12_16h/E12_16_H3K9Me3"
          ],
-         "submission" : "modENCODE_415",
-         "label" : "E12-16_H3K9Me3",
+         "submission" : "415",
+         "label" : "ChIP-chip;H3K9me3;Y cn bw sp;Embryos 12-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-16 hr",
@@ -2803,8 +2803,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_12_16h/E12_16_H3K9Ac"
          ],
-         "submission" : "modENCODE_416",
-         "label" : "E12-16-H3K9AC",
+         "submission" : "416",
+         "label" : "ChIP-chip;H3K9ac;Embryos 12-16 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 12-16 hr"
@@ -2817,8 +2817,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_12_16h/E12_16_H3K4Me3"
          ],
-         "submission" : "modENCODE_417",
-         "label" : "E12-16-H3K4me3",
+         "submission" : "417",
+         "label" : "ChIP-chip;H3K4me3;Embryos 12-16 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 12-16 hr"
@@ -2831,8 +2831,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_12_16h/E12_16_H3K4Me1"
          ],
-         "submission" : "modENCODE_418",
-         "label" : "E12-16-H3K4me1",
+         "submission" : "418",
+         "label" : "ChIP-chip;H3K4me1;Embryos 12-16 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 12-16 hr"
@@ -2845,8 +2845,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_12_16h/E12_16_H3K27Ac"
          ],
-         "submission" : "modENCODE_419",
-         "label" : "E12-16_H3K27Ac",
+         "submission" : "419",
+         "label" : "ChIP-chip;H3K27ac;Y cn bw sp;Embryos 12-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-16 hr",
@@ -2860,8 +2860,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_0_4h/E0_4_H3K9Me3"
          ],
-         "submission" : "modENCODE_420",
-         "label" : "E0-4_H3K9Me3",
+         "submission" : "420",
+         "label" : "ChIP-chip;H3K9me3;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -2875,8 +2875,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_0_4h/E0_4_H3K9Ac"
          ],
-         "submission" : "modENCODE_421",
-         "label" : "E0-4_H3K9Ac",
+         "submission" : "421",
+         "label" : "ChIP-chip;H3K9ac;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -2890,8 +2890,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_0_4h/E0_4_H3K4Me3"
          ],
-         "submission" : "modENCODE_422",
-         "label" : "E0-4_H3K4Me3",
+         "submission" : "422",
+         "label" : "ChIP-chip;H3K4me3;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -2905,8 +2905,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_0_4h/E0_4_H3K4Me1"
          ],
-         "submission" : "modENCODE_423",
-         "label" : "E0-4_H3K4Me1",
+         "submission" : "423",
+         "label" : "ChIP-chip;H3K4me1;Embryos 0-4 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-4 hr"
@@ -2919,8 +2919,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_0_4h/E0_4_H3K27Ac_set1"
          ],
-         "submission" : "modENCODE_424",
-         "label" : "E0-4_H3K27Ac",
+         "submission" : "424",
+         "label" : "ChIP-chip;H3K27ac;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -2934,8 +2934,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Male/AdultMale_H3K9Me3"
          ],
-         "submission" : "modENCODE_425",
-         "label" : "AdultMale_H3K9Me3",
+         "submission" : "425",
+         "label" : "ChIP-chip;H3K9me3;Adult Male",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Male"
@@ -2948,8 +2948,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Male/AdultMale_H3K9Ac"
          ],
-         "submission" : "modENCODE_426",
-         "label" : "AdultMale_H3K9Ac",
+         "submission" : "426",
+         "label" : "ChIP-chip;H3K9ac;Adult Male",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Male"
@@ -2962,8 +2962,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Male/AdM_H3K4Me3"
          ],
-         "submission" : "modENCODE_427",
-         "label" : "AdultMale-H3K4me3_set2",
+         "submission" : "427",
+         "label" : "ChIP-chip;H3K4me3;Adult Male",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Male"
@@ -2976,8 +2976,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Male/AdultMale_H3K4Me1_set2"
          ],
-         "submission" : "modENCODE_428",
-         "label" : "AdultMale-H3K4me1_set2",
+         "submission" : "428",
+         "label" : "ChIP-chip;H3K4me1;Adult Male",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Male"
@@ -2990,8 +2990,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Female/AdultFemale_H3K9Me3"
          ],
-         "submission" : "modENCODE_429",
-         "label" : "AdultFemale_H3K9Me3",
+         "submission" : "429",
+         "label" : "ChIP-chip;H3K9me3;Y cn bw sp;Adult Female",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Female",
@@ -3005,8 +3005,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Female/AdultFemale_H3K9Ac"
          ],
-         "submission" : "modENCODE_430",
-         "label" : "AdultFemale_H3K9Ac",
+         "submission" : "430",
+         "label" : "ChIP-chip;H3K9ac;Adult Female",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Female"
@@ -3019,8 +3019,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Female/AdF_H3K4Me3"
          ],
-         "submission" : "modENCODE_431",
-         "label" : "AdultFemale_H3K4Me3",
+         "submission" : "431",
+         "label" : "ChIP-chip;H3K4me3;Adult Female",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Female"
@@ -3033,8 +3033,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Female/AdultFemale_H3K4Me1"
          ],
-         "submission" : "modENCODE_432",
-         "label" : "AdultFemale_H3K4Me1",
+         "submission" : "432",
+         "label" : "ChIP-chip;H3K4me1;Adult Female",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Female"
@@ -3051,8 +3051,8 @@
             "worm/Waterston_intron_3553_445",
             "worm/Waterston_match_part_3553_445"
          ],
-         "submission" : "modENCODE_445",
-         "label" : "C. elegans Intron Identification set.20090106.2_3_2_2_3_2_2_2_2",
+         "submission" : "445",
+         "label" : "RT-PCR;total-RNA;CAAGTTGCATAGCGGCGTCTCT;N2;Mixed Larval Stages Grown 4-5 Days",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
@@ -3070,8 +3070,8 @@
             "worm/Waterston_EST_match_all/IntronsS1",
             "worm/Waterston_intron_3633_446"
          ],
-         "submission" : "modENCODE_446",
-         "label" : "C. elegans Intron Identification set.20090106.2_3_2_2_4_4_3_2_2",
+         "submission" : "446",
+         "label" : "RT-PCR;total-RNA;TTGTCGTCCGAGAATCGGG;N2;Mixed Larval Stages Grown 4-5 Days",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
@@ -3089,8 +3089,8 @@
             "worm/Waterston_intron_3641_447",
             "worm/Waterston_match_part_3641_447"
          ],
-         "submission" : "modENCODE_447",
-         "label" : "C. elegans Intron Identification set.20090106.2_3_2_2_5_3_3_2_2",
+         "submission" : "447",
+         "label" : "RT-PCR;total-RNA;CTCGGCATTCCCGTCACC;N2;Mixed Larval Stages Grown 4-5 Days",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
@@ -3108,8 +3108,8 @@
             "worm/Waterston_match_part_3655_448",
             "worm/Waterston_EST_match_all/IntronsS3"
          ],
-         "submission" : "modENCODE_448",
-         "label" : "C. elegans Intron Identification set.20090106.2_3_2_2_4_3_3_2_2",
+         "submission" : "448",
+         "label" : "RT-PCR;total-RNA;ggacactgacatggactgaaggagta;N2;Mixed Larval Stages Grown 4-5 Days",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
@@ -3124,8 +3124,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_panneural"
          ],
-         "submission" : "modENCODE_455",
-         "label" : "embryo panneural tiling array",
+         "submission" : "455",
+         "label" : "RNA-tiling-array;total-RNA;NW1229;Mixed stage of Embryos;20 degree celsius;panneural",
          "type" : "data set",
          "Strain" : "NW1229",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -3141,8 +3141,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_ALLREF"
          ],
-         "submission" : "modENCODE_456",
-         "label" : "embryo all cells reference tiling array",
+         "submission" : "456",
+         "label" : "RNA-tiling-array;total-RNA;N2;Mixed stage of Embryos;20 degree celsius;reference (embryo)",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -3158,8 +3158,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_intestine"
          ],
-         "submission" : "modENCODE_457",
-         "label" : "embryo intestine tiling array",
+         "submission" : "457",
+         "label" : "RNA-tiling-array;total-RNA;JR1130;Mixed stage of Embryos;20 degree celsius;intestinal cells",
          "type" : "data set",
          "Strain" : "JR1130",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -3175,8 +3175,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_coelomocytes"
          ],
-         "submission" : "modENCODE_458",
-         "label" : "embryo coelomocytes tiling array",
+         "submission" : "458",
+         "label" : "RNA-tiling-array;total-RNA;TV1112;Mixed stage of Embryos;20 degree celsius;coelomocytes",
          "type" : "data set",
          "Strain" : "TV1112",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -3192,8 +3192,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_AVA_neurons"
          ],
-         "submission" : "modENCODE_459",
-         "label" : "embryo AVA neurons tiling array",
+         "submission" : "459",
+         "label" : "RNA-tiling-array;total-RNA;NC1749;Mixed stage of Embryos;20 degree celsius;embryo-AVA",
          "type" : "data set",
          "Strain" : "NC1749",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -3209,8 +3209,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/L3_L4_PVD_OLL"
          ],
-         "submission" : "modENCODE_460",
-         "label" : "L3-L4_PVD_OLL_neuron_tiling_array",
+         "submission" : "460",
+         "label" : "RNA-tiling-array;total-RNA;NC1021;L3-L4 22 hr 23dC 24 hr post-L1 stage larvae;23 degree celsius;PVD OLLs (L3-L4)",
          "type" : "data set",
          "Strain" : "NC1021",
          "Developmental-Stage" : "L3-L4 22 hr 23dC 24 hr post-L1 stage larvae",
@@ -3226,8 +3226,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/L2_reference"
          ],
-         "submission" : "modENCODE_461",
-         "label" : "L2_reference_tiling_array",
+         "submission" : "461",
+         "label" : "RNA-tiling-array;total-RNA;N2;Mid-L2 22 hr post-L1 stage larvae;20 degree celsius;reference (L2)",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
@@ -3243,8 +3243,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/L2_panneural"
          ],
-         "submission" : "modENCODE_462",
-         "label" : "L2_panneural_tiling_array",
+         "submission" : "462",
+         "label" : "RNA-tiling-array;total-RNA;SD1241;Mid-L2 22 hr post-L1 stage larvae;20 degree celsius;Pan-neural (L2)",
          "type" : "data set",
          "Strain" : "SD1241",
          "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
@@ -3260,8 +3260,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/L2_intestine"
          ],
-         "submission" : "modENCODE_463",
-         "label" : "L2_intestine_tiling_array",
+         "submission" : "463",
+         "label" : "RNA-tiling-array;total-RNA;SD1084;Mid-L2 22 hr post-L1 stage larvae;20 degree celsius;Intestine (L2)",
          "type" : "data set",
          "Strain" : "SD1084",
          "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
@@ -3277,8 +3277,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/L2_excretory_cell"
          ],
-         "submission" : "modENCODE_464",
-         "label" : "L2_excretory_cell_tiling_array",
+         "submission" : "464",
+         "label" : "RNA-tiling-array;total-RNA;NC1598;Mid-L2 22 hr post-L1 stage larvae;20 degree celsius;Excretory cell (L2)",
          "type" : "data set",
          "Strain" : "NC1598",
          "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
@@ -3294,8 +3294,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/L2_bw_muscle"
          ],
-         "submission" : "modENCODE_465",
-         "label" : "L2_body_wall_muscle_tiling_array",
+         "submission" : "465",
+         "label" : "RNA-tiling-array;total-RNA;SD1075;Mid-L2 22 hr post-L1 stage larvae;20 degree celsius;body wall muscle",
          "type" : "data set",
          "Strain" : "SD1075",
          "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
@@ -3311,8 +3311,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/L2_GABA_motor_neurons"
          ],
-         "submission" : "modENCODE_466",
-         "label" : "L2_GABA_motor_neurons_tiling_array",
+         "submission" : "466",
+         "label" : "RNA-tiling-array;total-RNA;NC1627;Mid-L2 22 hr post-L1 stage larvae;20 degree celsius;GABA neurons (L2)",
          "type" : "data set",
          "Strain" : "NC1627",
          "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
@@ -3328,8 +3328,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_dopa"
          ],
-         "submission" : "modENCODE_467",
-         "label" : "embryo dopaminergic neurons tiling array",
+         "submission" : "467",
+         "label" : "RNA-tiling-array;total-RNA;BY200;Mixed stage of Embryos;20 degree celsius;dopaminergic neurons (embryonic)",
          "type" : "data set",
          "Strain" : "BY200",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -3345,8 +3345,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_GABA"
          ],
-         "submission" : "modENCODE_468",
-         "label" : "embryo_GABA_motor_neurons_tiling_array",
+         "submission" : "468",
+         "label" : "RNA-tiling-array;total-RNA;CZ1200;Mixed stage of Embryos;20 degree celsius;GABA neurons (embryonic)",
          "type" : "data set",
          "Strain" : "CZ1200",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -3362,8 +3362,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/L2_A_class_neuron"
          ],
-         "submission" : "modENCODE_469",
-         "label" : "L2_A-class_neurons_tiling_array",
+         "submission" : "469",
+         "label" : "RNA-tiling-array;total-RNA;NC694;Mid-L2 22 hr post-L1 stage larvae;20 degree celsius;L2-A-class",
          "type" : "data set",
          "Strain" : "NC694",
          "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
@@ -3379,8 +3379,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_bw_v2"
          ],
-         "submission" : "modENCODE_470",
-         "label" : "embryo body wall muscle tiling array (v2)",
+         "submission" : "470",
+         "label" : "RNA-tiling-array;total-RNA;PD4251;Mixed stage of Embryos;20 degree celsius;body wall muscle",
          "type" : "data set",
          "Strain" : "PD4251",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -3395,8 +3395,8 @@
          "Tracks" : [
             "worm/REINKE_TF_WIG/L2"
          ],
-         "submission" : "modENCODE_472",
-         "label" : "mid-L2_25dC_14hrs_post-L1_N2_tiling_array",
+         "submission" : "472",
+         "label" : "RNA-tiling-array;total-RNA;N2;Mid-L2 17.75 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L2 17.75 hrs post-L1 stage larvae",
@@ -3410,8 +3410,8 @@
          "Tracks" : [
             "worm/REINKE_TF_WIG/L4"
          ],
-         "submission" : "modENCODE_473",
-         "label" : "mid-L4_25dC_36hrs_post-L1_N2_tiling_array",
+         "submission" : "473",
+         "label" : "RNA-tiling-array;total-RNA;N2;Mid-L4 34.25 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
@@ -3425,8 +3425,8 @@
          "Tracks" : [
             "worm/REINKE_TF_WIG/L3"
          ],
-         "submission" : "modENCODE_474",
-         "label" : "mid-L3_25dC_25hrs_post-L1_N2_tiling_array",
+         "submission" : "474",
+         "label" : "RNA-tiling-array;total-RNA;N2;Mid-L3 26.75 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L3 26.75 hrs post-L1 stage larvae",
@@ -3440,8 +3440,8 @@
          "Tracks" : [
             "worm/REINKE_TF_WIG/YA"
          ],
-         "submission" : "modENCODE_475",
-         "label" : "young_adult_25dC_42hrs_post-L1_N2_tiling_array",
+         "submission" : "475",
+         "label" : "RNA-tiling-array;total-RNA;N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -3455,8 +3455,8 @@
          "Tracks" : [
             "worm/REINKE_TF_WIG/N2EE"
          ],
-         "submission" : "modENCODE_476",
-         "label" : "early_embryo_20dC_0-4hrs_post-fertilization_N2_tiling_array",
+         "submission" : "476",
+         "label" : "RNA-tiling-array;total-RNA;N2;Early Embryos",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Early Embryos",
@@ -3470,8 +3470,8 @@
          "Tracks" : [
             "worm/REINKE_TF_WIG/L2_polyA"
          ],
-         "submission" : "modENCODE_477",
-         "label" : "mid-L2_polA_enriched_20dC_14hrs_post-L1_N2_tiling_array",
+         "submission" : "477",
+         "label" : "RNA-tiling-array;total-RNA;N2;Mid-L2 17.75 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L2 17.75 hrs post-L1 stage larvae",
@@ -3480,14 +3480,13 @@
       {
          "technique" : "RNA-tiling-array",
          "factor" : "total-RNA",
-         "him-8(e1489)" : null,
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
          "Tracks" : [
             "worm/REINKE_TF_WIG/L4_male"
          ],
-         "submission" : "modENCODE_478",
-         "label" : "male_mid_L4_25dC_36hrs_post-L1_CB4689_tiling_array",
+         "submission" : "478",
+         "label" : "RNA-tiling-array;total-RNA;dpy28(y1);Male  mid-L4 30 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "dpy28(y1)",
          "Developmental-Stage" : "Male  mid-L4 30 hrs post-L1 stage larvae",
@@ -3501,8 +3500,8 @@
          "Tracks" : [
             "worm/REINKE_TF_WIG/N2LE"
          ],
-         "submission" : "modENCODE_479",
-         "label" : "late_embryo_20dC_6-12hrs_post-fertilization_N2_tiling_array",
+         "submission" : "479",
+         "label" : "RNA-tiling-array;total-RNA;N2;Late Embryos 4.5 hrs post-early embryo",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Late Embryos 4.5 hrs post-early embryo",
@@ -3517,8 +3516,8 @@
          "Tracks" : [
             "worm/REINKE_TF_WIG/YA_gonad"
          ],
-         "submission" : "modENCODE_481",
-         "label" : "gonad-only_young_adult_20dC_42hrs_post-L1_N2_tiling_array",
+         "submission" : "481",
+         "label" : "RNA-tiling-array;total-RNA;N2;Young Adult 42 hrs post-L1 stage larvae;Gonad",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult 42 hrs post-L1 stage larvae",
@@ -3532,8 +3531,8 @@
          "Tracks" : [
             "worm/REINKE_TF_WIG/L1"
          ],
-         "submission" : "modENCODE_484",
-         "label" : "L1_20dC_0hrs_post-L1_N2_tiling_array",
+         "submission" : "484",
+         "label" : "RNA-tiling-array;total-RNA;N2;Mid-L1 4.0 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L1 4.0 hrs post-L1 stage larvae",
@@ -3547,8 +3546,8 @@
          "Tracks" : [
             "worm/REINKE_TF_WIG/L4_soma"
          ],
-         "submission" : "modENCODE_485",
-         "label" : "soma-only_mid-L4_25dC_36hrs_post-L1_JK1107_tiling_array",
+         "submission" : "485",
+         "label" : "RNA-tiling-array;total-RNA;JK1107;Mid-L4 34.25 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "JK1107",
          "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
@@ -3563,8 +3562,8 @@
          "Tracks" : [
             "worm/PATHOGEN_TF_WIG/Hb_24"
          ],
-         "submission" : "modENCODE_486",
-         "label" : "pathogen_Pluminscens_25dC_24hr_exposure_post-adulthood_N2_tiling_array",
+         "submission" : "486",
+         "label" : "RNA-tiling-array;total-RNA;P. luminescens (Hb);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -3579,8 +3578,8 @@
          "Tracks" : [
             "worm/PATHOGEN_TF_WIG/OG1RF_24h"
          ],
-         "submission" : "modENCODE_487",
-         "label" : "pathogen_Efaecalis_25dC_24hr_exposure_post-adulthood_N2_tiling_array",
+         "submission" : "487",
+         "label" : "RNA-tiling-array;total-RNA;E. faecalis (OG1RF);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -3595,8 +3594,8 @@
          "Tracks" : [
             "worm/PATHOGEN_TF_WIG/Db_48h"
          ],
-         "submission" : "modENCODE_488",
-         "label" : "pathogen_Smarcescens_25dC_48hr_exposure_post-adulthood_N2_tiling_array",
+         "submission" : "488",
+         "label" : "RNA-tiling-array;total-RNA;S. marcescens (Db11);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -3611,8 +3610,8 @@
          "Tracks" : [
             "worm/PATHOGEN_TF_WIG/Db_24h"
          ],
-         "submission" : "modENCODE_489",
-         "label" : "pathogen_Smarcescens_25dC_24hr_exposure_post-adulthood_N2_tiling_array",
+         "submission" : "489",
+         "label" : "RNA-tiling-array;total-RNA;S. marcescens (Db11);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -3627,8 +3626,8 @@
          "Tracks" : [
             "worm/PATHOGEN_TF_WIG/OP50_48h"
          ],
-         "submission" : "modENCODE_490",
-         "label" : "pathogen_controlOP50_25dC_48hr_exposure_post-adulthood_N2_tiling_array",
+         "submission" : "490",
+         "label" : "RNA-tiling-array;total-RNA;E. coli (OP50);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -3643,8 +3642,8 @@
          "Tracks" : [
             "worm/PATHOGEN_TF_WIG/OP50_24h"
          ],
-         "submission" : "modENCODE_491",
-         "label" : "pathogen_controlOP50_25dC_24hr_exposure_post-adulthood_N2_tiling_array",
+         "submission" : "491",
+         "label" : "RNA-tiling-array;total-RNA;E. coli (OP50);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -3658,8 +3657,8 @@
          "Tracks" : [
             "fly/OR_EMBRYO_polyA/embryo_14-16h"
          ],
-         "submission" : "modENCODE_513",
-         "label" : "Dm_OregonR_embryo_2-4h_totalRNA_p200_127-128-129_38bp",
+         "submission" : "513",
+         "label" : "RNA-tiling-array;total-RNA;Oregon-R;Embryos 2-4 hr",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 2-4 hr",
@@ -3673,8 +3672,8 @@
          "Tracks" : [
             "fly/OR_EMBRYO_polyA/embryo_2-4h"
          ],
-         "submission" : "modENCODE_514",
-         "label" : "Dm_OregonR_embryo_14-16h_totalRNA_p200_130-131-132_38bp",
+         "submission" : "514",
+         "label" : "RNA-tiling-array;total-RNA;Oregon-R;Embryos 14-16 hr",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr",
@@ -3691,8 +3690,8 @@
             "worm/CEUP1_UST_match_3373_515",
             "worm/CEUP1_polyA_site_3373_515"
          ],
-         "submission" : "modENCODE_515",
-         "label" : "Mixed-stage 3'RACE sequencing, alignment, and 3'UTR annotation",
+         "submission" : "515",
+         "label" : "RACE;3-prime-UTR;N2;Mixed Population Worms;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Population Worms",
@@ -3709,8 +3708,8 @@
             "fly/Lai_RNASEQ_DUAL_T/dcr_2_ovaries",
             "fly/YA2_GSM280083.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_526",
-         "label" : "Dcr-2[L811fsX] Ovary smallRNA RNA-Seq",
+         "submission" : "526",
+         "label" : "RNA-seq;small-RNA;Dcr-2L811fsX;Adult Female;Adult ovaries",
          "type" : "data set",
          "Strain" : "Dcr-2L811fsX",
          "Developmental-Stage" : "Adult Female",
@@ -3724,8 +3723,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_larval_L3-12hr"
          ],
-         "submission" : "modENCODE_538",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_larval_L3-12hrPostMolt_TotalRNA_p200_296-298-300_38bp",
+         "submission" : "538",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;L3 stage , 12 hr post-molt stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage , 12 hr post-molt stage larvae",
@@ -3739,8 +3738,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_larval_L3-clear"
          ],
-         "submission" : "modENCODE_539",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_larval_L3-gut-stage3_TotalRNA_p200_452-454-456_38bp",
+         "submission" : "539",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;L3 stage , clear gut PS(7-9) stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage , clear gut PS(7-9) stage larvae",
@@ -3754,8 +3753,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_larval_L3-light-blue"
          ],
-         "submission" : "modENCODE_540",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_larval_L3-gut_stage2_TotalRNA_p200_444-446-450_38bp",
+         "submission" : "540",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;L3 stage , dark blue gut PS(1-2) stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage , dark blue gut PS(1-2) stage larvae",
@@ -3769,8 +3768,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_prepupae_White-2days"
          ],
-         "submission" : "modENCODE_541",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_pupa_WhitePrePupaep2days_TotalRNA_p200_344-346-348_38bp",
+         "submission" : "541",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Pupae, White prepupae (WPP) + 2 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae, White prepupae (WPP) + 2 days",
@@ -3784,8 +3783,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_prepupae_White-3days"
          ],
-         "submission" : "modENCODE_542",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_pupa_WhitePrePupaep3day_TotalRNA_p200_350-352-354_38bp",
+         "submission" : "542",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Pupae, White prepupae (WPP) + 3 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae, White prepupae (WPP) + 3 days",
@@ -3799,8 +3798,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_prepupae_White-4days"
          ],
-         "submission" : "modENCODE_543",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_pupa_WhitePrePupaep4day_TotalRNA_p200_356-358-360_38bp",
+         "submission" : "543",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Pupae, White prepupae (WPP) + 4 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae, White prepupae (WPP) + 4 days",
@@ -3814,8 +3813,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_prepupae_White-12hr"
          ],
-         "submission" : "modENCODE_544",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_prepupa_WhitePrePupap12h_TotalRNA_p200_332-334-336_38bp",
+         "submission" : "544",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;White prepupae (WPP) + 12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "White prepupae (WPP) + 12 hr",
@@ -3829,8 +3828,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_prepupae_White-24hr"
          ],
-         "submission" : "modENCODE_545",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_pupa_WhitePrePupaep1day_TotalRNA_p200_338-340-342_38bp",
+         "submission" : "545",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;White prepupae (WPP) + 24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "White prepupae (WPP) + 24 hr",
@@ -3844,8 +3843,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/SDC3_N2_MXEMB_A"
          ],
-         "submission" : "modENCODE_553",
-         "label" : "Lieb validation of SDC-3",
+         "submission" : "553",
+         "label" : "ChIP-chip;SDC-3;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -3859,8 +3858,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/SDC3_N2_MXEMB_B"
          ],
-         "submission" : "modENCODE_575",
-         "label" : "Lieb validation of SDC-3",
+         "submission" : "575",
+         "label" : "ChIP-chip;SDC-3;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -3874,8 +3873,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_N2_MXEMB_A"
          ],
-         "submission" : "modENCODE_578",
-         "label" : "Lieb validation of DPY-27",
+         "submission" : "578",
+         "label" : "ChIP-chip;DPY-27;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -3889,8 +3888,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Female/AdultFemale_H3K9Ac"
          ],
-         "submission" : "modENCODE_581",
-         "label" : "AdultFemale_H3K9Ac",
+         "submission" : "581",
+         "label" : "ChIP-chip;H3K9ac;Y cn bw sp;Adult Female",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Female",
@@ -3904,8 +3903,8 @@
          "Tracks" : [
             "worm/Snyder_PHA4_GFP_COMB/PHA4_emb_GFP"
          ],
-         "submission" : "modENCODE_582",
-         "label" : "Identification of Transcription Factor PHA-4::GFP Binding Regions in Embryos",
+         "submission" : "582",
+         "label" : "ChIP-seq;pha-4;OP37;Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP37",
          "Developmental-Stage" : "Embryos",
@@ -3920,8 +3919,8 @@
          "Tracks" : [
             "worm/Snyder_PHA4_GFP_COMB/PHA4_StarvedL1_GFP"
          ],
-         "submission" : "modENCODE_584",
-         "label" : "Identification of Transcription Factor PHA-4::GFP Binding Regions on Starved L1",
+         "submission" : "584",
+         "label" : "ChIP-seq;pha-4;OP37;Starved L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP37",
          "Developmental-Stage" : "Starved L1 stage larvae",
@@ -3936,8 +3935,8 @@
          "Tracks" : [
             "worm/Snyder_PHA4_GFP_COMB/PHA4_FedL1_GFP"
          ],
-         "submission" : "modENCODE_585",
-         "label" : "Identification of Transcription Factor PHA-4::GFP Binding Regions on Fed L1",
+         "submission" : "585",
+         "label" : "ChIP-seq;pha-4;OP37;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP37",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -3952,8 +3951,8 @@
          "Tracks" : [
             "worm/Snyder_PHA4_POLII_COMB/PHA4_POLII_emb"
          ],
-         "submission" : "modENCODE_586",
-         "label" : "Identification of Pol II Binding Regions in PHA-4::GFP Embryos",
+         "submission" : "586",
+         "label" : "ChIP-seq;ama-1;OP37;Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP37",
          "Developmental-Stage" : "Embryos",
@@ -3968,8 +3967,8 @@
          "Tracks" : [
             "worm/Snyder_PHA4_POLII_COMB/PHA4_POLII_FedL1"
          ],
-         "submission" : "modENCODE_587",
-         "label" : "Identification of Pol II Binding Regions in PHA-4::GFP Fed L1",
+         "submission" : "587",
+         "label" : "ChIP-seq;ama-1;OP37;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP37",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -3984,8 +3983,8 @@
          "Tracks" : [
             "worm/Snyder_PHA4_POLII_COMB/PHA4_POLII_StarvedL1"
          ],
-         "submission" : "modENCODE_588",
-         "label" : "Identification of Pol II Binding Regions in PHA-4::GFP Starved L1",
+         "submission" : "588",
+         "label" : "ChIP-seq;ama-1;OP37;Starved L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP37",
          "Developmental-Stage" : "Starved L1 stage larvae",
@@ -4000,8 +3999,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_AMA1_COMB"
          ],
-         "submission" : "modENCODE_589",
-         "label" : "Identification of AMA-1::GFP Binding Regions in L4 Young Adult",
+         "submission" : "589",
+         "label" : "ChIP-seq;ama-1;OP34;L4-Young Adult stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP34",
          "Developmental-Stage" : "L4-Young Adult stage larvae",
@@ -4016,8 +4015,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIAMA_WIG_COMB_AMA1_POLII_L4YA"
          ],
-         "submission" : "modENCODE_590",
-         "label" : "Identification of Pol II Binding Regions in AMA-1::GFP L4 Young Adult",
+         "submission" : "590",
+         "label" : "ChIP-seq;ama-1;OP34;L4-Young Adult stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP34",
          "Developmental-Stage" : "L4-Young Adult stage larvae",
@@ -4032,8 +4031,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_DAF16_L4YA_GFP"
          ],
-         "submission" : "modENCODE_591",
-         "label" : "Identification of Transcription Factor DAF-16::GFP Binding Regions in L4 Young Adult",
+         "submission" : "591",
+         "label" : "ChIP-seq;daf-16;TJ356;L4-Young Adult stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "TJ356",
          "Developmental-Stage" : "L4-Young Adult stage larvae",
@@ -4048,8 +4047,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIAMA_WIG_COMB_DAF16_POLII_L4YA"
          ],
-         "submission" : "modENCODE_592",
-         "label" : "Identification of Pol II Binding Regions in DAF-16::GFP L4 Young Adults",
+         "submission" : "592",
+         "label" : "ChIP-seq;ama-1;TJ356;L4-Young Adult stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "TJ356",
          "Developmental-Stage" : "L4-Young Adult stage larvae",
@@ -4064,8 +4063,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_MAB5_L3_GFP"
          ],
-         "submission" : "modENCODE_593",
-         "label" : "Identification of Transcription Factor MAB-5::GFP Binding Regions in L3",
+         "submission" : "593",
+         "label" : "ChIP-seq;mab-5;OP26;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP26",
          "Developmental-Stage" : "L3 stage larvae",
@@ -4080,8 +4079,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIAMA_WIG_COMB_MAB5_POLII_L3"
          ],
-         "submission" : "modENCODE_594",
-         "label" : "Identification of Pol II Binding Regions in MAB-5::GFP L3",
+         "submission" : "594",
+         "label" : "ChIP-seq;ama-1;OP26;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP26",
          "Developmental-Stage" : "L3 stage larvae",
@@ -4096,8 +4095,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NEURO/GROAviva"
          ],
-         "submission" : "modENCODE_597",
-         "label" : "Embryo 0-12h GROAviva ChIP-chip",
+         "submission" : "597",
+         "label" : "ChIP-chip;GROUCHO;Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -4110,8 +4109,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_POL2/8WG16_N2_L4"
          ],
-         "submission" : "modENCODE_599",
-         "label" : "CVMMS126R_8WG16_N2_L4",
+         "submission" : "599",
+         "label" : "ChIP-chip;RNA polII CTD domain unphosophorylated;L4 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L4 stage larvae",
@@ -4125,8 +4124,8 @@
          "Tracks" : [
             "fly/White_CC_SG_TRITHORAX/Pupae_snr1"
          ],
-         "submission" : "modENCODE_601",
-         "label" : "snr1_Pupae",
+         "submission" : "601",
+         "label" : "ChIP-chip;SNR1;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -4140,8 +4139,8 @@
          "Tracks" : [
             "fly/White_CC_SG_TRITHORAX/Pupae_brm"
          ],
-         "submission" : "modENCODE_602",
-         "label" : "Pupae_brm_ChIP-chip",
+         "submission" : "602",
+         "label" : "ChIP-chip;brahma;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -4155,8 +4154,8 @@
          "Tracks" : [
             "fly/White_CC_SG_HOMEOTIC/E3_8_UBX7701"
          ],
-         "submission" : "modENCODE_603",
-         "label" : "UBX7701_E3-8h",
+         "submission" : "603",
+         "label" : "ChIP-chip;UBX;Embryos 3-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 3-8 hr"
@@ -4169,8 +4168,8 @@
          "Tracks" : [
             "fly/White_CC_SG_LATECF"
          ],
-         "submission" : "modENCODE_604",
-         "label" : "ZFH1_E-0-12h",
+         "submission" : "604",
+         "label" : "ChIP-chip;ZFH1;Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -4184,8 +4183,8 @@
          "Tracks" : [
             "fly/White_CC_SG_SEGPOL/E0_12_INV7657"
          ],
-         "submission" : "modENCODE_605",
-         "label" : "INV7657_E-0-12h",
+         "submission" : "605",
+         "label" : "ChIP-chip;Invected;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4199,8 +4198,8 @@
          "Tracks" : [
             "fly/White_CC_SG_TRANSFACT/E0_12_dll"
          ],
-         "submission" : "modENCODE_606",
-         "label" : "dll_E-0-12h",
+         "submission" : "606",
+         "label" : "ChIP-chip;DLL;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4214,8 +4213,8 @@
          "Tracks" : [
             "fly/White_CC_SG_TRANSFACT/E0_12_dCtBP7667"
          ],
-         "submission" : "modENCODE_607",
-         "label" : "dCtBP7667_E-0-12h",
+         "submission" : "607",
+         "label" : "ChIP-chip;C-terminal Binding Protein;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4228,8 +4227,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CNS/E0_12_chinmo"
          ],
-         "submission" : "modENCODE_608",
-         "label" : "chinmo_E-0-12h",
+         "submission" : "608",
+         "label" : "ChIP-chip;chinmo;Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -4243,8 +4242,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CNS/E0_12_bks"
          ],
-         "submission" : "modENCODE_609",
-         "label" : "bks_E-0-12h",
+         "submission" : "609",
+         "label" : "ChIP-chip;Brakeless;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4257,8 +4256,8 @@
          "Tracks" : [
             "fly/White_CC_SG_SEGPOL/E7_24_gsbnpurif"
          ],
-         "submission" : "modENCODE_610",
-         "label" : "gsbnpurif_E7-24h",
+         "submission" : "610",
+         "label" : "ChIP-chip;GSBN;Embryos 7-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 7-24 hr"
@@ -4271,8 +4270,8 @@
          "Tracks" : [
             "fly/White_CC_SG_SEGPOL/E7_24_end300"
          ],
-         "submission" : "modENCODE_611",
-         "label" : "end300_E7-24h",
+         "submission" : "611",
+         "label" : "ChIP-chip;ENGRAILED;Embryos 7-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 7-24 hr"
@@ -4285,8 +4284,8 @@
          "Tracks" : [
             "fly/White_CC_SG_HOMEOTIC/E3_8_UBX2"
          ],
-         "submission" : "modENCODE_612",
-         "label" : "UBX2_E3-8h",
+         "submission" : "612",
+         "label" : "ChIP-chip;UBX;Embryos 3-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 3-8 hr"
@@ -4299,8 +4298,8 @@
          "Tracks" : [
             "fly/White_CC_SG_HOMEOTIC/E3_8_UBX1"
          ],
-         "submission" : "modENCODE_613",
-         "label" : "UBX1_E3-8h",
+         "submission" : "613",
+         "label" : "ChIP-chip;UBX;Embryos 3-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 3-8 hr"
@@ -4314,8 +4313,8 @@
          "Tracks" : [
             "fly/White_CC_SG_HOMEOTIC/E0_12_UBX7701"
          ],
-         "submission" : "modENCODE_614",
-         "label" : "UBX7701_E0-12h",
+         "submission" : "614",
+         "label" : "ChIP-chip;UBX;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4329,8 +4328,8 @@
          "Tracks" : [
             "fly/White_CC_SG_TRANSFACT/E0_12_TTK"
          ],
-         "submission" : "modENCODE_615",
-         "label" : "TTK_E0-12h",
+         "submission" : "615",
+         "label" : "ChIP-chip;TRAMTRACK;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4344,8 +4343,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NTWCF/E0_12_Stat92E"
          ],
-         "submission" : "modENCODE_616",
-         "label" : "Stat92E_E0-12h",
+         "submission" : "616",
+         "label" : "ChIP-chip;Stat92E;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4359,8 +4358,8 @@
          "Tracks" : [
             "fly/White_CC_SG_PAIRRULE"
          ],
-         "submission" : "modENCODE_617",
-         "label" : "RUN7659_E0-12h",
+         "submission" : "617",
+         "label" : "ChIP-chip;RUNT;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4374,8 +4373,8 @@
          "Tracks" : [
             "fly/White_CC_SG_GAP/E0_12_KN"
          ],
-         "submission" : "modENCODE_618",
-         "label" : "KN_E0-12h",
+         "submission" : "618",
+         "label" : "ChIP-chip;KNOT;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4388,8 +4387,8 @@
          "Tracks" : [
             "fly/White_CC_SG_SEGPOL/E0_12_INVGFP"
          ],
-         "submission" : "modENCODE_619",
-         "label" : "INVGFP_E0-12h",
+         "submission" : "619",
+         "label" : "ChIP-chip;inv;INV-GFP;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "INV-GFP",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -4404,8 +4403,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_0_12h/E0-12_H3K36Me3"
          ],
-         "submission" : "modENCODE_620",
-         "label" : "H3K36me3_E0-12h",
+         "submission" : "620",
+         "label" : "ChIP-chip;H3K36me3;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4419,8 +4418,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_0_12h/E0_12_H3K9Me3"
          ],
-         "submission" : "modENCODE_621",
-         "label" : "H3K9me3_E0-12h",
+         "submission" : "621",
+         "label" : "ChIP-chip;H3K9me3;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4434,8 +4433,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_0_12h/E0_12h_H3K4Me3"
          ],
-         "submission" : "modENCODE_622",
-         "label" : "H3K4me3_E0-12h",
+         "submission" : "622",
+         "label" : "ChIP-chip;H3K4me3;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4449,8 +4448,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NEURO/E0_12_Gro3"
          ],
-         "submission" : "modENCODE_623",
-         "label" : "Gro3_E0-12h",
+         "submission" : "623",
+         "label" : "ChIP-chip;GRO;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4464,8 +4463,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NTWCF/E0_12_FTZ_F1"
          ],
-         "submission" : "modENCODE_624",
-         "label" : "FTZ-F1_E0-12h",
+         "submission" : "624",
+         "label" : "ChIP-chip;FTZ-F1;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4479,8 +4478,8 @@
          "Tracks" : [
             "fly/White_CC_SG_SEGPOL/E0_12_ENserum"
          ],
-         "submission" : "modENCODE_625",
-         "label" : "ENserum_E0-12h",
+         "submission" : "625",
+         "label" : "ChIP-chip;ENGRAILED;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4494,8 +4493,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CNS/E0_12_D"
          ],
-         "submission" : "modENCODE_626",
-         "label" : "D_E0-12h",
+         "submission" : "626",
+         "label" : "ChIP-chip;Dichaete;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4509,8 +4508,8 @@
          "Tracks" : [
             "fly/White_CC_SG_GAP/E0-12_CNC"
          ],
-         "submission" : "modENCODE_627",
-         "label" : "CNC_E0-12h",
+         "submission" : "627",
+         "label" : "ChIP-chip;cap'n collar;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4524,8 +4523,8 @@
          "Tracks" : [
             "fly/White_CC_SG_TRANSFACT/E0_12_bab1"
          ],
-         "submission" : "modENCODE_628",
-         "label" : "bab1_E0-12h",
+         "submission" : "628",
+         "label" : "ChIP-chip;bab-1;Embryos 0-12 hr;embryo",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
          "organism" : "D. melanogaster"
@@ -4538,8 +4537,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_N2_L4"
          ],
-         "submission" : "modENCODE_630",
-         "label" : "JL00001_DPY27_N2_L4",
+         "submission" : "630",
+         "label" : "ChIP-chip;DPY-27;L4 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L4 stage larvae",
@@ -4554,9 +4553,9 @@
          "Tracks" : [
             "fly/Kc167-COMBINED.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_633",
+         "submission" : "633",
          "Cell-Line" : "Kc167",
-         "label" : "Dm_Kc167_polyA_002-004_paired_RNA-Seq",
+         "label" : "RNA-seq;total-RNA;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -4569,8 +4568,8 @@
          "Tracks" : [
             "worm/Egg_s_3.S-3.WS220.soap.sam_sorted"
          ],
-         "submission" : "modENCODE_634",
-         "label" : "embryo N2 hermaphrodite small ncRNA RNA-Seq",
+         "submission" : "634",
+         "label" : "RNA-seq;small-RNA;N2;Mixed stage of Embryos",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -4584,8 +4583,8 @@
          "Tracks" : [
             "worm/L1_s_5.S-3.WS220.soap.sam_sorted"
          ],
-         "submission" : "modENCODE_635",
-         "label" : "mid-L1 N2 hermaphrodite small ncRNA RNA-Seq",
+         "submission" : "635",
+         "label" : "RNA-seq;small-RNA;N2;Mid-L1 4 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L1 4 hrs post-L1 stage larvae",
@@ -4599,8 +4598,8 @@
          "Tracks" : [
             "worm/L2_s_6.S-3.WS220.soap.sam1_header.sam_sorted"
          ],
-         "submission" : "modENCODE_636",
-         "label" : "mid-L2 N2 hermaphrodite small ncRNA RNA-Seq",
+         "submission" : "636",
+         "label" : "RNA-seq;small-RNA;N2;Mid-L2 14 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L2 14 hrs post-L1 stage larvae",
@@ -4614,8 +4613,8 @@
          "Tracks" : [
             "worm/L3_s_7.S-3.WS220.soap.sam1_header.sam_sorted"
          ],
-         "submission" : "modENCODE_637",
-         "label" : "mid-L3 N2 hermaphrodite small ncRNA RNA-Seq",
+         "submission" : "637",
+         "label" : "RNA-seq;small-RNA;N2;Mid-L3 25 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L3 25 hrs post-L1 stage larvae",
@@ -4629,8 +4628,8 @@
          "Tracks" : [
             "worm/L4_s_8.S-3.WS220.soap.sam1_header.sam_sorted"
          ],
-         "submission" : "modENCODE_638",
-         "label" : "mid-L4 N2 hermaphrodite small ncRNA RNA-Seq",
+         "submission" : "638",
+         "label" : "RNA-seq;small-RNA;N2;Mid-L4 36 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L4 36 hrs post-L1 stage larvae",
@@ -4644,8 +4643,8 @@
          "Tracks" : [
             "worm/YA_Adult_s_1.S-3.WS220.soap.sam1_header.sam_sorted"
          ],
-         "submission" : "modENCODE_639",
-         "label" : "young adult N2 hermaphrodite small ncRNA RNA-Seq",
+         "submission" : "639",
+         "label" : "RNA-seq;small-RNA;N2;Young adult 48 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young adult 48 hrs post-L1 stage larvae",
@@ -4654,14 +4653,13 @@
       {
          "technique" : "RNA-seq",
          "factor" : "small-RNA",
-         "him-8(e1489)" : null,
          "target" : "small RNA",
          "principal_investigator" : "Waterston, R.",
          "Tracks" : [
             "worm/yMale_dpyhim_s_6.S-3.WS220.soap.sam_sorted"
          ],
-         "submission" : "modENCODE_640",
-         "label" : "adult dpy-28;him-8 male small ncRNA RNA-Seq",
+         "submission" : "640",
+         "label" : "RNA-seq;small-RNA;dpy28(y1);Young adult Males",
          "type" : "data set",
          "Strain" : "dpy28(y1)",
          "Developmental-Stage" : "Young adult Males",
@@ -4675,8 +4673,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NAJIRE/E20_24_CBP"
          ],
-         "submission" : "modENCODE_643",
-         "label" : "E20-24_CBP",
+         "submission" : "643",
+         "label" : "ChIP-chip;nejire;Embryos 20-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 20-24 hr"
@@ -4689,8 +4687,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/DPY28_N2_MXEMB"
          ],
-         "submission" : "modENCODE_644",
-         "label" : "JL00012_DPY28_N2_MXEMB",
+         "submission" : "644",
+         "label" : "ChIP-chip;DPY-28;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -4704,8 +4702,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/SDC2_N2_MXEMB"
          ],
-         "submission" : "modENCODE_645",
-         "label" : "SDQ3146_SDC2_N2_MXEMB",
+         "submission" : "645",
+         "label" : "ChIP-chip;SDC-2;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -4720,9 +4718,9 @@
          "Tracks" : [
             "fly/S2-DRSC-COMBINED.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_650",
+         "submission" : "650",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Dm_S2-DRSC_polyA_014-016_paired_RNA-Seq",
+         "label" : "RNA-seq;total-RNA;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -4736,9 +4734,9 @@
          "Tracks" : [
             "fly/ML-DmBG3-c2-COMBINED.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_651",
+         "submission" : "651",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Dm_ML-DmBG3-c2_polyA_122-124_paired_RNA-Seq",
+         "label" : "RNA-seq;total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -4752,9 +4750,9 @@
          "Tracks" : [
             "fly/CME_W1_Cl.8-COMBINED.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_652",
+         "submission" : "652",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "Dm_CME_W1_Cl.8+_polyA_060-062_paired_RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -4768,8 +4766,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_ACLASS"
          ],
-         "submission" : "modENCODE_654",
-         "label" : "embryo A-class motor neurons tiling array",
+         "submission" : "654",
+         "label" : "RNA-tiling-array;total-RNA;NC300;Mixed stage of Embryos;20 degree celsius;unc-4 neurons (embryonic)",
          "type" : "data set",
          "Strain" : "NC300",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -4785,8 +4783,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/L3_L4_dopa_neuron"
          ],
-         "submission" : "modENCODE_655",
-         "label" : "L3-L4_dopaminergic_neuron_tiling_array",
+         "submission" : "655",
+         "label" : "RNA-tiling-array;total-RNA;NC1700;L3-L4 22 hr 23dC 24 hr post-L1 stage larvae;23 degree celsius;Dopaminergic neurons (L3-L4)",
          "type" : "data set",
          "Strain" : "NC1700",
          "Developmental-Stage" : "L3-L4 22 hr 23dC 24 hr post-L1 stage larvae",
@@ -4802,8 +4800,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/YA_reference"
          ],
-         "submission" : "modENCODE_656",
-         "label" : "Young Adult reference tiling array",
+         "submission" : "656",
+         "label" : "RNA-tiling-array;total-RNA;N2;Young Adult 72 hr post-L1 stage larvae;20 degree celsius;reference (YA)",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult 72 hr post-L1 stage larvae",
@@ -4819,8 +4817,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/L2_coelomocytes"
          ],
-         "submission" : "modENCODE_657",
-         "label" : "L2_coelomocytes_tiling_array",
+         "submission" : "657",
+         "label" : "RNA-tiling-array;total-RNA;NC1668;Mid-L2 22 hr post-L1 stage larvae;20 degree celsius;Coelomocytes (L2)",
          "type" : "data set",
          "Strain" : "NC1668",
          "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
@@ -4836,8 +4834,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/L2_glut_rec"
          ],
-         "submission" : "modENCODE_658",
-         "label" : "L2_glutamate_receptor_expressing_neurons_tiling_array",
+         "submission" : "658",
+         "label" : "RNA-tiling-array;total-RNA;NC1842;Mid-L2 22 hr post-L1 stage larvae;20 degree celsius;Glutamate receptor expressing neurons (L2)",
          "type" : "data set",
          "Strain" : "NC1842",
          "Developmental-Stage" : "Mid-L2 22 hr post-L1 stage larvae",
@@ -4853,8 +4851,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/L3_L4_reference"
          ],
-         "submission" : "modENCODE_659",
-         "label" : "L3-L4_reference_tiling_array",
+         "submission" : "659",
+         "label" : "RNA-tiling-array;total-RNA;N2;L3-L4 22 hr 23dC 24 hr post-L1 stage larvae;23 degree celsius;reference (L3-L4)",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3-L4 22 hr 23dC 24 hr post-L1 stage larvae",
@@ -4870,8 +4868,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/YA_CEPsh"
          ],
-         "submission" : "modENCODE_660",
-         "label" : "Young Adult Cephalic sheath (CEPsh) tiling array",
+         "submission" : "660",
+         "label" : "RNA-tiling-array;total-RNA;OS3991;Young Adult 72 hr post-L1 stage larvae;20 degree celsius;CEPsh (YA)",
          "type" : "data set",
          "Strain" : "OS3991",
          "Developmental-Stage" : "Young Adult 72 hr post-L1 stage larvae",
@@ -4887,8 +4885,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_GLP"
          ],
-         "submission" : "modENCODE_661",
-         "label" : "embryo germline precursor cells tiling array",
+         "submission" : "661",
+         "label" : "RNA-tiling-array;total-RNA;SS747;Mixed stage of Embryos;20 degree celsius;germ line precursor (embryonic)",
          "type" : "data set",
          "Strain" : "SS747",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -4904,8 +4902,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_hypodermal"
          ],
-         "submission" : "modENCODE_662",
-         "label" : "embryo hypodermal cells tiling array",
+         "submission" : "662",
+         "label" : "RNA-tiling-array;total-RNA;DM8001;Mixed stage of Embryos;20 degree celsius;hypodermis",
          "type" : "data set",
          "Strain" : "DM8001",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -4920,8 +4918,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_POL2/8WG16_N2_EEMB"
          ],
-         "submission" : "modENCODE_663",
-         "label" : "Strome ABAB817_8WG16_N2_EEMB",
+         "submission" : "663",
+         "label" : "ChIP-chip;RNA polII CTD domain unphosophorylated;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -4936,9 +4934,9 @@
          "Tracks" : [
             "fly/MacAlpine_M_WIG_RT_465_466_468/Kc167"
          ],
-         "submission" : "modENCODE_668",
+         "submission" : "668",
          "Cell-Line" : "Kc167",
-         "label" : "Kc167 Replication Timing",
+         "label" : "DNA-tiling-array;Replication-Timing;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -4952,9 +4950,9 @@
          "Tracks" : [
             "fly/MacAlpine_M_WIG_RT_465_466_468/S2"
          ],
-         "submission" : "modENCODE_669",
+         "submission" : "669",
          "Cell-Line" : "S2-DRSC",
-         "label" : "S2-DSRC Replication Timing",
+         "label" : "DNA-tiling-array;Replication-Timing;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -4968,9 +4966,9 @@
          "Tracks" : [
             "fly/MacAlpine_M_WIG_RT_465_466_468/Bg3"
          ],
-         "submission" : "modENCODE_670",
+         "submission" : "670",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "ML-DmBG3-c2 Replication Timing",
+         "label" : "DNA-tiling-array;Replication-Timing;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -4984,9 +4982,9 @@
          "Tracks" : [
             "fly/MacAlpine_PRERC_WIG_1049/ORC2"
          ],
-         "submission" : "modENCODE_674",
+         "submission" : "674",
          "Cell-Line" : "Kc167",
-         "label" : "Kc167 ORC2 Localization",
+         "label" : "ChIP-chip;Drosophila ORC2p;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -5000,9 +4998,9 @@
          "Tracks" : [
             "fly/MacAlpine_PRERC_WIG_1049/MCM_cycE"
          ],
-         "submission" : "modENCODE_675",
+         "submission" : "675",
          "Cell-Line" : "Kc167",
-         "label" : "Kc167 MCM Localization",
+         "label" : "ChIP-chip;MCM2-7 complex;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -5015,8 +5013,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME3_N2_EEMB"
          ],
-         "submission" : "modENCODE_691",
-         "label" : "Strome UP07442_H3K9ME3_N2_EEMB",
+         "submission" : "691",
+         "label" : "ChIP-chip;H3K9me3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -5030,8 +5028,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/DPY271dh_MXEMB"
          ],
-         "submission" : "modENCODE_693",
-         "label" : "JL00001_DPY27_11DH_MXEMB",
+         "submission" : "693",
+         "label" : "ChIP-chip;DPY-27;11dh;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "11dh",
          "Developmental-Stage" : "Mixed Embryos",
@@ -5046,8 +5044,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_YPT41_MXEMB"
          ],
-         "submission" : "modENCODE_695",
-         "label" : "DPY27_YPT41(II;X)_MXEMB",
+         "submission" : "695",
+         "label" : "ChIP-chip;DPY-27;YPT41;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "YPT41",
          "Developmental-Stage" : "Mixed Embryos",
@@ -5062,8 +5060,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_YPT47_MXEMB"
          ],
-         "submission" : "modENCODE_696",
-         "label" : "DPY27_YPT47(V;X)_MXEMB",
+         "submission" : "696",
+         "label" : "ChIP-chip;DPY-27;YPT47;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "YPT47",
          "Developmental-Stage" : "Mixed Embryos",
@@ -5078,8 +5076,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/SDC3_YPT47_MXEMB"
          ],
-         "submission" : "modENCODE_701",
-         "label" : "SDC3_YPT47(V;X)_MXEMB",
+         "submission" : "701",
+         "label" : "ChIP-chip;SDC-3;YPT47;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "YPT47",
          "Developmental-Stage" : "Mixed Embryos",
@@ -5095,9 +5093,9 @@
          "Tracks" : [
             "fly/MacAlpine_K_WIG_934_939_941/Kc167"
          ],
-         "submission" : "modENCODE_709",
+         "submission" : "709",
          "Cell-Line" : "Kc167",
-         "label" : "Kc167 Replication Origins",
+         "label" : "DNA-tiling-array;Replication-Origin;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -5111,9 +5109,9 @@
          "Tracks" : [
             "fly/MacAlpine_K_WIG_934_939_941/S2"
          ],
-         "submission" : "modENCODE_710",
+         "submission" : "710",
          "Cell-Line" : "S2-DRSC",
-         "label" : "S2-DRSC Replication Origins",
+         "label" : "DNA-tiling-array;Replication-Origin;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -5127,9 +5125,9 @@
          "Tracks" : [
             "fly/MacAlpine_K_WIG_934_939_941/Bg3"
          ],
-         "submission" : "modENCODE_711",
+         "submission" : "711",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "ML-DmBG3-c2 Replication Origins",
+         "label" : "DNA-tiling-array;Replication-Origin;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -5142,8 +5140,8 @@
          "Tracks" : [
             "fly/whole_fly.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_712",
-         "label" : "Whole mixed sex adult flies (57) RNA-Seq",
+         "submission" : "712",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Mixed Adult 7-11 day",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Mixed Adult 7-11 day",
@@ -5158,9 +5156,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML_DmBG3_c2_polyA"
          ],
-         "submission" : "modENCODE_713",
+         "submission" : "713",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Dm_ML_BG3-c2_polyApRNA_p200_485-486-487_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -5174,9 +5172,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/S2_DRSC_nucl"
          ],
-         "submission" : "modENCODE_715",
+         "submission" : "715",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Dm_S2-DRSC_nuclearRNA_p200_482-483-484_38bp",
+         "label" : "RNA-tiling-array;total-RNA;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -5190,9 +5188,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/ML_DmBG3_c2_nucl"
          ],
-         "submission" : "modENCODE_716",
+         "submission" : "716",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Dm_Bg3-c2_nuclearRNA_p200_488_489_490_38bp",
+         "label" : "RNA-tiling-array;total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -5206,9 +5204,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/C1_8_polyA"
          ],
-         "submission" : "modENCODE_717",
+         "submission" : "717",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "Dm_C1.8_polyApRNA_p200_491_492_492_38bp",
+         "label" : "RNA-tiling-array;total-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -5222,9 +5220,9 @@
          "Tracks" : [
             "fly/CEL_CLINES/S2_DRSC_polyA"
          ],
-         "submission" : "modENCODE_718",
+         "submission" : "718",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Dm_S2-DRSC_polyApRNA_p200_479-480-481_38bp",
+         "label" : "RNA-tiling-array;total-RNA;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -5235,8 +5233,8 @@
          "factor" : "Replication-Copy-Number",
          "target" : "Copy Number Variation",
          "Cell-Line" : "S2-DRSC",
-         "submission" : "modENCODE_725",
-         "label" : "CGH S2-DRSC Cells",
+         "submission" : "725",
+         "label" : "CGH;Replication-Copy-Number;S2-DRSC;w1118;Embryos 0-4 hr;embryo-derived cell-line",
          "type" : "data set",
          "Strain" : "w1118",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -5252,8 +5250,8 @@
             "fly/MacAlpine_CGH_WIG_596"
          ],
          "Cell-Line" : "S2-DRSC",
-         "submission" : "modENCODE_725",
-         "label" : "CGH S2-DRSC Cells",
+         "submission" : "725",
+         "label" : "CGH;Replication-Copy-Number;S2-DRSC;w1118;Embryos 0-4 hr;embryo-derived cell-line",
          "type" : "data set",
          "Strain" : "w1118",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -5267,8 +5265,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_CEH14_COMB"
          ],
-         "submission" : "modENCODE_734",
-         "label" : "Identification of Transcription Factor CEH-14::GFP Binding Regions in L2",
+         "submission" : "734",
+         "label" : "ChIP-seq;ceh-14;OP73;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP73",
          "Developmental-Stage" : "L2 stage larvae",
@@ -5285,8 +5283,8 @@
             "fly/Lai_RNASEQ_DUAL_T/Female_heads",
             "fly/YAF_GSM240749.gff.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_737",
-         "label" : "Dm Canton-S Adult Female Head smallRNA RNA-Seq",
+         "submission" : "737",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult Female;Female heads",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult Female",
@@ -5302,9 +5300,9 @@
             "fly/KC_GSM272653.gff.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_CELLS/Kc167_cells"
          ],
-         "submission" : "modENCODE_738",
+         "submission" : "738",
          "Cell-Line" : "Kc-Rubin",
-         "label" : "Kc167 smallRNA RNA-Seq",
+         "label" : "RNA-seq;small-RNA;Kc-Rubin;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -5319,8 +5317,8 @@
             "fly/Lai_RNASEQ_DUAL_T/Male_body",
             "fly/YAM_GSM286602.gff.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_739",
-         "label" : "Dm Canton-S Adult Male Body smallRNA RNA-Seq",
+         "submission" : "739",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult male;Male body",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult male",
@@ -5335,8 +5333,8 @@
             "fly/Lai_RNASEQ_DUAL_E/2-6hr_embryo_1stRep",
             "fly/E02_GSM286605.gff.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_740",
-         "label" : "Dm Canton-S Embryo 2-6h smallRNA RNA-Seq",
+         "submission" : "740",
+         "label" : "RNA-seq;small-RNA;Canton S;Embryos 2-6 hr",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Embryos 2-6 hr",
@@ -5352,9 +5350,9 @@
             "fly/S2_GSM272651.gff.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_CELLS/S2_Kc167_Ecdysone"
          ],
-         "submission" : "modENCODE_741",
+         "submission" : "741",
          "Cell-Line" : "S2-Rubin",
-         "label" : "S2/Kc167 + Ecdysone exposure smallRNA RNA-Seq",
+         "label" : "RNA-seq;small-RNA;S2-Rubin;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -5369,8 +5367,8 @@
             "fly/ID_GSM275691.gff.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_T/Imaginal_disc"
          ],
-         "submission" : "modENCODE_742",
-         "label" : "Dm Canton-S Imaginal Disk smallRNA RNA-Seq",
+         "submission" : "742",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult male;Imaginal disc",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult male",
@@ -5386,8 +5384,8 @@
             "fly/Lai_RNASEQ_DUAL_T/Female_Body",
             "fly/YAF_GSM286603.gff.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_743",
-         "label" : "Dm Canton-S Adult Female Body smallRNA RNA-Seq",
+         "submission" : "743",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult Female;Female body",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult Female",
@@ -5402,8 +5400,8 @@
             "fly/E00_GSM286613.gff.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_E/0-1h_embryo_2ndRep"
          ],
-         "submission" : "modENCODE_745",
-         "label" : "Lai - 0-1hr_embryo",
+         "submission" : "745",
+         "label" : "RNA-seq;small-RNA;Canton S;Embryos 0-1 hr",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Embryos 0-1 hr",
@@ -5419,9 +5417,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/S2_DRSC2_cells",
             "fly/S2_GSM272652.gff.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_746",
+         "submission" : "746",
          "Cell-Line" : "S2-DRSC",
-         "label" : "S2-DRSC smallRNA RNA-Seq",
+         "label" : "RNA-seq;small-RNA;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -5436,8 +5434,8 @@
             "fly/YAM_GSM286601.gff.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_T/Male_heads"
          ],
-         "submission" : "modENCODE_747",
-         "label" : "Dm Canton-S Adult Male Head smallRNA RNA-Seq",
+         "submission" : "747",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult male;Male heads",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult male",
@@ -5452,8 +5450,8 @@
             "fly/Lai_RNASEQ_DUAL_PE/L3_1stRep",
             "fly/L3_GSM322208.gff.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_748",
-         "label" : "Dm Canton-S 3rd Instar Larvae smallRNA RNA-Seq",
+         "submission" : "748",
+         "label" : "RNA-seq;small-RNA;Canton S;3rd instar larvae",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "3rd instar larvae",
@@ -5468,8 +5466,8 @@
             "fly/L3_GSM322245.gff.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_PE/L3_2ndRep"
          ],
-         "submission" : "modENCODE_749",
-         "label" : "Dm Canton-S 3rd Instar Larvae smallRNA RNA-Seq (2)",
+         "submission" : "749",
+         "label" : "RNA-seq;small-RNA;Canton S;3rd instar larvae",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "3rd instar larvae",
@@ -5485,8 +5483,8 @@
             "fly/YAF_GSM322533.gff.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_T/Female_head_1stRep"
          ],
-         "submission" : "modENCODE_750",
-         "label" : "Dm Canton-S Adult Female Head smallRNA RNA-Seq (2)",
+         "submission" : "750",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult Female;Female heads",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult Female",
@@ -5502,8 +5500,8 @@
             "fly/Lai_RNASEQ_DUAL_T/Male_head_1stRep",
             "fly/YAM_GSM322543.gff.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_751",
-         "label" : "Dm Canton-S Adult Male Head smallRNA RNA-Seq (2)",
+         "submission" : "751",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult male;Male heads",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult male",
@@ -5518,8 +5516,8 @@
             "fly/E02_GSM286606.gff.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_E/2-6h_embryo_2ndRep"
          ],
-         "submission" : "modENCODE_752",
-         "label" : "Dm Canton-S Embryo 2-6h smallRNA RNA-Seq (2)",
+         "submission" : "752",
+         "label" : "RNA-seq;small-RNA;Canton S;Embryos 2-6 hr",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Embryos 2-6 hr",
@@ -5534,8 +5532,8 @@
             "fly/Lai_RNASEQ_DUAL_E/6-10h_embryo_2ndRep",
             "fly/E06_GSM286611.gff.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_753",
-         "label" : "Dm Canton-S Embryo 6-10h smallRNA RNA-Seq (2)",
+         "submission" : "753",
+         "label" : "RNA-seq;small-RNA;Canton S;Embryos 6-10 hr",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Embryos 6-10 hr",
@@ -5550,8 +5548,8 @@
             "fly/Lai_RNASEQ_DUAL_E/6-10h_embryo_1stRep",
             "fly/E06_GSM286607.gff.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_754",
-         "label" : "Dm Canton-S Embryo 6-10h smallRNA RNA-Seq",
+         "submission" : "754",
+         "label" : "RNA-seq;small-RNA;Canton S;Embryos 6-10 hr",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Embryos 6-10 hr",
@@ -5566,8 +5564,8 @@
             "fly/Lai_RNASEQ_DUAL_E/0-1h_embryo_1stRep",
             "fly/E00_GSM286604.gff.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_755",
-         "label" : "Dm Canton-S Embryo 0-1h smallRNA RNA-Seq",
+         "submission" : "755",
+         "label" : "RNA-seq;small-RNA;Canton S;Embryos 0-1 hr",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Embryos 0-1 hr",
@@ -5582,8 +5580,8 @@
             "fly/P02_GSM322219.gff.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_PE/2-4day_pupae_1stRep"
          ],
-         "submission" : "modENCODE_757",
-         "label" : "Dm Canton-S Pupae 2-4d smallRNA RNA-Seq",
+         "submission" : "757",
+         "label" : "RNA-seq;small-RNA;Canton S;2-4 day old pupae",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "2-4 day old pupae",
@@ -5598,8 +5596,8 @@
             "fly/Lai_RNASEQ_DUAL_PE/2-4day_pupae_2ndRep",
             "fly/P02_GSM322338.gff.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_758",
-         "label" : "Dm Canton-S Pupae 2-4d smallRNA RNA-Seq (2)",
+         "submission" : "758",
+         "label" : "RNA-seq;small-RNA;Canton S;2-4 day old pupae",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "2-4 day old pupae",
@@ -5614,8 +5612,8 @@
             "fly/L1_GSM360256.gff.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_PE/L1_1stRep"
          ],
-         "submission" : "modENCODE_762",
-         "label" : "Dm Canton-S 1st Instar Larvae smallRNA RNA-Seq",
+         "submission" : "762",
+         "label" : "RNA-seq;small-RNA;Canton S;1st instar larvae",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "1st instar larvae",
@@ -5629,8 +5627,8 @@
          "Tracks" : [
             "fly/EMBRYO_Total/embryo_6-8h"
          ],
-         "submission" : "modENCODE_763",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_6-8h_TotalRNA_p200_230-232_38bp",
+         "submission" : "763",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 6-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 6-8 hr",
@@ -5644,8 +5642,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_4_8h/E4_8_H3K9Me3"
          ],
-         "submission" : "modENCODE_764",
-         "label" : "E4-8-H3K9me3",
+         "submission" : "764",
+         "label" : "ChIP-chip;H3K9me3;Embryos 4-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 4-8 hr"
@@ -5658,8 +5656,8 @@
          "Tracks" : [
             "fly/White_CC_Pupae/Pupae_H3K9Me3"
          ],
-         "submission" : "modENCODE_765",
-         "label" : "Pupae-H3K9me3",
+         "submission" : "765",
+         "label" : "ChIP-chip;H3K9me3;Pupae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Pupae"
@@ -5672,8 +5670,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_12_16h/E12_16_H3K27Me3"
          ],
-         "submission" : "modENCODE_767",
-         "label" : "E12-16-H3K27me3",
+         "submission" : "767",
+         "label" : "ChIP-chip;H3K27me3;Embryos 12-16 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 12-16 hr"
@@ -5686,8 +5684,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_4_8h/E4_8_H3K27Me3"
          ],
-         "submission" : "modENCODE_768",
-         "label" : "E4-8-H3K27me3",
+         "submission" : "768",
+         "label" : "ChIP-chip;H3K27me3;Embryos 4-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 4-8 hr"
@@ -5700,8 +5698,8 @@
          "Tracks" : [
             "fly/White_INSULATORS_WIG/E0_12_CTCF_C"
          ],
-         "submission" : "modENCODE_769",
-         "label" : "E0-12_insulator_CTCF_C ChIP-chip",
+         "submission" : "769",
+         "label" : "ChIP-chip;CTCF C-terminus;Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -5714,8 +5712,8 @@
          "Tracks" : [
             "fly/White_INSULATORS_WIG/E0_12_CTCF_N"
          ],
-         "submission" : "modENCODE_770",
-         "label" : "E0-12_insulator_CTCF_N ChIP-chip",
+         "submission" : "770",
+         "label" : "ChIP-chip;CTCF N-terminus;Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -5728,8 +5726,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_0_4h/E0_4_H3K4Me3_new"
          ],
-         "submission" : "modENCODE_771",
-         "label" : "E0-4_H3K4Me3",
+         "submission" : "771",
+         "label" : "ChIP-chip;H3K4me3;Embryos 0-4 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-4 hr"
@@ -5744,8 +5742,8 @@
             "fly/Lai_RNASEQ_DUAL_T/adult_testes",
             "fly/YA02_GSM280085.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_772",
-         "label" : "Dm Oregon-R Adult Male Testis smallRNA RNA-Seq",
+         "submission" : "772",
+         "label" : "RNA-seq;small-RNA;Oregon-R;Adult male;Adult testis",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Adult male",
@@ -5761,8 +5759,8 @@
             "fly/Lai_RNASEQ_DUAL_T/adult_ovaries",
             "fly/YA02_GSM280082.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_773",
-         "label" : "Dm y[1]; cn[1] bw[1] sp[1] Ovary smallRNA RNA-Seq",
+         "submission" : "773",
+         "label" : "RNA-seq;small-RNA;Y cn bw sp;Adult Female;Adult ovaries",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Female",
@@ -5778,8 +5776,8 @@
             "fly/Lai_RNASEQ_DUAL_T/loqs_ovaries",
             "fly/YA_GSM280084.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_774",
-         "label" : "Dm Loqs[f00791] Ovary smallRNA RNA-Seq",
+         "submission" : "774",
+         "label" : "RNA-seq;small-RNA;Loqs f00791;Adult Female;Adult ovaries",
          "type" : "data set",
          "Strain" : "Loqs f00791",
          "Developmental-Stage" : "Adult Female",
@@ -5793,8 +5791,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_0_4h/E0_4_H3K4me1"
          ],
-         "submission" : "modENCODE_777",
-         "label" : "E0-4_H3K4Me1",
+         "submission" : "777",
+         "label" : "ChIP-seq;H3K4me1;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -5808,8 +5806,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_4_8h/E4_8_H3K4Me1"
          ],
-         "submission" : "modENCODE_778",
-         "label" : "E4-8_H3K4Me1 ChIP-seq",
+         "submission" : "778",
+         "label" : "ChIP-seq;H3K4me1;Y cn bw sp;Embryos 4-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-8 hr",
@@ -5823,8 +5821,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_8_12h/E8_12_H3K4Me1"
          ],
-         "submission" : "modENCODE_779",
-         "label" : "E8-12_H3K4Me1 ChIP-seq",
+         "submission" : "779",
+         "label" : "ChIP-seq;H3K4me1;Y cn bw sp;Embryos 8-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-12 hr",
@@ -5838,8 +5836,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_12_16h/E12_16_H3K4Me1"
          ],
-         "submission" : "modENCODE_780",
-         "label" : "E12-16_H3K4Me1 ChIP-seq",
+         "submission" : "780",
+         "label" : "ChIP-seq;H3K4me1;Y cn bw sp;Embryos 12-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-16 hr",
@@ -5853,8 +5851,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_16_20h/E16_20_H3K4Me1"
          ],
-         "submission" : "modENCODE_781",
-         "label" : "E16-20_H3K4Me1 ChIP-seq",
+         "submission" : "781",
+         "label" : "ChIP-seq;H3K4me1;Y cn bw sp;Embryos 16-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-20 hr",
@@ -5868,8 +5866,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_20_24h/E20_24_H3K4Me1"
          ],
-         "submission" : "modENCODE_782",
-         "label" : "E20-24_H3K4Me1 ChIP-seq",
+         "submission" : "782",
+         "label" : "ChIP-seq;H3K4me1;Y cn bw sp;Embryos 20-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-24 hr",
@@ -5883,8 +5881,8 @@
          "Tracks" : [
             "fly/White_CS_L1/L1_H3K4Me1"
          ],
-         "submission" : "modENCODE_783",
-         "label" : "L1_H3K4Me1 ChIP-seq",
+         "submission" : "783",
+         "label" : "ChIP-seq;H3K4me1;Y cn bw sp;L1 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L1 stage larvae",
@@ -5898,8 +5896,8 @@
          "Tracks" : [
             "fly/White_CS_L2/L2_H3K4Me1"
          ],
-         "submission" : "modENCODE_784",
-         "label" : "L2_H3K4Me1 ChIP-seq",
+         "submission" : "784",
+         "label" : "ChIP-seq;H3K4me1;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -5913,8 +5911,8 @@
          "Tracks" : [
             "fly/White_CS_L3/L3_H3K4Me1"
          ],
-         "submission" : "modENCODE_785",
-         "label" : "L3_H3K4Me1 ChIP-seq",
+         "submission" : "785",
+         "label" : "ChIP-seq;H3K4me1;Y cn bw sp;L3 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage larvae",
@@ -5928,8 +5926,8 @@
          "Tracks" : [
             "fly/White_CS_Pupae/Pupae_H3K4Me1"
          ],
-         "submission" : "modENCODE_786",
-         "label" : "Pupae_H3K4Me1 ChIP-seq",
+         "submission" : "786",
+         "label" : "ChIP-seq;H3K4me1;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -5943,8 +5941,8 @@
          "Tracks" : [
             "fly/White_CS_Adult_Female/AdF_H3K4Me1"
          ],
-         "submission" : "modENCODE_787",
-         "label" : "AdultFemale_H3K4Me1 ChIP-seq",
+         "submission" : "787",
+         "label" : "ChIP-seq;H3K4me1;Y cn bw sp;Adult Female",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Female",
@@ -5958,8 +5956,8 @@
          "Tracks" : [
             "fly/White_CS_Adult_Male/AdM_H3K4Me1"
          ],
-         "submission" : "modENCODE_788",
-         "label" : "AdultMale_H3K4Me1 ChIP-seq",
+         "submission" : "788",
+         "label" : "ChIP-seq;H3K4me1;Y cn bw sp;Adult Male",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Male",
@@ -5973,8 +5971,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_0_4h/E0_4_H3K4Me3"
          ],
-         "submission" : "modENCODE_789",
-         "label" : "E0-4_H3K4Me3 ChIP-seq",
+         "submission" : "789",
+         "label" : "ChIP-seq;H3K4me3;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -5988,8 +5986,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_4_8h/E4_8_H3K4Me3"
          ],
-         "submission" : "modENCODE_790",
-         "label" : "E4-8_H3K4Me3 ChIP-seq",
+         "submission" : "790",
+         "label" : "ChIP-seq;H3K4me3;Y cn bw sp;Embryos 4-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-8 hr",
@@ -6003,8 +6001,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_8_12h/E8_12_H3K4Me3"
          ],
-         "submission" : "modENCODE_791",
-         "label" : "E8-12_H3K4Me3 ChIP-seq",
+         "submission" : "791",
+         "label" : "ChIP-seq;H3K4me3;Y cn bw sp;Embryos 8-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-12 hr",
@@ -6018,8 +6016,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_12_16h/E12_16_H3K4Me3"
          ],
-         "submission" : "modENCODE_792",
-         "label" : "E12-16_H3K4Me3 ChIP-seq",
+         "submission" : "792",
+         "label" : "ChIP-seq;H3K4me3;Y cn bw sp;Embryos 12-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-16 hr",
@@ -6033,8 +6031,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_16_20h/E16_20_H3K4Me3"
          ],
-         "submission" : "modENCODE_793",
-         "label" : "E16-20_H3K4Me3 ChIP-seq",
+         "submission" : "793",
+         "label" : "ChIP-seq;H3K4me3;Y cn bw sp;Embryos 16-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-20 hr",
@@ -6048,8 +6046,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_20_24h/E20_24_H3K4Me3"
          ],
-         "submission" : "modENCODE_794",
-         "label" : "E20-24_H3K4Me3 ChIP-seq",
+         "submission" : "794",
+         "label" : "ChIP-seq;H3K4me3;Y cn bw sp;Embryos 20-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-24 hr",
@@ -6063,8 +6061,8 @@
          "Tracks" : [
             "fly/White_CS_L1/L1_H3K4Me3"
          ],
-         "submission" : "modENCODE_795",
-         "label" : "L1_H3K4Me3 ChIP-seq",
+         "submission" : "795",
+         "label" : "ChIP-seq;H3K4me3;Y cn bw sp;L1 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L1 stage larvae",
@@ -6078,8 +6076,8 @@
          "Tracks" : [
             "fly/White_CS_L2/L2_H3K4Me3"
          ],
-         "submission" : "modENCODE_796",
-         "label" : "L2_H3K4Me3 ChIP-seq",
+         "submission" : "796",
+         "label" : "ChIP-seq;H3K4me3;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -6093,8 +6091,8 @@
          "Tracks" : [
             "fly/White_CS_L3/L3_H3K4Me3"
          ],
-         "submission" : "modENCODE_797",
-         "label" : "L3_H3K4Me3 ChIP-seq",
+         "submission" : "797",
+         "label" : "ChIP-seq;H3K4me3;Y cn bw sp;L3 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage larvae",
@@ -6108,8 +6106,8 @@
          "Tracks" : [
             "fly/White_CS_Pupae/Pupae_H3K4Me3"
          ],
-         "submission" : "modENCODE_798",
-         "label" : "Pupae_H3K4Me3 ChIP-seq",
+         "submission" : "798",
+         "label" : "ChIP-seq;H3K4me3;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -6123,8 +6121,8 @@
          "Tracks" : [
             "fly/White_CS_Adult_Female/AdF_H3K4Me3"
          ],
-         "submission" : "modENCODE_799",
-         "label" : "AdultFemale_H3K4Me3 ChIP-seq",
+         "submission" : "799",
+         "label" : "ChIP-seq;H3K4me3;Y cn bw sp;Adult Female",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Female",
@@ -6138,8 +6136,8 @@
          "Tracks" : [
             "fly/White_CS_Adult_Male/AdM_H3K4Me3"
          ],
-         "submission" : "modENCODE_800",
-         "label" : "AdultMale_H3K4Me3 ChIP-seq",
+         "submission" : "800",
+         "label" : "ChIP-seq;H3K4me3;Y cn bw sp;Adult Male",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Male",
@@ -6153,8 +6151,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_0_4h/E0_4_H3K9Me3"
          ],
-         "submission" : "modENCODE_801",
-         "label" : "E0-4_H3K9Me3 ChIP-seq",
+         "submission" : "801",
+         "label" : "ChIP-seq;H3K9me3;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -6168,8 +6166,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_4_8h/E4_8_H3K9Me3"
          ],
-         "submission" : "modENCODE_802",
-         "label" : "E4-8_H3K9Me3 ChIP-seq",
+         "submission" : "802",
+         "label" : "ChIP-seq;H3K9me3;Y cn bw sp;Embryos 4-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-8 hr",
@@ -6183,8 +6181,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_8_12h/E8_12_H3K9Me3"
          ],
-         "submission" : "modENCODE_803",
-         "label" : "E8-12_H3K9Me3 ChIP-seq",
+         "submission" : "803",
+         "label" : "ChIP-seq;H3K9me3;Y cn bw sp;Embryos 8-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-12 hr",
@@ -6198,8 +6196,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_12_16h/E12_16_H3K9Me3"
          ],
-         "submission" : "modENCODE_804",
-         "label" : "E12-16_H3K9Me3 ChIP-seq",
+         "submission" : "804",
+         "label" : "ChIP-seq;H3K9me3;Y cn bw sp;Embryos 12-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-16 hr",
@@ -6213,8 +6211,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_16_20h/E16_20_H3K9Me3"
          ],
-         "submission" : "modENCODE_805",
-         "label" : "E16-20_H3K9Me3 ChIP-seq",
+         "submission" : "805",
+         "label" : "ChIP-seq;H3K9me3;Y cn bw sp;Embryos 16-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-20 hr",
@@ -6228,8 +6226,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_20_24h/E20_24_H3K9Me3"
          ],
-         "submission" : "modENCODE_806",
-         "label" : "E20-24_H3K9Me3 ChIP-seq",
+         "submission" : "806",
+         "label" : "ChIP-seq;H3K9me3;Y cn bw sp;Embryos 20-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-24 hr",
@@ -6243,8 +6241,8 @@
          "Tracks" : [
             "fly/White_CS_L1/L1_H3K9Me3"
          ],
-         "submission" : "modENCODE_807",
-         "label" : "L1_H3K9Me3 ChIP-seq",
+         "submission" : "807",
+         "label" : "ChIP-seq;H3K9me3;Y cn bw sp;L1 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L1 stage larvae",
@@ -6258,8 +6256,8 @@
          "Tracks" : [
             "fly/White_CS_L2/L2_H3K9Me3"
          ],
-         "submission" : "modENCODE_808",
-         "label" : "L2_H3K9Me3 ChIP-seq",
+         "submission" : "808",
+         "label" : "ChIP-seq;H3K9me3;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -6273,8 +6271,8 @@
          "Tracks" : [
             "fly/White_CS_Pupae/Pupae_H3K9Me3"
          ],
-         "submission" : "modENCODE_809",
-         "label" : "Pupae_H3K9Me3 ChIP-seq",
+         "submission" : "809",
+         "label" : "ChIP-seq;H3K9me3;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -6288,8 +6286,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_0_4h/E0_4_H3K27Me3"
          ],
-         "submission" : "modENCODE_810",
-         "label" : "E0-4_H3K27Me3",
+         "submission" : "810",
+         "label" : "ChIP-seq;H3K27me3;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -6303,8 +6301,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_4_8h/E4_8_H3K27Me3"
          ],
-         "submission" : "modENCODE_811",
-         "label" : "E4-8_H3K27Me3 ChIP-seq",
+         "submission" : "811",
+         "label" : "ChIP-seq;H3K27me3;Y cn bw sp;Embryos 4-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-8 hr",
@@ -6318,8 +6316,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_8_12h/E8_12_H3K27Me3"
          ],
-         "submission" : "modENCODE_812",
-         "label" : "E8-12_H3K27Me3 ChIP-seq",
+         "submission" : "812",
+         "label" : "ChIP-seq;H3K27me3;Y cn bw sp;Embryos 8-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-12 hr",
@@ -6333,8 +6331,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_12_16h/E12_16_H3K27Me3"
          ],
-         "submission" : "modENCODE_813",
-         "label" : "E12-16_H3K27Me3",
+         "submission" : "813",
+         "label" : "ChIP-seq;H3K27me3;Y cn bw sp;Embryos 12-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-16 hr",
@@ -6348,8 +6346,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_16_20h/E16_20_H3K27Me3"
          ],
-         "submission" : "modENCODE_814",
-         "label" : "E16-20_H3K27Me3 ChIP-seq",
+         "submission" : "814",
+         "label" : "ChIP-seq;H3K27me3;Y cn bw sp;Embryos 16-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-20 hr",
@@ -6363,8 +6361,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_20_24h/E20_24_H3K27Me3"
          ],
-         "submission" : "modENCODE_815",
-         "label" : "E20-24_H3K27Me3",
+         "submission" : "815",
+         "label" : "ChIP-seq;H3K27me3;Y cn bw sp;Embryos 20-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-24 hr",
@@ -6378,8 +6376,8 @@
          "Tracks" : [
             "fly/White_CS_L1/L1_H3K27Me3"
          ],
-         "submission" : "modENCODE_816",
-         "label" : "L1_H3K27Me3 ChIP-seq",
+         "submission" : "816",
+         "label" : "ChIP-seq;H3K27me3;Y cn bw sp;L1 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L1 stage larvae",
@@ -6393,8 +6391,8 @@
          "Tracks" : [
             "fly/White_CS_L2/L2_H3K27Me3"
          ],
-         "submission" : "modENCODE_817",
-         "label" : "L2_H3K27Me3",
+         "submission" : "817",
+         "label" : "ChIP-seq;H3K27me3;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -6408,8 +6406,8 @@
          "Tracks" : [
             "fly/White_CS_L3/L3_H3K27Me3"
          ],
-         "submission" : "modENCODE_818",
-         "label" : "L3_H3K27Me3 ChIP-seq",
+         "submission" : "818",
+         "label" : "ChIP-seq;H3K27me3;Y cn bw sp;L3 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage larvae",
@@ -6423,8 +6421,8 @@
          "Tracks" : [
             "fly/White_CS_Pupae/Pupae_H3K27Me3"
          ],
-         "submission" : "modENCODE_819",
-         "label" : "Pupae_H3K27Me3 ChIP-seq",
+         "submission" : "819",
+         "label" : "ChIP-seq;H3K27me3;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -6438,8 +6436,8 @@
          "Tracks" : [
             "fly/White_CS_Adult_Male/AdultMale_H3K27Me3"
          ],
-         "submission" : "modENCODE_820",
-         "label" : "AdultMale_H3K27Me3 ChIP-seq",
+         "submission" : "820",
+         "label" : "ChIP-seq;H3K27me3;Y cn bw sp;Adult Male",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Male",
@@ -6453,8 +6451,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_0_4h/E0_4_H3K9Ac"
          ],
-         "submission" : "modENCODE_821",
-         "label" : "E0-4_H3K9Ac ChIP-seq",
+         "submission" : "821",
+         "label" : "ChIP-seq;H3K9ac;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -6468,8 +6466,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_4_8h/E4_8_H3K9Ac"
          ],
-         "submission" : "modENCODE_822",
-         "label" : "E4-8_H3K9Ac ChIP-seq",
+         "submission" : "822",
+         "label" : "ChIP-seq;H3K9ac;Y cn bw sp;Embryos 4-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-8 hr",
@@ -6483,8 +6481,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_8_12h/E8_12_H3K9Ac"
          ],
-         "submission" : "modENCODE_823",
-         "label" : "E8-12_H3K9Ac ChIP-seq",
+         "submission" : "823",
+         "label" : "ChIP-seq;H3K9ac;Y cn bw sp;Embryos 8-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-12 hr",
@@ -6498,8 +6496,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_12_16h/E12_16_H3K9Ac"
          ],
-         "submission" : "modENCODE_824",
-         "label" : "E12-16_H3K9Ac ChIP-seq",
+         "submission" : "824",
+         "label" : "ChIP-seq;H3K9ac;Y cn bw sp;Embryos 12-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-16 hr",
@@ -6513,8 +6511,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_16_20h/E16_20_H3K9Ac"
          ],
-         "submission" : "modENCODE_825",
-         "label" : "E16-20_H3K9Ac ChIP-seq",
+         "submission" : "825",
+         "label" : "ChIP-seq;H3K9ac;Y cn bw sp;Embryos 16-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-20 hr",
@@ -6528,8 +6526,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_20_24h/E20_24_H3K9Ac"
          ],
-         "submission" : "modENCODE_826",
-         "label" : "E20-24_H3K9Ac ChIP-seq",
+         "submission" : "826",
+         "label" : "ChIP-seq;H3K9ac;Y cn bw sp;Embryos 20-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-24 hr",
@@ -6543,8 +6541,8 @@
          "Tracks" : [
             "fly/White_CS_L1/L1_H3K9Ac"
          ],
-         "submission" : "modENCODE_827",
-         "label" : "L1_H3K9Ac ChIP-seq",
+         "submission" : "827",
+         "label" : "ChIP-seq;H3K9ac;Y cn bw sp;L1 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L1 stage larvae",
@@ -6558,8 +6556,8 @@
          "Tracks" : [
             "fly/White_CS_L2/L2_H3K9Ac"
          ],
-         "submission" : "modENCODE_828",
-         "label" : "L2_H3K9Ac ChIP-seq",
+         "submission" : "828",
+         "label" : "ChIP-seq;H3K9ac;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -6573,8 +6571,8 @@
          "Tracks" : [
             "fly/White_CS_L3/L3_H3K9Ac"
          ],
-         "submission" : "modENCODE_829",
-         "label" : "L3_H3K9Ac ChIP-seq",
+         "submission" : "829",
+         "label" : "ChIP-seq;H3K9ac;Y cn bw sp;L3 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage larvae",
@@ -6588,8 +6586,8 @@
          "Tracks" : [
             "fly/White_CS_Pupae/Pupae_H3K9Ac"
          ],
-         "submission" : "modENCODE_830",
-         "label" : "Pupae_H3K9Ac ChIP-seq",
+         "submission" : "830",
+         "label" : "ChIP-seq;H3K9ac;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -6603,8 +6601,8 @@
          "Tracks" : [
             "fly/White_CS_Adult_Female/AdultFemale_H3K9Ac"
          ],
-         "submission" : "modENCODE_831",
-         "label" : "AdultFemale_H3K9Ac ChIP-seq",
+         "submission" : "831",
+         "label" : "ChIP-seq;H3K9ac;Y cn bw sp;Adult Female",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Female",
@@ -6618,8 +6616,8 @@
          "Tracks" : [
             "fly/White_CS_Adult_Male/AdultMale_H3K9Ac"
          ],
-         "submission" : "modENCODE_832",
-         "label" : "AdultMale_H3K9Ac ChIP-seq",
+         "submission" : "832",
+         "label" : "ChIP-seq;H3K9ac;Y cn bw sp;Adult Male",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Male",
@@ -6633,8 +6631,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_0_4h/E0_4_H3K27Ac"
          ],
-         "submission" : "modENCODE_834",
-         "label" : "E0-4_H3K27Ac ChIP-seq",
+         "submission" : "834",
+         "label" : "ChIP-seq;H3K27ac;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -6648,8 +6646,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_4_8h/E4_8_H3K27Ac"
          ],
-         "submission" : "modENCODE_835",
-         "label" : "E4-8_H3K27Ac",
+         "submission" : "835",
+         "label" : "ChIP-seq;H3K27ac;Y cn bw sp;Embryos 4-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-8 hr",
@@ -6663,8 +6661,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_8_12h/E8_12_H3K27Ac"
          ],
-         "submission" : "modENCODE_836",
-         "label" : "E8-12_H3K27Ac ChIP-seq",
+         "submission" : "836",
+         "label" : "ChIP-seq;H3K27ac;Y cn bw sp;Embryos 8-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-12 hr",
@@ -6678,8 +6676,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_12_16h/E12_16_H3K27Ac"
          ],
-         "submission" : "modENCODE_837",
-         "label" : "E12-16_H3K27Ac ChIP-seq",
+         "submission" : "837",
+         "label" : "ChIP-seq;H3K27ac;Y cn bw sp;Embryos 12-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-16 hr",
@@ -6693,8 +6691,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_16_20h/E16_20_H3K27Ac"
          ],
-         "submission" : "modENCODE_838",
-         "label" : "E16-20_H3K27Ac ChIP-seq",
+         "submission" : "838",
+         "label" : "ChIP-seq;H3K27ac;Y cn bw sp;Embryos 16-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-20 hr",
@@ -6708,8 +6706,8 @@
          "Tracks" : [
             "fly/White_CS_embryo_20_24h/E20_24_H3K27Ac"
          ],
-         "submission" : "modENCODE_839",
-         "label" : "E20-24_H3K27Ac ChIP-seq",
+         "submission" : "839",
+         "label" : "ChIP-seq;H3K27ac;Y cn bw sp;Embryos 20-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-24 hr",
@@ -6723,8 +6721,8 @@
          "Tracks" : [
             "fly/White_CS_L1/L1_H3K27Ac"
          ],
-         "submission" : "modENCODE_840",
-         "label" : "L1_H3K27Ac ChIP-seq",
+         "submission" : "840",
+         "label" : "ChIP-seq;H3K27ac;Y cn bw sp;L1 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L1 stage larvae",
@@ -6738,8 +6736,8 @@
          "Tracks" : [
             "fly/White_CS_L2/L2_H3K27Ac"
          ],
-         "submission" : "modENCODE_841",
-         "label" : "L2_H3K27Ac ChIP-seq",
+         "submission" : "841",
+         "label" : "ChIP-seq;H3K27ac;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -6753,8 +6751,8 @@
          "Tracks" : [
             "fly/White_CS_L3/L3_H3K27Ac"
          ],
-         "submission" : "modENCODE_842",
-         "label" : "L3_H3K27Ac ChIP-seq",
+         "submission" : "842",
+         "label" : "ChIP-seq;H3K27ac;Y cn bw sp;L3 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage larvae",
@@ -6768,8 +6766,8 @@
          "Tracks" : [
             "fly/White_CS_Pupae/Pupae_H3K27Ac"
          ],
-         "submission" : "modENCODE_843",
-         "label" : "Pupae_H3K27Ac ChIP-seq",
+         "submission" : "843",
+         "label" : "ChIP-seq;H3K27ac;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -6783,8 +6781,8 @@
          "Tracks" : [
             "fly/White_CS_Adult_Female/AdultFemale_H3K27Ac"
          ],
-         "submission" : "modENCODE_844",
-         "label" : "AdultFemale_H3K27Ac ChIP_seq",
+         "submission" : "844",
+         "label" : "ChIP-seq;H3K27ac;Y cn bw sp;Adult Female",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Female",
@@ -6798,8 +6796,8 @@
          "Tracks" : [
             "fly/White_CS_Adult_Male/AdultMale_H3K27Ac"
          ],
-         "submission" : "modENCODE_845",
-         "label" : "AdultMale_H3K27Ac",
+         "submission" : "845",
+         "label" : "ChIP-seq;H3K27ac;Y cn bw sp;Adult Male",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Male",
@@ -6813,8 +6811,8 @@
          "Tracks" : [
             "fly/White_CS_SG_POLII/E4_8_PolII"
          ],
-         "submission" : "modENCODE_846",
-         "label" : "E4-8_PolII ChIP-seq",
+         "submission" : "846",
+         "label" : "ChIP-seq;RNA Polymerase II;Y cn bw sp;Embryos 4-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-8 hr",
@@ -6828,8 +6826,8 @@
          "Tracks" : [
             "fly/White_CS_SG_POLII/E8_12_PolII"
          ],
-         "submission" : "modENCODE_847",
-         "label" : "E8-12_PolII ChIP-seq",
+         "submission" : "847",
+         "label" : "ChIP-seq;RNA Polymerase II;Y cn bw sp;Embryos 8-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-12 hr",
@@ -6843,8 +6841,8 @@
          "Tracks" : [
             "fly/White_CS_SG_POLII/E12_16_PolII"
          ],
-         "submission" : "modENCODE_848",
-         "label" : "E12-16_PolII ChIP-seq",
+         "submission" : "848",
+         "label" : "ChIP-seq;RNA Polymerase II;Y cn bw sp;Embryos 12-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-16 hr",
@@ -6858,8 +6856,8 @@
          "Tracks" : [
             "fly/White_CS_SG_POLII/E16_20_PolII"
          ],
-         "submission" : "modENCODE_849",
-         "label" : "E16-20_PolII ChIP-seq",
+         "submission" : "849",
+         "label" : "ChIP-seq;nejire;Y cn bw sp;Embryos 16-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-20 hr",
@@ -6873,8 +6871,8 @@
          "Tracks" : [
             "fly/White_CS_SG_POLII/E20_24_PolII"
          ],
-         "submission" : "modENCODE_850",
-         "label" : "E20-24_PolII ChIP-seq",
+         "submission" : "850",
+         "label" : "ChIP-seq;RNA Polymerase II;Y cn bw sp;Embryos 20-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-24 hr",
@@ -6888,8 +6886,8 @@
          "Tracks" : [
             "fly/White_CS_SG_POLII/L1_PolII"
          ],
-         "submission" : "modENCODE_851",
-         "label" : "L1_PolII ChIP-seq",
+         "submission" : "851",
+         "label" : "ChIP-seq;RNA Polymerase II;Y cn bw sp;L1 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L1 stage larvae",
@@ -6903,8 +6901,8 @@
          "Tracks" : [
             "fly/White_CS_SG_POLII/L3_PolII"
          ],
-         "submission" : "modENCODE_852",
-         "label" : "L3_PolII ChIP-seq",
+         "submission" : "852",
+         "label" : "ChIP-seq;RNA Polymerase II;Y cn bw sp;L3 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage larvae",
@@ -6918,8 +6916,8 @@
          "Tracks" : [
             "fly/White_CS_SG_POLII/Pupae_PolII"
          ],
-         "submission" : "modENCODE_853",
-         "label" : "Pupae_PolII ChIP-seq",
+         "submission" : "853",
+         "label" : "ChIP-seq;RNA Polymerase II;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -6933,8 +6931,8 @@
          "Tracks" : [
             "fly/White_CS_SG_NAJIRE/E0_4_CBP"
          ],
-         "submission" : "modENCODE_854",
-         "label" : "E0-4_CBP ChIP-seq",
+         "submission" : "854",
+         "label" : "ChIP-seq;nejire;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -6948,8 +6946,8 @@
          "Tracks" : [
             "fly/White_CS_SG_NAJIRE/E4_8_CBP"
          ],
-         "submission" : "modENCODE_855",
-         "label" : "E4-8_CBP ChIP-seq",
+         "submission" : "855",
+         "label" : "ChIP-seq;nejire;Y cn bw sp;Embryos 4-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-8 hr",
@@ -6963,8 +6961,8 @@
          "Tracks" : [
             "fly/White_CS_SG_NAJIRE/E12_16_CBP"
          ],
-         "submission" : "modENCODE_856",
-         "label" : "E12-16_CBP ChIP-seq",
+         "submission" : "856",
+         "label" : "ChIP-seq;nejire;Y cn bw sp;Embryos 12-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-16 hr",
@@ -6978,8 +6976,8 @@
          "Tracks" : [
             "fly/White_CS_SG_NAJIRE/E16_20_CBP"
          ],
-         "submission" : "modENCODE_857",
-         "label" : "E16-20_CBP ChIP-seq",
+         "submission" : "857",
+         "label" : "ChIP-seq;nejire;Y cn bw sp;Embryos 16-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-20 hr",
@@ -6993,8 +6991,8 @@
          "Tracks" : [
             "fly/White_CS_SG_NAJIRE/E20_24_CBP"
          ],
-         "submission" : "modENCODE_858",
-         "label" : "E20-24_CBP ChIP-seq",
+         "submission" : "858",
+         "label" : "ChIP-seq;nejire;Y cn bw sp;Embryos 20-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-24 hr",
@@ -7008,8 +7006,8 @@
          "Tracks" : [
             "fly/White_CS_SG_NAJIRE/L1_CBP"
          ],
-         "submission" : "modENCODE_859",
-         "label" : "L1_CBP ChIP-seq",
+         "submission" : "859",
+         "label" : "ChIP-seq;nejire;Y cn bw sp;L1 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L1 stage larvae",
@@ -7023,8 +7021,8 @@
          "Tracks" : [
             "fly/White_CS_SG_NAJIRE/L3_CBP"
          ],
-         "submission" : "modENCODE_860",
-         "label" : "L3_CBP ChIP-seq",
+         "submission" : "860",
+         "label" : "ChIP-seq;nejire;Y cn bw sp;L3 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage larvae",
@@ -7038,8 +7036,8 @@
          "Tracks" : [
             "fly/White_CS_SG_NAJIRE/Pupae"
          ],
-         "submission" : "modENCODE_861",
-         "label" : "Pupae_CBP ChIP-seq",
+         "submission" : "861",
+         "label" : "ChIP-seq;nejire;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -7053,8 +7051,8 @@
          "Tracks" : [
             "fly/White_CS_SG_NAJIRE/AdultFemale_CBP"
          ],
-         "submission" : "modENCODE_862",
-         "label" : "AdultFemale_CBP ChIP-seq",
+         "submission" : "862",
+         "label" : "ChIP-seq;nejire;Y cn bw sp;Adult Female",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Female",
@@ -7068,8 +7066,8 @@
          "Tracks" : [
             "fly/White_CS_SG_NAJIRE/AdultMale_CBP"
          ],
-         "submission" : "modENCODE_863",
-         "label" : "AdultMale_CBP ChIP-seq",
+         "submission" : "863",
+         "label" : "ChIP-seq;nejire;Y cn bw sp;Adult Male",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Male",
@@ -7083,8 +7081,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_8_12h/E8_12_H3K4Me1"
          ],
-         "submission" : "modENCODE_864",
-         "label" : "E8-12_H3K4Me1",
+         "submission" : "864",
+         "label" : "ChIP-chip;H3K4me1;Embryos 8-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 8-12 hr"
@@ -7097,8 +7095,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_8_12h/E8_12_H3K4Me3"
          ],
-         "submission" : "modENCODE_865",
-         "label" : "E8-12_H3K4Me3",
+         "submission" : "865",
+         "label" : "ChIP-chip;H3K4me3;Embryos 8-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 8-12 hr"
@@ -7111,8 +7109,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_8_12h/E8_12_H3K9Me3"
          ],
-         "submission" : "modENCODE_866",
-         "label" : "E8-12_H3K9Me3",
+         "submission" : "866",
+         "label" : "ChIP-chip;H3K9me3;Embryos 8-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 8-12 hr"
@@ -7125,8 +7123,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_0_4h/E0_4_H3K27Me3"
          ],
-         "submission" : "modENCODE_867",
-         "label" : "E0-4_H3K27Me3",
+         "submission" : "867",
+         "label" : "ChIP-chip;H3K27me3;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -7140,8 +7138,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_8_12h/E8_12_H3K27Me3"
          ],
-         "submission" : "modENCODE_868",
-         "label" : "E8-12_H3K27Me3",
+         "submission" : "868",
+         "label" : "ChIP-chip;H3K27me3;Embryos 8-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 8-12 hr"
@@ -7154,8 +7152,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Male/AdM_H3K27Me3_set2"
          ],
-         "submission" : "modENCODE_869",
-         "label" : "AdultMale_H3K27Me3-Set2",
+         "submission" : "869",
+         "label" : "ChIP-chip;H3K27me3;Adult Male",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Male"
@@ -7168,8 +7166,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_8_12h/E8_12_H3K9Ac"
          ],
-         "submission" : "modENCODE_870",
-         "label" : "E8-12_H3K9Ac",
+         "submission" : "870",
+         "label" : "ChIP-chip;H3K9ac;Y cn bw sp;Embryos 8-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-12 hr",
@@ -7183,8 +7181,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Male/AdultMale_H3K9Ac_Set2"
          ],
-         "submission" : "modENCODE_871",
-         "label" : "AdultMale_H3K9Ac-Set2",
+         "submission" : "871",
+         "label" : "ChIP-chip;H3K9ac;Adult Male",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Male"
@@ -7197,8 +7195,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_8_12h/E8_12_H3K27Ac"
          ],
-         "submission" : "modENCODE_872",
-         "label" : "E8-12_H3K27Ac",
+         "submission" : "872",
+         "label" : "ChIP-chip;H3K27ac;Y cn bw sp;Embryos 8-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-12 hr",
@@ -7212,8 +7210,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Male/AdultMale_H3K27Ac"
          ],
-         "submission" : "modENCODE_873",
-         "label" : "AdultMale_H3K27Ac",
+         "submission" : "873",
+         "label" : "ChIP-chip;H3K27ac;Adult Male",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Male"
@@ -7226,8 +7224,8 @@
          "Tracks" : [
             "fly/White_CC_Adult_Male/AdultMale_H3K27Ac_set2"
          ],
-         "submission" : "modENCODE_874",
-         "label" : "AdultMale_H3K27Ac-Set2",
+         "submission" : "874",
+         "label" : "ChIP-chip;H3K27ac;Adult Male",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Male"
@@ -7240,8 +7238,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NAJIRE/E0_4_CBP"
          ],
-         "submission" : "modENCODE_875",
-         "label" : "E0-4_CBP",
+         "submission" : "875",
+         "label" : "ChIP-chip;nejire;Embryos 0-4 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-4 hr"
@@ -7254,8 +7252,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NAJIRE/E4_8_CBP"
          ],
-         "submission" : "modENCODE_876",
-         "label" : "E4-8_CBP",
+         "submission" : "876",
+         "label" : "ChIP-chip;nejire;Embryos 4-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 4-8 hr"
@@ -7268,8 +7266,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NAJIRE/E16_20_CBP"
          ],
-         "submission" : "modENCODE_877",
-         "label" : "E16-20_CBP",
+         "submission" : "877",
+         "label" : "ChIP-chip;nejire;Embryos 16-20 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 16-20 hr"
@@ -7282,8 +7280,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NAJIRE/L1_CBP"
          ],
-         "submission" : "modENCODE_878",
-         "label" : "L1_CBP",
+         "submission" : "878",
+         "label" : "ChIP-chip;nejire;L1 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L1 stage larvae"
@@ -7296,8 +7294,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NAJIRE/L3_CBP"
          ],
-         "submission" : "modENCODE_879",
-         "label" : "L3_CBP",
+         "submission" : "879",
+         "label" : "ChIP-chip;nejire;L3 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L3 stage larvae"
@@ -7310,8 +7308,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NAJIRE/Pupae_CBP"
          ],
-         "submission" : "modENCODE_880",
-         "label" : "Pupae_CBP",
+         "submission" : "880",
+         "label" : "ChIP-chip;nejire;Pupae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Pupae"
@@ -7324,8 +7322,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NAJIRE/AdultFemale_CBP"
          ],
-         "submission" : "modENCODE_881",
-         "label" : "AdultFemale_CBP",
+         "submission" : "881",
+         "label" : "ChIP-chip;nejire;Adult Female",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Female"
@@ -7338,8 +7336,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NAJIRE/AdultMale_CBP"
          ],
-         "submission" : "modENCODE_882",
-         "label" : "AdultMale_CBP",
+         "submission" : "882",
+         "label" : "ChIP-chip;nejire;Adult Male",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Male"
@@ -7352,8 +7350,8 @@
          "Tracks" : [
             "fly/White_CC_SG_POLII/L2_PolII"
          ],
-         "submission" : "modENCODE_883",
-         "label" : "L2_PolII",
+         "submission" : "883",
+         "label" : "ChIP-chip;RNA Polymerase II;L2 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L2 stage larvae"
@@ -7366,8 +7364,8 @@
          "Tracks" : [
             "fly/White_CC_SG_POLII/L3_PolII"
          ],
-         "submission" : "modENCODE_884",
-         "label" : "L3_PolII",
+         "submission" : "884",
+         "label" : "ChIP-chip;RNA Polymerase II;L3 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L3 stage larvae"
@@ -7380,8 +7378,8 @@
          "Tracks" : [
             "fly/White_CC_SG_8WG16/E0_4_8wg16_set2"
          ],
-         "submission" : "modENCODE_885",
-         "label" : "E0-4_8wg16",
+         "submission" : "885",
+         "label" : "ChIP-chip;RNA Polymerase II;Embryos 0-4 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-4 hr"
@@ -7394,8 +7392,8 @@
          "Tracks" : [
             "fly/White_CC_SG_8WG16/E4_8_8wg16_set2"
          ],
-         "submission" : "modENCODE_886",
-         "label" : "E4-8_8wg16-Set2",
+         "submission" : "886",
+         "label" : "ChIP-chip;RNA Polymerase II;Embryos 4-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 4-8 hr"
@@ -7408,8 +7406,8 @@
          "Tracks" : [
             "fly/White_CC_SG_8WG16/E4_8_8wg16"
          ],
-         "submission" : "modENCODE_887",
-         "label" : "E4-8_8wg16",
+         "submission" : "887",
+         "label" : "ChIP-chip;RNA Polymerase II;Embryos 4-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 4-8 hr"
@@ -7422,8 +7420,8 @@
          "Tracks" : [
             "fly/White_CC_SG_8WG16/E16_20_8wg16_set2"
          ],
-         "submission" : "modENCODE_888",
-         "label" : "E16-20_8wg16",
+         "submission" : "888",
+         "label" : "ChIP-chip;RNA Polymerase II;Embryos 16-20 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 16-20 hr"
@@ -7436,8 +7434,8 @@
          "Tracks" : [
             "fly/White_CC_SG_8WG16/L3_8wg16"
          ],
-         "submission" : "modENCODE_889",
-         "label" : "L3_8wg16",
+         "submission" : "889",
+         "label" : "ChIP-chip;RNA Polymerase II;L3 stage larvae",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "L3 stage larvae"
@@ -7450,8 +7448,8 @@
          "Tracks" : [
             "fly/White_CC_SG_8WG16/Pupae_PolII_set2"
          ],
-         "submission" : "modENCODE_890",
-         "label" : "Pupae_PolII_8wg16 ChIP-chip",
+         "submission" : "890",
+         "label" : "ChIP-chip;RNA Polymerase II;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -7465,8 +7463,8 @@
          "Tracks" : [
             "fly/White_CC_SG_8WG16/AdultFemale_8wg16_set2"
          ],
-         "submission" : "modENCODE_891",
-         "label" : "AdultFemale_8wg16",
+         "submission" : "891",
+         "label" : "ChIP-chip;RNA Polymerase II;Adult Female",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Female"
@@ -7479,8 +7477,8 @@
          "Tracks" : [
             "fly/White_CS_L2/L2_H3K27Ac_set2"
          ],
-         "submission" : "modENCODE_895",
-         "label" : "L2_H3K27Ac s2 ChIP-seq",
+         "submission" : "895",
+         "label" : "ChIP-seq;H3K27ac;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -7499,8 +7497,8 @@
             "worm/L1_pilot.sam_sorted",
             "worm/YA_herm_pilot.sam_sorted"
          ],
-         "submission" : "modENCODE_896",
-         "label" : "3'RACE polyA-capture N2 emb-thru-adult 454 sequencing pilot",
+         "submission" : "896",
+         "label" : "RACE;3-prime-UTR;N2;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Embryos",
@@ -7515,8 +7513,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_CHR_MRG1"
          ],
-         "submission" : "modENCODE_897",
-         "label" : "Strome SDQ0790_MRG1_N2_EEMB",
+         "submission" : "897",
+         "label" : "ChIP-chip;MRG1;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -7530,8 +7528,8 @@
          "Tracks" : [
             "fly/White_CC_SG_GAP/E0_8_Kr_D2"
          ],
-         "submission" : "modENCODE_898",
-         "label" : "E0-8_Kr-Dr ChIP-chip",
+         "submission" : "898",
+         "label" : "ChIP-chip;Kruppel;Y cn bw sp;Embryos 0-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-8 hr",
@@ -7545,8 +7543,8 @@
          "Tracks" : [
             "fly/White_CC_SG_POLII/E0_12_PolII"
          ],
-         "submission" : "modENCODE_899",
-         "label" : "E0-12_Pol_II",
+         "submission" : "899",
+         "label" : "ChIP-chip;RNA Polymerase II;Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -7559,8 +7557,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NAJIRE/E0_4_CBP"
          ],
-         "submission" : "modENCODE_900",
-         "label" : "E0-4_rbCBP",
+         "submission" : "900",
+         "label" : "ChIP-chip;nejire;Embryos 0-4 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-4 hr"
@@ -7573,8 +7571,8 @@
          "Tracks" : [
             "fly/White_INSULATORS_WIG/E0_12_SuHw_PG"
          ],
-         "submission" : "modENCODE_901",
-         "label" : "E0-12_Su(Hw)PG",
+         "submission" : "901",
+         "label" : "ChIP-chip;Su(Hw);Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -7587,8 +7585,8 @@
          "Tracks" : [
             "fly/White_CC_SG_GAP/E0_4_GFP_7T"
          ],
-         "submission" : "modENCODE_902",
-         "label" : "E0-4 GFP_7T ChIP-chip",
+         "submission" : "902",
+         "label" : "ChIP-chip;cad;7T-CAD;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "7T-CAD",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -7602,8 +7600,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NAJIRE/E8_12_CBP_set2"
          ],
-         "submission" : "modENCODE_903",
-         "label" : "E8-12_CBP_Set2",
+         "submission" : "903",
+         "label" : "ChIP-chip;nejire;Y cn bw sp;Embryos 8-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-12 hr",
@@ -7617,8 +7615,8 @@
          "Tracks" : [
             "fly/White_CC_SG_8WG16/L2_8wg16_set2"
          ],
-         "submission" : "modENCODE_904",
-         "label" : "L2_PolII_8wg16 set2 ChIP-chip",
+         "submission" : "904",
+         "label" : "ChIP-chip;RNA Polymerase II;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -7632,8 +7630,8 @@
          "Tracks" : [
             "fly/White_CC_SG_NAJIRE/E12_16_CBP"
          ],
-         "submission" : "modENCODE_905",
-         "label" : "E12-16_CBP ChIP-chip",
+         "submission" : "905",
+         "label" : "ChIP-chip;nejire;Y cn bw sp;Embryos 12-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-16 hr",
@@ -7647,8 +7645,8 @@
          "Tracks" : [
             "fly/White_CC_SG_POLII/E12_16_PolII"
          ],
-         "submission" : "modENCODE_906",
-         "label" : "E12-16_PolII ChIP-chip",
+         "submission" : "906",
+         "label" : "ChIP-chip;RNA Polymerase II;Y cn bw sp;Embryos 12-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-16 hr",
@@ -7663,9 +7661,9 @@
          "Tracks" : [
             "fly/White_INSULATORS_WIG/CTCF_N_Kc167"
          ],
-         "submission" : "modENCODE_908",
+         "submission" : "908",
          "Cell-Line" : "Kc167",
-         "label" : "Kc167 dCTCF-N ChIP-chip",
+         "label" : "ChIP-chip;CTCF N-terminus;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -7678,8 +7676,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME22C3_N2_EEMB"
          ],
-         "submission" : "modENCODE_909",
-         "label" : "Strome HK00012_H3K36ME22C3_N2_EEMB",
+         "submission" : "909",
+         "label" : "ChIP-chip;H3K36me3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -7693,8 +7691,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_CHR_MES4/MES4_N2_EEMB"
          ],
-         "submission" : "modENCODE_911",
-         "label" : "Strome SDQ0791_MES4_N2_EEMB",
+         "submission" : "911",
+         "label" : "ChIP-chip;MES4;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -7709,9 +7707,9 @@
          "Tracks" : [
             "fly/White_CC_Kc167"
          ],
-         "submission" : "modENCODE_912",
+         "submission" : "912",
          "Cell-Line" : "Kc167",
-         "label" : "Kc167 H3K4Me3 ChIP-chip",
+         "label" : "ChIP-chip;H3K4me3;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -7725,9 +7723,9 @@
          "Tracks" : [
             "fly/White_INSULATORS_WIG/CTCF_N_S2"
          ],
-         "submission" : "modENCODE_913",
+         "submission" : "913",
          "Cell-Line" : "S2-DRSC",
-         "label" : "S2 dCTCF-N ChIP-chip",
+         "label" : "ChIP-chip;CTCF N-terminus;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -7741,9 +7739,9 @@
          "Tracks" : [
             "fly/White_CC_S2"
          ],
-         "submission" : "modENCODE_914",
+         "submission" : "914",
          "Cell-Line" : "S2-DRSC",
-         "label" : "S2 H3K4Me3 ChIP-chip",
+         "label" : "ChIP-chip;H3K4me3;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -7756,8 +7754,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CONTROL"
          ],
-         "submission" : "modENCODE_918",
-         "label" : "TotalRNA_E-0-12h",
+         "submission" : "918",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -7771,8 +7769,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_0_12h/E0_12_H3K27Me3"
          ],
-         "submission" : "modENCODE_919",
-         "label" : "H3K27me3_E-0-12h",
+         "submission" : "919",
+         "label" : "ChIP-chip;H3K27me3;Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -7786,9 +7784,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_BG3/BEAF-70.BG3"
          ],
-         "submission" : "modENCODE_921",
+         "submission" : "921",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "BEAF-70.BG3 ChIP-chip",
+         "label" : "ChIP-chip;BEAF32A and B;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -7802,9 +7800,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/BEAF-70.S2"
          ],
-         "submission" : "modENCODE_922",
+         "submission" : "922",
          "Cell-Line" : "S2-DRSC",
-         "label" : "BEAF-70.S2 ChIP-chip",
+         "label" : "ChIP-chip;BEAF32A and B;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -7818,9 +7816,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_S2/BRE1_Q2539.S2"
          ],
-         "submission" : "modENCODE_923",
+         "submission" : "923",
          "Cell-Line" : "S2-DRSC",
-         "label" : "BRE1_Q2539.S2 ChIP-chip",
+         "label" : "ChIP-chip;BRE1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -7834,9 +7832,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_BG3/CP190-HB.BG3"
          ],
-         "submission" : "modENCODE_924",
+         "submission" : "924",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "CP190-HB.BG3 ChIP-chip",
+         "label" : "ChIP-chip;CP190;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -7850,9 +7848,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/CP190-HB.S2"
          ],
-         "submission" : "modENCODE_925",
+         "submission" : "925",
          "Cell-Line" : "S2-DRSC",
-         "label" : "CP190-HB.S2 ChIP-chip",
+         "label" : "ChIP-chip;CP190;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -7866,9 +7864,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_S2/dMi_2_Q2626.S2"
          ],
-         "submission" : "modENCODE_926",
+         "submission" : "926",
          "Cell-Line" : "S2-DRSC",
-         "label" : "dMi-2_Q2626.S2 ChIP-chip",
+         "label" : "ChIP-chip;dMi-2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -7882,9 +7880,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_BG3/dRING_Q3200.BG3"
          ],
-         "submission" : "modENCODE_927",
+         "submission" : "927",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "dRING Q3200.BG3",
+         "label" : "ChIP-chip;dRING;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -7898,9 +7896,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_S2/dRING_Q3200.S2"
          ],
-         "submission" : "modENCODE_928",
+         "submission" : "928",
          "Cell-Line" : "S2-DRSC",
-         "label" : "dRING Q3200.S2 ChIP-chip",
+         "label" : "ChIP-chip;dRING;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -7914,9 +7912,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_CL8/H3K18Ac_new.lot.Clone_8"
          ],
-         "submission" : "modENCODE_930",
+         "submission" : "930",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "H3K18Ac (new lot).Clone_8 ChIP-chip",
+         "label" : "ChIP-chip;H3K18ac;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -7929,8 +7927,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_OR/H3K36Me3_14_16h_OR_embryo"
          ],
-         "submission" : "modENCODE_931",
-         "label" : "H3K36me3.14-16 hr OR embryo",
+         "submission" : "931",
+         "label" : "ChIP-chip;H3K36me3;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -7944,8 +7942,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_OR/H3K36Me3_2_4h_OR_embryo"
          ],
-         "submission" : "modENCODE_932",
-         "label" : "H3K36me3.2-4 hr OR embryo",
+         "submission" : "932",
+         "label" : "ChIP-chip;H3K36me3;Oregon-R;Embryos 2-4 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 2-4 hr OR",
@@ -7959,8 +7957,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_OR/H3K9Me2_Ab2_new.lot.2_4h_OR_embryo"
          ],
-         "submission" : "modENCODE_936",
-         "label" : "H3K9me2-Ab2 (new lot).2-4 hr OR embryo",
+         "submission" : "936",
+         "label" : "ChIP-chip;H3K9me2;Oregon-R;Embryos 2-4 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 2-4 hr OR",
@@ -7975,9 +7973,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_CL8/H3K9Me2_Ab2_new.lot.Clone_8"
          ],
-         "submission" : "modENCODE_937",
+         "submission" : "937",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "H3K9me2-Ab2 (new lot).Clone_8 ChIP-chip",
+         "label" : "ChIP-chip;H3K9me2;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -7991,9 +7989,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_Kc/H3K9Me2_Ab2_new.lot.Kc"
          ],
-         "submission" : "modENCODE_938",
+         "submission" : "938",
          "Cell-Line" : "Kc167",
-         "label" : "H3K9me2-Ab2 (new lot).Kc ChIP-chip",
+         "label" : "ChIP-chip;H3K9me2;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8007,9 +8005,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_CL8/H3K9Me3_new.lot.Clone_8"
          ],
-         "submission" : "modENCODE_940",
+         "submission" : "940",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "H3K9me3 (new lot).Clone_8 ChIP-chip",
+         "label" : "ChIP-chip;H3K9me3;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -8023,9 +8021,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/HP1b_Henikoff.S2"
          ],
-         "submission" : "modENCODE_941",
+         "submission" : "941",
          "Cell-Line" : "S2-DRSC",
-         "label" : "HP1b (Henikoff).S2 ChIP-chip",
+         "label" : "ChIP-chip;HP1b;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8039,9 +8037,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_BG3/HP1c_MO462.BG3"
          ],
-         "submission" : "modENCODE_942",
+         "submission" : "942",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "HP1c (MO 462).BG3 ChIP-chip",
+         "label" : "ChIP-chip;HP1c;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -8055,9 +8053,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/HP1c_MO462.S2"
          ],
-         "submission" : "modENCODE_943",
+         "submission" : "943",
          "Cell-Line" : "S2-DRSC",
-         "label" : "HP1c (MO 462).S2 ChIP-chip",
+         "label" : "ChIP-chip;HP1c;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8071,9 +8069,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/HP2_Ab2-90.S2"
          ],
-         "submission" : "modENCODE_944",
+         "submission" : "944",
          "Cell-Line" : "S2-DRSC",
-         "label" : "HP2 (Ab2-90).S2 ChIP-chip",
+         "label" : "ChIP-chip;HP2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8087,9 +8085,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_S2/JIL1_Q3433.S2"
          ],
-         "submission" : "modENCODE_945",
+         "submission" : "945",
          "Cell-Line" : "S2-DRSC",
-         "label" : "JIL1_Q3433.S2 ChIP-chip",
+         "label" : "ChIP-chip;JIL1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8103,9 +8101,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/WDS_Q2691.S2"
          ],
-         "submission" : "modENCODE_946",
+         "submission" : "946",
          "Cell-Line" : "S2-DRSC",
-         "label" : "MBD-R2_Q2567.S2 ChIP-chip",
+         "label" : "ChIP-chip;MBD-R2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8119,9 +8117,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_S2/NURF301_Q2602.S2"
          ],
-         "submission" : "modENCODE_947",
+         "submission" : "947",
          "Cell-Line" : "S2-DRSC",
-         "label" : "NURF301_Q2602.S2 ChIP-chip",
+         "label" : "ChIP-chip;NURF301;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8135,9 +8133,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_BG3/PCL_Q3412.BG3"
          ],
-         "submission" : "modENCODE_948",
+         "submission" : "948",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "PCL Q3412.BG3 ChIP-chip",
+         "label" : "ChIP-chip;PCL;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -8151,9 +8149,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_Kc/PIWI-Q2569.Kc"
          ],
-         "submission" : "modENCODE_949",
+         "submission" : "949",
          "Cell-Line" : "Kc167",
-         "label" : "PIWI-Q2569.Kc ChIP-chip",
+         "label" : "ChIP-chip;PIWI;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8167,9 +8165,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_BG3/POL_II_ALG.BG3"
          ],
-         "submission" : "modENCODE_950",
+         "submission" : "950",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "RNA pol II (ALG).BG3 ChIP-chip",
+         "label" : "ChIP-chip;PolII;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -8183,9 +8181,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_BG3/Su_Hw-HB.BG3"
          ],
-         "submission" : "modENCODE_951",
+         "submission" : "951",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "SU(HW)-HB.BG3 ChIP-chip",
+         "label" : "ChIP-chip;Su(Hw);ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -8199,9 +8197,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_BG3/Su_var.3_9.BG3"
          ],
-         "submission" : "modENCODE_952",
+         "submission" : "952",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Su(var)3-9.BG3 ChIP-chip",
+         "label" : "ChIP-chip;Su(var)3-9;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -8215,9 +8213,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/WDS_Q2691.S2"
          ],
-         "submission" : "modENCODE_953",
+         "submission" : "953",
          "Cell-Line" : "S2-DRSC",
-         "label" : "WDS_Q2691.S2 ChIP-chip",
+         "label" : "ChIP-chip;WDS;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8231,8 +8229,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_OR/H3K4Me2_OR_HEADnuc"
          ],
-         "submission" : "modENCODE_954",
-         "label" : "H3K4me2.OR Head Nuclei",
+         "submission" : "954",
+         "label" : "ChIP-chip;H3K4me2;Oregon-R;Mixed Adult;Heads OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Mixed Adult",
@@ -8246,8 +8244,8 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_OR/HP1_Dm_L3nuc"
          ],
-         "submission" : "modENCODE_955",
-         "label" : "HP1 wa191.D.mel 3rd Instar Larvae Nuclei",
+         "submission" : "955",
+         "label" : "ChIP-chip;HP1a;Oregon-R;3rd Instar Larvae",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "3rd Instar Larvae",
@@ -8258,8 +8256,8 @@
          "factor" : "H3K9me2",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_956",
-         "label" : "H3K9me2 antibody2.D.mel 3rd Instar Larvae Nuclei",
+         "submission" : "956",
+         "label" : "ChIP-chip;H3K9me2;Oregon-R;3rd Instar Larvae",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "3rd Instar Larvae",
@@ -8274,8 +8272,8 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_OR/HP1_OR_HEADnuc"
          ],
-         "submission" : "modENCODE_957",
-         "label" : "HP1 wa191.OR Head Nuclei",
+         "submission" : "957",
+         "label" : "ChIP-chip;HP1a;Oregon-R;Mixed Adult;Heads OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Mixed Adult",
@@ -8289,8 +8287,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K9Me3_new.lot.Dm_L3nuc"
          ],
-         "submission" : "modENCODE_958",
-         "label" : "H3K9me3 (new lot).D.mel 3rd Instar Larvae Nuclei",
+         "submission" : "958",
+         "label" : "ChIP-chip;H3K9me3;Oregon-R;3rd Instar Larvae",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "3rd Instar Larvae",
@@ -8305,9 +8303,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K79Me.S2"
          ],
-         "submission" : "modENCODE_963",
+         "submission" : "963",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K79Me.S2 ChIP-chip",
+         "label" : "ChIP-chip;H3K79me1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8321,9 +8319,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_CL8/H3K9Ac.Clone_8"
          ],
-         "submission" : "modENCODE_964",
+         "submission" : "964",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "H3K9ac.Clone_8 ChIP-chip",
+         "label" : "ChIP-chip;H3K9ac;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -8337,9 +8335,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K4Me2.Ab.S2"
          ],
-         "submission" : "modENCODE_965",
+         "submission" : "965",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K4me2.ab.S2 ChIP-chip",
+         "label" : "ChIP-chip;H3K4me2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8352,8 +8350,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_OR/H3K4Me3_LP_2_4h_OR_embryo"
          ],
-         "submission" : "modENCODE_966",
-         "label" : "H3K4Me3(LP).2-4 hr OR embryo",
+         "submission" : "966",
+         "label" : "ChIP-chip;H3K4me3;Oregon-R;Embryos 2-4 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 2-4 hr OR",
@@ -8368,9 +8366,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K4Me3.BG3"
          ],
-         "submission" : "modENCODE_967",
+         "submission" : "967",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K4me3.BG3 ChIP-chip",
+         "label" : "ChIP-chip;H3K4me3;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -8383,8 +8381,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_0_4h/E0_4_H3K27Ac_set2"
          ],
-         "submission" : "modENCODE_970",
-         "label" : "E0-4_H3K27Ac set2 ChIP-chip",
+         "submission" : "970",
+         "label" : "ChIP-chip;H3K27ac;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -8398,8 +8396,8 @@
          "Tracks" : [
             "fly/White_CC_embryo_0_4h/E0_4_H3K9Me3_set2"
          ],
-         "submission" : "modENCODE_971",
-         "label" : "E0-4_H3K9Me3-Set2 ChIP-chip",
+         "submission" : "971",
+         "label" : "ChIP-chip;H3K9me3;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -8413,8 +8411,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME313C9_N2_EEMB"
          ],
-         "submission" : "modENCODE_973",
-         "label" : "Strome HK00001_H3K36ME313C9_N2_EEMB",
+         "submission" : "973",
+         "label" : "ChIP-chip;H3K36me3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -8428,8 +8426,8 @@
          "Tracks" : [
             "fly/White_CC_SG_PRONEUR/E4_8_sens"
          ],
-         "submission" : "modENCODE_978",
-         "label" : "sens_sens-E-4-8h",
+         "submission" : "978",
+         "label" : "ChIP-chip;senseless;Embryos 4-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 4-8 hr"
@@ -8442,8 +8440,8 @@
          "Tracks" : [
             "fly/White_CC_SG_PRONEUR/E4_8_GFP_sens"
          ],
-         "submission" : "modENCODE_979",
-         "label" : "GFP_sens-E-4-8h",
+         "submission" : "979",
+         "label" : "ChIP-chip;sens;SENS-GFP;Embryos 4-8 hr",
          "type" : "data set",
          "Strain" : "SENS-GFP",
          "Developmental-Stage" : "Embryos 4-8 hr",
@@ -8457,8 +8455,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME32F3_N2_EEMB"
          ],
-         "submission" : "modENCODE_982",
-         "label" : "Strome HK00009_H3K9ME32F3_N2_EEMB",
+         "submission" : "982",
+         "label" : "ChIP-chip;H3K9me3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -8474,9 +8472,9 @@
          "Tracks" : [
             "fly/S2_DRSC_Untreated.SAM.bam.sorted"
          ],
-         "submission" : "modENCODE_983",
+         "submission" : "983",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi Control (untreated) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;Untreated-(RNAi-control);S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8489,8 +8487,8 @@
          "Tracks" : [
             "fly/White_CS_SG_POLII/L2_PolII"
          ],
-         "submission" : "modENCODE_984",
-         "label" : "L2_PolII ChIP-seq",
+         "submission" : "984",
+         "label" : "ChIP-seq;RNA Polymerase II;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -8504,8 +8502,8 @@
          "Tracks" : [
             "fly/White_CS_SG_NAJIRE/E8_12_CBP_set2"
          ],
-         "submission" : "modENCODE_985",
-         "label" : "E8-12_CBP set2 ChIP-seq",
+         "submission" : "985",
+         "label" : "ChIP-seq;nejire;Y cn bw sp;Embryos 8-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-12 hr",
@@ -8524,8 +8522,8 @@
             "worm/L1_pilot.sam_sorted",
             "worm/YA_herm_pilot.sam_sorted"
          ],
-         "submission" : "modENCODE_992",
-         "label" : "3'RACE polyA-capture N2 emb-thru-adult 454 alignments pilot",
+         "submission" : "992",
+         "label" : "RACE;3-prime-UTR;N2;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Embryos",
@@ -8539,9 +8537,9 @@
          "RNAi-reagent" : "CG10128-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1011",
+         "submission" : "1011",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG10128 (tra2) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG10128-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8553,9 +8551,9 @@
          "RNAi-reagent" : "CG10203-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1012",
+         "submission" : "1012",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG10203 (xl6) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG10203-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8567,9 +8565,9 @@
          "RNAi-reagent" : "CG10851-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1013",
+         "submission" : "1013",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG10851 (B52) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG10851-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8581,9 +8579,9 @@
          "RNAi-reagent" : "CG12749-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1014",
+         "submission" : "1014",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG12749 (Hrb87F) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG12749-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8595,9 +8593,9 @@
          "RNAi-reagent" : "CG13425-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1015",
+         "submission" : "1015",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG13425 (bl) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG13425-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8609,9 +8607,9 @@
          "RNAi-reagent" : "CG1559-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1016",
+         "submission" : "1016",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG1559 (Upf1) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG1559-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8623,9 +8621,9 @@
          "RNAi-reagent" : "CG16901-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1017",
+         "submission" : "1017",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG16901 (sqd) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG16901-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8637,9 +8635,9 @@
          "RNAi-reagent" : "CG17136-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1018",
+         "submission" : "1018",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG17136 (Rbp1) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG17136-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8651,9 +8649,9 @@
          "RNAi-reagent" : "CG17838-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1019",
+         "submission" : "1019",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG17838 in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG17838-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8665,9 +8663,9 @@
          "RNAi-reagent" : "CG18426-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1020",
+         "submission" : "1020",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG18426 (ytr) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG18426-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8679,9 +8677,9 @@
          "RNAi-reagent" : "CG1987-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1021",
+         "submission" : "1021",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG1987 (Rbp1-like) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG1987-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8693,9 +8691,9 @@
          "RNAi-reagent" : "CG30122-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1022",
+         "submission" : "1022",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG30122 in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG30122-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8707,9 +8705,9 @@
          "RNAi-reagent" : "CG31000-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1023",
+         "submission" : "1023",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG31000 (heph) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG31000-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8721,9 +8719,9 @@
          "RNAi-reagent" : "CG3249-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1024",
+         "submission" : "1024",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG3249 (yu) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG3249-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8735,9 +8733,9 @@
          "RNAi-reagent" : "CG4602-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1025",
+         "submission" : "1025",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG4602 (Srp54) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG4602-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8749,9 +8747,9 @@
          "RNAi-reagent" : "CG5099-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1026",
+         "submission" : "1026",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG5099 (msi) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG5099-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8763,9 +8761,9 @@
          "RNAi-reagent" : "CG5442-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1027",
+         "submission" : "1027",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG5442 (SC35) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG5442-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8777,9 +8775,9 @@
          "RNAi-reagent" : "CG5655-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1028",
+         "submission" : "1028",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG5655 (Rsf1) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG5655-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8791,9 +8789,9 @@
          "RNAi-reagent" : "CG5821-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1029",
+         "submission" : "1029",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG5821 (qkr58E-2) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG5821-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8805,9 +8803,9 @@
          "RNAi-reagent" : "CG5836-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1030",
+         "submission" : "1030",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG5836 (SF1) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG5836-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8819,9 +8817,9 @@
          "RNAi-reagent" : "CG6946-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1031",
+         "submission" : "1031",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG6946 (glo) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG6946-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8833,9 +8831,9 @@
          "RNAi-reagent" : "CG7437-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1032",
+         "submission" : "1032",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG7437 (mub) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG7437-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8847,9 +8845,9 @@
          "RNAi-reagent" : "CG7878-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1033",
+         "submission" : "1033",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG7878 in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG7878-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8861,9 +8859,9 @@
          "RNAi-reagent" : "CG7971-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_1034",
+         "submission" : "1034",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG7971 in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG7971-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8874,9 +8872,9 @@
          "factor" : "small-RNA",
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
-         "submission" : "modENCODE_2002",
+         "submission" : "2002",
          "Cell-Line" : "ML-DmD20-c5",
-         "label" : "Lai - MLDmD20c5/BS16",
+         "label" : "RNA-seq;small-RNA;ML-DmD20-c5;Third instar larval stage;antenna disc-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -8887,9 +8885,9 @@
          "factor" : "small-RNA",
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
-         "submission" : "modENCODE_2003",
+         "submission" : "2003",
          "Cell-Line" : "Sg4",
-         "label" : "Lai – Sg4/BS35",
+         "label" : "RNA-seq;small-RNA;Sg4;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8900,9 +8898,9 @@
          "factor" : "small-RNA",
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
-         "submission" : "modENCODE_2004",
+         "submission" : "2004",
          "Cell-Line" : "GM2",
-         "label" : "Lai – GM2cell/BS32",
+         "label" : "RNA-seq;small-RNA;GM2;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8917,9 +8915,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmD21_BS90",
             "fly/ML_V021.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_2005",
+         "submission" : "2005",
          "Cell-Line" : "ML-DmD21",
-         "label" : "Lai – ML-DmD21cell/BS90",
+         "label" : "RNA-seq;small-RNA;ML-DmD21;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -8934,9 +8932,9 @@
             "fly/1182_V026.sam.gz.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_CELLS/1182-4Hcell_BS23"
          ],
-         "submission" : "modENCODE_2006",
+         "submission" : "2006",
          "Cell-Line" : "1182-4H",
-         "label" : "Lai_1182-4Hcell/BS23",
+         "label" : "RNA-seq;small-RNA;1182-4H;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -8947,9 +8945,9 @@
          "factor" : "small-RNA",
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
-         "submission" : "modENCODE_2007",
+         "submission" : "2007",
          "Cell-Line" : "ML-DmBG1-c1",
-         "label" : "Lai-ML-DmBG1-C1/BS176",
+         "label" : "RNA-seq;small-RNA;ML-DmBG1-c1;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -8963,8 +8961,8 @@
             "fly/YAM01_V083.sam.gz.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_PE/1day_AdultFemale_BS152"
          ],
-         "submission" : "modENCODE_2008",
-         "label" : "Lai-one day adult male/BS149",
+         "submission" : "2008",
+         "label" : "RNA-seq;small-RNA;Y cn bw sp;Adult male, eclosion + 1 day",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult male, eclosion + 1 day",
@@ -8979,8 +8977,8 @@
             "fly/Lai_RNASEQ_DUAL_PE/1day_AdultMale_BS149",
             "fly/YAF01_V084.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2009",
-         "label" : "Lai-one day adult female/BS152",
+         "submission" : "2009",
+         "label" : "RNA-seq;small-RNA;Y cn bw sp;Adult female, eclosion + 1 day",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult female, eclosion + 1 day",
@@ -8994,8 +8992,8 @@
          "Tracks" : [
             "fly/E0-4_accepted_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2010",
-         "label" : "Embryo 0-4h RNA-seq",
+         "submission" : "2010",
+         "label" : "RNA-seq;PolyA-RNA;Y cn bw sp;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -9009,8 +9007,8 @@
          "Tracks" : [
             "fly/E04-8_accepted_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2019",
-         "label" : "Embryo 4-8h RNA-seq",
+         "submission" : "2019",
+         "label" : "RNA-seq;PolyA-RNA;Y cn bw sp;Embryos 4-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-8 hr",
@@ -9024,8 +9022,8 @@
          "Tracks" : [
             "fly/E08-12_accepted_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2020",
-         "label" : "Embryo 8-12h RNA-seq",
+         "submission" : "2020",
+         "label" : "RNA-seq;PolyA-RNA;Y cn bw sp;Embryos 8-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-12 hr",
@@ -9039,8 +9037,8 @@
          "Tracks" : [
             "fly/E12-16_accepted_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2021",
-         "label" : "Embryo 12-16h RNA-seq",
+         "submission" : "2021",
+         "label" : "RNA-seq;PolyA-RNA;Y cn bw sp;Embryos 12-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-16 hr",
@@ -9054,8 +9052,8 @@
          "Tracks" : [
             "fly/E16-20_accepted_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2022",
-         "label" : "Embryo 16-20h RNA-seq",
+         "submission" : "2022",
+         "label" : "RNA-seq;PolyA-RNA;Y cn bw sp;Embryos 16-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-20 hr",
@@ -9069,8 +9067,8 @@
          "Tracks" : [
             "fly/E20-24_accepted_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2023",
-         "label" : "Embryo 20-24h RNA-seq",
+         "submission" : "2023",
+         "label" : "RNA-seq;PolyA-RNA;Y cn bw sp;Embryos 20-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-24 hr",
@@ -9084,8 +9082,8 @@
          "Tracks" : [
             "fly/L1_accepted_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2024",
-         "label" : "L1 RNA-seq",
+         "submission" : "2024",
+         "label" : "RNA-seq;PolyA-RNA;Y cn bw sp;L1 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L1 stage larvae",
@@ -9099,8 +9097,8 @@
          "Tracks" : [
             "fly/L2_accepted_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2025",
-         "label" : "L2 RNA-seq",
+         "submission" : "2025",
+         "label" : "RNA-seq;PolyA-RNA;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -9114,8 +9112,8 @@
          "Tracks" : [
             "fly/YAdultFemale_accepted_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2026",
-         "label" : "AdultFemale RNA-seq",
+         "submission" : "2026",
+         "label" : "RNA-seq;PolyA-RNA;Y cn bw sp;Adult Female",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Female",
@@ -9129,8 +9127,8 @@
          "Tracks" : [
             "fly/YAdultMale_accepted_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2027",
-         "label" : "AdultMale RNA-seq",
+         "submission" : "2027",
+         "label" : "RNA-seq;PolyA-RNA;Y cn bw sp;Adult Male",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult Male",
@@ -9144,8 +9142,8 @@
          "Tracks" : [
             "fly/L3_accepted_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2029",
-         "label" : "L3 RNA-seq",
+         "submission" : "2029",
+         "label" : "RNA-seq;PolyA-RNA;Y cn bw sp;L3 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage larvae",
@@ -9159,8 +9157,8 @@
          "Tracks" : [
             "fly/Pupae_accepted_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2030",
-         "label" : "Pupae RNA-seq",
+         "submission" : "2030",
+         "label" : "RNA-seq;PolyA-RNA;Y cn bw sp;Pupae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae",
@@ -9172,9 +9170,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_2270",
+         "submission" : "2270",
          "Cell-Line" : "CME-L1",
-         "label" : "MB6 RTPCR",
+         "label" : "RT-PCR;total-RNA;CME-L1;Third instar larval stage;ventral prothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -9186,9 +9184,9 @@
          "RNAi-reagent" : "CG9983-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_2301",
+         "submission" : "2301",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG9983 in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG9983-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -9200,9 +9198,9 @@
          "RNAi-reagent" : "CG9373-RNAi",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_2302",
+         "submission" : "2302",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG9373 in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;CG9373-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -9219,8 +9217,8 @@
             "worm/Waterston_EST_match_all/IntronsChrII",
             "worm/Waterston_intron_all/IntronsChrII"
          ],
-         "submission" : "modENCODE_2304",
-         "label" : "C. elegans Intron Identification set.20090921.2_3_2_2_4_3_3_2_2.ws180",
+         "submission" : "2304",
+         "label" : "RT-PCR;total-RNA;ggacactgacatggactgaaggagta;N2;Mixed Larval Stages Grown 4-5 Days",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
@@ -9233,9 +9231,9 @@
          "RNAi-reagent" : "Untreated-(RNAi-control)",
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
-         "submission" : "modENCODE_2305",
+         "submission" : "2305",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi Control (untreated-B) in S2-DRSC RNA-Seq",
+         "label" : "RNA-seq;total-RNA;Untreated-(RNAi-control);S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -9248,8 +9246,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3144_N2_EEMB"
          ],
-         "submission" : "modENCODE_2312",
-         "label" : "Strome AR0144_H3144_N2_EEMB",
+         "submission" : "2312",
+         "label" : "ChIP-chip;histone H3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -9263,8 +9261,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3609253_N2_EEMB"
          ],
-         "submission" : "modENCODE_2313",
-         "label" : "Strome AB1791_H3609253_N2_EEMB",
+         "submission" : "2313",
+         "label" : "ChIP-chip;Histone H3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -9278,8 +9276,8 @@
          "Tracks" : [
             "worm/early_embryo.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2321",
-         "label" : "C. elegans early embryo N2 RNA-Seq sequences and alignments",
+         "submission" : "2321",
+         "label" : "RNA-seq;total-RNA;N2;Early Embryos;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Early Embryos",
@@ -9294,8 +9292,8 @@
          "Tracks" : [
             "worm/embryo_20dC_4.5hrs_post-early_embryo.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2324",
-         "label" : "C. elegans late embryo N2 RNA-Seq sequences and alignments",
+         "submission" : "2324",
+         "label" : "RNA-seq;total-RNA;N2;Late Embryos 4.5 hrs post-early embryo;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Late Embryos 4.5 hrs post-early embryo",
@@ -9305,14 +9303,13 @@
       {
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
-         "him-8(e1489)" : null,
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
          "Tracks" : [
             "worm/yM_male_mid-L4_25dC_30hrs_post-L1.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2325",
-         "label" : "C. elegans male mid-L4 dpy-28(y1);him-8(e1489) RNA-Seq sequences and alignments",
+         "submission" : "2325",
+         "label" : "RNA-seq;total-RNA;dpy28(y1);Male  mid-L4 30 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "dpy28(y1)",
          "Developmental-Stage" : "Male  mid-L4 30 hrs post-L1 stage larvae",
@@ -9327,8 +9324,8 @@
          "Tracks" : [
             "worm/L1_20dC_4hrs_post-L1.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2326",
-         "label" : "C. elegans mid-L1 N2 RNA-Seq sequences and alignments",
+         "submission" : "2326",
+         "label" : "RNA-seq;total-RNA;N2;Mid-L1 4.0 hrs post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L1 4.0 hrs post-L1 stage larvae",
@@ -9346,8 +9343,8 @@
             "worm/L1.ws220.sam_sorted",
             "worm/UTRome_V2_3_polyA_site_6102_2745"
          ],
-         "submission" : "modENCODE_2327",
-         "label" : "3'RACE polyA-capture N2 L1 454 alignments",
+         "submission" : "2327",
+         "label" : "RACE;3-prime-UTR;N2;L1 8 hr post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L1 8 hr post-L1 stage larvae",
@@ -9362,8 +9359,8 @@
          "Tracks" : [
             "worm/L2.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2328",
-         "label" : "3'RACE polyA-capture N2 L2 454 alignments",
+         "submission" : "2328",
+         "label" : "RACE;3-prime-UTR;N2;L2 20 hr post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L2 20 hr post-L1 stage larvae",
@@ -9378,8 +9375,8 @@
          "Tracks" : [
             "worm/L3.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2329",
-         "label" : "3'RACE polyA-capture N2 L3 454 alignments",
+         "submission" : "2329",
+         "label" : "RACE;3-prime-UTR;N2;L3 30 hr post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 30 hr post-L1 stage larvae",
@@ -9394,8 +9391,8 @@
          "Tracks" : [
             "worm/L4.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2330",
-         "label" : "3'RACE polyA-capture N2 L4 454 alignments",
+         "submission" : "2330",
+         "label" : "RACE;3-prime-UTR;N2;L4 45 hr post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L4 45 hr post-L1 stage larvae",
@@ -9410,8 +9407,8 @@
          "Tracks" : [
             "worm/E.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2331",
-         "label" : "3'RACE polyA-capture N2 embryo 454 alignments",
+         "submission" : "2331",
+         "label" : "RACE;3-prime-UTR;N2;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Embryos",
@@ -9426,8 +9423,8 @@
          "Tracks" : [
             "worm/YA_herm.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2332",
-         "label" : "3'RACE polyA-capture N2 hermaphrodite 454 alignments",
+         "submission" : "2332",
+         "label" : "RACE;3-prime-UTR;N2;Adult 70 hr post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Adult 70 hr post-L1 stage larvae",
@@ -9442,8 +9439,8 @@
          "Tracks" : [
             "worm/YM_male.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2333",
-         "label" : "3'RACE polyA-capture N2 male 454 alignments",
+         "submission" : "2333",
+         "label" : "RACE;3-prime-UTR;him-8(e1489);Adult males 70 hr post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "him-8(e1489)",
          "Developmental-Stage" : "Adult males 70 hr post-L1 stage larvae",
@@ -9458,8 +9455,8 @@
          "Tracks" : [
             "worm/L33daf11.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2334",
-         "label" : "3'RACE polyA-capture  daf-11 dauer 454 alignments",
+         "submission" : "2334",
+         "label" : "RACE;3-prime-UTR;daf-11(m47);Dauer Larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "daf-11(m47)",
          "Developmental-Stage" : "Dauer Larvae",
@@ -9474,8 +9471,8 @@
          "Tracks" : [
             "worm/L33daf02.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2335",
-         "label" : "3'RACE polyA-capture daf-2 dauer 454 alignments",
+         "submission" : "2335",
+         "label" : "RACE;3-prime-UTR;daf-2(e1370);Dauer Larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "daf-2(e1370)",
          "Developmental-Stage" : "Dauer Larvae",
@@ -9490,8 +9487,8 @@
          "Tracks" : [
             "worm/L33daf07.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2336",
-         "label" : "3'RACE polyA-capture daf-7 dauer 454 alignments",
+         "submission" : "2336",
+         "label" : "RACE;3-prime-UTR;daf-7(e1372);Dauer Larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "daf-7(e1372)",
          "Developmental-Stage" : "Dauer Larvae",
@@ -9506,8 +9503,8 @@
          "Tracks" : [
             "worm/L33daf09.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2337",
-         "label" : "3'RACE polyA-capture daf-9 dauer 454 alignments",
+         "submission" : "2337",
+         "label" : "RACE;3-prime-UTR;daf-9(m540);Dauer Larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "daf-9(m540)",
          "Developmental-Stage" : "Dauer Larvae",
@@ -9522,8 +9519,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME2608457_N2_EEMB"
          ],
-         "submission" : "modENCODE_2338",
-         "label" : "Strome AB9049_H3K36ME2608457_N2_EEMB",
+         "submission" : "2338",
+         "label" : "ChIP-chip;H3K36me2;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -9537,8 +9534,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K79ME1361912_N2_EEMB"
          ],
-         "submission" : "modENCODE_2339",
-         "label" : "Strome AB8898_H3K9ME3339901_N2_EEMB",
+         "submission" : "2339",
+         "label" : "ChIP-chip;H3K9me3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -9553,8 +9550,8 @@
          "Tracks" : [
             "fly/CEL_TISSUES/Dm_MatedOvary_F_4d"
          ],
-         "submission" : "modENCODE_2340",
-         "label" : "Dm_4dFMatedOvary_TotalRNA_531_532_38bp",
+         "submission" : "2340",
+         "label" : "RNA-tiling-array;total-RNA;Oregon-R;Adult female eclosion+4 day;Adult ovaries",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Adult female eclosion+4 day",
@@ -9569,8 +9566,8 @@
          "Tracks" : [
             "fly/CEL_TISSUES/Dm_VirginHead_F_1d"
          ],
-         "submission" : "modENCODE_2341",
-         "label" : "Dm_1dFVirginHead_TotalRNA_497_498_38bp",
+         "submission" : "2341",
+         "label" : "RNA-tiling-array;total-RNA;Oregon-R;Adult female, eclosion + 1 day;Female heads",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Adult female, eclosion + 1 day",
@@ -9585,8 +9582,8 @@
          "Tracks" : [
             "fly/CEL_TISSUES/Dm_VirginHead_F_4d"
          ],
-         "submission" : "modENCODE_2342",
-         "label" : "Dm_4dFVirginHead_TotalRNA_515_516_38bp",
+         "submission" : "2342",
+         "label" : "RNA-tiling-array;total-RNA;Oregon-R;Adult female, eclosion + 1 day;Female heads",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Adult female, eclosion + 1 day",
@@ -9600,8 +9597,8 @@
          "Tracks" : [
             "worm/L1_lin35.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2343",
-         "label" : "C. elegans mid-L1 lin-35(n745) 25dC 4hrs post-L1 RNA-Seq sequences and alignments",
+         "submission" : "2343",
+         "label" : "RNA-seq;total-RNA;MT10430;Lin-35(n745)  mid-L1 4.0 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "MT10430",
          "Developmental-Stage" : "Lin-35(n745)  mid-L1 4.0 hrs post-L1 stage larvae",
@@ -9616,8 +9613,8 @@
          "Tracks" : [
             "worm/YA_Adult_spe-9_23dC_8days_post-L4_molt.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2345",
-         "label" : "C. elegans Adult spe-9 RNA-Seq sequences and alignments",
+         "submission" : "2345",
+         "label" : "RNA-seq;total-RNA;spe-9(hc88);Adult spe-9(hc88) 8 days post-L4 molt stage larvae;23 degree celsius",
          "type" : "data set",
          "Strain" : "spe-9(hc88)",
          "Developmental-Stage" : "Adult spe-9(hc88) 8 days post-L4 molt stage larvae",
@@ -9632,8 +9629,8 @@
          "Tracks" : [
             "worm/embryo_him-8_20dC_post-L1.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2346",
-         "label" : "C. elegans Embryo him-8 RNA-Seq sequences and alignments",
+         "submission" : "2346",
+         "label" : "RNA-seq;total-RNA;him-8(e1489);Embryos him-8(e1480);20 degree celsius",
          "type" : "data set",
          "Strain" : "him-8(e1489)",
          "Developmental-Stage" : "Embryos him-8(e1480)",
@@ -9648,8 +9645,8 @@
          "Tracks" : [
             "worm/L33_dauer_daf-2_25dC_91hrs_post-L1.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2347",
-         "label" : "C. elegans dauer daf-2 25dC 91hrs post-L1 RNA-Seq sequences and alignments",
+         "submission" : "2347",
+         "label" : "RNA-seq;total-RNA;daf-2(e1370);Dauer daf-2(el370) 91 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "daf-2(e1370)",
          "Developmental-Stage" : "Dauer daf-2(el370) 91 hrs post-L1 stage larvae",
@@ -9664,8 +9661,8 @@
          "Tracks" : [
             "worm/L33_dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2349",
-         "label" : "C. elegans dauer exit daf-2 25dC 91hrs15dC 12hrs post-L1 RNA-Seq sequences and alignments",
+         "submission" : "2349",
+         "label" : "RNA-seq;total-RNA;daf-2(e1370);Dauer exit daf-2(el370) 91 hrs 15dC 12 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "daf-2(e1370)",
          "Developmental-Stage" : "Dauer exit daf-2(el370) 91 hrs 15dC 12 hrs post-L1 stage larvae",
@@ -9680,8 +9677,8 @@
          "Tracks" : [
             "worm/L2_20dC_14hrs_post-L1.all_alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2351",
-         "label" : "C. elegans mid-L2 N2 RNA-Seq sequences and alignments",
+         "submission" : "2351",
+         "label" : "RNA-seq;total-RNA;N2;Mid-L2 17.75 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L2 17.75 hrs post-L1 stage larvae",
@@ -9696,8 +9693,8 @@
          "Tracks" : [
             "worm/L3_20dC_25hrs_post-L1.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2352",
-         "label" : "C. elegans mid-L3 N2 RNA-Seq sequences and alignments",
+         "submission" : "2352",
+         "label" : "RNA-seq;total-RNA;N2;Mid-L3 26.75 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L3 26.75 hrs post-L1 stage larvae",
@@ -9712,8 +9709,8 @@
          "Tracks" : [
             "worm/L4_20dC_36hrs_post-L1.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2353",
-         "label" : "C. elegans mid-L4 N2 RNA-Seq sequences and alignments",
+         "submission" : "2353",
+         "label" : "RNA-seq;total-RNA;N2;Mid-L4 34.25 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
@@ -9728,8 +9725,8 @@
          "Tracks" : [
             "worm/YA_Young_Adult_25dC_46hrs_post-L1.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2354",
-         "label" : "C. elegans Young Adult N2 RNA-Seq sequences and alignments",
+         "submission" : "2354",
+         "label" : "RNA-seq;total-RNA;N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -9744,8 +9741,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/NA_N2_EEMB"
          ],
-         "submission" : "modENCODE_2364",
-         "label" : "Strome NA_N2_EEMB",
+         "submission" : "2364",
+         "label" : "ChIP-chip;Not Applicable;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -9761,9 +9758,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/Kc167_Rubin",
             "fly/KC_GSM399110.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_2374",
+         "submission" : "2374",
          "Cell-Line" : "Kc-Rubin",
-         "label" : "Lai Kc-48",
+         "label" : "RNA-seq;small-RNA;Kc-Rubin;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -9778,9 +9775,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/S2_NP",
             "fly/S2_GSM371638.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_2375",
+         "submission" : "2375",
          "Cell-Line" : "S2-NP",
-         "label" : "Lai-S2-NP",
+         "label" : "RNA-seq;small-RNA;S2-NP;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -9795,8 +9792,8 @@
             "fly/Lai_RNASEQ_DUAL_T/imaginal_disc_brain",
             "fly/ID_GSM399105.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2376",
-         "label" : "Lai_GSM399105_imaginal-disc",
+         "submission" : "2376",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult male;Imaginal disc",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult male",
@@ -9812,9 +9809,9 @@
             "fly/Lai_RNASEQ_DUAL_ENR_C/S2cells_Ago2IP",
             "fly/S22_GSM280087.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2379",
+         "submission" : "2379",
          "Cell-Line" : "S2-Rubin",
-         "label" : "S2cells Ago2-HA Immunoprecipitation",
+         "label" : "RNA-seq;small-RNA;S2-Rubin;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -9829,9 +9826,9 @@
             "fly/S21_GSM280088.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_ENR_C/S2cells_Ago1IP"
          ],
-         "submission" : "modENCODE_2380",
+         "submission" : "2380",
          "Cell-Line" : "S2-Rubin",
-         "label" : "S2cells Ago1-HA Immunoprecipitation",
+         "label" : "RNA-seq;small-RNA;S2-Rubin;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -9846,8 +9843,8 @@
             "fly/Lai_RNASEQ_DUAL_ENR_T/Adult_ovaries_AGO2IP",
             "fly/YA_GSM280086.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2381",
-         "label" : "Adult ovaries Ago2-HA Immunoprecipitation",
+         "submission" : "2381",
+         "label" : "RNA-seq;small-RNA;Y cn bw sp;Adult;Adult ovaries",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult",
@@ -9861,8 +9858,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_DC/IGG_N2_EEMB"
          ],
-         "submission" : "modENCODE_2382",
-         "label" : "Strome SS00050_IGG_N2_EEMB",
+         "submission" : "2382",
+         "label" : "ChIP-chip;na;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -9877,8 +9874,8 @@
          "Tracks" : [
             "fly/MacAlpine_CGH_WIG/Follicle_OregonR_mod"
          ],
-         "submission" : "modENCODE_2384",
-         "label" : "CGH Follicle Cells",
+         "submission" : "2384",
+         "label" : "CGH;Replication-Copy-Number;Oregon-R;Adult female, eclosion + 1 day;oocyte associated follicle cell",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Adult female, eclosion + 1 day",
@@ -9893,8 +9890,8 @@
          "Tracks" : [
             "fly/MacAlpine_CGH_WIG/Salivary_Y_cn_bw_sp"
          ],
-         "submission" : "modENCODE_2385",
-         "label" : "CGH Follicle Cells (Oregon-R)",
+         "submission" : "2385",
+         "label" : "CGH;Replication-Copy-Number;Oregon-R Orr-Weaver;Adult female, eclosion + 1 day;oocyte associated follicle cell",
          "type" : "data set",
          "Strain" : "Oregon-R Orr-Weaver",
          "Developmental-Stage" : "Adult female, eclosion + 1 day",
@@ -9908,8 +9905,8 @@
          "Tracks" : [
             "worm/L33_dauer_entry_daf-2_25dC_48hrs_post-L1.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2387",
-         "label" : "C. elegans dauer entry daf-2 25dC 48hrs post-L1 RNA-Seq sequences and alignments",
+         "submission" : "2387",
+         "label" : "RNA-seq;total-RNA;daf-2(e1370);Dauer entry daf-2(el370) 48 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "daf-2(e1370)",
          "Developmental-Stage" : "Dauer entry daf-2(el370) 48 hrs post-L1 stage larvae",
@@ -9924,8 +9921,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME32F3_N2_L3"
          ],
-         "submission" : "modENCODE_2398",
-         "label" : "Ahringer HK00009_H3K9ME32F3_N2_L3",
+         "submission" : "2398",
+         "label" : "ChIP-chip;H3K9me3;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -9940,8 +9937,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME22C3_N2_L3"
          ],
-         "submission" : "modENCODE_2399",
-         "label" : "Ahringer HK00012_H3K36ME22C3_N2_L3",
+         "submission" : "2399",
+         "label" : "ChIP-chip;H3K36me3;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -9956,8 +9953,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K27ME31E7_N2_L3"
          ],
-         "submission" : "modENCODE_2400",
-         "label" : "Ahringer HK00013_H3K27ME31E7_N2_L3",
+         "submission" : "2400",
+         "label" : "ChIP-chip;H3K27me3;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -9972,8 +9969,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME313C9_N2_L3"
          ],
-         "submission" : "modENCODE_2401",
-         "label" : "Ahringer HK00001_H3K36ME313C9_N2_L3",
+         "submission" : "2401",
+         "label" : "ChIP-chip;H3K36me3;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -9988,8 +9985,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K4ME2_N2_L3"
          ],
-         "submission" : "modENCODE_2402",
-         "label" : "Ahringer WA30834809_H3K4ME2_N2_L3",
+         "submission" : "2402",
+         "label" : "ChIP-chip;H3K4me2;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -10004,8 +10001,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME26D11_N2_L3"
          ],
-         "submission" : "modENCODE_2406",
-         "label" : "Ahringer HK00008_H3K9ME26D11_N2_L3",
+         "submission" : "2406",
+         "label" : "ChIP-chip;H3K9me2;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -10020,8 +10017,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3144_N2_L3"
          ],
-         "submission" : "modENCODE_2407",
-         "label" : "Ahringer AR0144_H3144_N2_L3",
+         "submission" : "2407",
+         "label" : "ChIP-chip;histone H3;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -10036,8 +10033,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3144_N2_L3_LM"
          ],
-         "submission" : "modENCODE_2408",
-         "label" : "Ahringer AR0144_H3144_N2_L3_LM",
+         "submission" : "2408",
+         "label" : "ChIP-chip;histone H3;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -10052,8 +10049,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3_N2_L3"
          ],
-         "submission" : "modENCODE_2409",
-         "label" : "Ahringer AB1791_H3_N2_L3",
+         "submission" : "2409",
+         "label" : "ChIP-chip;Histone H3;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -10068,8 +10065,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME3339901_N2_EEMB"
          ],
-         "submission" : "modENCODE_2410",
-         "label" : "Strome AB2886_H3K79ME1361912_N2_EEMB",
+         "submission" : "2410",
+         "label" : "ChIP-chip;H3K4me3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -10083,8 +10080,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_DPY27_COMB"
          ],
-         "submission" : "modENCODE_2416",
-         "label" : "Identification of Dosage Compensation Complex Protein DPY-27::GFP Binding Regions in Embryos",
+         "submission" : "2416",
+         "label" : "ChIP-seq;dpy-27;OP32;Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP32",
          "Developmental-Stage" : "Embryos",
@@ -10096,8 +10093,8 @@
          "factor" : "hlh-8",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_2418",
-         "label" : "Identification of Transcription Factor HLH-8::GFP Binding Regions in L3",
+         "submission" : "2418",
+         "label" : "ChIP-seq;hlh-8;OP74;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP74",
          "Developmental-Stage" : "L3 stage larvae",
@@ -10112,8 +10109,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_LIN11_COMB"
          ],
-         "submission" : "modENCODE_2429",
-         "label" : "Identification of Transcription Factor LIN-11::GFP Binding Regions in L2",
+         "submission" : "2429",
+         "label" : "ChIP-seq;lin-11;OP62;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP62",
          "Developmental-Stage" : "L2 stage larvae",
@@ -10128,8 +10125,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_UNC130_COMB"
          ],
-         "submission" : "modENCODE_2430",
-         "label" : "Identification of Transcription Factor UNC-130::GFP Binding Regions in L1",
+         "submission" : "2430",
+         "label" : "ChIP-seq;unc-130;OP77;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP77",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -10144,8 +10141,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_HLH1_emb_GFP"
          ],
-         "submission" : "modENCODE_2431",
-         "label" : "Identification of Transcription Factor HLH-1::GFP Binding Regions in Embryos",
+         "submission" : "2431",
+         "label" : "ChIP-seq;hlh-1;OP64;Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP64",
          "Developmental-Stage" : "Embryos",
@@ -10160,8 +10157,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_LIN39_L3_GFP"
          ],
-         "submission" : "modENCODE_2432",
-         "label" : "Identification of Transcription Factor LIN-39::GFP Binding Regions in L3",
+         "submission" : "2432",
+         "label" : "ChIP-seq;lin-39;OP18;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP18",
          "Developmental-Stage" : "L3 stage larvae",
@@ -10173,8 +10170,8 @@
          "factor" : "nhr-6",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_2433",
-         "label" : "Identification of Transcription Factor NHR-6::GFP Binding Regions in L2",
+         "submission" : "2433",
+         "label" : "ChIP-seq;nhr-6;OP90;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP90",
          "Developmental-Stage" : "L2 stage larvae",
@@ -10189,8 +10186,8 @@
          "Tracks" : [
             "worm/Snyder_N2_WIG_COMB/N2_POLII_eemb"
          ],
-         "submission" : "modENCODE_2435",
-         "label" : "Identification of Transcription Factor N2::POL II Binding Regions in Early Embryo",
+         "submission" : "2435",
+         "label" : "ChIP-seq;ama-1;N2;Early Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Early Embryos",
@@ -10205,8 +10202,8 @@
          "Tracks" : [
             "worm/Snyder_N2_WIG_COMB/N2_POLII_lemb"
          ],
-         "submission" : "modENCODE_2436",
-         "label" : "Identification of Transcription Factor N2::POL II Binding Regions in Late Embryo",
+         "submission" : "2436",
+         "label" : "ChIP-seq;ama-1;N2;Late Embryos 4.5 hrs post-early embryo;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Late Embryos 4.5 hrs post-early embryo",
@@ -10221,8 +10218,8 @@
          "Tracks" : [
             "worm/Snyder_N2_WIG_COMB/N2_POLII_L1"
          ],
-         "submission" : "modENCODE_2437",
-         "label" : "Identification of Transcription Factor N2::POL II Binding Regions in L1",
+         "submission" : "2437",
+         "label" : "ChIP-seq;ama-1;N2;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -10237,8 +10234,8 @@
          "Tracks" : [
             "worm/Snyder_N2_WIG_COMB/N2_POLII_L2"
          ],
-         "submission" : "modENCODE_2438",
-         "label" : "Identification of Transcription Factor N2::POL II Binding Regions in L2",
+         "submission" : "2438",
+         "label" : "ChIP-seq;ama-1;N2;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L2 stage larvae",
@@ -10253,8 +10250,8 @@
          "Tracks" : [
             "worm/Snyder_N2_WIG_COMB/N2_POLII_L3"
          ],
-         "submission" : "modENCODE_2439",
-         "label" : "Identification of Transcription Factor N2::POL II Binding Regions in L3",
+         "submission" : "2439",
+         "label" : "ChIP-seq;ama-1;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -10269,8 +10266,8 @@
          "Tracks" : [
             "worm/Snyder_N2_WIG_COMB/N2_POLII_L4"
          ],
-         "submission" : "modENCODE_2440",
-         "label" : "Identification of Transcription Factor N2::POL II Binding Regions in L4",
+         "submission" : "2440",
+         "label" : "ChIP-seq;ama-1;N2;L4 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L4 stage larvae",
@@ -10285,8 +10282,8 @@
          "Tracks" : [
             "worm/Snyder_N2_WIG_COMB/N2_POLII_YA"
          ],
-         "submission" : "modENCODE_2441",
-         "label" : "Identification of Transcription Factor N2::POL II Binding Regions in Young Adult",
+         "submission" : "2441",
+         "label" : "ChIP-seq;ama-1;N2;Young Adult;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult",
@@ -10301,8 +10298,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K79ME2346021_N2_EEMB"
          ],
-         "submission" : "modENCODE_2442",
-         "label" : "Strome AB3594_H3K79ME2346021_N2_EEMB",
+         "submission" : "2442",
+         "label" : "ChIP-chip;H3K79me2;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -10316,8 +10313,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K79ME3361576_N2_EEMB"
          ],
-         "submission" : "modENCODE_2443",
-         "label" : "Lieb AB2621_H3K79ME3361576_N2_EEMB",
+         "submission" : "2443",
+         "label" : "ChIP-chip;H3K79me3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -10331,8 +10328,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME26D11_N2_EEMB"
          ],
-         "submission" : "modENCODE_2444",
-         "label" : "Strome HK00008_H3K9ME26D11_N2_EEMB",
+         "submission" : "2444",
+         "label" : "ChIP-chip;H3K9me2;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -10346,8 +10343,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_CSP/HCP3_N2_MXEMB"
          ],
-         "submission" : "modENCODE_2446",
-         "label" : "Desai OD00079_HCP3_N2_MXEMB",
+         "submission" : "2446",
+         "label" : "ChIP-chip;HCP-3;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -10361,8 +10358,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_GEI11_L4_GFP"
          ],
-         "submission" : "modENCODE_2451",
-         "label" : "Identification of Transcription Factor GEI-1::GFP Binding Regions in L4",
+         "submission" : "2451",
+         "label" : "ChIP-seq;gei-11;OP179;L4 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP179",
          "Developmental-Stage" : "L4 stage larvae",
@@ -10378,8 +10375,8 @@
          "Tracks" : [
             "worm/PEMBRYO_FAX_WIG/L3-L4_hypodermis"
          ],
-         "submission" : "modENCODE_2454",
-         "label" : "L3-L4_hypodermis_tiling_array",
+         "submission" : "2454",
+         "label" : "RNA-tiling-array;total-RNA;NC1790;L3-L4 22 hr 23dC 24 hr post-L1 stage larvae;23 degree celsius;hypodermis (L3-L4)",
          "type" : "data set",
          "Strain" : "NC1790",
          "Developmental-Stage" : "L3-L4 22 hr 23dC 24 hr post-L1 stage larvae",
@@ -10394,8 +10391,8 @@
          "Tracks" : [
             "worm/L1.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2455",
-         "label" : "3'RACE polyA-capture L1 454 sequencing",
+         "submission" : "2455",
+         "label" : "RACE;3-prime-UTR;N2;L1 8 hr post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L1 8 hr post-L1 stage larvae",
@@ -10410,8 +10407,8 @@
          "Tracks" : [
             "worm/L2.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2456",
-         "label" : "3'RACE polyA-capture L2 454 sequencing",
+         "submission" : "2456",
+         "label" : "RACE;3-prime-UTR;N2;L2 20 hr post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L2 20 hr post-L1 stage larvae",
@@ -10426,8 +10423,8 @@
          "Tracks" : [
             "worm/L3.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2457",
-         "label" : "3'RACE polyA-capture L3 454 sequencing",
+         "submission" : "2457",
+         "label" : "RACE;3-prime-UTR;N2;L3 30 hr post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 30 hr post-L1 stage larvae",
@@ -10442,8 +10439,8 @@
          "Tracks" : [
             "worm/L4.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2458",
-         "label" : "3'RACE polyA-capture N2 L4 454 sequencing",
+         "submission" : "2458",
+         "label" : "RACE;3-prime-UTR;N2;L4 45 hr post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L4 45 hr post-L1 stage larvae",
@@ -10458,8 +10455,8 @@
          "Tracks" : [
             "worm/YM_male.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2459",
-         "label" : "3'RACE polyA-capture adult males 454 sequencing",
+         "submission" : "2459",
+         "label" : "RACE;3-prime-UTR;him-8(e1489);Adult males 70 hr post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "him-8(e1489)",
          "Developmental-Stage" : "Adult males 70 hr post-L1 stage larvae",
@@ -10474,8 +10471,8 @@
          "Tracks" : [
             "worm/YA_herm.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2460",
-         "label" : "3'RACE polyA-capture adult hermaphrodite 454 sequencing",
+         "submission" : "2460",
+         "label" : "RACE;3-prime-UTR;N2;Adult 70 hr post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Adult 70 hr post-L1 stage larvae",
@@ -10490,8 +10487,8 @@
          "Tracks" : [
             "worm/L33daf02.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2461",
-         "label" : "3'RACE polyA-capture daf-2 dauer 454 sequencing",
+         "submission" : "2461",
+         "label" : "RACE;3-prime-UTR;daf-2(e1370);Dauer Larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "daf-2(e1370)",
          "Developmental-Stage" : "Dauer Larvae",
@@ -10506,8 +10503,8 @@
          "Tracks" : [
             "worm/L33daf07.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2462",
-         "label" : "3'RACE polyA-capture daf-7 dauer 454 sequencing",
+         "submission" : "2462",
+         "label" : "RACE;3-prime-UTR;daf-7(e1372);Dauer Larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "daf-7(e1372)",
          "Developmental-Stage" : "Dauer Larvae",
@@ -10522,8 +10519,8 @@
          "Tracks" : [
             "worm/L33daf09.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2463",
-         "label" : "3'RACE polyA-capture daf-9 dauer 454 sequencing",
+         "submission" : "2463",
+         "label" : "RACE;3-prime-UTR;daf-9(m540);Dauer Larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "daf-9(m540)",
          "Developmental-Stage" : "Dauer Larvae",
@@ -10538,8 +10535,8 @@
          "Tracks" : [
             "worm/L33daf11.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2464",
-         "label" : "3'RACE polyA-capture daf-11 dauer 454 sequencing",
+         "submission" : "2464",
+         "label" : "RACE;3-prime-UTR;daf-11(m47);Dauer Larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "daf-11(m47)",
          "Developmental-Stage" : "Dauer Larvae",
@@ -10554,8 +10551,8 @@
          "Tracks" : [
             "worm/E.ws220.sam_sorted"
          ],
-         "submission" : "modENCODE_2465",
-         "label" : "3'RACE polyA-capture N2 embryos 454 sequencing",
+         "submission" : "2465",
+         "label" : "RACE;3-prime-UTR;N2;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Embryos",
@@ -10586,8 +10583,8 @@
             "worm/marco1_G_sorted",
             "worm/marco1_C_sorted"
          ],
-         "submission" : "modENCODE_2482",
-         "label" : "Mixed-stage 3'RACE 454 sequencing & alignment",
+         "submission" : "2482",
+         "label" : "RACE;3-prime-UTR;N2;Mixed Population Worms;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Population Worms",
@@ -10599,8 +10596,8 @@
          "factor" : "small-RNA",
          "target" : "small RNA",
          "principal_investigator" : "Piano, F.",
-         "submission" : "modENCODE_2483",
-         "label" : "smallRNA from mixed-stage embryos (GSM427346)",
+         "submission" : "2483",
+         "label" : "RNA-seq;small-RNA;TX189;immobile;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "TX189",
          "quality" : "immobile",
@@ -10621,8 +10618,8 @@
             "worm/H_bowtie.map.sam.gz_sorted",
             "worm/C_bowtie.map.sam.gz_sorted"
          ],
-         "submission" : "modENCODE_2484",
-         "label" : "Mixed-stage 3'RACE Solexa sequencing & alignment",
+         "submission" : "2484",
+         "label" : "RACE;3-prime-UTR;N2;Mixed Population Worms;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Population Worms",
@@ -10635,8 +10632,8 @@
          "Compound" : "methanol",
          "target" : "small RNA",
          "principal_investigator" : "Piano, F.",
-         "submission" : "modENCODE_2485",
-         "label" : "smallRNAs from two-to-four cell C. elegans embryos (GSM427297)",
+         "submission" : "2485",
+         "label" : "RNA-seq;small-RNA;methanol;TX189;Two-to-four cell stage Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "TX189",
          "Developmental-Stage" : "Two-to-four cell stage Embryos",
@@ -10649,8 +10646,8 @@
          "Compound" : "methanol",
          "target" : "small RNA",
          "principal_investigator" : "Piano, F.",
-         "submission" : "modENCODE_2486",
-         "label" : "smallRNAs from one cell stage C. elegans embryos (GSM427301)",
+         "submission" : "2486",
+         "label" : "RNA-seq;small-RNA;methanol;TX189;One cell stage Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "TX189",
          "Developmental-Stage" : "One cell stage Embryos",
@@ -10663,8 +10660,8 @@
          "Compound" : "water",
          "target" : "small RNA",
          "principal_investigator" : "Piano, F.",
-         "submission" : "modENCODE_2487",
-         "label" : "smallRNAs from post-gastrulation C. elegans embryos (GSM427332)",
+         "submission" : "2487",
+         "label" : "RNA-seq;small-RNA;water;TX189;Post-gastrulation Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "TX189",
          "Developmental-Stage" : "Post-gastrulation Embryos",
@@ -10677,8 +10674,8 @@
          "Compound" : "methanol",
          "target" : "small RNA",
          "principal_investigator" : "Piano, F.",
-         "submission" : "modENCODE_2488",
-         "label" : "smallRNAs from older, fixed C. elegans embryos (GSM427344)",
+         "submission" : "2488",
+         "label" : "RNA-seq;small-RNA;methanol;TX189;Older Embryos (12-cell+ stage);20 degree celsius",
          "type" : "data set",
          "Strain" : "TX189",
          "Developmental-Stage" : "Older Embryos (12-cell+ stage)",
@@ -10691,8 +10688,8 @@
          "Compound" : "water",
          "target" : "small RNA",
          "principal_investigator" : "Piano, F.",
-         "submission" : "modENCODE_2489",
-         "label" : "small RNAs from living one cell C. elegans embryos (GSM427345)",
+         "submission" : "2489",
+         "label" : "RNA-seq;small-RNA;water;TX189;One cell stage Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "TX189",
          "Developmental-Stage" : "One cell stage Embryos",
@@ -10708,8 +10705,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_BAG"
          ],
-         "submission" : "modENCODE_2499",
-         "label" : "Embryo BAG neurons tiling array",
+         "submission" : "2499",
+         "label" : "RNA-tiling-array;total-RNA;MT17370;Mixed stage of Embryos;25 degree celsius;BAG neurons (embryonic)",
          "type" : "data set",
          "Strain" : "MT17370",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -10725,8 +10722,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_PVC"
          ],
-         "submission" : "modENCODE_2500",
-         "label" : "embryo PVC neurons tiling array",
+         "submission" : "2500",
+         "label" : "RNA-tiling-array;total-RNA;NC2015;Mixed stage of Embryos;25 degree celsius;PVC neurons (embryonic)",
          "type" : "data set",
          "Strain" : "NC2015",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -10745,9 +10742,9 @@
             "fly/Henikoff_Salt_Ext_WIG/600mM_pellet"
          ],
          "extract" : "precipitate",
-         "submission" : "modENCODE_2502",
+         "submission" : "2502",
          "Cell-Line" : "Fly biotin-tagged H2Av",
-         "label" : "Salt Extracted Chromatin Pellet",
+         "label" : "DNA-tiling-array;His2Av;600 mM salt;precipitate;Fly biotin-tagged H2Av;time-point-1 – 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -10764,9 +10761,9 @@
             "fly/Henikoff_Salt_Ext_WIG/150mM_fraction"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2503",
+         "submission" : "2503",
          "Cell-Line" : "Fly biotin-tagged H2Av",
-         "label" : "150_mM_Salt_Extracted_Chromatin",
+         "label" : "DNA-tiling-array;His2Av;150 mM salt;soluble fraction;Fly biotin-tagged H2Av;time-point-1-2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -10780,9 +10777,9 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2504",
+         "submission" : "2504",
          "Cell-Line" : "Fly biotin-tagged H2Av",
-         "label" : "H2Av_EDTA",
+         "label" : "DNA-tiling-array;His2Av;15 mM salt;soluble fraction;Fly biotin-tagged H2Av;time-point-1-2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -10796,9 +10793,9 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2505",
+         "submission" : "2505",
          "Cell-Line" : "Fly biotin-tagged H2A",
-         "label" : "H2A_EDTA",
+         "label" : "DNA-tiling-array;His2A;15 mM salt;soluble fraction;Fly biotin-tagged H2A;time-point-1-2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -10815,9 +10812,9 @@
             "fly/HenikoffNUCL/Nucleosome_Density_S2"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2506",
+         "submission" : "2506",
          "Cell-Line" : "Fly biotin-tagged H2Av",
-         "label" : "Fly_Nucleosome_density_S2",
+         "label" : "DNA-tiling-array;His2Av;15 mM salt;soluble fraction;Fly biotin-tagged H2Av;time-point-1-2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -10833,8 +10830,8 @@
             "fly/Henikoff_Salt_Ext_WIG/150mM_fraction_Emb_1-3hr"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2507",
-         "label" : "Fly_embryos_1-3_hr_150_mM_Salt_Extracted_Chromatin",
+         "submission" : "2507",
+         "label" : "DNA-tiling-array;Nucleosome;150 mM salt;soluble fraction;B3;time-point-1-2 hours;Embryonic stage 3 hr",
          "type" : "data set",
          "Strain" : "B3",
          "Developmental-Stage" : "Embryonic stage 3 hr",
@@ -10851,8 +10848,8 @@
             "fly/Henikoff_Salt_Ext_WIG/600mM_fraction_Emb_1-3hr"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2508",
-         "label" : "Fly_embryos_1-3_hr_600_mM_Salt_Extracted_Chromatin",
+         "submission" : "2508",
+         "label" : "DNA-tiling-array;Nucleosome;600 mM salt;soluble fraction;B3;time-point-1-2 hours;Embryonic stage 3 hr",
          "type" : "data set",
          "Strain" : "B3",
          "Developmental-Stage" : "Embryonic stage 3 hr",
@@ -10869,8 +10866,8 @@
             "fly/Henikoff_Salt_Ext_WIG/600mM_pellet_Emb_1-3hr"
          ],
          "extract" : "precipitate",
-         "submission" : "modENCODE_2509",
-         "label" : "Fly_embryos_1-3_hr_600_mM_Salt_Extracted_Chromatin_Pellet",
+         "submission" : "2509",
+         "label" : "DNA-tiling-array;Nucleosome;600 mM salt;precipitate;B3;time-point-1-2 hours;Embryonic stage 3 hr",
          "type" : "data set",
          "Strain" : "B3",
          "Developmental-Stage" : "Embryonic stage 3 hr",
@@ -10887,8 +10884,8 @@
             "fly/Henikoff_Salt_Ext_WIG/150mM_fraction_Emb_4-6hr"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2510",
-         "label" : "Fly_embryos_4-6_hr_150_mM_Salt_Extracted_Chromatin",
+         "submission" : "2510",
+         "label" : "DNA-tiling-array;Nucleosome;150 mM salt;soluble fraction;B3;time-point-1-2 hours;Extended germ band stage",
          "type" : "data set",
          "Strain" : "B3",
          "Developmental-Stage" : "Extended germ band stage",
@@ -10905,8 +10902,8 @@
             "fly/Henikoff_Salt_Ext_WIG/600mM_fraction_Emb_4-6hr"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2511",
-         "label" : "Fly_embryos_4-6_hr_600_mM_Salt_Extracted_Chromatin",
+         "submission" : "2511",
+         "label" : "DNA-tiling-array;Nucleosome;600 mM salt;soluble fraction;B3;time-point-1-2 hours;Extended germ band stage",
          "type" : "data set",
          "Strain" : "B3",
          "Developmental-Stage" : "Extended germ band stage",
@@ -10923,8 +10920,8 @@
             "fly/Henikoff_Salt_Ext_WIG/600mM_Pellet_Emb_4-6hr"
          ],
          "extract" : "precipitate",
-         "submission" : "modENCODE_2512",
-         "label" : "Fly_embryos_4-6_hr_600_mM_Salt_Extracted_Chromatin_Pellet",
+         "submission" : "2512",
+         "label" : "DNA-tiling-array;Nucleosome;600 mM salt;precipitate;B3;time-point-1-2 hours;Extended germ band stage",
          "type" : "data set",
          "Strain" : "B3",
          "Developmental-Stage" : "Extended germ band stage",
@@ -10942,9 +10939,9 @@
             "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_wing_disc"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2513",
+         "submission" : "2513",
          "Cell-Line" : "ML-DmD16-c3",
-         "label" : "Fly_wing_disc_80_mM_Salt_Extracted_Chromatin",
+         "label" : "DNA-tiling-array;Nucleosome;80 mM salt;soluble fraction;ML-DmD16-c3;time-point-1-2 hours;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -10961,9 +10958,9 @@
             "fly/Henikoff_Salt_Ext_WIG/150mM_fraction_wing_disc"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2514",
+         "submission" : "2514",
          "Cell-Line" : "ML-DmD16-c3",
-         "label" : "Fly_wing_disc_150_mM_Salt_Extracted_Chromatin",
+         "label" : "DNA-tiling-array;Nucleosome;150 mM salt;soluble fraction;ML-DmD16-c3;time-point-1-2 hours;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -10980,9 +10977,9 @@
             "fly/Henikoff_Salt_Ext_WIG/600mM_fraction_wing_disc"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2515",
+         "submission" : "2515",
          "Cell-Line" : "ML-DmD16-c3",
-         "label" : "Fly_wing_disc_600_mM_Salt_Extracted_Chromatin",
+         "label" : "DNA-tiling-array;Nucleosome;600 mM salt;soluble fraction;ML-DmD16-c3;time-point-1-2 hours;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -10999,9 +10996,9 @@
             "fly/Henikoff_Salt_Ext_WIG/600mM_pellet_wing_disc"
          ],
          "extract" : "precipitate",
-         "submission" : "modENCODE_2516",
+         "submission" : "2516",
          "Cell-Line" : "ML-DmD16-c3",
-         "label" : "Fly_wing_disc_600_mM_Salt_Extracted_Chromatin_Pellet",
+         "label" : "DNA-tiling-array;Nucleosome;600 mM salt;precipitate;ML-DmD16-c3;time-point-1-2 hours;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -11018,9 +11015,9 @@
             "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_S2"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2517",
+         "submission" : "2517",
          "Cell-Line" : "S2-DRSC",
-         "label" : "80 mM Salt Extracted Chromatin S2",
+         "label" : "DNA-tiling-array;Nucleosome;80 mM salt;soluble fraction;S2-DRSC;time-point-1 – 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11037,9 +11034,9 @@
             "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_H2A"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2518",
+         "submission" : "2518",
          "Cell-Line" : "Fly biotin-tagged H2A",
-         "label" : "80 mM Salt Extracted Chromatin H2A",
+         "label" : "DNA-tiling-array;His2A;80 mM salt;soluble fraction;Fly biotin-tagged H2A;time-point-1 – 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11056,9 +11053,9 @@
             "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_H2Av"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2519",
+         "submission" : "2519",
          "Cell-Line" : "Fly biotin-tagged H2Av",
-         "label" : "80 mM Salt Extracted Chromatin H2Av",
+         "label" : "DNA-tiling-array;His2Av;80 mM salt;soluble fraction;Fly biotin-tagged H2Av;time-point-1 – 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11075,9 +11072,9 @@
             "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_H3.3"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2520",
+         "submission" : "2520",
          "Cell-Line" : "Fly biotin-tagged H3.3",
-         "label" : "80 mM Salt Extracted Chromatin H3.3",
+         "label" : "DNA-tiling-array;His3.3A;80 mM salt;soluble fraction;Fly biotin-tagged H3.3;time-point-1 – 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11094,9 +11091,9 @@
             "fly/Henikoff_Salt_Ext_WIG/80-150mM_fraction_H2Av"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2521",
+         "submission" : "2521",
          "Cell-Line" : "Fly biotin-tagged H2Av",
-         "label" : "80-150 mM Salt Extracted Chromatin H2Av",
+         "label" : "DNA-tiling-array;His2Av;80-150 mM salt;soluble fraction;Fly biotin-tagged H2Av;time-point-1.5 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11113,9 +11110,9 @@
             "fly/Henikoff_Salt_Ext_WIG/80-150mM_fraction_S2"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2522",
+         "submission" : "2522",
          "Cell-Line" : "S2-DRSC",
-         "label" : "80-150 mM Salt Extracted Chromatin S2",
+         "label" : "DNA-tiling-array;Nucleosome;80-150 mM salt;soluble fraction;S2-DRSC;time-point-3 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11132,9 +11129,9 @@
             "fly/Henikoff_Salt_Ext_WIG/80-600mM_fraction_H3.3"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2523",
+         "submission" : "2523",
          "Cell-Line" : "Fly biotin-tagged H3.3",
-         "label" : "80-600_mM_Salt_Extracted_Chromatin H3.3",
+         "label" : "DNA-tiling-array;His3.3A;80-600 mM salt;soluble fraction;Fly biotin-tagged H3.3;time-point-1 – 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11151,9 +11148,9 @@
             "fly/Henikoff_Salt_Ext_WIG/80-600mM_fraction_H2Av"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2524",
+         "submission" : "2524",
          "Cell-Line" : "Fly biotin-tagged H2Av",
-         "label" : "80-600_mM_Salt_Extracted_Chromatin H2Av",
+         "label" : "DNA-tiling-array;His2Av;80-600 mM salt;soluble fraction;Fly biotin-tagged H2Av;time-point-1 – 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11170,9 +11167,9 @@
             "fly/Henikoff_Salt_Ext_WIG/150-600mM_fraction_H2Av"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2525",
+         "submission" : "2525",
          "Cell-Line" : "Fly biotin-tagged H2Av",
-         "label" : "150_600_mM_Salt_Extracted_Chromatin_H2Av",
+         "label" : "DNA-tiling-array;His2Av;150-600 mM salt;soluble fraction;Fly biotin-tagged H2Av;time-point-1 – 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11189,9 +11186,9 @@
             "fly/Henikoff_Salt_Ext_WIG/150-600mM_fraction_H3.3"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2526",
+         "submission" : "2526",
          "Cell-Line" : "Fly biotin-tagged H3",
-         "label" : "150_600_mM_Salt_Extracted_Chromatin H3.3",
+         "label" : "DNA-tiling-array;His3;150-600 mM salt;soluble fraction;Fly biotin-tagged H3;time-point-1 – 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11208,9 +11205,9 @@
             "fly/Henikoff_Salt_Ext_WIG/150-600mM_fraction_S2"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2527",
+         "submission" : "2527",
          "Cell-Line" : "S2-DRSC",
-         "label" : "150_600_mM_Salt_Extracted_Chromatin S2",
+         "label" : "DNA-tiling-array;Nucleosome;150-600 mM salt;soluble fraction;S2-DRSC;time-point-1 – 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11227,9 +11224,9 @@
             "fly/HenikoffNUCL/Mononucleosomes_H3.3"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2528",
+         "submission" : "2528",
          "Cell-Line" : "Fly biotin-tagged H3.3",
-         "label" : "Fly_Mononucleosomes_H3.3",
+         "label" : "DNA-tiling-array;His3.3A;15 mM salt;soluble fraction;Fly biotin-tagged H3.3;time-point-1 – 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11246,9 +11243,9 @@
             "fly/HenikoffNUCL/Mononucleosomes_H2Av"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2529",
+         "submission" : "2529",
          "Cell-Line" : "Fly biotin-tagged H2Av",
-         "label" : "Fly_Mononucleosomes H2Av",
+         "label" : "DNA-tiling-array;His2Av;15 mM salt;soluble fraction;Fly biotin-tagged H2Av;time-point-1 – 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11264,8 +11261,8 @@
             "worm/Henikoff_Salt_Ext_VISTA/80mM_fraction"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2531",
-         "label" : "80_mM_Embryonic_Salt_Extracted_Chromatin",
+         "submission" : "2531",
+         "label" : "DNA-tiling-array;his-72;80 mM salt;soluble fraction;JJ2061;time-point-18 hours;Mixed Embryos",
          "type" : "data set",
          "Strain" : "JJ2061",
          "Developmental-Stage" : "Mixed Embryos",
@@ -11282,8 +11279,8 @@
             "worm/Henikoff_Salt_Ext_VISTA/600mM_fraction"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2532",
-         "label" : "600_mM_Embryonic_Salt_Extracted_Chromatin",
+         "submission" : "2532",
+         "label" : "DNA-tiling-array;his-72;600 mM salt;soluble fraction;JJ2061;time-point-2 hours;Mixed Embryos",
          "type" : "data set",
          "Strain" : "JJ2061",
          "Developmental-Stage" : "Mixed Embryos",
@@ -11300,8 +11297,8 @@
             "worm/Henikoff_Salt_Ext_VISTA/600mM_Pellet"
          ],
          "extract" : "precipitate",
-         "submission" : "modENCODE_2533",
-         "label" : "600_mM_Embryonic_Salt_Extracted_Chromatin_Pellet",
+         "submission" : "2533",
+         "label" : "DNA-tiling-array;his-72;600 mM salt;precipitate;JJ2061;time-point-18 hours;Mixed Embryos",
          "type" : "data set",
          "Strain" : "JJ2061",
          "Developmental-Stage" : "Mixed Embryos",
@@ -11318,8 +11315,8 @@
             "worm/Henikoff_Salt_H3_VISTA/80mM_fraction"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2534",
-         "label" : "H3.3_80_mM_Salt_Extracted_Chromatin",
+         "submission" : "2534",
+         "label" : "DNA-tiling-array;his-72;80 mM salt;soluble fraction;JJ2061;time-point-2 hours;Mixed Embryos",
          "type" : "data set",
          "Strain" : "JJ2061",
          "Developmental-Stage" : "Mixed Embryos",
@@ -11336,8 +11333,8 @@
             "worm/Henikoff_Salt_H3_VISTA/350mM_fraction"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2535",
-         "label" : "H3.3_350_mM_Salt_Extracted_Chromatin",
+         "submission" : "2535",
+         "label" : "DNA-tiling-array;his-72;350 mM salt;soluble fraction;JJ2061;time-point-1 - 4 hours;Mixed Embryos",
          "type" : "data set",
          "Strain" : "JJ2061",
          "Developmental-Stage" : "Mixed Embryos",
@@ -11354,8 +11351,8 @@
             "worm/Henikoff_Salt_H3_VISTA/600mM_fraction"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2536",
-         "label" : "H3.3_600_mM_Salt_Extracted_Chromatin",
+         "submission" : "2536",
+         "label" : "DNA-tiling-array;his-72;600 mM salt;soluble fraction;JJ2061;time-point-18 hours;Mixed Embryos",
          "type" : "data set",
          "Strain" : "JJ2061",
          "Developmental-Stage" : "Mixed Embryos",
@@ -11372,8 +11369,8 @@
             "worm/HenikoffNUCL/Emb_Mononucleosomes"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2537",
-         "label" : "Embryonic_Mononucleosomes",
+         "submission" : "2537",
+         "label" : "DNA-tiling-array;his-72;80 mM salt;soluble fraction;JJ2061;time-point-1 - 4 hours;Mixed Embryos",
          "type" : "data set",
          "Strain" : "JJ2061",
          "Developmental-Stage" : "Mixed Embryos",
@@ -11390,8 +11387,8 @@
             "worm/HenikoffNUCL/Adt_Mononucleosomes"
          ],
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2538",
-         "label" : "Adult_Mononucleosomes",
+         "submission" : "2538",
+         "label" : "DNA-tiling-array;his-72;80 mM salt;soluble fraction;JJ2061;time-point-1 - 4 hours;Young Adult",
          "type" : "data set",
          "Strain" : "JJ2061",
          "Developmental-Stage" : "Young Adult",
@@ -11402,8 +11399,8 @@
          "factor" : "HCP-3",
          "target" : "Chromatin Structure",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_2541",
-         "label" : "Strome OD00079_HCP3_N2_EEMB",
+         "submission" : "2541",
+         "label" : "ChIP-chip;HCP-3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -11419,8 +11416,8 @@
             "fly/P0_GSM360260.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_PE/0-1day_pupae"
          ],
-         "submission" : "modENCODE_2543",
-         "label" : "Lai - small RNA from 0-1 day old pupae",
+         "submission" : "2543",
+         "label" : "RNA-seq;small-RNA;Canton S;0-1 day old pupae;Whole organism",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "0-1 day old pupae",
@@ -11435,8 +11432,8 @@
          "Tracks" : [
             "fly/MacAlpine_CGH_WIG/Follicle_OregonR-Orr-Weaver"
          ],
-         "submission" : "modENCODE_2544",
-         "label" : "CGH Salivary Gland",
+         "submission" : "2544",
+         "label" : "CGH;Replication-Copy-Number;Embryos 0-4 hr;larval salivary gland",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-4 hr",
          "organism" : "D. melanogaster"
@@ -11450,8 +11447,8 @@
          "Tracks" : [
             "fly/MacAlpine_CGH_WIG/Salivary_OregonR-Orr-Weaver"
          ],
-         "submission" : "modENCODE_2545",
-         "label" : "CGH Salivary Gland",
+         "submission" : "2545",
+         "label" : "CGH;Replication-Copy-Number;Oregon-R Orr-Weaver;Embryos 0-4 hr;larval salivary gland",
          "type" : "data set",
          "Strain" : "Oregon-R Orr-Weaver",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -11467,8 +11464,8 @@
             "fly/Lai_RNASEQ_DUAL_PE/L1_2ndRep",
             "fly/L1_GSM360257.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2546",
-         "label" : "Lai - small RNA from 1st instar larvae",
+         "submission" : "2546",
+         "label" : "RNA-seq;small-RNA;Canton S;1st instar larvae;Whole organism",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "1st instar larvae",
@@ -11483,8 +11480,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_PhM"
          ],
-         "submission" : "modENCODE_2548",
-         "label" : "embryo pharyngeal muscle tiling array",
+         "submission" : "2548",
+         "label" : "RNA-tiling-array;total-RNA;NC1293;Mixed stage of Embryos;25 degree celsius;pharyngeal muscle",
          "type" : "data set",
          "Strain" : "NC1293",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -11500,8 +11497,8 @@
             "fly/Dm_CAGE_HYB",
             "fly/Celniker_CAGE_Illumina"
          ],
-         "submission" : "modENCODE_2549",
-         "label" : "CAGE sequencing of mixed embryo 5' ends",
+         "submission" : "2549",
+         "label" : "CAGE;5-prime-UTR;Y cn bw sp;Mixed Embryos 0-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Mixed Embryos 0-24 hr",
@@ -11516,9 +11513,9 @@
          "Tracks" : [
             "fly/MacAlpine_CNV/S2"
          ],
-         "submission" : "modENCODE_2551",
+         "submission" : "2551",
          "Cell-Line" : "S2-DRSC",
-         "label" : "CNV S2-DRSC Cells",
+         "label" : "CNV-seq;Replication-Copy-Number;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11532,9 +11529,9 @@
          "Tracks" : [
             "fly/MacAlpine_CNV/Kc167"
          ],
-         "submission" : "modENCODE_2552",
+         "submission" : "2552",
          "Cell-Line" : "Kc167",
-         "label" : "CNV Kc-167 Cells",
+         "label" : "CNV-seq;Replication-Copy-Number;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11548,9 +11545,9 @@
          "Tracks" : [
             "fly/MacAlpine_CNV/Bg3"
          ],
-         "submission" : "modENCODE_2553",
+         "submission" : "2553",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "CNV ML-DmBG3-c2 Cells",
+         "label" : "CNV-seq;Replication-Copy-Number;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -11565,8 +11562,8 @@
             "fly/YAM2_GSM399107.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_T/Male_body_2ndRep"
          ],
-         "submission" : "modENCODE_2554",
-         "label" : "Lai - Male body",
+         "submission" : "2554",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult male;Male body",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult male",
@@ -11582,8 +11579,8 @@
             "fly/YAF2_GSM399106.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_T/Female_body_2ndRep"
          ],
-         "submission" : "modENCODE_2555",
-         "label" : "Lai - small RNAs from adult female body",
+         "submission" : "2555",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult Female;Female body",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult Female",
@@ -11599,8 +11596,8 @@
             "fly/Lai_RNASEQ_DUAL_PE/0-2day_pupae",
             "fly/P02_GSM360262.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2556",
-         "label" : "Lai - small RNA from 0-2 day old pupae",
+         "submission" : "2556",
+         "label" : "RNA-seq;small-RNA;Canton S;0-2 day old pupae;Whole organism",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "0-2 day old pupae",
@@ -11614,8 +11611,8 @@
          "Tracks" : [
             "worm/Waterston_MS_match"
          ],
-         "submission" : "modENCODE_2557",
-         "label" : "Mass Spectrometric Validation of Sort ORFs round 1",
+         "submission" : "2557",
+         "label" : "Mass-spec;total-RNA;N2;Mass spec;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mass spec",
@@ -11630,8 +11627,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CHROMISOL/HDAC11_494"
          ],
-         "submission" : "modENCODE_2558",
-         "label" : "E0-12h_HDAC11-494",
+         "submission" : "2558",
+         "label" : "ChIP-chip;HDAC11;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -11645,8 +11642,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CHROMISOL/HDAC1_500"
          ],
-         "submission" : "modENCODE_2559",
-         "label" : "E0-12h_HDAC1-500",
+         "submission" : "2559",
+         "label" : "ChIP-chip;HDAC1;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -11660,8 +11657,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CHROMISOL/HDAC1_501"
          ],
-         "submission" : "modENCODE_2560",
-         "label" : "E0-12h_HDAC1-501",
+         "submission" : "2560",
+         "label" : "ChIP-chip;HDAC1;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -11675,8 +11672,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CHROMISOL/HDAC3_498"
          ],
-         "submission" : "modENCODE_2561",
-         "label" : "E0-12h_HDAC3-498",
+         "submission" : "2561",
+         "label" : "ChIP-chip;HDAC3;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -11690,8 +11687,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CHROMISOL/HDAC3_499"
          ],
-         "submission" : "modENCODE_2562",
-         "label" : "E0-12h_HDAC3-499",
+         "submission" : "2562",
+         "label" : "ChIP-chip;HDAC3;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -11705,8 +11702,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CHROMISOL/HDAC4a_492"
          ],
-         "submission" : "modENCODE_2563",
-         "label" : "E0-12h_HDAC4a-492",
+         "submission" : "2563",
+         "label" : "ChIP-chip;HDAC4a;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -11720,8 +11717,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CHROMISOL/HDAC4a_493"
          ],
-         "submission" : "modENCODE_2564",
-         "label" : "E0-12h_HDAC4a-493",
+         "submission" : "2564",
+         "label" : "ChIP-chip;HDAC4a;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -11735,8 +11732,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CHROMISOL/HDAC6_496"
          ],
-         "submission" : "modENCODE_2565",
-         "label" : "E0-12h_HDAC6-496",
+         "submission" : "2565",
+         "label" : "ChIP-chip;HDAC6;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -11750,8 +11747,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CHROMISOL/HDAC6_497"
          ],
-         "submission" : "modENCODE_2566",
-         "label" : "E0-12h_HDAC6-497",
+         "submission" : "2566",
+         "label" : "ChIP-chip;HDAC6;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -11765,8 +11762,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CHROMISOL/HDAC11_495"
          ],
-         "submission" : "modENCODE_2567",
-         "label" : "E0-12h_HDAC11-495",
+         "submission" : "2567",
+         "label" : "ChIP-chip;HDAC11;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -11781,9 +11778,9 @@
          "Tracks" : [
             "fly/White_CC_SG_TRITHORAX/Kc167_Trl"
          ],
-         "submission" : "modENCODE_2568",
+         "submission" : "2568",
          "Cell-Line" : "Kc167",
-         "label" : "Kc167_Trl ChIP-chip",
+         "label" : "ChIP-chip;GAF;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -11796,8 +11793,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CNS/E-0-4h_bks"
          ],
-         "submission" : "modENCODE_2569",
-         "label" : "E-0-4h_bks",
+         "submission" : "2569",
+         "label" : "ChIP-chip;Brakeless;Embryos 0-4 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-4 hr"
@@ -11810,8 +11807,8 @@
          "Tracks" : [
             "fly/White_CC_SG_TRANSFACT/E0-4h_cad"
          ],
-         "submission" : "modENCODE_2570",
-         "label" : "E0-4h_cad",
+         "submission" : "2570",
+         "label" : "ChIP-chip;Caudal;Embryos 0-4 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-4 hr"
@@ -11824,8 +11821,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CNS/E0-8_D"
          ],
-         "submission" : "modENCODE_2571",
-         "label" : "E0-8_D",
+         "submission" : "2571",
+         "label" : "ChIP-chip;Dichaete;Embryos 0-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-8 hr"
@@ -11838,8 +11835,8 @@
          "Tracks" : [
             "fly/White_CC_SG_PRONEUR/E0-8h_disco"
          ],
-         "submission" : "modENCODE_2572",
-         "label" : "E0-8h_disco",
+         "submission" : "2572",
+         "label" : "ChIP-chip;Disco;Embryos 0-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-8 hr"
@@ -11852,8 +11849,8 @@
          "Tracks" : [
             "fly/White_CC_SG_TRANSFACT/E0-8h_GATAe"
          ],
-         "submission" : "modENCODE_2573",
-         "label" : "E0-8h_GATAe",
+         "submission" : "2573",
+         "label" : "ChIP-chip;GATAe;Embryos 0-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-8 hr"
@@ -11866,8 +11863,8 @@
          "Tracks" : [
             "fly/White_CC_SG_TRANSFACT/E0-8h_h"
          ],
-         "submission" : "modENCODE_2574",
-         "label" : "E0-8h_h",
+         "submission" : "2574",
+         "label" : "ChIP-chip;Hairy;Embryos 0-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-8 hr"
@@ -11880,8 +11877,8 @@
          "Tracks" : [
             "fly/White_CC_SG_GAP/E0-8h_hkb"
          ],
-         "submission" : "modENCODE_2575",
-         "label" : "E0-8h_hkb",
+         "submission" : "2575",
+         "label" : "ChIP-chip;Huckebein;Embryos 0-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-8 hr"
@@ -11894,8 +11891,8 @@
          "Tracks" : [
             "fly/White_CC_SG_CNS/E0-8h_jumu"
          ],
-         "submission" : "modENCODE_2576",
-         "label" : "E0-8h_jumu",
+         "submission" : "2576",
+         "label" : "ChIP-chip;Jumeau;Embryos 0-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-8 hr"
@@ -11908,8 +11905,8 @@
          "Tracks" : [
             "fly/White_CC_SG_PRONEUR/E4-8h_sens"
          ],
-         "submission" : "modENCODE_2577",
-         "label" : "E4-8h_sens",
+         "submission" : "2577",
+         "label" : "ChIP-chip;senseless;Embryos 4-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 4-8 hr"
@@ -11923,8 +11920,8 @@
          "Tracks" : [
             "worm/YA_Adult_Harposporium_exposed_2_24hrs.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2580",
-         "label" : "pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments",
+         "submission" : "2580",
+         "label" : "RNA-seq;total-RNA;Harposporium;N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -11940,8 +11937,8 @@
          "Tracks" : [
             "worm/YA_Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2581",
-         "label" : "pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments",
+         "submission" : "2581",
+         "label" : "RNA-seq;total-RNA;E. coli (OP50);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -11957,8 +11954,8 @@
          "Tracks" : [
             "worm/YA_Adult_S_macescens_Db10_exposed_1_24hrs.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2582",
-         "label" : "RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment",
+         "submission" : "2582",
+         "label" : "RNA-seq;total-RNA;S. marcescens (Db11);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -11973,8 +11970,8 @@
          "Tracks" : [
             "worm/L4_soma_JK1107_no_DNaseI.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2583",
-         "label" : "RNAseq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments",
+         "submission" : "2583",
+         "label" : "RNA-seq;total-RNA;JK1107;Mid-L4 34.25 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "JK1107",
          "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
@@ -11990,8 +11987,8 @@
          "Tracks" : [
             "worm/YA_Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.alignments.ws220.bam.sorted"
          ],
-         "submission" : "modENCODE_2584",
-         "label" : "RNA-Seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments",
+         "submission" : "2584",
+         "label" : "RNA-seq;total-RNA;E. coli (OP50);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -12006,8 +12003,8 @@
          "Tracks" : [
             "fly/White_AGILENT_SG/ISO1_8-16_Ez"
          ],
-         "submission" : "modENCODE_2585",
-         "label" : "ISO1_8-16_Ez",
+         "submission" : "2585",
+         "label" : "ChIP-chip;Enhancer of zeste;Embryos 8-16 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 8-16 hr"
@@ -12021,9 +12018,9 @@
          "Tracks" : [
             "fly/S2_2586_hits.DCCheader.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_2586",
+         "submission" : "2586",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Dm_S2-DRSC_polyA_014-016_paired_RNA-Seq multimappers",
+         "label" : "RNA-seq;total-RNA;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -12041,8 +12038,8 @@
             "worm/Hillier_confirmed_introns_ADHARP2_24HR",
             "worm/rainbow_transcript_ADHARP2_24HR"
          ],
-         "submission" : "modENCODE_2587",
-         "label" : "pathogen Harposporium 25dC 24hr exposure post-adulthood N2 genelets",
+         "submission" : "2587",
+         "label" : "RNA-seq;total-RNA;Harposporium;N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -12062,8 +12059,8 @@
             "worm/rainbow_transcript_ADCONTR2_24HR",
             "worm/rainbow_genelet_ADCONTR2_24HR"
          ],
-         "submission" : "modENCODE_2588",
-         "label" : "pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 genelets",
+         "submission" : "2588",
+         "label" : "RNA-seq;total-RNA;E. coli (OP50);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -12083,8 +12080,8 @@
             "worm/Hillier_confirmed_introns_ADDB10EXP1_24HR",
             "worm/rainbow_transcript_ADDB10EXP1_24HR"
          ],
-         "submission" : "modENCODE_2589",
-         "label" : "RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 genelets",
+         "submission" : "2589",
+         "label" : "RNA-seq;total-RNA;S. marcescens (Db11);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -12103,8 +12100,8 @@
             "worm/Hillier_confirmed_SL_L4JK1107_NODNASE",
             "worm/Hillier_confirmed_polyA_L4JK1107_NODNASE"
          ],
-         "submission" : "modENCODE_2590",
-         "label" : "RNAseq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 genelets",
+         "submission" : "2590",
+         "label" : "RNA-seq;total-RNA;JK1107;Mid-L4 34.25 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "JK1107",
          "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
@@ -12124,8 +12121,8 @@
             "worm/rainbow_genelet_ADDB10CONR1_24HR",
             "worm/rainbow_transcript_ADDB10CONR1_24HR"
          ],
-         "submission" : "modENCODE_2591",
-         "label" : "RNA-Seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 genelets",
+         "submission" : "2591",
+         "label" : "RNA-seq;total-RNA;E. coli (OP50);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -12141,9 +12138,9 @@
          "Tracks" : [
             "fly/CME_2592_hits.DCCheader.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_2592",
+         "submission" : "2592",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "Dm_CME_W1_Cl.8+_polyA_060-062_paired_RNA-Seq_multimappers",
+         "label" : "RNA-seq;total-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -12157,9 +12154,9 @@
          "Tracks" : [
             "fly/KC167_2593_hits.DCCheader.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_2593",
+         "submission" : "2593",
          "Cell-Line" : "Kc167",
-         "label" : "Dm_Kc167_polyA_002-004_paired_RNA-Seq multimappers",
+         "label" : "RNA-seq;total-RNA;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -12173,9 +12170,9 @@
          "Tracks" : [
             "fly/ML_2594_hits.DCCheader.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_2594",
+         "submission" : "2594",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Dm_ML-DmBG3-c2_polyA_122-124_paired_RNA-Seq multimappers",
+         "label" : "RNA-seq;total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -12188,8 +12185,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIAMA_WIG_COMB_HLH8_POLII_L3"
          ],
-         "submission" : "modENCODE_2597",
-         "label" : "Identification of Pol II Binding Regions in L3 HLH-8::GFP",
+         "submission" : "2597",
+         "label" : "ChIP-seq;hlh-8;OP74;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP74",
          "Developmental-Stage" : "L3 stage larvae",
@@ -12204,8 +12201,8 @@
          "Tracks" : [
             "worm/Snyder_PHA4_GFP_COMB/PHA4_GFP_lemb"
          ],
-         "submission" : "modENCODE_2598",
-         "label" : "Identification of Transcription Factor PHA-4::GFP Binding Regions in Late Embryo",
+         "submission" : "2598",
+         "label" : "ChIP-seq;pha-4;OP37;Late Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP37",
          "Developmental-Stage" : "Late Embryos",
@@ -12220,8 +12217,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_MEP1_GFP_emb"
          ],
-         "submission" : "modENCODE_2600",
-         "label" : "Identification of Transcription Factor MEP-1::GFP Binding Regions in Embryos",
+         "submission" : "2600",
+         "label" : "ChIP-seq;mep-1;OP70;Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP70",
          "Developmental-Stage" : "Embryos",
@@ -12236,8 +12233,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_MDL1_GFP_L1"
          ],
-         "submission" : "modENCODE_2601",
-         "label" : "Identification of Transcription Factor MDL-1::GFP Binding Regions in L1",
+         "submission" : "2601",
+         "label" : "ChIP-seq;mdl-1;OP106;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP106",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -12252,8 +12249,8 @@
          "Tracks" : [
             "fly/White_AGILENT_SG/ISO1_8-16_mod_mdg4"
          ],
-         "submission" : "modENCODE_2602",
-         "label" : "ISO1_8-16_mod_mdg4",
+         "submission" : "2602",
+         "label" : "ChIP-chip;mod(mdg4);Embryos 8-16 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 8-16 hr"
@@ -12266,8 +12263,8 @@
          "Tracks" : [
             "fly/White_AGILENT_SG/R13_1-6-GFP_BC"
          ],
-         "submission" : "modENCODE_2603",
-         "label" : "R13_1-6_eve-GFP",
+         "submission" : "2603",
+         "label" : "ChIP-chip;eve;R13-YFP;Embryos 1-6 hr",
          "type" : "data set",
          "Strain" : "R13-YFP",
          "Developmental-Stage" : "Embryos 1-6 hr",
@@ -12281,8 +12278,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB9048_H3K36ME1206009_N2_EEMB"
          ],
-         "submission" : "modENCODE_2604",
-         "label" : "Strome AB9048_H3K36ME1206009_N2_EEMB",
+         "submission" : "2604",
+         "label" : "ChIP-chip;H3K36me1;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -12298,9 +12295,9 @@
             "fly/OSS.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_CELLS/OSS"
          ],
-         "submission" : "modENCODE_2605",
+         "submission" : "2605",
          "Cell-Line" : "OvarySomaticSheet",
-         "label" : "Lai_OvarySomaticSheet_smallRNA_4rep",
+         "label" : "RNA-seq;small-RNA;OvarySomaticSheet;Adult stage;ovary",
          "type" : "data set",
          "Developmental-Stage" : "Adult stage",
          "organism" : "D. melanogaster"
@@ -12315,9 +12312,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/Kc167_2rep",
             "fly/KC_Lai_Kc167_2rep.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2606",
+         "submission" : "2606",
          "Cell-Line" : "Kc167",
-         "label" : "Lai_Kc167_2rep",
+         "label" : "RNA-seq;small-RNA;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -12332,9 +12329,9 @@
             "fly/S2RPlus_2rep.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_CELLS/S2Rplus_2rep"
          ],
-         "submission" : "modENCODE_2608",
+         "submission" : "2608",
          "Cell-Line" : "S2R+",
-         "label" : "Lai_S2RPlus_2rep",
+         "label" : "RNA-seq;small-RNA;S2R+;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -12347,8 +12344,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_LIN15B_GFP_L3"
          ],
-         "submission" : "modENCODE_2610",
-         "label" : "Identification of Transcription Factor LIN-15B::GFP Binding Regions in L3",
+         "submission" : "2610",
+         "label" : "ChIP-seq;lin-15B;OP184;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP184",
          "Developmental-Stage" : "L3 stage larvae",
@@ -12363,8 +12360,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_BLMP1_GFP_L1"
          ],
-         "submission" : "modENCODE_2612",
-         "label" : "Identification of Transcription Factor BLMP-1::GFP Binding Regions in L1",
+         "submission" : "2612",
+         "label" : "ChIP-seq;blmp-1;OP109;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP109",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -12379,8 +12376,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_LIN13_GFP_emb"
          ],
-         "submission" : "modENCODE_2613",
-         "label" : "Identification of Transcription Factor LIN-13::GFP Binding Regions in Embryos",
+         "submission" : "2613",
+         "label" : "ChIP-seq;lin-13;OP51;Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP51",
          "Developmental-Stage" : "Embryos",
@@ -12395,8 +12392,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_ELT3_GFP_L1"
          ],
-         "submission" : "modENCODE_2614",
-         "label" : "Identification of Transcription Factor ELT-3::GFP Binding Regions in L1",
+         "submission" : "2614",
+         "label" : "ChIP-seq;elt-3;OP75;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP75",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -12408,8 +12405,8 @@
          "factor" : "nhr-105",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_2617",
-         "label" : "Identification of Transcription Factor NHR-105::GFP Binding Regions in L3",
+         "submission" : "2617",
+         "label" : "ChIP-seq;nhr-105;OP199;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP199",
          "Developmental-Stage" : "L3 stage larvae",
@@ -12424,8 +12421,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_CEH30_GFP_lemb"
          ],
-         "submission" : "modENCODE_2620",
-         "label" : "Identification of Transcription Factor CEH-30::GFP Binding Regions in Late Embyros",
+         "submission" : "2620",
+         "label" : "ChIP-seq;ceh-30;OP120;Late Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP120",
          "Developmental-Stage" : "Late Embryos",
@@ -12440,8 +12437,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_EGL27_GFP_L1"
          ],
-         "submission" : "modENCODE_2621",
-         "label" : "Identification of Transcription Factor EGL-27::GFP Binding Regions in L1",
+         "submission" : "2621",
+         "label" : "ChIP-seq;egl-27;OP177;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP177",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -12456,8 +12453,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_SKN1_GFP_L1"
          ],
-         "submission" : "modENCODE_2622",
-         "label" : "Identification of Transcription Factor SKN-1::GFP Binding Regions in L1",
+         "submission" : "2622",
+         "label" : "ChIP-seq;skn-1;OP178;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP178",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -12472,8 +12469,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_PQM1_GFP_L3"
          ],
-         "submission" : "modENCODE_2623",
-         "label" : "Identification of Transcription Factor PQM-1::GFP Binding Regions in L3",
+         "submission" : "2623",
+         "label" : "ChIP-seq;pqm-1;OP201;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP201",
          "Developmental-Stage" : "L3 stage larvae",
@@ -12488,8 +12485,8 @@
          "Tracks" : [
             "fly/White_CS_SG_GAP/A-Female_7T"
          ],
-         "submission" : "modENCODE_2625",
-         "label" : "A-Female_7T",
+         "submission" : "2625",
+         "label" : "ChIP-seq;cad;7T-CAD;Adult Female",
          "type" : "data set",
          "Strain" : "7T-CAD",
          "Developmental-Stage" : "Adult Female",
@@ -12503,8 +12500,8 @@
          "Tracks" : [
             "fly/White_CS_SG_GAP/E0-4h_7T"
          ],
-         "submission" : "modENCODE_2626",
-         "label" : "E0-4h_7T",
+         "submission" : "2626",
+         "label" : "ChIP-seq;cad;7T-CAD;Embryos 0-4 hr",
          "type" : "data set",
          "Strain" : "7T-CAD",
          "Developmental-Stage" : "Embryos 0-4 hr",
@@ -12518,8 +12515,8 @@
          "Tracks" : [
             "fly/White_CS_SG_CHROMISOL/HDAC-492"
          ],
-         "submission" : "modENCODE_2627",
-         "label" : "E0-12_HDAC-492",
+         "submission" : "2627",
+         "label" : "ChIP-seq;HDAC4a;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -12533,8 +12530,8 @@
          "Tracks" : [
             "fly/White_CS_SG_CHROMISOL/HDAC-493"
          ],
-         "submission" : "modENCODE_2628",
-         "label" : "E0-12_HDAC-493",
+         "submission" : "2628",
+         "label" : "ChIP-seq;HDAC4a;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -12548,8 +12545,8 @@
          "Tracks" : [
             "fly/White_CS_SG_CHROMISOL/HDAC-494"
          ],
-         "submission" : "modENCODE_2629",
-         "label" : "E0-12_HDAC-494",
+         "submission" : "2629",
+         "label" : "ChIP-seq;HDAC11;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -12563,8 +12560,8 @@
          "Tracks" : [
             "fly/White_CS_SG_CHROMISOL/HDAC-495"
          ],
-         "submission" : "modENCODE_2630",
-         "label" : "E0-12_HDAC-495",
+         "submission" : "2630",
+         "label" : "ChIP-seq;HDAC11;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -12578,8 +12575,8 @@
          "Tracks" : [
             "fly/White_CS_SG_CHROMISOL/HDAC-496"
          ],
-         "submission" : "modENCODE_2631",
-         "label" : "E0-12_HDAC-496",
+         "submission" : "2631",
+         "label" : "ChIP-seq;HDAC6;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -12593,8 +12590,8 @@
          "Tracks" : [
             "fly/White_CS_SG_CHROMISOL/HDAC-497"
          ],
-         "submission" : "modENCODE_2632",
-         "label" : "E0-12_HDAC-497",
+         "submission" : "2632",
+         "label" : "ChIP-seq;HDAC6;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -12608,8 +12605,8 @@
          "Tracks" : [
             "fly/White_CS_SG_CHROMISOL/HDAC-498"
          ],
-         "submission" : "modENCODE_2633",
-         "label" : "E0-12_HDAC-498",
+         "submission" : "2633",
+         "label" : "ChIP-seq;HDAC3;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -12623,8 +12620,8 @@
          "Tracks" : [
             "fly/White_CS_SG_CHROMISOL/HDAC-499"
          ],
-         "submission" : "modENCODE_2634",
-         "label" : "E0-12_HDAC-499",
+         "submission" : "2634",
+         "label" : "ChIP-seq;HDAC3;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -12638,8 +12635,8 @@
          "Tracks" : [
             "fly/White_CS_SG_CHROMISOL/HDAC-500"
          ],
-         "submission" : "modENCODE_2635",
-         "label" : "E0-12_HDAC-500",
+         "submission" : "2635",
+         "label" : "ChIP-seq;HDAC1;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -12653,8 +12650,8 @@
          "Tracks" : [
             "fly/White_CS_SG_CHROMISOL/HDAC-501"
          ],
-         "submission" : "modENCODE_2636",
-         "label" : "E0-12_HDAC-501",
+         "submission" : "2636",
+         "label" : "ChIP-seq;HDAC1;Y cn bw sp;Embryos 0-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -12668,8 +12665,8 @@
          "Tracks" : [
             "fly/White_CS_SG_GAP"
          ],
-         "submission" : "modENCODE_2637",
-         "label" : "E4-8h_7T",
+         "submission" : "2637",
+         "label" : "ChIP-seq;cad;7T-CAD;Embryos 4-8 hr",
          "type" : "data set",
          "Strain" : "7T-CAD",
          "Developmental-Stage" : "Embryos 4-8 hr",
@@ -12684,9 +12681,9 @@
          "Tracks" : [
             "fly/White_INSULATORS_WIG_CS/S2_CTCF200"
          ],
-         "submission" : "modENCODE_2638",
+         "submission" : "2638",
          "Cell-Line" : "S2-DRSC",
-         "label" : "S2_CTCF200",
+         "label" : "ChIP-seq;CTCF N-terminus;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -12700,9 +12697,9 @@
          "Tracks" : [
             "fly/White_INSULATORS_WIG_CS/S2_CTCF500"
          ],
-         "submission" : "modENCODE_2639",
+         "submission" : "2639",
          "Cell-Line" : "S2-DRSC",
-         "label" : "S2_CTCF500",
+         "label" : "ChIP-seq;CTCF N-terminus;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -12715,8 +12712,8 @@
          "Tracks" : [
             "fly/White_ECR_SG_CS/W3L_EcRGFP"
          ],
-         "submission" : "modENCODE_2640",
-         "label" : "W3L_EcRGFP",
+         "submission" : "2640",
+         "label" : "ChIP-seq;EcR;EcR-GFP;L3 stage larvae",
          "type" : "data set",
          "Strain" : "EcR-GFP",
          "Developmental-Stage" : "L3 stage larvae",
@@ -12730,8 +12727,8 @@
          "Tracks" : [
             "fly/White_ECR_SG_CS/WPP"
          ],
-         "submission" : "modENCODE_2641",
-         "label" : "WPP_EcR_GFP_ChIP-seq",
+         "submission" : "2641",
+         "label" : "ChIP-seq;EcR;EcR-GFP;Pupae, White prepupae (WPP) 10-11 hr",
          "type" : "data set",
          "Strain" : "EcR-GFP",
          "Developmental-Stage" : "Pupae, White prepupae (WPP) 10-11 hr",
@@ -12745,8 +12742,8 @@
          "Tracks" : [
             "fly/White_ECR_SG_CS/WPP30-33"
          ],
-         "submission" : "modENCODE_2642",
-         "label" : "WPP30-33_EcR_GFP_ChIP-seq",
+         "submission" : "2642",
+         "label" : "ChIP-seq;EcR;EcR-GFP;DevStageFly",
          "type" : "data set",
          "Strain" : "EcR-GFP",
          "Developmental-Stage" : "DevStageFly",
@@ -12760,8 +12757,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB9045_H3K9ME1291918_N2_EEMB"
          ],
-         "submission" : "modENCODE_2646",
-         "label" : "Strome AB9045_H3K9ME1291918_N2_EEMB",
+         "submission" : "2646",
+         "label" : "ChIP-chip;H3K9me1;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -12775,8 +12772,8 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_OR/CHRIZ_BR_14_16h_OR_emb"
          ],
-         "submission" : "modENCODE_2648",
-         "label" : "Chro(Chriz)BR.14-16 hr OR embryo",
+         "submission" : "2648",
+         "label" : "ChIP-chip;Chriz;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -12791,9 +12788,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_BG3/Ez_BG3"
          ],
-         "submission" : "modENCODE_2650",
+         "submission" : "2650",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Ez.BG3",
+         "label" : "ChIP-chip;Ez;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -12807,9 +12804,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_BG3/GAF_BG3"
          ],
-         "submission" : "modENCODE_2651",
+         "submission" : "2651",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "GAF.BG3",
+         "label" : "ChIP-chip;GAF;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -12822,8 +12819,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_OR/H3K18Ac_new_2_4h_OR_emb"
          ],
-         "submission" : "modENCODE_2652",
-         "label" : "H3K18Ac (new lot).2-4 hr OR embryo",
+         "submission" : "2652",
+         "label" : "ChIP-chip;H3K18ac;Oregon-R;Embryos 2-4 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 2-4 hr OR",
@@ -12838,9 +12835,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K4Me1_BG3"
          ],
-         "submission" : "modENCODE_2653",
+         "submission" : "2653",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K4me1.BG3",
+         "label" : "ChIP-chip;H3K4me1;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -12854,9 +12851,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K4Me2_Millipore_BG3"
          ],
-         "submission" : "modENCODE_2654",
+         "submission" : "2654",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K4me2-Millipore.BG3",
+         "label" : "ChIP-chip;H3K4me2;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -12870,9 +12867,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K4Me2_Millipore_S2"
          ],
-         "submission" : "modENCODE_2655",
+         "submission" : "2655",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K4me2-Millipore.S2",
+         "label" : "ChIP-chip;H3K4me2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -12885,8 +12882,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_OR/H3K4Me2_14_16h_OR_emb"
          ],
-         "submission" : "modENCODE_2656",
-         "label" : "H3K4me2.14-16 hr OR embryo",
+         "submission" : "2656",
+         "label" : "ChIP-chip;H3K4me2;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -12900,8 +12897,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K4Me2_L3nuc"
          ],
-         "submission" : "modENCODE_2657",
-         "label" : "H3K4me2.D.mel 3rd Instar Larvae Nuclei",
+         "submission" : "2657",
+         "label" : "ChIP-chip;H3K4me2;Oregon-R;3rd Instar Larvae",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "3rd Instar Larvae",
@@ -12916,9 +12913,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K79Me1_S2"
          ],
-         "submission" : "modENCODE_2658",
+         "submission" : "2658",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K79me1.S2",
+         "label" : "ChIP-chip;H3K79me1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -12932,9 +12929,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_BG3/H3K9AcS10P_new_BG3"
          ],
-         "submission" : "modENCODE_2659",
+         "submission" : "2659",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K9acS10P (new lot).BG3",
+         "label" : "ChIP-chip;H3K9acS10P;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -12948,9 +12945,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_S2/H3K9AcS0P_1new_S2"
          ],
-         "submission" : "modENCODE_2660",
+         "submission" : "2660",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K9acS10P (new lot).S2",
+         "label" : "ChIP-chip;H3K9acS10P;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -12963,8 +12960,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_OR/H3K9Me2_Ab2_new_14_16h_OR_emb"
          ],
-         "submission" : "modENCODE_2661",
-         "label" : "H3K9me2-Ab2 (new lot).14-16 hr OR embryo",
+         "submission" : "2661",
+         "label" : "ChIP-chip;H3K9me2;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -12978,8 +12975,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_OR/H3K9Me2_Ab2_new_2_4h_OR_emb"
          ],
-         "submission" : "modENCODE_2662",
-         "label" : "H3K9me2-Ab2 (new lot).2-4 hr OR embryo",
+         "submission" : "2662",
+         "label" : "ChIP-chip;H3K9me2;Oregon-R;Embryos 2-4 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 2-4 hr OR",
@@ -12993,8 +12990,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_OR/H3K9Me3_new_14_16h_OR_emb"
          ],
-         "submission" : "modENCODE_2663",
-         "label" : "H3K9me3 (new lot).14-16 hr OR embryo",
+         "submission" : "2663",
+         "label" : "ChIP-chip;H3K9me3;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -13009,8 +13006,8 @@
          "Tracks" : [
             "fly/Karpen_HISMODS_OR/H3K9Me3_new_OR_HEADnuc"
          ],
-         "submission" : "modENCODE_2664",
-         "label" : "H3K9me3 (new lot).OR Head Nuclei",
+         "submission" : "2664",
+         "label" : "ChIP-chip;H3K9me3;Oregon-R;Mixed Adult;Heads OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Mixed Adult",
@@ -13024,8 +13021,8 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_OR/HP1_wa191_2_4h_OR_emb"
          ],
-         "submission" : "modENCODE_2665",
-         "label" : "HP1 wa191.2-4 hr OR embryo",
+         "submission" : "2665",
+         "label" : "ChIP-chip;HP1a;Oregon-R;Embryos 2-4 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 2-4 hr OR",
@@ -13040,9 +13037,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_BG3/HP1_wa191_BG3"
          ],
-         "submission" : "modENCODE_2666",
+         "submission" : "2666",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "HP1 wa191.BG3",
+         "label" : "ChIP-chip;HP1a;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -13056,9 +13053,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_CL8/HP1_wa191_Cl8"
          ],
-         "submission" : "modENCODE_2667",
+         "submission" : "2667",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "HP1 wa191.Clone_8",
+         "label" : "ChIP-chip;HP1a;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -13072,9 +13069,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/HP1a_wa184_S2"
          ],
-         "submission" : "modENCODE_2668",
+         "submission" : "2668",
          "Cell-Line" : "S2-DRSC",
-         "label" : "HP1a wa184.S2",
+         "label" : "ChIP-chip;HP1a;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13088,9 +13085,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_CL8/HP1c_MO_462_Cl8"
          ],
-         "submission" : "modENCODE_2669",
+         "submission" : "2669",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "HP1c (MO 462).Clone_8",
+         "label" : "ChIP-chip;HP1c;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -13104,9 +13101,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_Kc/HP1c_MO_462_Kc"
          ],
-         "submission" : "modENCODE_2670",
+         "submission" : "2670",
          "Cell-Line" : "Kc167",
-         "label" : "HP1c (MO 462).Kc",
+         "label" : "ChIP-chip;HP1c;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13120,9 +13117,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_BG3/Su_var3_7_Q3448_BG3"
          ],
-         "submission" : "modENCODE_2671",
+         "submission" : "2671",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Su(var)3-7-Q3448.BG3",
+         "label" : "ChIP-chip;Su(var)3-7;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -13136,9 +13133,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_S2/Su_var3_7_Q3448_S2"
          ],
-         "submission" : "modENCODE_2672",
+         "submission" : "2672",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Su(var)3-7-Q3448.S2",
+         "label" : "ChIP-chip;Su(var)3-7;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13152,9 +13149,9 @@
          "Tracks" : [
             "fly/Karpen_HISMODENZ_S2/Su_var3_9_S2"
          ],
-         "submission" : "modENCODE_2673",
+         "submission" : "2673",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Su(var)3-9.S2",
+         "label" : "ChIP-chip;Su(var)3-9;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13168,9 +13165,9 @@
          "Tracks" : [
             "fly/Karpen_CHROMPROTS_S2/mod2_2_VC_S2"
          ],
-         "submission" : "modENCODE_2674",
+         "submission" : "2674",
          "Cell-Line" : "S2-DRSC",
-         "label" : "mod2.2-VC.S2",
+         "label" : "ChIP-chip;MOD(MDG4)67.2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13183,8 +13180,8 @@
          "Tracks" : [
             "fly/Dm_SOLiD_WIG/embryo_0-2hr"
          ],
-         "submission" : "modENCODE_2676",
-         "label" : "Dm embryos, 0-2 hr after egg laying SOLiD RNA-Seq",
+         "submission" : "2676",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 0-2 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-2 hr",
@@ -13198,8 +13195,8 @@
          "Tracks" : [
             "fly/Dm_SOLiD_WIG/embryo_2-4hr"
          ],
-         "submission" : "modENCODE_2677",
-         "label" : "Dm embryos, 2-4 hr after egg laying SOLiD RNA-Seq",
+         "submission" : "2677",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 2-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 2-4 hr",
@@ -13213,8 +13210,8 @@
          "Tracks" : [
             "fly/Dm_SOLiD_WIG/embryo_4-6hr"
          ],
-         "submission" : "modENCODE_2678",
-         "label" : "D.melanogaster 4-6hr embryo, SOLiD total RNA-seq",
+         "submission" : "2678",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 4-6 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-6 hr",
@@ -13228,8 +13225,8 @@
          "Tracks" : [
             "fly/Dm_SOLiD_WIG/embryo_6-8hr"
          ],
-         "submission" : "modENCODE_2679",
-         "label" : "D.melanogaster 6-8hr embryo, SOLiD total RNA-seq",
+         "submission" : "2679",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 6-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 6-8 hr",
@@ -13243,8 +13240,8 @@
          "Tracks" : [
             "fly/Dm_SOLiD_WIG/embryo_8-10hr"
          ],
-         "submission" : "modENCODE_2680",
-         "label" : "D.melanogaster 8-10hr embryo, SOLiD total RNA-seq",
+         "submission" : "2680",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 8-10 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-10 hr",
@@ -13258,8 +13255,8 @@
          "Tracks" : [
             "fly/Dm_SOLiD_WIG/embryo_10-12hr"
          ],
-         "submission" : "modENCODE_2681",
-         "label" : "D.melanogaster 10-12hr embryo, SOLiD total RNA-seq",
+         "submission" : "2681",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 10-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 10-12 hr",
@@ -13273,8 +13270,8 @@
          "Tracks" : [
             "fly/Dm_SOLiD_WIG/embryo_12-14hr"
          ],
-         "submission" : "modENCODE_2682",
-         "label" : "D.melanogaster 12-14hr embryo, SOLiD total RNA-seq",
+         "submission" : "2682",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 12-14 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-14 hr",
@@ -13288,8 +13285,8 @@
          "Tracks" : [
             "fly/Dm_SOLiD_WIG/embryo_14-16hr"
          ],
-         "submission" : "modENCODE_2683",
-         "label" : "D.melanogaster 14-16hr embryo, SOLiD total RNA-seq",
+         "submission" : "2683",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 14-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 14-16 hr",
@@ -13303,8 +13300,8 @@
          "Tracks" : [
             "fly/Dm_SOLiD_WIG/embryo_16-18hr"
          ],
-         "submission" : "modENCODE_2684",
-         "label" : "D.melanogaster 16-18hr embryo, SOLiD total RNA-seq",
+         "submission" : "2684",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 16-18 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-18 hr",
@@ -13318,8 +13315,8 @@
          "Tracks" : [
             "fly/Dm_SOLiD_WIG/embryo_18-20hr"
          ],
-         "submission" : "modENCODE_2685",
-         "label" : "D.melanogaster 18-20hr embryo, SOLiD total RNA-seq",
+         "submission" : "2685",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 18-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 18-20 hr",
@@ -13333,8 +13330,8 @@
          "Tracks" : [
             "fly/Dm_SOLiD_WIG/embryo_20-22hr"
          ],
-         "submission" : "modENCODE_2686",
-         "label" : "D.melanogaster 20-22hr embryo, SOLiD total RNA-seq",
+         "submission" : "2686",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 20-22 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-22 hr",
@@ -13348,8 +13345,8 @@
          "Tracks" : [
             "fly/Dm_SOLiD_WIG/embryo_22-24hr"
          ],
-         "submission" : "modENCODE_2687",
-         "label" : "D.melanogaster 22-24hr embryo, SOLiD total RNA-seq",
+         "submission" : "2687",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 22-24 hrSC",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 22-24 hrSC",
@@ -13367,8 +13364,8 @@
             "worm/Waterston_match_part_5252_2718",
             "worm/Waterston_intron_5252_2718"
          ],
-         "submission" : "modENCODE_2718",
-         "label" : "C. elegans Intron Identification set.20100126.2_3_2_2_4_3_3_2_2_2.ws180",
+         "submission" : "2718",
+         "label" : "RT-PCR;total-RNA;TGTGTAATGGAACTCCGAGAGTATTGTC;N2;Mixed Larval Stages Grown 4-5 Days",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
@@ -13380,9 +13377,9 @@
          "factor" : "small-RNA",
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
-         "submission" : "modENCODE_2719",
+         "submission" : "2719",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Lai_ML-DmBG3-C2",
+         "label" : "RNA-seq;small-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -13398,8 +13395,8 @@
             "worm/Waterston_match_part_5277_2720",
             "worm/Waterston_EST_match_all/SL_Acceptor_Site"
          ],
-         "submission" : "modENCODE_2720",
-         "label" : "C. elegans SL Acceptor Site Identification set.20100203.2_3_2_2_4_3_3_2_3_3.ws180",
+         "submission" : "2720",
+         "label" : "RACE;total-RNA;GAGAGCTATTCCAATTTTTATCCGCA;N2;Mixed Larval Stages Grown 4-5 Days",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
@@ -13415,9 +13412,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/CMEW1_Cl_8",
             "fly/CMEW1_Cl_8.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2721",
+         "submission" : "2721",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "Lai_CMEW1_Cl_8",
+         "label" : "RNA-seq;small-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -13428,9 +13425,9 @@
          "factor" : "small-RNA",
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
-         "submission" : "modENCODE_2722",
+         "submission" : "2722",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Lai_S2-DRSC-BS11",
+         "label" : "RNA-seq;small-RNA;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13445,9 +13442,9 @@
             "fly/S2_GSM361908.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_CELLS/S2_Rubin"
          ],
-         "submission" : "modENCODE_2725",
+         "submission" : "2725",
          "Cell-Line" : "S2-Rubin",
-         "label" : "S2 smallRNA RNA-Seq",
+         "label" : "RNA-seq;small-RNA;S2-Rubin;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13460,8 +13457,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB8895_H3K4ME1733246_N2_EEMB"
          ],
-         "submission" : "modENCODE_2726",
-         "label" : "Strome AB8895_H3K4ME1733246_N2_EEMB",
+         "submission" : "2726",
+         "label" : "ChIP-chip;H3K4me1;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -13475,8 +13472,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHROMNUC_ENV/SDQ3891_LEM2_N2_MXEMB"
          ],
-         "submission" : "modENCODE_2729",
-         "label" : "Strome SDQ3891_LEM2_N2_MXEMB",
+         "submission" : "2729",
+         "label" : "ChIP-chip;LEM-2;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -13490,8 +13487,8 @@
          "Tracks" : [
             "worm/YA_spe9day0_merged_ws220.soap.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2730",
-         "label" : "spe-9 adult hermaphrodite 0days post-L4 small ncRNA RNA-Seq",
+         "submission" : "2730",
+         "label" : "RNA-seq;small-RNA;spe-9(hc88);Young adult DAY0post-L4 molt stage larvae;23 degree celsius",
          "type" : "data set",
          "Strain" : "spe-9(hc88)",
          "Developmental-Stage" : "Young adult DAY0post-L4 molt stage larvae",
@@ -13506,8 +13503,8 @@
          "Tracks" : [
             "worm/YA_spe9day5_s_2.S3_ws220.soap.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2732",
-         "label" : "spe-9 adult hermaphrodite 5days post-L4 small ncRNA RNA-Seq",
+         "submission" : "2732",
+         "label" : "RNA-seq;small-RNA;spe-9(hc88);Adult 5 days post-L4 stage larvae;23 degree celsius",
          "type" : "data set",
          "Strain" : "spe-9(hc88)",
          "Developmental-Stage" : "Adult 5 days post-L4 stage larvae",
@@ -13522,8 +13519,8 @@
          "Tracks" : [
             "worm/YA_spe9day8_merged_ws220.soap.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2733",
-         "label" : "spe-9 adult hermaphrodite 8 days post-L4 small ncRNA RNA-Seq",
+         "submission" : "2733",
+         "label" : "RNA-seq;small-RNA;spe-9(hc88);Adult spe-9(hc88) 8 days post-L4 molt stage larvae;23 degree celsius",
          "type" : "data set",
          "Strain" : "spe-9(hc88)",
          "Developmental-Stage" : "Adult spe-9(hc88) 8 days post-L4 molt stage larvae",
@@ -13538,8 +13535,8 @@
          "Tracks" : [
             "worm/YA_spe9day12_s_5.S3_ws220.soap.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2734",
-         "label" : "spe-9 adult hermaphrodite 12 days post-L4 small ncRNA RNA-Seq",
+         "submission" : "2734",
+         "label" : "RNA-seq;small-RNA;spe-9(hc88);Adult 12 days post-L4 stage larvae;23 degree celsius",
          "type" : "data set",
          "Strain" : "spe-9(hc88)",
          "Developmental-Stage" : "Adult 12 days post-L4 stage larvae",
@@ -13554,8 +13551,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHROMNUC_ENV/SDQ3897_NPP13_N2_MXEMB"
          ],
-         "submission" : "modENCODE_2738",
-         "label" : "Strome SDQ3897_NPP13_N2_MXEMB",
+         "submission" : "2738",
+         "label" : "ChIP-chip;NPP-13;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -13569,8 +13566,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB8896_H3K9ME1104560_N2_EEMB"
          ],
-         "submission" : "modENCODE_2739",
-         "label" : "Strome AB8896_H3K9ME1104560_N2_EEMB",
+         "submission" : "2739",
+         "label" : "ChIP-chip;H3K9me1;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -13584,8 +13581,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB4729_H3K27AC361571_N2_EEMB"
          ],
-         "submission" : "modENCODE_2740",
-         "label" : "Strome AB4729_H3K27AC361571_N2_EEMB",
+         "submission" : "2740",
+         "label" : "ChIP-chip;H3K27ac;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -13600,8 +13597,8 @@
             "fly/E12_GSM364902.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_E/12-24hr_embryo_CantonS"
          ],
-         "submission" : "modENCODE_2741",
-         "label" : "Dm Canton-S Embryo 12-24h smallRNA RNA-Seq",
+         "submission" : "2741",
+         "label" : "RNA-seq;small-RNA;Canton S;Embryos 12-24 hr",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Embryos 12-24 hr",
@@ -13616,8 +13613,8 @@
             "fly/E12_V082.sam.gz.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_E/12-24hr_embryo_BS61-64-67-73"
          ],
-         "submission" : "modENCODE_2742",
-         "label" : "Lai_embryo_12-24hr_BS61-64-67-73",
+         "submission" : "2742",
+         "label" : "RNA-seq;small-RNA;Y cn bw sp;Embryos 14-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 14-16 hr",
@@ -13632,8 +13629,8 @@
             "fly/Lai_RNASEQ_DUAL_E/2-6hr_embryo_BS43-46",
             "fly/E02_V081.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_2743",
-         "label" : "Lai_embryo_2-6hr_BS43-46",
+         "submission" : "2743",
+         "label" : "RNA-seq;small-RNA;Y cn bw sp;Embryos 2-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 2-4 hr",
@@ -13649,8 +13646,8 @@
             "fly/Lai_RNASEQ_DUAL_ENR_T/CantonS_ovaries_Ago1IP",
             "fly/O_V063.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2744",
-         "label" : "Canton S Ago1 Immunoprecipitation",
+         "submission" : "2744",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult Female;Adult ovaries",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult Female",
@@ -13666,8 +13663,8 @@
             "fly/Lai_RNASEQ_DUAL_ENR_T/Ago2-414_ovaries_Ago1IP",
             "fly/O_V064.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2746",
-         "label" : "Ago2[414] Ago1 Immunoprecipitation",
+         "submission" : "2746",
+         "label" : "RNA-seq;small-RNA;Ago2 414;Adult Female;Adult ovaries",
          "type" : "data set",
          "Strain" : "Ago2 414",
          "Developmental-Stage" : "Adult Female",
@@ -13683,8 +13680,8 @@
             "fly/Lai_RNASEQ_DUAL_T/r2d2_ovaries",
             "fly/R2_V088.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_2748",
-         "label" : "r2d2 ovary total RNA",
+         "submission" : "2748",
+         "label" : "RNA-seq;small-RNA;r2d2 1;Adult Female;Adult ovaries",
          "type" : "data set",
          "Strain" : "r2d2 1",
          "Developmental-Stage" : "Adult Female",
@@ -13700,8 +13697,8 @@
             "fly/R2O_V066.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_ENR_T/r2d2_ovaries_Ago1IP"
          ],
-         "submission" : "modENCODE_2749",
-         "label" : "r2d2 Ago1 Immunoprecipitation ovary",
+         "submission" : "2749",
+         "label" : "RNA-seq;small-RNA;r2d2 1;Adult Female;Adult ovaries",
          "type" : "data set",
          "Strain" : "r2d2 1",
          "Developmental-Stage" : "Adult Female",
@@ -13717,8 +13714,8 @@
             "fly/YAM_V090.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_T/CantonS_Male_body"
          ],
-         "submission" : "modENCODE_2751",
-         "label" : "Dm Canton-S Adult Male Body smallRNA RNA-Seq",
+         "submission" : "2751",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult male;Male body",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult male",
@@ -13733,9 +13730,9 @@
          "Tracks" : [
             "fly/MacAlpine_ORC_CHIPSEQ_COMB/S2_dOrc2"
          ],
-         "submission" : "modENCODE_2753",
+         "submission" : "2753",
          "Cell-Line" : "S2-DRSC",
-         "label" : "ORC2 S2-DSRC ChIP-Seq experiment",
+         "label" : "ChIP-seq;Drosophila ORC2p;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13749,9 +13746,9 @@
          "Tracks" : [
             "fly/MacAlpine_ORC_CHIPSEQ_COMB/BG3_dOrc2"
          ],
-         "submission" : "modENCODE_2754",
+         "submission" : "2754",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "ORC2 ML-DmBG3-c2 ChIP-Seq experiment",
+         "label" : "ChIP-seq;Drosophila ORC2p;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -13765,9 +13762,9 @@
          "Tracks" : [
             "fly/MacAlpine_ORC_CHIPSEQ_COMB/Kc167_dOrc2"
          ],
-         "submission" : "modENCODE_2755",
+         "submission" : "2755",
          "Cell-Line" : "Kc167",
-         "label" : "ORC2 ML-DmBG3-c2 ChIP-Seq experiment",
+         "label" : "ChIP-seq;Drosophila ORC2p;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13781,9 +13778,9 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2756",
+         "submission" : "2756",
          "Cell-Line" : "Kc167",
-         "label" : "Kc_600_mM_Salt_Extracted_Chromatin",
+         "label" : "DNA-tiling-array;Nucleosome;600 mM salt;soluble fraction;Kc167;time-point-1 to 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13797,9 +13794,9 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "extract" : "precipitate",
-         "submission" : "modENCODE_2757",
+         "submission" : "2757",
          "Cell-Line" : "Kc167",
-         "label" : "Kc_600_mM_Salt_Extracted_Chromatin_Pellet",
+         "label" : "DNA-tiling-array;Nucleosome;600 mM salt;precipitate;Kc167;time-point-1 to 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13810,9 +13807,9 @@
          "factor" : "PolyA-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Henikoff, S.",
-         "submission" : "modENCODE_2758",
+         "submission" : "2758",
          "Cell-Line" : "Kc167",
-         "label" : "Kc_RNA_Expression_Tiling_Array",
+         "label" : "RNA-tiling-array;PolyA-RNA;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13826,9 +13823,9 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "extract" : "soluble fraction",
-         "submission" : "modENCODE_2759",
+         "submission" : "2759",
          "Cell-Line" : "Kc167",
-         "label" : "Kc_H2Av_Knockdown_600_mM_Salt_Extracted_Chromatin",
+         "label" : "DNA-tiling-array;Nucleosome;600 mM salt;soluble fraction;Kc167;time-point-1 to 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13842,9 +13839,9 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "extract" : "precipitate",
-         "submission" : "modENCODE_2760",
+         "submission" : "2760",
          "Cell-Line" : "Kc167",
-         "label" : "Kc_H2Av_Knockdown_600_mM_Salt_Extracted_Chromatin_Pellet",
+         "label" : "DNA-tiling-array;Nucleosome;600 mM salt;precipitate;Kc167;time-point-1 to 2 hours;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13856,9 +13853,9 @@
          "factor" : "PolyA-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Henikoff, S.",
-         "submission" : "modENCODE_2761",
+         "submission" : "2761",
          "Cell-Line" : "Kc167",
-         "label" : "Kc_H2Av_Knockdown_RNA_Expression_Tiling_Array",
+         "label" : "RNA-tiling-array;PolyA-RNA;Kc167;CG5499-RNAi;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13871,8 +13868,8 @@
          "Tracks" : [
             "worm/Henikoff_Transcription_Ext_VISTA"
          ],
-         "submission" : "modENCODE_2762",
-         "label" : "N2_Worm_Embryo_mRNA_Expression",
+         "submission" : "2762",
+         "label" : "RNA-tiling-array;PolyA-RNA;N2;Young Adult",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult",
@@ -13886,8 +13883,8 @@
          "Tracks" : [
             "worm/LiebNUCL/MXEMB"
          ],
-         "submission" : "modENCODE_2763",
-         "label" : "Genome wide analysis of nucleosome positioning in C. elegans",
+         "submission" : "2763",
+         "label" : "DNA-seq;Nucleosome;N2;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Embryos",
@@ -13902,8 +13899,8 @@
          "Tracks" : [
             "worm/LiebNUCL/GermlinelessAdults"
          ],
-         "submission" : "modENCODE_2764",
-         "label" : "Genome wide analysis of nucleosome positioning in C. elegans",
+         "submission" : "2764",
+         "label" : "DNA-seq;Nucleosome;JK1107;Germlineless young adult;20 degree celsius",
          "type" : "data set",
          "Strain" : "JK1107",
          "Developmental-Stage" : "Germlineless young adult",
@@ -13918,8 +13915,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB9051_H4K20ME1104513_N2_EEMB"
          ],
-         "submission" : "modENCODE_2765",
-         "label" : "Strome AB9051_H4K20ME1104513_N2_EEMB",
+         "submission" : "2765",
+         "label" : "ChIP-chip;H4K20me1;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -13933,8 +13930,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/LPAR109_H4TETRAAC109_N2_EEMB"
          ],
-         "submission" : "modENCODE_2766",
-         "label" : "Strome LPAR109_H4TETRAAC109_N2_EEMB",
+         "submission" : "2766",
+         "label" : "ChIP-chip;H4acTetra;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -13948,8 +13945,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_CHR_CPB1"
          ],
-         "submission" : "modENCODE_2767",
-         "label" : "Strome SDQ3582_CBP1_N2_MXEMB",
+         "submission" : "2767",
+         "label" : "ChIP-chip;CBP-1;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -13963,8 +13960,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_COREHIS/MP05858_H4DAM1636076_N2_L3"
          ],
-         "submission" : "modENCODE_2768",
-         "label" : "Ahringer MP05858_H4DAM1636076_N2_L3",
+         "submission" : "2768",
+         "label" : "ChIP-chip;H4;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -13976,9 +13973,9 @@
          "factor" : "PolyA-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Henikoff, S.",
-         "submission" : "modENCODE_2769",
+         "submission" : "2769",
          "Cell-Line" : "S2-DRSC",
-         "label" : "S2_RNA_expression_Tiling_Array",
+         "label" : "RNA-tiling-array;PolyA-RNA;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -13991,8 +13988,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB9045_H3K9ME1291918_N2_L3"
          ],
-         "submission" : "modENCODE_2770",
-         "label" : "Ahringer AB9045_H3K9ME1291918_N2_L3",
+         "submission" : "2770",
+         "label" : "ChIP-chip;H3K9me1;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -14006,8 +14003,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB4729_H3K27AC361571_N2_L3"
          ],
-         "submission" : "modENCODE_2771",
-         "label" : "Ahringer AB4729_H3K27AC361571_N2_L3",
+         "submission" : "2771",
+         "label" : "ChIP-chip;H3K27ac;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -14021,8 +14018,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/WA30634849_H3K27AC_N2_L3"
          ],
-         "submission" : "modENCODE_2773",
-         "label" : "Ahringer WA30634849_H3K27AC_N2_L3",
+         "submission" : "2773",
+         "label" : "ChIP-chip;H3K27ac;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -14036,8 +14033,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB15823_H4K8AC487128_N2_L3"
          ],
-         "submission" : "modENCODE_2774",
-         "label" : "Ahringer AB15823_H4K8AC487128_N2_L3",
+         "submission" : "2774",
+         "label" : "ChIP-chip;H4K8ac;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -14051,8 +14048,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB8895_H3K4ME1733246_N2_L3"
          ],
-         "submission" : "modENCODE_2775",
-         "label" : "Ahringer AB8895_H3K4ME1733246_N2_L3",
+         "submission" : "2775",
+         "label" : "ChIP-chip;H3K4me1;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -14066,8 +14063,8 @@
          "Tracks" : [
             "worm/miRNA_W2776"
          ],
-         "submission" : "modENCODE_2776",
-         "label" : "miRNA expression change N2 embryos",
+         "submission" : "2776",
+         "label" : "RNA-seq;small-RNA;N2;Mixed stage of Embryos",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -14081,8 +14078,8 @@
          "Tracks" : [
             "worm/miRNA_W2777"
          ],
-         "submission" : "modENCODE_2777",
-         "label" : "miRNA expression change spe-9 N2 L1 larvae",
+         "submission" : "2777",
+         "label" : "RNA-seq;small-RNA;N2;Mid-L1 4 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L1 4 hrs post-L1 stage larvae",
@@ -14096,8 +14093,8 @@
          "Tracks" : [
             "worm/miRNA_W2778"
          ],
-         "submission" : "modENCODE_2778",
-         "label" : "miRNA expression change N2 mid-L2 larvae",
+         "submission" : "2778",
+         "label" : "RNA-seq;small-RNA;N2;Mid-L2 14 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L2 14 hrs post-L1 stage larvae",
@@ -14111,8 +14108,8 @@
          "Tracks" : [
             "worm/miRNA_W2779"
          ],
-         "submission" : "modENCODE_2779",
-         "label" : "miRNA expression change N2 mid-L3 larvae",
+         "submission" : "2779",
+         "label" : "RNA-seq;small-RNA;N2;Mid-L3 25 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L3 25 hrs post-L1 stage larvae",
@@ -14126,8 +14123,8 @@
          "Tracks" : [
             "worm/miRNA_W2780"
          ],
-         "submission" : "modENCODE_2780",
-         "label" : "miRNA expression change N2 mid-L4 larvae",
+         "submission" : "2780",
+         "label" : "RNA-seq;small-RNA;N2;Mid-L4 36 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L4 36 hrs post-L1 stage larvae",
@@ -14141,8 +14138,8 @@
          "Tracks" : [
             "worm/miRNA_W2781"
          ],
-         "submission" : "modENCODE_2781",
-         "label" : "miRNA expression change N2 young adult",
+         "submission" : "2781",
+         "label" : "RNA-seq;small-RNA;N2;Young adult 48 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young adult 48 hrs post-L1 stage larvae",
@@ -14151,14 +14148,13 @@
       {
          "technique" : "RNA-seq",
          "factor" : "small-RNA",
-         "him-8(e1489)" : null,
          "target" : "small RNA",
          "principal_investigator" : "Waterston, R.",
          "Tracks" : [
             "worm/miRNA_W2782"
          ],
-         "submission" : "modENCODE_2782",
-         "label" : "miRNA expression change dpy-5;him-8 young adult male",
+         "submission" : "2782",
+         "label" : "RNA-seq;small-RNA;dpy28(y1);Young adult Males",
          "type" : "data set",
          "Strain" : "dpy28(y1)",
          "Developmental-Stage" : "Young adult Males",
@@ -14173,9 +14169,9 @@
          "Tracks" : [
             "fly/MacAlpine_MCM_CHIPSEQ_COMB/Kc167_MCM_2_7"
          ],
-         "submission" : "modENCODE_2783",
+         "submission" : "2783",
          "Cell-Line" : "Kc167",
-         "label" : "MCM KC-167 ChIP-Seq experiment",
+         "label" : "ChIP-seq;MCM2-7 complex;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -14188,8 +14184,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB9051_H4K20ME1104513_N2_L3"
          ],
-         "submission" : "modENCODE_2784",
-         "label" : "Ahringer AB9051_H4K20ME1104513_N2_L3",
+         "submission" : "2784",
+         "label" : "ChIP-chip;H4K20me1;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -14203,8 +14199,8 @@
          "Tracks" : [
             "worm/miRNA_W2785"
          ],
-         "submission" : "modENCODE_2785",
-         "label" : "miRNA expression change spe-9 adult hermaphrodite 0days post-L4",
+         "submission" : "2785",
+         "label" : "RNA-seq;small-RNA;spe-9(hc88);Young adult DAY0post-L4 molt stage larvae;23 degree celsius",
          "type" : "data set",
          "Strain" : "spe-9(hc88)",
          "Developmental-Stage" : "Young adult DAY0post-L4 molt stage larvae",
@@ -14219,8 +14215,8 @@
          "Tracks" : [
             "worm/miRNA_W2786"
          ],
-         "submission" : "modENCODE_2786",
-         "label" : "miRNA expression change spe-9 adult hermaphrodite 5days post-L4",
+         "submission" : "2786",
+         "label" : "RNA-seq;small-RNA;spe-9(hc88);Adult 5 days post-L4 stage larvae;23 degree celsius",
          "type" : "data set",
          "Strain" : "spe-9(hc88)",
          "Developmental-Stage" : "Adult 5 days post-L4 stage larvae",
@@ -14235,8 +14231,8 @@
          "Tracks" : [
             "worm/miRNA_W2787"
          ],
-         "submission" : "modENCODE_2787",
-         "label" : "miRNA expression change spe-9 adult hermaphrodite 8days post-L4",
+         "submission" : "2787",
+         "label" : "RNA-seq;small-RNA;spe-9(hc88);Adult spe-9(hc88) 8 days post-L4 molt stage larvae;23 degree celsius",
          "type" : "data set",
          "Strain" : "spe-9(hc88)",
          "Developmental-Stage" : "Adult spe-9(hc88) 8 days post-L4 molt stage larvae",
@@ -14251,8 +14247,8 @@
          "Tracks" : [
             "worm/miRNA_W2788"
          ],
-         "submission" : "modENCODE_2788",
-         "label" : "miRNA expression change spe-9 adult hermaphrodite 12days post-L4",
+         "submission" : "2788",
+         "label" : "RNA-seq;small-RNA;spe-9(hc88);Adult 12 days post-L4 stage larvae;23 degree celsius",
          "type" : "data set",
          "Strain" : "spe-9(hc88)",
          "Developmental-Stage" : "Adult 12 days post-L4 stage larvae",
@@ -14269,9 +14265,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/CMEL1_BS28",
             "fly/CMEL1_V009.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_2820",
+         "submission" : "2820",
          "Cell-Line" : "CME-L1",
-         "label" : "Lai – CMEL1/BS28",
+         "label" : "RNA-seq;small-RNA;CME-L1;Third instar larval stage;ventral prothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -14284,8 +14280,8 @@
          "Tracks" : [
             "worm/miRNA_eri-1_solexa.ws220.sam.gz_sorted"
          ],
-         "submission" : "modENCODE_2821",
-         "label" : "miRNA isolation and Illumina sequencing from eri-1(mg366) young adult whole worms",
+         "submission" : "2821",
+         "label" : "RNA-seq;small-RNA;GR1373;Young Adult;25 degree celsius",
          "type" : "data set",
          "Strain" : "GR1373",
          "Developmental-Stage" : "Young Adult",
@@ -14300,8 +14296,8 @@
          "Tracks" : [
             "worm/miRNA-glp-4_solexa.ws220.sam.gz_sorted"
          ],
-         "submission" : "modENCODE_2822",
-         "label" : "miRNA isolation and Illumina sequencing from glp-4(bn2) young adult whole worms",
+         "submission" : "2822",
+         "label" : "RNA-seq;small-RNA;SS104;Young Adult;25 degree celsius",
          "type" : "data set",
          "Strain" : "SS104",
          "Developmental-Stage" : "Young Adult",
@@ -14317,8 +14313,8 @@
          "Tracks" : [
             "worm/miRNA_spermatids_solexa.ws220.sam.gz_sorted"
          ],
-         "submission" : "modENCODE_2823",
-         "label" : "miRNA isolation and Illumina sequencing from him-8 male spermatids",
+         "submission" : "2823",
+         "label" : "RNA-seq;small-RNA;him-8(e1489);Adult males 70 hr post-L1 stage larvae;25 degree celsius;spermatids",
          "type" : "data set",
          "Strain" : "him-8(e1489)",
          "Developmental-Stage" : "Adult males 70 hr post-L1 stage larvae",
@@ -14333,8 +14329,8 @@
          "Tracks" : [
             "worm/miRNA_mixed_stage_solexa.ws220.sam.gz_sorted"
          ],
-         "submission" : "modENCODE_2825",
-         "label" : "miRNA isolation and Illumina sequencing from N2 mixed-stage whole worms",
+         "submission" : "2825",
+         "label" : "RNA-seq;small-RNA;N2;Mixed Population Worms;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Population Worms",
@@ -14349,8 +14345,8 @@
          "Tracks" : [
             "worm/miRNA_embryos_solexa.ws220.sam.gz_sorted"
          ],
-         "submission" : "modENCODE_2826",
-         "label" : "miRNA isolation and Illumina sequencing from N2 embryos",
+         "submission" : "2826",
+         "label" : "RNA-seq;small-RNA;N2;Mixed Embryos;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Embryos",
@@ -14365,8 +14361,8 @@
          "Tracks" : [
             "worm/miRNA_eri-1.ws220.sam.gz_sorted"
          ],
-         "submission" : "modENCODE_2827",
-         "label" : "miRNA isolation and 454 sequencing from eri-1(mg366) young adult whole worms",
+         "submission" : "2827",
+         "label" : "RNA-seq;small-RNA;GR1373;Young Adult;25 degree celsius",
          "type" : "data set",
          "Strain" : "GR1373",
          "Developmental-Stage" : "Young Adult",
@@ -14381,8 +14377,8 @@
          "Tracks" : [
             "worm/miRNA-glp-4.ws220.sam.gz_sorted"
          ],
-         "submission" : "modENCODE_2828",
-         "label" : "miRNA isolation and 454 sequencing from glp-4(bn2) young adult whole worms",
+         "submission" : "2828",
+         "label" : "RNA-seq;small-RNA;SS104;Young Adult;25 degree celsius",
          "type" : "data set",
          "Strain" : "SS104",
          "Developmental-Stage" : "Young Adult",
@@ -14398,8 +14394,8 @@
          "Tracks" : [
             "worm/miRNA_spermatids.ws220.sam.gz_sorted"
          ],
-         "submission" : "modENCODE_2829",
-         "label" : "miRNA isolation and 454 sequencing from him-8 male spermatids",
+         "submission" : "2829",
+         "label" : "RNA-seq;small-RNA;him-8(e1489);Adult males 70 hr post-L1 stage larvae;25 degree celsius;spermatids",
          "type" : "data set",
          "Strain" : "him-8(e1489)",
          "Developmental-Stage" : "Adult males 70 hr post-L1 stage larvae",
@@ -14415,8 +14411,8 @@
          "Tracks" : [
             "worm/miRNA_oocytes_solexa.ws220.sam.gz_sorted"
          ],
-         "submission" : "modENCODE_2830",
-         "label" : "miRNA isolation and Illumina sequencing from fer-1 unfertilized oocytes",
+         "submission" : "2830",
+         "label" : "RNA-seq;small-RNA;BA1;Adult males 70 hr post-L1 stage larvae;25 degree celsius;unfertilized oocytes",
          "type" : "data set",
          "Strain" : "BA1",
          "Developmental-Stage" : "Adult males 70 hr post-L1 stage larvae",
@@ -14431,8 +14427,8 @@
          "Tracks" : [
             "worm/miRNA_young_adult.ws220.sam.gz_sorted"
          ],
-         "submission" : "modENCODE_2831",
-         "label" : "miRNA isolation and 454 sequencing from N2 whole worms",
+         "submission" : "2831",
+         "label" : "RNA-seq;small-RNA;N2;Young Adult;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult",
@@ -14448,8 +14444,8 @@
          "Tracks" : [
             "worm/miRNA_oocytes.ws220.sam.gz_sorted"
          ],
-         "submission" : "modENCODE_2832",
-         "label" : "miRNA isolation and 454 sequencing from fer-1 unfertilized oocytes",
+         "submission" : "2832",
+         "label" : "RNA-seq;small-RNA;BA1;Adult males 70 hr post-L1 stage larvae;25 degree celsius;unfertilized oocytes",
          "type" : "data set",
          "Strain" : "BA1",
          "Developmental-Stage" : "Adult males 70 hr post-L1 stage larvae",
@@ -14466,8 +14462,8 @@
             "fly/Lai_RNASEQ_DUAL_ENR_T/Dcr-2_L811fsX_ovaries_Ago1IP",
             "fly/OR2_V065.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2833",
-         "label" : "dcr-2[L811fsX] Ago1 Immunoprecipitation ovary",
+         "submission" : "2833",
+         "label" : "RNA-seq;small-RNA;Dcr-2L811fsX;Adult Female;Adult ovaries",
          "type" : "data set",
          "Strain" : "Dcr-2L811fsX",
          "Developmental-Stage" : "Adult Female",
@@ -14483,8 +14479,8 @@
             "fly/Lai_RNASEQ_DUAL_T/Ago2_414_ovaries",
             "fly/O_V089.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_2834",
-         "label" : "ago2[414] ovary total RNA",
+         "submission" : "2834",
+         "label" : "RNA-seq;small-RNA;Ago2 414;Adult Female;Adult ovaries",
          "type" : "data set",
          "Strain" : "Ago2 414",
          "Developmental-Stage" : "Adult Female",
@@ -14502,8 +14498,8 @@
             "worm/Hillier_confirmed_SL_SPE9A",
             "worm/Hillier_confirmed_introns_SPE9A"
          ],
-         "submission" : "modENCODE_2835",
-         "label" : "C. elegans Adult spe-9 23dC 8days post-L4 molt RNA-Seq genelets",
+         "submission" : "2835",
+         "label" : "RNA-seq;total-RNA;spe-9(hc88);Adult spe-9(hc88) 8 days post-L4 molt stage larvae;23 degree celsius",
          "type" : "data set",
          "Strain" : "spe-9(hc88)",
          "Developmental-Stage" : "Adult spe-9(hc88) 8 days post-L4 molt stage larvae",
@@ -14522,8 +14518,8 @@
             "worm/rainbow_genelet_YA",
             "worm/Hillier_confirmed_SL_YA"
          ],
-         "submission" : "modENCODE_2836",
-         "label" : "C. elegans young adult N2 RNA-Seq genelets",
+         "submission" : "2836",
+         "label" : "RNA-seq;total-RNA;N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -14542,8 +14538,8 @@
             "worm/Hillier_confirmed_SL_DAUD2",
             "worm/rainbow_transcript_DAUD2"
          ],
-         "submission" : "modENCODE_2837",
-         "label" : "C. elegans dauer daf-2 RNA-Seq genelets",
+         "submission" : "2837",
+         "label" : "RNA-seq;total-RNA;daf-2(e1370);Dauer daf-2(el370) 91 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "daf-2(e1370)",
          "Developmental-Stage" : "Dauer daf-2(el370) 91 hrs post-L1 stage larvae",
@@ -14561,8 +14557,8 @@
             "worm/Hillier_confirmed_introns_DAUD2ENTR",
             "worm/rainbow_genelet_DAUD2ENTR"
          ],
-         "submission" : "modENCODE_2838",
-         "label" : "C. elegans dauer entry daf-2 RNA-Seq genelets",
+         "submission" : "2838",
+         "label" : "RNA-seq;total-RNA;daf-2(e1370);Dauer entry daf-2(el370) 48 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "daf-2(e1370)",
          "Developmental-Stage" : "Dauer entry daf-2(el370) 48 hrs post-L1 stage larvae",
@@ -14581,8 +14577,8 @@
             "worm/Hillier_confirmed_SL_DAUD2EXT",
             "worm/Hillier_confirmed_polyA_DAUD2EXT"
          ],
-         "submission" : "modENCODE_2839",
-         "label" : "C. elegans dauer exit daf-2 RNA-Seq genelets",
+         "submission" : "2839",
+         "label" : "RNA-seq;total-RNA;daf-2(e1370);Dauer exit daf-2(el370) 91 hrs 15dC 12 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "daf-2(e1370)",
          "Developmental-Stage" : "Dauer exit daf-2(el370) 91 hrs 15dC 12 hrs post-L1 stage larvae",
@@ -14601,8 +14597,8 @@
             "worm/Hillier_confirmed_polyA_EE",
             "worm/rainbow_genelet_EE"
          ],
-         "submission" : "modENCODE_2840",
-         "label" : "C. elegans early embryo N2 RNA-Seq genelets",
+         "submission" : "2840",
+         "label" : "RNA-seq;total-RNA;N2;Early Embryos;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Early Embryos",
@@ -14621,8 +14617,8 @@
             "worm/rainbow_genelet_EHIM8",
             "worm/Hillier_confirmed_polyA_EHIM8"
          ],
-         "submission" : "modENCODE_2841",
-         "label" : "C. elegans embryo him-8 RNA-Seq genelets",
+         "submission" : "2841",
+         "label" : "RNA-seq;total-RNA;him-8(e1489);Embryos him-8(e1480);20 degree celsius",
          "type" : "data set",
          "Strain" : "him-8(e1489)",
          "Developmental-Stage" : "Embryos him-8(e1480)",
@@ -14641,8 +14637,8 @@
             "worm/Hillier_confirmed_SL_LE",
             "worm/rainbow_genelet_LE"
          ],
-         "submission" : "modENCODE_2842",
-         "label" : "C. elegans late embryo N2 RNA-Seq genelets",
+         "submission" : "2842",
+         "label" : "RNA-seq;total-RNA;N2;Late Embryos 4.5 hrs post-early embryo;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Late Embryos 4.5 hrs post-early embryo",
@@ -14661,8 +14657,8 @@
             "worm/Hillier_confirmed_SL_L1LIN35",
             "worm/rainbow_transcript_L1LIN35"
          ],
-         "submission" : "modENCODE_2843",
-         "label" : "C. elegans mid-L1 lin-35 RNA-Seq genelets",
+         "submission" : "2843",
+         "label" : "RNA-seq;total-RNA;MT10430;Lin-35(n745)  mid-L1 4.0 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "MT10430",
          "Developmental-Stage" : "Lin-35(n745)  mid-L1 4.0 hrs post-L1 stage larvae",
@@ -14672,7 +14668,6 @@
       {
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
-         "him-8(e1489)" : null,
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
          "Tracks" : [
@@ -14682,8 +14677,8 @@
             "worm/rainbow_genelet_L4DPY28",
             "worm/Hillier_confirmed_introns_L4DPY28"
          ],
-         "submission" : "modENCODE_2844",
-         "label" : "C. elegans mid-L4 male dpy-28;him-8 RNA-Seq genelets",
+         "submission" : "2844",
+         "label" : "RNA-seq;total-RNA;dpy28(y1);Male  mid-L4 30 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "dpy28(y1)",
          "Developmental-Stage" : "Male  mid-L4 30 hrs post-L1 stage larvae",
@@ -14702,8 +14697,8 @@
             "worm/rainbow_transcript_L1",
             "worm/rainbow_genelet_L1"
          ],
-         "submission" : "modENCODE_2845",
-         "label" : "C. elegans mid-L1 N2 RNA-Seq genelets",
+         "submission" : "2845",
+         "label" : "RNA-seq;total-RNA;N2;Mid-L1 4.0 hrs post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L1 4.0 hrs post-L1 stage larvae",
@@ -14722,8 +14717,8 @@
             "worm/rainbow_genelet_L2",
             "worm/Hillier_confirmed_SL_L2"
          ],
-         "submission" : "modENCODE_2846",
-         "label" : "C. elegans mid-L2 N2 RNA-Seq genelets",
+         "submission" : "2846",
+         "label" : "RNA-seq;total-RNA;N2;Mid-L2 17.75 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L2 17.75 hrs post-L1 stage larvae",
@@ -14743,8 +14738,8 @@
             "worm/Hillier_confirmed_introns_L3",
             "worm/rainbow_transcript_L3"
          ],
-         "submission" : "modENCODE_2847",
-         "label" : "C. elegans mid-L3 N2 RNA-Seq genelets",
+         "submission" : "2847",
+         "label" : "RNA-seq;total-RNA;N2;Mid-L3 26.75 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L3 26.75 hrs post-L1 stage larvae",
@@ -14763,8 +14758,8 @@
             "worm/Hillier_confirmed_polyA_L4",
             "worm/rainbow_genelet_L4"
          ],
-         "submission" : "modENCODE_2848",
-         "label" : "C. elegans mid-L4 N2 RNA-Seq genelets",
+         "submission" : "2848",
+         "label" : "RNA-seq;total-RNA;N2;Mid-L4 34.25 hrs post-L1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
@@ -14780,8 +14775,8 @@
             "fly/YF1.2913_BS153.bam.sorted",
             "fly/YF1.2866_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2866",
-         "label" : "Dm adult female, eclosion + 1 day RNA-Seq, multi mappers",
+         "submission" : "2866",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Adult female, eclosion + 1 day",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult female, eclosion + 1 day",
@@ -14796,8 +14791,8 @@
             "fly/YF30.2914_BS165.bam.sorted",
             "fly/YF30.2867_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2867",
-         "label" : "Dm adult female, eclosion + 30 days RNA-Seq, multi mapper",
+         "submission" : "2867",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Adult female, eclosion + 30 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult female, eclosion + 30 days",
@@ -14812,8 +14807,8 @@
             "fly/YF5.2868_merged_hits.sam.bam.sorted",
             "fly/YF5.2915_BS159.bam.sorted"
          ],
-         "submission" : "modENCODE_2868",
-         "label" : "Dm adult female, eclosion + 5 days RNA-Seq, multi mappers",
+         "submission" : "2868",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Adult female, eclosion + 5 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult female, eclosion + 5 days",
@@ -14828,8 +14823,8 @@
             "fly/YM1.2916_BS150.bam.sorted",
             "fly/YM1.2869_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2869",
-         "label" : "Dm adult male, eclosion + 1 day RNA-Seq, multi mappers",
+         "submission" : "2869",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Adult male, eclosion + 1 day",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult male, eclosion + 1 day",
@@ -14843,8 +14838,8 @@
          "Tracks" : [
             "fly/YM30.2870_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2870",
-         "label" : "Dm adult male, eclosion + 30 days RNA-Seq, multi mappers",
+         "submission" : "2870",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Adult male, eclosion + 30 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult male, eclosion + 30 days",
@@ -14858,8 +14853,8 @@
          "Tracks" : [
             "fly/YM5.2871_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2871",
-         "label" : "Dm adult male, eclosion + 5 days RNA-Seq, multi mappers",
+         "submission" : "2871",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Adult male, eclosion + 5 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult male, eclosion + 5 days",
@@ -14874,8 +14869,8 @@
             "fly/L1.2919_BS107.bam.sorted",
             "fly/L1.2872_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2872",
-         "label" : "Dm L1 stage larvae RNA-Seq, multi mappers",
+         "submission" : "2872",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;L1 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L1 stage larvae",
@@ -14889,8 +14884,8 @@
          "Tracks" : [
             "fly/L2.2873_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2873",
-         "label" : "Dm L2 stage larvae RNA-Seq, multi mappers",
+         "submission" : "2873",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;L2 stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L2 stage larvae",
@@ -14904,8 +14899,8 @@
          "Tracks" : [
             "fly/L312.2874_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2874",
-         "label" : "Dm L3 stage larvae, 12 hr post-molt RNA-Seq, multi mappers",
+         "submission" : "2874",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;L3 stage , 12 hr post-molt stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage , 12 hr post-molt stage larvae",
@@ -14919,8 +14914,8 @@
          "Tracks" : [
             "fly/L313.2875_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2875",
-         "label" : "Dm L3 stage larvae, dark blue gut PS(1-2) RNA-Seq, multi mappers",
+         "submission" : "2875",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;L3 stage , dark blue gut PS(1-2) stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage , dark blue gut PS(1-2) stage larvae",
@@ -14934,8 +14929,8 @@
          "Tracks" : [
             "fly/L314.2876_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2876",
-         "label" : "Dm L3 stage larvae, light blue gut PS(3-6) RNA-Seq, multi mappers",
+         "submission" : "2876",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;L3 stage , light blue gut PS(3-6) stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage , light blue gut PS(3-6) stage larvae",
@@ -14949,8 +14944,8 @@
          "Tracks" : [
             "fly/L315.2877_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2877",
-         "label" : "Dm L3 stage larvae, clear gut PS (7-9) RNA-Seq, multi mappers",
+         "submission" : "2877",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;L3 stage , clear gut PS(7-9) stage larvae",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "L3 stage , clear gut PS(7-9) stage larvae",
@@ -14964,8 +14959,8 @@
          "Tracks" : [
             "fly/P0.2878_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2878",
-         "label" : "Dm white prepupae (WPP) RNA-Seq, multi mappers",
+         "submission" : "2878",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;White prepupae (White prepupae (WPP))",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "White prepupae (White prepupae (WPP))",
@@ -14979,8 +14974,8 @@
          "Tracks" : [
             "fly/P12.2879_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2879",
-         "label" : "Dm WPP + 12 hr RNA-Seq, multi mappers",
+         "submission" : "2879",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;White prepupae (WPP) + 12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "White prepupae (WPP) + 12 hr",
@@ -14994,8 +14989,8 @@
          "Tracks" : [
             "fly/P24.2880_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2880",
-         "label" : "Dm WPP + 24 hr RNA-Seq, multi mappers",
+         "submission" : "2880",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;White prepupae (WPP) + 24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "White prepupae (WPP) + 24 hr",
@@ -15009,8 +15004,8 @@
          "Tracks" : [
             "fly/P48.2881_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2881",
-         "label" : "Dm pupae, WPP + 2 days RNA-Seq, multi mappers",
+         "submission" : "2881",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Pupae, White prepupae (WPP) + 2 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae, White prepupae (WPP) + 2 days",
@@ -15024,8 +15019,8 @@
          "Tracks" : [
             "fly/P72.2882_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2882",
-         "label" : "Dm pupae, WPP + 3 days RNA-Seq, multi mappers",
+         "submission" : "2882",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Pupae, White prepupae (WPP) + 3 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae, White prepupae (WPP) + 3 days",
@@ -15039,8 +15034,8 @@
          "Tracks" : [
             "fly/P96.2883_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2883",
-         "label" : "Dm pupae, WPP + 4 days RNA-Seq, multi mappers",
+         "submission" : "2883",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Pupae, White prepupae (WPP) + 4 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Pupae, White prepupae (WPP) + 4 days",
@@ -15055,8 +15050,8 @@
             "fly/E0.2884_merged_hits.sam.bam.sorted",
             "fly/E0.2898_BS40.bam.sorted"
          ],
-         "submission" : "modENCODE_2884",
-         "label" : "Dm embryos, 0-2 hr after egg laying RNA-Seq, multi mappers",
+         "submission" : "2884",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 0-2 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 0-2 hr",
@@ -15071,8 +15066,8 @@
             "fly/E2.2885_merged_hits.sam.bam.sorted",
             "fly/E2.2899_BS43.bam.sorted"
          ],
-         "submission" : "modENCODE_2885",
-         "label" : "Dm embryos, 2-4 hr after egg laying RNA-Seq, multi mappers",
+         "submission" : "2885",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 2-4 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 2-4 hr",
@@ -15087,8 +15082,8 @@
             "fly/E4.2900_BS46.bam.sorted",
             "fly/E4.2886_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2886",
-         "label" : "Dm embryos, 4-6 hr after egg laying RNA-Seq, multi mappers",
+         "submission" : "2886",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 4-6 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-6 hr",
@@ -15102,8 +15097,8 @@
          "Tracks" : [
             "fly/E6.2887_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2887",
-         "label" : "Dm embryos, 6-8 hr after egg laying RNA-Seq, multi mappers",
+         "submission" : "2887",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 6-8 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 6-8 hr",
@@ -15117,8 +15112,8 @@
          "Tracks" : [
             "fly/E8.2888_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2888",
-         "label" : "Dm embryos, 8-10 hr after egg laying RNA-Seq, multi mappers",
+         "submission" : "2888",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 8-10 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 8-10 hr",
@@ -15132,8 +15127,8 @@
          "Tracks" : [
             "fly/E10.2889_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2889",
-         "label" : "Dm embryos, 10-12 hr after egg laying RNA-Seq, multi mappers",
+         "submission" : "2889",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 10-12 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 10-12 hr",
@@ -15147,8 +15142,8 @@
          "Tracks" : [
             "fly/E12.2890_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2890",
-         "label" : "Dm embryos, 12-14 hr after egg laying RNA-Seq, multi mappers",
+         "submission" : "2890",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 12-14 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 12-14 hr",
@@ -15162,8 +15157,8 @@
          "Tracks" : [
             "fly/E14.2891_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2891",
-         "label" : "Dm embryos, 14-16 hr after egg laying RNA-Seq, multi mappers",
+         "submission" : "2891",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 14-16 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 14-16 hr",
@@ -15177,8 +15172,8 @@
          "Tracks" : [
             "fly/E16.2892_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2892",
-         "label" : "Dm embryos, 16-18 hr after egg laying RNA-Seq, multi mappers",
+         "submission" : "2892",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 16-18 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 16-18 hr",
@@ -15192,8 +15187,8 @@
          "Tracks" : [
             "fly/E18.2893_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2893",
-         "label" : "Dm embryos, 18-20 hr after egg laying RNA-Seq, multi mappers",
+         "submission" : "2893",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 18-20 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 18-20 hr",
@@ -15207,8 +15202,8 @@
          "Tracks" : [
             "fly/E20.2894_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2894",
-         "label" : "Dm embryos, 20-22 hr after egg laying RNA-Seq, multi mappers",
+         "submission" : "2894",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 20-22 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 20-22 hr",
@@ -15222,8 +15217,8 @@
          "Tracks" : [
             "fly/E22.2895_merged_hits.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_2895",
-         "label" : "Dm embryos, 22-24 hr after egg laying RNA-Seq, multi mappers",
+         "submission" : "2895",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Embryos 22-24 hrSC",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 22-24 hrSC",
@@ -15237,8 +15232,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_adult_Female_30daysPostEclosion"
          ],
-         "submission" : "modENCODE_2896",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_adult_Female_30dayPostEclosion_TotalRNA_p200_398-400-402_38bp",
+         "submission" : "2896",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Adult female, eclosion + 30 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult female, eclosion + 30 days",
@@ -15252,8 +15247,8 @@
          "Tracks" : [
             "fly/POST_EMBRYO_Total/Dm_adult_Male_30daysPostEclosion"
          ],
-         "submission" : "modENCODE_2897",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_adult_Male_30dayPostEclosion_TotalRNA_p200_392-394-396_38bp",
+         "submission" : "2897",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Adult male, eclosion + 30 days",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Adult male, eclosion + 30 days",
@@ -15267,8 +15262,8 @@
          "Tracks" : [
             "fly/2928_MXEMB.bam.sorted"
          ],
-         "submission" : "modENCODE_2928",
-         "label" : "Dm mixed-stage embryos, RNA-Seq, multi mappers",
+         "submission" : "2928",
+         "label" : "RNA-seq;total-RNA;Y cn bw sp;Mixed Embryos 0-24 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Mixed Embryos 0-24 hr",
@@ -15279,8 +15274,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_2961",
-         "label" : "Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, and wormbase splice junctions",
+         "submission" : "2961",
+         "label" : "integrated-gene-model;total-RNA;N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
@@ -15291,8 +15286,8 @@
          "factor" : "ZFP-1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_2969",
-         "label" : "Lieb JL00006_ZFP1_N2_MXEMB",
+         "submission" : "2969",
+         "label" : "ChIP-chip;ZFP-1;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -15303,8 +15298,8 @@
          "factor" : "Y39G10AR.18",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_2970",
-         "label" : "Lieb SDQ4129_Y39G10AR18_N2_MXEMB",
+         "submission" : "2970",
+         "label" : "ChIP-chip;Y39G10AR.18;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -15319,8 +15314,8 @@
             "fly/V001.sam.gz.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_E/2-18hr_embryos_non-irradiated"
          ],
-         "submission" : "modENCODE_2971",
-         "label" : "Dm 2-18hr non-irradiated embryos smallRNA RNA-Seq",
+         "submission" : "2971",
+         "label" : "RNA-seq;small-RNA;w1118;2-18 hr Embryos",
          "type" : "data set",
          "Strain" : "w1118",
          "Developmental-Stage" : "2-18 hr Embryos",
@@ -15335,8 +15330,8 @@
             "fly/V002.sam.gz.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_E/2-18hr_embryos_irradiated"
          ],
-         "submission" : "modENCODE_2972",
-         "label" : "Dm 2-18hr irradiated embryos smallRNA RNA-Seq",
+         "submission" : "2972",
+         "label" : "RNA-seq;small-RNA;w1118;2-18 hr Embryos",
          "type" : "data set",
          "Strain" : "w1118",
          "Developmental-Stage" : "2-18 hr Embryos",
@@ -15352,9 +15347,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/S2_Rubin_Ecdysone",
             "fly/2973_merged_sam"
          ],
-         "submission" : "modENCODE_2973",
+         "submission" : "2973",
          "Cell-Line" : "S2-Rubin",
-         "label" : "S2-Rubin + Ecdysone smallRNA RNA-Seq",
+         "label" : "RNA-seq;small-RNA;S2-Rubin;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15369,9 +15364,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/Kc_Rubin_Ecdysone",
             "fly/2974_merged_sam"
          ],
-         "submission" : "modENCODE_2974",
+         "submission" : "2974",
          "Cell-Line" : "Kc-Rubin",
-         "label" : "Kc-Rubin + Ecdysone smallRNA RNA-Seq",
+         "label" : "RNA-seq;small-RNA;Kc-Rubin;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15386,8 +15381,8 @@
             "fly/V098.sam.gz.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_T/Dcr-2_L811fsX_Ovary"
          ],
-         "submission" : "modENCODE_2975",
-         "label" : "Dcr-2[L811fsX] Ovary smallRNA RNA-Seq",
+         "submission" : "2975",
+         "label" : "RNA-seq;small-RNA;Dcr-2L811fsX;Adult Female;Adult ovaries",
          "type" : "data set",
          "Strain" : "Dcr-2L811fsX",
          "Developmental-Stage" : "Adult Female",
@@ -15403,8 +15398,8 @@
             "fly/V097.sam.gz.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_T/CantonS_Adult_ovaries"
          ],
-         "submission" : "modENCODE_2976",
-         "label" : "Canton S Adult ovaries",
+         "submission" : "2976",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult Female;Adult ovaries",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult Female",
@@ -15419,9 +15414,9 @@
          "Tracks" : [
             "fly/MacAlpine_MCM_CHIPSEQ_COMB/S2_DRSC_MCM_2_7"
          ],
-         "submission" : "modENCODE_2979",
+         "submission" : "2979",
          "Cell-Line" : "S2-DRSC",
-         "label" : "MCM S2-DRSC ChIP-Seq experiment",
+         "label" : "ChIP-seq;Mcm2-7;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15431,8 +15426,8 @@
          "Tissue" : "Dpse Female heads",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_2980",
-         "label" : "D. Pseudoobscura female heads mRNA-seq",
+         "submission" : "2980",
+         "label" : "RNA-seq;total-RNA;D.pseudoobscura wild-type;Dpse Adult Female;Dpse Female heads",
          "type" : "data set",
          "Strain" : "D.pseudoobscura wild-type",
          "Developmental-Stage" : "Dpse Adult Female",
@@ -15443,8 +15438,8 @@
          "factor" : "AGO2",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2982",
-         "label" : "Ago2 (clone 9D6).D.mel 3rd Instar Larvae Nuclei",
+         "submission" : "2982",
+         "label" : "ChIP-chip;AGO2;Oregon-R;3rd Instar Larvae",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "3rd Instar Larvae",
@@ -15456,9 +15451,9 @@
          "factor" : "AGO2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2983",
+         "submission" : "2983",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Ago2 (clone 9D6).S2",
+         "label" : "ChIP-chip;AGO2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15469,9 +15464,9 @@
          "factor" : "ASH1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2984",
+         "submission" : "2984",
          "Cell-Line" : "S2-DRSC",
-         "label" : "ASH1 Q4177.S2",
+         "label" : "ChIP-chip;ASH1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15482,9 +15477,9 @@
          "factor" : "BRE1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2985",
+         "submission" : "2985",
          "Cell-Line" : "S2-DRSC",
-         "label" : "BRE1(Q4146).S2",
+         "label" : "ChIP-chip;BRE1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15495,9 +15490,9 @@
          "factor" : "dSFMBT",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2986",
+         "submission" : "2986",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "dSFMBT Q2642.BG3",
+         "label" : "ChIP-chip;dSFMBT;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -15508,9 +15503,9 @@
          "factor" : "E(Z)",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2987",
+         "submission" : "2987",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "EZ-Q3421.BG3",
+         "label" : "ChIP-chip;E(Z);ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -15521,9 +15516,9 @@
          "factor" : "E(Z)",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2988",
+         "submission" : "2988",
          "Cell-Line" : "S2-DRSC",
-         "label" : "EZ-Q3421.S2",
+         "label" : "ChIP-chip;E(Z);S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15533,8 +15528,8 @@
          "factor" : "H2AV",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2989",
-         "label" : "H2AV_9751.14-16 hr OR embryo",
+         "submission" : "2989",
+         "label" : "ChIP-chip;H2AV;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -15545,8 +15540,8 @@
          "factor" : "H2AV",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2990",
-         "label" : "H2AV_9751.2-4 hr OR embryo",
+         "submission" : "2990",
+         "label" : "ChIP-chip;H2AV;Oregon-R;Embryos 2-4 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 2-4 hr OR",
@@ -15558,9 +15553,9 @@
          "factor" : "H2AV",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2991",
+         "submission" : "2991",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H2AV_9751.S2",
+         "label" : "ChIP-chip;H2AV;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15570,8 +15565,8 @@
          "factor" : "H2Bubi",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2992",
-         "label" : "H2B-ubiq (NRO3).14-16 hr OR embryo",
+         "submission" : "2992",
+         "label" : "ChIP-chip;H2Bubi;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -15582,8 +15577,8 @@
          "factor" : "H2Bubi",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2993",
-         "label" : "H2B-ubiq (NRO3).2-4 hr OR embryo",
+         "submission" : "2993",
+         "label" : "ChIP-chip;H2Bubi;Oregon-R;Embryos 2-4 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 2-4 hr OR",
@@ -15595,9 +15590,9 @@
          "factor" : "H2Bubi",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2994",
+         "submission" : "2994",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "H2B-ubiq (NRO3).Clone_8",
+         "label" : "ChIP-chip;H2Bubi;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -15607,8 +15602,8 @@
          "factor" : "H3K18ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2995",
-         "label" : "H3K18Ac (new lot).D.mel 3rd Instar Larvae Nuclei",
+         "submission" : "2995",
+         "label" : "ChIP-chip;H3K18ac;Oregon-R;3rd Instar Larvae",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "3rd Instar Larvae",
@@ -15620,9 +15615,9 @@
          "factor" : "H3K18ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2996",
+         "submission" : "2996",
          "Cell-Line" : "Kc167",
-         "label" : "H3K18Ac (new lot).Kc",
+         "label" : "ChIP-chip;H3K18ac;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15632,8 +15627,8 @@
          "factor" : "H3K23ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2997",
-         "label" : "H3K23ac.14-16 hr OR embryo",
+         "submission" : "2997",
+         "label" : "ChIP-chip;H3K23ac;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -15645,9 +15640,9 @@
          "factor" : "H3K23ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2998",
+         "submission" : "2998",
          "Cell-Line" : "Kc167",
-         "label" : "H3K23ac.Kc",
+         "label" : "ChIP-chip;H3K23ac;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15658,9 +15653,9 @@
          "factor" : "H3K27me2",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_2999",
+         "submission" : "2999",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K27me2-TJ.BG3",
+         "label" : "ChIP-chip;H3K27me2;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -15671,9 +15666,9 @@
          "factor" : "H3K27me2",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3000",
+         "submission" : "3000",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K27me2-TJ.S2",
+         "label" : "ChIP-chip;H3K27me2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15683,8 +15678,8 @@
          "factor" : "H3K36me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3001",
-         "label" : "H3K36me1.2-4 hr OR embryo",
+         "submission" : "3001",
+         "label" : "ChIP-chip;H3K36me1;Oregon-R;Embryos 2-4 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 2-4 hr OR",
@@ -15696,9 +15691,9 @@
          "factor" : "H3K36me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3002",
+         "submission" : "3002",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "H3K36me1.Clone_8",
+         "label" : "ChIP-chip;H3K36me1;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -15709,9 +15704,9 @@
          "factor" : "H3K36me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3003",
+         "submission" : "3003",
          "Cell-Line" : "Kc167",
-         "label" : "H3K36me1.Kc",
+         "label" : "ChIP-chip;H3K36me1;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15722,9 +15717,9 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3004",
+         "submission" : "3004",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "H3K36me3.Clone_8",
+         "label" : "ChIP-chip;H3K36me3;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -15735,9 +15730,9 @@
          "factor" : "H3K79me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3005",
+         "submission" : "3005",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3K79Me1.BG3",
+         "label" : "ChIP-chip;H3K79me1;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -15747,8 +15742,8 @@
          "factor" : "H3K9ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3006",
-         "label" : "H3K9ac.D.mel 3rd Instar Larvae Nuclei",
+         "submission" : "3006",
+         "label" : "ChIP-chip;H3K9ac;Oregon-R;3rd Instar Larvae",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "3rd Instar Larvae",
@@ -15760,9 +15755,9 @@
          "factor" : "H3K9ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3007",
+         "submission" : "3007",
          "Cell-Line" : "Kc167",
-         "label" : "H3K9ac.Kc",
+         "label" : "ChIP-chip;H3K9ac;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15772,8 +15767,8 @@
          "factor" : "H3K9acS10P",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3008",
-         "label" : "H3K9acS10P (new abcam lot).D.mel 3rd Instar Larvae Nuclei",
+         "submission" : "3008",
+         "label" : "ChIP-chip;H3K9acS10P;Oregon-R;3rd Instar Larvae",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "3rd Instar Larvae",
@@ -15785,9 +15780,9 @@
          "factor" : "H3K9acS10P",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3009",
+         "submission" : "3009",
          "Cell-Line" : "Kc167",
-         "label" : "H3K9acS10P (new abcam lot).Kc",
+         "label" : "ChIP-chip;H3K9acS10P;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15798,9 +15793,9 @@
          "factor" : "H3K9acS10P",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3010",
+         "submission" : "3010",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "H3K9acS10P (new lot).Clone_8",
+         "label" : "ChIP-chip;H3K9acS10P;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -15811,9 +15806,9 @@
          "factor" : "H3K9me2",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3011",
+         "submission" : "3011",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K9me2-Ab2 (new lot).S2",
+         "label" : "ChIP-chip;H3K9me2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15823,8 +15818,8 @@
          "factor" : "H3K9me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3012",
-         "label" : "H3K9me3 abcam.2-4 hr OR embryo",
+         "submission" : "3012",
+         "label" : "ChIP-chip;H3K9me3;Oregon-R;Embryos 2-4 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 2-4 hr OR",
@@ -15836,9 +15831,9 @@
          "factor" : "H3K9me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3013",
+         "submission" : "3013",
          "Cell-Line" : "Kc167",
-         "label" : "H3K9me3 abcam.Kc",
+         "label" : "ChIP-chip;H3K9me3;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15849,9 +15844,9 @@
          "factor" : "H4K20me",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3014",
+         "submission" : "3014",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H4K20me.S2",
+         "label" : "ChIP-chip;H4K20me;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15861,8 +15856,8 @@
          "factor" : "HP1b",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3015",
-         "label" : "HP1b (Henikoff).14-16 hr OR embryo",
+         "submission" : "3015",
+         "label" : "ChIP-chip;HP1b;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -15874,9 +15869,9 @@
          "factor" : "HP1b",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3017",
+         "submission" : "3017",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "HP1b (Henikoff).Clone_8",
+         "label" : "ChIP-chip;HP1b;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -15887,9 +15882,9 @@
          "factor" : "HP1b",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3019",
+         "submission" : "3019",
          "Cell-Line" : "Kc167",
-         "label" : "HP1b (Henikoff).Kc",
+         "label" : "ChIP-chip;HP1b;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15900,9 +15895,9 @@
          "factor" : "HP1b",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3020",
+         "submission" : "3020",
          "Cell-Line" : "S2-DRSC",
-         "label" : "HP1b Q4114.S2",
+         "label" : "ChIP-chip;HP1b;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -15912,8 +15907,8 @@
          "factor" : "HP1c",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3021",
-         "label" : "HP1c (MO 462).14-16 hr OR embryo",
+         "submission" : "3021",
+         "label" : "ChIP-chip;HP1c;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -15924,8 +15919,8 @@
          "factor" : "HP1c",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3022",
-         "label" : "HP1c (MO 462).2-4 hr OR embryo",
+         "submission" : "3022",
+         "label" : "ChIP-chip;HP1c;Oregon-R;Embryos 2-4 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 2-4 hr OR",
@@ -15936,8 +15931,8 @@
          "factor" : "HP1c",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3023",
-         "label" : "HP1c (MO 462).D.mel 3rd Instar Larvae Nuclei",
+         "submission" : "3023",
+         "label" : "ChIP-chip;HP1c;Oregon-R;3rd Instar Larvae",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "3rd Instar Larvae",
@@ -15948,8 +15943,8 @@
          "factor" : "HP1a",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3024",
-         "label" : "HP1 wa191.14-16 hr OR embryo",
+         "submission" : "3024",
+         "label" : "ChIP-chip;HP1a;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -15960,8 +15955,8 @@
          "factor" : "HP2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3025",
-         "label" : "HP2 (Ab2-90).14-16 hr OR embryo",
+         "submission" : "3025",
+         "label" : "ChIP-chip;HP2;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -15973,9 +15968,9 @@
          "factor" : "HP2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3026",
+         "submission" : "3026",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "HP2 (Ab2-90).BG3",
+         "label" : "ChIP-chip;HP2;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -15986,9 +15981,9 @@
          "factor" : "HP2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3027",
+         "submission" : "3027",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "HP2 (Ab2-90).Clone_8",
+         "label" : "ChIP-chip;HP2;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -15998,8 +15993,8 @@
          "factor" : "HP2",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3028",
-         "label" : "HP2 (Ab2-90).D.mel 3rd Instar Larvae Nuclei",
+         "submission" : "3028",
+         "label" : "ChIP-chip;HP2;Oregon-R;3rd Instar Larvae",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "3rd Instar Larvae",
@@ -16011,9 +16006,9 @@
          "factor" : "HP2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3029",
+         "submission" : "3029",
          "Cell-Line" : "Kc167",
-         "label" : "HP2 (Ab2-90).Kc",
+         "label" : "ChIP-chip;HP2;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16024,9 +16019,9 @@
          "factor" : "ISWI",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3030",
+         "submission" : "3030",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "ISWI_Q4095.BG3",
+         "label" : "ChIP-chip;ISWI;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -16037,9 +16032,9 @@
          "factor" : "ISWI",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3031",
+         "submission" : "3031",
          "Cell-Line" : "Kc167",
-         "label" : "ISWI_Q4095.Kc",
+         "label" : "ChIP-chip;ISWI;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16050,9 +16045,9 @@
          "factor" : "ISWI",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3032",
+         "submission" : "3032",
          "Cell-Line" : "S2-DRSC",
-         "label" : "ISWI_Q4095.S2",
+         "label" : "ChIP-chip;ISWI;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16063,9 +16058,9 @@
          "factor" : "JHDM1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3033",
+         "submission" : "3033",
          "Cell-Line" : "S2-DRSC",
-         "label" : "JHDM1_Q2634.S2",
+         "label" : "ChIP-chip;JHDM1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16075,8 +16070,8 @@
          "factor" : "JIL1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3034",
-         "label" : "JIL1_Q3433.14-16 hr OR embryo",
+         "submission" : "3034",
+         "label" : "ChIP-chip;JIL1;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -16088,9 +16083,9 @@
          "factor" : "JIL1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3035",
+         "submission" : "3035",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "JIL1_Q3433.BG3",
+         "label" : "ChIP-chip;JIL1;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -16101,9 +16096,9 @@
          "factor" : "JIL1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3036",
+         "submission" : "3036",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "JIL1_Q3433.Clone_8",
+         "label" : "ChIP-chip;JIL1;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -16114,9 +16109,9 @@
          "factor" : "JIL1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3037",
+         "submission" : "3037",
          "Cell-Line" : "Kc167",
-         "label" : "JIL1_Q3433.Kc",
+         "label" : "ChIP-chip;JIL1;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16127,9 +16122,9 @@
          "factor" : "JIL-1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3038",
+         "submission" : "3038",
          "Cell-Line" : "S2-DRSC",
-         "label" : "JIL-1(Q4170).S2",
+         "label" : "ChIP-chip;JIL-1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16140,9 +16135,9 @@
          "factor" : "MBD-R2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3039",
+         "submission" : "3039",
          "Cell-Line" : "S2-DRSC",
-         "label" : "MBD-R2(Q4167).S2",
+         "label" : "ChIP-chip;MBD-R2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16153,9 +16148,9 @@
          "factor" : "MLE",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3040",
+         "submission" : "3040",
          "Cell-Line" : "S2-DRSC",
-         "label" : "MLE_Q4142.S2",
+         "label" : "ChIP-chip;MLE;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16166,9 +16161,9 @@
          "factor" : "MOF",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3041",
+         "submission" : "3041",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "MOF_Q4145.BG3",
+         "label" : "ChIP-chip;MOF;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -16179,9 +16174,9 @@
          "factor" : "MOF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3042",
+         "submission" : "3042",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "MOF_Q4145.Clone_8",
+         "label" : "ChIP-chip;MOF;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -16192,9 +16187,9 @@
          "factor" : "MOF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3043",
+         "submission" : "3043",
          "Cell-Line" : "Kc167",
-         "label" : "MOF_Q4145.Kc",
+         "label" : "ChIP-chip;MOF;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16205,9 +16200,9 @@
          "factor" : "MOF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3044",
+         "submission" : "3044",
          "Cell-Line" : "S2-DRSC",
-         "label" : "MOF_Q4145.S2",
+         "label" : "ChIP-chip;MOF;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16218,9 +16213,9 @@
          "factor" : "MRG15",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3045",
+         "submission" : "3045",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "MRG15_Q2481.BG3",
+         "label" : "ChIP-chip;MRG15;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -16231,9 +16226,9 @@
          "factor" : "MRG15",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3046",
+         "submission" : "3046",
          "Cell-Line" : "Kc167",
-         "label" : "MRG15_Q2481.Kc",
+         "label" : "ChIP-chip;MRG15;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16244,9 +16239,9 @@
          "factor" : "MRG15",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3047",
+         "submission" : "3047",
          "Cell-Line" : "S2-DRSC",
-         "label" : "MRG15_Q2481.S2",
+         "label" : "ChIP-chip;MRG15;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16257,9 +16252,9 @@
          "factor" : "Nurf301",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3048",
+         "submission" : "3048",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Nurf301_Q4159.S2",
+         "label" : "ChIP-chip;Nurf301;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16270,9 +16265,9 @@
          "factor" : "PCL",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3049",
+         "submission" : "3049",
          "Cell-Line" : "S2-DRSC",
-         "label" : "PCL Q3412.S2",
+         "label" : "ChIP-chip;PCL;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16283,9 +16278,9 @@
          "factor" : "PIWI",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3050",
+         "submission" : "3050",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "PIWI-Q2569.Clone_8",
+         "label" : "ChIP-chip;PIWI;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -16295,8 +16290,8 @@
          "factor" : "PIWI",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3051",
-         "label" : "PIWI-Q2569.D.mel 3rd Instar Larvae Nuclei",
+         "submission" : "3051",
+         "label" : "ChIP-chip;PIWI;Oregon-R;3rd Instar Larvae",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "3rd Instar Larvae",
@@ -16308,9 +16303,9 @@
          "factor" : "POF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3052",
+         "submission" : "3052",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "POF (MO 459).BG3",
+         "label" : "ChIP-chip;POF;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -16320,8 +16315,8 @@
          "factor" : "POF",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3053",
-         "label" : "POF (MO 459).D.mel 3rd Instar Larvae Nuclei",
+         "submission" : "3053",
+         "label" : "ChIP-chip;POF;Oregon-R;3rd Instar Larvae",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "3rd Instar Larvae",
@@ -16333,9 +16328,9 @@
          "factor" : "PR-Set7",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3054",
+         "submission" : "3054",
          "Cell-Line" : "S2-DRSC",
-         "label" : "PR-Set7_Q3484.S2",
+         "label" : "ChIP-chip;PR-Set7;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16346,9 +16341,9 @@
          "factor" : "Psc",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3055",
+         "submission" : "3055",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Psc.BG3",
+         "label" : "ChIP-chip;Psc;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -16359,9 +16354,9 @@
          "factor" : "Psc",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3056",
+         "submission" : "3056",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Psc.S2",
+         "label" : "ChIP-chip;Psc;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16372,9 +16367,9 @@
          "factor" : "RPD3",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3057",
+         "submission" : "3057",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RPD3-Q3451.S2",
+         "label" : "ChIP-chip;RPD3;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16385,9 +16380,9 @@
          "factor" : "SPT16",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3058",
+         "submission" : "3058",
          "Cell-Line" : "S2-DRSC",
-         "label" : "SPT16_Q2583.S2",
+         "label" : "ChIP-chip;SPT16;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16398,9 +16393,9 @@
          "factor" : "Su(var)3-7",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3060",
+         "submission" : "3060",
          "Cell-Line" : "Kc167",
-         "label" : "Su(var)3-7-Q3448.Kc",
+         "label" : "ChIP-chip;Su(var)3-7;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16411,9 +16406,9 @@
          "factor" : "Su(var)3-9",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3061",
+         "submission" : "3061",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Su(var)3-9-Q2598.S2",
+         "label" : "ChIP-chip;Su(var)3-9;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16424,9 +16419,9 @@
          "factor" : "WDS",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3062",
+         "submission" : "3062",
          "Cell-Line" : "Kc167",
-         "label" : "WDS_Q2691.Kc",
+         "label" : "ChIP-chip;WDS;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16437,9 +16432,9 @@
          "factor" : "ZW5",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3064",
+         "submission" : "3064",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "ZW5.BG3",
+         "label" : "ChIP-chip;ZW5;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -16449,8 +16444,8 @@
          "factor" : "ceh-26",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3068",
-         "label" : "Identification of Transcription Factor CEH-26::GFP Binding Regions in LE",
+         "submission" : "3068",
+         "label" : "ChIP-seq;ceh-26;OP500;Late Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP500",
          "Developmental-Stage" : "Late Embryos",
@@ -16462,8 +16457,8 @@
          "factor" : "mef-2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3071",
-         "label" : "Identification of Transcription Factor MEF-2::GFP Binding Regions in L1",
+         "submission" : "3071",
+         "label" : "ChIP-seq;mef-2;OP301;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP301",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -16475,8 +16470,8 @@
          "factor" : "efl-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3072",
-         "label" : "Identification of Transcription Factor Ppie1_EFL1::GFP Binding Regions in YA",
+         "submission" : "3072",
+         "label" : "ChIP-seq;efl-1;YL445;Young Adult;20 degree celsius",
          "type" : "data set",
          "Strain" : "YL445",
          "Developmental-Stage" : "Young Adult",
@@ -16488,8 +16483,8 @@
          "factor" : "dpl-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3073",
-         "label" : "Identification of Transcription Factor Ppie1_DPL1::GFP Binding Regions in YA",
+         "submission" : "3073",
+         "label" : "ChIP-seq;dpl-1;YL390;Young Adult;20 degree celsius",
          "type" : "data set",
          "Strain" : "YL390",
          "Developmental-Stage" : "Young Adult",
@@ -16501,8 +16496,8 @@
          "factor" : "efl-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3074",
-         "label" : "Identification of Transcription Factor Pefl1_EFL1::GFP Binding Regions in L1",
+         "submission" : "3074",
+         "label" : "ChIP-seq;efl-1;YL424;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "YL424",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -16514,8 +16509,8 @@
          "factor" : "dpl-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3075",
-         "label" : "Identification of Transcription Factor Pdpl1_DPL1::GFP Binding Regions in L1",
+         "submission" : "3075",
+         "label" : "ChIP-seq;dpl-1;YL425;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "YL425",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -16527,8 +16522,8 @@
          "factor" : "ces-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3076",
-         "label" : "Identification of Transcription Factor CES1::GFP Binding Regions in L1",
+         "submission" : "3076",
+         "label" : "ChIP-seq;ces-1;OP174;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP174",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -16540,8 +16535,8 @@
          "factor" : "lin-15B",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3078",
-         "label" : "Identification of Transcription Factor LIN15B::GFP Binding Regions in L4",
+         "submission" : "3078",
+         "label" : "ChIP-seq;lin-15B;OP184;L4 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP184",
          "Developmental-Stage" : "L4 stage larvae",
@@ -16553,8 +16548,8 @@
          "factor" : "nhr-11",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3079",
-         "label" : "Identification of Transcription Factor NHR11::GFP Binding Regions in L2",
+         "submission" : "3079",
+         "label" : "ChIP-seq;nhr-11;OP305;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP305",
          "Developmental-Stage" : "L2 stage larvae",
@@ -16566,8 +16561,8 @@
          "factor" : "sea-2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3082",
-         "label" : "Identification of Transcription Factor SEA2::GFP Binding Regions in L3",
+         "submission" : "3082",
+         "label" : "ChIP-seq;sea-2;OP193;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP193",
          "Developmental-Stage" : "L3 stage larvae",
@@ -16582,8 +16577,8 @@
          "Tracks" : [
             "fly/3083_merged_hits_all.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_3083",
-         "label" : "D. melanogaster Oregon-R female headsmRNA-seq",
+         "submission" : "3083",
+         "label" : "RNA-seq;total-RNA;Oregon-R;Dmel Adult Female 8 days;Dmel Female heads",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Dmel Adult Female 8 days",
@@ -16597,8 +16592,8 @@
          "Tracks" : [
             "fly/3084_merged_hits_all.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_3084",
-         "label" : "D. melanogaster Oregon-R male headsmRNA-seq",
+         "submission" : "3084",
+         "label" : "RNA-seq;total-RNA;Oregon-R;Dmel Adult male 8 days;Dmel Male heads",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Dmel Adult male 8 days",
@@ -16609,8 +16604,8 @@
          "Tissue" : "Dpse Male heads",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3085",
-         "label" : "D. Pseudoobscura male heads mRNA-seq",
+         "submission" : "3085",
+         "label" : "RNA-seq;total-RNA;D.pseudoobscura wild-type;Dpse Adult Male;Dpse Male heads",
          "type" : "data set",
          "Strain" : "D.pseudoobscura wild-type",
          "Developmental-Stage" : "Dpse Adult Male",
@@ -16621,8 +16616,8 @@
          "Tissue" : "Dmoj Male heads",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3086",
-         "label" : "D. mojavensis male heads mRNA-seq",
+         "submission" : "3086",
+         "label" : "RNA-seq;total-RNA;Dmojavensis;Dmoj Adult Male;Dmoj Male heads",
          "type" : "data set",
          "Strain" : "Dmojavensis",
          "Developmental-Stage" : "Dmoj Adult Male",
@@ -16633,8 +16628,8 @@
          "Tissue" : "Dmoj Female heads",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3087",
-         "label" : "D. mojavensis female heads mRNA-seq",
+         "submission" : "3087",
+         "label" : "RNA-seq;total-RNA;Dmojavensis;Dmoj Adult Female;Dmoj Female heads",
          "type" : "data set",
          "Strain" : "Dmojavensis",
          "Developmental-Stage" : "Dmoj Adult Female",
@@ -16650,9 +16645,9 @@
          "Tracks" : [
             "fly/CG10128.sub_3089.merged"
          ],
-         "submission" : "modENCODE_3089",
+         "submission" : "3089",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG10128 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG10128-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16667,9 +16662,9 @@
          "Tracks" : [
             "fly/CG9373.sub_3090.merged"
          ],
-         "submission" : "modENCODE_3090",
+         "submission" : "3090",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG9373 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG9373-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16684,9 +16679,9 @@
          "Tracks" : [
             "fly/CG8781.sub_3091.merged"
          ],
-         "submission" : "modENCODE_3091",
+         "submission" : "3091",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG8781 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG8781-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16701,9 +16696,9 @@
          "Tracks" : [
             "fly/CG8636.sub_3092.merged"
          ],
-         "submission" : "modENCODE_3092",
+         "submission" : "3092",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG8636 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG8636-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16718,9 +16713,9 @@
          "Tracks" : [
             "fly/CG6779.sub_3094.merged"
          ],
-         "submission" : "modENCODE_3094",
+         "submission" : "3094",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG6779 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG6779-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16735,9 +16730,9 @@
          "Tracks" : [
             "fly/CG6227.sub_3095.merged"
          ],
-         "submission" : "modENCODE_3095",
+         "submission" : "3095",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG6227 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG6227-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16752,9 +16747,9 @@
          "Tracks" : [
             "fly/CG5655.sub_3096.merged"
          ],
-         "submission" : "modENCODE_3096",
+         "submission" : "3096",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG5655 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG5655-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16769,9 +16764,9 @@
          "Tracks" : [
             "fly/CG33106.sub_3097.merged"
          ],
-         "submission" : "modENCODE_3097",
+         "submission" : "3097",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG33106 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG33106-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16786,9 +16781,9 @@
          "Tracks" : [
             "fly/CG32423.sub_3098.merged"
          ],
-         "submission" : "modENCODE_3098",
+         "submission" : "3098",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG32423 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG32423-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16803,9 +16798,9 @@
          "Tracks" : [
             "fly/CG17838.sub_3099.merged"
          ],
-         "submission" : "modENCODE_3099",
+         "submission" : "3099",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG17838 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG17838-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16820,9 +16815,9 @@
          "Tracks" : [
             "fly/CG1101.sub_3100.merged"
          ],
-         "submission" : "modENCODE_3100",
+         "submission" : "3100",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG1101 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG1101-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16837,9 +16832,9 @@
          "Tracks" : [
             "fly/CG10203.sub_3101.merged"
          ],
-         "submission" : "modENCODE_3101",
+         "submission" : "3101",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG10203 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG10203-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16854,9 +16849,9 @@
          "Tracks" : [
             "fly/CG8749.sub_3102.merged"
          ],
-         "submission" : "modENCODE_3102",
+         "submission" : "3102",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG8749 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG8749-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16871,9 +16866,9 @@
          "Tracks" : [
             "fly/CG5821.sub_3103.merged"
          ],
-         "submission" : "modENCODE_3103",
+         "submission" : "3103",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG5821 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG5821-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16888,9 +16883,9 @@
          "Tracks" : [
             "fly/CG5170.sub_3104.merged"
          ],
-         "submission" : "modENCODE_3104",
+         "submission" : "3104",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG5170 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG5170-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16905,9 +16900,9 @@
          "Tracks" : [
             "fly/CG4602.sub_3105.merged"
          ],
-         "submission" : "modENCODE_3105",
+         "submission" : "3105",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG4602 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG4602-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16922,9 +16917,9 @@
          "Tracks" : [
             "fly/CG6841.sub_3106.merged"
          ],
-         "submission" : "modENCODE_3106",
+         "submission" : "3106",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG6841 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG6841-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16939,9 +16934,9 @@
          "Tracks" : [
             "fly/CG6203.sub_3107.merged"
          ],
-         "submission" : "modENCODE_3107",
+         "submission" : "3107",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG6203 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG6203-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16956,9 +16951,9 @@
          "Tracks" : [
             "fly/CG5422.sub_3108.merged"
          ],
-         "submission" : "modENCODE_3108",
+         "submission" : "3108",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG5422 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG5422-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16973,9 +16968,9 @@
          "Tracks" : [
             "fly/CG8912.sub_3109.merged"
          ],
-         "submission" : "modENCODE_3109",
+         "submission" : "3109",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG8912 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG8912-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -16990,9 +16985,9 @@
          "Tracks" : [
             "fly/CG8241.sub_3110.merged"
          ],
-         "submission" : "modENCODE_3110",
+         "submission" : "3110",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG8241 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG8241-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17007,9 +17002,9 @@
          "Tracks" : [
             "fly/CG16901.sub_3111.merged"
          ],
-         "submission" : "modENCODE_3111",
+         "submission" : "3111",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG16901 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG16901-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17024,9 +17019,9 @@
          "Tracks" : [
             "fly/CG13425.sub_3112.merged"
          ],
-         "submission" : "modENCODE_3112",
+         "submission" : "3112",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG13425 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG13425-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17041,9 +17036,9 @@
          "Tracks" : [
             "fly/CG10279.sub_3113.merged"
          ],
-         "submission" : "modENCODE_3113",
+         "submission" : "3113",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG10279 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG10279-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17058,9 +17053,9 @@
          "Tracks" : [
             "fly/CG6049.sub_3114.merged"
          ],
-         "submission" : "modENCODE_3114",
+         "submission" : "3114",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG6049 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG6049-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17075,9 +17070,9 @@
          "Tracks" : [
             "fly/CG3312.sub_3115.merged"
          ],
-         "submission" : "modENCODE_3115",
+         "submission" : "3115",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG3312 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG3312-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17092,9 +17087,9 @@
          "Tracks" : [
             "fly/CG31716.sub_3116.merged"
          ],
-         "submission" : "modENCODE_3116",
+         "submission" : "3116",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG31716 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG31716-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17109,9 +17104,9 @@
          "Tracks" : [
             "fly/CG30122.sub_3117.merged"
          ],
-         "submission" : "modENCODE_3117",
+         "submission" : "3117",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG30122 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG30122-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17126,9 +17121,9 @@
          "Tracks" : [
             "fly/CG11266.sub_3118.merged"
          ],
-         "submission" : "modENCODE_3118",
+         "submission" : "3118",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG11266 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG11266-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17143,9 +17138,9 @@
          "Tracks" : [
             "fly/CG8019.sub_3119.merged"
          ],
-         "submission" : "modENCODE_3119",
+         "submission" : "3119",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG8019 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG8019-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17160,9 +17155,9 @@
          "Tracks" : [
             "fly/CG7971.sub_3120.merged"
          ],
-         "submission" : "modENCODE_3120",
+         "submission" : "3120",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG7971 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG7971-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17177,9 +17172,9 @@
          "Tracks" : [
             "fly/CG4816.sub_3121.merged"
          ],
-         "submission" : "modENCODE_3121",
+         "submission" : "3121",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG4816 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG4816-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17194,9 +17189,9 @@
          "Tracks" : [
             "fly/CG3584.sub_3122.merged"
          ],
-         "submission" : "modENCODE_3122",
+         "submission" : "3122",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG3584 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG3584-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17211,9 +17206,9 @@
          "Tracks" : [
             "fly/CG1646.sub_3123.merged"
          ],
-         "submission" : "modENCODE_3123",
+         "submission" : "3123",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG1646 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG1646-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17228,9 +17223,9 @@
          "Tracks" : [
             "fly/CG10851.sub_3124.merged"
          ],
-         "submission" : "modENCODE_3124",
+         "submission" : "3124",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG10851 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG10851-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17245,9 +17240,9 @@
          "Tracks" : [
             "fly/CG5099.sub_3125.merged"
          ],
-         "submission" : "modENCODE_3125",
+         "submission" : "3125",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG5099 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG5099-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17262,9 +17257,9 @@
          "Tracks" : [
             "fly/CG4760.sub_3126.merged"
          ],
-         "submission" : "modENCODE_3126",
+         "submission" : "3126",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG4760 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG4760-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17279,9 +17274,9 @@
          "Tracks" : [
             "fly/CG18350.sub_3127.merged"
          ],
-         "submission" : "modENCODE_3127",
+         "submission" : "3127",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG18350 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG18350-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17296,9 +17291,9 @@
          "Tracks" : [
             "fly/CG16788.sub_3128.merged"
          ],
-         "submission" : "modENCODE_3128",
+         "submission" : "3128",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG16788 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG16788-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17313,9 +17308,9 @@
          "Tracks" : [
             "fly/CG1559.sub_3129.merged"
          ],
-         "submission" : "modENCODE_3129",
+         "submission" : "3129",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG1559 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG1559-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17330,9 +17325,9 @@
          "Tracks" : [
             "fly/CG10377.sub_3130.merged"
          ],
-         "submission" : "modENCODE_3130",
+         "submission" : "3130",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG10377 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG10377-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17347,9 +17342,9 @@
          "Tracks" : [
             "fly/CG9412.sub_3131.merged"
          ],
-         "submission" : "modENCODE_3131",
+         "submission" : "3131",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG9412 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG9412-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17364,9 +17359,9 @@
          "Tracks" : [
             "fly/CG6946.sub_3132.merged"
          ],
-         "submission" : "modENCODE_3132",
+         "submission" : "3132",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG6946 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG6946-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17381,9 +17376,9 @@
          "Tracks" : [
             "fly/CG1987.sub_3133.merged"
          ],
-         "submission" : "modENCODE_3133",
+         "submission" : "3133",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG1987 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG1987-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17398,9 +17393,9 @@
          "Tracks" : [
             "fly/CG9983.sub_3134.merged"
          ],
-         "submission" : "modENCODE_3134",
+         "submission" : "3134",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG9983 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG9983-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17415,9 +17410,9 @@
          "Tracks" : [
             "fly/CG5442.sub_3135.merged"
          ],
-         "submission" : "modENCODE_3135",
+         "submission" : "3135",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG5442 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG5442-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17432,9 +17427,9 @@
          "Tracks" : [
             "fly/CG31000.sub_3136.merged"
          ],
-         "submission" : "modENCODE_3136",
+         "submission" : "3136",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG31000 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG31000-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17449,9 +17444,9 @@
          "Tracks" : [
             "fly/CG17136.sub_3137.merged"
          ],
-         "submission" : "modENCODE_3137",
+         "submission" : "3137",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG17136 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG17136-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17466,9 +17461,9 @@
          "Tracks" : [
             "fly/Untreated.sub_3138.merged"
          ],
-         "submission" : "modENCODE_3138",
+         "submission" : "3138",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi Untreated in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;Untreated-(RNAi-control);S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17483,9 +17478,9 @@
          "Tracks" : [
             "fly/CG4878.sub_3139.merged"
          ],
-         "submission" : "modENCODE_3139",
+         "submission" : "3139",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG4878 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG4878-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17500,9 +17495,9 @@
          "Tracks" : [
             "fly/CG4262.sub_3140.merged"
          ],
-         "submission" : "modENCODE_3140",
+         "submission" : "3140",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG4262 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG4262-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17517,9 +17512,9 @@
          "Tracks" : [
             "fly/CG18426.sub_3141.merged"
          ],
-         "submission" : "modENCODE_3141",
+         "submission" : "3141",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG18426 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG18426-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17534,9 +17529,9 @@
          "Tracks" : [
             "fly/CG12749.sub_3142.merged"
          ],
-         "submission" : "modENCODE_3142",
+         "submission" : "3142",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG12749 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG12749-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17551,9 +17546,9 @@
          "Tracks" : [
             "fly/CG7878.sub_3143.merged"
          ],
-         "submission" : "modENCODE_3143",
+         "submission" : "3143",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG7878 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG7878-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17568,9 +17563,9 @@
          "Tracks" : [
             "fly/CG5836.sub_3144.merged"
          ],
-         "submission" : "modENCODE_3144",
+         "submission" : "3144",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG5836 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG5836-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17585,9 +17580,9 @@
          "Tracks" : [
             "fly/CG3249.sub_3145.merged"
          ],
-         "submission" : "modENCODE_3145",
+         "submission" : "3145",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG3249 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG3249-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17602,9 +17597,9 @@
          "Tracks" : [
             "fly/CG10328.sub_3146.merged"
          ],
-         "submission" : "modENCODE_3146",
+         "submission" : "3146",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNAi CG10328 in S2-DRSC RNA-seq uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CG10328-RNAi;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17614,8 +17609,8 @@
          "factor" : "daf-12",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3147",
-         "label" : "Identification of Transcription Factor DAF12::GFP Binding Regions in L3",
+         "submission" : "3147",
+         "label" : "ChIP-seq;daf-12;OP167;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP167",
          "Developmental-Stage" : "L3 stage larvae",
@@ -17627,8 +17622,8 @@
          "factor" : "F16B12.6",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3148",
-         "label" : "Identification of Transcription Factor F16B12.6::GFP Binding Regions in L1",
+         "submission" : "3148",
+         "label" : "ChIP-seq;F16B12.6;OP114;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP114",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -17640,8 +17635,8 @@
          "factor" : "gei-11",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3149",
-         "label" : "Identification of Transcription Factor GEI-11::GFP Binding Regions in L2",
+         "submission" : "3149",
+         "label" : "ChIP-seq;gei-11;OP179;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP179",
          "Developmental-Stage" : "L2 stage larvae",
@@ -17653,8 +17648,8 @@
          "factor" : "H3K79me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3151",
-         "label" : "Lieb AB2621_H3K79ME3361576_N2_MXEMB",
+         "submission" : "3151",
+         "label" : "ChIP-chip;H3K79me3;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -17665,8 +17660,8 @@
          "factor" : "N/A (negative control IgG)",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3153",
-         "label" : "Lieb AB46540_NIGG_N2_MXEMB",
+         "submission" : "3153",
+         "label" : "ChIP-chip;N/A (negative control IgG);N2;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Embryos",
@@ -17678,8 +17673,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3154",
-         "label" : "Lieb SDQ4051_LEM2_N2_MXEMB",
+         "submission" : "3154",
+         "label" : "RNA-tiling-array;total-RNA;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -17693,8 +17688,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_EOR1_COMB"
          ],
-         "submission" : "modENCODE_3155",
-         "label" : "Identification of Transcription Factor EOR-1::GFP Binding Regions in L3",
+         "submission" : "3155",
+         "label" : "ChIP-seq;eor-1;OP81;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP81",
          "Developmental-Stage" : "L3 stage larvae",
@@ -17709,8 +17704,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_ALR1_COMB"
          ],
-         "submission" : "modENCODE_3156",
-         "label" : "Identification of Transcription Factor ALR-1::GFP Binding Regions in L2",
+         "submission" : "3156",
+         "label" : "ChIP-seq;alr-1;OP200;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP200",
          "Developmental-Stage" : "L2 stage larvae",
@@ -17725,8 +17720,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_PES1_L4_GFP"
          ],
-         "submission" : "modENCODE_3157",
-         "label" : "Identification of Transcription Factor PES-1::GFP Binding Regions in L4",
+         "submission" : "3157",
+         "label" : "ChIP-seq;pes-1;OP87;L4 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP87",
          "Developmental-Stage" : "L4 stage larvae",
@@ -17741,8 +17736,8 @@
          "Tracks" : [
             "worm/Snyder_PHA4_GFP_COMB/PHA4_L2_GFP"
          ],
-         "submission" : "modENCODE_3158",
-         "label" : "Identification of Transcription Factor PHA-4::GFP Binding Regions in L2",
+         "submission" : "3158",
+         "label" : "ChIP-seq;pha-4;OP37;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP37",
          "Developmental-Stage" : "L2 stage larvae",
@@ -17757,8 +17752,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_EGL5_L3_GFP"
          ],
-         "submission" : "modENCODE_3159",
-         "label" : "Identification of Transcription Factor EGL-5::GFP Binding Regions in L3",
+         "submission" : "3159",
+         "label" : "ChIP-seq;egl-5;OP54;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP54",
          "Developmental-Stage" : "L3 stage larvae",
@@ -17773,8 +17768,8 @@
          "Tracks" : [
             "worm/Snyder_PHA4_GFP_COMB/PHA4_GFP_YA"
          ],
-         "submission" : "modENCODE_3161",
-         "label" : "Identification of Transcription Factor PHA-4::GFP Binding Regions in YA",
+         "submission" : "3161",
+         "label" : "ChIP-seq;pha-4;OP37;Young Adult;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP37",
          "Developmental-Stage" : "Young Adult",
@@ -17786,8 +17781,8 @@
          "factor" : "LEM-2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3164",
-         "label" : "Lieb SDQ4051_LEM2_SP646_MXEMB_SP646",
+         "submission" : "3164",
+         "label" : "ChIP-chip;LEM-2;SP646;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "SP646",
          "Developmental-Stage" : "Mixed Embryos",
@@ -17799,8 +17794,8 @@
          "factor" : "LEM-2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3165",
-         "label" : "Lieb SDQ3891_LEM2_VC1317_MXEMB",
+         "submission" : "3165",
+         "label" : "ChIP-chip;LEM-2;VC1317;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "VC1317",
          "Developmental-Stage" : "Mixed Embryos",
@@ -17812,8 +17807,8 @@
          "factor" : "LEM-2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3166",
-         "label" : "Lieb SDQ4051_LEM2_N2_MXEMB",
+         "submission" : "3166",
+         "label" : "ChIP-chip;LEM-2;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -17825,9 +17820,9 @@
          "factor" : "H3K36me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3170",
+         "submission" : "3170",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H3K36me1.S2",
+         "label" : "ChIP-chip;H3K36me1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -17837,8 +17832,8 @@
          "factor" : "H3K27me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3171",
-         "label" : "Strome HK00013_H3K27ME31E7_N2_EEMB",
+         "submission" : "3171",
+         "label" : "ChIP-chip;H3K27me3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -17853,8 +17848,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_0hr_ref_array"
          ],
-         "submission" : "modENCODE_3172",
-         "label" : "embryo 0h reference tiling array",
+         "submission" : "3172",
+         "label" : "RNA-tiling-array;total-RNA;N2;Mixed stage of Embryos;20 degree celsius;reference (early embryo)",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -17870,8 +17865,8 @@
          "Tracks" : [
             "worm/EMBRYO_FAX_WIG/EMB_AVE_neurons"
          ],
-         "submission" : "modENCODE_3173",
-         "label" : "embryo AVE neurons tiling array",
+         "submission" : "3173",
+         "label" : "RNA-tiling-array;total-RNA;NC1750;Mixed stage of Embryos;20 degree celsius;embryo-AVE",
          "type" : "data set",
          "Strain" : "NC1750",
          "Developmental-Stage" : "Mixed stage of Embryos",
@@ -17883,8 +17878,8 @@
          "factor" : "H3K27me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3179",
-         "label" : "Strome UP07448_H3K27ME124439_N2_EEMB",
+         "submission" : "3179",
+         "label" : "ChIP-chip;H3K27me1;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -17895,8 +17890,8 @@
          "factor" : "H3K27me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3180",
-         "label" : "Strome TJ00001_H3K27ME18835_N2_EEMB",
+         "submission" : "3180",
+         "label" : "ChIP-chip;H3K27me1;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -17907,8 +17902,8 @@
          "factor" : "H4K8ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3181",
-         "label" : "Strome AB15823_H4K8AC487128_N2_EEMB",
+         "submission" : "3181",
+         "label" : "ChIP-chip;H4K8ac;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -17919,8 +17914,8 @@
          "factor" : "H4K16ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3182",
-         "label" : "Strome MP07329_H4K16ACDAM1612187_N2_EEMB",
+         "submission" : "3182",
+         "label" : "ChIP-chip;H4K16ac;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -17936,8 +17931,8 @@
             "fly/V007.sam.gz.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_T/CantonSAdultFemaleHeadHeatShocked"
          ],
-         "submission" : "modENCODE_3190",
-         "label" : "Dm Canton-S Adult Female Head Heat Shocked smallRNA RNA-Seq",
+         "submission" : "3190",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult Female;Female heads",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult Female",
@@ -17949,9 +17944,9 @@
          "factor" : "small-RNA",
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
-         "submission" : "modENCODE_3192",
+         "submission" : "3192",
          "Cell-Line" : "ML-DmD9",
-         "label" : "Lai - MLDmD9/BS102",
+         "label" : "RNA-seq;small-RNA;ML-DmD9;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -17966,9 +17961,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmD21_BS88",
             "fly/V027.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_3193",
+         "submission" : "3193",
          "Cell-Line" : "ML-DmD21",
-         "label" : "Lai - MLDmD21/BS88",
+         "label" : "RNA-seq;small-RNA;ML-DmD21;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -17979,9 +17974,9 @@
          "factor" : "small-RNA",
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
-         "submission" : "modENCODE_3194",
+         "submission" : "3194",
          "Cell-Line" : "ML-DmD32",
-         "label" : "Lai - MLDmD32/BS26",
+         "label" : "RNA-seq;small-RNA;ML-DmD32;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -17996,8 +17991,8 @@
             "fly/V013.sam.gz.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_T/CantonSAdultFemaleHeadAged"
          ],
-         "submission" : "modENCODE_3195",
-         "label" : "Dm Canton-S Adult Female Head Aged smallRNA RNA-Seq",
+         "submission" : "3195",
+         "label" : "RNA-seq;small-RNA;Canton S;Adult Female;Female heads",
          "type" : "data set",
          "Strain" : "Canton S",
          "Developmental-Stage" : "Adult Female",
@@ -18008,8 +18003,8 @@
          "factor" : "H4K20me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3196",
-         "label" : "Strome DISN147_H4K20ME1001_N2_LTEMB",
+         "submission" : "3196",
+         "label" : "ChIP-chip;H4K20me1;Late Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Late Embryos",
@@ -18023,8 +18018,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K4ME3_N2_EEMB"
          ],
-         "submission" : "modENCODE_3197",
-         "label" : "Strome WA30534819_H3K4ME3_N2_EEMB",
+         "submission" : "3197",
+         "label" : "ChIP-chip;H3K4me3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -18038,8 +18033,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/H3K4ME2_N2_EEMB"
          ],
-         "submission" : "modENCODE_3198",
-         "label" : "StromeWA30834809_H3K4ME2_N2_EEMB",
+         "submission" : "3198",
+         "label" : "ChIP-chip;H3K4me2;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -18053,8 +18048,8 @@
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/MP07030_H3K4ME2DAM1570816_N2_EEMB"
          ],
-         "submission" : "modENCODE_3199",
-         "label" : "Strome MP07030_H3K4ME2_DAM1570816_N2_EEMB",
+         "submission" : "3199",
+         "label" : "ChIP-chip;H3K4me2;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -18065,8 +18060,8 @@
          "factor" : "H3K27ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3200",
-         "label" : "Strome WA30634849_H3K27AC_N2_EEMB",
+         "submission" : "3200",
+         "label" : "ChIP-chip;H3K27ac;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -18081,9 +18076,9 @@
          "Tracks" : [
             "fly/MacAlpine_CNV/Cl8"
          ],
-         "submission" : "modENCODE_3201",
+         "submission" : "3201",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "CNV CME W1 Cl.8+ Cells",
+         "label" : "CNV-seq;Replication-Copy-Number;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18093,8 +18088,8 @@
          "factor" : "H3K79me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3202",
-         "label" : "Lieb AB2886_H3K79ME1361912_N2_MXEMB",
+         "submission" : "3202",
+         "label" : "ChIP-chip;H3K79me1;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -18105,8 +18100,8 @@
          "factor" : "H3K27me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3203",
-         "label" : "Ahringer UP07448_H3K27ME124439_N2_L3",
+         "submission" : "3203",
+         "label" : "ChIP-chip;H3K27me1;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -18117,8 +18112,8 @@
          "factor" : "H3K79me2",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3204",
-         "label" : "Lieb AB3594_H3K79ME2346021_N2_MXEMB",
+         "submission" : "3204",
+         "label" : "ChIP-chip;H3K79me2;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -18129,8 +18124,8 @@
          "factor" : "H3K36me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3205",
-         "label" : "Ahringer AB9048_H3K36ME1206009_N2_L3",
+         "submission" : "3205",
+         "label" : "ChIP-chip;H3K36me1;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -18141,8 +18136,8 @@
          "factor" : "Histone H3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3206",
-         "label" : "Ahringer AB1791_H3_N2_L3",
+         "submission" : "3206",
+         "label" : "ChIP-chip;Histone H3;N2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3 stage larvae",
@@ -18154,8 +18149,8 @@
          "factor" : "W03F9.2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3217",
-         "label" : "Identification of Transcription Factor W03F9.2::GFP Binding Regions in YA",
+         "submission" : "3217",
+         "label" : "ChIP-seq;W03F9.2;OP215;L4-Young Adult stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP215",
          "Developmental-Stage" : "L4-Young Adult stage larvae",
@@ -18167,8 +18162,8 @@
          "factor" : "zag-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3220",
-         "label" : "Identification of Transcription Factor ZAG-1::GFP Binding Regions in L2",
+         "submission" : "3220",
+         "label" : "ChIP-seq;zag-1;OP83;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP83",
          "Developmental-Stage" : "L2 stage larvae",
@@ -18180,8 +18175,8 @@
          "factor" : "ces-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3221",
-         "label" : "Identification of Transcription Factor CES-1::GFP Binding Regions in L4",
+         "submission" : "3221",
+         "label" : "ChIP-seq;ces-1;OP174;L4 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP174",
          "Developmental-Stage" : "L4 stage larvae",
@@ -18193,8 +18188,8 @@
          "factor" : "unc-62",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3222",
-         "label" : "Identification of Transcription Factor UNC-62::GFP Binding Regions in L3",
+         "submission" : "3222",
+         "label" : "ChIP-seq;unc-62;OP600;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP600",
          "Developmental-Stage" : "L3 stage larvae",
@@ -18206,8 +18201,8 @@
          "factor" : "nhr-28",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3223",
-         "label" : "Identification of Transcription Factor NHR-28::GFP Binding Regions in L4",
+         "submission" : "3223",
+         "label" : "ChIP-seq;nhr-28;OP317;L4 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP317",
          "Developmental-Stage" : "L4 stage larvae",
@@ -18219,8 +18214,8 @@
          "factor" : "fos-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3224",
-         "label" : "Identification of Transcription Factor FOS-1::GFP Binding Regions in L2",
+         "submission" : "3224",
+         "label" : "ChIP-seq;fos-1;OP304;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP304",
          "Developmental-Stage" : "L2 stage larvae",
@@ -18232,8 +18227,8 @@
          "factor" : "dfd",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3229",
-         "label" : "10T-E16-24h_GFP",
+         "submission" : "3229",
+         "label" : "ChIP-seq;dfd;10T-DFD-GFP;Embryos 16-24 hr",
          "type" : "data set",
          "Strain" : "10T-DFD-GFP",
          "Developmental-Stage" : "Embryos 16-24 hr",
@@ -18244,8 +18239,8 @@
          "factor" : "dfd",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3230",
-         "label" : "10T-W3L_GFP",
+         "submission" : "3230",
+         "label" : "ChIP-seq;dfd;10T-DFD-GFP;L3 stage larvae",
          "type" : "data set",
          "Strain" : "10T-DFD-GFP",
          "Developmental-Stage" : "L3 stage larvae",
@@ -18256,8 +18251,8 @@
          "factor" : "cad",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3231",
-         "label" : "7T_3dFemale",
+         "submission" : "3231",
+         "label" : "ChIP-seq;cad;7T-CAD;Adult Female 3days",
          "type" : "data set",
          "Strain" : "7T-CAD",
          "Developmental-Stage" : "Adult Female 3days",
@@ -18271,8 +18266,8 @@
          "Tracks" : [
             "fly/White_CS_SG_CHROMISOL/Sin3A"
          ],
-         "submission" : "modENCODE_3232",
-         "label" : "E0-12_Sin3A",
+         "submission" : "3232",
+         "label" : "ChIP-seq;Sin3A;Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -18282,8 +18277,8 @@
          "factor" : "nejire",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3233",
-         "label" : "E0-4_CBP",
+         "submission" : "3233",
+         "label" : "ChIP-seq;nejire;Embryos 0-4 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-4 hr"
@@ -18293,8 +18288,8 @@
          "factor" : "tll",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3234",
-         "label" : "E0-4_GFP[tll]",
+         "submission" : "3234",
+         "label" : "ChIP-seq;tll;Embryos 0-4 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-4 hr"
@@ -18304,8 +18299,8 @@
          "factor" : "Disco",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3235",
-         "label" : "E0-8_disco",
+         "submission" : "3235",
+         "label" : "ChIP-seq;Disco;Embryos 0-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-8 hr"
@@ -18315,8 +18310,8 @@
          "factor" : "dfd",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3236",
-         "label" : "E0-8_GFP[Dfd]",
+         "submission" : "3236",
+         "label" : "ChIP-seq;dfd;Embryos 0-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-8 hr"
@@ -18326,8 +18321,8 @@
          "factor" : "PCL",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3237",
-         "label" : "E0-8_Pcl",
+         "submission" : "3237",
+         "label" : "ChIP-seq;PCL;Embryos 0-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-8 hr"
@@ -18337,8 +18332,8 @@
          "factor" : "GAF",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3238",
-         "label" : "E16-24_Trl",
+         "submission" : "3238",
+         "label" : "ChIP-seq;GAF;Embryos 16-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 16-24 hr"
@@ -18348,8 +18343,8 @@
          "factor" : "eve",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3239",
-         "label" : "E1-6_GFP[eve]",
+         "submission" : "3239",
+         "label" : "ChIP-seq;eve;Embryos 1-6 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 1-6 hr"
@@ -18359,8 +18354,8 @@
          "factor" : "CG8478",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3240",
-         "label" : "E8-16_CG8478",
+         "submission" : "3240",
+         "label" : "ChIP-seq;CG8478;Embryos 8-16 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 8-16 hr"
@@ -18370,8 +18365,8 @@
          "factor" : "Huckebein",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3242",
-         "label" : "E8-16_hkb",
+         "submission" : "3242",
+         "label" : "ChIP-seq;Huckebein;Embryos 8-16 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 8-16 hr"
@@ -18381,8 +18376,8 @@
          "factor" : "KNI",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3243",
-         "label" : "E8-16_kni",
+         "submission" : "3243",
+         "label" : "ChIP-seq;KNI;Embryos 8-16 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 8-16 hr"
@@ -18395,8 +18390,8 @@
          "Tracks" : [
             "fly/MacAlpine_CHIPSEQ_TISSUES/Overnight_embryo_ORC"
          ],
-         "submission" : "modENCODE_3247",
-         "label" : "24 Hour ORC ChIP-Seq experiment",
+         "submission" : "3247",
+         "label" : "ChIP-seq;ORC2;Mixed Embryos 0-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Mixed Embryos 0-24 hr"
@@ -18409,8 +18404,8 @@
          "Tracks" : [
             "fly/EMBRYO_SG7b_Total"
          ],
-         "submission" : "modENCODE_3248",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_4-6h_TotalRNA_p200_224-226-228_7bp",
+         "submission" : "3248",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 4-6 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-6 hr",
@@ -18424,8 +18419,8 @@
          "Tracks" : [
             "fly/EMBRYO_SG7b_polyA"
          ],
-         "submission" : "modENCODE_3250",
-         "label" : "Dm_y[1]cn[1] bw[1] sp[1]_embryo_4-6h_Poly-Ap_p200_409-410-411_7bp",
+         "submission" : "3250",
+         "label" : "RNA-tiling-array;total-RNA;Y cn bw sp;Embryos 4-6 hr",
          "type" : "data set",
          "Strain" : "Y cn bw sp",
          "Developmental-Stage" : "Embryos 4-6 hr",
@@ -18439,8 +18434,8 @@
          "Tracks" : [
             "fly/MacAlpine_CHIPSEQ_TISSUES/Overnight_embryo_PolII"
          ],
-         "submission" : "modENCODE_3251",
-         "label" : "24 Hour RNA PolII ChIP-Seq experiment",
+         "submission" : "3251",
+         "label" : "ChIP-seq;polII;Mixed Embryos 0-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Mixed Embryos 0-24 hr"
@@ -18454,8 +18449,8 @@
          "Tracks" : [
             "fly/MacAlpine_CHIPSEQ_TISSUES/Salivary_Gland_ORC"
          ],
-         "submission" : "modENCODE_3253",
-         "label" : "SG ORC ChIP-Seq experiment",
+         "submission" : "3253",
+         "label" : "ChIP-seq;ORC2;SuUR - Orr-Weaver;L3 stage wandering stage larvae;salivary gland",
          "type" : "data set",
          "Strain" : "SuUR - Orr-Weaver",
          "Developmental-Stage" : "L3 stage wandering stage larvae",
@@ -18466,8 +18461,8 @@
          "factor" : "unc-62",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3254",
-         "label" : "Identification of Transcription Factor UNC-62::GFP Binding Regions in L2",
+         "submission" : "3254",
+         "label" : "ChIP-seq;unc-62;OP600;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP600",
          "Developmental-Stage" : "L2 stage larvae",
@@ -18483,9 +18478,9 @@
          "Tracks" : [
             "fly/1182-4H.sub_3255.bam"
          ],
-         "submission" : "modENCODE_3255",
+         "submission" : "3255",
          "Cell-Line" : "1182-4H",
-         "label" : "Cell line 1182-4H stranded library prep, multi mappers",
+         "label" : "RNA-seq;total-RNA;1182-4H;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18499,9 +18494,9 @@
          "Tracks" : [
             "fly/ML-DmD16-c3.sub_3256.bam"
          ],
-         "submission" : "modENCODE_3256",
+         "submission" : "3256",
          "Cell-Line" : "ML-DmD16-c3",
-         "label" : "Cell line ML-DmD16-3 stranded library prep, multi mappers",
+         "label" : "RNA-seq;total-RNA;ML-DmD16-c3;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18515,9 +18510,9 @@
          "Tracks" : [
             "fly/ML-DmD9.sub_3257.bam"
          ],
-         "submission" : "modENCODE_3257",
+         "submission" : "3257",
          "Cell-Line" : "ML-DmD9",
-         "label" : "Cell line ML-DmD9 stranded library prep, multi mappers",
+         "label" : "RNA-seq;total-RNA;ML-DmD9;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18531,9 +18526,9 @@
          "Tracks" : [
             "fly/ML-DmD8.sub_3258.bam"
          ],
-         "submission" : "modENCODE_3258",
+         "submission" : "3258",
          "Cell-Line" : "ML-DmD8",
-         "label" : "Cell line ML-DmD8 stranded library prep, multi mappers",
+         "label" : "RNA-seq;total-RNA;ML-DmD8;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18547,9 +18542,9 @@
          "Tracks" : [
             "fly/ML-DmD32.sub_3259.bam"
          ],
-         "submission" : "modENCODE_3259",
+         "submission" : "3259",
          "Cell-Line" : "ML-DmD32",
-         "label" : "Cell line ML-DmD32 stranded library prep, multi mappers",
+         "label" : "RNA-seq;total-RNA;ML-DmD32;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18563,9 +18558,9 @@
          "Tracks" : [
             "fly/GM2.sub_3260.bam"
          ],
-         "submission" : "modENCODE_3260",
+         "submission" : "3260",
          "Cell-Line" : "GM2",
-         "label" : "Cell line GM2 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "label" : "RNA-seq;total-RNA;GM2;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18579,9 +18574,9 @@
          "Tracks" : [
             "fly/ML-DmD21.sub_3261.bam"
          ],
-         "submission" : "modENCODE_3261",
+         "submission" : "3261",
          "Cell-Line" : "ML-DmD21",
-         "label" : "Cell line ML-DMD21 stranded library prep, multi mappers",
+         "label" : "RNA-seq;total-RNA;ML-DmD21;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18595,9 +18590,9 @@
          "Tracks" : [
             "fly/BG2c2.sub_3262.bam"
          ],
-         "submission" : "modENCODE_3262",
+         "submission" : "3262",
          "Cell-Line" : "ML-DmBG2-c2",
-         "label" : "Cell line BG2c2 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "label" : "RNA-seq;total-RNA;ML-DmBG2-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18611,9 +18606,9 @@
          "Tracks" : [
             "fly/Kc167.sub_3263.bam"
          ],
-         "submission" : "modENCODE_3263",
+         "submission" : "3263",
          "Cell-Line" : "Kc167",
-         "label" : "Cell line Kc167 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "label" : "RNA-seq;total-RNA;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18627,9 +18622,9 @@
          "Tracks" : [
             "fly/CME_W2.sub_3264.bam"
          ],
-         "submission" : "modENCODE_3264",
+         "submission" : "3264",
          "Cell-Line" : "CME W2",
-         "label" : "Cell line CME_W2 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "label" : "RNA-seq;total-RNA;CME W2;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18643,9 +18638,9 @@
          "Tracks" : [
             "fly/MBN2.sub_3265.bam"
          ],
-         "submission" : "modENCODE_3265",
+         "submission" : "3265",
          "Cell-Line" : "Mbn2",
-         "label" : "Cell line MBN2 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "label" : "RNA-seq;total-RNA;Mbn2;Late Embryonic stage;embryonic/larval hemocyte",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18659,9 +18654,9 @@
          "Tracks" : [
             "fly/S1.sub_3266.bam"
          ],
-         "submission" : "modENCODE_3266",
+         "submission" : "3266",
          "Cell-Line" : "S1",
-         "label" : "Cell line S1 stranded library prep, multi mappers",
+         "label" : "RNA-seq;total-RNA;S1;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18675,9 +18670,9 @@
          "Tracks" : [
             "fly/S2Rplus.sub_3267.bam"
          ],
-         "submission" : "modENCODE_3267",
+         "submission" : "3267",
          "Cell-Line" : "S2R+",
-         "label" : "Cell line S2R+ univ RNA-seq primer1 part # 15005502, multi mappers",
+         "label" : "RNA-seq;total-RNA;S2R+;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18691,9 +18686,9 @@
          "Tracks" : [
             "fly/ML-DmD17-c3.sub_3268.bam"
          ],
-         "submission" : "modENCODE_3268",
+         "submission" : "3268",
          "Cell-Line" : "ML-DmD17-c3",
-         "label" : "Cell line ML-DmD17-c3 stranded library prep, multi mappers",
+         "label" : "RNA-seq;total-RNA;ML-DmD17-c3;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18707,9 +18702,9 @@
          "Tracks" : [
             "fly/ML-DmD11.sub_3270.bam"
          ],
-         "submission" : "modENCODE_3270",
+         "submission" : "3270",
          "Cell-Line" : "ML-DmD11",
-         "label" : "Cell line ML-DmD11 stranded library prep, multi mappers",
+         "label" : "RNA-seq;total-RNA;ML-DmD11;Third instar larval stage;eye-antenna disc-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18723,9 +18718,9 @@
          "Tracks" : [
             "fly/ML-DmD4-c1.sub_3271.bam"
          ],
-         "submission" : "modENCODE_3271",
+         "submission" : "3271",
          "Cell-Line" : "ML-DmD4-c1",
-         "label" : "Cell line ML-DmD4-c1 stranded library prep, multi mappers",
+         "label" : "RNA-seq;total-RNA;ML-DmD4-c1;Third instar larval stage;imaginal disc-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18739,9 +18734,9 @@
          "Tracks" : [
             "fly/ML-DmBG1-c1.sub_3272.bam"
          ],
-         "submission" : "modENCODE_3272",
+         "submission" : "3272",
          "Cell-Line" : "ML-DmBG1-c1",
-         "label" : "Cell line ML-DmBG1-c1 stranded library prep, multi mappers",
+         "label" : "RNA-seq;total-RNA;ML-DmBG1-c1;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18755,9 +18750,9 @@
          "Tracks" : [
             "fly/S3.sub_3273.bam"
          ],
-         "submission" : "modENCODE_3273",
+         "submission" : "3273",
          "Cell-Line" : "S3",
-         "label" : "Cell line S3 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "label" : "RNA-seq;total-RNA;S3;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18771,9 +18766,9 @@
          "Tracks" : [
             "fly/ML-DMD20-c5.sub_3274.bam"
          ],
-         "submission" : "modENCODE_3274",
+         "submission" : "3274",
          "Cell-Line" : "ML-DmD20-c5",
-         "label" : "Cell line ML-DMD20-c5 univ RNA-seq primer1 part # 15005502, multi mappers",
+         "label" : "RNA-seq;total-RNA;ML-DmD20-c5;Third instar larval stage;antenna disc-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18783,8 +18778,8 @@
          "factor" : "Nucleosome",
          "target" : "Chromatin Structure",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3276",
-         "label" : "Genome wide analysis of nucleosome positioning in C. elegans",
+         "submission" : "3276",
+         "label" : "DNA-seq;Nucleosome;fem-2(b245);Germline containing young adult;20 degree celsius",
          "type" : "data set",
          "Strain" : "fem-2(b245)",
          "Developmental-Stage" : "Germline containing young adult",
@@ -18800,8 +18795,8 @@
          "Tracks" : [
             "fly/MacAlpine_CNV_TISSUES/Fatbody_CGH"
          ],
-         "submission" : "modENCODE_3277",
-         "label" : "Fat Body - CGH Differential Replication",
+         "submission" : "3277",
+         "label" : "ChIP-seq;Replication-Copy-Number;Oregon-R;L3 stage wandering stage larvae;fat body",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "L3 stage wandering stage larvae",
@@ -18816,8 +18811,8 @@
          "Tracks" : [
             "fly/MacAlpine_CNV_TISSUES/Midgut_CGH"
          ],
-         "submission" : "modENCODE_3278",
-         "label" : "Midgut - CGH Differential Replication",
+         "submission" : "3278",
+         "label" : "ChIP-seq;Replication-Copy-Number;Oregon-R;L3 stage wandering stage larvae;midgut",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "L3 stage wandering stage larvae",
@@ -18829,9 +18824,9 @@
          "factor" : "ASH1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3279",
+         "submission" : "3279",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "ASH1 Q4177.BG3",
+         "label" : "ChIP-chip;ASH1;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18842,9 +18837,9 @@
          "factor" : "CTCF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3280",
+         "submission" : "3280",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "CTCF.BG3",
+         "label" : "ChIP-chip;CTCF;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18855,9 +18850,9 @@
          "factor" : "CTCF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3281",
+         "submission" : "3281",
          "Cell-Line" : "S2-DRSC",
-         "label" : "CTCF.S2",
+         "label" : "ChIP-chip;CTCF;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18868,9 +18863,9 @@
          "factor" : "H2AV",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3282",
+         "submission" : "3282",
          "Cell-Line" : "Kc167",
-         "label" : "H2AV_9751.Kc",
+         "label" : "ChIP-chip;H2AV;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18881,9 +18876,9 @@
          "factor" : "H2BK5ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3283",
+         "submission" : "3283",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H2BK5ac.S2",
+         "label" : "ChIP-chip;H2BK5ac;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18893,8 +18888,8 @@
          "factor" : "H4K20me",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3285",
-         "label" : "H4K20me (2nd lot).14-16 hr OR embryo",
+         "submission" : "3285",
+         "label" : "ChIP-chip;H4K20me;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -18906,9 +18901,9 @@
          "factor" : "H4K20me",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3286",
+         "submission" : "3286",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H4K20me (2nd lot).BG3",
+         "label" : "ChIP-chip;H4K20me;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18919,9 +18914,9 @@
          "factor" : "H4K20me",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3287",
+         "submission" : "3287",
          "Cell-Line" : "Kc167",
-         "label" : "H4K20me (2nd lot).Kc",
+         "label" : "ChIP-chip;H4K20me;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18932,9 +18927,9 @@
          "factor" : "H4K8ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3288",
+         "submission" : "3288",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "H4K8ac.Clone_8",
+         "label" : "ChIP-chip;H4K8ac;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -18945,9 +18940,9 @@
          "factor" : "H4K8ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3289",
+         "submission" : "3289",
          "Cell-Line" : "Kc167",
-         "label" : "H4K8ac.Kc",
+         "label" : "ChIP-chip;H4K8ac;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18957,8 +18952,8 @@
          "factor" : "HP1b",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3290",
-         "label" : "HP1b Q4114.14-16 hr OR embryo",
+         "submission" : "3290",
+         "label" : "ChIP-chip;HP1b;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -18970,9 +18965,9 @@
          "factor" : "HP1c",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3291",
+         "submission" : "3291",
          "Cell-Line" : "S2-DRSC",
-         "label" : "HP1c Q4064.S2",
+         "label" : "ChIP-chip;HP1c;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18983,9 +18978,9 @@
          "factor" : "MSL-1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3293",
+         "submission" : "3293",
          "Cell-Line" : "S2-DRSC",
-         "label" : "MSL-1(Q4453).S2",
+         "label" : "ChIP-chip;MSL-1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -18996,9 +18991,9 @@
          "factor" : "PolII",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3295",
+         "submission" : "3295",
          "Cell-Line" : "S2-DRSC",
-         "label" : "RNA Pol II (abcam).S2",
+         "label" : "ChIP-chip;PolII;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -19009,9 +19004,9 @@
          "factor" : "RPD3",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3296",
+         "submission" : "3296",
          "Cell-Line" : "Kc167",
-         "label" : "RPD3-Q3451.Kc",
+         "label" : "ChIP-chip;RPD3;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -19021,8 +19016,8 @@
          "factor" : "Su(var)3-7",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3297",
-         "label" : "Su(var)3-7-Q3448.14-16 hr OR embryo",
+         "submission" : "3297",
+         "label" : "ChIP-chip;Su(var)3-7;Oregon-R;Embryos 14-16 hr OR",
          "type" : "data set",
          "Strain" : "Oregon-R",
          "Developmental-Stage" : "Embryos 14-16 hr OR",
@@ -19034,9 +19029,9 @@
          "factor" : "XNP",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3298",
+         "submission" : "3298",
          "Cell-Line" : "S2-DRSC",
-         "label" : "XNP (Fyodorov).S2",
+         "label" : "ChIP-chip;XNP;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -19047,9 +19042,9 @@
          "factor" : "H1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3299",
+         "submission" : "3299",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H1.BG3",
+         "label" : "ChIP-chip;H1;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -19060,9 +19055,9 @@
          "factor" : "H1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3300",
+         "submission" : "3300",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H1.S2",
+         "label" : "ChIP-chip;H1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -19073,9 +19068,9 @@
          "factor" : "H3",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3302",
+         "submission" : "3302",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H3 antibody3.BG3",
+         "label" : "ChIP-chip;H3;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -19086,9 +19081,9 @@
          "factor" : "H4",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3303",
+         "submission" : "3303",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "H4.BG3",
+         "label" : "ChIP-chip;H4;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -19099,9 +19094,9 @@
          "factor" : "H4",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
-         "submission" : "modENCODE_3304",
+         "submission" : "3304",
          "Cell-Line" : "S2-DRSC",
-         "label" : "H4.S2",
+         "label" : "ChIP-chip;H4;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -19116,9 +19111,9 @@
             "fly/Lai_GM2.sorted",
             "fly/Lai_RNASEQ_DUAL_CELLS/GM2cells"
          ],
-         "submission" : "modENCODE_3307",
+         "submission" : "3307",
          "Cell-Line" : "GM2",
-         "label" : "Lai_GM2/BS32/BS33",
+         "label" : "RNA-seq;small-RNA;GM2;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -19133,9 +19128,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmD16c3",
             "fly/V034.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_3309",
+         "submission" : "3309",
          "Cell-Line" : "ML-DmD16-c3",
-         "label" : "Lai - ML-DmD16c3/BS13",
+         "label" : "RNA-seq;small-RNA;ML-DmD16-c3;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -19150,9 +19145,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/MLDmD20c5",
             "fly/Lai_ML-DmD20c5.sorted"
          ],
-         "submission" : "modENCODE_3310",
+         "submission" : "3310",
          "Cell-Line" : "ML-DmD20-c5",
-         "label" : "Lai_ML-DmD20c5/BS16/BS18",
+         "label" : "RNA-seq;small-RNA;ML-DmD20-c5;Third instar larval stage;antenna disc-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -19167,9 +19162,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/S1",
             "fly/V032.sam.gz.bam.sorted"
          ],
-         "submission" : "modENCODE_3311",
+         "submission" : "3311",
          "Cell-Line" : "S1",
-         "label" : "Lai - S1/BS79",
+         "label" : "RNA-seq;small-RNA;S1;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -19180,8 +19175,8 @@
          "PCR-primer" : "TTTCAAGCATTTTTATTCAGTGTTGATTGT",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3312",
-         "label" : "C. elegans Transcription Start Site Identification set.20101124.2_3_2_2_4_3_3_2_4_4.ws180",
+         "submission" : "3312",
+         "label" : "RACE;total-RNA;TTTCAAGCATTTTTATTCAGTGTTGATTGT;N2;Mixed Larval Stages Grown 4-5 Days",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Larval Stages Grown 4-5 Days",
@@ -19197,8 +19192,8 @@
             "fly/Lai_r2d2_ovary",
             "fly/Lai_RNASEQ_DUAL_T/r2d2_ovaries_totalRNA"
          ],
-         "submission" : "modENCODE_3314",
-         "label" : "r2d2 ovary total RNA",
+         "submission" : "3314",
+         "label" : "RNA-seq;small-RNA;r2d2 1;Adult Female;Adult ovaries",
          "type" : "data set",
          "Strain" : "r2d2 1",
          "Developmental-Stage" : "Adult Female",
@@ -19214,8 +19209,8 @@
             "fly/Lai_ago2_ovary.sorted",
             "fly/Lai_RNASEQ_DUAL_T/Ago2-414_ovaries_total_RNA"
          ],
-         "submission" : "modENCODE_3315",
-         "label" : "ago2[414] ovary total RNA",
+         "submission" : "3315",
+         "label" : "RNA-seq;small-RNA;Ago2 414;Adult Female;Adult ovaries",
          "type" : "data set",
          "Strain" : "Ago2 414",
          "Developmental-Stage" : "Adult Female",
@@ -19230,9 +19225,9 @@
          "Tracks" : [
             "fly/submission_3317.sorted"
          ],
-         "submission" : "modENCODE_3317",
+         "submission" : "3317",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "ML-DmBG3.c2_Capped_small-RNA_max-200nt_PolyA-tail_RNA-seq",
+         "label" : "RNA-seq;total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -19247,9 +19242,9 @@
             "fly/V014.sam.gz.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_CELLS/S2-DRSC_DTT-4h"
          ],
-         "submission" : "modENCODE_3318",
+         "submission" : "3318",
          "Cell-Line" : "S2-HDR",
-         "label" : "S2 + DTT-4h smallRNA RNA-Seq",
+         "label" : "RNA-seq;small-RNA;S2-HDR;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -19259,8 +19254,8 @@
          "factor" : "H3K79me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3320",
-         "label" : "Lieb AB2886_H3K79ME1_361912_N2_L3",
+         "submission" : "3320",
+         "label" : "ChIP-chip;H3K79me1;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -19271,8 +19266,8 @@
          "factor" : "H3K79me2",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3321",
-         "label" : "Lieb AB3594_H3K79ME2346021_N2_L3",
+         "submission" : "3321",
+         "label" : "ChIP-chip;H3K79me2;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -19283,8 +19278,8 @@
          "factor" : "H3K79me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3322",
-         "label" : "Lieb AB2621_H3K79ME3_361576_N2_L3",
+         "submission" : "3322",
+         "label" : "ChIP-chip;H3K79me3;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -19295,8 +19290,8 @@
          "factor" : "small-RNA",
          "target" : "small RNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3326",
-         "label" : "N2 untreated control 1 day post-L4 small ncRNA RNA-Seq",
+         "submission" : "3326",
+         "label" : "RNA-seq;small-RNA;N2;Young adult DAY1post-L4 molt stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young adult DAY1post-L4 molt stage larvae",
@@ -19308,8 +19303,8 @@
          "factor" : "small-RNA",
          "target" : "small RNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3327",
-         "label" : "N2 heatshock 32C-6hr 1 day post-L4 small ncRNA RNA-Seq",
+         "submission" : "3327",
+         "label" : "RNA-seq;small-RNA;N2;Young adult DAY1post-L4 molt stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young adult DAY1post-L4 molt stage larvae",
@@ -19321,8 +19316,8 @@
          "factor" : "small-RNA",
          "target" : "small RNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3328",
-         "label" : "PA14 12-hr treatment 1 day post-L4 small ncRNA RNA-Seq",
+         "submission" : "3328",
+         "label" : "RNA-seq;small-RNA;N2;Young adult DAY1post-L4 molt stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young adult DAY1post-L4 molt stage larvae",
@@ -19334,8 +19329,8 @@
          "factor" : "small-RNA",
          "target" : "small RNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3329",
-         "label" : "L1 arrest small ncRNA RNA-seq",
+         "submission" : "3329",
+         "label" : "RNA-seq;small-RNA;N2;L1 arrest  24 hr post-L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L1 arrest  24 hr post-L1 stage larvae",
@@ -19351,9 +19346,9 @@
          "Tracks" : [
             "fly/submission_3358.sorted"
          ],
-         "submission" : "modENCODE_3358",
+         "submission" : "3358",
          "Cell-Line" : "S2-DRSC",
-         "label" : "S2-DRSC_Capped_small-RNA_max-200nt_PolyA-tail_RNA-seq",
+         "label" : "RNA-seq;total-RNA;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -19367,9 +19362,9 @@
          "Tracks" : [
             "fly/submission_3359.sorted"
          ],
-         "submission" : "modENCODE_3359",
+         "submission" : "3359",
          "Cell-Line" : "Kc167",
-         "label" : "Kc-167_Capped_small-RNA_max-200nt_PolyA-tail_RNA-seq",
+         "label" : "RNA-seq;total-RNA;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -19383,9 +19378,9 @@
          "Tracks" : [
             "fly/submission_3360.sorted"
          ],
-         "submission" : "modENCODE_3360",
+         "submission" : "3360",
          "Cell-Line" : "CME-W1-Cl.8+",
-         "label" : "Cl.8+_Capped_small-RNA_max-200nt_PolyA-tail_RNA-seq",
+         "label" : "RNA-seq;total-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -19395,8 +19390,8 @@
          "factor" : "ZFP-1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3361",
-         "label" : "Lieb JL00006_ZFP1_RB774_MXEMB",
+         "submission" : "3361",
+         "label" : "ChIP-chip;ZFP-1;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -19407,8 +19402,8 @@
          "factor" : "C01B12.2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3371",
-         "label" : "Identification of Transcription Factor C01B12.2::GFP Binding Regions in L2",
+         "submission" : "3371",
+         "label" : "ChIP-seq;C01B12.2;OP343;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP343",
          "Developmental-Stage" : "L2 stage larvae",
@@ -19420,8 +19415,8 @@
          "factor" : "eor-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3372",
-         "label" : "Identification of Transcription Factor EOR-1::GFP Binding Regions in GFP",
+         "submission" : "3372",
+         "label" : "ChIP-seq;eor-1;OP81;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP81",
          "Developmental-Stage" : "L3 stage larvae",
@@ -19436,8 +19431,8 @@
          "Tracks" : [
             "worm/Snyder_ANTIGFP_WIG_COMB_NHR6v2_L2_GFP"
          ],
-         "submission" : "modENCODE_3374",
-         "label" : "Identification of Transcription Factor NHR-6::GFP Binding Regions in L2",
+         "submission" : "3374",
+         "label" : "ChIP-seq;nhr-6;OP90;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP90",
          "Developmental-Stage" : "L2 stage larvae",
@@ -19449,8 +19444,8 @@
          "factor" : "unc-62",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3375",
-         "label" : "Identification of Transcription Factor UNC-62::GFP Binding Regions in L1",
+         "submission" : "3375",
+         "label" : "ChIP-seq;unc-62;OP600;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP600",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -19462,8 +19457,8 @@
          "factor" : "zag-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3376",
-         "label" : "Identification of Transcription Factor ZAG-1::GFP Binding Regions in L3",
+         "submission" : "3376",
+         "label" : "ChIP-seq;zag-1;OP83;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP83",
          "Developmental-Stage" : "L3 stage larvae",
@@ -19475,8 +19470,8 @@
          "factor" : "zag-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3377",
-         "label" : "Identification of Transcription Factor ZAG-1::GFP Binding Regions in L1",
+         "submission" : "3377",
+         "label" : "ChIP-seq;zag-1;OP83;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP83",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -19488,8 +19483,8 @@
          "factor" : "F45C12.2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3378",
-         "label" : "Identification of Transcription Factor F45C12.2::GFP Binding Regions in L3",
+         "submission" : "3378",
+         "label" : "ChIP-seq;F45C12.2;OP212;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP212",
          "Developmental-Stage" : "L3 stage larvae",
@@ -19501,8 +19496,8 @@
          "factor" : "daf-12",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3380",
-         "label" : "Identification of Transcription Factor DAF-12::GFP Binding Regions in L4",
+         "submission" : "3380",
+         "label" : "ChIP-seq;daf-12;OP222;L4 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP222",
          "Developmental-Stage" : "L4 stage larvae",
@@ -19514,8 +19509,8 @@
          "factor" : "daf-12",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3381",
-         "label" : "Identification of Transcription Factor DAF-12::GFP Binding Regions in L3",
+         "submission" : "3381",
+         "label" : "ChIP-seq;daf-12;OP222;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP222",
          "Developmental-Stage" : "L3 stage larvae",
@@ -19527,8 +19522,8 @@
          "factor" : "aly-2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3382",
-         "label" : "Identification of Transcription Factor ALY-2::GFP Binding Regions in L3",
+         "submission" : "3382",
+         "label" : "ChIP-seq;aly-2;OP217;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP217",
          "Developmental-Stage" : "L3 stage larvae",
@@ -19540,8 +19535,8 @@
          "factor" : "aly-2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3384",
-         "label" : "Identification of Transcription Factor ALY-2::GFP Binding Regions in L1",
+         "submission" : "3384",
+         "label" : "ChIP-seq;aly-2;OP217;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP217",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -19553,8 +19548,8 @@
          "factor" : "R02D3.7",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3385",
-         "label" : "Identification of Transcription Factor R02D3.7::GFP Binding Regions in L2",
+         "submission" : "3385",
+         "label" : "ChIP-seq;R02D3.7;OP218;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP218",
          "Developmental-Stage" : "L2 stage larvae",
@@ -19566,8 +19561,8 @@
          "factor" : "nhr-28",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3386",
-         "label" : "Identification of Transcription Factor NHR-28::GFP Binding Regions in L3",
+         "submission" : "3386",
+         "label" : "ChIP-seq;nhr-28;OP317;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP317",
          "Developmental-Stage" : "L3 stage larvae",
@@ -19579,8 +19574,8 @@
          "factor" : "fos-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
-         "submission" : "modENCODE_3387",
-         "label" : "Identification of Transcription Factor FOS-1::GFP Binding Regions in L1",
+         "submission" : "3387",
+         "label" : "ChIP-seq;fos-1;OP304;Fed L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "Strain" : "OP304",
          "Developmental-Stage" : "Fed L1 stage larvae",
@@ -19593,9 +19588,9 @@
          "factor" : "Drosophila ORC2p",
          "target" : "DNA Replication",
          "principal_investigator" : "MacAlpine, D.",
-         "submission" : "modENCODE_3388",
+         "submission" : "3388",
          "Cell-Line" : "S2-DRSC",
-         "label" : "ORC Meta-peak generation",
+         "label" : "ChIP-chip;Drosophila ORC2p;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -19605,8 +19600,8 @@
          "factor" : "LEM-2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3389",
-         "label" : "Lieb SDQ3891_LEM2_SP646_MXEMB",
+         "submission" : "3389",
+         "label" : "ChIP-chip;LEM-2;SP646;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "Strain" : "SP646",
          "Developmental-Stage" : "Mixed Embryos",
@@ -19618,8 +19613,8 @@
          "factor" : "Hr39",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3390",
-         "label" : "E16-24h_Hr39",
+         "submission" : "3390",
+         "label" : "ChIP-seq;Hr39;Embryos 16-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 16-24 hr"
@@ -19629,8 +19624,8 @@
          "factor" : "HP1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3391",
-         "label" : "E16-24h_HP1_Abcam",
+         "submission" : "3391",
+         "label" : "ChIP-seq;HP1;Embryos 16-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 16-24 hr"
@@ -19640,8 +19635,8 @@
          "factor" : "HP1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3392",
-         "label" : "E16-24h_HP1_Covance",
+         "submission" : "3392",
+         "label" : "ChIP-seq;HP1;Embryos 16-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 16-24 hr"
@@ -19651,8 +19646,8 @@
          "factor" : "bonus",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3393",
-         "label" : "E16-24h_bon",
+         "submission" : "3393",
+         "label" : "ChIP-seq;bonus;Embryos 16-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 16-24 hr"
@@ -19662,8 +19657,8 @@
          "factor" : "Kruppel",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3394",
-         "label" : "E16-24h_Kr-D2",
+         "submission" : "3394",
+         "label" : "ChIP-seq;Kruppel;Embryos 16-24 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 16-24 hr"
@@ -19673,8 +19668,8 @@
          "factor" : "Dichaete",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3395",
-         "label" : "E0-8h_D",
+         "submission" : "3395",
+         "label" : "ChIP-seq;Dichaete;Embryos 0-8 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-8 hr"
@@ -19684,8 +19679,8 @@
          "factor" : "Su(var)3-9",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3396",
-         "label" : "E0-12h_SuVar3-9",
+         "submission" : "3396",
+         "label" : "ChIP-seq;Su(var)3-9;Embryos 0-12 hr",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Embryos 0-12 hr"
@@ -19695,8 +19690,8 @@
          "factor" : "trem",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3399",
-         "label" : "A.Female_Trem",
+         "submission" : "3399",
+         "label" : "ChIP-seq;trem;Adult Female",
          "type" : "data set",
          "organism" : "D. melanogaster",
          "Developmental-Stage" : "Adult Female"
@@ -19706,8 +19701,8 @@
          "factor" : "set2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3400",
-         "label" : "R13_E1-6h_Set2",
+         "submission" : "3400",
+         "label" : "ChIP-seq;set2;R13-YFP;Embryos 1-6 hr",
          "type" : "data set",
          "Strain" : "R13-YFP",
          "Developmental-Stage" : "Embryos 1-6 hr",
@@ -19718,8 +19713,8 @@
          "factor" : "nw",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3401",
-         "label" : "5T_8-16_NW_GFP",
+         "submission" : "3401",
+         "label" : "ChIP-seq;nw;5T-eve-GFP;Embryos 8-16 hr",
          "type" : "data set",
          "Strain" : "5T-eve-GFP",
          "Developmental-Stage" : "Embryos 8-16 hr",
@@ -19730,8 +19725,8 @@
          "factor" : "cad",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
-         "submission" : "modENCODE_3403",
-         "label" : "7T_W3L_GFP",
+         "submission" : "3403",
+         "label" : "ChIP-seq;cad;7T-CAD;L3 stage larvae",
          "type" : "data set",
          "Strain" : "7T-CAD",
          "Developmental-Stage" : "L3 stage larvae",
@@ -19746,8 +19741,8 @@
             "worm/minipool1.sam.bam.sorted",
             "worm/minipool2.sam.bam.sorted"
          ],
-         "submission" : "modENCODE_3404",
-         "label" : "Encyclopedia of C. elegans 3' UTRs and their regulatory elements - 454 sequencing of RACE clones",
+         "submission" : "3404",
+         "label" : "RACE;3-prime-UTR;N2;Mixed Population Worms;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Mixed Population Worms",
@@ -19759,8 +19754,8 @@
          "factor" : "AMA-1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3432",
-         "label" : "Lieb SDQ2357_AMA1_N2_MXEMB_1",
+         "submission" : "3432",
+         "label" : "ChIP-chip;AMA-1;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -19771,8 +19766,8 @@
          "factor" : "H4K20me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3434",
-         "label" : "Strome DISN147_H4K20ME1_001_N2_EEMB",
+         "submission" : "3434",
+         "label" : "ChIP-chip;H4K20me1;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -19783,8 +19778,8 @@
          "factor" : "DPY-27",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3435",
-         "label" : "Strome JL00001_DPY27_N2_EEMB",
+         "submission" : "3435",
+         "label" : "ChIP-chip;DPY-27;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -19795,8 +19790,8 @@
          "factor" : "HPL-2",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3438",
-         "label" : "Strome SDQ2324_HPL2_N2_LTEMB",
+         "submission" : "3438",
+         "label" : "ChIP-chip;HPL-2;Late Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Late Embryos",
@@ -19807,8 +19802,8 @@
          "factor" : "LIN-15B",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3439",
-         "label" : "Strome SDQ2330_LIN15B_N2_LTEMB",
+         "submission" : "3439",
+         "label" : "ChIP-chip;LIN-15B;Late Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Late Embryos",
@@ -19820,9 +19815,9 @@
          "factor" : "Early-replication-origin",
          "target" : "DNA Replication",
          "principal_investigator" : "MacAlpine, D.",
-         "submission" : "modENCODE_3441",
+         "submission" : "3441",
          "Cell-Line" : "Kc167",
-         "label" : "Early Origins Meta-peak generation",
+         "label" : "ChIP-chip;Early-replication-origin;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -19836,8 +19831,8 @@
          "Tracks" : [
             "fly/submission_3442.sorted"
          ],
-         "submission" : "modENCODE_3442",
-         "label" : "Dm Tissue Expression RNA-seq  virgin female eclosion + 1 day heads uniquely mapping reads",
+         "submission" : "3442",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult female, eclosion + 1 day;Female virgin heads",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult female, eclosion + 1 day",
@@ -19852,8 +19847,8 @@
          "Tracks" : [
             "fly/submission_3443.sorted"
          ],
-         "submission" : "modENCODE_3443",
-         "label" : "Dm Tissue Expression RNA-seq  mated female eclosion + 1 day heads uniquely mapping reads",
+         "submission" : "3443",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult mated female eclosion + 20 days;Mated Female heads",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult mated female eclosion + 20 days",
@@ -19868,8 +19863,8 @@
          "Tracks" : [
             "fly/submission_3444.sorted"
          ],
-         "submission" : "modENCODE_3444",
-         "label" : "Dm Tissue Expression RNA-seq  mated male eclosion + 1 day heads uniquely mapping reads",
+         "submission" : "3444",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult male, eclosion + 1 day;male heads",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult male, eclosion + 1 day",
@@ -19884,8 +19879,8 @@
          "Tracks" : [
             "fly/submission_3445.sorted"
          ],
-         "submission" : "modENCODE_3445",
-         "label" : "Dm Tissue Expression RNA-seq mixed males and females eclosion + 1 day digestive system uniquely mapping reads",
+         "submission" : "3445",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult, eclosion + 1 day;digestive system",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult, eclosion + 1 day",
@@ -19900,8 +19895,8 @@
          "Tracks" : [
             "fly/submission_3446.sorted"
          ],
-         "submission" : "modENCODE_3446",
-         "label" : "Dm Tissue Expression RNA-seq mixed males and females eclosion + 1 day carcass uniquely mapping reads",
+         "submission" : "3446",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult, eclosion + 1 day;carcass",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult, eclosion + 1 day",
@@ -19916,8 +19911,8 @@
          "Tracks" : [
             "fly/submission_3447.sorted"
          ],
-         "submission" : "modENCODE_3447",
-         "label" : "Dm Tissue Expression RNA-seq  virgin female eclosion + 4 days heads uniquely mapping reads",
+         "submission" : "3447",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult female, eclosion + 1 day;Female virgin heads",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult female, eclosion + 1 day",
@@ -19932,8 +19927,8 @@
          "Tracks" : [
             "fly/submission_3448.sorted"
          ],
-         "submission" : "modENCODE_3448",
-         "label" : "Dm Tissue Expression RNA-seq mated female eclosion + 4 days heads uniquely mapping reads",
+         "submission" : "3448",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult mated female eclosion + 20 days;Mated Female heads",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult mated female eclosion + 20 days",
@@ -19948,8 +19943,8 @@
          "Tracks" : [
             "fly/submission_3449.sorted"
          ],
-         "submission" : "modENCODE_3449",
-         "label" : "Dm Tissue Expression RNA-seq mated male eclosion + 4 days heads uniquely mapping reads",
+         "submission" : "3449",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult male, eclosion + 1 day;male heads",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult male, eclosion + 1 day",
@@ -19964,8 +19959,8 @@
          "Tracks" : [
             "fly/submission_3450.sorted"
          ],
-         "submission" : "modENCODE_3450",
-         "label" : "Dm Tissue Expression RNA-seq virgin female eclosion + 4 days ovaries uniquely mapping reads",
+         "submission" : "3450",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult female, eclosion + 4 days;virgin adult ovaries",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult female, eclosion + 4 days",
@@ -19980,8 +19975,8 @@
          "Tracks" : [
             "fly/submission_3451.sorted"
          ],
-         "submission" : "modENCODE_3451",
-         "label" : "Dm Tissue Expression RNA-seq  mated female eclosion + 4 days ovaries uniquely mapping reads",
+         "submission" : "3451",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult mated female, eclosion + 4 days;mated adult ovaries",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult mated female, eclosion + 4 days",
@@ -19996,8 +19991,8 @@
          "Tracks" : [
             "fly/submission_3452.sorted"
          ],
-         "submission" : "modENCODE_3452",
-         "label" : "Dm Tissue Expression RNA-seq mated male eclosion + 4 days testes uniquely mapping reads",
+         "submission" : "3452",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult male, eclosion + 4 days;testes",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult male, eclosion + 4 days",
@@ -20012,8 +20007,8 @@
          "Tracks" : [
             "fly/submission_3453.sorted"
          ],
-         "submission" : "modENCODE_3453",
-         "label" : "Dm Tissue Expression RNA-seq mated male eclosion + 4 days accessory glands uniquely mapping reads",
+         "submission" : "3453",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult male, eclosion + 4 days;male accessory glands",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult male, eclosion + 4 days",
@@ -20028,8 +20023,8 @@
          "Tracks" : [
             "fly/submission_3454.sorted"
          ],
-         "submission" : "modENCODE_3454",
-         "label" : "Dm Tissue Expression RNA-seq mixed males and females eclosion + 4 days digestive system uniquely mapping reads",
+         "submission" : "3454",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult, eclosion + 1 day;digestive system",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult, eclosion + 1 day",
@@ -20044,8 +20039,8 @@
          "Tracks" : [
             "fly/submission_3455.sorted"
          ],
-         "submission" : "modENCODE_3455",
-         "label" : "Dm Tissue Expression RNA-seq mixed males and females eclosion + 4 days carcass uniquely mapping reads",
+         "submission" : "3455",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult, eclosion + 1 day;carcass",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult, eclosion + 1 day",
@@ -20060,8 +20055,8 @@
          "Tracks" : [
             "fly/submission_3456.sorted"
          ],
-         "submission" : "modENCODE_3456",
-         "label" : "Dm Tissue Expression RNA-seq virgin female eclosion + 20 days heads uniquely mapping reads",
+         "submission" : "3456",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult female, eclosion + 1 day;Female virgin heads",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult female, eclosion + 1 day",
@@ -20076,8 +20071,8 @@
          "Tracks" : [
             "fly/submission_3457.sorted"
          ],
-         "submission" : "modENCODE_3457",
-         "label" : "Dm Tissue Expression RNA-seq mated female eclosion + 20 days heads uniquely mapping reads",
+         "submission" : "3457",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult mated female eclosion + 20 days;Mated Female heads",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult mated female eclosion + 20 days",
@@ -20092,8 +20087,8 @@
          "Tracks" : [
             "fly/submission_3458.sorted"
          ],
-         "submission" : "modENCODE_3458",
-         "label" : "Dm Tissue Expression RNA-seq mated male eclosion + 20 days heads uniquely mapping reads",
+         "submission" : "3458",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult male, eclosion + 1 day;male heads",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult male, eclosion + 1 day",
@@ -20108,8 +20103,8 @@
          "Tracks" : [
             "fly/submission_3459.sorted"
          ],
-         "submission" : "modENCODE_3459",
-         "label" : "Dm Tissue Expression RNA-seq mixed males and females eclosion + 20 days digestive system uniquely mapping reads",
+         "submission" : "3459",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult, eclosion + 1 day;digestive system",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult, eclosion + 1 day",
@@ -20124,8 +20119,8 @@
          "Tracks" : [
             "fly/submission_3460.sorted"
          ],
-         "submission" : "modENCODE_3460",
-         "label" : "Dm Tissue Expression RNA-seq mixed males and females eclosion + 20 days carcass uniquely mapping reads",
+         "submission" : "3460",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult, eclosion + 1 day;carcass",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult, eclosion + 1 day",
@@ -20140,8 +20135,8 @@
          "Tracks" : [
             "fly/submission_3461.sorted"
          ],
-         "submission" : "modENCODE_3461",
-         "label" : "Dm Tissue Expression RNA-seq third instar larvae wandering stage fat body uniquely mapping reads",
+         "submission" : "3461",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;L3 stage wandering stage larvae;fat body",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "L3 stage wandering stage larvae",
@@ -20156,8 +20151,8 @@
          "Tracks" : [
             "fly/submission_3462.sorted"
          ],
-         "submission" : "modENCODE_3462",
-         "label" : "Dm Tissue Expression RNA-seq third instar larvae wandering stage imaginal discs uniquely mapping reads",
+         "submission" : "3462",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;L3 stage wandering stage larvae;imaginal discs",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "L3 stage wandering stage larvae",
@@ -20172,8 +20167,8 @@
          "Tracks" : [
             "fly/submission_3463.sorted"
          ],
-         "submission" : "modENCODE_3463",
-         "label" : "Dm Tissue Expression RNA-seq third instar larvae wandering stage salivary glands uniquely mapping reads",
+         "submission" : "3463",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;L3 stage wandering stage larvae;salivary glands",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "L3 stage wandering stage larvae",
@@ -20188,8 +20183,8 @@
          "Tracks" : [
             "fly/submission_3464.sorted"
          ],
-         "submission" : "modENCODE_3464",
-         "label" : "Dm Tissue Expression RNA-seq third instar larvae wandering stage digestive system uniquely mapping reads",
+         "submission" : "3464",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult, eclosion + 1 day;digestive system",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult, eclosion + 1 day",
@@ -20204,8 +20199,8 @@
          "Tracks" : [
             "fly/submission_3465.sorted"
          ],
-         "submission" : "modENCODE_3465",
-         "label" : "Dm Tissue Expression RNA-seq third instar larvae wandering stage carcass uniquely mapping reads",
+         "submission" : "3465",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;Adult, eclosion + 1 day;carcass",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "Adult, eclosion + 1 day",
@@ -20220,8 +20215,8 @@
          "Tracks" : [
             "fly/submission_3466.sorted"
          ],
-         "submission" : "modENCODE_3466",
-         "label" : "Dm Tissue Expression RNA-seq third instar larvae CNS uniquely mapping reads",
+         "submission" : "3466",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;L3 stage wandering stage larvae;central nervous system",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "L3 stage wandering stage larvae",
@@ -20236,8 +20231,8 @@
          "Tracks" : [
             "fly/submission_3467.sorted"
          ],
-         "submission" : "modENCODE_3467",
-         "label" : "Dm Tissue Expression RNA-seq WPP salivary glands uniquely mapping reads",
+         "submission" : "3467",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;L3 stage wandering stage larvae;salivary glands",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "L3 stage wandering stage larvae",
@@ -20252,8 +20247,8 @@
          "Tracks" : [
             "fly/submission_3468.sorted"
          ],
-         "submission" : "modENCODE_3468",
-         "label" : "Dm Tissue Expression RNA-seq WPP fat body uniquely mapping reads",
+         "submission" : "3468",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;L3 stage wandering stage larvae;fat body",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "L3 stage wandering stage larvae",
@@ -20268,8 +20263,8 @@
          "Tracks" : [
             "fly/submission_3469.sorted"
          ],
-         "submission" : "modENCODE_3469",
-         "label" : "Dm Tissue Expression RNA-seq Pupae WPP+2d CNS uniquely mapping reads",
+         "submission" : "3469",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;L3 stage wandering stage larvae;central nervous system",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "L3 stage wandering stage larvae",
@@ -20284,8 +20279,8 @@
          "Tracks" : [
             "fly/submission_3470.sorted"
          ],
-         "submission" : "modENCODE_3470",
-         "label" : "Dm Tissue Expression RNA-seq WPP+2d fat uniquely mapping reads",
+         "submission" : "3470",
+         "label" : "RNA-seq;total-RNA;Oregon R-modENCODE;L3 stage wandering stage larvae;fat body",
          "type" : "data set",
          "Strain" : "Oregon R-modENCODE",
          "Developmental-Stage" : "L3 stage wandering stage larvae",
@@ -20300,9 +20295,9 @@
          "Tracks" : [
             "fly/1182-4H.sub_3471.sorted"
          ],
-         "submission" : "modENCODE_3471",
+         "submission" : "3471",
          "Cell-Line" : "1182-4H",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq 1182-4H uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;1182-4H;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -20316,9 +20311,9 @@
          "Tracks" : [
             "fly/CME_W2.sub_3472.merged"
          ],
-         "submission" : "modENCODE_3472",
+         "submission" : "3472",
          "Cell-Line" : "CME W2",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq CME_W2 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CME W2;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20332,9 +20327,9 @@
          "Tracks" : [
             "fly/GM2.sub_3473.merged"
          ],
-         "submission" : "modENCODE_3473",
+         "submission" : "3473",
          "Cell-Line" : "GM2",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq GM2 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;GM2;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -20348,9 +20343,9 @@
          "Tracks" : [
             "fly/ML-DmBG2-c2.sub_3474.merged"
          ],
-         "submission" : "modENCODE_3474",
+         "submission" : "3474",
          "Cell-Line" : "ML-DmBG2-c2",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmBG2-c2 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;ML-DmBG2-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20364,9 +20359,9 @@
          "Tracks" : [
             "fly/ML-DmD20-c5.sub_3475.merged"
          ],
-         "submission" : "modENCODE_3475",
+         "submission" : "3475",
          "Cell-Line" : "ML-DmD20-c5",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD20-c5 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;ML-DmD20-c5;Third instar larval stage;antenna disc-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20380,9 +20375,9 @@
          "Tracks" : [
             "fly/CME_L1.sub_3476.merged"
          ],
-         "submission" : "modENCODE_3476",
+         "submission" : "3476",
          "Cell-Line" : "CME-L1",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq CME_L1 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;CME-L1;Third instar larval stage;ventral prothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20396,9 +20391,9 @@
          "Tracks" : [
             "fly/ML-DmBG1-c1.sub_3477.sorted"
          ],
-         "submission" : "modENCODE_3477",
+         "submission" : "3477",
          "Cell-Line" : "ML-DmD17-c3",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmBG1-c1 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;ML-DmD17-c3;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20412,9 +20407,9 @@
          "Tracks" : [
             "fly/ML-DmD11.sub_3478.merged"
          ],
-         "submission" : "modENCODE_3478",
+         "submission" : "3478",
          "Cell-Line" : "ML-DmD11",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD11 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;ML-DmD11;Third instar larval stage;eye-antenna disc-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20428,9 +20423,9 @@
          "Tracks" : [
             "fly/ML-DmD16-c3.sub_3479.merged"
          ],
-         "submission" : "modENCODE_3479",
+         "submission" : "3479",
          "Cell-Line" : "ML-DmD16-c3",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD16-c3 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;ML-DmD16-c3;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20444,9 +20439,9 @@
          "Tracks" : [
             "fly/ML-DmD17-c3.sub_3480.merged"
          ],
-         "submission" : "modENCODE_3480",
+         "submission" : "3480",
          "Cell-Line" : "ML-DmD17-c3",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD17-c3 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;ML-DmD17-c3;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20460,9 +20455,9 @@
          "Tracks" : [
             "fly/ML-DmD21.sub_3481.sorted"
          ],
-         "submission" : "modENCODE_3481",
+         "submission" : "3481",
          "Cell-Line" : "ML-DmD21",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD21 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;ML-DmD21;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20476,9 +20471,9 @@
          "Tracks" : [
             "fly/ML-DmD32.sub_3482.merged"
          ],
-         "submission" : "modENCODE_3482",
+         "submission" : "3482",
          "Cell-Line" : "ML-DmD32",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD32 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;ML-DmD32;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20492,9 +20487,9 @@
          "Tracks" : [
             "fly/ML-DmD4-c1.sub_3483.merged"
          ],
-         "submission" : "modENCODE_3483",
+         "submission" : "3483",
          "Cell-Line" : "ML-DmD4-c1",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD4-c1 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;ML-DmD4-c1;Third instar larval stage;imaginal disc-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20508,9 +20503,9 @@
          "Tracks" : [
             "fly/ML-DmD8.sub_3484.sorted"
          ],
-         "submission" : "modENCODE_3484",
+         "submission" : "3484",
          "Cell-Line" : "ML-DmD8",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD8 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;ML-DmD8;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20524,9 +20519,9 @@
          "Tracks" : [
             "fly/ML-DmD9.sub_3485.sorted"
          ],
-         "submission" : "modENCODE_3485",
+         "submission" : "3485",
          "Cell-Line" : "ML-DmD9",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq ML-DmD9 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;ML-DmD9;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20540,9 +20535,9 @@
          "Tracks" : [
             "fly/S1.sub_3486.merged"
          ],
-         "submission" : "modENCODE_3486",
+         "submission" : "3486",
          "Cell-Line" : "S1",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq S1 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;S1;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -20556,9 +20551,9 @@
          "Tracks" : [
             "fly/S2Rplus.sub_3487.merged"
          ],
-         "submission" : "modENCODE_3487",
+         "submission" : "3487",
          "Cell-Line" : "S2R+",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq S2-R+ uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;S2R+;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -20572,9 +20567,9 @@
          "Tracks" : [
             "fly/Sg4.sub_3488.sorted"
          ],
-         "submission" : "modENCODE_3488",
+         "submission" : "3488",
          "Cell-Line" : "Sg4",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq Sg4 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;Sg4;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -20588,9 +20583,9 @@
          "Tracks" : [
             "fly/MBN2.sub_3492.merged"
          ],
-         "submission" : "modENCODE_3492",
+         "submission" : "3492",
          "Cell-Line" : "Mbn2",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq MBN2 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;Mbn2;Late Embryonic stage;embryonic/larval hemocyte",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -20604,9 +20599,9 @@
          "Tracks" : [
             "fly/Kc167.sub_3493.merged"
          ],
-         "submission" : "modENCODE_3493",
+         "submission" : "3493",
          "Cell-Line" : "Kc167",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq Kc167 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;Kc167;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -20620,9 +20615,9 @@
          "Tracks" : [
             "fly/S3.sub_3494.merged"
          ],
-         "submission" : "modENCODE_3494",
+         "submission" : "3494",
          "Cell-Line" : "S3",
-         "label" : "D.melanogaster Cell Line Expression RNA-seq S3 uniquely mapping reads",
+         "label" : "RNA-seq;total-RNA;S3;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -20637,9 +20632,9 @@
             "fly/Lai_Sg4.sorted",
             "fly/Lai_RNASEQ_DUAL_CELLS/Sg4"
          ],
-         "submission" : "modENCODE_3506",
+         "submission" : "3506",
          "Cell-Line" : "Sg4",
-         "label" : "Lai – Sg4/BS35/BS34",
+         "label" : "RNA-seq;small-RNA;Sg4;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -20654,9 +20649,9 @@
             "fly/Lai_ML-DmBG1-C1.sorted",
             "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmBG1c1"
          ],
-         "submission" : "modENCODE_3508",
+         "submission" : "3508",
          "Cell-Line" : "ML-DmBG1-c1",
-         "label" : "Lai-ML-DmBG1-C1/BS176/BS177",
+         "label" : "RNA-seq;small-RNA;ML-DmBG1-c1;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20671,9 +20666,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmBG3-C2",
             "fly/Lai_ML-DmBG3-C2.sorted"
          ],
-         "submission" : "modENCODE_3510",
+         "submission" : "3510",
          "Cell-Line" : "ML-DmBG3-c2",
-         "label" : "Lai_ML-DmBG3-C2/BS179/180",
+         "label" : "RNA-seq;small-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20688,9 +20683,9 @@
             "fly/Lai_S2-DRSC.sorted",
             "fly/Lai_RNASEQ_DUAL_CELLS/S2_DRSC"
          ],
-         "submission" : "modENCODE_3511",
+         "submission" : "3511",
          "Cell-Line" : "S2-DRSC",
-         "label" : "Lai_S2-DRSC/BS10/BS11",
+         "label" : "RNA-seq;small-RNA;S2-DRSC;Late Embryonic stage;embryo-derived cell-line",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
@@ -20705,9 +20700,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmD9",
             "fly/Lai_MLDmD9.sorted"
          ],
-         "submission" : "modENCODE_3512",
+         "submission" : "3512",
          "Cell-Line" : "ML-DmD9",
-         "label" : "Lai – MLDmD9/BS101/BS102",
+         "label" : "RNA-seq;small-RNA;ML-DmD9;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20722,9 +20717,9 @@
             "fly/Lai_MLDmD8.sorted",
             "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmD8"
          ],
-         "submission" : "modENCODE_3513",
+         "submission" : "3513",
          "Cell-Line" : "ML-DmD8",
-         "label" : "Lai – MLDmD8/BS37/BS38",
+         "label" : "RNA-seq;small-RNA;ML-DmD8;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20739,9 +20734,9 @@
             "fly/Lai_RNASEQ_DUAL_CELLS/ML-DmD32",
             "fly/Lai_MLDmD32.sorted"
          ],
-         "submission" : "modENCODE_3514",
+         "submission" : "3514",
          "Cell-Line" : "ML-DmD32",
-         "label" : "Lai – MLDmD32/BS25/BS26",
+         "label" : "RNA-seq;small-RNA;ML-DmD32;Third instar larval stage;dorsal mesothoracic disc",
          "type" : "data set",
          "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
@@ -20751,8 +20746,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3515",
-         "label" : "C. elegans late embryo (replicate) N2 RNA-Seq sequences and alignments",
+         "submission" : "3515",
+         "label" : "RNA-seq;total-RNA;N2;Late Embryos LE-1;20 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Late Embryos LE-1",
@@ -20764,8 +20759,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3516",
-         "label" : "C. elegans N2 exposed to endoparasitic fungus Drechmeria coniospora for 5 hours N2 RNA-Seq sequences and alignments",
+         "submission" : "3516",
+         "label" : "RNA-seq;total-RNA;N2;Adult Drechmeria coniospora 1 5 hrs;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Adult Drechmeria coniospora 1 5 hrs",
@@ -20777,8 +20772,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3517",
-         "label" : "C. elegans N2 exposed to endoparasitic fungus Drechmeria coniospora for 12 hours N2 RNA-Seq sequences and alignments",
+         "submission" : "3517",
+         "label" : "RNA-seq;total-RNA;N2;Adult Drechmeria coniospora 2 12 hrs;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Adult Drechmeria coniospora 2 12 hrs",
@@ -20790,8 +20785,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3518",
-         "label" : "C. elegans dauer entry daf-2(el370) sample 2 DauerEntryDAF2-2 polyA+ RNA-Seq sequences and alignments",
+         "submission" : "3518",
+         "label" : "RNA-seq;total-RNA;N2;Dauer entry daf-2 DauerEntryDAF2-2;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Dauer entry daf-2 DauerEntryDAF2-2",
@@ -20803,8 +20798,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3519",
-         "label" : "C. elegans Male N2 exposed to bacterium Enterococcus faecalis for 24 hours RNA-Seq sequences and alignments",
+         "submission" : "3519",
+         "label" : "RNA-seq;total-RNA;N2;Adult Enterococcus faecalis 1 24 hrs;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Adult Enterococcus faecalis 1 24 hrs",
@@ -20816,8 +20811,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3520",
-         "label" : "C. elegans embryo him-8(e1480) sample 2 EmMalesHIM8-2 polyA+ RNA-Seq sequences and alignments",
+         "submission" : "3520",
+         "label" : "RNA-seq;total-RNA;N2;Embryos him-8(e1480) EmMalesHIM8-2 hr;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Embryos him-8(e1480) EmMalesHIM8-2 hr",
@@ -20829,8 +20824,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3521",
-         "label" : "C. elegans N2 larval L1 (lin-35) L1LIN35-1 array capture 1 experiment 36bp polyA+ RNA-Seq sequences and alignments",
+         "submission" : "3521",
+         "label" : "RNA-seq;total-RNA;N2;L1LIN35-1cap1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L1LIN35-1cap1 stage larvae",
@@ -20842,8 +20837,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3522",
-         "label" : "C. elegans strain JK1107 mid-L4 soma-only not treated with DNaseI sample 2 L4JK1107soma-2 polyA+ RNA-Seq sequences and alignments",
+         "submission" : "3522",
+         "label" : "RNA-seq;total-RNA;N2;L4 soma JK1107 no DNaseI L4JK1107soma-2 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L4 soma JK1107 no DNaseI L4JK1107soma-2 stage larvae",
@@ -20855,8 +20850,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3523",
-         "label" : "C. elegans Male L4  N2 RNA-Seq sequences and alignments",
+         "submission" : "3523",
+         "label" : "RNA-seq;total-RNA;N2;Male  mid-L4 L4MALE5 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Male  mid-L4 L4MALE5 stage larvae",
@@ -20868,8 +20863,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3524",
-         "label" : "C. elegans N2 larval L4 male sample 6 L4MALE6 array capture 4 experiment polyA+ RNA-Seq sequences and alignments",
+         "submission" : "3524",
+         "label" : "RNA-seq;total-RNA;N2;L4MALE6cap2 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L4MALE6cap2 stage larvae",
@@ -20881,8 +20876,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3526",
-         "label" : "C. elegans N2 early embryo biological replicate array capture EE-2cap5 polyA+ RNA-Seq sequences and alignments",
+         "submission" : "3526",
+         "label" : "RNA-seq;total-RNA;N2;Early Embryos capture EE-2cap5;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Early Embryos capture EE-2cap5",
@@ -20894,8 +20889,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3527",
-         "label" : "C. elegans N2 larval L1 biological replicate L1-1 polyA+ RNA-Seq sequences and alignments",
+         "submission" : "3527",
+         "label" : "RNA-seq;total-RNA;N2;L1-1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L1-1 stage larvae",
@@ -20907,8 +20902,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3528",
-         "label" : "C. elegans N2 larval L2 biological replicate L2-4 polyA+ RNA-Seq sequences and alignments",
+         "submission" : "3528",
+         "label" : "RNA-seq;total-RNA;N2;L2-4 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L2-4 stage larvae",
@@ -20920,8 +20915,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3529",
-         "label" : "C. elegans N2 larval L3 biological replicate L3-1 polyA+ RNA-Seq sequences and alignments",
+         "submission" : "3529",
+         "label" : "RNA-seq;total-RNA;N2;L3-1 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "L3-1 stage larvae",
@@ -20933,8 +20928,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3530",
-         "label" : "C. elegans dauer entry daf-2(el370) sample 2 DauerEntryDAF2-2 polyA+ RNA-Seq sequences and alignments",
+         "submission" : "3530",
+         "label" : "RNA-seq;total-RNA;N2;N2 L4cap4 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "N2 L4cap4 stage larvae",
@@ -20946,8 +20941,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3531",
-         "label" : "C. elegans Late Embryo array capture 6  N2 RNA-Seq sequences and alignments",
+         "submission" : "3531",
+         "label" : "RNA-seq;total-RNA;N2;N2 LE-2cap6;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "N2 LE-2cap6",
@@ -20959,8 +20954,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3532",
-         "label" : "C. elegans N2 Young Adult RNA-Seq sequences and alignments",
+         "submission" : "3532",
+         "label" : "RNA-seq;total-RNA;N2;Young Adult;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Young Adult",
@@ -20972,8 +20967,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3533",
-         "label" : "C. elegans N2 control for Drechmeria coniospora exposed to E. coli OP50 for 12 hrs polyA+ RNA-Seq sequences and alignments",
+         "submission" : "3533",
+         "label" : "RNA-seq;total-RNA;N2;Adult Drechmeria coniospora control EcoliOP50 exposed 2 12 hrs;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Adult Drechmeria coniospora control EcoliOP50 exposed 2 12 hrs",
@@ -20985,8 +20980,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3534",
-         "label" : "C. elegans N2 exposed to enterobacterium Photorhabdus luminescens for 24 hours RNA-Seq sequences and alignments",
+         "submission" : "3534",
+         "label" : "RNA-seq;total-RNA;N2;Adult Photorhabdus luminescens 2 24 hrs;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "Adult Photorhabdus luminescens 2 24 hrs",
@@ -20998,8 +20993,8 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "submission" : "modENCODE_3535",
-         "label" : "C. elegans N2 larval L4 ribominus array capture 3 experiment polyA+ RNA-Seq sequences and alignments",
+         "submission" : "3535",
+         "label" : "RNA-seq;total-RNA;N2;N2 L4RRcap3 stage larvae;25 degree celsius",
          "type" : "data set",
          "Strain" : "N2",
          "Developmental-Stage" : "N2 L4RRcap3 stage larvae",
@@ -21011,8 +21006,8 @@
          "factor" : "H4K20me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3538",
-         "label" : "Ahringer DISN147_H4K20ME1_001_N2_L3",
+         "submission" : "3538",
+         "label" : "ChIP-chip;H4K20me1;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -21023,8 +21018,8 @@
          "factor" : "RNA polII CTD domain unphosophorylated",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3544",
-         "label" : "Desai ABAB817_8WG16_N2_EEMB",
+         "submission" : "3544",
+         "label" : "ChIP-chip;RNA polII CTD domain unphosophorylated;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -21035,8 +21030,8 @@
          "factor" : "RNA polII CTD domain unphosophorylated",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3545",
-         "label" : "Desai ABAB817_8WG16_N2_LTEMB",
+         "submission" : "3545",
+         "label" : "ChIP-chip;RNA polII CTD domain unphosophorylated;Late Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Late Embryos",
@@ -21047,8 +21042,8 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3546",
-         "label" : "Strome WA30534819_H3K4ME3_N2_EEMB_s1",
+         "submission" : "3546",
+         "label" : "ChIP-chip;H3K4me3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -21059,8 +21054,8 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3547",
-         "label" : "Strome WA30534819_H3K4ME3_N2_LTEMB_s2",
+         "submission" : "3547",
+         "label" : "ChIP-chip;H3K4me3;Late Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Late Embryos",
@@ -21071,8 +21066,8 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3548",
-         "label" : "Strome WA30534819_H3K4ME3_N2_L1_s3",
+         "submission" : "3548",
+         "label" : "ChIP-chip;H3K4me3;L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L1 stage larvae",
@@ -21083,8 +21078,8 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3549",
-         "label" : "Strome WA30534819_H3K4ME3_N2_L2_s4",
+         "submission" : "3549",
+         "label" : "ChIP-chip;H3K4me3;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L2 stage larvae",
@@ -21095,8 +21090,8 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3550",
-         "label" : "Strome WA30534819_H3K4ME3_N2_L3_s5",
+         "submission" : "3550",
+         "label" : "ChIP-chip;H3K4me3;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -21107,8 +21102,8 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3551",
-         "label" : "Strome WA30534819_H3K4ME3_N2_L4_s6",
+         "submission" : "3551",
+         "label" : "ChIP-chip;H3K4me3;L4 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L4 stage larvae",
@@ -21119,8 +21114,8 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3552",
-         "label" : "Strome WA30534819_H3K4ME3_N2_YA_s7",
+         "submission" : "3552",
+         "label" : "ChIP-chip;H3K4me3;Germline containing young adult;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Germline containing young adult",
@@ -21131,8 +21126,8 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3553",
-         "label" : "Strome HK00001_H3K36ME3_13C9_N2_EEMB_s1",
+         "submission" : "3553",
+         "label" : "ChIP-chip;H3K36me3;Early Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Early Embryos",
@@ -21143,8 +21138,8 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3554",
-         "label" : "Strome HK00001_H3K36ME3_13C9_N2_LTEMB_s2",
+         "submission" : "3554",
+         "label" : "ChIP-chip;H3K36me3;Late Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Late Embryos",
@@ -21155,8 +21150,8 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3555",
-         "label" : "Strome HK00001_H3K36ME3_13C9_N2_L1_s3",
+         "submission" : "3555",
+         "label" : "ChIP-chip;H3K36me3;L1 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L1 stage larvae",
@@ -21167,8 +21162,8 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3556",
-         "label" : "Strome HK00001_H3K36ME3_13C9_N2_L2_s4",
+         "submission" : "3556",
+         "label" : "ChIP-chip;H3K36me3;L2 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L2 stage larvae",
@@ -21179,8 +21174,8 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3557",
-         "label" : "Strome HK00001_H3K36ME3_13C9_N2_L3_s5",
+         "submission" : "3557",
+         "label" : "ChIP-chip;H3K36me3;L3 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L3 stage larvae",
@@ -21191,8 +21186,8 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3558",
-         "label" : "Strome HK00001_H3K36ME3_13C9_N2_L4_s6",
+         "submission" : "3558",
+         "label" : "ChIP-chip;H3K36me3;L4 stage larvae;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "L4 stage larvae",
@@ -21203,8 +21198,8 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3559",
-         "label" : "Strome HK00001_H3K36ME3_13C9_N2_YA_s7",
+         "submission" : "3559",
+         "label" : "ChIP-chip;H3K36me3;Germline containing young adult;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Germline containing young adult",
@@ -21215,8 +21210,8 @@
          "factor" : "ZFP-1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
-         "submission" : "modENCODE_3561",
-         "label" : "Lieb SDQ3517_ZFP1_N2_MXEMB",
+         "submission" : "3561",
+         "label" : "ChIP-chip;ZFP-1;Mixed Embryos;20 degree celsius",
          "type" : "data set",
          "organism" : "C. elegans",
          "Developmental-Stage" : "Mixed Embryos",
@@ -21226,8 +21221,8 @@
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3608",
-         "label" : "D. simulans wildtype male RNA-seq",
+         "submission" : "3608",
+         "label" : "RNA-seq;total-RNA;Dsim wildtype;Dsim Adult Male Whole Species",
          "type" : "data set",
          "Strain" : "Dsim wildtype",
          "Developmental-Stage" : "Dsim Adult Male Whole Species",
@@ -21237,8 +21232,8 @@
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3609",
-         "label" : "D. simulans wildtype female RNA-seq",
+         "submission" : "3609",
+         "label" : "RNA-seq;total-RNA;Dsim wildtype;Dsim Adult Female Whole Species",
          "type" : "data set",
          "Strain" : "Dsim wildtype",
          "Developmental-Stage" : "Dsim Adult Female Whole Species",
@@ -21248,8 +21243,8 @@
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3610",
-         "label" : "D. mojavensis male RNA-seq",
+         "submission" : "3610",
+         "label" : "RNA-seq;total-RNA;Dmojavensis;Dmoj Adult Male Whole Species",
          "type" : "data set",
          "Strain" : "Dmojavensis",
          "Developmental-Stage" : "Dmoj Adult Male Whole Species",
@@ -21259,8 +21254,8 @@
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3611",
-         "label" : "D. mojavensis female RNA-seq",
+         "submission" : "3611",
+         "label" : "RNA-seq;total-RNA;Dmojavensis;Dmoj Adult Female Whole Species",
          "type" : "data set",
          "Strain" : "Dmojavensis",
          "Developmental-Stage" : "Dmoj Adult Female Whole Species",
@@ -21270,8 +21265,8 @@
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3613",
-         "label" : "D. virilis female RNA-seq",
+         "submission" : "3613",
+         "label" : "RNA-seq;total-RNA;Dvir wildtype;Dvir Adult Female Whole Species",
          "type" : "data set",
          "Strain" : "Dvir wildtype",
          "Developmental-Stage" : "Dvir Adult Female Whole Species",
@@ -21281,8 +21276,8 @@
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3615",
-         "label" : "D. yakuba female RNA-seq",
+         "submission" : "3615",
+         "label" : "RNA-seq;total-RNA;Dyak wildtype;Dyak Adult Female Whole Species",
          "type" : "data set",
          "Strain" : "Dyak wildtype",
          "Developmental-Stage" : "Dyak Adult Female Whole Species",
@@ -21292,8 +21287,8 @@
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3617",
-         "label" : "D. anannassae female RNA-seq",
+         "submission" : "3617",
+         "label" : "RNA-seq;total-RNA;Dananassae;Dana Adult Female Whole Species",
          "type" : "data set",
          "Strain" : "Dananassae",
          "Developmental-Stage" : "Dana Adult Female Whole Species",
@@ -21303,8 +21298,8 @@
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3620",
-         "label" : "D. pseudoobscura whole male RNA-seq",
+         "submission" : "3620",
+         "label" : "RNA-seq;total-RNA;D.pseudoobscura wild-type;Dpse Adult Male Whole Species",
          "type" : "data set",
          "Strain" : "D.pseudoobscura wild-type",
          "Developmental-Stage" : "Dpse Adult Male Whole Species",
@@ -21314,8 +21309,8 @@
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3621",
-         "label" : "D. Pseudoobscura female RNA-seq",
+         "submission" : "3621",
+         "label" : "RNA-seq;total-RNA;D.pseudoobscura wild-type;Dpse Adult Female Whole Species",
          "type" : "data set",
          "Strain" : "D.pseudoobscura wild-type",
          "Developmental-Stage" : "Dpse Adult Female Whole Species",
@@ -21325,8 +21320,8 @@
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3622",
-         "label" : "D. simulans w501 female RNA-seq",
+         "submission" : "3622",
+         "label" : "RNA-seq;total-RNA;D.sim w501;Dsim Adult Female Whole Species",
          "type" : "data set",
          "Strain" : "D.sim w501",
          "Developmental-Stage" : "Dsim Adult Female Whole Species",
@@ -21336,8 +21331,8 @@
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
          "target" : "mRNA",
-         "submission" : "modENCODE_3623",
-         "label" : "D. simulans w501 male RNA-seq",
+         "submission" : "3623",
+         "label" : "RNA-seq;total-RNA;D.sim w501;Dsim Adult Male Whole Species",
          "type" : "data set",
          "Strain" : "D.sim w501",
          "Developmental-Stage" : "Dsim Adult Male Whole Species",
@@ -21350,8 +21345,8 @@
          "Tracks" : [
             "fly/Dmel_sub3631.merged.bam"
          ],
-         "submission" : "modENCODE_3631",
-         "label" : "D. melanogaster y1w67c23 female RNA-seq",
+         "submission" : "3631",
+         "label" : "RNA-seq;total-RNA;Dmel y1w67c23;Dmel Adult Female Whole Species",
          "type" : "data set",
          "Strain" : "Dmel y1w67c23",
          "Developmental-Stage" : "Dmel Adult Female Whole Species",
@@ -21364,8 +21359,8 @@
          "Tracks" : [
             "fly/Dmel_sub3632.merged.bam"
          ],
-         "submission" : "modENCODE_3632",
-         "label" : "D. melanogaster y1w67c23 male RNA-seq",
+         "submission" : "3632",
+         "label" : "RNA-seq;total-RNA;Dmel y1w67c23;Dmel Adult Male Whole Species",
          "type" : "data set",
          "Strain" : "Dmel y1w67c23",
          "Developmental-Stage" : "Dmel Adult Male Whole Species",

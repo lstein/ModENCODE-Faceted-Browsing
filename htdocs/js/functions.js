@@ -107,12 +107,20 @@ function shopping_cart_check () {
 	var accessions = selected.map(function (l) {
 	    return window.database.getObjects(l,'submission').toArray();
 	});
-	var url = 'http://www.foo.org/cgi-bin/me_download?download='+accessions.join('+');
+	
+	var download_url = 'http://www.foo.org/cgi-bin/me_download?download='+accessions.map(
+	    function (a) {return a.toString()}).join(';');
+	var acc   = accessions.toString().split(',');
+	var modmine_url  = 'http://intermine.modencode.org/query/portal.do?class=Submission&externalids='+
+	    acc.map(function (a) { return 'modENCODE_'+a}).join(',');
+
+	buttons.insert(new Element('button',{id:'modmine'}).update('View in ModMine'));
 	buttons.insert(new Element('button',{id:'download'}).update('Download Datasets'));
 	buttons.insert(new Element('button',{id:"clear_all"}).update('Clear All'));
 
 	$('clear_all').onclick = function() {clear_all()};
-	$('download').onclick  = function() {alert(url)};
+	$('download').onclick  = function() {alert(download_url)};
+	$('modmine').onclick   = function() {window.open(modmine_url,'modmine')};
 	urls.keys().each(function (e) {
 	    var u = urls.get(e);
 	    var window_name = 'browse_'+e;
@@ -148,6 +156,9 @@ function shopping_cart_add (dataset) {
 	}
     }
 
+    var org  = window.database.getObjects(dataset,'organism').toArray().join(',');
+    var sub  = window.database.getObjects(dataset,'submission').toArray().join(',');
+
     var remove           = new Element('input',{type:'checkbox',
 						checked:true,
 						id: 'check_'+dataset,
@@ -155,9 +166,8 @@ function shopping_cart_add (dataset) {
 					       });
     var span = new Element('span',{style      :'cursor:pointer',
 				   onmouseover: handler
-				  }).update(dataset);
-    var org  = window.database.getObjects(dataset,'organism').toArray().join(',');
-    span.insert(' (<i>'+org+'</i>)');
+				  }).update(sub + ': ' + '<b>'+dataset+'</b>');
+    span.insert(' (<i><b>'+org+'</b></i>)');
     var li   = new Element('li',{id:item_id});
     li.insert(remove).insert(span);
     cart.insert({top:li});

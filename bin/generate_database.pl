@@ -15,7 +15,7 @@ use constant CSV     => 'file:./data/modencode-22August2011.csv';
 use constant BROWSER => 'http://modencode.oicr.on.ca/fgb2/gbrowse/';
 use constant SOURCES => [qw(fly worm)];
 
-use constant DEBUG=>1;
+use constant DEBUG=>0;
 
 my %DATA;
 
@@ -50,17 +50,21 @@ while (<FH>) {
 	} elsif ($key eq 'Developmental-Stage') {
 	    $value  = fix_stage($value);
 	}
-	push @conditions,($key,$value);
+	push @conditions,($key,$value) if (defined $key && defined $value);
     }
 
     $organism = fix_organism($organism);
     $factor   = fix_factor($factor);
     $target   =~ tr/-/ /;
     $pi       =~ s/^(\w)\w+\s*(\w+)/$2, $1./;
+    $submission =~ s/^modencode_//i;
+    my %conditions = @conditions;
+    my $label   = join(';',$technique,$factor,values %conditions);
 
     $DATA{$id} = {
 	submission => $submission,
-	label      => $title,
+#	label      => $title,
+	label      => $label,
 	organism   => $organism,
 	target     => $target,
 	technique  => $technique,
@@ -155,3 +159,4 @@ sub fix_factor {
     $factor =~ s!SU\(HW\)!Su(Hw)!i;
     return $factor;
 }
+

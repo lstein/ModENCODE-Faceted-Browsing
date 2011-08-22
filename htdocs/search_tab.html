@@ -46,18 +46,21 @@
       <td>
 	<span class="notice">Internet Explorer users: If this page is too slow for you, consider Firefox, Safari or Chrome. Please do not abort script execution.</span>
       </td>
-      <th align="left">
+      <td align="left">
 	<ul id="shopping_cart"><i style="color:gray">No datasets selected</i></ul>
-      </th>
+      </td>
     </tr>
     <tr>
       <td><b>Search:</b> <span id="searchbox" ex:role="facet" ex:facetClass="TextSearch"></span></td>
       <th>
 	<div id="retrieve_buttons" style="display:none">
-	  <button id="browse_worm">Browse worm tracks</button>
-	  <button id="browse_fly">Browse fly tracks</button>
-	  <button id="download data">Download</button>
-	  <button id="clear data" onclick="clear_all()">Clear All</button>
+	  <!--filled by JavaScript
+	      <button id="browse_worm">Browse worm tracks</button>
+	      <button id="browse_fly">Browse fly tracks</button>
+	      <button id="download data">Download</button>
+	      <button id="modmine">View in ModMine</button>
+	      <button id="clear data" onclick="clear_all()">Clear All</button>
+	      -->
 	</div>
       </th>
     </tr>
@@ -92,13 +95,13 @@
 	ex:viewClass="Tabular" 
 	ex:showToolbox="false"
         ex:maxRows = "20"
-	ex:columnLabels="Dataset,Organism,PI,Technique,Target,Factor,Conditions"
+	ex:columnLabels="Dataset,Organism,PI,Technique,Target,Factor,Conditions,ID"
 	ex:tableMunger="add_selectall_checkbox"
 	ex:rowStyler="zebraStyler"
 	ex:border="1"
 	ex:cellSpacing="2"
 	ex:cellPadding="3"
-	ex:columns=".label,.organism,.principal_investigator,.technique,.target,.factor,.Developmental-Stage" 
+	ex:columns=".label,.organism,.principal_investigator,.technique,.target,.factor,.Developmental-Stage,.submission" 
 	ex:abbreviatedCount="20" id="filter_results">
      <table>
        <tr class="submission" onclick="toggle_tr(this)">
@@ -121,6 +124,7 @@
 	     <span ex:content=".Compound"></span>
 	   </span>
 	 </td>
+	 <td><span ex:content=".submission"></span></td>
        </tr>
      </table>
 </div>
