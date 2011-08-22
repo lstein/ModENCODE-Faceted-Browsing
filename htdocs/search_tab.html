@@ -4,7 +4,7 @@
  <head>
     <title>Faceted Search of modENCODE Data Sets</title>
   
-    <link href="js/modencode.js" type="application/json" rel="exhibit/data" />
+    <link href="modencode.js" type="application/json" rel="exhibit/data" />
 
     <link rel='stylesheet' href="css/common.css" type='text/css' />
     <link rel='stylesheet' href="css/me.css" type='text/css' />
@@ -29,7 +29,7 @@
     </script>
  </head> 
 
-<body onload="register_handlers()" ex:afterdataload="alert('loaded?')">
+<body onload="register_handlers()" ex:exporters="">
 <div class="header">
     <h1><a href="www.modencode.org"><img src="http://www.modencode.org/img/modENCODE_logo_small.png" height="60" align="middle" border="0"/></a>
       Search modENCODE Data Sets</h1>
@@ -40,7 +40,7 @@
   <table width="100%" border='0'>
     <tr valign="bottom">
       <td width="20%"  style="vertical-align:middle">
-	<b>Internet Explorer users: If this page is too slow for you, consider Firefox, Safari or Chrome.</b><br><br>
+	<span class="notice">Internet Explorer users: If this page is too slow for you, consider Firefox, Safari or Chrome. Please do not stop script execution if you are asked to.</span><br><br>
 	<b>Search:</b> <span id="searchbox" ex:role="facet" ex:facetClass="TextSearch"></span>
       </td>
       <td colspan="2">
@@ -78,8 +78,12 @@
 
 <!-- left column, organism, technique, target and factor facets -->
   <td id="left-column" width="20%">
+    <div class="notice">Search Filters</div>
     <span class="contract"><img/><b>Organism</b>
       <div ex:role="facet" ex:expression=".organism"  ex:scroll="false" ex:sortMode="count"></div>
+    </span>
+    <span class="contract"><img/><b>Principal Investigator</b>
+      <div ex:role="facet" ex:expression=".principal_investigator"  ex:scroll="false"></div>
     </span>
     <span class="contract"><img/><b>Technique</b>
       <div  ex:role="facet" ex:expression=".technique" ex:scroll="false" ex:sortMode="count"></div>
@@ -95,21 +99,23 @@
     <div id="data-table"
 	ex:role="view" 
 	ex:viewClass="Tabular" 
+	ex:showToolbox="false"
         ex:maxRows = "20"
-	ex:columnLabels="Select Dataset,Organism,Technique,Target,Factor,Conditions"
+	ex:columnLabels="Dataset,Organism,PI,Technique,Target,Factor,Conditions"
 	ex:tableMunger="add_selectall_checkbox"
 	ex:rowStyler="zebraStyler"
 	ex:border="1"
 	ex:cellSpacing="2"
 	ex:cellPadding="3"
-	ex:columns=".label,.organism,.technique,.target,.factor,.Developmental-Stage" 
+	ex:columns=".label,.organism,.principal_investigator,.technique,.target,.factor,.Developmental-Stage" 
 	ex:abbreviatedCount="20" id="filter_results">
      <table>
-       <tr class="submission">
-	 <td><input type="checkbox" class="submission-select" onClick="toggle_track(this)" ex:id-subcontent="{{.label}}"></input>
+       <tr class="submission" onclick="toggle_tr(this)">
+	 <td><input type="checkbox" class="submission-select" ex:id-subcontent="{{.label}}"></input>
 	   <span ex:content=".label"></span>
 	 </td>
 	 <td><span ex:content=".organism"></span></td>
+	 <td nowrap="1"><span ex:content=".principal_investigator"></span></td>
 	 <td><span ex:content=".technique"></span></td>
 	 <td><span ex:content=".target"></span></td>
 	 <td><span ex:content=".factor"></span></td>
@@ -129,6 +135,7 @@
 </div>
 <!-- right column: developmental stage, strain, cell line and tissue facets -->
   <td id="right-column" width="20%">
+    <div class="notice">More Search Filters</div>
     <span class="expand"><img/><b>Factor</b>
       <div  ex:role="facet" ex:expression=".factor"  ex:height:"200px"  ex:scroll="false" ex:facetLabel=""></div>
     </span>

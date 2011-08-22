@@ -16,6 +16,13 @@ div.header {
 div.label-header {
     background: #6ECCF8;
 }
+span.notice,div.notice {
+    color: red;
+    font-weight:bold;
+}
+.submission {
+    cursor: pointer;
+}
 .submission-tile {
     float: left;
     font-size:  8pt;

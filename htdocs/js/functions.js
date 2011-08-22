@@ -30,11 +30,19 @@ function popup (event, container) {
     balloon.showTooltip(event,html[0].innerHTML);
 }
 
-function find_container (checkbox) {
-    Element.extend(checkbox);
-    var container = checkbox.ancestors().find(
+function find_container (element) {
+    if (element == null) return;
+    Element.extend(element);
+    if (element.hasClassName('submission'))
+	return element;
+    var container = element.ancestors().find(
 	function(el) { return el.hasClassName('submission')});
     return container;
+}
+
+function toggle_tr (row) {
+    var checkbox = row.select('input')[0];
+    toggle_track(checkbox);
 }
 
 function toggle_track (checkbox,turn_on) {

@@ -9,15 +9,24 @@ use JSON;
 use LWP::Simple 'get','getprint';
 use Text::ParseWords 'shellwords';
 use Bio::Graphics::FeatureFile;
-use constant CSV     => 'http://localhost/testing/modencode.csv';
+use FindBin '$Bin';
+#use constant CSV     => 'http://localhost/testing/modencode.csv';
+use constant CSV     => 'file:./data/modencode-22August2011.csv';
 use constant BROWSER => 'http://modencode.oicr.on.ca/fgb2/gbrowse/';
 use constant SOURCES => [qw(fly worm)];
 
+use constant DEBUG=>1;
+
 my %DATA;
 
-unless (open FH, '-|') { # in child
-    getprint(CSV);
-    exit 0;
+if (DEBUG) {
+    open FH,"$Bin/../data/modencode-22August2011.csv" or die $!;
+} 
+else {
+    unless (open FH, '-|') { # in child
+	getprint(CSV);
+	exit 0;
+    }
 }
 
 while (<FH>) {
@@ -26,7 +35,9 @@ while (<FH>) {
 	$organism,$target,$technique,
 	$format,$factor,$condition,
 	undef,undef,undef,undef,undef,
-	$submission) = split ("\t");
+	$submission,$uniform_filename,
+	undef,undef,undef,undef,undef,undef,undef,
+	$pi) = split ("\t");
 
     next if $id eq 'DCC id';
     next unless $id;
@@ -45,6 +56,7 @@ while (<FH>) {
     $organism = fix_organism($organism);
     $factor   = fix_factor($factor);
     $target   =~ tr/-/ /;
+    $pi       =~ s/^(\w)\w+\s*(\w+)/$2, $1./;
 
     $DATA{$id} = {
 	submission => $submission,
@@ -54,6 +66,7 @@ while (<FH>) {
 	technique  => $technique,
 	factor    => $factor,
 	type      => 'data set',
+	$pi ? (principal_investigator => $pi) : (),
 	@conditions,
     }
 }
