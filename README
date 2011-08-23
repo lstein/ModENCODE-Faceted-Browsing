@@ -3,3 +3,5 @@ To install and run:
 1) bin/generate_database.pl > htdocs/modencode.js
 2) ln -sf `pwd`/htdocs /var/www/modencode 
 3) point your browser at http://your.host/modencode
+4) to initialize facets, use url:
+      http://your.host/modencode?facet_label1=facet_value1&facet_label2=facet_value2

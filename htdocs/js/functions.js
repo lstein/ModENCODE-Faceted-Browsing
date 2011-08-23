@@ -321,33 +321,17 @@ function hilite_row (row,turn_on) {
     }
 }
 
-function register_handlers () {
-    var span = $$('span.expand,span.contract');
-    span.each(function (d) {
-	if (d.hasClassName('expand')) {
-	    d.select('img')[0].src='js/exhibit/images/right.png';
-	    d.select('div')[0].hide();
-	} else {
-	    d.select('img')[0].src='js/exhibit/images/down-arrow.png';
-	}
-	d.observe('click',function() {
-	    var s = d.select('div')[0];
-	    if (s.visible()) {
-		new Effect.SlideUp(s,{duration:0.5});
-	    } else {
-		new Effect.SlideDown(s,{duration:0.5});
-	    }
-	    if (d.hasClassName('contract')) {
-		d.removeClassName('contract');
-		d.addClassName('expand');
-		d.select('img')[0].src='js/exhibit/images/right.png';
-	    } else {
-		d.addClassName('contract');
-		d.removeClassName('expand');
-		d.select('img')[0].src='js/exhibit/images/down-arrow.png';
-	    }
-	});
-    });
+function handle_url_params () {
+    if (document.location.search.length > 0) {
+        var params = document.location.search.substr(1).split("&");
+        for (var i = 0; i < params.length; i++) {
+	    var a = params[i].split('=');
+	    var facet_label = unescape(a[0]);
+	    var facet_value = unescape(a[1]);
+	    var facet = $$('div[ex\\:facetLabel=\''+facet_label+'\']');
+	    facet[0].writeAttribute('ex:selection',facet_value);
+        }
+    }
 }
 
 function select_with_yield (track,turnon,index) {
