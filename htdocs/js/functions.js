@@ -17,7 +17,6 @@ function clear_all () {
     SelectedItems = new Hash();
     hilight_items();
     $('dataset_count').innerHTML     = 'Selected Datasets:';
-    $('retrieve_buttons').hide();
     shopping_cart_clear();
 }
 
@@ -89,20 +88,19 @@ function shopping_cart_check () {
     var urls;
     if (element.select('li').size() == 0) {
 	element.innerHTML = '<i style="color:gray">No datasets selected</i>';
-	$('retrieve_buttons').innerHTML = '';
-	$('retrieve_buttons').hide();
+	$('retrieve_buttons').select('button').each(function (b) {b.disable()});
     } else {
 	var selected = SelectedItems.keys();
 	$('dataset_count').innerHTML     = selected.size()+' Selected Datasets:';
 	var buttons = $('retrieve_buttons');
-	buttons.innerHTML = '';
 	urls        = format_url();
 	var sources = urls.keys();
 	urls.keys().each(function (e) {
 	    var u = urls.get(e);
 	    var window_name = 'browse_'+e;
-	    buttons.insert(new Element('button',
-				       {id:window_name}).update('Browse '+e.ucfirst()+' Tracks'));
+	    if ($(window_name) == null)
+		buttons.insert(new Element('button',
+					   {id:window_name}).update('Browse '+e.ucfirst()+' Tracks'));
 	});
 	var accessions = selected.map(function (l) {
 	    return window.database.getObjects(l,'submission').toArray();
@@ -114,19 +112,28 @@ function shopping_cart_check () {
 	var modmine_url  = 'http://intermine.modencode.org/query/portal.do?class=Submission&externalids='+
 	    acc.map(function (a) { return 'modENCODE_'+a}).join(',');
 
-	buttons.insert(new Element('button',{id:'modmine'}).update('View in ModMine'));
-	buttons.insert(new Element('button',{id:'download'}).update('Download Datasets'));
-	buttons.insert(new Element('button',{id:"clear_all"}).update('Clear All'));
+	if ($('modmine') == null)
+	    buttons.insert(new Element('button',{id:'modmine'}).update('View in ModMine'));
+	if ($('download') == null)
+	    buttons.insert(new Element('button',{id:'download'}).update('Download Datasets'));
+	if ($('clear_all') == null)
+	    buttons.insert(new Element('button',{id:"clear_all"}).update('Clear All'));
 
 	$('clear_all').onclick = function() {clear_all()};
+	$('clear_all').enable();
 	$('download').onclick  = function() {alert(download_url)};
+	$('download').enable();
 	$('modmine').onclick   = function() {window.open(modmine_url,'modmine')};
+	$('modmine').enable();
+	$('retrieve_buttons').select('button').each(function (b) {
+	    if (b.id.startsWith('browse_')) b.disable();
+	});
 	urls.keys().each(function (e) {
 	    var u = urls.get(e);
 	    var window_name = 'browse_'+e;
 	    $(window_name).onclick = function () {window.open(u,window_name)};
+	    $(window_name).enable();
 	});
-	$('retrieve_buttons').show();
     }
 }
 
