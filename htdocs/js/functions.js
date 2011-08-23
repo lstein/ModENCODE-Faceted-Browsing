@@ -95,12 +95,13 @@ function shopping_cart_check () {
 	var buttons = $('retrieve_buttons');
 	urls        = format_url();
 	var sources = urls.keys();
+	var download = $('download');
 	urls.keys().each(function (e) {
 	    var u = urls.get(e);
 	    var window_name = 'browse_'+e;
 	    if ($(window_name) == null)
-		buttons.insert(new Element('button',
-					   {id:window_name}).update('Browse '+e.ucfirst()+' Tracks'));
+		download.insert({before: new Element('button',
+						     {id:window_name}).update('Browse '+e.ucfirst()+' Tracks')});
 	});
 	var accessions = selected.map(function (l) {
 	    return window.database.getObjects(l,'submission').toArray();

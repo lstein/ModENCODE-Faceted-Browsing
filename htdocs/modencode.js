@@ -16415,6 +16415,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_dp/2980_merged_hits_all.sam.bam.sorted"
+         ],
          "submission" : "2980",
          "Strain" : "D.pseudoobscura wild-type",
          "label" : "RNA-seq;total-RNA;D.pseudoobscura wild-type;Dpse Adult Female;Dpse Female heads",
@@ -17688,6 +17691,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_dp/3085_merged_hits_all.sam.bam.sorted"
+         ],
          "submission" : "3085",
          "Strain" : "D.pseudoobscura wild-type",
          "label" : "RNA-seq;total-RNA;D.pseudoobscura wild-type;Dpse Adult Male;Dpse Male heads",
@@ -17702,6 +17708,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_dmoj/3086_merged_hits_all.sam.bam.sorted"
+         ],
          "submission" : "3086",
          "Strain" : "Dmojavensis",
          "label" : "RNA-seq;total-RNA;Dmojavensis;Dmoj Adult Male;Dmoj Male heads",
@@ -17716,6 +17725,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_dmoj/3087_merged_hits_all.sam.bam.sorted"
+         ],
          "submission" : "3087",
          "Strain" : "Dmojavensis",
          "label" : "RNA-seq;total-RNA;Dmojavensis;Dmoj Adult Female;Dmoj Female heads",
@@ -22626,6 +22638,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_simul/Dsim_sub3608_merged.bam"
+         ],
          "submission" : "3608",
          "Strain" : "Dsim wildtype",
          "label" : "RNA-seq;total-RNA;Dsim wildtype;Dsim Adult Male Whole Species",
@@ -22639,6 +22654,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_simul/Dsim_sub3609_merged.bam"
+         ],
          "submission" : "3609",
          "Strain" : "Dsim wildtype",
          "label" : "RNA-seq;total-RNA;Dsim wildtype;Dsim Adult Female Whole Species",
@@ -22652,6 +22670,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_dmoj/Dmoj_sub3610.merged.bam"
+         ],
          "submission" : "3610",
          "Strain" : "Dmojavensis",
          "label" : "RNA-seq;total-RNA;Dmojavensis;Dmoj Adult Male Whole Species",
@@ -22665,6 +22686,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_dmoj/Dmoj_sub3611.merged.bam"
+         ],
          "submission" : "3611",
          "Strain" : "Dmojavensis",
          "label" : "RNA-seq;total-RNA;Dmojavensis;Dmoj Adult Female Whole Species",
@@ -22678,6 +22702,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_virilis/Dvir_sub3613_merged.bam"
+         ],
          "submission" : "3613",
          "Strain" : "Dvir wildtype",
          "label" : "RNA-seq;total-RNA;Dvir wildtype;Dvir Adult Female Whole Species",
@@ -22691,6 +22718,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_yakuba/Dyak_sub3615_merged.bam"
+         ],
          "submission" : "3615",
          "Strain" : "Dyak wildtype",
          "label" : "RNA-seq;total-RNA;Dyak wildtype;Dyak Adult Female Whole Species",
@@ -22704,6 +22734,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_ananas/Dana_sub3617.merged.bam"
+         ],
          "submission" : "3617",
          "Strain" : "Dananassae",
          "label" : "RNA-seq;total-RNA;Dananassae;Dana Adult Female Whole Species",
@@ -22717,6 +22750,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_dp/Dpse_sub3620.merged.bam"
+         ],
          "submission" : "3620",
          "Strain" : "D.pseudoobscura wild-type",
          "label" : "RNA-seq;total-RNA;D.pseudoobscura wild-type;Dpse Adult Male Whole Species",
@@ -22730,6 +22766,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_dp/Dpse_sub3621.merged.bam"
+         ],
          "submission" : "3621",
          "Strain" : "D.pseudoobscura wild-type",
          "label" : "RNA-seq;total-RNA;D.pseudoobscura wild-type;Dpse Adult Female Whole Species",
@@ -22743,6 +22782,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_simul/Dsim_sub3622.merged.bam"
+         ],
          "submission" : "3622",
          "Strain" : "D.sim w501",
          "label" : "RNA-seq;total-RNA;D.sim w501;Dsim Adult Female Whole Species",
@@ -22756,6 +22798,9 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Oliver B.",
+         "Tracks" : [
+            "fly_simul/Dsim_sub3623.merged.bam"
+         ],
          "submission" : "3623",
          "Strain" : "D.sim w501",
          "label" : "RNA-seq;total-RNA;D.sim w501;Dsim Adult Male Whole Species",

@@ -13,7 +13,7 @@ use FindBin '$Bin';
 #use constant CSV     => 'http://localhost/testing/modencode.csv';
 use constant CSV     => 'file:./data/modencode-22August2011.csv';
 use constant BROWSER => 'http://modencode.oicr.on.ca/fgb2/gbrowse/';
-use constant SOURCES => [qw(fly worm)];
+use constant SOURCES => [qw(fly worm fly_ananas fly_dmoj fly_dp fly_simul fly_virilis fly_yakuba)];
 
 use constant DEBUG=>0;
 
