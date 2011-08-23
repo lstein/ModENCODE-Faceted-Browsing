@@ -329,7 +329,8 @@ function handle_url_params () {
 	    var facet_label = unescape(a[0]);
 	    var facet_value = unescape(a[1]);
 	    var facet = $$('div[ex\\:facetLabel=\''+facet_label+'\']');
-	    facet[0].writeAttribute('ex:selection',facet_value);
+	    if (facet != null && facet.length>0)
+		facet[0].writeAttribute('ex:selection',facet_value);
         }
     }
 }
