@@ -18,7 +18,7 @@ Exhibit.FacetUtilities.constructFacetFrame = function(div, facetLabel, onClearAl
             ((collapsible) ?
                 "<img src='"+Exhibit.urlPrefix+"images/collapse.png' class='exhibit-facet-header-collapse' id='collapseImg' />" :
                 "") +
-            "<span class='exhibit-facet-header-title'>" + facetLabel + "</span>" +
+            "<span class='exhibit-facet-header-title' id='facetLabel'>" + facetLabel + "</span>" +
         "</div>" +
         "<div class='exhibit-facet-body-frame' id='frameDiv'></div>",
         { checkImage: Exhibit.UI.createTranslucentImage("images/black-check.png") }
@@ -36,6 +36,9 @@ Exhibit.FacetUtilities.constructFacetFrame = function(div, facetLabel, onClearAl
     
     if (collapsible) {
         SimileAjax.WindowManager.registerEvent(dom.collapseImg, "click", function() {
+            Exhibit.FacetUtilities.toggleCollapse(dom);
+        });
+        SimileAjax.WindowManager.registerEvent(dom.facetLabel, "click", function() {
             Exhibit.FacetUtilities.toggleCollapse(dom);
         });
         

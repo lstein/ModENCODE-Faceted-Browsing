@@ -144,3 +144,6 @@ span.expand {
     margin-right:1em;
     border:1px solid #BCB79E;
 }
+span.exhibit-facet-header-title {
+    cursor: pointer;
+}
