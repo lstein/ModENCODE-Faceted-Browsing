@@ -123,7 +123,7 @@ span.expand,span.contract {
     cursor: pointer;
     color:  #5EA2B9;
 }
-div.exhibit-flowingFacet-header {
+.exhibit-flowingFacet-header,.exhibit-facet-header-title {
     color:  #5EA2B9;
 }
 span.expand {

@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+ <head>
+    <title>Faceted Search of modENCODE Data Sets</title>
+  
+    <link href="modencode.js" type="application/json" rel="exhibit/data" />
+
+    <link rel='stylesheet' href="css/common.css" type='text/css' />
+    <link rel='stylesheet' href="css/me.css" type='text/css' />
+
+    <script src="js/exhibit/ajax/simile-ajax-api.js?bundle=false"
+            type="text/javascript"></script>
+
+    <script src="js/exhibit/exhibit-api.js?bundle=false"
+            type="text/javascript"></script>
+
+    <script src="js/prototype.js"
+            type="text/javascript"></script>
+
+    <script src="js/scriptaculous/scriptaculous.js"
+	    type="text/javascript"></script>
+
+    <script type="text/javascript" src="js/balloon.config.js"></script>
+    <script type="text/javascript" src="js/balloon.js"></script>
+
+    <script src="js/functions.js"
+	    type="text/javascript">
+    </script>
+ </head> 
+
+<body onload="handle_url_params()">
+<div class="header">
+    <h1><a href="www.modencode.org"><img src="http://www.modencode.org/img/modENCODE_logo_small.png" height="60" align="middle" border="0"/></a>
+      Search modENCODE Data Sets</h1>
+</div>
+
+<!-- this is the search box, list of selected tracks, and control buttons -->
+<div class="status">
+  <table width="100%" border='0'>
+    <tr>
+      <td width="25%"></td>
+      <th id="dataset_count">Selected Datasets:</th>
+    </tr>
+    <tr>
+      <td class="notice">
+	<span>Internet Explorer users: If this page is too slow for you, consider Firefox, Safari or Chrome. Please do not abort script execution.</span>
+      </td>
+      <td align="left">
+	<ul id="shopping_cart"><i style="color:gray">No datasets selected</i></ul>
+      </td>
+    </tr>
+    <tr>
+      <td><b>Search:</b> <span id="searchbox" ex:role="facet" ex:facetClass="TextSearch"></span></td>
+      <th>
+	<div id="retrieve_buttons" style="display:none">
+	  <!--filled by JavaScript
+	      <button id="browse_worm">Browse worm tracks</button>
+	      <button id="browse_fly">Browse fly tracks</button>
+	      <button id="download data">Download</button>
+	      <button id="modmine">View in ModMine</button>
+	      <button id="clear data" onclick="clear_all()">Clear All</button>
+	      -->
+	</div>
+      </th>
+    </tr>
+  </table>
+</div>
+
+<!-- this is the faceted search area and results-->
+<table border='0'>
+
+<!-- left column, organism, technique, target and factor facets -->
+  <td id="left-column" width="25%">
+    <div class="notice">Search Filters</div>
+    <div ex:role="facet" ex:collapsible="true" ex:facetLabel="Organism" ex:expression=".organism"  
+	 ex:scroll="true" ex:sortMode="count" ex:height="5em"></div>
+    <div ex:role="facet" ex:collapsible="true" ex:collapsed="false" ex:facetLabel="Project Category" 
+	 ex:expression=".category"  ex:scroll="true" ex:sortMode="value" ex:height="13em"
+	 ex:fixedOrder="Gene Structure;RNA expression profiling;TF binding sites;Other chromatin binding sites;Chromatin structure;Histone modification and replacement;Copy Number Variation;Replication;Metadata only">
+    </div>
+    <div  ex:role="facet" ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Genomic Target Element" ex:expression=".target"    ex:scroll="true" ex:facetLabel="" ex:sortMode="count"></div>
+    <div  ex:role="facet" ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Technique" ex:expression=".technique" ex:scroll="true" ex:sortMode="count"></div>
+
+    <div ex:role="facet" ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Principal Investigator" ex:expression=".principal_investigator"  ex:scroll="true"></div>
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Assay Factor" ex:expression=".factor"  ex:height:"200px"  ex:scroll="true" ex:facetLabel=""></div>
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Developmental Stage" ex:expression=".Developmental-Stage" ex:scroll="true" ex:facetLabel=""></div>
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Strain" ex:expression=".Strain"              ex:scroll="true" ex:sortMode="count"></div> 
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Cell Line" ex:expression=".Cell-Line"           ex:scroll="true" ex:facetLabel=""></div>
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Tissue" ex:expression=".Tissue"              ex:scroll="true" ex:facetLabel=""></div>
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Compound" ex:expression=".Compound"            ex:scroll="true" ex:facetLabel=""></div>
+    <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Temperature" ex:expression=".temperature"         ex:scroll="true" ex:facetLabel=""></div>
+
+  </td>
+  
+<!-- right column: exhibit results -->
+  <td id="right-column">
+
+    <div id="data-table"
+	ex:role="view" 
+	ex:viewClass="Tabular" 
+	ex:showToolbox="false"
+        ex:maxRows = "20"
+	ex:columnLabels="Dataset,Organism,Technique,Target Element,Assay Factor,Conditions,PI,ID"
+	ex:tableMunger="add_selectall_checkbox"
+	ex:rowStyler="zebraStyler"
+	ex:border="1"
+	ex:cellSpacing="2"
+	ex:cellPadding="3"
+	ex:columns=".label,.organism,.technique,.target,.factor,.Developmental-Stage,.principal_investigator,.submission" 
+	ex:abbreviatedCount="20" id="filter_results">
+     <table>
+       <tr class="submission" onclick="toggle_tr(this)">
+	 <td><input type="checkbox" class="submission-select" ex:id-subcontent="{{.label}}"></input>
+	   <span ex:content=".label"></span>
+	 </td>
+	 <td><span ex:content=".organism"></span></td>
+	 <td><span ex:content=".technique"></span></td>
+	 <td><span ex:content=".target"></span></td>
+	 <td><span ex:content=".factor"></span></td>
+	 <td>
+	   <span ex:if-exists=".Developmental-Stage">
+	     <span ex:content=".Developmental-Stage"></span>
+	   </span>
+	   <span ex:if-exists=".temperature">
+	     <span ex:content=".temperature"></span>
+	   </span>
+	   <span ex:if-exists=".Compound">
+	     <span ex:content=".Compound"></span>
+	   </span>
+	 </td>
+	 <td nowrap="1"><span ex:content=".principal_investigator"></span></td>
+	 <td><span ex:content=".submission"></span></td>
+       </tr>
+     </table>
+    </div>
+  </td>
+</tr>
+</table>
+
+</body>
+</html>
