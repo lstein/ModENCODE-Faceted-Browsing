@@ -122,7 +122,10 @@
 <!-- right column: developmental stage, strain, cell line and tissue facets -->
   <td id="right-column" width="20%">
     <div class="notice">More Search Filters</div>
-    <div ex:role="facet" ex:collapsible="true" ex:collapsed="false" ex:facetLabel="Project Category" ex:expression=".category"  ex:scroll="false" ex:sortMode="value"></div>
+    <div ex:role="facet" ex:collapsible="true" ex:collapsed="false" ex:facetLabel="Project Category" 
+	 ex:expression=".category"  ex:scroll="false" ex:sortMode="value"
+	 ex:fixedOrder="Gene Structure;RNA expression profiling;TF binding sites;Other chromatin binding sites;Chromatin structure;Histone modification and replacement;Copy Number Variation;Replication;Metadata only">
+    </div>
     <div ex:role="facet" ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Principal Investigator" ex:expression=".principal_investigator"  ex:scroll="false"></div>
     <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Assay Factor" ex:expression=".factor"  ex:height:"200px"  ex:scroll="false" ex:facetLabel=""></div>
     <div  ex:role="facet"  ex:collapsible="true" ex:collapsed="true" ex:facetLabel="Developmental Stage" ex:expression=".Developmental-Stage" ex:scroll="false" ex:facetLabel=""></div>
