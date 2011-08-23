@@ -95,18 +95,19 @@
   <td id="right-column">
 
     <div id="data-table"
-	ex:role="view" 
-	ex:viewClass="Tabular" 
-	ex:showToolbox="false"
-        ex:maxRows = "20"
-	ex:columnLabels="Dataset,Organism,Technique,Target Element,Assay Factor,Conditions,PI,ID"
-	ex:tableMunger="add_selectall_checkbox"
-	ex:rowStyler="zebraStyler"
-	ex:border="1"
-	ex:cellSpacing="2"
-	ex:cellPadding="3"
-	ex:columns=".label,.organism,.technique,.target,.factor,.Developmental-Stage,.principal_investigator,.submission" 
-	ex:abbreviatedCount="20" id="filter_results">
+	 ex:role="view" 
+	 ex:viewClass="Tabular" 
+	 ex:showToolbox="false"
+         ex:maxRows = "20"
+	 ex:columnLabels="Dataset,Organism,Technique,Target Element,Assay Factor,Conditions,PI,ID"
+	 ex:tableMunger="add_selectall_checkbox"
+	 ex:rowStyler="zebraStyler"
+	 ex:border="0"
+	 ex:cellSpacing="2"
+	 ex:cellPadding="3"
+	 ex:columns=".label,.organism,.technique,.target,.factor,.Developmental-Stage,.principal_investigator,.submission" 
+	 ex:abbreviatedCount="20"
+	 >
      <table>
        <tr class="submission" onclick="toggle_tr(this)">
 	 <td><input type="checkbox" class="submission-select" ex:id-subcontent="{{.label}}"></input>

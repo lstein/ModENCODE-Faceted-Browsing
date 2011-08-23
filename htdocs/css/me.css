@@ -140,3 +140,7 @@ span.expand {
 .bold {
     font-weight:bold;
 }
+#data-table {
+    margin-right:1em;
+    border:1px solid #BCB79E;
+}
