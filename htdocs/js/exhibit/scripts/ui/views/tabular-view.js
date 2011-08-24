@@ -269,8 +269,10 @@ Exhibit.TabularView.prototype._reconstruct = function() {
     }
     
     // the next if-else hacked in by Lincoln Stein
+    var navigate;
     if ($('navigate') != null) {
 	$('navigate').innerHTML = '';
+	navigate = $('navigate');
     } else {
 	navigate = new Element('span',{id:'navigate'});
 	bodyDiv.insert({before:navigate});

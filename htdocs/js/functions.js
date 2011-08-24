@@ -35,7 +35,10 @@ function find_container (element) {
     if (element.hasClassName('submission'))
 	return element;
     var container = element.ancestors().find(
-	function(el) { return el.hasClassName('submission')});
+		     function(el) {return el.hasClassName('submission')});
+    if (container == null) //ie8 workaround
+	container = element.ancestors().find(
+		function(el) {return el.nodeName=='TR'});
     return container;
 }
 
