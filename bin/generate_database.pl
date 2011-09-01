@@ -62,8 +62,7 @@ while (<FH>) {
     $pi       = fix_pi($pi);
     $submission =~ s/^modencode_//i;
     my %conditions = @conditions;
-#    my $label   = join(';',$technique,$factor,values %conditions);
-    my $label    = $uniform_filename;
+    my $label    = join(';',$factor,values %conditions,$technique);
     my $category = find_category($pi,$technique,$target);
 
     $DATA{$id} = {
