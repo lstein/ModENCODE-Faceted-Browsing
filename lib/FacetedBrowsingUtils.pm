@@ -43,6 +43,7 @@ my %Stage_map = ('E0-4' => 'Embryo 0-4h',
 	'Dmel Adult Female Whole Species' => 'Adult Female',
 	'Dmel Adult Male Whole Species' => 'Adult Male',
 	'Adult female eclosion+4 day'   => 'Adult female, eclosion + 4 days',
+        'Adult Female eclosion+4 day'   => 'Adult female, eclosion + 4 days',
 	'third instar larval stage'     => 'Larvae 3rd instar',
 	'2-18 hr Embryos'               => 'Embryos 2-18 hr',
     );

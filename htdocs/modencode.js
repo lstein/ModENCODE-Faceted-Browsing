@@ -9867,10 +9867,10 @@
          ],
          "submission" : "2340",
          "Strain" : "Oregon-R",
-         "label" : "total-RNA;Oregon-R;Adult Female eclosion+4 day;Adult ovaries;RNA-tiling-array",
+         "label" : "total-RNA;Oregon-R;Adult female, eclosion + 4 days;Adult ovaries;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult Female eclosion+4 day",
+         "Developmental-Stage" : "Adult female, eclosion + 4 days",
          "organism" : "D. melanogaster"
       },
       {
