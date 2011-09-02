@@ -153,10 +153,10 @@
          ],
          "Cell-Line" : "CME-L1",
          "submission" : "48",
-         "label" : "total-RNA;CME-L1;Third instar larval stage;ventral prothoracic disc;RNA-tiling-array",
+         "label" : "total-RNA;CME-L1;Larvae 3rd instar;ventral prothoracic disc;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -170,10 +170,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "49",
-         "label" : "total-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;RNA-tiling-array",
+         "label" : "total-RNA;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -221,10 +221,10 @@
          ],
          "Cell-Line" : "ML-DmBG1-c1",
          "submission" : "52",
-         "label" : "total-RNA;ML-DmBG1-c1;Third instar larval stage;CNS-derived cell-line;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmBG1-c1;Larvae 3rd instar;CNS-derived cell-line;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -238,10 +238,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "53",
-         "label" : "total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -255,10 +255,10 @@
          ],
          "Cell-Line" : "ML-DmD11",
          "submission" : "54",
-         "label" : "total-RNA;ML-DmD11;Third instar larval stage;eye-antenna disc-derived cell-line;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmD11;Larvae 3rd instar;eye-antenna disc-derived cell-line;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -272,10 +272,10 @@
          ],
          "Cell-Line" : "ML-DmD17-c3",
          "submission" : "55",
-         "label" : "total-RNA;ML-DmD17-c3;Third instar larval stage;dorsal mesothoracic disc;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmD17-c3;Larvae 3rd instar;dorsal mesothoracic disc;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -289,10 +289,10 @@
          ],
          "Cell-Line" : "ML-DmD20-c2",
          "submission" : "56",
-         "label" : "total-RNA;ML-DmD20-c2;Third instar larval stage;antenna disc-derived cell-line;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmD20-c2;Larvae 3rd instar;antenna disc-derived cell-line;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -306,10 +306,10 @@
          ],
          "Cell-Line" : "ML-DmD20-c5",
          "submission" : "57",
-         "label" : "total-RNA;ML-DmD20-c5;Third instar larval stage;antenna disc-derived cell-line;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmD20-c5;Larvae 3rd instar;antenna disc-derived cell-line;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -323,10 +323,10 @@
          ],
          "Cell-Line" : "ML-DmD21",
          "submission" : "58",
-         "label" : "total-RNA;ML-DmD21;Third instar larval stage;dorsal mesothoracic disc;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmD21;Larvae 3rd instar;dorsal mesothoracic disc;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -340,10 +340,10 @@
          ],
          "Cell-Line" : "ML-DmD32",
          "submission" : "59",
-         "label" : "total-RNA;ML-DmD32;Third instar larval stage;dorsal mesothoracic disc;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmD32;Larvae 3rd instar;dorsal mesothoracic disc;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -357,10 +357,10 @@
          ],
          "Cell-Line" : "ML-DmD4-c1",
          "submission" : "60",
-         "label" : "total-RNA;ML-DmD4-c1;Third instar larval stage;imaginal disc-derived cell-line;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmD4-c1;Larvae 3rd instar;imaginal disc-derived cell-line;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -374,10 +374,10 @@
          ],
          "Cell-Line" : "ML-DmD8",
          "submission" : "61",
-         "label" : "total-RNA;ML-DmD8;Third instar larval stage;dorsal mesothoracic disc;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmD8;Larvae 3rd instar;dorsal mesothoracic disc;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -391,10 +391,10 @@
          ],
          "Cell-Line" : "ML-DmD9",
          "submission" : "62",
-         "label" : "total-RNA;ML-DmD9;Third instar larval stage;dorsal mesothoracic disc;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmD9;Larvae 3rd instar;dorsal mesothoracic disc;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -493,10 +493,10 @@
          ],
          "Cell-Line" : "ML-DmD16-c3",
          "submission" : "69",
-         "label" : "total-RNA;ML-DmD16-c3;Third instar larval stage;dorsal mesothoracic disc;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmD16-c3;Larvae 3rd instar;dorsal mesothoracic disc;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -525,10 +525,10 @@
          ],
          "submission" : "93",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;L1;RNA-tiling-array",
+         "label" : "total-RNA;Y cn bw sp;Larvae L1 stage;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -541,10 +541,10 @@
          ],
          "submission" : "94",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;L2;RNA-tiling-array",
+         "label" : "total-RNA;Y cn bw sp;Larvae L2 stage;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -573,10 +573,10 @@
          ],
          "submission" : "96",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;Adult female, eclosion + 1 day;RNA-tiling-array",
+         "label" : "total-RNA;Y cn bw sp;Adult Female, eclosion + 1 day;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Female, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -589,10 +589,10 @@
          ],
          "submission" : "97",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;Adult female, eclosion + 5 days;RNA-tiling-array",
+         "label" : "total-RNA;Y cn bw sp;Adult Female, eclosion + 5 days;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 5 days",
+         "Developmental-Stage" : "Adult Female, eclosion + 5 days",
          "organism" : "D. melanogaster"
       },
       {
@@ -1040,10 +1040,10 @@
          ],
          "Cell-Line" : "CME W2",
          "submission" : "140",
-         "label" : "total-RNA;CME W2;Third instar larval stage;dorsal mesothoracic disc;RNA-tiling-array",
+         "label" : "total-RNA;CME W2;Larvae 3rd instar;dorsal mesothoracic disc;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1072,10 +1072,10 @@
          ],
          "submission" : "175",
          "Strain" : "N2",
-         "label" : "H3K36me3;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K36me3;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -1089,10 +1089,10 @@
          ],
          "submission" : "176",
          "Strain" : "N2",
-         "label" : "H3K4me3;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K4me3;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -1106,10 +1106,10 @@
          ],
          "submission" : "179",
          "Strain" : "N2",
-         "label" : "no-antibody-control;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "no-antibody-control;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -1123,10 +1123,10 @@
          ],
          "submission" : "188",
          "Strain" : "N2",
-         "label" : "H3K9me3;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K9me3;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -1166,7 +1166,7 @@
       {
          "technique" : "ChIP-chip",
          "Tissue" : "embryo-derived cell-line",
-         "factor" : "h4actetra",
+         "factor" : "H4acTetra",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
@@ -1174,7 +1174,7 @@
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "201",
-         "label" : "h4actetra;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
+         "label" : "H4acTetra;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
@@ -1208,10 +1208,10 @@
             "fly/DMG1_RTPCR_cDNA_match_1278_214"
          ],
          "submission" : "214",
-         "label" : "total-RNA;Third instar larval stage;ventral prothoracic disc;RT-PCR",
+         "label" : "total-RNA;Larvae 3rd instar;ventral prothoracic disc;RT-PCR",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1225,10 +1225,10 @@
             "fly/DMG2_RTPCR_cDNA_match_1412_215"
          ],
          "submission" : "215",
-         "label" : "total-RNA;Third instar larval stage;ventral prothoracic disc;RT-PCR",
+         "label" : "total-RNA;Larvae 3rd instar;ventral prothoracic disc;RT-PCR",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1268,7 +1268,7 @@
       {
          "technique" : "ChIP-chip",
          "Tissue" : "embryo-derived cell-line",
-         "factor" : "beaf-32",
+         "factor" : "BEAF-32",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
@@ -1276,7 +1276,7 @@
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "274",
-         "label" : "beaf-32;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
+         "label" : "BEAF-32;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
@@ -1293,10 +1293,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "275",
-         "label" : "Chriz;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "Chriz;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1310,10 +1310,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "276",
-         "label" : "Chriz;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "Chriz;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1395,10 +1395,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "282",
-         "label" : "CTCF;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "CTCF;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1463,10 +1463,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "288",
-         "label" : "H2Bubi;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H2Bubi;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1514,10 +1514,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "291",
-         "label" : "H3K18ac;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K18ac;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1548,10 +1548,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "293",
-         "label" : "H3K23ac;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K23ac;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1582,10 +1582,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "295",
-         "label" : "H3K27ac;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K27ac;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1616,10 +1616,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "297",
-         "label" : "H3K27me3;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K27me3;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1650,10 +1650,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "299",
-         "label" : "H3K36me1;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K36me1;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1667,10 +1667,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "301",
-         "label" : "H3K36me3;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K36me3;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1751,10 +1751,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "306",
-         "label" : "H3K79me2;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K79me2;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1802,10 +1802,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "310",
-         "label" : "H3K9me2;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K9me2;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1836,10 +1836,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "312",
-         "label" : "H3K9me3;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K9me3;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1870,10 +1870,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "316",
-         "label" : "H4K16ac;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H4K16ac;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -1887,10 +1887,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "317",
-         "label" : "H4K16ac;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "H4K16ac;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -2003,10 +2003,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "324",
-         "label" : "mod(mdg4);ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "mod(mdg4);ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -2020,10 +2020,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "325",
-         "label" : "Pc;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "Pc;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -2054,10 +2054,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "327",
-         "label" : "pol2;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "pol2;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -2188,10 +2188,10 @@
          ],
          "Cell-Line" : "ML-DmBG2-c2",
          "submission" : "337",
-         "label" : "total-RNA;ML-DmBG2-c2;Third instar larval stage;CNS-derived cell-line;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmBG2-c2;Larvae 3rd instar;CNS-derived cell-line;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -2221,10 +2221,10 @@
             "fly/DMG3_RTPCR_mRNA_1429_339"
          ],
          "submission" : "339",
-         "label" : "total-RNA;Third instar larval stage;ventral prothoracic disc;RT-PCR",
+         "label" : "total-RNA;Larvae 3rd instar;ventral prothoracic disc;RT-PCR",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -2238,10 +2238,10 @@
             "fly/DMG4_RTPCR_mRNA_1452_340"
          ],
          "submission" : "340",
-         "label" : "total-RNA;Third instar larval stage;ventral prothoracic disc;RT-PCR",
+         "label" : "total-RNA;Larvae 3rd instar;ventral prothoracic disc;RT-PCR",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -2298,10 +2298,10 @@
             "fly/White_CC_L3/L3_H3K9Me3"
          ],
          "submission" : "358",
-         "label" : "H3K9me3;L3 stage larvae;ChIP-chip",
+         "label" : "H3K9me3;Larvae L3 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2313,10 +2313,10 @@
             "fly/White_CC_L3/L3_H3K27Me3"
          ],
          "submission" : "359",
-         "label" : "H3K27me3;L3 stage larvae;ChIP-chip",
+         "label" : "H3K27me3;Larvae L3 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2364,10 +2364,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "364",
-         "label" : "total-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -2381,10 +2381,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "366",
-         "label" : "total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;RNA-seq",
+         "label" : "total-RNA;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -2411,10 +2411,10 @@
             "fly/White_CC_L2/L2_H3K27Me3"
          ],
          "submission" : "371",
-         "label" : "H3K27me3;L2;ChIP-chip",
+         "label" : "H3K27me3;Larvae L2 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2442,10 +2442,10 @@
             "fly/White_CC_L1/L1_H3K27Me3"
          ],
          "submission" : "373",
-         "label" : "H3K27me3;L1;ChIP-chip",
+         "label" : "H3K27me3;Larvae L1 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2457,10 +2457,10 @@
             "fly/White_CC_L1/L1_H3K9Me3"
          ],
          "submission" : "374",
-         "label" : "H3K9me3;L1;ChIP-chip",
+         "label" : "H3K9me3;Larvae L1 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2472,10 +2472,10 @@
             "fly/White_CC_L2/L2_H3K9Me3"
          ],
          "submission" : "375",
-         "label" : "H3K9me3;L2;ChIP-chip",
+         "label" : "H3K9me3;Larvae L2 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2582,10 +2582,10 @@
          ],
          "submission" : "386",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K9ac;Y cn bw sp;L3 stage larvae;ChIP-chip",
+         "label" : "H3K9ac;Y cn bw sp;Larvae L3 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2598,10 +2598,10 @@
          ],
          "submission" : "387",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K4me3;Y cn bw sp;L3 stage larvae;ChIP-chip",
+         "label" : "H3K4me3;Y cn bw sp;Larvae L3 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2614,10 +2614,10 @@
          ],
          "submission" : "388",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K4me1;Y cn bw sp;L3 stage larvae;ChIP-chip",
+         "label" : "H3K4me1;Y cn bw sp;Larvae L3 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2630,10 +2630,10 @@
          ],
          "submission" : "389",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K27ac;Y cn bw sp;L3 stage larvae;ChIP-chip",
+         "label" : "H3K27ac;Y cn bw sp;Larvae L3 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2645,10 +2645,10 @@
             "fly/White_CC_L2/L2_H3K9Ac"
          ],
          "submission" : "391",
-         "label" : "H3K9ac;L2;ChIP-chip",
+         "label" : "H3K9ac;Larvae L2 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2660,10 +2660,10 @@
             "fly/White_CC_L2/L2_H3K4Me3"
          ],
          "submission" : "392",
-         "label" : "H3K4me3;L2;ChIP-chip",
+         "label" : "H3K4me3;Larvae L2 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2676,10 +2676,10 @@
          ],
          "submission" : "393",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K4me1;Y cn bw sp;L2;ChIP-chip",
+         "label" : "H3K4me1;Y cn bw sp;Larvae L2 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2692,10 +2692,10 @@
          ],
          "submission" : "394",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K27ac;Y cn bw sp;L2;ChIP-chip",
+         "label" : "H3K27ac;Y cn bw sp;Larvae L2 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2707,10 +2707,10 @@
             "fly/White_CC_L1/L1_H3K9Ac"
          ],
          "submission" : "396",
-         "label" : "H3K9ac;L1;ChIP-chip",
+         "label" : "H3K9ac;Larvae L1 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2722,10 +2722,10 @@
             "fly/White_CC_L1/L1_H3K4Me3"
          ],
          "submission" : "397",
-         "label" : "H3K4me3;L1;ChIP-chip",
+         "label" : "H3K4me3;Larvae L1 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2738,10 +2738,10 @@
          ],
          "submission" : "398",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K4me1;Y cn bw sp;L1;ChIP-chip",
+         "label" : "H3K4me1;Y cn bw sp;Larvae L1 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -2754,10 +2754,10 @@
          ],
          "submission" : "399",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K27ac;Y cn bw sp;L1;ChIP-chip",
+         "label" : "H3K27ac;Y cn bw sp;Larvae L1 stage;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -4327,10 +4327,10 @@
          ],
          "submission" : "593",
          "Strain" : "OP26",
-         "label" : "mab-5;OP26;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "mab-5;OP26;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -4344,10 +4344,10 @@
          ],
          "submission" : "594",
          "Strain" : "OP26",
-         "label" : "ama-1;OP26;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "ama-1;OP26;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -4375,10 +4375,10 @@
             "worm/LIEB_WIG_CHIPCHIP_POL2/8WG16_N2_L4"
          ],
          "submission" : "599",
-         "label" : "pol2;L4 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "pol2;Larvae L4 stage;20 degree celsius;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L4 stage larvae",
+         "Developmental-Stage" : "Larvae L4 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -4832,10 +4832,10 @@
             "worm/LIEB_WIG_CHIPCHIP_DC/DPY27_N2_L4"
          ],
          "submission" : "630",
-         "label" : "DPY-27;L4 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "DPY-27;Larvae L4 stage;20 degree celsius;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L4 stage larvae",
+         "Developmental-Stage" : "Larvae L4 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -4855,118 +4855,6 @@
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
          "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/Egg_s_3.S-3.WS220.soap.sam_sorted"
-         ],
-         "submission" : "634",
-         "Strain" : "N2",
-         "label" : "small-RNA;N2;Mixed stage of Embryos;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Mixed stage of Embryos",
-         "organism" : "C. elegans"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/L1_s_5.S-3.WS220.soap.sam_sorted"
-         ],
-         "submission" : "635",
-         "Strain" : "N2",
-         "label" : "small-RNA;N2;Mid-L1 4 hrs post-L1 stage larvae;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Mid-L1 4 hrs post-L1 stage larvae",
-         "organism" : "C. elegans"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/L2_s_6.S-3.WS220.soap.sam1_header.sam_sorted"
-         ],
-         "submission" : "636",
-         "Strain" : "N2",
-         "label" : "small-RNA;N2;Mid-L2 14 hrs post-L1 stage larvae;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Mid-L2 14 hrs post-L1 stage larvae",
-         "organism" : "C. elegans"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/L3_s_7.S-3.WS220.soap.sam1_header.sam_sorted"
-         ],
-         "submission" : "637",
-         "Strain" : "N2",
-         "label" : "small-RNA;N2;Mid-L3 25 hrs post-L1 stage larvae;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Mid-L3 25 hrs post-L1 stage larvae",
-         "organism" : "C. elegans"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/L4_s_8.S-3.WS220.soap.sam1_header.sam_sorted"
-         ],
-         "submission" : "638",
-         "Strain" : "N2",
-         "label" : "small-RNA;N2;Mid-L4 36 hrs post-L1 stage larvae;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Mid-L4 36 hrs post-L1 stage larvae",
-         "organism" : "C. elegans"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/YA_Adult_s_1.S-3.WS220.soap.sam1_header.sam_sorted"
-         ],
-         "submission" : "639",
-         "Strain" : "N2",
-         "label" : "small-RNA;N2;Young adult 48 hrs post-L1 stage larvae;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Young adult 48 hrs post-L1 stage larvae",
-         "organism" : "C. elegans"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/yMale_dpyhim_s_6.S-3.WS220.soap.sam_sorted"
-         ],
-         "submission" : "640",
-         "Strain" : "dpy28(y1)",
-         "label" : "small-RNA;dpy28(y1);Young adult Males;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Young adult Males",
-         "organism" : "C. elegans"
       },
       {
          "technique" : "ChIP-chip",
@@ -5043,10 +4931,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "651",
-         "label" : "total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;RNA-seq",
+         "label" : "total-RNA;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -5060,10 +4948,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "652",
-         "label" : "total-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -5289,10 +5177,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "670",
-         "label" : "Replication-Timing;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;DNA-tiling-array",
+         "label" : "Replication-Timing;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;DNA-tiling-array",
          "category" : "Replication",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -5414,57 +5302,6 @@
          "temperature" : "20 degree celsius"
       },
       {
-         "technique" : "DNA-tiling-array",
-         "Tissue" : "embryo-derived cell-line",
-         "factor" : "Replication-Origin",
-         "target" : "DNA Replication",
-         "principal_investigator" : "MacAlpine, D.",
-         "Tracks" : [
-            "fly/MacAlpine_K_WIG_934_939_941/Kc167"
-         ],
-         "Cell-Line" : "Kc167",
-         "submission" : "709",
-         "label" : "Replication-Origin;Kc167;Late Embryonic stage;embryo-derived cell-line;DNA-tiling-array",
-         "category" : "Replication",
-         "type" : "data set",
-         "Developmental-Stage" : "Late Embryonic stage",
-         "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "DNA-tiling-array",
-         "Tissue" : "embryo-derived cell-line",
-         "factor" : "Replication-Origin",
-         "target" : "DNA Replication",
-         "principal_investigator" : "MacAlpine, D.",
-         "Tracks" : [
-            "fly/MacAlpine_K_WIG_934_939_941/S2"
-         ],
-         "Cell-Line" : "S2-DRSC",
-         "submission" : "710",
-         "label" : "Replication-Origin;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;DNA-tiling-array",
-         "category" : "Replication",
-         "type" : "data set",
-         "Developmental-Stage" : "Late Embryonic stage",
-         "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "DNA-tiling-array",
-         "Tissue" : "CNS-derived cell-line",
-         "factor" : "Replication-Origin",
-         "target" : "DNA Replication",
-         "principal_investigator" : "MacAlpine, D.",
-         "Tracks" : [
-            "fly/MacAlpine_K_WIG_934_939_941/Bg3"
-         ],
-         "Cell-Line" : "ML-DmBG3-c2",
-         "submission" : "711",
-         "label" : "Replication-Origin;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;DNA-tiling-array",
-         "category" : "Replication",
-         "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
-         "organism" : "D. melanogaster"
-      },
-      {
          "technique" : "RNA-seq",
          "factor" : "total-RNA",
          "target" : "mRNA",
@@ -5491,10 +5328,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "713",
-         "label" : "total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -5525,10 +5362,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "716",
-         "label" : "total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;RNA-tiling-array",
+         "label" : "total-RNA;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -5542,10 +5379,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "717",
-         "label" : "total-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;RNA-tiling-array",
+         "label" : "total-RNA;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -5563,21 +5400,6 @@
          "category" : "RNA expression profiling",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
-         "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "CGH",
-         "Tissue" : "embryo-derived cell-line",
-         "factor" : "Replication-Copy-Number",
-         "target" : "Copy Number Variation",
-         "principal_investigator" : "Oliver B.",
-         "Cell-Line" : "S2-DRSC",
-         "submission" : "725",
-         "Strain" : "w1118",
-         "label" : "Replication-Copy-Number;S2-DRSC;w1118;Embryos 0-4 hr;embryo-derived cell-line;CGH",
-         "category" : null,
-         "type" : "data set",
-         "Developmental-Stage" : "Embryos 0-4 hr",
          "organism" : "D. melanogaster"
       },
       {
@@ -5608,10 +5430,10 @@
          ],
          "submission" : "734",
          "Strain" : "OP73",
-         "label" : "ceh-14;OP73;L2;20 degree celsius;ChIP-seq",
+         "label" : "ceh-14;OP73;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -5804,10 +5626,10 @@
          ],
          "submission" : "748",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;3rd instar larvae;RNA-seq",
+         "label" : "small-RNA;Canton S;Larvae 3rd instar;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "3rd instar larvae",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -5821,10 +5643,10 @@
          ],
          "submission" : "749",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;3rd instar larvae;RNA-seq",
+         "label" : "small-RNA;Canton S;Larvae 3rd instar;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "3rd instar larvae",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -5942,10 +5764,10 @@
          ],
          "submission" : "757",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;2-4 day old pupae;RNA-seq",
+         "label" : "small-RNA;Canton S;Pupae 2-4 day;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "2-4 day old pupae",
+         "Developmental-Stage" : "Pupae 2-4 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -5959,10 +5781,10 @@
          ],
          "submission" : "758",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;2-4 day old pupae;RNA-seq",
+         "label" : "small-RNA;Canton S;Pupae 2-4 day;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "2-4 day old pupae",
+         "Developmental-Stage" : "Pupae 2-4 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -5976,10 +5798,10 @@
          ],
          "submission" : "762",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;1st instar larvae;RNA-seq",
+         "label" : "small-RNA;Canton S;Larvae 1st instar;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "1st instar larvae",
+         "Developmental-Stage" : "Larvae 1st instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -6060,14 +5882,14 @@
       },
       {
          "technique" : "ChIP-chip",
-         "factor" : "ctcf",
+         "factor" : "CTCF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "White, K.",
          "Tracks" : [
             "fly/White_INSULATORS_WIG/E0_12_CTCF_C"
          ],
          "submission" : "769",
-         "label" : "ctcf;Embryos 0-12 hr;ChIP-chip",
+         "label" : "CTCF;Embryos 0-12 hr;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -6075,14 +5897,14 @@
       },
       {
          "technique" : "ChIP-chip",
-         "factor" : "ctcf",
+         "factor" : "CTCF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "White, K.",
          "Tracks" : [
             "fly/White_INSULATORS_WIG/E0_12_CTCF_N"
          ],
          "submission" : "770",
-         "label" : "ctcf;Embryos 0-12 hr;ChIP-chip",
+         "label" : "CTCF;Embryos 0-12 hr;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 0-12 hr",
@@ -6263,10 +6085,10 @@
          ],
          "submission" : "783",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K4me1;Y cn bw sp;L1;ChIP-seq",
+         "label" : "H3K4me1;Y cn bw sp;Larvae L1 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -6279,10 +6101,10 @@
          ],
          "submission" : "784",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K4me1;Y cn bw sp;L2;ChIP-seq",
+         "label" : "H3K4me1;Y cn bw sp;Larvae L2 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -6295,10 +6117,10 @@
          ],
          "submission" : "785",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K4me1;Y cn bw sp;L3 stage larvae;ChIP-seq",
+         "label" : "H3K4me1;Y cn bw sp;Larvae L3 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -6455,10 +6277,10 @@
          ],
          "submission" : "795",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K4me3;Y cn bw sp;L1;ChIP-seq",
+         "label" : "H3K4me3;Y cn bw sp;Larvae L1 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -6471,10 +6293,10 @@
          ],
          "submission" : "796",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K4me3;Y cn bw sp;L2;ChIP-seq",
+         "label" : "H3K4me3;Y cn bw sp;Larvae L2 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -6487,10 +6309,10 @@
          ],
          "submission" : "797",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K4me3;Y cn bw sp;L3 stage larvae;ChIP-seq",
+         "label" : "H3K4me3;Y cn bw sp;Larvae L3 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -6647,10 +6469,10 @@
          ],
          "submission" : "807",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K9me3;Y cn bw sp;L1;ChIP-seq",
+         "label" : "H3K9me3;Y cn bw sp;Larvae L1 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -6663,10 +6485,10 @@
          ],
          "submission" : "808",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K9me3;Y cn bw sp;L2;ChIP-seq",
+         "label" : "H3K9me3;Y cn bw sp;Larvae L2 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -6791,10 +6613,10 @@
          ],
          "submission" : "816",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K27me3;Y cn bw sp;L1;ChIP-seq",
+         "label" : "H3K27me3;Y cn bw sp;Larvae L1 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -6807,10 +6629,10 @@
          ],
          "submission" : "817",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K27me3;Y cn bw sp;L2;ChIP-seq",
+         "label" : "H3K27me3;Y cn bw sp;Larvae L2 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -6823,10 +6645,10 @@
          ],
          "submission" : "818",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K27me3;Y cn bw sp;L3 stage larvae;ChIP-seq",
+         "label" : "H3K27me3;Y cn bw sp;Larvae L3 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -6967,10 +6789,10 @@
          ],
          "submission" : "827",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K9ac;Y cn bw sp;L1;ChIP-seq",
+         "label" : "H3K9ac;Y cn bw sp;Larvae L1 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -6983,10 +6805,10 @@
          ],
          "submission" : "828",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K9ac;Y cn bw sp;L2;ChIP-seq",
+         "label" : "H3K9ac;Y cn bw sp;Larvae L2 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -6999,10 +6821,10 @@
          ],
          "submission" : "829",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K9ac;Y cn bw sp;L3 stage larvae;ChIP-seq",
+         "label" : "H3K9ac;Y cn bw sp;Larvae L3 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -7159,10 +6981,10 @@
          ],
          "submission" : "840",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K27ac;Y cn bw sp;L1;ChIP-seq",
+         "label" : "H3K27ac;Y cn bw sp;Larvae L1 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -7175,10 +6997,10 @@
          ],
          "submission" : "841",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K27ac;Y cn bw sp;L2;ChIP-seq",
+         "label" : "H3K27ac;Y cn bw sp;Larvae L2 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -7191,10 +7013,10 @@
          ],
          "submission" : "842",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K27ac;Y cn bw sp;L3 stage larvae;ChIP-seq",
+         "label" : "H3K27ac;Y cn bw sp;Larvae L3 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -7335,10 +7157,10 @@
          ],
          "submission" : "851",
          "Strain" : "Y cn bw sp",
-         "label" : "pol2;Y cn bw sp;L1;ChIP-seq",
+         "label" : "pol2;Y cn bw sp;Larvae L1 stage;ChIP-seq",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -7351,10 +7173,10 @@
          ],
          "submission" : "852",
          "Strain" : "Y cn bw sp",
-         "label" : "pol2;Y cn bw sp;L3 stage larvae;ChIP-seq",
+         "label" : "pol2;Y cn bw sp;Larvae L3 stage;ChIP-seq",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -7463,10 +7285,10 @@
          ],
          "submission" : "859",
          "Strain" : "Y cn bw sp",
-         "label" : "nejire;Y cn bw sp;L1;ChIP-seq",
+         "label" : "nejire;Y cn bw sp;Larvae L1 stage;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -7479,10 +7301,10 @@
          ],
          "submission" : "860",
          "Strain" : "Y cn bw sp",
-         "label" : "nejire;Y cn bw sp;L3 stage larvae;ChIP-seq",
+         "label" : "nejire;Y cn bw sp;Larvae L3 stage;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -7755,10 +7577,10 @@
             "fly/White_CC_SG_NAJIRE/L1_CBP"
          ],
          "submission" : "878",
-         "label" : "nejire;L1;ChIP-chip",
+         "label" : "nejire;Larvae L1 stage;ChIP-chip",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -7770,10 +7592,10 @@
             "fly/White_CC_SG_NAJIRE/L3_CBP"
          ],
          "submission" : "879",
-         "label" : "nejire;L3 stage larvae;ChIP-chip",
+         "label" : "nejire;Larvae L3 stage;ChIP-chip",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -7830,10 +7652,10 @@
             "fly/White_CC_SG_POLII/L2_PolII"
          ],
          "submission" : "883",
-         "label" : "pol2;L2;ChIP-chip",
+         "label" : "pol2;Larvae L2 stage;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -7845,10 +7667,10 @@
             "fly/White_CC_SG_POLII/L3_PolII"
          ],
          "submission" : "884",
-         "label" : "pol2;L3 stage larvae;ChIP-chip",
+         "label" : "pol2;Larvae L3 stage;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -7920,10 +7742,10 @@
             "fly/White_CC_SG_8WG16/L3_8wg16"
          ],
          "submission" : "889",
-         "label" : "pol2;L3 stage larvae;ChIP-chip",
+         "label" : "pol2;Larvae L3 stage;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -7967,33 +7789,11 @@
          ],
          "submission" : "895",
          "Strain" : "Y cn bw sp",
-         "label" : "H3K27ac;Y cn bw sp;L2;ChIP-seq",
+         "label" : "H3K27ac;Y cn bw sp;Larvae L2 stage;ChIP-seq",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "RACE",
-         "factor" : "3-prime-UTR",
-         "target" : "mRNA",
-         "principal_investigator" : "Piano, F.",
-         "Tracks" : [
-            "worm/L2_pilot.sam_sorted",
-            "worm/L3_pilot.sam_sorted",
-            "worm/emb_pilot.sam_sorted",
-            "worm/L4_pilot.sam_sorted",
-            "worm/L1_pilot.sam_sorted",
-            "worm/YA_herm_pilot.sam_sorted"
-         ],
-         "submission" : "896",
-         "Strain" : "N2",
-         "label" : "3-prime-UTR;N2;Mixed Embryos;20 degree celsius;RACE",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Mixed Embryos",
-         "organism" : "C. elegans",
-         "temperature" : "20 degree celsius"
       },
       {
          "technique" : "ChIP-chip",
@@ -8114,10 +7914,10 @@
          ],
          "submission" : "904",
          "Strain" : "Y cn bw sp",
-         "label" : "pol2;Y cn bw sp;L2;ChIP-chip",
+         "label" : "pol2;Y cn bw sp;Larvae L2 stage;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -8155,7 +7955,7 @@
       {
          "technique" : "ChIP-chip",
          "Tissue" : "embryo-derived cell-line",
-         "factor" : "ctcf",
+         "factor" : "CTCF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "White, K.",
          "Tracks" : [
@@ -8163,7 +7963,7 @@
          ],
          "Cell-Line" : "Kc167",
          "submission" : "908",
-         "label" : "ctcf;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
+         "label" : "CTCF;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
@@ -8221,7 +8021,7 @@
       {
          "technique" : "ChIP-chip",
          "Tissue" : "embryo-derived cell-line",
-         "factor" : "ctcf",
+         "factor" : "CTCF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "White, K.",
          "Tracks" : [
@@ -8229,7 +8029,7 @@
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "913",
-         "label" : "ctcf;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
+         "label" : "CTCF;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
@@ -8286,7 +8086,7 @@
       {
          "technique" : "ChIP-chip",
          "Tissue" : "CNS-derived cell-line",
-         "factor" : "beaf-32",
+         "factor" : "BEAF-32",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
@@ -8294,16 +8094,16 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "921",
-         "label" : "beaf-32;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "BEAF-32;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
          "technique" : "ChIP-chip",
          "Tissue" : "embryo-derived cell-line",
-         "factor" : "beaf-32",
+         "factor" : "BEAF-32",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
@@ -8311,7 +8111,7 @@
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "922",
-         "label" : "beaf-32;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
+         "label" : "BEAF-32;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
@@ -8345,10 +8145,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "924",
-         "label" : "CP190;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "CP190;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8396,10 +8196,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "927",
-         "label" : "dRING;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "dRING;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8430,10 +8230,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "930",
-         "label" : "H3K18ac;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "H3K18ac;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8470,22 +8270,6 @@
       },
       {
          "technique" : "ChIP-chip",
-         "factor" : "H3K9me2",
-         "target" : "Histone Modification",
-         "principal_investigator" : "Karpen, G.",
-         "Tracks" : [
-            "fly/Karpen_HISMODS_OR/H3K9Me2_Ab2_new.lot.2_4h_OR_embryo"
-         ],
-         "submission" : "936",
-         "Strain" : "Oregon-R",
-         "label" : "H3K9me2;Oregon-R;Embryos 2-4 hr OR;ChIP-chip",
-         "category" : "Histone modification and replacement",
-         "type" : "data set",
-         "Developmental-Stage" : "Embryos 2-4 hr OR",
-         "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "ChIP-chip",
          "Tissue" : "dorsal mesothoracic disc",
          "factor" : "H3K9me2",
          "target" : "Histone Modification",
@@ -8495,10 +8279,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "937",
-         "label" : "H3K9me2;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "H3K9me2;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8529,10 +8313,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "940",
-         "label" : "H3K9me3;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "H3K9me3;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8563,10 +8347,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "942",
-         "label" : "HP1c;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "HP1c;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8665,10 +8449,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "948",
-         "label" : "PCL;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "PCL;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8699,10 +8483,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "950",
-         "label" : "pol2;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "pol2;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8716,10 +8500,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "951",
-         "label" : "Su(Hw);ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "Su(Hw);ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8733,10 +8517,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "952",
-         "label" : "Su(var)3-9;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "Su(var)3-9;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8783,10 +8567,10 @@
          ],
          "submission" : "955",
          "Strain" : "Oregon-R",
-         "label" : "HP1a;Oregon-R;3rd Instar Larvae;ChIP-chip",
+         "label" : "HP1a;Oregon-R;Larvae 3rd instar;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "3rd Instar Larvae",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8796,10 +8580,10 @@
          "principal_investigator" : "Karpen, G.",
          "submission" : "956",
          "Strain" : "Oregon-R",
-         "label" : "H3K9me2;Oregon-R;3rd Instar Larvae;ChIP-chip",
+         "label" : "H3K9me2;Oregon-R;Larvae 3rd instar;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "3rd Instar Larvae",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8829,27 +8613,10 @@
          ],
          "submission" : "958",
          "Strain" : "Oregon-R",
-         "label" : "H3K9me3;Oregon-R;3rd Instar Larvae;ChIP-chip",
+         "label" : "H3K9me3;Oregon-R;Larvae 3rd instar;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "3rd Instar Larvae",
-         "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "ChIP-chip",
-         "Tissue" : "embryo-derived cell-line",
-         "factor" : "H3K79me1",
-         "target" : "Histone Modification",
-         "principal_investigator" : "Karpen, G.",
-         "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K79Me.S2"
-         ],
-         "Cell-Line" : "S2-DRSC",
-         "submission" : "963",
-         "label" : "H3K79me1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
-         "category" : "Histone modification and replacement",
-         "type" : "data set",
-         "Developmental-Stage" : "Late Embryonic stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8863,10 +8630,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "964",
-         "label" : "H3K9ac;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "H3K9ac;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -8913,10 +8680,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "967",
-         "label" : "H3K4me3;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K4me3;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -9042,10 +8809,10 @@
          ],
          "submission" : "984",
          "Strain" : "Y cn bw sp",
-         "label" : "pol2;Y cn bw sp;L2;ChIP-seq",
+         "label" : "pol2;Y cn bw sp;Larvae L2 stage;ChIP-seq",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -9448,34 +9215,6 @@
       },
       {
          "technique" : "RNA-seq",
-         "Tissue" : "antenna disc-derived cell-line",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Lai, E.",
-         "Cell-Line" : "ML-DmD20-c5",
-         "submission" : "2002",
-         "label" : "small-RNA;ML-DmD20-c5;Third instar larval stage;antenna disc-derived cell-line;RNA-seq",
-         "category" : "RNA expression profiling",
-         "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
-         "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "RNA-seq",
-         "Tissue" : "embryo-derived cell-line",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Lai, E.",
-         "Cell-Line" : "Sg4",
-         "submission" : "2003",
-         "label" : "small-RNA;Sg4;Late Embryonic stage;embryo-derived cell-line;RNA-seq",
-         "category" : "RNA expression profiling",
-         "type" : "data set",
-         "Developmental-Stage" : "Late Embryonic stage",
-         "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "RNA-seq",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "small-RNA",
          "target" : "small RNA",
@@ -9500,10 +9239,10 @@
          ],
          "Cell-Line" : "ML-DmD21",
          "submission" : "2005",
-         "label" : "small-RNA;ML-DmD21;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "small-RNA;ML-DmD21;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -9522,20 +9261,6 @@
          "category" : "RNA expression profiling",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
-         "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "RNA-seq",
-         "Tissue" : "CNS-derived cell-line",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Lai, E.",
-         "Cell-Line" : "ML-DmBG1-c1",
-         "submission" : "2007",
-         "label" : "small-RNA;ML-DmBG1-c1;Third instar larval stage;CNS-derived cell-line;RNA-seq",
-         "category" : "RNA expression profiling",
-         "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -9566,10 +9291,10 @@
          ],
          "submission" : "2009",
          "Strain" : "Y cn bw sp",
-         "label" : "small-RNA;Y cn bw sp;Adult female, eclosion + 1 day;RNA-seq",
+         "label" : "small-RNA;Y cn bw sp;Adult Female, eclosion + 1 day;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Female, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -9678,10 +9403,10 @@
          ],
          "submission" : "2024",
          "Strain" : "Y cn bw sp",
-         "label" : "PolyA-RNA;Y cn bw sp;L1;RNA-seq",
+         "label" : "PolyA-RNA;Y cn bw sp;Larvae L1 stage;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -9694,10 +9419,10 @@
          ],
          "submission" : "2025",
          "Strain" : "Y cn bw sp",
-         "label" : "PolyA-RNA;Y cn bw sp;L2;RNA-seq",
+         "label" : "PolyA-RNA;Y cn bw sp;Larvae L2 stage;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -9742,10 +9467,10 @@
          ],
          "submission" : "2029",
          "Strain" : "Y cn bw sp",
-         "label" : "PolyA-RNA;Y cn bw sp;L3 stage larvae;RNA-seq",
+         "label" : "PolyA-RNA;Y cn bw sp;Larvae L3 stage;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -9772,10 +9497,10 @@
          "principal_investigator" : "Celniker, S.",
          "Cell-Line" : "CME-L1",
          "submission" : "2270",
-         "label" : "total-RNA;CME-L1;Third instar larval stage;ventral prothoracic disc;RT-PCR",
+         "label" : "total-RNA;CME-L1;Larvae 3rd instar;ventral prothoracic disc;RT-PCR",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -9845,14 +9570,14 @@
       },
       {
          "technique" : "ChIP-chip",
-         "factor" : "h3",
+         "factor" : "H3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_COREHIS/H3144_N2_EEMB"
          ],
          "submission" : "2312",
-         "label" : "h3;Early Embryos;20 degree celsius;ChIP-chip",
+         "label" : "H3;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
          "Developmental-Stage" : "Early Embryos",
@@ -9906,40 +9631,6 @@
          "category" : "Gene Structure",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryos 4.5 hrs post-early embryo",
-         "organism" : "C. elegans",
-         "temperature" : "20 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/yM_male_mid-L4_25dC_30hrs_post-L1.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2325",
-         "Strain" : "dpy28(y1)",
-         "label" : "total-RNA;dpy28(y1);Male  mid-L4 30 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Male  mid-L4 30 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/L1_20dC_4hrs_post-L1.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2326",
-         "Strain" : "N2",
-         "label" : "total-RNA;N2;Mid-L1 4.0 hrs post-L1 stage larvae;20 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Mid-L1 4.0 hrs post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10176,10 +9867,10 @@
          ],
          "submission" : "2340",
          "Strain" : "Oregon-R",
-         "label" : "total-RNA;Oregon-R;Adult female eclosion+4 day;Adult ovaries;RNA-tiling-array",
+         "label" : "total-RNA;Oregon-R;Adult Female eclosion+4 day;Adult ovaries;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female eclosion+4 day",
+         "Developmental-Stage" : "Adult Female eclosion+4 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -10193,10 +9884,10 @@
          ],
          "submission" : "2341",
          "Strain" : "Oregon-R",
-         "label" : "total-RNA;Oregon-R;Adult female, eclosion + 1 day;Female heads;RNA-tiling-array",
+         "label" : "total-RNA;Oregon-R;Adult Female, eclosion + 1 day;Female heads;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Female, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -10210,164 +9901,11 @@
          ],
          "submission" : "2342",
          "Strain" : "Oregon-R",
-         "label" : "total-RNA;Oregon-R;Adult female, eclosion + 1 day;Female heads;RNA-tiling-array",
+         "label" : "total-RNA;Oregon-R;Adult Female, eclosion + 1 day;Female heads;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Female, eclosion + 1 day",
          "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/L1_lin35.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2343",
-         "Strain" : "MT10430",
-         "label" : "total-RNA;MT10430;Lin-35(n745)  mid-L1 4.0 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Lin-35(n745)  mid-L1 4.0 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/YA_Adult_spe-9_23dC_8days_post-L4_molt.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2345",
-         "Strain" : "spe-9(hc88)",
-         "label" : "total-RNA;spe-9(hc88);Adult spe-9(hc88) 8 days post-L4 molt stage larvae;23 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Adult spe-9(hc88) 8 days post-L4 molt stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "23 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/embryo_him-8_20dC_post-L1.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2346",
-         "Strain" : "him-8(e1489)",
-         "label" : "total-RNA;him-8(e1489);Embryos him-8(e1480);20 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Embryos him-8(e1480)",
-         "organism" : "C. elegans",
-         "temperature" : "20 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/L33_dauer_daf-2_25dC_91hrs_post-L1.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2347",
-         "Strain" : "daf-2(e1370)",
-         "label" : "total-RNA;daf-2(e1370);Dauer daf-2(el370) 91 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Dauer daf-2(el370) 91 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/L33_dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2349",
-         "Strain" : "daf-2(e1370)",
-         "label" : "total-RNA;daf-2(e1370);Dauer exit daf-2(el370) 91 hrs 15dC 12 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Dauer exit daf-2(el370) 91 hrs 15dC 12 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/L2_20dC_14hrs_post-L1.all_alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2351",
-         "Strain" : "N2",
-         "label" : "total-RNA;N2;Mid-L2 17.75 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Mid-L2 17.75 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/L3_20dC_25hrs_post-L1.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2352",
-         "Strain" : "N2",
-         "label" : "total-RNA;N2;Mid-L3 26.75 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Mid-L3 26.75 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/L4_20dC_36hrs_post-L1.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2353",
-         "Strain" : "N2",
-         "label" : "total-RNA;N2;Mid-L4 34.25 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/YA_Young_Adult_25dC_46hrs_post-L1.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2354",
-         "Strain" : "N2",
-         "label" : "total-RNA;N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
       },
       {
          "technique" : "ChIP-chip",
@@ -10520,10 +10058,10 @@
          ],
          "submission" : "2384",
          "Strain" : "Oregon-R",
-         "label" : "Replication-Copy-Number;Oregon-R;Adult female, eclosion + 1 day;oocyte associated follicle cell;CGH",
+         "label" : "Replication-Copy-Number;Oregon-R;Adult Female, eclosion + 1 day;oocyte associated follicle cell;CGH",
          "category" : "Copy Number Variation",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Female, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -10537,28 +10075,11 @@
          ],
          "submission" : "2385",
          "Strain" : "Oregon-R Orr-Weaver",
-         "label" : "Replication-Copy-Number;Oregon-R Orr-Weaver;Adult female, eclosion + 1 day;oocyte associated follicle cell;CGH",
+         "label" : "Replication-Copy-Number;Oregon-R Orr-Weaver;Adult Female, eclosion + 1 day;oocyte associated follicle cell;CGH",
          "category" : "Copy Number Variation",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Female, eclosion + 1 day",
          "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/L33_dauer_entry_daf-2_25dC_48hrs_post-L1.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2387",
-         "Strain" : "daf-2(e1370)",
-         "label" : "total-RNA;daf-2(e1370);Dauer entry daf-2(el370) 48 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Dauer entry daf-2(el370) 48 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
       },
       {
          "technique" : "ChIP-chip",
@@ -10570,10 +10091,10 @@
          ],
          "submission" : "2398",
          "Strain" : "N2",
-         "label" : "H3K9me3;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K9me3;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10587,10 +10108,10 @@
          ],
          "submission" : "2399",
          "Strain" : "N2",
-         "label" : "H3K36me3;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K36me3;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10604,10 +10125,10 @@
          ],
          "submission" : "2400",
          "Strain" : "N2",
-         "label" : "H3K27me3;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K27me3;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10621,10 +10142,10 @@
          ],
          "submission" : "2401",
          "Strain" : "N2",
-         "label" : "H3K36me3;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K36me3;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10638,10 +10159,10 @@
          ],
          "submission" : "2402",
          "Strain" : "N2",
-         "label" : "H3K4me2;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K4me2;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10655,16 +10176,16 @@
          ],
          "submission" : "2406",
          "Strain" : "N2",
-         "label" : "H3K9me2;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K9me2;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
       {
          "technique" : "ChIP-chip",
-         "factor" : "h3",
+         "factor" : "H3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
@@ -10672,16 +10193,16 @@
          ],
          "submission" : "2407",
          "Strain" : "N2",
-         "label" : "h3;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
       {
          "technique" : "ChIP-chip",
-         "factor" : "h3",
+         "factor" : "H3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
@@ -10689,10 +10210,10 @@
          ],
          "submission" : "2408",
          "Strain" : "N2",
-         "label" : "h3;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10706,10 +10227,10 @@
          ],
          "submission" : "2409",
          "Strain" : "N2",
-         "label" : "h3;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "h3;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10753,10 +10274,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "2418",
          "Strain" : "OP74",
-         "label" : "hlh-8;OP74;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "hlh-8;OP74;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10770,10 +10291,10 @@
          ],
          "submission" : "2429",
          "Strain" : "OP62",
-         "label" : "lin-11;OP62;L2;20 degree celsius;ChIP-seq",
+         "label" : "lin-11;OP62;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10821,10 +10342,10 @@
          ],
          "submission" : "2432",
          "Strain" : "OP18",
-         "label" : "lin-39;OP18;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "lin-39;OP18;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10835,10 +10356,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "2433",
          "Strain" : "OP90",
-         "label" : "nhr-6;OP90;L2;20 degree celsius;ChIP-seq",
+         "label" : "nhr-6;OP90;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10903,10 +10424,10 @@
          ],
          "submission" : "2438",
          "Strain" : "N2",
-         "label" : "ama-1;N2;L2;20 degree celsius;ChIP-seq",
+         "label" : "ama-1;N2;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10920,10 +10441,10 @@
          ],
          "submission" : "2439",
          "Strain" : "N2",
-         "label" : "ama-1;N2;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "ama-1;N2;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -10937,10 +10458,10 @@
          ],
          "submission" : "2440",
          "Strain" : "N2",
-         "label" : "ama-1;N2;L4 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "ama-1;N2;Larvae L4 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L4 stage larvae",
+         "Developmental-Stage" : "Larvae L4 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -11035,10 +10556,10 @@
          ],
          "submission" : "2451",
          "Strain" : "OP179",
-         "label" : "gei-11;OP179;L4 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "gei-11;OP179;Larvae L4 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L4 stage larvae",
+         "Developmental-Stage" : "Larvae L4 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -11650,10 +11171,10 @@
          "extract" : "soluble fraction",
          "Cell-Line" : "ML-DmD16-c3",
          "submission" : "2513",
-         "label" : "Nucleosome;80 mM salt;soluble fraction;ML-DmD16-c3;time-point-1-2 hours;Third instar larval stage;dorsal mesothoracic disc;DNA-tiling-array",
+         "label" : "Nucleosome;80 mM salt;soluble fraction;ML-DmD16-c3;time-point-1-2 hours;Larvae 3rd instar;dorsal mesothoracic disc;DNA-tiling-array",
          "category" : "Chromatin structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -11670,10 +11191,10 @@
          "extract" : "soluble fraction",
          "Cell-Line" : "ML-DmD16-c3",
          "submission" : "2514",
-         "label" : "Nucleosome;150 mM salt;soluble fraction;ML-DmD16-c3;time-point-1-2 hours;Third instar larval stage;dorsal mesothoracic disc;DNA-tiling-array",
+         "label" : "Nucleosome;150 mM salt;soluble fraction;ML-DmD16-c3;time-point-1-2 hours;Larvae 3rd instar;dorsal mesothoracic disc;DNA-tiling-array",
          "category" : "Chromatin structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -11690,10 +11211,10 @@
          "extract" : "soluble fraction",
          "Cell-Line" : "ML-DmD16-c3",
          "submission" : "2515",
-         "label" : "Nucleosome;600 mM salt;soluble fraction;ML-DmD16-c3;time-point-1-2 hours;Third instar larval stage;dorsal mesothoracic disc;DNA-tiling-array",
+         "label" : "Nucleosome;600 mM salt;soluble fraction;ML-DmD16-c3;time-point-1-2 hours;Larvae 3rd instar;dorsal mesothoracic disc;DNA-tiling-array",
          "category" : "Chromatin structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -11710,10 +11231,10 @@
          "extract" : "precipitate",
          "Cell-Line" : "ML-DmD16-c3",
          "submission" : "2516",
-         "label" : "Nucleosome;600 mM salt;precipitate;ML-DmD16-c3;time-point-1-2 hours;Third instar larval stage;dorsal mesothoracic disc;DNA-tiling-array",
+         "label" : "Nucleosome;600 mM salt;precipitate;ML-DmD16-c3;time-point-1-2 hours;Larvae 3rd instar;dorsal mesothoracic disc;DNA-tiling-array",
          "category" : "Chromatin structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -12153,10 +11674,10 @@
          ],
          "submission" : "2543",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;0-1 day old pupae;Whole organism;RNA-seq",
+         "label" : "small-RNA;Canton S;Pupae 0-1 day;Whole organism;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "0-1 day old pupae",
+         "Developmental-Stage" : "Pupae 0-1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -12204,10 +11725,10 @@
          ],
          "submission" : "2546",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;1st instar larvae;Whole organism;RNA-seq",
+         "label" : "small-RNA;Canton S;Larvae 1st instar;Whole organism;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "1st instar larvae",
+         "Developmental-Stage" : "Larvae 1st instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -12290,10 +11811,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2553",
-         "label" : "Replication-Copy-Number;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;CNV-seq",
+         "label" : "Replication-Copy-Number;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;CNV-seq",
          "category" : "Copy Number Variation",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -12344,10 +11865,10 @@
          ],
          "submission" : "2556",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;0-2 day old pupae;Whole organism;RNA-seq",
+         "label" : "small-RNA;Canton S;Pupae 0-2 day;Whole organism;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "0-2 day old pupae",
+         "Developmental-Stage" : "Pupae 0-2 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -12680,95 +12201,6 @@
          "organism" : "D. melanogaster"
       },
       {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "GrowthCondition" : "Harposporium",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/YA_Adult_Harposporium_exposed_2_24hrs.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2580",
-         "Strain" : "N2",
-         "label" : "total-RNA;Harposporium;N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "GrowthCondition" : "E. coli (OP50)",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/YA_Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2581",
-         "Strain" : "N2",
-         "label" : "total-RNA;E. coli (OP50);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "GrowthCondition" : "S. marcescens (Db11)",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/YA_Adult_S_macescens_Db10_exposed_1_24hrs.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2582",
-         "Strain" : "N2",
-         "label" : "total-RNA;S. marcescens (Db11);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/L4_soma_JK1107_no_DNaseI.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2583",
-         "Strain" : "JK1107",
-         "label" : "total-RNA;JK1107;Mid-L4 34.25 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "total-RNA",
-         "target" : "mRNA",
-         "GrowthCondition" : "E. coli (OP50)",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/YA_Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.alignments.ws220.bam.sorted"
-         ],
-         "submission" : "2584",
-         "Strain" : "N2",
-         "label" : "total-RNA;E. coli (OP50);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "25 degree celsius"
-      },
-      {
          "technique" : "ChIP-chip",
          "factor" : "Enhancer of zeste",
          "target" : "Non TF Chromatin binding factor",
@@ -12920,10 +12352,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "2592",
-         "label" : "total-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -12954,10 +12386,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2594",
-         "label" : "total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;RNA-seq",
+         "label" : "total-RNA;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -12970,10 +12402,10 @@
          ],
          "submission" : "2597",
          "Strain" : "OP74",
-         "label" : "hlh-8;OP74;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "hlh-8;OP74;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -13139,10 +12571,10 @@
          ],
          "submission" : "2610",
          "Strain" : "OP184",
-         "label" : "lin-15B;OP184;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "lin-15B;OP184;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -13204,10 +12636,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "2617",
          "Strain" : "OP199",
-         "label" : "nhr-105;OP199;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "nhr-105;OP199;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -13272,10 +12704,10 @@
          ],
          "submission" : "2623",
          "Strain" : "OP201",
-         "label" : "pqm-1;OP201;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "pqm-1;OP201;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -13490,7 +12922,7 @@
       {
          "technique" : "ChIP-seq",
          "Tissue" : "embryo-derived cell-line",
-         "factor" : "ctcf",
+         "factor" : "CTCF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "White, K.",
          "Tracks" : [
@@ -13498,7 +12930,7 @@
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2638",
-         "label" : "ctcf;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-seq",
+         "label" : "CTCF;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-seq",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
@@ -13507,7 +12939,7 @@
       {
          "technique" : "ChIP-seq",
          "Tissue" : "embryo-derived cell-line",
-         "factor" : "ctcf",
+         "factor" : "CTCF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "White, K.",
          "Tracks" : [
@@ -13515,7 +12947,7 @@
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2639",
-         "label" : "ctcf;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-seq",
+         "label" : "CTCF;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-seq",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
@@ -13531,10 +12963,10 @@
          ],
          "submission" : "2640",
          "Strain" : "EcR-GFP",
-         "label" : "EcR;EcR-GFP;L3 stage larvae;ChIP-seq",
+         "label" : "EcR;EcR-GFP;Larvae L3 stage;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -13612,10 +13044,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2650",
-         "label" : "Ez;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "Ez;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -13629,10 +13061,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2651",
-         "label" : "GAF;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "GAF;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -13662,10 +13094,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2653",
-         "label" : "H3K4me1;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K4me1;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -13679,10 +13111,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2654",
-         "label" : "H3K4me2;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K4me2;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -13728,10 +13160,10 @@
          ],
          "submission" : "2657",
          "Strain" : "Oregon-R",
-         "label" : "H3K4me2;Oregon-R;3rd Instar Larvae;ChIP-chip",
+         "label" : "H3K4me2;Oregon-R;Larvae 3rd instar;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "3rd Instar Larvae",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -13762,10 +13194,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2659",
-         "label" : "H3K9acS10P;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K9acS10P;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -13877,10 +13309,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2666",
-         "label" : "HP1a;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "HP1a;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -13894,10 +13326,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "2667",
-         "label" : "HP1a;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "HP1a;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -13928,10 +13360,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "2669",
-         "label" : "HP1c;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "HP1c;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -13962,10 +13394,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2671",
-         "label" : "Su(var)3-7;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "Su(var)3-7;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -14239,10 +13671,10 @@
          "principal_investigator" : "Lai, E.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2719",
-         "label" : "small-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;RNA-seq",
+         "label" : "small-RNA;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -14276,10 +13708,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "2721",
-         "label" : "small-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "small-RNA;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -14345,74 +13777,6 @@
          "Developmental-Stage" : "Mixed Embryos",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/YA_spe9day0_merged_ws220.soap.sam.bam.sorted"
-         ],
-         "submission" : "2730",
-         "Strain" : "spe-9(hc88)",
-         "label" : "small-RNA;spe-9(hc88);Young adult DAY0post-L4 molt stage larvae;23 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Young adult DAY0post-L4 molt stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "23 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/YA_spe9day5_s_2.S3_ws220.soap.sam.bam.sorted"
-         ],
-         "submission" : "2732",
-         "Strain" : "spe-9(hc88)",
-         "label" : "small-RNA;spe-9(hc88);Adult 5 days post-L4 stage larvae;23 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Adult 5 days post-L4 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "23 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/YA_spe9day8_merged_ws220.soap.sam.bam.sorted"
-         ],
-         "submission" : "2733",
-         "Strain" : "spe-9(hc88)",
-         "label" : "small-RNA;spe-9(hc88);Adult spe-9(hc88) 8 days post-L4 molt stage larvae;23 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Adult spe-9(hc88) 8 days post-L4 molt stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "23 degree celsius"
-      },
-      {
-         "technique" : "RNA-seq",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/YA_spe9day12_s_5.S3_ws220.soap.sam.bam.sorted"
-         ],
-         "submission" : "2734",
-         "Strain" : "spe-9(hc88)",
-         "label" : "small-RNA;spe-9(hc88);Adult 12 days post-L4 stage larvae;23 degree celsius;RNA-seq",
-         "category" : "Gene Structure",
-         "type" : "data set",
-         "Developmental-Stage" : "Adult 12 days post-L4 stage larvae",
-         "organism" : "C. elegans",
-         "temperature" : "23 degree celsius"
       },
       {
          "technique" : "ChIP-chip",
@@ -14556,24 +13920,6 @@
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
          "Tracks" : [
-            "fly/Lai_RNASEQ_DUAL_T/r2d2_ovaries",
-            "fly/R2_V088.sam.gz.bam.sorted"
-         ],
-         "submission" : "2748",
-         "Strain" : "r2d2 1",
-         "label" : "small-RNA;r2d2 1;Adult Female;Adult ovaries;RNA-seq",
-         "category" : "RNA expression profiling",
-         "type" : "data set",
-         "Developmental-Stage" : "Adult Female",
-         "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "RNA-seq",
-         "Tissue" : "Adult ovaries",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Lai, E.",
-         "Tracks" : [
             "fly/R2O_V066.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_ENR_T/r2d2_ovaries_Ago1IP"
          ],
@@ -14631,10 +13977,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2754",
-         "label" : "orc2;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-seq",
+         "label" : "orc2;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-seq",
          "category" : "Replication",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -14819,14 +14165,14 @@
       },
       {
          "technique" : "ChIP-chip",
-         "factor" : "h4actetra",
+         "factor" : "H4acTetra",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
             "worm/LIEB_WIG_CHIPCHIP_HIS/LPAR109_H4TETRAAC109_N2_EEMB"
          ],
          "submission" : "2766",
-         "label" : "h4actetra;Early Embryos;20 degree celsius;ChIP-chip",
+         "label" : "H4acTetra;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
          "Developmental-Stage" : "Early Embryos",
@@ -14858,10 +14204,10 @@
             "worm/LIEB_WIG_CHIPCHIP_COREHIS/MP05858_H4DAM1636076_N2_L3"
          ],
          "submission" : "2768",
-         "label" : "H4;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H4;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -14888,10 +14234,10 @@
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB9045_H3K9ME1291918_N2_L3"
          ],
          "submission" : "2770",
-         "label" : "H3K9me1;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K9me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -14904,10 +14250,10 @@
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB4729_H3K27AC361571_N2_L3"
          ],
          "submission" : "2771",
-         "label" : "H3K27ac;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K27ac;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -14920,10 +14266,10 @@
             "worm/LIEB_WIG_CHIPCHIP_HIS/WA30634849_H3K27AC_N2_L3"
          ],
          "submission" : "2773",
-         "label" : "H3K27ac;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K27ac;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -14936,10 +14282,10 @@
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB15823_H4K8AC487128_N2_L3"
          ],
          "submission" : "2774",
-         "label" : "H4K8ac;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H4K8ac;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -14952,10 +14298,10 @@
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB8895_H3K4ME1733246_N2_L3"
          ],
          "submission" : "2775",
-         "label" : "H3K4me1;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K4me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -15097,10 +14443,10 @@
             "worm/LIEB_WIG_CHIPCHIP_HIS/AB9051_H4K20ME1104513_N2_L3"
          ],
          "submission" : "2784",
-         "label" : "H4K20me1;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H4K20me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -15184,10 +14530,10 @@
          ],
          "Cell-Line" : "CME-L1",
          "submission" : "2820",
-         "label" : "small-RNA;CME-L1;Third instar larval stage;ventral prothoracic disc;RNA-seq",
+         "label" : "small-RNA;CME-L1;Larvae 3rd instar;ventral prothoracic disc;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -15394,24 +14740,6 @@
          "submission" : "2833",
          "Strain" : "Dcr-2L811fsX",
          "label" : "small-RNA;Dcr-2L811fsX;Adult Female;Adult ovaries;RNA-seq",
-         "category" : "RNA expression profiling",
-         "type" : "data set",
-         "Developmental-Stage" : "Adult Female",
-         "organism" : "D. melanogaster"
-      },
-      {
-         "technique" : "RNA-seq",
-         "Tissue" : "Adult ovaries",
-         "factor" : "small-RNA",
-         "target" : "small RNA",
-         "principal_investigator" : "Lai, E.",
-         "Tracks" : [
-            "fly/Lai_RNASEQ_DUAL_T/Ago2_414_ovaries",
-            "fly/O_V089.sam.gz.bam.sorted"
-         ],
-         "submission" : "2834",
-         "Strain" : "Ago2 414",
-         "label" : "small-RNA;Ago2 414;Adult Female;Adult ovaries;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
          "Developmental-Stage" : "Adult Female",
@@ -15722,10 +15050,10 @@
          ],
          "submission" : "2866",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;Adult female, eclosion + 1 day;RNA-seq",
+         "label" : "total-RNA;Y cn bw sp;Adult Female, eclosion + 1 day;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Female, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -15739,10 +15067,10 @@
          ],
          "submission" : "2867",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;Adult female, eclosion + 30 days;RNA-seq",
+         "label" : "total-RNA;Y cn bw sp;Adult Female, eclosion + 30 days;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 30 days",
+         "Developmental-Stage" : "Adult Female, eclosion + 30 days",
          "organism" : "D. melanogaster"
       },
       {
@@ -15756,10 +15084,10 @@
          ],
          "submission" : "2868",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;Adult female, eclosion + 5 days;RNA-seq",
+         "label" : "total-RNA;Y cn bw sp;Adult Female, eclosion + 5 days;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 5 days",
+         "Developmental-Stage" : "Adult Female, eclosion + 5 days",
          "organism" : "D. melanogaster"
       },
       {
@@ -15822,10 +15150,10 @@
          ],
          "submission" : "2872",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;L1;RNA-seq",
+         "label" : "total-RNA;Y cn bw sp;Larvae L1 stage;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -15838,10 +15166,10 @@
          ],
          "submission" : "2873",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;L2;RNA-seq",
+         "label" : "total-RNA;Y cn bw sp;Larvae L2 stage;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -16209,10 +15537,10 @@
          ],
          "submission" : "2896",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;Adult female, eclosion + 30 days;RNA-tiling-array",
+         "label" : "total-RNA;Y cn bw sp;Adult Female, eclosion + 30 days;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 30 days",
+         "Developmental-Stage" : "Adult Female, eclosion + 30 days",
          "organism" : "D. melanogaster"
       },
       {
@@ -16297,10 +15625,10 @@
          ],
          "submission" : "2971",
          "Strain" : "w1118",
-         "label" : "small-RNA;w1118;2-18 hr Embryos;RNA-seq",
+         "label" : "small-RNA;w1118;Embryos 2-18 hr;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "2-18 hr Embryos",
+         "Developmental-Stage" : "Embryos 2-18 hr",
          "organism" : "D. melanogaster"
       },
       {
@@ -16314,10 +15642,10 @@
          ],
          "submission" : "2972",
          "Strain" : "w1118",
-         "label" : "small-RNA;w1118;2-18 hr Embryos;RNA-seq",
+         "label" : "small-RNA;w1118;Embryos 2-18 hr;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "2-18 hr Embryos",
+         "Developmental-Stage" : "Embryos 2-18 hr",
          "organism" : "D. melanogaster"
       },
       {
@@ -16395,7 +15723,7 @@
       {
          "technique" : "ChIP-seq",
          "Tissue" : "embryo-derived cell-line",
-         "factor" : "Mcm2-7",
+         "factor" : "MCM2-7",
          "target" : "DNA Replication",
          "principal_investigator" : "MacAlpine, D.",
          "Tracks" : [
@@ -16403,7 +15731,7 @@
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2979",
-         "label" : "Mcm2-7;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-seq",
+         "label" : "MCM2-7;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-seq",
          "category" : "Replication",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
@@ -16433,10 +15761,10 @@
          "principal_investigator" : "Karpen, G.",
          "submission" : "2982",
          "Strain" : "Oregon-R",
-         "label" : "AGO2;Oregon-R;3rd Instar Larvae;ChIP-chip",
+         "label" : "AGO2;Oregon-R;Larvae 3rd instar;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "3rd Instar Larvae",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -16489,10 +15817,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2986",
-         "label" : "dSFMBT;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "dSFMBT;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -16503,10 +15831,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2987",
-         "label" : "E(Z);ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "E(Z);ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -16597,10 +15925,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "2994",
-         "label" : "H2Bubi;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "H2Bubi;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -16610,10 +15938,10 @@
          "principal_investigator" : "Karpen, G.",
          "submission" : "2995",
          "Strain" : "Oregon-R",
-         "label" : "H3K18ac;Oregon-R;3rd Instar Larvae;ChIP-chip",
+         "label" : "H3K18ac;Oregon-R;Larvae 3rd instar;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "3rd Instar Larvae",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -16665,10 +15993,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2999",
-         "label" : "H3K27me2;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K27me2;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -16706,10 +16034,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3002",
-         "label" : "H3K36me1;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "H3K36me1;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -16734,10 +16062,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3004",
-         "label" : "H3K36me3;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "H3K36me3;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -16748,10 +16076,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3005",
-         "label" : "H3K79me1;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3K79me1;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -16761,10 +16089,10 @@
          "principal_investigator" : "Karpen, G.",
          "submission" : "3006",
          "Strain" : "Oregon-R",
-         "label" : "H3K9ac;Oregon-R;3rd Instar Larvae;ChIP-chip",
+         "label" : "H3K9ac;Oregon-R;Larvae 3rd instar;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "3rd Instar Larvae",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -16788,10 +16116,10 @@
          "principal_investigator" : "Karpen, G.",
          "submission" : "3008",
          "Strain" : "Oregon-R",
-         "label" : "H3K9acS10P;Oregon-R;3rd Instar Larvae;ChIP-chip",
+         "label" : "H3K9acS10P;Oregon-R;Larvae 3rd instar;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "3rd Instar Larvae",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -16816,10 +16144,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3010",
-         "label" : "H3K9acS10P;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "H3K9acS10P;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -16898,10 +16226,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3017",
-         "label" : "HP1b;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "HP1b;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -16965,10 +16293,10 @@
          "principal_investigator" : "Karpen, G.",
          "submission" : "3023",
          "Strain" : "Oregon-R",
-         "label" : "HP1c;Oregon-R;3rd Instar Larvae;ChIP-chip",
+         "label" : "HP1c;Oregon-R;Larvae 3rd instar;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "3rd Instar Larvae",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17005,10 +16333,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3026",
-         "label" : "HP2;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "HP2;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17019,10 +16347,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3027",
-         "label" : "HP2;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "HP2;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17032,10 +16360,10 @@
          "principal_investigator" : "Karpen, G.",
          "submission" : "3028",
          "Strain" : "Oregon-R",
-         "label" : "HP2;Oregon-R;3rd Instar Larvae;ChIP-chip",
+         "label" : "HP2;Oregon-R;Larvae 3rd instar;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "3rd Instar Larvae",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17060,10 +16388,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3030",
-         "label" : "ISWI;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "ISWI;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17129,10 +16457,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3035",
-         "label" : "jil-1;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "jil-1;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17143,10 +16471,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3036",
-         "label" : "jil-1;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "jil-1;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17213,10 +16541,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3041",
-         "label" : "MOF;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "MOF;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17227,10 +16555,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3042",
-         "label" : "MOF;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "MOF;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17269,10 +16597,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3045",
-         "label" : "MRG15;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "MRG15;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17339,10 +16667,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3050",
-         "label" : "PIWI;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "PIWI;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17352,10 +16680,10 @@
          "principal_investigator" : "Karpen, G.",
          "submission" : "3051",
          "Strain" : "Oregon-R",
-         "label" : "PIWI;Oregon-R;3rd Instar Larvae;ChIP-chip",
+         "label" : "PIWI;Oregon-R;Larvae 3rd instar;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "3rd Instar Larvae",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17366,10 +16694,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3052",
-         "label" : "POF;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "POF;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17379,10 +16707,10 @@
          "principal_investigator" : "Karpen, G.",
          "submission" : "3053",
          "Strain" : "Oregon-R",
-         "label" : "POF;Oregon-R;3rd Instar Larvae;ChIP-chip",
+         "label" : "POF;Oregon-R;Larvae 3rd instar;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "3rd Instar Larvae",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17407,10 +16735,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3055",
-         "label" : "Psc;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "Psc;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17505,10 +16833,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3064",
-         "label" : "ZW5;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "ZW5;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -17616,10 +16944,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3078",
          "Strain" : "OP184",
-         "label" : "lin-15B;OP184;L4 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "lin-15B;OP184;Larvae L4 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L4 stage larvae",
+         "Developmental-Stage" : "Larvae L4 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -17630,10 +16958,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3079",
          "Strain" : "OP305",
-         "label" : "nhr-11;OP305;L2;20 degree celsius;ChIP-seq",
+         "label" : "nhr-11;OP305;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -17644,10 +16972,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3082",
          "Strain" : "OP193",
-         "label" : "sea-2;OP193;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "sea-2;OP193;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -18769,10 +18097,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3147",
          "Strain" : "OP167",
-         "label" : "daf-12;OP167;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "daf-12;OP167;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -18797,10 +18125,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3149",
          "Strain" : "OP179",
-         "label" : "gei-11;OP179;L2;20 degree celsius;ChIP-seq",
+         "label" : "gei-11;OP179;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -18854,10 +18182,10 @@
          ],
          "submission" : "3155",
          "Strain" : "OP81",
-         "label" : "eor-1;OP81;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "eor-1;OP81;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -18871,10 +18199,10 @@
          ],
          "submission" : "3156",
          "Strain" : "OP200",
-         "label" : "alr-1;OP200;L2;20 degree celsius;ChIP-seq",
+         "label" : "alr-1;OP200;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -18888,10 +18216,10 @@
          ],
          "submission" : "3157",
          "Strain" : "OP87",
-         "label" : "pes-1;OP87;L4 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "pes-1;OP87;Larvae L4 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L4 stage larvae",
+         "Developmental-Stage" : "Larvae L4 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -18905,16 +18233,16 @@
          ],
          "submission" : "3158",
          "Strain" : "OP37",
-         "label" : "pha-4;OP37;L2;20 degree celsius;ChIP-seq",
+         "label" : "pha-4;OP37;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
       {
          "technique" : "ChIP-seq",
-         "factor" : "egl-5",
+         "factor" : "dfd",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
@@ -18922,10 +18250,10 @@
          ],
          "submission" : "3159",
          "Strain" : "OP54",
-         "label" : "egl-5;OP54;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "dfd;OP54;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -19128,10 +18456,10 @@
          "principal_investigator" : "Lai, E.",
          "Cell-Line" : "ML-DmD9",
          "submission" : "3192",
-         "label" : "small-RNA;ML-DmD9;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "small-RNA;ML-DmD9;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19146,10 +18474,10 @@
          ],
          "Cell-Line" : "ML-DmD21",
          "submission" : "3193",
-         "label" : "small-RNA;ML-DmD21;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "small-RNA;ML-DmD21;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19160,10 +18488,10 @@
          "principal_investigator" : "Lai, E.",
          "Cell-Line" : "ML-DmD32",
          "submission" : "3194",
-         "label" : "small-RNA;ML-DmD32;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "small-RNA;ML-DmD32;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19269,10 +18597,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3201",
-         "label" : "Replication-Copy-Number;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;CNV-seq",
+         "label" : "Replication-Copy-Number;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;CNV-seq",
          "category" : "Copy Number Variation",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19294,10 +18622,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3203",
-         "label" : "H3K27me1;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K27me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -19320,10 +18648,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3205",
-         "label" : "H3K36me1;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K36me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -19334,10 +18662,10 @@
          "principal_investigator" : "Lieb, J.",
          "submission" : "3206",
          "Strain" : "N2",
-         "label" : "h3;N2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "h3;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -19362,10 +18690,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3220",
          "Strain" : "OP83",
-         "label" : "zag-1;OP83;L2;20 degree celsius;ChIP-seq",
+         "label" : "zag-1;OP83;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -19376,10 +18704,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3221",
          "Strain" : "OP174",
-         "label" : "ces-1;OP174;L4 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "ces-1;OP174;Larvae L4 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L4 stage larvae",
+         "Developmental-Stage" : "Larvae L4 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -19390,10 +18718,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3222",
          "Strain" : "OP600",
-         "label" : "unc-62;OP600;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "unc-62;OP600;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -19404,10 +18732,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3223",
          "Strain" : "OP317",
-         "label" : "nhr-28;OP317;L4 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "nhr-28;OP317;Larvae L4 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L4 stage larvae",
+         "Developmental-Stage" : "Larvae L4 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -19418,10 +18746,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3224",
          "Strain" : "OP304",
-         "label" : "fos-1;OP304;L2;20 degree celsius;ChIP-seq",
+         "label" : "fos-1;OP304;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -19445,10 +18773,10 @@
          "principal_investigator" : "White, K.",
          "submission" : "3230",
          "Strain" : "10T-DFD-GFP",
-         "label" : "dfd;10T-DFD-GFP;L3 stage larvae;ChIP-seq",
+         "label" : "dfd;10T-DFD-GFP;Larvae L3 stage;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -19685,10 +19013,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3254",
          "Strain" : "OP600",
-         "label" : "unc-62;OP600;L2;20 degree celsius;ChIP-seq",
+         "label" : "unc-62;OP600;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -19720,10 +19048,10 @@
          ],
          "Cell-Line" : "ML-DmD16-c3",
          "submission" : "3256",
-         "label" : "total-RNA;ML-DmD16-c3;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;ML-DmD16-c3;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19737,10 +19065,10 @@
          ],
          "Cell-Line" : "ML-DmD9",
          "submission" : "3257",
-         "label" : "total-RNA;ML-DmD9;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;ML-DmD9;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19754,10 +19082,10 @@
          ],
          "Cell-Line" : "ML-DmD8",
          "submission" : "3258",
-         "label" : "total-RNA;ML-DmD8;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;ML-DmD8;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19771,10 +19099,10 @@
          ],
          "Cell-Line" : "ML-DmD32",
          "submission" : "3259",
-         "label" : "total-RNA;ML-DmD32;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;ML-DmD32;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19805,10 +19133,10 @@
          ],
          "Cell-Line" : "ML-DmD21",
          "submission" : "3261",
-         "label" : "total-RNA;ML-DmD21;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;ML-DmD21;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19822,10 +19150,10 @@
          ],
          "Cell-Line" : "ML-DmBG2-c2",
          "submission" : "3262",
-         "label" : "total-RNA;ML-DmBG2-c2;Third instar larval stage;CNS-derived cell-line;RNA-seq",
+         "label" : "total-RNA;ML-DmBG2-c2;Larvae 3rd instar;CNS-derived cell-line;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19856,10 +19184,10 @@
          ],
          "Cell-Line" : "CME W2",
          "submission" : "3264",
-         "label" : "total-RNA;CME W2;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;CME W2;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19924,10 +19252,10 @@
          ],
          "Cell-Line" : "ML-DmD17-c3",
          "submission" : "3268",
-         "label" : "total-RNA;ML-DmD17-c3;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;ML-DmD17-c3;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19941,10 +19269,10 @@
          ],
          "Cell-Line" : "ML-DmD11",
          "submission" : "3270",
-         "label" : "total-RNA;ML-DmD11;Third instar larval stage;eye-antenna disc-derived cell-line;RNA-seq",
+         "label" : "total-RNA;ML-DmD11;Larvae 3rd instar;eye-antenna disc-derived cell-line;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19958,10 +19286,10 @@
          ],
          "Cell-Line" : "ML-DmD4-c1",
          "submission" : "3271",
-         "label" : "total-RNA;ML-DmD4-c1;Third instar larval stage;imaginal disc-derived cell-line;RNA-seq",
+         "label" : "total-RNA;ML-DmD4-c1;Larvae 3rd instar;imaginal disc-derived cell-line;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -19975,10 +19303,10 @@
          ],
          "Cell-Line" : "ML-DmBG1-c1",
          "submission" : "3272",
-         "label" : "total-RNA;ML-DmBG1-c1;Third instar larval stage;CNS-derived cell-line;RNA-seq",
+         "label" : "total-RNA;ML-DmBG1-c1;Larvae 3rd instar;CNS-derived cell-line;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -20009,10 +19337,10 @@
          ],
          "Cell-Line" : "ML-DmD20-c5",
          "submission" : "3274",
-         "label" : "total-RNA;ML-DmD20-c5;Third instar larval stage;antenna disc-derived cell-line;RNA-seq",
+         "label" : "total-RNA;ML-DmD20-c5;Larvae 3rd instar;antenna disc-derived cell-line;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -20071,10 +19399,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3279",
-         "label" : "ASH1;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "ASH1;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -20085,10 +19413,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3280",
-         "label" : "CTCF;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "CTCF;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Other chromatin binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -20154,10 +19482,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3286",
-         "label" : "h4k20me1;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "h4k20me1;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -20182,10 +19510,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3288",
-         "label" : "H4K8ac;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;ChIP-chip",
+         "label" : "H4K8ac;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -20306,10 +19634,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3299",
-         "label" : "H1;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H1;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -20334,10 +19662,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3302",
-         "label" : "H3;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H3;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -20348,10 +19676,10 @@
          "principal_investigator" : "Karpen, G.",
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3303",
-         "label" : "H4;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;ChIP-chip",
+         "label" : "H4;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -20398,10 +19726,10 @@
          ],
          "Cell-Line" : "ML-DmD16-c3",
          "submission" : "3309",
-         "label" : "small-RNA;ML-DmD16-c3;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "small-RNA;ML-DmD16-c3;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -20416,10 +19744,10 @@
          ],
          "Cell-Line" : "ML-DmD20-c5",
          "submission" : "3310",
-         "label" : "small-RNA;ML-DmD20-c5;Third instar larval stage;antenna disc-derived cell-line;RNA-seq",
+         "label" : "small-RNA;ML-DmD20-c5;Larvae 3rd instar;antenna disc-derived cell-line;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -20501,10 +19829,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3317",
-         "label" : "total-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;RNA-seq",
+         "label" : "total-RNA;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -20531,10 +19859,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3320",
-         "label" : "H3K79me1;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K79me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -20544,10 +19872,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3321",
-         "label" : "H3K79me2;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K79me2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -20557,10 +19885,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3322",
-         "label" : "H3K79me3;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K79me3;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -20665,10 +19993,10 @@
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3360",
-         "label" : "total-RNA;CME-W1-Cl.8+;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -20691,10 +20019,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3371",
          "Strain" : "OP343",
-         "label" : "C01B12.2;OP343;L2;20 degree celsius;ChIP-seq",
+         "label" : "C01B12.2;OP343;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -20705,10 +20033,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3372",
          "Strain" : "OP81",
-         "label" : "eor-1;OP81;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "eor-1;OP81;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -20722,10 +20050,10 @@
          ],
          "submission" : "3374",
          "Strain" : "OP90",
-         "label" : "nhr-6;OP90;L2;20 degree celsius;ChIP-seq",
+         "label" : "nhr-6;OP90;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -20750,10 +20078,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3376",
          "Strain" : "OP83",
-         "label" : "zag-1;OP83;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "zag-1;OP83;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -20778,10 +20106,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3378",
          "Strain" : "OP212",
-         "label" : "F45C12.2;OP212;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "F45C12.2;OP212;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -20792,10 +20120,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3380",
          "Strain" : "OP222",
-         "label" : "daf-12;OP222;L4 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "daf-12;OP222;Larvae L4 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L4 stage larvae",
+         "Developmental-Stage" : "Larvae L4 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -20806,10 +20134,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3381",
          "Strain" : "OP222",
-         "label" : "daf-12;OP222;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "daf-12;OP222;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -20820,10 +20148,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3382",
          "Strain" : "OP217",
-         "label" : "aly-2;OP217;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "aly-2;OP217;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -20848,10 +20176,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3385",
          "Strain" : "OP218",
-         "label" : "R02D3.7;OP218;L2;20 degree celsius;ChIP-seq",
+         "label" : "R02D3.7;OP218;Larvae L2 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -20862,10 +20190,10 @@
          "principal_investigator" : "Snyder, M.",
          "submission" : "3386",
          "Strain" : "OP317",
-         "label" : "nhr-28;OP317;L3 stage larvae;20 degree celsius;ChIP-seq",
+         "label" : "nhr-28;OP317;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -21040,10 +20368,10 @@
          "principal_investigator" : "White, K.",
          "submission" : "3403",
          "Strain" : "7T-CAD",
-         "label" : "cad;7T-CAD;L3 stage larvae;ChIP-seq",
+         "label" : "cad;7T-CAD;Larvae L3 stage;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "D. melanogaster"
       },
       {
@@ -21154,10 +20482,10 @@
          ],
          "submission" : "3442",
          "Strain" : "Oregon R-modENCODE",
-         "label" : "total-RNA;Oregon R-modENCODE;Adult female, eclosion + 1 day;Female virgin heads;RNA-seq",
+         "label" : "total-RNA;Oregon R-modENCODE;Adult Female, eclosion + 1 day;Female virgin heads;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Female, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -21239,10 +20567,10 @@
          ],
          "submission" : "3447",
          "Strain" : "Oregon R-modENCODE",
-         "label" : "total-RNA;Oregon R-modENCODE;Adult female, eclosion + 1 day;Female virgin heads;RNA-seq",
+         "label" : "total-RNA;Oregon R-modENCODE;Adult Female, eclosion + 1 day;Female virgin heads;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Female, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -21290,10 +20618,10 @@
          ],
          "submission" : "3450",
          "Strain" : "Oregon R-modENCODE",
-         "label" : "total-RNA;Oregon R-modENCODE;Adult female, eclosion + 4 days;virgin adult ovaries;RNA-seq",
+         "label" : "total-RNA;Oregon R-modENCODE;Adult Female, eclosion + 4 days;virgin adult ovaries;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 4 days",
+         "Developmental-Stage" : "Adult Female, eclosion + 4 days",
          "organism" : "D. melanogaster"
       },
       {
@@ -21324,10 +20652,10 @@
          ],
          "submission" : "3452",
          "Strain" : "Oregon R-modENCODE",
-         "label" : "total-RNA;Oregon R-modENCODE;Adult male, eclosion + 4 days;testes;RNA-seq",
+         "label" : "total-RNA;Oregon R-modENCODE;Adult Male, eclosion + 4 days;testes;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male, eclosion + 4 days",
+         "Developmental-Stage" : "Adult Male, eclosion + 4 days",
          "organism" : "D. melanogaster"
       },
       {
@@ -21341,10 +20669,10 @@
          ],
          "submission" : "3453",
          "Strain" : "Oregon R-modENCODE",
-         "label" : "total-RNA;Oregon R-modENCODE;Adult male, eclosion + 4 days;male accessory glands;RNA-seq",
+         "label" : "total-RNA;Oregon R-modENCODE;Adult Male, eclosion + 4 days;male accessory glands;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male, eclosion + 4 days",
+         "Developmental-Stage" : "Adult Male, eclosion + 4 days",
          "organism" : "D. melanogaster"
       },
       {
@@ -21392,10 +20720,10 @@
          ],
          "submission" : "3456",
          "Strain" : "Oregon R-modENCODE",
-         "label" : "total-RNA;Oregon R-modENCODE;Adult female, eclosion + 1 day;Female virgin heads;RNA-seq",
+         "label" : "total-RNA;Oregon R-modENCODE;Adult Female, eclosion + 1 day;Female virgin heads;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Female, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -21664,10 +20992,10 @@
          ],
          "Cell-Line" : "CME W2",
          "submission" : "3472",
-         "label" : "total-RNA;CME W2;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;CME W2;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -21698,10 +21026,10 @@
          ],
          "Cell-Line" : "ML-DmBG2-c2",
          "submission" : "3474",
-         "label" : "total-RNA;ML-DmBG2-c2;Third instar larval stage;CNS-derived cell-line;RNA-seq",
+         "label" : "total-RNA;ML-DmBG2-c2;Larvae 3rd instar;CNS-derived cell-line;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -21715,10 +21043,10 @@
          ],
          "Cell-Line" : "ML-DmD20-c5",
          "submission" : "3475",
-         "label" : "total-RNA;ML-DmD20-c5;Third instar larval stage;antenna disc-derived cell-line;RNA-seq",
+         "label" : "total-RNA;ML-DmD20-c5;Larvae 3rd instar;antenna disc-derived cell-line;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -21732,10 +21060,10 @@
          ],
          "Cell-Line" : "CME-L1",
          "submission" : "3476",
-         "label" : "total-RNA;CME-L1;Third instar larval stage;ventral prothoracic disc;RNA-seq",
+         "label" : "total-RNA;CME-L1;Larvae 3rd instar;ventral prothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -21749,10 +21077,10 @@
          ],
          "Cell-Line" : "ML-DmD17-c3",
          "submission" : "3477",
-         "label" : "total-RNA;ML-DmD17-c3;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;ML-DmD17-c3;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -21766,10 +21094,10 @@
          ],
          "Cell-Line" : "ML-DmD11",
          "submission" : "3478",
-         "label" : "total-RNA;ML-DmD11;Third instar larval stage;eye-antenna disc-derived cell-line;RNA-seq",
+         "label" : "total-RNA;ML-DmD11;Larvae 3rd instar;eye-antenna disc-derived cell-line;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -21783,10 +21111,10 @@
          ],
          "Cell-Line" : "ML-DmD16-c3",
          "submission" : "3479",
-         "label" : "total-RNA;ML-DmD16-c3;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;ML-DmD16-c3;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -21800,10 +21128,10 @@
          ],
          "Cell-Line" : "ML-DmD17-c3",
          "submission" : "3480",
-         "label" : "total-RNA;ML-DmD17-c3;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;ML-DmD17-c3;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -21817,10 +21145,10 @@
          ],
          "Cell-Line" : "ML-DmD21",
          "submission" : "3481",
-         "label" : "total-RNA;ML-DmD21;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;ML-DmD21;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -21834,10 +21162,10 @@
          ],
          "Cell-Line" : "ML-DmD32",
          "submission" : "3482",
-         "label" : "total-RNA;ML-DmD32;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;ML-DmD32;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -21851,10 +21179,10 @@
          ],
          "Cell-Line" : "ML-DmD4-c1",
          "submission" : "3483",
-         "label" : "total-RNA;ML-DmD4-c1;Third instar larval stage;imaginal disc-derived cell-line;RNA-seq",
+         "label" : "total-RNA;ML-DmD4-c1;Larvae 3rd instar;imaginal disc-derived cell-line;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -21868,10 +21196,10 @@
          ],
          "Cell-Line" : "ML-DmD8",
          "submission" : "3484",
-         "label" : "total-RNA;ML-DmD8;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;ML-DmD8;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -21885,10 +21213,10 @@
          ],
          "Cell-Line" : "ML-DmD9",
          "submission" : "3485",
-         "label" : "total-RNA;ML-DmD9;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "total-RNA;ML-DmD9;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -22023,10 +21351,10 @@
          ],
          "Cell-Line" : "ML-DmBG1-c1",
          "submission" : "3508",
-         "label" : "small-RNA;ML-DmBG1-c1;Third instar larval stage;CNS-derived cell-line;RNA-seq",
+         "label" : "small-RNA;ML-DmBG1-c1;Larvae 3rd instar;CNS-derived cell-line;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -22041,10 +21369,10 @@
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3510",
-         "label" : "small-RNA;ML-DmBG3-c2;Third instar larval stage;CNS-derived cell-line;RNA-seq",
+         "label" : "small-RNA;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -22077,10 +21405,10 @@
          ],
          "Cell-Line" : "ML-DmD9",
          "submission" : "3512",
-         "label" : "small-RNA;ML-DmD9;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "small-RNA;ML-DmD9;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -22095,10 +21423,10 @@
          ],
          "Cell-Line" : "ML-DmD8",
          "submission" : "3513",
-         "label" : "small-RNA;ML-DmD8;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "small-RNA;ML-DmD8;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -22113,10 +21441,10 @@
          ],
          "Cell-Line" : "ML-DmD32",
          "submission" : "3514",
-         "label" : "small-RNA;ML-DmD32;Third instar larval stage;dorsal mesothoracic disc;RNA-seq",
+         "label" : "small-RNA;ML-DmD32;Larvae 3rd instar;dorsal mesothoracic disc;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Third instar larval stage",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -22252,10 +21580,10 @@
          "principal_investigator" : "Waterston, R.",
          "submission" : "3524",
          "Strain" : "N2",
-         "label" : "total-RNA;N2;L4MALE6cap2 stage larvae;25 degree celsius;RNA-seq",
+         "label" : "total-RNA;N2;Larvae L4MALE6cap2 stage;25 degree celsius;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "L4MALE6cap2 stage larvae",
+         "Developmental-Stage" : "Larvae L4MALE6cap2 stage",
          "organism" : "C. elegans",
          "temperature" : "25 degree celsius"
       },
@@ -22405,10 +21733,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3538",
-         "label" : "H4K20me1;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H4K20me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -22470,10 +21798,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3548",
-         "label" : "H3K4me3;L1;20 degree celsius;ChIP-chip",
+         "label" : "H3K4me3;Larvae L1 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -22483,10 +21811,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3549",
-         "label" : "H3K4me3;L2;20 degree celsius;ChIP-chip",
+         "label" : "H3K4me3;Larvae L2 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -22496,10 +21824,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3550",
-         "label" : "H3K4me3;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K4me3;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -22509,10 +21837,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3551",
-         "label" : "H3K4me3;L4 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K4me3;Larvae L4 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L4 stage larvae",
+         "Developmental-Stage" : "Larvae L4 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -22561,10 +21889,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3555",
-         "label" : "H3K36me3;L1;20 degree celsius;ChIP-chip",
+         "label" : "H3K36me3;Larvae L1 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L1",
+         "Developmental-Stage" : "Larvae L1 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -22574,10 +21902,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3556",
-         "label" : "H3K36me3;L2;20 degree celsius;ChIP-chip",
+         "label" : "H3K36me3;Larvae L2 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L2",
+         "Developmental-Stage" : "Larvae L2 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -22587,10 +21915,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3557",
-         "label" : "H3K36me3;L3 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K36me3;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L3 stage larvae",
+         "Developmental-Stage" : "Larvae L3 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -22600,10 +21928,10 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "submission" : "3558",
-         "label" : "H3K36me3;L4 stage larvae;20 degree celsius;ChIP-chip",
+         "label" : "H3K36me3;Larvae L4 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
-         "Developmental-Stage" : "L4 stage larvae",
+         "Developmental-Stage" : "Larvae L4 stage",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },

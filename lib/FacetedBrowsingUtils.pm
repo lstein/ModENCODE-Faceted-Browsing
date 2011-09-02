@@ -41,10 +41,11 @@ my %Stage_map = ('E0-4' => 'Embryo 0-4h',
 	'E4-8' => 'Embryo 4-8h',
 	'E8-12' => 'Embryo 8-12h',
 	'Embryo 22-24hSC' => 'Embryo 22-24h',
-	'L1 stage larvae' => 'L1',
-	'L2 stage larvae' => 'L2',
 	'Dmel Adult Female Whole Species' => 'Adult Female',
 	'Dmel Adult Male Whole Species' => 'Adult Male',
+	'Adult female eclosion+4 day'   => 'Adult female, eclosion + 4 days',
+	'third instar larval stage'     => 'Larvae 3rd instar',
+	'2-18 hr Embryos'               => 'Embryos 2-18 hr',
     );
 
 sub fix_organism {
@@ -82,7 +83,13 @@ sub fix_stage {
     $stage   =~ s/embryo\b/Embryos/i;
     $stage   =~ s/stage stage/stage/;
     $stage   =~ s/WPP/White prepupae (WPP)/;
+    $stage   =~ s/^dmel\s+//;
     $stage   =~ s/^\s+//;
+    $stage   =~ s/adult female/Adult Female/ig;
+    $stage   =~ s/adult male/Adult Male/g;
+    $stage   =~ s/^(\d+-\d+) day old pupae/Pupae $1 day/; 
+    $stage   =~ s/^(\w+) instar larvae/Larvae $1 instar/i;
+    $stage   =~ s/^(\w+) stage larvae/Larvae $1 stage/i;
     $stage   = $Stage_map{$stage} || $stage;
     return ucfirst($stage);
 }
@@ -187,15 +194,13 @@ sub fix_condition {
     for my $c (split ';',$condition) {
 	my ($key,$value) = split '_',$c;
 	if ($key eq 'Compound' && $value =~ /mM/) {
-	    $value .= '-salt';
+	    $value .= ' salt';
 	} elsif ($key eq 'Developmental-Stage') {
 	    $value  = fix_stage($value);
 	}
-	$key   =~ tr/ /-/;
-	$value =~ tr/ /-/;
 	push @conditions,[$key,$value] if (defined $key && defined $value);
     }
-    return join (';',map {join('=',@$_)} @conditions);
+    return join (';',map {join('=',@$_)} sort {$a->[0] cmp $b->[0]} @conditions);
 }
 
 sub fix_build {

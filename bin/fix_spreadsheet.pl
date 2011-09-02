@@ -30,14 +30,15 @@ while (<>) {
     $pi         = fix_pi($pi);
     $build      = fix_build($build);
     $repset     = defined $repset ? "Rep-".($repset+1) : '';
-    $chiprole ||= '';
+    $chiprole ||= $chipno ||= '';
     
     my $uniform_filename = join (':',$factor,$condition,$technique,$repset,$chiprole,$build,"modENCODE_$id");
+    my $directory        = make_directory($organism,$target,$technique,$format);
     
     my %hash = (id            => $id,
 		title         => $title,
 		original_name => $original_name,
-		directory     => join("/",map {s/\s+/-/g; $_} ($organism,$target,$technique,$format)),
+		directory     => $directory,
 		path          => $path,
 		organism      => $organism,
 		target        => $target,
@@ -169,4 +170,9 @@ sub find_common_suffix {
     }
     $i--;
     return substr($w[0],length($w[0])-$i,$i);
+}
+
+sub make_directory {
+    my @levels = @_;
+    return join("/",map {s/\s+/-/g; $_} @levels);
 }

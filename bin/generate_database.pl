@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 # generate database file for use with faceted browsing
+# NOTE -- this will invoke fix_spreadsheet.pl to fix up the fields and
+# filenames
 
 use strict;
 use warnings;
@@ -27,6 +29,8 @@ if (DEBUG) {
 } 
 else {
     unless (open FH, '-|') { # in child
+	open FIX,"|$Bin/fix_spreadsheet.pl";
+	select \*FIX;
 	getprint(CSV);
 	exit 0;
     }
@@ -34,38 +38,23 @@ else {
 
 while (<FH>) {
     chomp;
-    my ($id,$title,$file,$path,
-	$organism,$target,$technique,
-	$format,$factor,$condition,
-	undef,undef,undef,undef,undef,
-	$submission,$uniform_filename,
-	undef,undef,undef,undef,undef,undef,undef,
-	$pi) = split ("\t");
+    my ($submission,$original_name,$directory,$uniform_filename,$format,
+	$organism,$target,$technique,$factor,$stage,$condition,
+	$replicate_set,$build,$pi,$category) = split ("\t");
 
-    next if $id eq 'DCC id';
-    next unless $id;
+    next if $submission eq 'DCC id';
+    next unless $submission;
 
     my @conditions;
     for my $c (split ';',$condition) {
-	my ($key,$value) = split '_',$c;
-	if ($key eq 'Compound' && $value =~ /mM/) {
-	    $value .= ' salt';
-	} elsif ($key eq 'Developmental-Stage') {
-	    $value  = fix_stage($value);
-	}
+	my ($key,$value) = split '=',$c;
 	push @conditions,($key,$value) if (defined $key && defined $value);
     }
 
-    $organism = fix_organism($organism);
-    $factor   = fix_factor($factor);
-    $target   =~ tr/-/ /;
-    $pi       = fix_pi($pi);
-    $submission =~ s/^modencode_//i;
     my %conditions = @conditions;
     my $label    = join(';',$factor,values %conditions,$technique);
-    my $category = find_category($pi,$technique,$target);
 
-    $DATA{$id} = {
+    $DATA{$submission} = {
 	submission => $submission,
 	label      => $label,
 	organism   => $organism,
