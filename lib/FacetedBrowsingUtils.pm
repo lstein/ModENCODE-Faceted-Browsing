@@ -42,8 +42,8 @@ my %Stage_map = ('E0-4' => 'Embryo 0-4h',
 	'Embryo 22-24hSC' => 'Embryo 22-24h',
 	'Dmel Adult Female Whole Species' => 'Adult Female',
 	'Dmel Adult Male Whole Species' => 'Adult Male',
-	'Adult female eclosion+4 day'   => 'Adult female, eclosion + 4 days',
-        'Adult Female eclosion+4 day'   => 'Adult female, eclosion + 4 days',
+	'Adult female eclosion+4 day'   => 'Adult Female, eclosion + 4 days',
+        'Adult Female eclosion+4 day'   => 'Adult Female, eclosion + 4 days',
 	'third instar larval stage'     => 'Larvae 3rd instar',
 	'2-18 hr Embryos'               => 'Embryos 2-18 hr',
     );
@@ -86,7 +86,7 @@ sub fix_stage {
     $stage   =~ s/^dmel\s+//;
     $stage   =~ s/^\s+//;
     $stage   =~ s/adult female/Adult Female/ig;
-    $stage   =~ s/adult male/Adult Male/g;
+    $stage   =~ s/adult male/Adult Male/ig;
     $stage   =~ s/^(\d+-\d+) day old pupae/Pupae $1 day/; 
     $stage   =~ s/^(\w+) instar larvae/Larvae $1 instar/i;
     $stage   =~ s/^(\w+) stage larvae/Larvae $1 stage/i;
