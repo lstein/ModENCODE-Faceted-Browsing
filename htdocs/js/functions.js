@@ -110,7 +110,7 @@ function shopping_cart_check () {
 	    return window.database.getObjects(l,'submission').toArray();
 	});
 	
-	var download_url = 'http://www.foo.org/cgi-bin/me_download?download='+accessions.map(
+	var download_url = '/cgi-bin/findFiles.cgi?download='+accessions.map(
 	    function (a) {return a.toString()}).join(';');
 	var acc   = accessions.toString().split(',');
 	var modmine_url  = 'http://intermine.modencode.org/query/portal.do?class=Submission&externalids='+
@@ -125,7 +125,7 @@ function shopping_cart_check () {
 
 	$('clear_all').onclick = function() {clear_all()};
 	$('clear_all').enable();
-	$('download').onclick  = function() {alert(download_url)};
+	$('download').onclick  = function() {window.open(download_url,'download')};
 	$('download').enable();
 	$('modmine').onclick   = function() {window.open(modmine_url,'modmine')};
 	$('modmine').enable();

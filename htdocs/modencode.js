@@ -605,10 +605,10 @@
          ],
          "submission" : "98",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;Adult male, eclosion + 1 day;RNA-tiling-array",
+         "label" : "total-RNA;Y cn bw sp;Adult Male, eclosion + 1 day;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Male, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -621,10 +621,10 @@
          ],
          "submission" : "99",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;Adult male, eclosion + 5 days;RNA-tiling-array",
+         "label" : "total-RNA;Y cn bw sp;Adult Male, eclosion + 5 days;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male, eclosion + 5 days",
+         "Developmental-Stage" : "Adult Male, eclosion + 5 days",
          "organism" : "D. melanogaster"
       },
       {
@@ -5485,10 +5485,10 @@
          ],
          "submission" : "739",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;Adult male;Male body;RNA-seq",
+         "label" : "small-RNA;Canton S;Adult Male;Male body;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male",
+         "Developmental-Stage" : "Adult Male",
          "organism" : "D. melanogaster"
       },
       {
@@ -5538,10 +5538,10 @@
          ],
          "submission" : "742",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;Adult male;Imaginal disc;RNA-seq",
+         "label" : "small-RNA;Canton S;Adult Male;Imaginal disc;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male",
+         "Developmental-Stage" : "Adult Male",
          "organism" : "D. melanogaster"
       },
       {
@@ -5609,10 +5609,10 @@
          ],
          "submission" : "747",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;Adult male;Male heads;RNA-seq",
+         "label" : "small-RNA;Canton S;Adult Male;Male heads;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male",
+         "Developmental-Stage" : "Adult Male",
          "organism" : "D. melanogaster"
       },
       {
@@ -5679,10 +5679,10 @@
          ],
          "submission" : "751",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;Adult male;Male heads;RNA-seq",
+         "label" : "small-RNA;Canton S;Adult Male;Male heads;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male",
+         "Developmental-Stage" : "Adult Male",
          "organism" : "D. melanogaster"
       },
       {
@@ -5937,10 +5937,10 @@
          ],
          "submission" : "772",
          "Strain" : "Oregon-R",
-         "label" : "small-RNA;Oregon-R;Adult male;Adult testis;RNA-seq",
+         "label" : "small-RNA;Oregon-R;Adult Male;Adult testis;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male",
+         "Developmental-Stage" : "Adult Male",
          "organism" : "D. melanogaster"
       },
       {
@@ -9274,10 +9274,10 @@
          ],
          "submission" : "2008",
          "Strain" : "Y cn bw sp",
-         "label" : "small-RNA;Y cn bw sp;Adult male, eclosion + 1 day;RNA-seq",
+         "label" : "small-RNA;Y cn bw sp;Adult Male, eclosion + 1 day;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Male, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -9749,10 +9749,10 @@
          ],
          "submission" : "2333",
          "Strain" : "him-8(e1489)",
-         "label" : "3-prime-UTR;him-8(e1489);Adult males 70 hr post-L1 stage larvae;20 degree celsius;RACE",
+         "label" : "3-prime-UTR;him-8(e1489);Adult Males 70 hr post-L1 stage larvae;20 degree celsius;RACE",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult males 70 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Adult Males 70 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -9867,10 +9867,10 @@
          ],
          "submission" : "2340",
          "Strain" : "Oregon-R",
-         "label" : "total-RNA;Oregon-R;Adult female, eclosion + 4 days;Adult ovaries;RNA-tiling-array",
+         "label" : "total-RNA;Oregon-R;Adult Female, eclosion + 4 days;Adult ovaries;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult female, eclosion + 4 days",
+         "Developmental-Stage" : "Adult Female, eclosion + 4 days",
          "organism" : "D. melanogaster"
       },
       {
@@ -9971,10 +9971,10 @@
          ],
          "submission" : "2376",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;Adult male;Imaginal disc;RNA-seq",
+         "label" : "small-RNA;Canton S;Adult Male;Imaginal disc;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male",
+         "Developmental-Stage" : "Adult Male",
          "organism" : "D. melanogaster"
       },
       {
@@ -10659,10 +10659,10 @@
          ],
          "submission" : "2459",
          "Strain" : "him-8(e1489)",
-         "label" : "3-prime-UTR;him-8(e1489);Adult males 70 hr post-L1 stage larvae;20 degree celsius;RACE",
+         "label" : "3-prime-UTR;him-8(e1489);Adult Males 70 hr post-L1 stage larvae;20 degree celsius;RACE",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult males 70 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Adult Males 70 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
       },
@@ -11829,10 +11829,10 @@
          ],
          "submission" : "2554",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;Adult male;Male body;RNA-seq",
+         "label" : "small-RNA;Canton S;Adult Male;Male body;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male",
+         "Developmental-Stage" : "Adult Male",
          "organism" : "D. melanogaster"
       },
       {
@@ -13943,10 +13943,10 @@
          ],
          "submission" : "2751",
          "Strain" : "Canton S",
-         "label" : "small-RNA;Canton S;Adult male;Male body;RNA-seq",
+         "label" : "small-RNA;Canton S;Adult Male;Male body;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male",
+         "Developmental-Stage" : "Adult Male",
          "organism" : "D. melanogaster"
       },
       {
@@ -14411,10 +14411,10 @@
          ],
          "submission" : "2782",
          "Strain" : "dpy28(y1)",
-         "label" : "small-RNA;dpy28(y1);Young adult Males;RNA-seq",
+         "label" : "small-RNA;dpy28(y1);Young Adult Males;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Young adult Males",
+         "Developmental-Stage" : "Young Adult Males",
          "organism" : "C. elegans"
       },
       {
@@ -14581,10 +14581,10 @@
          ],
          "submission" : "2823",
          "Strain" : "him-8(e1489)",
-         "label" : "small-RNA;him-8(e1489);Adult males 70 hr post-L1 stage larvae;25 degree celsius;spermatids;RNA-seq",
+         "label" : "small-RNA;him-8(e1489);Adult Males 70 hr post-L1 stage larvae;25 degree celsius;spermatids;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult males 70 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Adult Males 70 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "25 degree celsius"
       },
@@ -14667,10 +14667,10 @@
          ],
          "submission" : "2829",
          "Strain" : "him-8(e1489)",
-         "label" : "small-RNA;him-8(e1489);Adult males 70 hr post-L1 stage larvae;25 degree celsius;spermatids;RNA-seq",
+         "label" : "small-RNA;him-8(e1489);Adult Males 70 hr post-L1 stage larvae;25 degree celsius;spermatids;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult males 70 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Adult Males 70 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "25 degree celsius"
       },
@@ -14685,10 +14685,10 @@
          ],
          "submission" : "2830",
          "Strain" : "BA1",
-         "label" : "small-RNA;BA1;Adult males 70 hr post-L1 stage larvae;25 degree celsius;unfertilized oocytes;RNA-seq",
+         "label" : "small-RNA;BA1;Adult Males 70 hr post-L1 stage larvae;25 degree celsius;unfertilized oocytes;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult males 70 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Adult Males 70 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "25 degree celsius"
       },
@@ -14720,10 +14720,10 @@
          ],
          "submission" : "2832",
          "Strain" : "BA1",
-         "label" : "small-RNA;BA1;Adult males 70 hr post-L1 stage larvae;25 degree celsius;unfertilized oocytes;RNA-seq",
+         "label" : "small-RNA;BA1;Adult Males 70 hr post-L1 stage larvae;25 degree celsius;unfertilized oocytes;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult males 70 hr post-L1 stage larvae",
+         "Developmental-Stage" : "Adult Males 70 hr post-L1 stage larvae",
          "organism" : "C. elegans",
          "temperature" : "25 degree celsius"
       },
@@ -15101,10 +15101,10 @@
          ],
          "submission" : "2869",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;Adult male, eclosion + 1 day;RNA-seq",
+         "label" : "total-RNA;Y cn bw sp;Adult Male, eclosion + 1 day;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Male, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -15117,10 +15117,10 @@
          ],
          "submission" : "2870",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;Adult male, eclosion + 30 days;RNA-seq",
+         "label" : "total-RNA;Y cn bw sp;Adult Male, eclosion + 30 days;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male, eclosion + 30 days",
+         "Developmental-Stage" : "Adult Male, eclosion + 30 days",
          "organism" : "D. melanogaster"
       },
       {
@@ -15133,10 +15133,10 @@
          ],
          "submission" : "2871",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;Adult male, eclosion + 5 days;RNA-seq",
+         "label" : "total-RNA;Y cn bw sp;Adult Male, eclosion + 5 days;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male, eclosion + 5 days",
+         "Developmental-Stage" : "Adult Male, eclosion + 5 days",
          "organism" : "D. melanogaster"
       },
       {
@@ -15553,10 +15553,10 @@
          ],
          "submission" : "2897",
          "Strain" : "Y cn bw sp",
-         "label" : "total-RNA;Y cn bw sp;Adult male, eclosion + 30 days;RNA-tiling-array",
+         "label" : "total-RNA;Y cn bw sp;Adult Male, eclosion + 30 days;RNA-tiling-array",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male, eclosion + 30 days",
+         "Developmental-Stage" : "Adult Male, eclosion + 30 days",
          "organism" : "D. melanogaster"
       },
       {
@@ -17007,10 +17007,10 @@
          ],
          "submission" : "3084",
          "Strain" : "Oregon-R",
-         "label" : "total-RNA;Oregon-R;Dmel Adult male 8 days;Dmel Male heads;RNA-seq",
+         "label" : "total-RNA;Oregon-R;Dmel Adult Male 8 days;Dmel Male heads;RNA-seq",
          "category" : "RNA expression profiling",
          "type" : "data set",
-         "Developmental-Stage" : "Dmel Adult male 8 days",
+         "Developmental-Stage" : "Dmel Adult Male 8 days",
          "organism" : "D. melanogaster"
       },
       {
@@ -20516,10 +20516,10 @@
          ],
          "submission" : "3444",
          "Strain" : "Oregon R-modENCODE",
-         "label" : "total-RNA;Oregon R-modENCODE;Adult male, eclosion + 1 day;male heads;RNA-seq",
+         "label" : "total-RNA;Oregon R-modENCODE;Adult Male, eclosion + 1 day;male heads;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Male, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -20601,10 +20601,10 @@
          ],
          "submission" : "3449",
          "Strain" : "Oregon R-modENCODE",
-         "label" : "total-RNA;Oregon R-modENCODE;Adult male, eclosion + 1 day;male heads;RNA-seq",
+         "label" : "total-RNA;Oregon R-modENCODE;Adult Male, eclosion + 1 day;male heads;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Male, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {
@@ -20754,10 +20754,10 @@
          ],
          "submission" : "3458",
          "Strain" : "Oregon R-modENCODE",
-         "label" : "total-RNA;Oregon R-modENCODE;Adult male, eclosion + 1 day;male heads;RNA-seq",
+         "label" : "total-RNA;Oregon R-modENCODE;Adult Male, eclosion + 1 day;male heads;RNA-seq",
          "category" : "Gene Structure",
          "type" : "data set",
-         "Developmental-Stage" : "Adult male, eclosion + 1 day",
+         "Developmental-Stage" : "Adult Male, eclosion + 1 day",
          "organism" : "D. melanogaster"
       },
       {

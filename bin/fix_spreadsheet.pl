@@ -180,11 +180,11 @@ sub make_directory {
     # Condense space in organism name at top level (e.g. C.elegans)
     $levels[0] =~ s/\s+//;   
     # In other levels, map unruly characters to dashes.
-    return join("/",map {s![/\s'":]!-!g; $_} @levels);
+    return join("/",map {s![/\s'":;]!-!g; $_} @levels);
 }
 
 sub make_filename {
     my @levels = @_;
     # Map unruly characters to dashes.
-    return join(":",map {s![/\s'":]!-!g; $_} @levels);
+    return join(":",map {s![/\s'":;]!-!g; $_} @levels);
 }

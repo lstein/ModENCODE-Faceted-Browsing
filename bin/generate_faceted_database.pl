@@ -14,8 +14,6 @@ use FacetedBrowsingUtils;
 use LWP::Simple 'get','getprint';
 use Text::ParseWords 'shellwords';
 use Bio::Graphics::FeatureFile;
-#use constant CSV     => 'http://localhost/testing/modencode.csv';
-use constant CSV     => 'file:./data/modencode-22August2011.csv';
 use constant BROWSER => 'http://modencode.oicr.on.ca/fgb2/gbrowse/';
 use constant SOURCES => [qw(fly worm fly_ananas fly_dmoj fly_dp fly_simul fly_virilis fly_yakuba)];
 
@@ -27,10 +25,13 @@ if (DEBUG) {
     open FH,"$Bin/../data/modencode-22August2011.csv" or die $!;
 } 
 else {
+    # This opens a pipe named FH which fetches the CSV database, cleans it up (fixes capitalization etc)
+    # and returns a new CSV.
+    # Location of METADATA_URL is currently hard-coded in lib/FacetedBrowsingUtils.pm
     unless (open FH, '-|') { # in child
 	open FIX,"|$Bin/fix_spreadsheet.pl";
 	select \*FIX;
-	getprint(CSV);
+	getprint(METADATA_URL);
 	exit 0;
     }
 }
@@ -45,7 +46,7 @@ while (<FH>) {
     next unless $submission;
 
     my @conditions;
-    for my $c (split ';',$condition) {
+    for my $c (split '#',$condition) {
 	my ($key,$value) = split '=',$c;
 	push @conditions,($key,$value) if (defined $key && defined $value);
     }

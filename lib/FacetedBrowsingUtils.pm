@@ -2,10 +2,17 @@ package FacetedBrowsingUtils;
 use strict;
 
 use base 'Exporter';
-our @EXPORT_OK = qw(fix_original_name fix_organism fix_stage fix_factor find_category 
+use FindBin '$Bin';
+
+our @EXPORT_OK = qw(
+                    METADATA_URL
+                    fix_original_name fix_organism fix_stage fix_factor find_category 
                     fix_factor fix_pi fix_target fix_build
                     fix_condition fix_repset);
 our @EXPORT    = @EXPORT_OK;
+
+# Data file with metadata, filenames, etc. Can be a URL
+use constant METADATA_URL     => "file:$Bin/../data/modencode-22August2011.csv";
 
 my %Factor_map = (
 	'BEAF32A and B' => 'BEAF-32',
@@ -207,7 +214,7 @@ sub fix_condition {
 	}
 	push @conditions,[$key,$value] if (defined $key && defined $value);
     }
-    return join (';',map {join('=',@$_)} sort {$a->[0] cmp $b->[0]} @conditions);
+    return join ('#',map {join('=',@$_)} sort {$a->[0] cmp $b->[0]} @conditions);
 }
 
 sub fix_build {
