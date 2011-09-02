@@ -14,7 +14,6 @@ use FacetedBrowsingUtils;
 use LWP::Simple 'get','getprint';
 use Text::ParseWords 'shellwords';
 use Bio::Graphics::FeatureFile;
-use FindBin '$Bin';
 #use constant CSV     => 'http://localhost/testing/modencode.csv';
 use constant CSV     => 'file:./data/modencode-22August2011.csv';
 use constant BROWSER => 'http://modencode.oicr.on.ca/fgb2/gbrowse/';

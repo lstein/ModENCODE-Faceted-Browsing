@@ -22,18 +22,19 @@ while (<>) {
 	undef,undef,undef,undef,$stage,undef,undef,
 	$pi) = split ("\t");
 
-    $organism   = fix_organism($organism);
-    $target     = fix_target($target);
-    $stage      = fix_stage($stage);
-    $factor     = fix_factor($factor);
-    $condition  = fix_condition($condition);
-    $pi         = fix_pi($pi);
-    $build      = fix_build($build);
-    $repset     = defined $repset ? "Rep-".($repset+1) : '';
-    $chiprole ||= $chipno ||= '';
-    $repset     = fix_repset($repset,$original_name);
+    $original_name = fix_original_name($original_name);
+    $organism      = fix_organism($organism);
+    $target        = fix_target($target);
+    $stage         = fix_stage($stage);
+    $factor        = fix_factor($factor);
+    $condition     = fix_condition($condition);
+    $pi            = fix_pi($pi);
+    $build         = fix_build($build);
+    $repset        = defined $repset ? "Rep-".($repset+1) : '';
+    $chiprole    ||= $chipno ||= '';
+    $repset        = fix_repset($repset,$original_name);
     
-    my $uniform_filename = join (':',$factor,$condition,$technique,$repset,$chiprole,$build,"modENCODE_$id");
+    my $uniform_filename = make_filename($factor,$condition,$technique,$repset,$chiprole,$build,"modENCODE_$id");
     my $directory        = make_directory($organism,$target,$technique,$format);
     
     my %hash = (id            => $id,
@@ -176,5 +177,14 @@ sub find_common_suffix {
 
 sub make_directory {
     my @levels = @_;
-    return join("/",map {s/\s+/-/g; $_} @levels);
+    # Condense space in organism name at top level (e.g. C.elegans)
+    $levels[0] =~ s/\s+//;   
+    # In other levels, map unruly characters to dashes.
+    return join("/",map {s![/\s'":]!-!g; $_} @levels);
+}
+
+sub make_filename {
+    my @levels = @_;
+    # Map unruly characters to dashes.
+    return join(":",map {s![/\s'":]!-!g; $_} @levels);
 }

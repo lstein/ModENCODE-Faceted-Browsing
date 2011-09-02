@@ -2,7 +2,7 @@ package FacetedBrowsingUtils;
 use strict;
 
 use base 'Exporter';
-our @EXPORT_OK = qw(fix_organism fix_stage fix_factor find_category 
+our @EXPORT_OK = qw(fix_original_name fix_organism fix_stage fix_factor find_category 
                     fix_factor fix_pi fix_target fix_build
                     fix_condition fix_repset);
 our @EXPORT    = @EXPORT_OK;
@@ -47,6 +47,13 @@ my %Stage_map = ('E0-4' => 'Embryo 0-4h',
 	'third instar larval stage'     => 'Larvae 3rd instar',
 	'2-18 hr Embryos'               => 'Embryos 2-18 hr',
     );
+
+sub fix_original_name {
+    my $name = shift;
+    $name =~ s/^\s+//;
+    $name =~ s/\s+$//;
+    return $name;
+}
 
 sub fix_organism {
     my $org = shift;
