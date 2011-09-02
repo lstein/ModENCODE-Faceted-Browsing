@@ -13,6 +13,10 @@ use File::Basename;
 use File::Find;
 use LWP::Simple 'getprint';
 
+# Data file with metadata, filenames, etc. Can be a URL
+#use constant CSV     => 'file:/var/www/spreadsheet.csv';
+use constant CSV      => "file:$Bin/../data/modencode-22August2011.csv";
+
 # this contains copies of make_ftp_tree.pl and README, for convenience of
 # administrators and cloud users
 use constant ROOT     => '/modencode';  
@@ -32,14 +36,16 @@ use constant MNT      => FLAT . '/volume';
 # would like to get rid of this extra level of indirection
 use constant MNT_SUBDIR => 'data';
 
+# The location of the name mapping file
+use constant NAME_MAPPING => DATA . '/MANIFEST.txt';
+
 # this opens a pipe named FH which fetches the CSV database, cleans it up (fixes capitalization etc)
 # and returns a new CSV
-# Location of METADATA_URL is currently hard-coded in lib/FacetedBrowsingUtils.pm
 unless (open FH, '-|') { # in child
     $DB::inhibit_exit = 0;  # allow me to debug in perl debugger
     open FIX,"|$Bin/fix_spreadsheet.pl";
     select \*FIX;
-    getprint(METADATA_URL);
+    getprint(CSV);
     exit 0;
 }
 
@@ -55,8 +61,8 @@ while (<FH>) {
     next unless $submission;
 
     # Weird. Some filenames have the submission prepended, and others don't :-(
-    $Links{$original_name}                   = [$directory,$uniform_filename];
-    $Links{"${submission}_${original_name}"} = [$directory,$uniform_filename];
+    $Links{$original_name}                   = [$directory,$uniform_filename,$submission];
+    $Links{"${submission}_${original_name}"} = [$directory,$uniform_filename,$submission];
 }
 
 warn "Unbinding old mounts...\n";
@@ -70,8 +76,10 @@ remove_old_directories();
 warn "Cross-mounting data sets...\n";
 find (sub {!/^\./ && -f $_ && ($Files{$_}=$File::Find::dir)},glob(MNT."*/data"));
 
-my %Seenit; # find duplicate file errors
+open MANIFEST,"|sort -n >".NAME_MAPPING;
+print MANIFEST "#<modencode accession>   <original filename>   <uniform filename>\n";
 
+my %Seenit; # find duplicate file errors
 for my $file (keys %Files) {
     my $link_source = $Links{$file};
 
@@ -100,7 +108,7 @@ for my $file (keys %Files) {
     }
     next unless $link_source;
 
-    my ($link_dir,$link_file) = @$link_source;
+    my ($link_dir,$link_file,$id) = @$link_source;
     $link_dir = File::Spec->catfile(DATA,$link_dir);
     make_path($link_dir) or die "make_path($link_dir): $!"
 	unless -e $link_dir;
@@ -118,7 +126,14 @@ for my $file (keys %Files) {
 
     my @args   = ('sudo','mount','--bind',$target,$source);
     system @args;
+
+    my $data = DATA;
+    (my $a = $target) =~ s/^$data/./;
+    (my $b = $source) =~ s/^$data/./;
+    print MANIFEST join("\t","$id",$a,$b),"\n";
 }
+
+close MANIFEST;
 
 warn "Done!\n";
 
