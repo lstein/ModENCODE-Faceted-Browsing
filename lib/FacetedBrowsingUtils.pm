@@ -4,8 +4,7 @@ use strict;
 use base 'Exporter';
 our @EXPORT_OK = qw(fix_organism fix_stage fix_factor find_category 
                     fix_factor fix_pi fix_target fix_build
-                    fix_condition
-);
+                    fix_condition fix_repset);
 our @EXPORT    = @EXPORT_OK;
 
 my %Factor_map = (
@@ -206,8 +205,16 @@ sub fix_condition {
 sub fix_build {
     my $b = shift;
     return 'Dmel_R5'     if $b eq 'Dmel_r5.4';
-    return 'Cele_WS220'   if $b eq 'Cele_WS190';
+    return 'Cele_WS220'  if $b eq 'Cele_WS190';
     return $b;
+}
+
+sub fix_repset {
+    my ($repset,$filename) = @_;
+    if ($filename =~ /rep-?(\d+)/i) {
+	$repset = "Rep-$1";
+    }
+    return $repset;
 }
 
 1;

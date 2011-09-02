@@ -31,6 +31,7 @@ while (<>) {
     $build      = fix_build($build);
     $repset     = defined $repset ? "Rep-".($repset+1) : '';
     $chiprole ||= $chipno ||= '';
+    $repset     = fix_repset($repset,$original_name);
     
     my $uniform_filename = join (':',$factor,$condition,$technique,$repset,$chiprole,$build,"modENCODE_$id");
     my $directory        = make_directory($organism,$target,$technique,$format);
@@ -140,6 +141,7 @@ sub uniquify {
     foreach (@original_names) {
 	s/^$prefix//;
 	s/$suffix$//;
+	s/^[_-]+//;
 	push @unique,"$uniform:$_";
     }
     return @unique;
