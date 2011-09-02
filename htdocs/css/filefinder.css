@@ -1,0 +1,108 @@
+body {
+	padding-top: 30px;
+	background-color: #FFFFFF;
+	font-family: Sans-Serif;
+	text-align: center;
+	margin:0 auto;
+}
+
+
+.checkbox {
+	width: 20px;
+	text-align:center;
+}
+
+
+.container {
+	display: block;
+	background-color: white;
+	height: auto;
+	width: 700px;
+	border: 0px solid #BCB79E;
+	padding: 0.2em;
+	overflow: auto;
+	margin:0 auto;
+}
+
+.title {
+	text-align: left;
+	font-size: 0.9em;
+
+}
+
+.subheader{
+	text-align: left;
+	font-size: 0.8em;
+}
+
+.table {
+	font-size: 0.8em;
+	border-width: 1px;
+	border-spacing: 2px;
+}
+
+tr, td {
+	font-size: 0.9em;
+}
+
+tr:hover{
+	background: #F18620;
+	color: #4c2f04;
+}
+
+.badFiles {
+	background-color: #EFEFE8;
+}
+
+.selected {
+	background-color: wheat;
+}
+
+#checkout {
+	position:fixed;
+	top:250px;
+	font-size: 0.9em;
+  	font-weight: bold;
+}
+
+#finished {
+	display: none;
+}
+
+.eClr {
+	background-color: white;
+}
+
+.oClr {
+	background-color: honeydew;
+}
+
+.smallButton {
+	position: relative;
+	top: 2px;
+}
+
+div.header {
+	background: #6ECCF8 url('http://gbrowse.lincolnstein.org/modencode/top_gradient.png') repeat-x;
+	height: 60;
+	color: white;
+	text-align: left;
+	font-size: 0.8em;
+}
+
+.links {
+	position:relative; 
+	cursor:pointer;
+	color: #37677d;
+	text-decoration:underline;
+}
+
+.mainLinks {
+	position:relative; 
+	cursor:pointer;
+	color: #37677d;
+	text-decoration:underline;
+	font-size: 0.9em;
+	font-weight: bold;		
+}
+

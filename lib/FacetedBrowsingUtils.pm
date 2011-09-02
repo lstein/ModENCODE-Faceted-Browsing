@@ -5,7 +5,7 @@ use base 'Exporter';
 use FindBin '$Bin';
 
 our @EXPORT_OK = qw(
-                    METADATA_URL
+                    METADATA_URL MODENCODE_ROOT MODENCODE_DATA
                     fix_original_name fix_organism fix_stage fix_factor find_category 
                     fix_factor fix_pi fix_target fix_build
                     fix_condition fix_repset);
@@ -13,6 +13,11 @@ our @EXPORT    = @EXPORT_OK;
 
 # Data file with metadata, filenames, etc. Can be a URL
 use constant METADATA_URL     => "file:$Bin/../data/modencode-22August2011.csv";
+use constant MODENCODE_ROOT   => '/modencode';  
+
+# This is the root of the anonymous FTP account
+# top level links, such as D.melanogaster are found here
+use constant MODENCODE_DATA     => MODENCODE_ROOT .'/data';
 
 my %Factor_map = (
 	'BEAF32A and B' => 'BEAF-32',

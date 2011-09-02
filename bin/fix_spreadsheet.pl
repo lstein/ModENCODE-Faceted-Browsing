@@ -34,7 +34,15 @@ while (<>) {
     $chiprole    ||= $chipno ||= '';
     $repset        = fix_repset($repset,$original_name);
     
+    # some shenanigans to avoid filenames too large
     my $uniform_filename = make_filename($factor,$condition,$technique,$repset,$chiprole,$build,"modENCODE_$id");
+    $uniform_filename    = make_filename($factor,$condition,$technique,$repset,$chiprole,shorten_build($build),"modENCODE_$id")
+	if length $uniform_filename > 128;
+    $uniform_filename    = make_filename($factor,$condition,$technique,$repset,$chiprole,shorten_build($build),$id)
+	if length $uniform_filename > 128;
+    $uniform_filename    = make_filename($factor,shorten_condition($condition),$technique,$repset,$chiprole,shorten_build($build),$id)
+	if length $uniform_filename > 128;
+
     my $directory        = make_directory($organism,$target,$technique,$format);
     
     my %hash = (id            => $id,
@@ -187,4 +195,21 @@ sub make_filename {
     my @levels = @_;
     # Map unruly characters to dashes.
     return join(":",map {s![/\s'":;]!-!g; $_} @levels);
+}
+
+# we were starting to run into too-long filename errors...
+sub shorten_condition {
+    my $condition = shift;
+    my @values;
+    for my $c (split '#',$condition) {
+	my ($key,$value) = split '_',$c;
+	push @values,$value;
+    }
+    return join '#',@values;
+}
+
+sub shorten_build {
+    my $build = shift;
+    $build =~ s/^\w+_//;
+    return $build;
 }

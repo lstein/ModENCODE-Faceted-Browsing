@@ -4,8 +4,8 @@
 # convenient FTP browsing.
 
 use strict;
-use FindBin '$Bin';
-use lib "$Bin/../lib";
+use FindBin '$RealBin';
+use lib "$RealBin/../lib";
 use FacetedBrowsingUtils;
 use File::Path 'make_path','remove_tree';
 use File::Spec;
@@ -17,17 +17,9 @@ use LWP::Simple 'getprint';
 #use constant CSV     => 'file:/var/www/spreadsheet.csv';
 use constant CSV      => "file:$Bin/../data/modencode-22August2011.csv";
 
-# this contains copies of make_ftp_tree.pl and README, for convenience of
-# administrators and cloud users
-use constant ROOT     => '/modencode';  
-
-# This is the root of the anonymous FTP account
-# top level links, such as D.melanogaster are found here
-use constant DATA     => ROOT .'/data';
-
 # This is where the terabyte volume mounts are
 use constant ALL_FILES => 'all_files';
-use constant FLAT      => DATA .'/'.ALL_FILES;
+use constant FLAT      => MODENCODE_DATA .'/'.ALL_FILES;
 
 # volumes are mounted at /modencode/data/all_files/volume{1,2,3,4...}
 use constant MNT      => FLAT . '/volume';
@@ -37,7 +29,7 @@ use constant MNT      => FLAT . '/volume';
 use constant MNT_SUBDIR => 'data';
 
 # The location of the name mapping file
-use constant NAME_MAPPING => DATA . '/MANIFEST.txt';
+use constant NAME_MAPPING => MODENCODE_DATA . '/MANIFEST.txt';
 
 # this opens a pipe named FH which fetches the CSV database, cleans it up (fixes capitalization etc)
 # and returns a new CSV
@@ -109,7 +101,7 @@ for my $file (keys %Files) {
     next unless $link_source;
 
     my ($link_dir,$link_file,$id) = @$link_source;
-    $link_dir = File::Spec->catfile(DATA,$link_dir);
+    $link_dir = File::Spec->catfile(MODENCODE_DATA,$link_dir);
     make_path($link_dir) or die "make_path($link_dir): $!"
 	unless -e $link_dir;
 
@@ -127,7 +119,7 @@ for my $file (keys %Files) {
     my @args   = ('sudo','mount','--bind',$target,$source);
     system @args;
 
-    my $data = DATA;
+    my $data = MODENCODE_DATA;
     (my $a = $target) =~ s/^$data/./;
     (my $b = $source) =~ s/^$data/./;
     print MANIFEST join("\t","$id",$a,$b),"\n";
@@ -153,7 +145,7 @@ sub remove_old_mounts {
 
 sub remove_old_directories {
     my $all_files = ALL_FILES;
-    my @dirs      = grep {!/$all_files/} glob(DATA."/*");
+    my @dirs      = grep {!/$all_files/} glob(MODENCODE_DATA."/*");
     for my $d (@dirs) {
 	next unless -d $d;
 	remove_tree($d);

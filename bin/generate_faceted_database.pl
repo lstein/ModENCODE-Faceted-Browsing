@@ -8,8 +8,8 @@ use strict;
 use warnings;
 
 use JSON;
-use FindBin '$Bin';
-use lib "$Bin/../lib";
+use FindBin '$RealBin';
+use lib "$RealBin/../lib";
 use FacetedBrowsingUtils;
 use LWP::Simple 'get','getprint';
 use Text::ParseWords 'shellwords';
