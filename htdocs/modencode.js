@@ -3287,8 +3287,8 @@
          "Tracks" : [
             "worm/Waterston_EST_match_all/IntronsS2",
             "worm/Waterston_intron_all/IntronsS2",
-            "worm/Waterston_intron_3641_447",
-            "worm/Waterston_match_part_3641_447"
+            "worm/Waterston_match_part_3641_447",
+            "worm/Waterston_intron_3641_447"
          ],
          "submission" : "447",
          "Strain" : "N2",
@@ -3924,9 +3924,9 @@
          "principal_investigator" : "Piano, F.",
          "Tracks" : [
             "worm/CEUP1_three_prime_UTR_3373_515",
-            "worm/CEUP1_RST_match_3373_515",
             "worm/CEUP1_UST_match_3373_515",
-            "worm/CEUP1_polyA_site_3373_515"
+            "worm/CEUP1_polyA_site_3373_515",
+            "worm/CEUP1_RST_match_3373_515"
          ],
          "submission" : "515",
          "Strain" : "N2",
@@ -9984,8 +9984,8 @@
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
          "Tracks" : [
-            "fly/Lai_RNASEQ_DUAL_ENR_C/S2cells_Ago2IP",
-            "fly/S22_GSM280087.sam.bam.sorted"
+            "fly/S22_GSM280087.sam.bam.sorted",
+            "fly/Lai_RNASEQ_DUAL_ENR_C/S2cells_Ago2IP"
          ],
          "Cell-Line" : "S2-Rubin",
          "submission" : "2379",
@@ -10775,21 +10775,21 @@
          "principal_investigator" : "Piano, F.",
          "Tracks" : [
             "worm/marco2_A_sorted",
-            "worm/marco2_E_sorted",
-            "worm/marco2_B_sorted",
-            "worm/marco1_B_sorted",
-            "worm/marco2_H_sorted",
-            "worm/marco1_A_sorted",
-            "worm/marco1_D_sorted",
-            "worm/marco1_E_sorted",
-            "worm/marco2_G_sorted",
             "worm/marco1_V1_sorted",
             "worm/marco2_C_sorted",
             "worm/marco1_F_sorted",
+            "worm/marco2_E_sorted",
             "worm/marco1_H_sorted",
             "worm/marco2_F_sorted",
+            "worm/marco2_B_sorted",
+            "worm/marco1_B_sorted",
+            "worm/marco2_H_sorted",
             "worm/marco2_D_sorted",
+            "worm/marco1_A_sorted",
             "worm/marco1_G_sorted",
+            "worm/marco1_D_sorted",
+            "worm/marco2_G_sorted",
+            "worm/marco1_E_sorted",
             "worm/marco1_C_sorted"
          ],
          "submission" : "2482",
@@ -11755,8 +11755,8 @@
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
          "Tracks" : [
-            "fly/Dm_CAGE_HYB",
-            "fly/Celniker_CAGE_Illumina"
+            "fly/Celniker_CAGE_Illumina",
+            "fly/Dm_CAGE_HYB"
          ],
          "submission" : "2549",
          "Strain" : "Y cn bw sp",
@@ -11860,8 +11860,8 @@
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
          "Tracks" : [
-            "fly/Lai_RNASEQ_DUAL_PE/0-2day_pupae",
-            "fly/P02_GSM360262.sam.bam.sorted"
+            "fly/P02_GSM360262.sam.bam.sorted",
+            "fly/Lai_RNASEQ_DUAL_PE/0-2day_pupae"
          ],
          "submission" : "2556",
          "Strain" : "Canton S",
@@ -12261,11 +12261,11 @@
          "GrowthCondition" : "E. coli (OP50)",
          "principal_investigator" : "Waterston, R.",
          "Tracks" : [
-            "worm/Hillier_confirmed_polyA_ADCONTR2_24HR",
             "worm/Hillier_confirmed_introns_ADCONTR2_24HR",
+            "worm/Hillier_confirmed_polyA_ADCONTR2_24HR",
             "worm/Hillier_confirmed_SL_ADCONTR2_24HR",
-            "worm/rainbow_transcript_ADCONTR2_24HR",
-            "worm/rainbow_genelet_ADCONTR2_24HR"
+            "worm/rainbow_genelet_ADCONTR2_24HR",
+            "worm/rainbow_transcript_ADCONTR2_24HR"
          ],
          "submission" : "2588",
          "Strain" : "N2",
@@ -13684,9 +13684,9 @@
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
          "Tracks" : [
-            "worm/SL_Acceptor_site_W2720",
+            "worm/Waterston_EST_match_all/SL_Acceptor_Site",
             "worm/Waterston_match_part_5277_2720",
-            "worm/Waterston_EST_match_all/SL_Acceptor_Site"
+            "worm/SL_Acceptor_site_W2720"
          ],
          "submission" : "2720",
          "Strain" : "N2",
@@ -14752,10 +14752,10 @@
          "principal_investigator" : "Waterston, R.",
          "Tracks" : [
             "worm/Hillier_confirmed_polyA_SPE9A",
-            "worm/rainbow_transcript_SPE9A",
             "worm/rainbow_genelet_SPE9A",
-            "worm/Hillier_confirmed_SL_SPE9A",
-            "worm/Hillier_confirmed_introns_SPE9A"
+            "worm/rainbow_transcript_SPE9A",
+            "worm/Hillier_confirmed_introns_SPE9A",
+            "worm/Hillier_confirmed_SL_SPE9A"
          ],
          "submission" : "2835",
          "Strain" : "spe-9(hc88)",
@@ -14816,8 +14816,8 @@
          "Tracks" : [
             "worm/Hillier_confirmed_polyA_DAUD2ENTR",
             "worm/rainbow_transcript_DAUD2ENTR",
-            "worm/Hillier_confirmed_introns_DAUD2ENTR",
-            "worm/rainbow_genelet_DAUD2ENTR"
+            "worm/rainbow_genelet_DAUD2ENTR",
+            "worm/Hillier_confirmed_introns_DAUD2ENTR"
          ],
          "submission" : "2838",
          "Strain" : "daf-2(e1370)",
@@ -14835,8 +14835,8 @@
          "principal_investigator" : "Waterston, R.",
          "Tracks" : [
             "worm/rainbow_transcript_DAUD2EXT",
-            "worm/Hillier_confirmed_introns_DAUD2EXT",
             "worm/rainbow_genelet_DAUD2EXT",
+            "worm/Hillier_confirmed_introns_DAUD2EXT",
             "worm/Hillier_confirmed_SL_DAUD2EXT",
             "worm/Hillier_confirmed_polyA_DAUD2EXT"
          ],
@@ -14919,8 +14919,8 @@
          "principal_investigator" : "Waterston, R.",
          "Tracks" : [
             "worm/Hillier_confirmed_polyA_L1LIN35",
-            "worm/Hillier_confirmed_introns_L1LIN35",
             "worm/rainbow_genelet_L1LIN35",
+            "worm/Hillier_confirmed_introns_L1LIN35",
             "worm/Hillier_confirmed_SL_L1LIN35",
             "worm/rainbow_transcript_L1LIN35"
          ],
@@ -14939,10 +14939,10 @@
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
          "Tracks" : [
-            "worm/Hillier_confirmed_SL_L4DPY28",
             "worm/Hillier_confirmed_polyA_L4DPY28",
-            "worm/rainbow_transcript_L4DPY28",
+            "worm/Hillier_confirmed_SL_L4DPY28",
             "worm/rainbow_genelet_L4DPY28",
+            "worm/rainbow_transcript_L4DPY28",
             "worm/Hillier_confirmed_introns_L4DPY28"
          ],
          "submission" : "2844",
@@ -14982,9 +14982,9 @@
          "principal_investigator" : "Waterston, R.",
          "Tracks" : [
             "worm/Hillier_confirmed_polyA_L2",
+            "worm/rainbow_genelet_L2",
             "worm/Hillier_confirmed_introns_L2",
             "worm/rainbow_transcript_L2",
-            "worm/rainbow_genelet_L2",
             "worm/Hillier_confirmed_SL_L2"
          ],
          "submission" : "2846",
@@ -15025,8 +15025,8 @@
          "principal_investigator" : "Waterston, R.",
          "Tracks" : [
             "worm/Hillier_confirmed_SL_L4",
-            "worm/Hillier_confirmed_introns_L4",
             "worm/rainbow_transcript_L4",
+            "worm/Hillier_confirmed_introns_L4",
             "worm/Hillier_confirmed_polyA_L4",
             "worm/rainbow_genelet_L4"
          ],
@@ -15145,8 +15145,8 @@
          "target" : "mRNA",
          "principal_investigator" : "Celniker, S.",
          "Tracks" : [
-            "fly/L1.2919_BS107.bam.sorted",
-            "fly/L1.2872_merged_hits.sam.bam.sorted"
+            "fly/L1.2872_merged_hits.sam.bam.sorted",
+            "fly/L1.2919_BS107.bam.sorted"
          ],
          "submission" : "2872",
          "Strain" : "Y cn bw sp",

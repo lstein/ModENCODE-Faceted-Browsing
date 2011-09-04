@@ -9,27 +9,29 @@ use warnings;
 
 use JSON;
 use FindBin '$RealBin';
-use lib "$RealBin/../lib";
+use lib "$RealBin/../lib","$RealBin/../perl/lib/perl","$RealBin/../perl/lib/perl/5.10";
 use FacetedBrowsingUtils;
 use LWP::Simple 'get','getprint';
 use Text::ParseWords 'shellwords';
-use Bio::Graphics::FeatureFile;
 use constant BROWSER => 'http://modencode.oicr.on.ca/fgb2/gbrowse/';
 use constant SOURCES => [qw(fly worm fly_ananas fly_dmoj fly_dp fly_simul fly_virilis fly_yakuba)];
+use constant DEST    => "$RealBin/../htdocs/modencode.js";
 
 use constant DEBUG=>0;
 
 my %DATA;
 
 if (DEBUG) {
-    open FH,"$Bin/../data/modencode-22August2011.csv" or die $!;
+    open FH,"$RealBin/../data/modencode-22August2011.csv" or die $!;
 } 
 else {
     # This opens a pipe named FH which fetches the CSV database, cleans it up (fixes capitalization etc)
     # and returns a new CSV.
     # Location of METADATA_URL is currently hard-coded in lib/FacetedBrowsingUtils.pm
     unless (open FH, '-|') { # in child
-	open FIX,"|$Bin/fix_spreadsheet.pl";
+	$DB::inhibit_exit = 0;  # allow me to debug in perl debugger
+	$DB::inhibit_exit = 0;  # allow me to debug in perl debugger (repeat again to avoid perl warning)
+	open FIX,"|$RealBin/fix_spreadsheet.pl";
 	select \*FIX;
 	getprint(METADATA_URL);
 	exit 0;
@@ -73,10 +75,10 @@ my (%seenit,%id2track);
 for my $source (@{SOURCES()}) {
     my $url  = BROWSER . "$source?action=scan";
     my $scan = get($url) or next;
-    my $ff   = Bio::Graphics::FeatureFile->new(-text=>$scan);
-    for my $l ($ff->labels) {
-	my @select = shellwords($ff->setting($l  => 'select'));      # tracks with subtracks
-	my @ds     = shellwords($ff->setting($l  => 'data source')); # tracks without subtracks
+    my $ff   = IniReader->read_string($scan);
+    for my $l (keys %{$ff}) {
+	my @select = shellwords($ff->{$l}{select});         # tracks with subtracks
+	my @ds     = shellwords($ff->{$l}{'data source'});  # tracks without subtracks
 	for my $s (@select) {
 	    my ($subtrack,$id) = split ';',$s;
 	    $id2track{$id}{"$source/$l/$subtrack"}++;
@@ -96,10 +98,21 @@ for my $id (keys %id2track) {
 my @ids   = sort {$a<=>$b} keys %DATA;
 my @items = map {$DATA{$_}} @ids;
 
+open F,'>',DEST or die "Can't open ",DEST,": $!";
 my $json  = JSON->new;
-print $json->pretty->encode({items=>\@items,
-			     types => {'data set' => {pluralLabel=>'data sets'}}
-			    });
+print F $json->pretty->encode({items=>\@items,
+			       types => {'data set' => {pluralLabel=>'data sets'}}
+			      });
+print STDERR "Faceted database successfully updated\n";
 
 exit 0;
 
+package IniReader;
+
+use base 'Config::INI::Reader';
+
+sub can_ignore {
+    my $self = shift;
+    my $line = shift;
+    return $line =~ /^\s*\#/ || $line =~ /^\s*$/;;
+}

@@ -5,7 +5,7 @@
 
 use strict;
 use FindBin '$RealBin';
-use lib "$RealBin/../lib";
+use lib "$RealBin/../lib","$RealBin/../perl/lib/perl","$RealBin/../perl/lib/perl/5.10";
 use FacetedBrowsingUtils;
 use File::Path 'make_path','remove_tree';
 use File::Spec;
@@ -34,7 +34,7 @@ use constant NAME_MAPPING => MODENCODE_DATA . '/MANIFEST.txt';
 # this opens a pipe named FH which fetches the CSV database, cleans it up (fixes capitalization etc)
 # and returns a new CSV
 unless (open FH, '-|') { # in child
-    $DB::inhibit_exit = 0;  # allow me to debug in perl debugger
+    $DB::inhibit_exit = 0;  # allow me to debug in perl debugger (repeated twice to avoid annoying warning)
     open FIX,"|$Bin/fix_spreadsheet.pl";
     select \*FIX;
     getprint(CSV);
