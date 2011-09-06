@@ -57,7 +57,19 @@ Exhibit.ListFacet.createFromDOM = function(configElmt, containerElmt, uiContext)
         if (expressionString != null && expressionString.length > 0) {
             facet._expression = Exhibit.ExpressionParser.parse(expressionString);
         }
-        
+
+	var label = Exhibit.getAttribute(configElmt,'facetlabel');
+
+	// Let the document URL set default selections -- LS 6 September 2011
+        var params = document.location.search.substr(1).split("&");
+        for (var i = 0; i < params.length; i++) {
+	    var a = params[i].split('=');
+	    var facet_label = unescape(a[0]);
+	    var facet_value = unescape(a[1]);
+	    if (facet_label == label) 
+		configElmt.writeAttribute('ex:selection',facet_value);
+	}
+
         var selection = Exhibit.getAttribute(configElmt, "selection", ";");
         if (selection != null && selection.length > 0) {
             for (var i = 0, s; s = selection[i]; i++) {

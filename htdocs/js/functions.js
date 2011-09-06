@@ -332,20 +332,6 @@ function hilite_row (row,turn_on) {
     }
 }
 
-function handle_url_params () {
-    if (document.location.search.length > 0) {
-        var params = document.location.search.substr(1).split("&");
-        for (var i = 0; i < params.length; i++) {
-	    var a = params[i].split('=');
-	    var facet_label = unescape(a[0]);
-	    var facet_value = unescape(a[1]);
-	    var facet = $$('div[ex\\:facetLabel=\''+facet_label+'\']');
-	    if (facet != null && facet.length>0)
-		facet[0].writeAttribute('ex:selection',facet_value);
-        }
-    }
-}
-
 function select_with_yield (track,turnon,index) {
     if (index == null) index = 0;
     if (track == null) return;

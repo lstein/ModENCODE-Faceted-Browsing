@@ -321,7 +321,6 @@ Exhibit._Impl.prototype.configureFromDOM = function(root) {
 };
 
 Exhibit._Impl.prototype.processElmts = function(elmts,uicontext) {
-    alert('processElmts('+elmts.length+')');
     for (var i = 0; i < elmts.length; i++) {
         var elmt = elmts[i];
         try {
@@ -331,7 +330,6 @@ Exhibit._Impl.prototype.processElmts = function(elmts,uicontext) {
                 if (id == null || id.length == 0) {
                     id = "component" + Math.floor(Math.random() * 1000000);
                 }
-		alert(id);
                 this.setComponent(id, component);
             }
         } catch (e) {
