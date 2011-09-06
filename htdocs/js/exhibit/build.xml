@@ -1,0 +1,80 @@
+<!--+
+    |
+    |           +===========================+
+    |           |    Exhibit Build System   |
+    |           +===========================+
+    |
+    | This is just for bundling and minifying javascript and CSS files.
+    |
+    +-->
+
+<project default="bundle" basedir="." name="Exhibit">
+
+  <target name="tasks">
+    <taskdef name="jsmin"
+        classname="edu.mit.simile.jsminTask.JSMinTask"
+        classpath="tools/jsminTask.jar"/>
+  </target>
+      
+  <target name="bundle" depends="tasks">
+    <!-- SimileAjax -->
+    <jsmin output="ajax/simile-ajax-bundle.js">
+        <fileset dir="ajax/scripts">
+            <include name="jquery-1.2.3.js" />
+        </fileset>
+        <fileset dir="ajax/scripts">
+            <include name="platform.js" />
+        </fileset>
+        <fileset dir="ajax/scripts">
+            <include name="**/*.js" />
+            <exclude name="signal.js" />
+            <exclude name="platform.js" />
+            <exclude name="jquery-1.2.3.js" />
+        </fileset>
+    </jsmin>
+      
+    <!-- Exhibit -->
+    <jsmin output="exhibit-bundle.js">
+        <fileset dir="scripts">
+            <include name="**/*.js" />
+            <exclude name="create.js" />
+        </fileset>
+    </jsmin>
+    <concat destfile="exhibit-bundle.css">
+        <fileset dir="styles">
+            <include name="**/*.css" />
+        </fileset>
+    </concat>
+      
+      <!-- ========== Locales ========== -->
+    <jsmin output="locales/en/exhibit-en-bundle.js">
+        <fileset dir="locales/en/scripts">
+            <include name="**/*.js" />
+        </fileset>
+    </jsmin>
+    
+    <jsmin output="locales/es/exhibit-es-bundle.js">
+        <fileset dir="locales/es/scripts">
+            <include name="**/*.js" />
+        </fileset>
+    </jsmin>
+    
+    <jsmin output="locales/fr/exhibit-fr-bundle.js">
+        <fileset dir="locales/fr/scripts">
+            <include name="**/*.js" />
+        </fileset>
+    </jsmin>
+    
+    <jsmin output="locales/sv/exhibit-sv-bundle.js">
+        <fileset dir="locales/sv/scripts">
+            <include name="**/*.js" />
+        </fileset>
+    </jsmin>
+    
+    <jsmin output="locales/zh/exhibit-zh-bundle.js">
+        <fileset dir="locales/zh/scripts">
+            <include name="**/*.js" />
+        </fileset>
+    </jsmin>
+  </target>
+</project>
