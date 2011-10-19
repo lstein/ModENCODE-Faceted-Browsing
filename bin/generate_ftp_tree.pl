@@ -7,15 +7,17 @@ use strict;
 use FindBin '$RealBin';
 use lib "$RealBin/../lib","$RealBin/../perl/lib/perl","$RealBin/../perl/lib/perl/5.10";
 use FacetedBrowsingUtils;
+use MatchMeFile;
 use File::Path 'make_path','remove_tree';
 use File::Spec;
 use File::Basename;
 use File::Find;
-use LWP::Simple 'getprint';
+use LWP::Simple 'getprint','mirror';
 
-# Data file with metadata, filenames, etc. Can be a URL
-#use constant CSV     => 'file:/var/www/spreadsheet.csv';
-use constant CSV      => "file:$Bin/../data/modencode-22August2011.csv";
+my $VERBOSE;
+if ($ARGV[0] =~ /^-[vV]/) {
+    $VERBOSE++;
+}
 
 # This is where the terabyte volume mounts are
 use constant ALL_FILES => 'all_files';
@@ -29,123 +31,156 @@ use constant MNT      => FLAT . '/volume';
 use constant MNT_SUBDIR => 'data';
 
 # The location of the name mapping file
-use constant NAME_MAPPING => MODENCODE_DATA . '/MANIFEST.txt';
+use constant NAME_MAPPING      => MODENCODE_DATA . '/MANIFEST.txt';
+use constant FIXED_SPREADSHEET => MODENCODE_DATA . '/metadata.csv';
 
-# this opens a pipe named FH which fetches the CSV database, cleans it up (fixes capitalization etc)
-# and returns a new CSV
-unless (open FH, '-|') { # in child
-    $DB::inhibit_exit = 0;  # allow me to debug in perl debugger (repeated twice to avoid annoying warning)
-    open FIX,"|$Bin/fix_spreadsheet.pl";
-    select \*FIX;
-    getprint(CSV);
-    exit 0;
+# Location of METADATA_URL and METADATA_FIXED is currently hard-coded in lib/FacetedBrowsingUtils.pm
+my $mirror = '/modencode/release/metadata_mirror.csv';
+mirror(METADATA_URL,$mirror);
+unless (-e METADATA_FIXED && (-M METADATA_FIXED <= -M $mirror) && -s METADATA_FIXED) {
+    open FH,"$RealBin/fix_spreadsheet.pl <$mirror| tee ".METADATA_FIXED."|" or die "pipe: $!";
+} else {
+    open FH,METADATA_FIXED or die METADATA_FIXED,": $!";
 }
 
-my (%Links,%Files);
+my (%Links,%Files,%Metadata,$Row_header,$Count);
 warn "Building database of symbolic file names...\n";
 while (<FH>) {
     chomp;
+    my @fields = split ("\t");
+
     my ($submission,$original_name,$directory,$uniform_filename,$format,
 	$organism,$target,$technique,$factor,$stage,$condition,
-	$replicate_set,$build,$pi,$category) = split ("\t");
+	$replicate_set,$build,$pi,$category) = @fields;
 
-    next if $submission eq 'DCC id';
+    if ($submission eq 'DCC id') {
+	$Row_header = $_;
+	next ;
+    }
+    warn "no submission on $_" unless $submission;
     next unless $submission;
 
-    # Weird. Some filenames have the submission prepended, and others don't :-(
-    $Links{$original_name}                   = [$directory,$uniform_filename,$submission];
-    $Links{"${submission}_${original_name}"} = [$directory,$uniform_filename,$submission];
-}
+    # we are going to quality original filenames with the submission
+    $Links{$original_name}             = [$submission,$directory,$uniform_filename];
 
-warn "Unbinding old mounts...\n";
-remove_old_mounts();
+    # keep a record of the data so that we can write it out
+    $Metadata{$submission}{$original_name} = \@fields;
+    $Count++;
+}
 
 warn "Removing symbolic link tree...\n";
 remove_old_directories();
 
 # now find where all the original files live
 # after this runs %Files will contain filename=>directory-in-which-it-lives
-warn "Cross-mounting data sets...\n";
-find (sub {!/^\./ && -f $_ && ($Files{$_}=$File::Find::dir)},glob(MNT."*/data"));
+warn "Symlinking data sets...\n";
 
-open MANIFEST,"|sort -n >".NAME_MAPPING;
+# recursive find; on name collisions, keep the most recent file
+find (sub {
+    return      if /^\./;
+    return unless -f $_;
+    my $record = {dir   => $File::Find::dir,
+		  mtime => (stat(_))[9]};
+    next if $Files{$_} && ($Files{$_}{mtime} > $record->{mtime});
+    $Files{$_} = $record;
+      },
+      FLAT);
+
+open MANIFEST,"|sort -n >".NAME_MAPPING.'.new'  or die NAME_MAPPING,": $!";;
 print MANIFEST "#<modencode accession>   <original filename>   <uniform filename>\n";
 
-my %Seenit; # find duplicate file errors
-for my $file (keys %Files) {
-    my $link_source = $Links{$file};
+open SPREADSHEET,'>',FIXED_SPREADSHEET. '.new' or die FIXED_SPREADSHEET,": $!";
+print SPREADSHEET $Row_header,"\n";
 
-    # recovery from mismatched file names; there shouldn't be any, but there are!!!!
-  TRY: {
-      last TRY if $link_source;  #found it
+my (%Seenit,%Missing,%MissingS);
+for my $original_name (keys %Links) {
 
-      # try adding a .gz extension
-      if ($file !~ /\.gz$/) {
-	  my $a = "$file.gz";
-	  $link_source = $Links{$a} and last TRY;	  
-      }
+    my ($submission,$link_dir,$link_file) = @{$Links{$original_name}};
 
-      # try adding a .zip extension
-      if ($file !~ /\.zip$/) {
-	  my $a = "$file.zip";
-	  $link_source = $Links{$a} and last TRY;	  
-      }
+    # the last argument allows match_me to return multiple hits;
+    # only allowed case are the SRR files, which have the format SRR12345.fastq, SRR12345_1.fastq, SRR12345_2.fastq
+    my $srr = $original_name =~ /SRR\d+/;
+    my ($m,$explanation) = match_me($original_name,$submission,\%Files,$srr);
 
-      # try removing the submission ID from the file
-      # turns out to be a bad idea because it can lead to link going to wrong file.
-      # (my $a = $file) =~ s/^\d+_//;
-      # $link_source = $Links{$a} and last TRY;
+    # Uncomment this to discard dubious matches, which are usually
+    # related to files from related submissions being deliberately mingled.
+    # next if $explanation =~ /dubious/i;  
 
-      warn "No metadata for $Files{$file}/$file\n";
+    unless ($m) {
+	$Missing{$original_name}++;
+	$MissingS{$submission}++;
+	next;
     }
-    next unless $link_source;
 
-    my ($link_dir,$link_file,$id) = @$link_source;
+    my $matches;
+    if (ref $m && ref $m eq 'ARRAY') {
+	$matches = $m;
+    } else {
+	$matches = [$m];
+    }
+
     $link_dir = File::Spec->catfile(MODENCODE_DATA,$link_dir);
     make_path($link_dir) or die "make_path($link_dir): $!"
 	unless -e $link_dir;
 
-    my $target = File::Spec->catfile($Files{$file},$file);
-    my $source = File::Spec->catfile($link_dir,$link_file);
+    for my $match (sort @$matches) {
 
-    # do an export mount
-    # touch file to create a mount point
-    if ($Seenit{$source}++) {
-	die "File already linked:\nOriginal: $target\nLink name:$source\n";
+	my $target = File::Spec->catfile($Files{$match}{dir},$match);
+	my $source = File::Spec->catfile($link_dir,$link_file);
+
+	# ensure that one link doesn't overwrite another
+	if ($Seenit{$source}++) {
+	    if ($target =~ /(_\d+)\.fastq(?:.gz)?$/) {
+		my $a   = $1;
+		$source =~ s/\.fastq/${a}.fastq/;
+	    } else {
+		my $index = 1;
+		my $candidate;
+		do {
+		    $candidate = $source;
+		    $candidate =~ s/(\.[^.]+(?:\.gz)?)$/-${index}\1/;
+		    $index++;
+		} until !$Seenit{$candidate}++;
+		$source = $candidate;
+	    }
+	}
+
+	$source .= '.gz' unless $source =~ /\.(gz|zip|z|bzip2)$/i;
+	
+	my $data = MODENCODE_DATA;
+	(my $t = $target) =~ s!^$data!../../../..!;
+	symlink $t,$source;
+	
+	(my $a = $target) =~ s/^$data/./;
+	(my $b = $source) =~ s/^$data/./;
+	print MANIFEST join("\t",$submission,$a,$b),"\n";
+	
+	my @fields = @{$Metadata{$submission}{$original_name}};
+	$fields[1] = $match;
+	$fields[2] .= '.gz' unless $fields[2] =~ /\.(gz|zip|z|bzip2)$/i;
+	print SPREADSHEET join("\t",@fields),"\n";
     }
-    open FH,'>',$source or die "Can't write $source: $!";
-    close FH;
-
-    my @args   = ('sudo','mount','--bind',$target,$source);
-    system @args;
-
-    my $data = MODENCODE_DATA;
-    (my $a = $target) =~ s/^$data/./;
-    (my $b = $source) =~ s/^$data/./;
-    print MANIFEST join("\t","$id",$a,$b),"\n";
 }
 
 close MANIFEST;
+close SPREADSHEET;
+rename FIXED_SPREADSHEET.'.new',FIXED_SPREADSHEET;
+rename NAME_MAPPING.'.new',NAME_MAPPING;
+
+my $missing_files = keys %Missing;
+my $missing_subs  = keys %MissingS;
+if ($missing_files > 0) {
+    print STDERR "$missing_files data files of $Count total ($missing_subs submissions) are missing or not mounted.\n";
+    print join "\n",keys %Missing,"\n" if $VERBOSE;
+}
 
 warn "Done!\n";
 
 exit 0;
 
-sub remove_old_mounts {
-    my $all_files = ALL_FILES;
-    open M,"/etc/mtab" or return;
-    while (<M>) {
-	chomp;
-	my ($from,$to) = split /\s+/;
-	next unless $from =~ m!/$all_files/!;
-	system 'sudo','umount',$from;
-    }
-    close M;
-}
-
 sub remove_old_directories {
     my $all_files = ALL_FILES;
-    my @dirs      = grep {!/$all_files/} glob(MODENCODE_DATA."/*");
+    my @dirs      = grep {!/publications|$all_files/} glob(MODENCODE_DATA."/*");
     for my $d (@dirs) {
 	next unless -d $d;
 	remove_tree($d);

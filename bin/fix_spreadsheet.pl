@@ -7,12 +7,14 @@ use FindBin '$Bin';
 use lib "$Bin/../lib";
 use FacetedBrowsingUtils;
 
-my (%seenline,$firstline,%records);
+use constant MAX_FILENAME => 255;
+
+my (%seenline,%records);
 while (<>) {
     chomp;
 
     next if $seenline{$_}++;
-    next unless $firstline++;
+    next if /^DCC id/;
 
     my ($id,$title,$original_name,$path,
 	$organism,$target,$technique,
@@ -22,7 +24,15 @@ while (<>) {
 	undef,undef,undef,undef,$stage,undef,undef,
 	$pi) = split ("\t");
 
-    $original_name = fix_original_name($original_name);
+    $original_name = fix_original_name($original_name);  # this just strips off leading and trailing whitespace
+
+    # this implements a new policy to always prefix original filenames with the submission
+    $original_name = "${id}_$original_name"
+	unless $original_name =~ /^${id}[_.]/;
+    
+    # everything is gzipped
+    $original_name .= '.gz' unless $original_name =~ /\.(gz|zip|z|bzip2)$/i;
+
     $organism      = fix_organism($organism);
     $target        = fix_target($target);
     $stage         = fix_stage($stage);
@@ -37,11 +47,11 @@ while (<>) {
     # some shenanigans to avoid filenames too large
     my $uniform_filename = make_filename($factor,$condition,$technique,$repset,$chiprole,$build,"modENCODE_$id");
     $uniform_filename    = make_filename($factor,$condition,$technique,$repset,$chiprole,shorten_build($build),"modENCODE_$id")
-	if length $uniform_filename > 128;
+	if length $uniform_filename > MAX_FILENAME;
     $uniform_filename    = make_filename($factor,$condition,$technique,$repset,$chiprole,shorten_build($build),$id)
-	if length $uniform_filename > 128;
+	if length $uniform_filename > MAX_FILENAME;
     $uniform_filename    = make_filename($factor,shorten_condition($condition),$technique,$repset,$chiprole,shorten_build($build),$id)
-	if length $uniform_filename > 128;
+	if length $uniform_filename > MAX_FILENAME;
 
     my $directory        = make_directory($organism,$target,$technique,$format);
     
@@ -202,7 +212,7 @@ sub shorten_condition {
     my $condition = shift;
     my @values;
     for my $c (split '#',$condition) {
-	my ($key,$value) = split '_',$c;
+	my ($key,$value) = split '=',$c;
 	push @values,$value;
     }
     return join '#',@values;

@@ -63,6 +63,7 @@ foreach my $temp(@passedParams) {
     if (!(-d "/tmp/session$random_number/modEncode_$typeID[0]")) {
 	mkdir "/tmp/session$random_number/modEncode_$typeID[0]" or die $!;
     }	
+    create_readme("/tmp/session$random_number/modEncode_$typeID[0]");
     #Checking the filetype and seeing if a subdirectory for that filetype exists, if it does not then create it
     if ($typeID[1] eq "raw") {
 	if (!(-d "/tmp/session$random_number/modEncode_$typeID[0]/raw_data_files")) {
@@ -90,6 +91,7 @@ foreach my $temp(@passedParams) {
     chdir "/tmp/session$random_number/";
 
     #Removing all elements from the array	
+    # LS (this is certainly crazy and needs fixing)
     shift (@parameters);
     shift (@parameters);
     shift (@parameters);
@@ -131,4 +133,11 @@ sub check_paths {
 	m!^/!              or die "invalid path: $_";
 	m!$root! or die "invalid path: $_";
     }
+}
+
+sub create_readme {
+    my $dir = shift;
+    my $source = "$dir/README";
+    my $target = '/modencode/data/README';
+    symlink($target,$source);
 }

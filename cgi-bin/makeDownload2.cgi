@@ -23,17 +23,17 @@ chdir "/tmp/$id";
 
 #Specifying the MIME type so that the browser downloads 
 print "Content-Type:application/x-download\n"; 
-print "Content-Disposition:attachment;filename=$downloadName[0].tar.gz\n\n";
+print "Content-Disposition:attachment;filename=$downloadName[0].tar\n\n";
 
 #Streaming the tarball while it is being made 
 #Options/Characters
-#	z = archive
+#	z = archive (not now used because source files are gzipped)
 #	c = compressed
 #	h = dereference symbolic links and get the actual files
 #	* = no output argument is given so it streams to stdout
 #	-| Pipe connecting stdout back to script/download, if this was not there then it would create the 
 #	   tarball and then throw it for download, this way it streams it "live" 
-open my $datastream, '-|', "tar zch *" or die;
+open my $datastream, '-|', "tar ch *" or die;
 while (<$datastream> ) {
 	print;
 }

@@ -1068,7 +1068,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9050_H3K36ME3_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/AB9050_H3K36ME3_N2_L3"
          ],
          "submission" : "175",
          "Strain" : "N2",
@@ -1085,7 +1085,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K4ME3_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/H3K4ME3_N2_L3"
          ],
          "submission" : "176",
          "Strain" : "N2",
@@ -1102,7 +1102,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_CHR_IGG"
+            "worm/LIEB_WIG_CHIPCHIP_CHR_IGG/JA00002_IGG_N2_L3"
          ],
          "submission" : "179",
          "Strain" : "N2",
@@ -1119,7 +1119,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME3_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H3K9/H3K9ME3_N2_L3"
          ],
          "submission" : "188",
          "Strain" : "N2",
@@ -1170,7 +1170,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H4AcTetra"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_S2/H4AcTetra"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "201",
@@ -1272,7 +1272,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/BEAF-HB.S2"
+            "fly/KARPEN_CHIPCHIP_INS_S2/BEAF-HB.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "274",
@@ -1289,7 +1289,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_BG3/CHRIZ_BR.BG3"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_BG3/CHRIZ_BR.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "275",
@@ -1306,7 +1306,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_CL8/CHRIZ_BR.Clone_8"
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_CL8/CHRIZ_BR.Clone_8"
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "276",
@@ -1323,7 +1323,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_Kc/CHRIZ_BR.Kc"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_KC/CHRIZ_BR.Kc"
          ],
          "Cell-Line" : "Kc167",
          "submission" : "277",
@@ -1340,7 +1340,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/CHRIZ_BR.S2"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/CHRIZ_BR.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "278",
@@ -1357,7 +1357,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/CHRIZ_WR.S2"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/CHRIZ_WR.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "279",
@@ -1374,7 +1374,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/CP190_VC.S2"
+            "fly/KARPEN_CHIPCHIP_INS_S2/CP190_VC.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "280",
@@ -1391,7 +1391,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_BG3/CTCF_VC.BG3"
+            "fly/KARPEN_CHIPCHIP_INS_BG3/CTCF_VC.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "282",
@@ -1408,7 +1408,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/CTCF_VC.S2"
+            "fly/KARPEN_CHIPCHIP_INS_S2/CTCF_VC.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "283",
@@ -1425,7 +1425,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_S2/Ez.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/Ez.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "284",
@@ -1442,7 +1442,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/GAF.S2"
+            "fly/KARPEN_CHIPCHIP_INS_S2/GAF.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "285",
@@ -1459,7 +1459,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H2B.ubiq_NRO3.BG3"
+            "fly/KARPEN_CHIPCHIP_HVARS_BG3/H2B.ubiq_NRO3.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "288",
@@ -1476,7 +1476,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_Kc/H2B.ubiq_NRO3.Kc"
+            "fly/KARPEN_CHIPCHIP_HVARS_KC/H2B.ubiq_NRO3.Kc"
          ],
          "Cell-Line" : "Kc167",
          "submission" : "289",
@@ -1493,7 +1493,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H2B.ubiq_NRO3.S2"
+            "fly/KARPEN_CHIPCHIP_HVARS_S2/H2B.ubiq_NRO3.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "290",
@@ -1510,7 +1510,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K18Ac.BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K18Ac.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "291",
@@ -1527,7 +1527,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K18Ac.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K18Ac.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "292",
@@ -1544,7 +1544,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K23Ac.BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K23Ac.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "293",
@@ -1561,7 +1561,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K23Ac.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K23Ac.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "294",
@@ -1578,7 +1578,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K27Ac.BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K27Ac.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "295",
@@ -1595,7 +1595,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K27Ac_S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K27Ac_S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "296",
@@ -1612,7 +1612,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K27Me3_Abcam2.BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K27Me3_Abcam2.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "297",
@@ -1629,7 +1629,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K27Me3_Abcam2.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K27Me3_Abcam2.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "298",
@@ -1646,7 +1646,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K36Me1.BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K36Me1.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "299",
@@ -1663,7 +1663,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K36Me3.BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K36Me3.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "301",
@@ -1680,7 +1680,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_Kc/H3K36Me3.Kc"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_KC/H3K36Me3.Kc"
          ],
          "Cell-Line" : "Kc167",
          "submission" : "302",
@@ -1697,7 +1697,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K36Me3.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K36Me3.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "303",
@@ -1714,7 +1714,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K4Me1.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K4Me1.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "304",
@@ -1731,7 +1731,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K4Me3_LP.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K4Me3_LP.S2"
          ],
          "submission" : "305",
          "label" : "H3K4me3;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -1747,7 +1747,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K79Me2.BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K79Me2.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "306",
@@ -1764,7 +1764,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K79Me2.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K79Me2.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "307",
@@ -1781,7 +1781,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K9Ac.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K9Ac.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "309",
@@ -1798,7 +1798,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K9Me2_Ab2_new.lot.BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K9Me2_Ab2_new.lot.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "310",
@@ -1815,7 +1815,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K9Me2_Ab2.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K9Me2_Ab2.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "311",
@@ -1832,7 +1832,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K9Me3_new.lot.BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K9Me3_new.lot.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "312",
@@ -1849,7 +1849,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K9Me3.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K9Me3.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "313",
@@ -1866,7 +1866,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H4K16Ac_L.BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_BG3/H4K16Ac_L.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "316",
@@ -1883,7 +1883,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_CL8/H4K16Ac_L.Clone_8"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_CL8/H4K16Ac_L.Clone_8"
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "317",
@@ -1900,7 +1900,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_Kc/H4K16Ac_L.Kc"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_KC/H4K16Ac_L.Kc"
          ],
          "Cell-Line" : "Kc167",
          "submission" : "318",
@@ -1917,7 +1917,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H4K16Ac_L.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_S2/H4K16Ac_L.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "319",
@@ -1934,7 +1934,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H4K16Ac_M.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_S2/H4K16Ac_M.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "320",
@@ -1951,7 +1951,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H4K5Ac.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_S2/H4K5Ac.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "321",
@@ -1968,7 +1968,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H4K8Ac.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_S2/H4K8Ac.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "322",
@@ -1984,6 +1984,9 @@
          "factor" : "HP1a",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/HP1a_wa191.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "323",
          "label" : "HP1a;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -1999,7 +2002,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_BG3/MDG4"
+            "fly/KARPEN_CHIPCHIP_INS_BG3/MDG4"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "324",
@@ -2016,7 +2019,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_BG3/Pc.BG3"
+            "fly/KARPEN_CHIPCHIP_POLYCOMB_BG3/Pc.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "325",
@@ -2033,7 +2036,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/Pc.S2"
+            "fly/KARPEN_CHIPCHIP_POLYCOMB_S2/Pc.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "326",
@@ -2050,7 +2053,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_CL8/POL_II_ALG.Clone_8"
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_CL8/POL_II_ALG.Clone_8"
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "327",
@@ -2067,7 +2070,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_Kc/POL_II_ALG.Kc"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_KC/POL_II_ALG.Kc"
          ],
          "Cell-Line" : "Kc167",
          "submission" : "328",
@@ -2084,7 +2087,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/POL_II_ALG.S2"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/POL_II_ALG.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "329",
@@ -2101,7 +2104,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/Su_Hw-HB.S2"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/Su_Hw-HB.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "330",
@@ -2118,7 +2121,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/Su_Hw-VC.S2"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/Su_Hw-VC.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "331",
@@ -2135,7 +2138,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_S2/Trx_C.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/Trx_C.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "332",
@@ -4153,7 +4156,8 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
-            "worm/Snyder_PHA4_GFP_COMB/PHA4_emb_GFP"
+            "worm/Snyder_PHA4_GFP_COMB/PHA4_emb_GFP",
+            "worm/Snyder_PHA4_RECALL/PHA4_emb_GFP"
          ],
          "submission" : "582",
          "Strain" : "OP37",
@@ -4170,7 +4174,8 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
-            "worm/Snyder_PHA4_GFP_COMB/PHA4_StarvedL1_GFP"
+            "worm/Snyder_PHA4_GFP_COMB/PHA4_StarvedL1_GFP",
+            "worm/Snyder_PHA4_RECALL/PHA4_StarvedL1_GFP"
          ],
          "submission" : "584",
          "Strain" : "OP37",
@@ -4187,6 +4192,7 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
+            "worm/Snyder_PHA4_RECALL/PHA4_FedL1_GFP",
             "worm/Snyder_PHA4_GFP_COMB/PHA4_FedL1_GFP"
          ],
          "submission" : "585",
@@ -4857,6 +4863,118 @@
          "organism" : "D. melanogaster"
       },
       {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/Egg_s_3.S-3.WS220.soap.sam_sorted"
+         ],
+         "submission" : "634",
+         "Strain" : "N2",
+         "label" : "small-RNA;N2;Mixed stage of Embryos;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Mixed stage of Embryos",
+         "organism" : "C. elegans"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/L1_s_5.S-3.WS220.soap.sam_sorted"
+         ],
+         "submission" : "635",
+         "Strain" : "N2",
+         "label" : "small-RNA;N2;Mid-L1 4 hrs post-L1 stage larvae;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Mid-L1 4 hrs post-L1 stage larvae",
+         "organism" : "C. elegans"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/L2_s_6.S-3.WS220.soap.sam1_header.sam_sorted"
+         ],
+         "submission" : "636",
+         "Strain" : "N2",
+         "label" : "small-RNA;N2;Mid-L2 14 hrs post-L1 stage larvae;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Mid-L2 14 hrs post-L1 stage larvae",
+         "organism" : "C. elegans"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/L3_s_7.S-3.WS220.soap.sam1_header.sam_sorted"
+         ],
+         "submission" : "637",
+         "Strain" : "N2",
+         "label" : "small-RNA;N2;Mid-L3 25 hrs post-L1 stage larvae;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Mid-L3 25 hrs post-L1 stage larvae",
+         "organism" : "C. elegans"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/L4_s_8.S-3.WS220.soap.sam1_header.sam_sorted"
+         ],
+         "submission" : "638",
+         "Strain" : "N2",
+         "label" : "small-RNA;N2;Mid-L4 36 hrs post-L1 stage larvae;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Mid-L4 36 hrs post-L1 stage larvae",
+         "organism" : "C. elegans"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/YA_Adult_s_1.S-3.WS220.soap.sam1_header.sam_sorted"
+         ],
+         "submission" : "639",
+         "Strain" : "N2",
+         "label" : "small-RNA;N2;Young adult 48 hrs post-L1 stage larvae;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Young adult 48 hrs post-L1 stage larvae",
+         "organism" : "C. elegans"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/yMale_dpyhim_s_6.S-3.WS220.soap.sam_sorted"
+         ],
+         "submission" : "640",
+         "Strain" : "dpy28(y1)",
+         "label" : "small-RNA;dpy28(y1);Young Adult Males;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Young Adult Males",
+         "organism" : "C. elegans"
+      },
+      {
          "technique" : "ChIP-chip",
          "factor" : "nejire",
          "target" : "Non TF Chromatin binding factor",
@@ -5223,7 +5341,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME3_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K9/H3K9ME3_N2_EEMB"
          ],
          "submission" : "691",
          "label" : "H3K9me3;Early Embryos;20 degree celsius;ChIP-chip",
@@ -5300,6 +5418,57 @@
          "Developmental-Stage" : "Mixed Embryos",
          "organism" : "C. elegans",
          "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "DNA-tiling-array",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "Replication-Origin",
+         "target" : "DNA Replication",
+         "principal_investigator" : "MacAlpine, D.",
+         "Tracks" : [
+            "fly/MacAlpine_K_WIG_934_939_941/Kc167"
+         ],
+         "Cell-Line" : "Kc167",
+         "submission" : "709",
+         "label" : "Replication-Origin;Kc167;Late Embryonic stage;embryo-derived cell-line;DNA-tiling-array",
+         "category" : "Replication",
+         "type" : "data set",
+         "Developmental-Stage" : "Late Embryonic stage",
+         "organism" : "D. melanogaster"
+      },
+      {
+         "technique" : "DNA-tiling-array",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "Replication-Origin",
+         "target" : "DNA Replication",
+         "principal_investigator" : "MacAlpine, D.",
+         "Tracks" : [
+            "fly/MacAlpine_K_WIG_934_939_941/S2"
+         ],
+         "Cell-Line" : "S2-DRSC",
+         "submission" : "710",
+         "label" : "Replication-Origin;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;DNA-tiling-array",
+         "category" : "Replication",
+         "type" : "data set",
+         "Developmental-Stage" : "Late Embryonic stage",
+         "organism" : "D. melanogaster"
+      },
+      {
+         "technique" : "DNA-tiling-array",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "Replication-Origin",
+         "target" : "DNA Replication",
+         "principal_investigator" : "MacAlpine, D.",
+         "Tracks" : [
+            "fly/MacAlpine_K_WIG_934_939_941/Bg3"
+         ],
+         "Cell-Line" : "ML-DmBG3-c2",
+         "submission" : "711",
+         "label" : "Replication-Origin;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;DNA-tiling-array",
+         "category" : "Replication",
+         "type" : "data set",
+         "Developmental-Stage" : "Larvae 3rd instar",
+         "organism" : "D. melanogaster"
       },
       {
          "technique" : "RNA-seq",
@@ -5400,6 +5569,21 @@
          "category" : "RNA expression profiling",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
+         "organism" : "D. melanogaster"
+      },
+      {
+         "technique" : "CGH",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "Replication-Copy-Number",
+         "target" : "Copy Number Variation",
+         "principal_investigator" : "Oliver B.",
+         "Cell-Line" : "S2-DRSC",
+         "submission" : "723",
+         "Strain" : "w1118",
+         "label" : "Replication-Copy-Number;S2-DRSC;w1118;Embryos 0-4 hr;embryo-derived cell-line;CGH",
+         "category" : "",
+         "type" : "data set",
+         "Developmental-Stage" : "Embryos 0-4 hr",
          "organism" : "D. melanogaster"
       },
       {
@@ -7796,6 +7980,28 @@
          "organism" : "D. melanogaster"
       },
       {
+         "technique" : "RACE",
+         "factor" : "3-prime-UTR",
+         "target" : "mRNA",
+         "principal_investigator" : "Piano, F.",
+         "Tracks" : [
+            "worm/L2_pilot.sam_sorted",
+            "worm/L3_pilot.sam_sorted",
+            "worm/emb_pilot.sam_sorted",
+            "worm/L4_pilot.sam_sorted",
+            "worm/L1_pilot.sam_sorted",
+            "worm/YA_herm_pilot.sam_sorted"
+         ],
+         "submission" : "896",
+         "Strain" : "N2",
+         "label" : "3-prime-UTR;N2;Mixed Embryos;20 degree celsius;RACE",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Mixed Embryos",
+         "organism" : "C. elegans",
+         "temperature" : "20 degree celsius"
+      },
+      {
          "technique" : "ChIP-chip",
          "factor" : "MRG1",
          "target" : "Non TF Chromatin binding factor",
@@ -7975,7 +8181,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME22C3_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/H3K36ME22C3_N2_EEMB"
          ],
          "submission" : "909",
          "label" : "H3K36me3;Early Embryos;20 degree celsius;ChIP-chip",
@@ -8090,7 +8296,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_BG3/BEAF-70.BG3"
+            "fly/KARPEN_CHIPCHIP_INS_BG3/BEAF-70.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "921",
@@ -8107,7 +8313,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/BEAF-70.S2"
+            "fly/KARPEN_CHIPCHIP_INS_S2/BEAF-70.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "922",
@@ -8124,7 +8330,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_S2/BRE1_Q2539.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/BRE1_Q2539.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "923",
@@ -8141,7 +8347,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_BG3/CP190-HB.BG3"
+            "fly/KARPEN_CHIPCHIP_INS_BG3/CP190-HB.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "924",
@@ -8158,7 +8364,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/CP190-HB.S2"
+            "fly/KARPEN_CHIPCHIP_INS_S2/CP190-HB.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "925",
@@ -8175,7 +8381,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_S2/dMi_2_Q2626.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/dMi_2_Q2626.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "926",
@@ -8192,7 +8398,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_BG3/dRING_Q3200.BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_BG3/dRING_Q3200.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "927",
@@ -8209,7 +8415,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_S2/dRING_Q3200.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/dRING_Q3200.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "928",
@@ -8226,7 +8432,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_CL8/H3K18Ac_new.lot.Clone_8"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_CL8/H3K18Ac_new.lot.Clone_8"
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "930",
@@ -8242,7 +8448,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_OR/H3K36Me3_14_16h_OR_embryo"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K36Me3_14_16h_OR_embryo"
          ],
          "submission" : "931",
          "Strain" : "Oregon-R",
@@ -8258,11 +8464,27 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_OR/H3K36Me3_2_4h_OR_embryo"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K36Me3_2_4h_OR_embryo"
          ],
          "submission" : "932",
          "Strain" : "Oregon-R",
          "label" : "H3K36me3;Oregon-R;Embryos 2-4 hr OR;ChIP-chip",
+         "category" : "Histone modification and replacement",
+         "type" : "data set",
+         "Developmental-Stage" : "Embryos 2-4 hr OR",
+         "organism" : "D. melanogaster"
+      },
+      {
+         "technique" : "ChIP-chip",
+         "factor" : "H3K9me2",
+         "target" : "Histone Modification",
+         "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K9Me2_Ab2_new.lot.2_4h_OR_embryo"
+         ],
+         "submission" : "936",
+         "Strain" : "Oregon-R",
+         "label" : "H3K9me2;Oregon-R;Embryos 2-4 hr OR;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 2-4 hr OR",
@@ -8275,7 +8497,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_CL8/H3K9Me2_Ab2_new.lot.Clone_8"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_CL8/H3K9Me2_Ab2_new.lot.Clone_8"
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "937",
@@ -8292,7 +8514,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_Kc/H3K9Me2_Ab2_new.lot.Kc"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_KC/H3K9Me2_Ab2_new.lot.Kc"
          ],
          "Cell-Line" : "Kc167",
          "submission" : "938",
@@ -8309,7 +8531,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_CL8/H3K9Me3_new.lot.Clone_8"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_CL8/H3K9Me3_new.lot.Clone_8"
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "940",
@@ -8326,7 +8548,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/HP1b_Henikoff.S2"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/HP1b_Henikoff.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "941",
@@ -8343,7 +8565,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_BG3/HP1c_MO462.BG3"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_BG3/HP1c_MO462.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "942",
@@ -8360,7 +8582,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/HP1c_MO462.S2"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/HP1c_MO462.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "943",
@@ -8377,7 +8599,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/HP2_Ab2-90.S2"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/HP2_Ab2-90.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "944",
@@ -8394,7 +8616,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_S2/JIL1_Q3433.S2"
+            "fly/KARPEN_CHIPCHIP_DOSCOMP_S2/JIL1_Q3433.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "945",
@@ -8411,7 +8633,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/WDS_Q2691.S2"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/WDS_Q2691.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "946",
@@ -8428,7 +8650,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_S2/NURF301_Q2602.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/NURF301_Q2602.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "947",
@@ -8445,7 +8667,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_BG3/PCL_Q3412.BG3"
+            "fly/KARPEN_CHIPCHIP_POLYCOMB_BG3/PCL_Q3412.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "948",
@@ -8462,7 +8684,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_Kc/PIWI-Q2569.Kc"
+            "fly/KARPEN_CHIPCHIP_REMODEL_KC/PIWI-Q2569.Kc"
          ],
          "Cell-Line" : "Kc167",
          "submission" : "949",
@@ -8479,7 +8701,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_BG3/POL_II_ALG.BG3"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_BG3/POL_II_ALG.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "950",
@@ -8496,7 +8718,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_BG3/Su_Hw-HB.BG3"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_BG3/Su_Hw-HB.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "951",
@@ -8513,7 +8735,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_BG3/Su_var.3_9.BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_BG3/Su_var.3_9.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "952",
@@ -8530,7 +8752,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/WDS_Q2691.S2"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/WDS_Q2691.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "953",
@@ -8547,7 +8769,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_OR/H3K4Me2_OR_HEADnuc"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K4Me2_OR_HEADnuc"
          ],
          "submission" : "954",
          "Strain" : "Oregon-R",
@@ -8563,7 +8785,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_OR/HP1_Dm_L3nuc"
+            "fly/KARPEN_CHIPCHIP_CHROMPROTS_L3/HP1_Dm_L3nuc"
          ],
          "submission" : "955",
          "Strain" : "Oregon-R",
@@ -8578,6 +8800,9 @@
          "factor" : "H3K9me2",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_L3/H3K9me2antibody2.D.melL3Nuclei"
+         ],
          "submission" : "956",
          "Strain" : "Oregon-R",
          "label" : "H3K9me2;Oregon-R;Larvae 3rd instar;ChIP-chip",
@@ -8593,7 +8818,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_OR/HP1_OR_HEADnuc"
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_OR/HP1_OR_HEADnuc"
          ],
          "submission" : "957",
          "Strain" : "Oregon-R",
@@ -8609,7 +8834,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K9Me3_new.lot.Dm_L3nuc"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_L3/H3K9Me3_new.lot.Dm_L3nuc"
          ],
          "submission" : "958",
          "Strain" : "Oregon-R",
@@ -8621,12 +8846,29 @@
       },
       {
          "technique" : "ChIP-chip",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "H3K79me1",
+         "target" : "Histone Modification",
+         "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K79Me.S2"
+         ],
+         "Cell-Line" : "S2-DRSC",
+         "submission" : "963",
+         "label" : "H3K79me1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
+         "category" : "Histone modification and replacement",
+         "type" : "data set",
+         "Developmental-Stage" : "Late Embryonic stage",
+         "organism" : "D. melanogaster"
+      },
+      {
+         "technique" : "ChIP-chip",
          "Tissue" : "dorsal mesothoracic disc",
          "factor" : "H3K9ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_CL8/H3K9Ac.Clone_8"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_CL8/H3K9Ac.Clone_8"
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "964",
@@ -8643,7 +8885,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K4Me2.Ab.S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K4Me2.Ab.S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "965",
@@ -8659,7 +8901,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_OR/H3K4Me3_LP_2_4h_OR_embryo"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K4Me3_LP_2_4h_OR_embryo"
          ],
          "submission" : "966",
          "Strain" : "Oregon-R",
@@ -8676,7 +8918,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K4Me3.BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K4Me3.BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "967",
@@ -8724,7 +8966,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME313C9_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/H3K36ME313C9_N2_EEMB"
          ],
          "submission" : "973",
          "label" : "H3K36me3;Early Embryos;20 degree celsius;ChIP-chip",
@@ -8771,7 +9013,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME32F3_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K9/H3K9ME32F3_N2_EEMB"
          ],
          "submission" : "982",
          "label" : "H3K9me3;Early Embryos;20 degree celsius;ChIP-chip",
@@ -9215,6 +9457,34 @@
       },
       {
          "technique" : "RNA-seq",
+         "Tissue" : "antenna disc-derived cell-line",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Lai, E.",
+         "Cell-Line" : "ML-DmD20-c5",
+         "submission" : "2002",
+         "label" : "small-RNA;ML-DmD20-c5;Larvae 3rd instar;antenna disc-derived cell-line;RNA-seq",
+         "category" : "RNA expression profiling",
+         "type" : "data set",
+         "Developmental-Stage" : "Larvae 3rd instar",
+         "organism" : "D. melanogaster"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "embryo-derived cell-line",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Lai, E.",
+         "Cell-Line" : "Sg4",
+         "submission" : "2003",
+         "label" : "small-RNA;Sg4;Late Embryonic stage;embryo-derived cell-line;RNA-seq",
+         "category" : "RNA expression profiling",
+         "type" : "data set",
+         "Developmental-Stage" : "Late Embryonic stage",
+         "organism" : "D. melanogaster"
+      },
+      {
+         "technique" : "RNA-seq",
          "Tissue" : "embryo-derived cell-line",
          "factor" : "small-RNA",
          "target" : "small RNA",
@@ -9261,6 +9531,20 @@
          "category" : "RNA expression profiling",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
+         "organism" : "D. melanogaster"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "CNS-derived cell-line",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Lai, E.",
+         "Cell-Line" : "ML-DmBG1-c1",
+         "submission" : "2007",
+         "label" : "small-RNA;ML-DmBG1-c1;Larvae 3rd instar;CNS-derived cell-line;RNA-seq",
+         "category" : "RNA expression profiling",
+         "type" : "data set",
+         "Developmental-Stage" : "Larvae 3rd instar",
          "organism" : "D. melanogaster"
       },
       {
@@ -9635,6 +9919,40 @@
          "temperature" : "20 degree celsius"
       },
       {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/yM_male_mid-L4_25dC_30hrs_post-L1.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2325",
+         "Strain" : "dpy28(y1)",
+         "label" : "total-RNA;dpy28(y1);Male  mid-L4 30 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Male  mid-L4 30 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/L1_20dC_4hrs_post-L1.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2326",
+         "Strain" : "N2",
+         "label" : "total-RNA;N2;Mid-L1 4.0 hrs post-L1 stage larvae;20 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Mid-L1 4.0 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "20 degree celsius"
+      },
+      {
          "technique" : "RACE",
          "factor" : "3-prime-UTR",
          "target" : "mRNA",
@@ -9830,7 +10148,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME2608457_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/H3K36ME2608457_N2_EEMB"
          ],
          "submission" : "2338",
          "label" : "H3K36me2;Early Embryos;20 degree celsius;ChIP-chip",
@@ -9846,7 +10164,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K79ME1361912_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K79/H3K79ME1361912_N2_EEMB"
          ],
          "submission" : "2339",
          "label" : "H3K9me3;Early Embryos;20 degree celsius;ChIP-chip",
@@ -9908,12 +10226,166 @@
          "organism" : "D. melanogaster"
       },
       {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/L1_lin35.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2343",
+         "Strain" : "MT10430",
+         "label" : "total-RNA;MT10430;Lin-35(n745)  mid-L1 4.0 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Lin-35(n745)  mid-L1 4.0 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/YA_Adult_spe-9_23dC_8days_post-L4_molt.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2345",
+         "Strain" : "spe-9(hc88)",
+         "label" : "total-RNA;spe-9(hc88);Adult spe-9(hc88) 8 days post-L4 molt stage larvae;23 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Adult spe-9(hc88) 8 days post-L4 molt stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "23 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/embryo_him-8_20dC_post-L1.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2346",
+         "Strain" : "him-8(e1489)",
+         "label" : "total-RNA;him-8(e1489);Embryos him-8(e1480);20 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Embryos him-8(e1480)",
+         "organism" : "C. elegans",
+         "temperature" : "20 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/L33_dauer_daf-2_25dC_91hrs_post-L1.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2347",
+         "Strain" : "daf-2(e1370)",
+         "label" : "total-RNA;daf-2(e1370);Dauer daf-2(el370) 91 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Dauer daf-2(el370) 91 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/L33_dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2349",
+         "Strain" : "daf-2(e1370)",
+         "label" : "total-RNA;daf-2(e1370);Dauer exit daf-2(el370) 91 hrs 15dC 12 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Dauer exit daf-2(el370) 91 hrs 15dC 12 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/L2_25dC_14hrs_post-L1.all_alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2351",
+         "Strain" : "N2",
+         "label" : "total-RNA;N2;Mid-L2 17.75 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Mid-L2 17.75 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/L3_25dC_25hrs_post-L1.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2352",
+         "Strain" : "N2",
+         "label" : "total-RNA;N2;Mid-L3 26.75 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Mid-L3 26.75 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/L4_25dC_36hrs_post-L1.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2353",
+         "Strain" : "N2",
+         "label" : "total-RNA;N2;Mid-L4 34.25 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/YA_Young_Adult_25dC_46hrs_post-L1.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2354",
+         "Strain" : "N2",
+         "label" : "total-RNA;N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
          "technique" : "ChIP-chip",
          "factor" : "no-antibody-control",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/NA_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/NA_N2_EEMB",
+            "worm/LIEB_WIG_CHIPCHIP_H3K9/NA_N2_EEMB"
          ],
          "submission" : "2364",
          "label" : "no-antibody-control;Early Embryos;20 degree celsius;ChIP-chip",
@@ -9966,8 +10438,8 @@
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
          "Tracks" : [
-            "fly/Lai_RNASEQ_DUAL_T/imaginal_disc_brain",
-            "fly/ID_GSM399105.sam.bam.sorted"
+            "fly/ID_GSM399105.sam.bam.sorted",
+            "fly/Lai_RNASEQ_DUAL_T/imaginal_disc_brain"
          ],
          "submission" : "2376",
          "Strain" : "Canton S",
@@ -10082,12 +10554,29 @@
          "organism" : "D. melanogaster"
       },
       {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/L33_dauer_entry_daf-2_25dC_48hrs_post-L1.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2387",
+         "Strain" : "daf-2(e1370)",
+         "label" : "total-RNA;daf-2(e1370);Dauer entry daf-2(el370) 48 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Dauer entry daf-2(el370) 48 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
          "technique" : "ChIP-chip",
          "factor" : "H3K9me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME32F3_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H3K9/H3K9ME32F3_N2_L3"
          ],
          "submission" : "2398",
          "Strain" : "N2",
@@ -10104,7 +10593,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME22C3_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/H3K36ME22C3_N2_L3"
          ],
          "submission" : "2399",
          "Strain" : "N2",
@@ -10121,7 +10610,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K27ME31E7_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H3K27/H3K27ME31E7_N2_L3"
          ],
          "submission" : "2400",
          "Strain" : "N2",
@@ -10138,7 +10627,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K36ME313C9_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/H3K36ME313C9_N2_L3"
          ],
          "submission" : "2401",
          "Strain" : "N2",
@@ -10155,7 +10644,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K4ME2_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/H3K4ME2_N2_L3"
          ],
          "submission" : "2402",
          "Strain" : "N2",
@@ -10172,7 +10661,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME26D11_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H3K9/H3K9ME26D11_N2_L3"
          ],
          "submission" : "2406",
          "Strain" : "N2",
@@ -10236,14 +10725,14 @@
       },
       {
          "technique" : "ChIP-chip",
-         "factor" : "H3K4me3",
+         "factor" : "H3K79me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME3339901_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K9/H3K9ME3339901_N2_EEMB"
          ],
          "submission" : "2410",
-         "label" : "H3K4me3;Early Embryos;20 degree celsius;ChIP-chip",
+         "label" : "H3K79me1;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
          "type" : "data set",
          "Developmental-Stage" : "Early Embryos",
@@ -10304,6 +10793,7 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
+            "worm/Snyder_ANTIGFP_UNC130_RECALL",
             "worm/Snyder_ANTIGFP_WIG_UNC130_COMB"
          ],
          "submission" : "2430",
@@ -10488,7 +10978,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K79ME2346021_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K79/H3K79ME2346021_N2_EEMB"
          ],
          "submission" : "2442",
          "label" : "H3K79me2;Early Embryos;20 degree celsius;ChIP-chip",
@@ -10504,7 +10994,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K79ME3361576_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K79/H3K79ME3361576_N2_EEMB"
          ],
          "submission" : "2443",
          "label" : "H3K79me3;Early Embryos;20 degree celsius;ChIP-chip",
@@ -10520,7 +11010,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K9ME26D11_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K9/H3K9ME26D11_N2_EEMB"
          ],
          "submission" : "2444",
          "label" : "H3K9me2;Early Embryos;20 degree celsius;ChIP-chip",
@@ -10552,7 +11042,7 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_COMB_GEI11_L4_GFP"
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_GEI11/GEI11_L4_GFP"
          ],
          "submission" : "2451",
          "Strain" : "OP179",
@@ -10958,7 +11448,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/600mM_pellet"
+            "fly/Henikoff_Salt_Ext_S2/600mM_pellet"
          ],
          "extract" : "precipitate",
          "Cell-Line" : "Fly biotin-tagged H2Av",
@@ -10978,7 +11468,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/150mM_fraction"
+            "fly/Henikoff_Salt_Ext_S2/150mM_fraction"
          ],
          "extract" : "soluble fraction",
          "Cell-Line" : "Fly biotin-tagged H2Av",
@@ -10997,6 +11487,9 @@
          "Compound" : "15 mM salt",
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
+         "Tracks" : [
+            "fly/Henikoff_VARS"
+         ],
          "extract" : "soluble fraction",
          "Cell-Line" : "Fly biotin-tagged H2Av",
          "submission" : "2504",
@@ -11014,6 +11507,9 @@
          "Compound" : "15 mM salt",
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
+         "Tracks" : [
+            "fly/Henikoff_VARS"
+         ],
          "extract" : "soluble fraction",
          "Cell-Line" : "Fly biotin-tagged H2A",
          "submission" : "2505",
@@ -11051,7 +11547,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/150mM_fraction_Emb_1-3hr"
+            "fly/Henikoff_Salt_Ext_EMBRYO/150mM_fraction_Emb_1-3hr"
          ],
          "extract" : "soluble fraction",
          "submission" : "2507",
@@ -11070,7 +11566,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/600mM_fraction_Emb_1-3hr"
+            "fly/Henikoff_Salt_Ext_EMBRYO/600mM_fraction_Emb_1-3hr"
          ],
          "extract" : "soluble fraction",
          "submission" : "2508",
@@ -11089,7 +11585,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/600mM_pellet_Emb_1-3hr"
+            "fly/Henikoff_Salt_Ext_EMBRYO/600mM_pellet_Emb_1-3hr"
          ],
          "extract" : "precipitate",
          "submission" : "2509",
@@ -11108,7 +11604,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/150mM_fraction_Emb_4-6hr"
+            "fly/Henikoff_Salt_Ext_EMBRYO/150mM_fraction_Emb_4-6hr"
          ],
          "extract" : "soluble fraction",
          "submission" : "2510",
@@ -11127,7 +11623,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/600mM_fraction_Emb_4-6hr"
+            "fly/Henikoff_Salt_Ext_EMBRYO/600mM_fraction_Emb_4-6hr"
          ],
          "extract" : "soluble fraction",
          "submission" : "2511",
@@ -11146,7 +11642,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/600mM_Pellet_Emb_4-6hr"
+            "fly/Henikoff_Salt_Ext_EMBRYO/600mM_Pellet_Emb_4-6hr"
          ],
          "extract" : "precipitate",
          "submission" : "2512",
@@ -11246,7 +11742,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_S2"
+            "fly/Henikoff_Salt_Ext_S2/80mM_fraction_S2"
          ],
          "extract" : "soluble fraction",
          "Cell-Line" : "S2-DRSC",
@@ -11266,7 +11762,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_H2A"
+            "fly/Henikoff_Salt_Ext_HVARS/80mM_fraction_H2A"
          ],
          "extract" : "soluble fraction",
          "Cell-Line" : "Fly biotin-tagged H2A",
@@ -11286,7 +11782,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_H2Av"
+            "fly/Henikoff_Salt_Ext_HVARS/80mM_fraction_H2Av"
          ],
          "extract" : "soluble fraction",
          "Cell-Line" : "Fly biotin-tagged H2Av",
@@ -11306,7 +11802,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/80mM_fraction_H3.3"
+            "fly/Henikoff_Salt_Ext_HVARS/80mM_fraction_H3.3"
          ],
          "extract" : "soluble fraction",
          "Cell-Line" : "Fly biotin-tagged H3.3",
@@ -11326,7 +11822,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/80-150mM_fraction_H2Av"
+            "fly/Henikoff_Salt_Ext_HVARS/80-150mM_fraction_H2Av"
          ],
          "extract" : "soluble fraction",
          "Cell-Line" : "Fly biotin-tagged H2Av",
@@ -11346,7 +11842,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/80-150mM_fraction_S2"
+            "fly/Henikoff_Salt_Ext_S2/80-150mM_fraction_S2"
          ],
          "extract" : "soluble fraction",
          "Cell-Line" : "S2-DRSC",
@@ -11366,7 +11862,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/80-600mM_fraction_H3.3"
+            "fly/Henikoff_Salt_Ext_HVARS/80-600mM_fraction_H3.3"
          ],
          "extract" : "soluble fraction",
          "Cell-Line" : "Fly biotin-tagged H3.3",
@@ -11386,7 +11882,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/80-600mM_fraction_H2Av"
+            "fly/Henikoff_Salt_Ext_HVARS/80-600mM_fraction_H2Av"
          ],
          "extract" : "soluble fraction",
          "Cell-Line" : "Fly biotin-tagged H2Av",
@@ -11406,7 +11902,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/150-600mM_fraction_H2Av"
+            "fly/Henikoff_Salt_Ext_HVARS/150-600mM_fraction_H2Av"
          ],
          "extract" : "soluble fraction",
          "Cell-Line" : "Fly biotin-tagged H2Av",
@@ -11426,7 +11922,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/150-600mM_fraction_H3.3"
+            "fly/Henikoff_Salt_Ext_HVARS/150-600mM_fraction_H3.3"
          ],
          "extract" : "soluble fraction",
          "Cell-Line" : "Fly biotin-tagged H3",
@@ -11446,7 +11942,7 @@
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
          "Tracks" : [
-            "fly/Henikoff_Salt_Ext_WIG/150-600mM_fraction_S2"
+            "fly/Henikoff_Salt_Ext_S2/150-600mM_fraction_S2"
          ],
          "extract" : "soluble fraction",
          "Cell-Line" : "S2-DRSC",
@@ -12201,6 +12697,95 @@
          "organism" : "D. melanogaster"
       },
       {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "GrowthCondition" : "Harposporium",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/YA_Adult_Harposporium_exposed_2_24hrs.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2580",
+         "Strain" : "N2",
+         "label" : "total-RNA;Harposporium;N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "GrowthCondition" : "E. coli (OP50)",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/YA_Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2581",
+         "Strain" : "N2",
+         "label" : "total-RNA;E. coli (OP50);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "GrowthCondition" : "S. marcescens (Db11)",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/YA_Adult_S_macescens_Db10_exposed_1_24hrs.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2582",
+         "Strain" : "N2",
+         "label" : "total-RNA;S. marcescens (Db11);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/L4_soma_JK1107_no_DNaseI.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2583",
+         "Strain" : "JK1107",
+         "label" : "total-RNA;JK1107;Mid-L4 34.25 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Mid-L4 34.25 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "total-RNA",
+         "target" : "mRNA",
+         "GrowthCondition" : "E. coli (OP50)",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/YA_Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.alignments.ws220.bam.sorted"
+         ],
+         "submission" : "2584",
+         "Strain" : "N2",
+         "label" : "total-RNA;E. coli (OP50);N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Young Adult (pre-gravid) 46 hrs post-L1 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "25 degree celsius"
+      },
+      {
          "technique" : "ChIP-chip",
          "factor" : "Enhancer of zeste",
          "target" : "Non TF Chromatin binding factor",
@@ -12415,6 +13000,7 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
+            "worm/Snyder_PHA4_RECALL/PHA4_GFP_lemb",
             "worm/Snyder_PHA4_GFP_COMB/PHA4_GFP_lemb"
          ],
          "submission" : "2598",
@@ -12432,6 +13018,7 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
+            "worm/Snyder_ANTIGFP_MEP1_RECALL",
             "worm/Snyder_ANTIGFP_WIG_COMB_MEP1_GFP_emb"
          ],
          "submission" : "2600",
@@ -12449,7 +13036,8 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_COMB_MDL1_GFP_L1"
+            "worm/Snyder_ANTIGFP_WIG_COMB_MDL1_GFP_L1",
+            "worm/Snyder_ANTIGFP_MDL1_RECALL"
          ],
          "submission" : "2601",
          "Strain" : "OP106",
@@ -12497,7 +13085,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9048_H3K36ME1206009_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/AB9048_H3K36ME1206009_N2_EEMB"
          ],
          "submission" : "2604",
          "label" : "H3K36me1;Early Embryos;20 degree celsius;ChIP-chip",
@@ -12567,7 +13155,7 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_COMB_LIN15B_GFP_L3"
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_LIN15B/LIN15B_GFP_L3"
          ],
          "submission" : "2610",
          "Strain" : "OP184",
@@ -12601,7 +13189,8 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_COMB_LIN13_GFP_emb"
+            "worm/Snyder_ANTIGFP_WIG_COMB_LIN13_GFP_emb",
+            "worm/Snyder_ANTIGFP_LIN13_RECALL"
          ],
          "submission" : "2613",
          "Strain" : "OP51",
@@ -12666,6 +13255,7 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
+            "worm/Snyder_ANTIGFP_EGL27_RECALL",
             "worm/Snyder_ANTIGFP_WIG_COMB_EGL27_GFP_L1"
          ],
          "submission" : "2621",
@@ -12683,7 +13273,8 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_COMB_SKN1_GFP_L1"
+            "worm/Snyder_ANTIGFP_WIG_COMB_SKN1_GFP_L1",
+            "worm/Snyder_ANTIGFP_COMB_SKN1_RECALL"
          ],
          "submission" : "2622",
          "Strain" : "OP178",
@@ -12700,7 +13291,8 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_COMB_PQM1_GFP_L3"
+            "worm/Snyder_ANTIGFP_WIG_COMB_PQM1_GFP_L3",
+            "worm/Snyder_ANTIGFP_PQM1_RECALL"
          ],
          "submission" : "2623",
          "Strain" : "OP201",
@@ -13007,7 +13599,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9045_H3K9ME1291918_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K9/AB9045_H3K9ME1291918_N2_EEMB"
          ],
          "submission" : "2646",
          "label" : "H3K9me1;Early Embryos;20 degree celsius;ChIP-chip",
@@ -13023,7 +13615,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_OR/CHRIZ_BR_14_16h_OR_emb"
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_OR/CHRIZ_BR_14_16h_OR_emb"
          ],
          "submission" : "2648",
          "Strain" : "Oregon-R",
@@ -13040,7 +13632,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_BG3/Ez_BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_BG3/Ez_BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2650",
@@ -13057,7 +13649,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_BG3/GAF_BG3"
+            "fly/KARPEN_CHIPCHIP_INS_BG3/GAF_BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2651",
@@ -13073,7 +13665,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_OR/H3K18Ac_new_2_4h_OR_emb"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K18Ac_new_2_4h_OR_emb"
          ],
          "submission" : "2652",
          "Strain" : "Oregon-R",
@@ -13090,7 +13682,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K4Me1_BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K4Me1_BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2653",
@@ -13107,7 +13699,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K4Me2_Millipore_BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K4Me2_Millipore_BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2654",
@@ -13124,7 +13716,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K4Me2_Millipore_S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K4Me2_Millipore_S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2655",
@@ -13140,7 +13732,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_OR/H3K4Me2_14_16h_OR_emb"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K4Me2_14_16h_OR_emb"
          ],
          "submission" : "2656",
          "Strain" : "Oregon-R",
@@ -13156,7 +13748,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K4Me2_L3nuc"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_L3/H3K4Me2_L3nuc"
          ],
          "submission" : "2657",
          "Strain" : "Oregon-R",
@@ -13173,7 +13765,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K79Me1_S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K79Me1_S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2658",
@@ -13190,7 +13782,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_BG3/H3K9AcS10P_new_BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K9AcS10P_new_BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2659",
@@ -13207,7 +13799,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_S2/H3K9AcS0P_1new_S2"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K9AcS0P_1new_S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2660",
@@ -13223,7 +13815,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_OR/H3K9Me2_Ab2_new_14_16h_OR_emb"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K9Me2_Ab2_new_14_16h_OR_emb"
          ],
          "submission" : "2661",
          "Strain" : "Oregon-R",
@@ -13239,7 +13831,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_OR/H3K9Me2_Ab2_new_2_4h_OR_emb"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K9Me2_Ab2_new_2_4h_OR_emb"
          ],
          "submission" : "2662",
          "Strain" : "Oregon-R",
@@ -13255,7 +13847,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_OR/H3K9Me3_new_14_16h_OR_emb"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K9Me3_new_14_16h_OR_emb"
          ],
          "submission" : "2663",
          "Strain" : "Oregon-R",
@@ -13272,7 +13864,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODS_OR/H3K9Me3_new_OR_HEADnuc"
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K9Me3_new_OR_HEADnuc"
          ],
          "submission" : "2664",
          "Strain" : "Oregon-R",
@@ -13288,7 +13880,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_OR/HP1_wa191_2_4h_OR_emb"
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_OR/HP1_wa191_2_4h_OR_emb"
          ],
          "submission" : "2665",
          "Strain" : "Oregon-R",
@@ -13305,7 +13897,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_BG3/HP1_wa191_BG3"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_BG3/HP1_wa191_BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2666",
@@ -13322,7 +13914,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_CL8/HP1_wa191_Cl8"
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_CL8/HP1_wa191_Cl8"
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "2667",
@@ -13339,7 +13931,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/HP1a_wa184_S2"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/HP1a_wa184_S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2668",
@@ -13356,7 +13948,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_CL8/HP1c_MO_462_Cl8"
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_CL8/HP1c_MO_462_Cl8"
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "2669",
@@ -13373,7 +13965,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_Kc/HP1c_MO_462_Kc"
+            "fly/KARPEN_CHIPCHIP_CHRPROT_KC/HP1c_MO_462_Kc"
          ],
          "Cell-Line" : "Kc167",
          "submission" : "2670",
@@ -13390,7 +13982,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_BG3/Su_var3_7_Q3448_BG3"
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_BG3/Su_var3_7_Q3448_BG3"
          ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2671",
@@ -13407,7 +13999,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_S2/Su_var3_7_Q3448_S2"
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/Su_var3_7_Q3448_S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2672",
@@ -13424,7 +14016,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_HISMODENZ_S2/Su_var3_9_S2"
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/Su_var3_9_S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2673",
@@ -13441,7 +14033,7 @@
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
          "Tracks" : [
-            "fly/Karpen_CHROMPROTS_S2/mod2_2_VC_S2"
+            "fly/KARPEN_CHIPCHIP_INS_S2/mod2_2_VC_S2"
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2674",
@@ -13703,8 +14295,8 @@
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
          "Tracks" : [
-            "fly/Lai_RNASEQ_DUAL_CELLS/CMEW1_Cl_8",
-            "fly/CMEW1_Cl_8.sam.bam.sorted"
+            "fly/CMEW1_Cl_8.sam.bam.sorted",
+            "fly/Lai_RNASEQ_DUAL_CELLS/CMEW1_Cl_8"
          ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "2721",
@@ -13752,7 +14344,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB8895_H3K4ME1733246_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/AB8895_H3K4ME1733246_N2_EEMB"
          ],
          "submission" : "2726",
          "label" : "H3K4me1;Early Embryos;20 degree celsius;ChIP-chip",
@@ -13779,6 +14371,74 @@
          "temperature" : "20 degree celsius"
       },
       {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/YA_spe9day0_merged_ws220.soap.sam.bam.sorted"
+         ],
+         "submission" : "2730",
+         "Strain" : "spe-9(hc88)",
+         "label" : "small-RNA;spe-9(hc88);Young adult DAY0post-L4 molt stage larvae;23 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Young adult DAY0post-L4 molt stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "23 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/YA_spe9day5_s_2.S3_ws220.soap.sam.bam.sorted"
+         ],
+         "submission" : "2732",
+         "Strain" : "spe-9(hc88)",
+         "label" : "small-RNA;spe-9(hc88);Adult 5 days post-L4 stage larvae;23 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Adult 5 days post-L4 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "23 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/YA_spe9day8_merged_ws220.soap.sam.bam.sorted"
+         ],
+         "submission" : "2733",
+         "Strain" : "spe-9(hc88)",
+         "label" : "small-RNA;spe-9(hc88);Adult spe-9(hc88) 8 days post-L4 molt stage larvae;23 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Adult spe-9(hc88) 8 days post-L4 molt stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "23 degree celsius"
+      },
+      {
+         "technique" : "RNA-seq",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Waterston, R.",
+         "Tracks" : [
+            "worm/YA_spe9day12_s_5.S3_ws220.soap.sam.bam.sorted"
+         ],
+         "submission" : "2734",
+         "Strain" : "spe-9(hc88)",
+         "label" : "small-RNA;spe-9(hc88);Adult 12 days post-L4 stage larvae;23 degree celsius;RNA-seq",
+         "category" : "Gene Structure",
+         "type" : "data set",
+         "Developmental-Stage" : "Adult 12 days post-L4 stage larvae",
+         "organism" : "C. elegans",
+         "temperature" : "23 degree celsius"
+      },
+      {
          "technique" : "ChIP-chip",
          "factor" : "NPP-13",
          "target" : "Non TF Chromatin binding factor",
@@ -13800,7 +14460,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB8896_H3K9ME1104560_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K9/AB8896_H3K9ME1104560_N2_EEMB"
          ],
          "submission" : "2739",
          "label" : "H3K9me1;Early Embryos;20 degree celsius;ChIP-chip",
@@ -13816,7 +14476,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB4729_H3K27AC361571_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K27/AB4729_H3K27AC361571_N2_EEMB"
          ],
          "submission" : "2740",
          "label" : "H3K27ac;Early Embryos;20 degree celsius;ChIP-chip",
@@ -13920,6 +14580,24 @@
          "target" : "small RNA",
          "principal_investigator" : "Lai, E.",
          "Tracks" : [
+            "fly/Lai_RNASEQ_DUAL_T/r2d2_ovaries",
+            "fly/R2_V088.sam.gz.bam.sorted"
+         ],
+         "submission" : "2748",
+         "Strain" : "r2d2 1",
+         "label" : "small-RNA;r2d2 1;Adult Female;Adult ovaries;RNA-seq",
+         "category" : "RNA expression profiling",
+         "type" : "data set",
+         "Developmental-Stage" : "Adult Female",
+         "organism" : "D. melanogaster"
+      },
+      {
+         "technique" : "RNA-seq",
+         "Tissue" : "Adult ovaries",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Lai, E.",
+         "Tracks" : [
             "fly/R2O_V066.sam.bam.sorted",
             "fly/Lai_RNASEQ_DUAL_ENR_T/r2d2_ovaries_Ago1IP"
          ],
@@ -14008,6 +14686,9 @@
          "Compound" : "600 mM salt",
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
+         "Tracks" : [
+            "fly/Henikoff_Salt_Ext_Kc/Kc_600_mM_Salt_Extracted_Chromatin"
+         ],
          "extract" : "soluble fraction",
          "Cell-Line" : "Kc167",
          "submission" : "2756",
@@ -14025,6 +14706,9 @@
          "Compound" : "600 mM salt",
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
+         "Tracks" : [
+            "fly/Henikoff_Salt_Ext_Kc/Kc_600_mM_Salt_Extracted_Chromatin_Pellet"
+         ],
          "extract" : "precipitate",
          "Cell-Line" : "Kc167",
          "submission" : "2757",
@@ -14040,6 +14724,9 @@
          "factor" : "PolyA-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Henikoff, S.",
+         "Tracks" : [
+            "fly/Henikoff_Salt_Ext_TA/Kc_RNA_Expression_Tiling_Array"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "2758",
          "label" : "PolyA-RNA;Kc167;Late Embryonic stage;embryo-derived cell-line;RNA-tiling-array",
@@ -14056,6 +14743,9 @@
          "Compound" : "600 mM salt",
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
+         "Tracks" : [
+            "fly/Henikoff_Salt_Ext_Kc/Kc_H2Av_Knockdown_600_mM_Salt_Extracted_Chromatin"
+         ],
          "extract" : "soluble fraction",
          "Cell-Line" : "Kc167",
          "submission" : "2759",
@@ -14073,6 +14763,9 @@
          "Compound" : "600 mM salt",
          "target" : "Chromatin Structure",
          "principal_investigator" : "Henikoff, S.",
+         "Tracks" : [
+            "fly/Henikoff_Salt_Ext_Kc/Kc_H2Av_Knockdown_600_mM_Salt_Extracted_Chromatin_Pellet"
+         ],
          "extract" : "precipitate",
          "Cell-Line" : "Kc167",
          "submission" : "2760",
@@ -14089,6 +14782,9 @@
          "factor" : "PolyA-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Henikoff, S.",
+         "Tracks" : [
+            "fly/Henikoff_Salt_Ext_TA/Kc_H2Av_Knockdown_RNA_Expression_Tiling_Array"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "2761",
          "label" : "PolyA-RNA;Kc167;CG5499-RNAi;Late Embryonic stage;embryo-derived cell-line;RNA-tiling-array",
@@ -14153,7 +14849,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9051_H4K20ME1104513_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H4/AB9051_H4K20ME1104513_N2_EEMB"
          ],
          "submission" : "2765",
          "label" : "H4K20me1;Early Embryos;20 degree celsius;ChIP-chip",
@@ -14169,7 +14865,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/LPAR109_H4TETRAAC109_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H4/LPAR109_H4TETRAAC109_N2_EEMB"
          ],
          "submission" : "2766",
          "label" : "H4acTetra;Early Embryos;20 degree celsius;ChIP-chip",
@@ -14217,6 +14913,9 @@
          "factor" : "PolyA-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Henikoff, S.",
+         "Tracks" : [
+            "fly/Henikoff_Salt_Ext_TA/S2_RNA_Expression_Tiling_Array"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2769",
          "label" : "PolyA-RNA;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;RNA-tiling-array",
@@ -14231,7 +14930,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9045_H3K9ME1291918_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H3K9/AB9045_H3K9ME1291918_N2_L3"
          ],
          "submission" : "2770",
          "label" : "H3K9me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
@@ -14247,7 +14946,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB4729_H3K27AC361571_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H3K27/AB4729_H3K27AC361571_N2_L3"
          ],
          "submission" : "2771",
          "label" : "H3K27ac;Larvae L3 stage;20 degree celsius;ChIP-chip",
@@ -14263,7 +14962,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/WA30634849_H3K27AC_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H3K27/WA30634849_H3K27AC_N2_L3"
          ],
          "submission" : "2773",
          "label" : "H3K27ac;Larvae L3 stage;20 degree celsius;ChIP-chip",
@@ -14279,7 +14978,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB15823_H4K8AC487128_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H4/AB15823_H4K8AC487128_N2_L3"
          ],
          "submission" : "2774",
          "label" : "H4K8ac;Larvae L3 stage;20 degree celsius;ChIP-chip",
@@ -14295,7 +14994,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB8895_H3K4ME1733246_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/AB8895_H3K4ME1733246_N2_L3"
          ],
          "submission" : "2775",
          "label" : "H3K4me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
@@ -14440,7 +15139,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/AB9051_H4K20ME1104513_N2_L3"
+            "worm/LIEB_WIG_CHIPCHIP_H4/AB9051_H4K20ME1104513_N2_L3"
          ],
          "submission" : "2784",
          "label" : "H4K20me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
@@ -14747,16 +15446,27 @@
       },
       {
          "technique" : "RNA-seq",
+         "Tissue" : "Adult ovaries",
+         "factor" : "small-RNA",
+         "target" : "small RNA",
+         "principal_investigator" : "Lai, E.",
+         "Tracks" : [
+            "fly/Lai_RNASEQ_DUAL_T/Ago2_414_ovaries",
+            "fly/O_V089.sam.gz.bam.sorted"
+         ],
+         "submission" : "2834",
+         "Strain" : "Ago2 414",
+         "label" : "small-RNA;Ago2 414;Adult Female;Adult ovaries;RNA-seq",
+         "category" : "RNA expression profiling",
+         "type" : "data set",
+         "Developmental-Stage" : "Adult Female",
+         "organism" : "D. melanogaster"
+      },
+      {
+         "technique" : "RNA-seq",
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/Hillier_confirmed_polyA_SPE9A",
-            "worm/rainbow_genelet_SPE9A",
-            "worm/rainbow_transcript_SPE9A",
-            "worm/Hillier_confirmed_introns_SPE9A",
-            "worm/Hillier_confirmed_SL_SPE9A"
-         ],
          "submission" : "2835",
          "Strain" : "spe-9(hc88)",
          "label" : "total-RNA;spe-9(hc88);Adult spe-9(hc88) 8 days post-L4 molt stage larvae;23 degree celsius;RNA-seq",
@@ -14771,13 +15481,6 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/Hillier_confirmed_polyA_YA",
-            "worm/rainbow_transcript_YA",
-            "worm/Hillier_confirmed_introns_YA",
-            "worm/rainbow_genelet_YA",
-            "worm/Hillier_confirmed_SL_YA"
-         ],
          "submission" : "2836",
          "Strain" : "N2",
          "label" : "total-RNA;N2;Young Adult (pre-gravid) 46 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
@@ -14792,13 +15495,6 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/Hillier_confirmed_polyA_DAUD2",
-            "worm/Hillier_confirmed_introns_DAUD2",
-            "worm/rainbow_genelet_DAUD2",
-            "worm/Hillier_confirmed_SL_DAUD2",
-            "worm/rainbow_transcript_DAUD2"
-         ],
          "submission" : "2837",
          "Strain" : "daf-2(e1370)",
          "label" : "total-RNA;daf-2(e1370);Dauer daf-2(el370) 91 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
@@ -14813,12 +15509,6 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/Hillier_confirmed_polyA_DAUD2ENTR",
-            "worm/rainbow_transcript_DAUD2ENTR",
-            "worm/rainbow_genelet_DAUD2ENTR",
-            "worm/Hillier_confirmed_introns_DAUD2ENTR"
-         ],
          "submission" : "2838",
          "Strain" : "daf-2(e1370)",
          "label" : "total-RNA;daf-2(e1370);Dauer entry daf-2(el370) 48 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
@@ -14833,13 +15523,6 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/rainbow_transcript_DAUD2EXT",
-            "worm/rainbow_genelet_DAUD2EXT",
-            "worm/Hillier_confirmed_introns_DAUD2EXT",
-            "worm/Hillier_confirmed_SL_DAUD2EXT",
-            "worm/Hillier_confirmed_polyA_DAUD2EXT"
-         ],
          "submission" : "2839",
          "Strain" : "daf-2(e1370)",
          "label" : "total-RNA;daf-2(e1370);Dauer exit daf-2(el370) 91 hrs 15dC 12 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
@@ -14854,13 +15537,6 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/Hillier_confirmed_SL_EE",
-            "worm/rainbow_transcript_EE",
-            "worm/Hillier_confirmed_introns_EE",
-            "worm/Hillier_confirmed_polyA_EE",
-            "worm/rainbow_genelet_EE"
-         ],
          "submission" : "2840",
          "Strain" : "N2",
          "label" : "total-RNA;N2;Early Embryos;25 degree celsius;RNA-seq",
@@ -14875,13 +15551,6 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/Hillier_confirmed_SL_EHIM8",
-            "worm/rainbow_transcript_EHIM8",
-            "worm/Hillier_confirmed_introns_EHIM8",
-            "worm/rainbow_genelet_EHIM8",
-            "worm/Hillier_confirmed_polyA_EHIM8"
-         ],
          "submission" : "2841",
          "Strain" : "him-8(e1489)",
          "label" : "total-RNA;him-8(e1489);Embryos him-8(e1480);20 degree celsius;RNA-seq",
@@ -14896,13 +15565,6 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/rainbow_transcript_LE",
-            "worm/Hillier_confirmed_introns_LE",
-            "worm/Hillier_confirmed_polyA_LE",
-            "worm/Hillier_confirmed_SL_LE",
-            "worm/rainbow_genelet_LE"
-         ],
          "submission" : "2842",
          "Strain" : "N2",
          "label" : "total-RNA;N2;Late Embryos 4.5 hrs post-early embryo;20 degree celsius;RNA-seq",
@@ -14917,13 +15579,6 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/Hillier_confirmed_polyA_L1LIN35",
-            "worm/rainbow_genelet_L1LIN35",
-            "worm/Hillier_confirmed_introns_L1LIN35",
-            "worm/Hillier_confirmed_SL_L1LIN35",
-            "worm/rainbow_transcript_L1LIN35"
-         ],
          "submission" : "2843",
          "Strain" : "MT10430",
          "label" : "total-RNA;MT10430;Lin-35(n745)  mid-L1 4.0 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
@@ -14938,13 +15593,6 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/Hillier_confirmed_polyA_L4DPY28",
-            "worm/Hillier_confirmed_SL_L4DPY28",
-            "worm/rainbow_genelet_L4DPY28",
-            "worm/rainbow_transcript_L4DPY28",
-            "worm/Hillier_confirmed_introns_L4DPY28"
-         ],
          "submission" : "2844",
          "Strain" : "dpy28(y1)",
          "label" : "total-RNA;dpy28(y1);Male  mid-L4 30 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
@@ -14959,13 +15607,6 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/Hillier_confirmed_SL_L1",
-            "worm/Hillier_confirmed_polyA_L1",
-            "worm/Hillier_confirmed_introns_L1",
-            "worm/rainbow_transcript_L1",
-            "worm/rainbow_genelet_L1"
-         ],
          "submission" : "2845",
          "Strain" : "N2",
          "label" : "total-RNA;N2;Mid-L1 4.0 hrs post-L1 stage larvae;20 degree celsius;RNA-seq",
@@ -14980,13 +15621,6 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/Hillier_confirmed_polyA_L2",
-            "worm/rainbow_genelet_L2",
-            "worm/Hillier_confirmed_introns_L2",
-            "worm/rainbow_transcript_L2",
-            "worm/Hillier_confirmed_SL_L2"
-         ],
          "submission" : "2846",
          "Strain" : "N2",
          "label" : "total-RNA;N2;Mid-L2 17.75 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
@@ -15001,14 +15635,6 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/Hillier_confirmed_SL_DAUD2ENTR",
-            "worm/Hillier_confirmed_SL_L3",
-            "worm/rainbow_genelet_L3",
-            "worm/Hillier_confirmed_polyA_L3",
-            "worm/Hillier_confirmed_introns_L3",
-            "worm/rainbow_transcript_L3"
-         ],
          "submission" : "2847",
          "Strain" : "N2",
          "label" : "total-RNA;N2;Mid-L3 26.75 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
@@ -15023,13 +15649,6 @@
          "factor" : "total-RNA",
          "target" : "mRNA",
          "principal_investigator" : "Waterston, R.",
-         "Tracks" : [
-            "worm/Hillier_confirmed_SL_L4",
-            "worm/rainbow_transcript_L4",
-            "worm/Hillier_confirmed_introns_L4",
-            "worm/Hillier_confirmed_polyA_L4",
-            "worm/rainbow_genelet_L4"
-         ],
          "submission" : "2848",
          "Strain" : "N2",
          "label" : "total-RNA;N2;Mid-L4 34.25 hrs post-L1 stage larvae;25 degree celsius;RNA-seq",
@@ -15593,6 +16212,9 @@
          "factor" : "ZFP-1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_CHR_ZFP1/JL00006_ZFP1_N2_MXEMB"
+         ],
          "submission" : "2969",
          "label" : "ZFP-1;Mixed Embryos;20 degree celsius;ChIP-chip",
          "category" : "Other chromatin binding sites",
@@ -15606,6 +16228,9 @@
          "factor" : "Y39G10AR.18",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_CHROMSIL/SDQ4129_Y39G10AR18_N2_MXEMB"
+         ],
          "submission" : "2970",
          "label" : "Y39G10AR.18;Mixed Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -15723,7 +16348,7 @@
       {
          "technique" : "ChIP-seq",
          "Tissue" : "embryo-derived cell-line",
-         "factor" : "MCM2-7",
+         "factor" : "Mcm2-7",
          "target" : "DNA Replication",
          "principal_investigator" : "MacAlpine, D.",
          "Tracks" : [
@@ -15731,7 +16356,7 @@
          ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2979",
-         "label" : "MCM2-7;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-seq",
+         "label" : "Mcm2-7;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-seq",
          "category" : "Replication",
          "type" : "data set",
          "Developmental-Stage" : "Late Embryonic stage",
@@ -15787,6 +16412,9 @@
          "factor" : "ASH1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/ASH1Q4177.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2984",
          "label" : "ASH1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -15815,6 +16443,9 @@
          "factor" : "dSFMBT",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_POLYCOMB_BG3/dSFMBTQ2642.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2986",
          "label" : "dSFMBT;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -15829,6 +16460,9 @@
          "factor" : "E(Z)",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_BG3/EZ-Q3421.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2987",
          "label" : "E(Z);ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -15843,6 +16477,9 @@
          "factor" : "E(Z)",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/EZ-Q3421.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2988",
          "label" : "E(Z);S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -15856,6 +16493,9 @@
          "factor" : "H2AV",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HVARS_OR/H2AV_9751.14-16hrORembryo"
+         ],
          "submission" : "2989",
          "Strain" : "Oregon-R",
          "label" : "H2AV;Oregon-R;Embryos 14-16 hr OR;ChIP-chip",
@@ -15869,6 +16509,9 @@
          "factor" : "H2AV",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HVARS_OR/H2AV_9751.2-4hrORembryo"
+         ],
          "submission" : "2990",
          "Strain" : "Oregon-R",
          "label" : "H2AV;Oregon-R;Embryos 2-4 hr OR;ChIP-chip",
@@ -15883,6 +16526,9 @@
          "factor" : "H2AV",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HVARS_S2/H2AV_9751.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "2991",
          "label" : "H2AV;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -15896,6 +16542,9 @@
          "factor" : "H2Bubi",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HVARS_OR/H2B-ubiq_NRO3.14-16hrORembryo"
+         ],
          "submission" : "2992",
          "Strain" : "Oregon-R",
          "label" : "H2Bubi;Oregon-R;Embryos 14-16 hr OR;ChIP-chip",
@@ -15909,6 +16558,9 @@
          "factor" : "H2Bubi",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HVARS_OR/H2B-ubiq_NRO3.2-4hrORembryo"
+         ],
          "submission" : "2993",
          "Strain" : "Oregon-R",
          "label" : "H2Bubi;Oregon-R;Embryos 2-4 hr OR;ChIP-chip",
@@ -15923,6 +16575,9 @@
          "factor" : "H2Bubi",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HVARS_CL8"
+         ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "2994",
          "label" : "H2Bubi;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
@@ -15936,6 +16591,9 @@
          "factor" : "H3K18ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_L3/H3K18Ac_newlot.D.mel3rdInstarLarvaeNuclei"
+         ],
          "submission" : "2995",
          "Strain" : "Oregon-R",
          "label" : "H3K18ac;Oregon-R;Larvae 3rd instar;ChIP-chip",
@@ -15950,6 +16608,9 @@
          "factor" : "H3K18ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_KC/H3K18Ac_newlot.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "2996",
          "label" : "H3K18ac;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -15963,6 +16624,9 @@
          "factor" : "H3K23ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K23ac.14-16hrORembryo"
+         ],
          "submission" : "2997",
          "Strain" : "Oregon-R",
          "label" : "H3K23ac;Oregon-R;Embryos 14-16 hr OR;ChIP-chip",
@@ -15977,6 +16641,9 @@
          "factor" : "H3K23ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_KC/H3K23ac.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "2998",
          "label" : "H3K23ac;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -15991,6 +16658,9 @@
          "factor" : "H3K27me2",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K27me2-TJ.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "2999",
          "label" : "H3K27me2;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -16005,6 +16675,9 @@
          "factor" : "H3K27me2",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K27me2-TJ.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3000",
          "label" : "H3K27me2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16018,6 +16691,9 @@
          "factor" : "H3K36me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K36me1.2-4hrORembryo"
+         ],
          "submission" : "3001",
          "Strain" : "Oregon-R",
          "label" : "H3K36me1;Oregon-R;Embryos 2-4 hr OR;ChIP-chip",
@@ -16032,6 +16708,9 @@
          "factor" : "H3K36me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_CL8/H3K36me1.Clone_8"
+         ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3002",
          "label" : "H3K36me1;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
@@ -16046,6 +16725,9 @@
          "factor" : "H3K36me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_KC/H3K36me1.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3003",
          "label" : "H3K36me1;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16060,6 +16742,9 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_CL8/H3K36me3.Clone_8"
+         ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3004",
          "label" : "H3K36me3;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
@@ -16074,6 +16759,9 @@
          "factor" : "H3K79me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_BG3/H3K79Me1.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3005",
          "label" : "H3K79me1;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -16087,6 +16775,9 @@
          "factor" : "H3K9ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_L3/H3K9ac.D.mel3rdInstarLarvaeNuclei"
+         ],
          "submission" : "3006",
          "Strain" : "Oregon-R",
          "label" : "H3K9ac;Oregon-R;Larvae 3rd instar;ChIP-chip",
@@ -16101,6 +16792,9 @@
          "factor" : "H3K9ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_KC/H3K9ac.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3007",
          "label" : "H3K9ac;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16114,6 +16808,9 @@
          "factor" : "H3K9acS10P",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_L3/H3K9acS10P_newabcamlot.D.mel3rdInstarLarvaeNuclei"
+         ],
          "submission" : "3008",
          "Strain" : "Oregon-R",
          "label" : "H3K9acS10P;Oregon-R;Larvae 3rd instar;ChIP-chip",
@@ -16128,6 +16825,9 @@
          "factor" : "H3K9acS10P",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_KC/H3K9acS10P_newabcamlot.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3009",
          "label" : "H3K9acS10P;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16142,6 +16842,9 @@
          "factor" : "H3K9acS10P",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_CL8/H3K9acS10P_newlot.Clone_8"
+         ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3010",
          "label" : "H3K9acS10P;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
@@ -16156,6 +16859,9 @@
          "factor" : "H3K9me2",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K9me2-Ab2_newlot.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3011",
          "label" : "H3K9me2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16169,6 +16875,9 @@
          "factor" : "H3K9me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_OR/H3K9me3abcam.2-4hrORembryo"
+         ],
          "submission" : "3012",
          "Strain" : "Oregon-R",
          "label" : "H3K9me3;Oregon-R;Embryos 2-4 hr OR;ChIP-chip",
@@ -16183,6 +16892,9 @@
          "factor" : "H3K9me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_KC/H3K9me3abcam.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3013",
          "label" : "H3K9me3;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16197,6 +16909,9 @@
          "factor" : "h4k20me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_S2/H4K20me.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3014",
          "label" : "h4k20me1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16210,6 +16925,9 @@
          "factor" : "HP1b",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_OR/HP1b_Henikoff.14-16hrORembryo"
+         ],
          "submission" : "3015",
          "Strain" : "Oregon-R",
          "label" : "HP1b;Oregon-R;Embryos 14-16 hr OR;ChIP-chip",
@@ -16224,6 +16942,9 @@
          "factor" : "HP1b",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_CL8/HP1b_Henikoff.Clone_8"
+         ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3017",
          "label" : "HP1b;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
@@ -16238,6 +16959,9 @@
          "factor" : "HP1b",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHRPROT_KC/HP1b_Henikoff.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3019",
          "label" : "HP1b;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16252,6 +16976,9 @@
          "factor" : "HP1b",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/HP1bQ4114.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3020",
          "label" : "HP1b;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16265,6 +16992,9 @@
          "factor" : "HP1c",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_OR/HP1c_MO462.14-16hrORembryo"
+         ],
          "submission" : "3021",
          "Strain" : "Oregon-R",
          "label" : "HP1c;Oregon-R;Embryos 14-16 hr OR;ChIP-chip",
@@ -16278,6 +17008,9 @@
          "factor" : "HP1c",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_OR/HP1c_MO462.2-4hrORembryo"
+         ],
          "submission" : "3022",
          "Strain" : "Oregon-R",
          "label" : "HP1c;Oregon-R;Embryos 2-4 hr OR;ChIP-chip",
@@ -16291,6 +17024,9 @@
          "factor" : "HP1c",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHROMPROTS_L3/HP1c_MO462.D.mel3rdInstarLarvaeNuclei"
+         ],
          "submission" : "3023",
          "Strain" : "Oregon-R",
          "label" : "HP1c;Oregon-R;Larvae 3rd instar;ChIP-chip",
@@ -16304,6 +17040,9 @@
          "factor" : "HP1a",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_OR/HP1wa191.14-16hrORembryo"
+         ],
          "submission" : "3024",
          "Strain" : "Oregon-R",
          "label" : "HP1a;Oregon-R;Embryos 14-16 hr OR;ChIP-chip",
@@ -16317,6 +17056,9 @@
          "factor" : "HP2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_OR/HP2_Ab2-90.14-16hrORembryo"
+         ],
          "submission" : "3025",
          "Strain" : "Oregon-R",
          "label" : "HP2;Oregon-R;Embryos 14-16 hr OR;ChIP-chip",
@@ -16331,6 +17073,9 @@
          "factor" : "HP2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHRPROT_BG3/HP2_Ab2-90.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3026",
          "label" : "HP2;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -16345,6 +17090,9 @@
          "factor" : "HP2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_CL8/HP2_Ab2-90.Clone_8"
+         ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3027",
          "label" : "HP2;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
@@ -16358,6 +17106,9 @@
          "factor" : "HP2",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHROMPROTS_L3/HP2_Ab2-90.D.mel3rdInstarLarvaeNuclei"
+         ],
          "submission" : "3028",
          "Strain" : "Oregon-R",
          "label" : "HP2;Oregon-R;Larvae 3rd instar;ChIP-chip",
@@ -16372,6 +17123,9 @@
          "factor" : "HP2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHRPROT_KC/HP2_Ab2-90.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3029",
          "label" : "HP2;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16386,6 +17140,9 @@
          "factor" : "ISWI",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_REMODEL_BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3030",
          "label" : "ISWI;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -16400,6 +17157,9 @@
          "factor" : "ISWI",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_REMODEL_KC/ISWI_Q4095.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3031",
          "label" : "ISWI;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16414,6 +17174,9 @@
          "factor" : "ISWI",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_REMODEL_S2/ISWI_Q4095.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3032",
          "label" : "ISWI;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16428,6 +17191,9 @@
          "factor" : "JHDM1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/JHDM1_Q2634.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3033",
          "label" : "JHDM1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16441,6 +17207,9 @@
          "factor" : "jil-1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_DOSCOMP_OR"
+         ],
          "submission" : "3034",
          "Strain" : "Oregon-R",
          "label" : "jil-1;Oregon-R;Embryos 14-16 hr OR;ChIP-chip",
@@ -16455,6 +17224,9 @@
          "factor" : "jil-1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_DOSCOMP_BG3/JIL1_Q3433.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3035",
          "label" : "jil-1;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -16469,6 +17241,9 @@
          "factor" : "jil-1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_DOSCOMP_CL8/JIL1_Q3433.Clone_8"
+         ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3036",
          "label" : "jil-1;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
@@ -16483,6 +17258,9 @@
          "factor" : "jil-1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_DOSCOMP_KC_/JIL1_Q3433.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3037",
          "label" : "jil-1;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16497,6 +17275,9 @@
          "factor" : "JIL-1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_DOSCOMP_S2/JIL-1_Q4170.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3038",
          "label" : "JIL-1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16511,6 +17292,9 @@
          "factor" : "MBD-R2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/MBD-R2_Q4167.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3039",
          "label" : "MBD-R2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16525,6 +17309,9 @@
          "factor" : "MLE",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/MLE_Q4142.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3040",
          "label" : "MLE;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16539,6 +17326,9 @@
          "factor" : "MOF",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_DOSCOMP_BG3/MOF_Q4145.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3041",
          "label" : "MOF;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -16553,6 +17343,9 @@
          "factor" : "MOF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_DOSCOMP_CL8/MOF_Q4145.Clone_8"
+         ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3042",
          "label" : "MOF;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
@@ -16567,6 +17360,9 @@
          "factor" : "MOF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_DOSCOMP_KC_/MOF_Q4145.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3043",
          "label" : "MOF;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16581,6 +17377,9 @@
          "factor" : "MOF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_DOSCOMP_S2/MOF_Q4145.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3044",
          "label" : "MOF;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16595,6 +17394,9 @@
          "factor" : "MRG15",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_BG3/MRG15_Q2481.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3045",
          "label" : "MRG15;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -16609,6 +17411,9 @@
          "factor" : "MRG15",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_KC/MRG15_Q2481.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3046",
          "label" : "MRG15;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16623,6 +17428,9 @@
          "factor" : "MRG15",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/MRG15_Q2481.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3047",
          "label" : "MRG15;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16637,6 +17445,9 @@
          "factor" : "Nurf301",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_REMODEL_S2/Nurf301_Q4159.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3048",
          "label" : "Nurf301;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16651,6 +17462,9 @@
          "factor" : "PCL",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_POLYCOMB_S2/PCLQ3412.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3049",
          "label" : "PCL;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16678,6 +17492,9 @@
          "factor" : "PIWI",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_REMODEL_L3"
+         ],
          "submission" : "3051",
          "Strain" : "Oregon-R",
          "label" : "PIWI;Oregon-R;Larvae 3rd instar;ChIP-chip",
@@ -16692,6 +17509,9 @@
          "factor" : "POF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHRPROT_BG3/POF_MO459.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3052",
          "label" : "POF;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -16705,6 +17525,9 @@
          "factor" : "POF",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHROMPROTS_L3/POF_MO459.D.mel3rdInstarLarvaeNuclei"
+         ],
          "submission" : "3053",
          "Strain" : "Oregon-R",
          "label" : "POF;Oregon-R;Larvae 3rd instar;ChIP-chip",
@@ -16719,6 +17542,9 @@
          "factor" : "PR-Set7",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/PR-Set7_Q3484.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3054",
          "label" : "PR-Set7;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16733,6 +17559,9 @@
          "factor" : "Psc",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_POLYCOMB_BG3/Psc.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3055",
          "label" : "Psc;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -16761,6 +17590,9 @@
          "factor" : "RPD3",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/RPD3-Q3451.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3057",
          "label" : "RPD3;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16775,6 +17607,9 @@
          "factor" : "SPT16",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_REMODEL_S2/SPT16_Q2583.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3058",
          "label" : "SPT16;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16789,6 +17624,9 @@
          "factor" : "Su(var)3-7",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_KC/Su_var_3-7-Q3448.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3060",
          "label" : "Su(var)3-7;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16803,6 +17641,9 @@
          "factor" : "Su(var)3-9",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_S2/Su_var_3-9-Q2598.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3061",
          "label" : "Su(var)3-9;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16817,6 +17658,9 @@
          "factor" : "WDS",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_REMODEL_KC/WDS_Q2691.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3062",
          "label" : "WDS;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -16831,6 +17675,9 @@
          "factor" : "ZW5",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_INS_BG3/ZW5.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3064",
          "label" : "ZW5;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -16844,6 +17691,9 @@
          "factor" : "ceh-26",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_CEH26"
+         ],
          "submission" : "3068",
          "Strain" : "OP500",
          "label" : "ceh-26;OP500;Late Embryos;20 degree celsius;ChIP-seq",
@@ -16858,6 +17708,9 @@
          "factor" : "mef-2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_MEF2"
+         ],
          "submission" : "3071",
          "Strain" : "OP301",
          "label" : "mef-2;OP301;Fed L1 stage larvae;20 degree celsius;ChIP-seq",
@@ -16872,6 +17725,9 @@
          "factor" : "efl-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_EFL1/PIE1_EFL1_GFP_YA"
+         ],
          "submission" : "3072",
          "Strain" : "YL445",
          "label" : "efl-1;YL445;Young Adult;20 degree celsius;ChIP-seq",
@@ -16886,6 +17742,9 @@
          "factor" : "dpl-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_DPL1/PIE1_DPL1_GFP_YA"
+         ],
          "submission" : "3073",
          "Strain" : "YL390",
          "label" : "dpl-1;YL390;Young Adult;20 degree celsius;ChIP-seq",
@@ -16900,6 +17759,9 @@
          "factor" : "efl-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_EFL1/Pefl1_EFL1_GFP_L1"
+         ],
          "submission" : "3074",
          "Strain" : "YL424",
          "label" : "efl-1;YL424;Fed L1 stage larvae;20 degree celsius;ChIP-seq",
@@ -16914,6 +17776,9 @@
          "factor" : "dpl-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_DPL1/Pdpl1_DPL1_GFP_L1"
+         ],
          "submission" : "3075",
          "Strain" : "YL425",
          "label" : "dpl-1;YL425;Fed L1 stage larvae;20 degree celsius;ChIP-seq",
@@ -16928,6 +17793,9 @@
          "factor" : "ces-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_CES1/CES1_GFP_L1"
+         ],
          "submission" : "3076",
          "Strain" : "OP174",
          "label" : "ces-1;OP174;Fed L1 stage larvae;20 degree celsius;ChIP-seq",
@@ -16942,6 +17810,9 @@
          "factor" : "lin-15B",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_LIN15B/LIN15B_GFP_L4"
+         ],
          "submission" : "3078",
          "Strain" : "OP184",
          "label" : "lin-15B;OP184;Larvae L4 stage;20 degree celsius;ChIP-seq",
@@ -16956,6 +17827,9 @@
          "factor" : "nhr-11",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_NHR11"
+         ],
          "submission" : "3079",
          "Strain" : "OP305",
          "label" : "nhr-11;OP305;Larvae L2 stage;20 degree celsius;ChIP-seq",
@@ -16970,6 +17844,9 @@
          "factor" : "sea-2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_SEA2"
+         ],
          "submission" : "3082",
          "Strain" : "OP193",
          "label" : "sea-2;OP193;Larvae L3 stage;20 degree celsius;ChIP-seq",
@@ -18095,6 +18972,9 @@
          "factor" : "daf-12",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_DAF12/DAF12_GFP_L3_OP167"
+         ],
          "submission" : "3147",
          "Strain" : "OP167",
          "label" : "daf-12;OP167;Larvae L3 stage;20 degree celsius;ChIP-seq",
@@ -18109,6 +18989,9 @@
          "factor" : "F16B12.6",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_F16B12"
+         ],
          "submission" : "3148",
          "Strain" : "OP114",
          "label" : "F16B12.6;OP114;Fed L1 stage larvae;20 degree celsius;ChIP-seq",
@@ -18123,6 +19006,9 @@
          "factor" : "gei-11",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_GEI11/GEI11_L2_GFP"
+         ],
          "submission" : "3149",
          "Strain" : "OP179",
          "label" : "gei-11;OP179;Larvae L2 stage;20 degree celsius;ChIP-seq",
@@ -18137,6 +19023,9 @@
          "factor" : "H3K79me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K79/AB2621_H3K79ME3361576_N2_MXEMB"
+         ],
          "submission" : "3151",
          "label" : "H3K79me3;Mixed Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -18150,6 +19039,9 @@
          "factor" : "IgG control",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_CHR_IGG/AB46540_NIGG_N2_MXEMB"
+         ],
          "submission" : "3153",
          "Strain" : "N2",
          "label" : "IgG control;N2;Mixed Embryos;20 degree celsius;ChIP-chip",
@@ -18178,7 +19070,7 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_EOR1_COMB"
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_EOR1/EOR1_L3_GFP"
          ],
          "submission" : "3155",
          "Strain" : "OP81",
@@ -18195,7 +19087,8 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_ALR1_COMB"
+            "worm/Snyder_ANTIGFP_WIG_ALR1_COMB",
+            "worm/Snyder_ANTIGFP_ALR1_RECALL"
          ],
          "submission" : "3156",
          "Strain" : "OP200",
@@ -18212,7 +19105,8 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
-            "worm/Snyder_ANTIGFP_WIG_COMB_PES1_L4_GFP"
+            "worm/Snyder_ANTIGFP_WIG_COMB_PES1_L4_GFP",
+            "worm/Snyder_ANTIGFP_PES1_RECALL"
          ],
          "submission" : "3157",
          "Strain" : "OP87",
@@ -18229,7 +19123,8 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
-            "worm/Snyder_PHA4_GFP_COMB/PHA4_L2_GFP"
+            "worm/Snyder_PHA4_GFP_COMB/PHA4_L2_GFP",
+            "worm/Snyder_PHA4_RECALL/PHA4_L2_GFP"
          ],
          "submission" : "3158",
          "Strain" : "OP37",
@@ -18242,7 +19137,7 @@
       },
       {
          "technique" : "ChIP-seq",
-         "factor" : "dfd",
+         "factor" : "egl-5",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
@@ -18250,7 +19145,7 @@
          ],
          "submission" : "3159",
          "Strain" : "OP54",
-         "label" : "dfd;OP54;Larvae L3 stage;20 degree celsius;ChIP-seq",
+         "label" : "egl-5;OP54;Larvae L3 stage;20 degree celsius;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
          "Developmental-Stage" : "Larvae L3 stage",
@@ -18263,7 +19158,8 @@
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
          "Tracks" : [
-            "worm/Snyder_PHA4_GFP_COMB/PHA4_GFP_YA"
+            "worm/Snyder_PHA4_GFP_COMB/PHA4_GFP_YA",
+            "worm/Snyder_PHA4_RECALL/PHA4_GFP_YA"
          ],
          "submission" : "3161",
          "Strain" : "OP37",
@@ -18279,6 +19175,9 @@
          "factor" : "LEM-2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHROMNUC_ENV/SDQ4051_LEM2_SP646_MXEMB"
+         ],
          "submission" : "3164",
          "Strain" : "SP646",
          "label" : "LEM-2;SP646;Mixed Embryos;20 degree celsius;ChIP-chip",
@@ -18293,6 +19192,9 @@
          "factor" : "LEM-2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHROMNUC_ENV/SDQ3891_LEM2_VC1317_MXEMB"
+         ],
          "submission" : "3165",
          "Strain" : "VC1317",
          "label" : "LEM-2;VC1317;Mixed Embryos;20 degree celsius;ChIP-chip",
@@ -18307,6 +19209,9 @@
          "factor" : "LEM-2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHROMNUC_ENV/SDQ4051_LEM2_N2_MXEMB"
+         ],
          "submission" : "3166",
          "label" : "LEM-2;Mixed Embryos;20 degree celsius;ChIP-chip",
          "category" : "Other chromatin binding sites",
@@ -18321,6 +19226,9 @@
          "factor" : "H3K36me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H3_S2/H3K36me1.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3170",
          "label" : "H3K36me1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -18334,6 +19242,9 @@
          "factor" : "H3K27me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K27/HK00013_H3K27ME31E7_N2_EEMB"
+         ],
          "submission" : "3171",
          "label" : "H3K27me3;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -18383,6 +19294,9 @@
          "factor" : "H3K27me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K27/UP07448_H3K27ME124439_N2_EEMB"
+         ],
          "submission" : "3179",
          "label" : "H3K27me1;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -18396,6 +19310,9 @@
          "factor" : "H3K27me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K27/TJ00001_H3K27ME18835_N2_EEMB"
+         ],
          "submission" : "3180",
          "label" : "H3K27me1;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -18409,6 +19326,9 @@
          "factor" : "H4K8ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H4/AB15823_H4K8AC487128_N2_EEMB"
+         ],
          "submission" : "3181",
          "label" : "H4K8ac;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -18422,6 +19342,9 @@
          "factor" : "H4K16ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H4/MP07329_H4K16ACDAM1612187_N2_EEMB"
+         ],
          "submission" : "3182",
          "label" : "H4K16ac;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -18517,6 +19440,9 @@
          "factor" : "H4K20me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H4/DISN147_H4K20ME1001_N2_LTEMB"
+         ],
          "submission" : "3196",
          "label" : "H4K20me1;Late Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -18531,7 +19457,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K4ME3_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/H3K4ME3_N2_EEMB"
          ],
          "submission" : "3197",
          "label" : "H3K4me3;Early Embryos;20 degree celsius;ChIP-chip",
@@ -18547,7 +19473,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/H3K4ME2_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/H3K4ME2_N2_EEMB"
          ],
          "submission" : "3198",
          "label" : "H3K4me2;Early Embryos;20 degree celsius;ChIP-chip",
@@ -18563,7 +19489,7 @@
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
          "Tracks" : [
-            "worm/LIEB_WIG_CHIPCHIP_HIS/MP07030_H3K4ME2DAM1570816_N2_EEMB"
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/MP07030_H3K4ME2DAM1570816_N2_EEMB"
          ],
          "submission" : "3199",
          "label" : "H3K4me2;Early Embryos;20 degree celsius;ChIP-chip",
@@ -18578,6 +19504,9 @@
          "factor" : "H3K27ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K27/WA30634849_H3K27AC_N2_EEMB"
+         ],
          "submission" : "3200",
          "label" : "H3K27ac;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -18608,6 +19537,9 @@
          "factor" : "H3K79me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K79/AB2886_H3K79ME1361912_N2_MXEMB"
+         ],
          "submission" : "3202",
          "label" : "H3K79me1;Mixed Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -18621,6 +19553,9 @@
          "factor" : "H3K27me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K27/UP07448_H3K27ME124439_N2_L3"
+         ],
          "submission" : "3203",
          "label" : "H3K27me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -18634,6 +19569,9 @@
          "factor" : "H3K79me2",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K79/AB3594_H3K79ME2346021_N2_MXEMB"
+         ],
          "submission" : "3204",
          "label" : "H3K79me2;Mixed Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -18647,6 +19585,9 @@
          "factor" : "H3K36me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/AB9048_H3K36ME1206009_N2_L3"
+         ],
          "submission" : "3205",
          "label" : "H3K36me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -18660,6 +19601,9 @@
          "factor" : "h3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_COREHIS/AB1791_H3_N2_L3"
+         ],
          "submission" : "3206",
          "Strain" : "N2",
          "label" : "h3;N2;Larvae L3 stage;20 degree celsius;ChIP-chip",
@@ -18674,6 +19618,9 @@
          "factor" : "W03F9.2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_W03F9"
+         ],
          "submission" : "3217",
          "Strain" : "OP215",
          "label" : "W03F9.2;OP215;L4-Young Adult stage larvae;20 degree celsius;ChIP-seq",
@@ -18688,6 +19635,9 @@
          "factor" : "zag-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_ZAG1/ZAG1_GFP_L2"
+         ],
          "submission" : "3220",
          "Strain" : "OP83",
          "label" : "zag-1;OP83;Larvae L2 stage;20 degree celsius;ChIP-seq",
@@ -18702,6 +19652,9 @@
          "factor" : "ces-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_CES1/CES1_GFP_L4"
+         ],
          "submission" : "3221",
          "Strain" : "OP174",
          "label" : "ces-1;OP174;Larvae L4 stage;20 degree celsius;ChIP-seq",
@@ -18716,6 +19669,9 @@
          "factor" : "unc-62",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_UNC62/UNC62_GFP_L3"
+         ],
          "submission" : "3222",
          "Strain" : "OP600",
          "label" : "unc-62;OP600;Larvae L3 stage;20 degree celsius;ChIP-seq",
@@ -18730,6 +19686,9 @@
          "factor" : "nhr-28",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_NHR28/NHR28_GFP_L4"
+         ],
          "submission" : "3223",
          "Strain" : "OP317",
          "label" : "nhr-28;OP317;Larvae L4 stage;20 degree celsius;ChIP-seq",
@@ -18744,6 +19703,9 @@
          "factor" : "fos-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_FOS1/FOS1_GFP_L2"
+         ],
          "submission" : "3224",
          "Strain" : "OP304",
          "label" : "fos-1;OP304;Larvae L2 stage;20 degree celsius;ChIP-seq",
@@ -18758,6 +19720,9 @@
          "factor" : "dfd",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRANSFACT/10T-E16-24h_GFP"
+         ],
          "submission" : "3229",
          "Strain" : "10T-DFD-GFP",
          "label" : "dfd;10T-DFD-GFP;Embryos 16-24 hr;ChIP-seq",
@@ -18771,6 +19736,9 @@
          "factor" : "dfd",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRANSFACT/10T-W3L_GFP"
+         ],
          "submission" : "3230",
          "Strain" : "10T-DFD-GFP",
          "label" : "dfd;10T-DFD-GFP;Larvae L3 stage;ChIP-seq",
@@ -18784,6 +19752,9 @@
          "factor" : "cad",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_GAP/7T_3dFemale"
+         ],
          "submission" : "3231",
          "Strain" : "7T-CAD",
          "label" : "cad;7T-CAD;Adult Female 3days;ChIP-seq",
@@ -18812,6 +19783,9 @@
          "factor" : "nejire",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_NAJIRE/E0-4_CBP"
+         ],
          "submission" : "3233",
          "label" : "nejire;Embryos 0-4 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -18824,6 +19798,9 @@
          "factor" : "tll",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_HOMEOTIC/E0-4_GFP_tll"
+         ],
          "submission" : "3234",
          "label" : "tll;Embryos 0-4 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -18836,6 +19813,9 @@
          "factor" : "Disco",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_PRONEUR"
+         ],
          "submission" : "3235",
          "label" : "Disco;Embryos 0-8 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -18848,6 +19828,9 @@
          "factor" : "dfd",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_HOMEOTIC/E0-8_GFP_Dfd"
+         ],
          "submission" : "3236",
          "label" : "dfd;Embryos 0-8 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -18860,6 +19843,9 @@
          "factor" : "PCL",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_POLYCOMB"
+         ],
          "submission" : "3237",
          "label" : "PCL;Embryos 0-8 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -18872,6 +19858,9 @@
          "factor" : "GAF",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRITHORAX"
+         ],
          "submission" : "3238",
          "label" : "GAF;Embryos 16-24 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -18884,6 +19873,9 @@
          "factor" : "eve",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_HOMEOTIC/E1-6_GFP_eve"
+         ],
          "submission" : "3239",
          "label" : "eve;Embryos 1-6 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -18896,6 +19888,9 @@
          "factor" : "CG8478",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRANSFACT/E8-16_CG8478"
+         ],
          "submission" : "3240",
          "label" : "CG8478;Embryos 8-16 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -18908,6 +19903,9 @@
          "factor" : "Huckebein",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_GAP/E8-16_hkb"
+         ],
          "submission" : "3242",
          "label" : "Huckebein;Embryos 8-16 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -18920,6 +19918,9 @@
          "factor" : "KNI",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRANSFACT/E8-16_kni"
+         ],
          "submission" : "3243",
          "label" : "KNI;Embryos 8-16 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -19011,6 +20012,9 @@
          "factor" : "unc-62",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_UNC62/UNC62_GFP_L2"
+         ],
          "submission" : "3254",
          "Strain" : "OP600",
          "label" : "unc-62;OP600;Larvae L2 stage;20 degree celsius;ChIP-seq",
@@ -19348,6 +20352,9 @@
          "factor" : "Nucleosome",
          "target" : "Chromatin Structure",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LiebNUCL/Lieb_Mononucleosomes_DH245_AD"
+         ],
          "submission" : "3276",
          "Strain" : "fem-2(b245)",
          "label" : "Nucleosome;fem-2(b245);Germline containing young adult;20 degree celsius;DNA-seq",
@@ -19397,6 +20404,9 @@
          "factor" : "ASH1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_BG3/ASH1Q4177.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3279",
          "label" : "ASH1;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -19411,6 +20421,9 @@
          "factor" : "CTCF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_INS_BG3/CTCF.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3280",
          "label" : "CTCF;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -19425,6 +20438,9 @@
          "factor" : "CTCF",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_INS_S2/CTCF.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3281",
          "label" : "CTCF;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -19439,6 +20455,9 @@
          "factor" : "H2AV",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HVARS_KC/H2AV_9751.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3282",
          "label" : "H2AV;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -19453,6 +20472,9 @@
          "factor" : "H2BK5ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HVARS_S2/H2BK5ac.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3283",
          "label" : "H2BK5ac;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -19466,6 +20488,9 @@
          "factor" : "h4k20me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_OR"
+         ],
          "submission" : "3285",
          "Strain" : "Oregon-R",
          "label" : "h4k20me1;Oregon-R;Embryos 14-16 hr OR;ChIP-chip",
@@ -19480,6 +20505,9 @@
          "factor" : "h4k20me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_BG3/H4K20me_2ndlot.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3286",
          "label" : "h4k20me1;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -19494,6 +20522,9 @@
          "factor" : "h4k20me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_KC/H4K20me_2ndlot.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3287",
          "label" : "h4k20me1;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -19508,6 +20539,9 @@
          "factor" : "H4K8ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_CL8/H4K8ac.Clone_8"
+         ],
          "Cell-Line" : "CME-W1-Cl.8+",
          "submission" : "3288",
          "label" : "H4K8ac;CME-W1-Cl.8+;Larvae 3rd instar;dorsal mesothoracic disc;ChIP-chip",
@@ -19522,6 +20556,9 @@
          "factor" : "H4K8ac",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODS_H4_KC/H4K8ac.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3289",
          "label" : "H4K8ac;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -19535,6 +20572,9 @@
          "factor" : "HP1b",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHROMPROT_OR/HP1bQ4114.14-16hrORembryo"
+         ],
          "submission" : "3290",
          "Strain" : "Oregon-R",
          "label" : "HP1b;Oregon-R;Embryos 14-16 hr OR;ChIP-chip",
@@ -19549,6 +20589,9 @@
          "factor" : "HP1c",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/HP1cQ4064.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3291",
          "label" : "HP1c;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -19563,6 +20606,9 @@
          "factor" : "MSL-1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_DOSCOMP_S2/MSL-1_Q4453.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3293",
          "label" : "MSL-1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -19577,6 +20623,9 @@
          "factor" : "pol2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_CHRPROT_S2/RNAPolII_abcam.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3295",
          "label" : "pol2;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -19591,6 +20640,9 @@
          "factor" : "RPD3",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_KC/RPD3-Q3451.Kc"
+         ],
          "Cell-Line" : "Kc167",
          "submission" : "3296",
          "label" : "RPD3;Kc167;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -19604,6 +20656,9 @@
          "factor" : "Su(var)3-7",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HISMODENZ_OR"
+         ],
          "submission" : "3297",
          "Strain" : "Oregon-R",
          "label" : "Su(var)3-7;Oregon-R;Embryos 14-16 hr OR;ChIP-chip",
@@ -19632,6 +20687,9 @@
          "factor" : "H1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HVARS_BG3/H1.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3299",
          "label" : "H1;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -19646,6 +20704,9 @@
          "factor" : "H1",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HVARS_S2/H1.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3300",
          "label" : "H1;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -19660,6 +20721,9 @@
          "factor" : "H3",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HVARS_BG3/H3antibody3.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3302",
          "label" : "H3;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -19674,6 +20738,9 @@
          "factor" : "H4",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HVARS_BG3/H4.BG3"
+         ],
          "Cell-Line" : "ML-DmBG3-c2",
          "submission" : "3303",
          "label" : "H4;ML-DmBG3-c2;Larvae 3rd instar;CNS-derived cell-line;ChIP-chip",
@@ -19688,6 +20755,9 @@
          "factor" : "H4",
          "target" : "Histone Modification",
          "principal_investigator" : "Karpen, G.",
+         "Tracks" : [
+            "fly/KARPEN_CHIPCHIP_HVARS_S2/H4.S2"
+         ],
          "Cell-Line" : "S2-DRSC",
          "submission" : "3304",
          "label" : "H4;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip",
@@ -19858,6 +20928,9 @@
          "factor" : "H3K79me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K79/AB2886_H3K79ME1_361912_N2_L3"
+         ],
          "submission" : "3320",
          "label" : "H3K79me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -19871,6 +20944,9 @@
          "factor" : "H3K79me2",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K79/AB3594_H3K79ME2346021_N2_L3"
+         ],
          "submission" : "3321",
          "label" : "H3K79me2;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -19884,6 +20960,9 @@
          "factor" : "H3K79me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K79/AB2621_H3K79ME3_361576_N2_L3"
+         ],
          "submission" : "3322",
          "label" : "H3K79me3;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -20004,6 +21083,9 @@
          "factor" : "ZFP-1",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_CHR_ZFP1/JL00006_ZFP1_RB774_MXEMB"
+         ],
          "submission" : "3361",
          "label" : "ZFP-1;Mixed Embryos;20 degree celsius;ChIP-chip",
          "category" : "Other chromatin binding sites",
@@ -20017,6 +21099,9 @@
          "factor" : "C01B12.2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_C01B12"
+         ],
          "submission" : "3371",
          "Strain" : "OP343",
          "label" : "C01B12.2;OP343;Larvae L2 stage;20 degree celsius;ChIP-seq",
@@ -20031,6 +21116,9 @@
          "factor" : "eor-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_EOR1/EOR1_GFP_L3_2"
+         ],
          "submission" : "3372",
          "Strain" : "OP81",
          "label" : "eor-1;OP81;Larvae L3 stage;20 degree celsius;ChIP-seq",
@@ -20062,6 +21150,9 @@
          "factor" : "unc-62",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_UNC62/UNC62_GFP_L1"
+         ],
          "submission" : "3375",
          "Strain" : "OP600",
          "label" : "unc-62;OP600;Fed L1 stage larvae;20 degree celsius;ChIP-seq",
@@ -20076,6 +21167,9 @@
          "factor" : "zag-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_ZAG1/ZAG1_GFP_L3"
+         ],
          "submission" : "3376",
          "Strain" : "OP83",
          "label" : "zag-1;OP83;Larvae L3 stage;20 degree celsius;ChIP-seq",
@@ -20090,6 +21184,9 @@
          "factor" : "zag-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_ZAG1/ZAG1_GFP_L1"
+         ],
          "submission" : "3377",
          "Strain" : "OP83",
          "label" : "zag-1;OP83;Fed L1 stage larvae;20 degree celsius;ChIP-seq",
@@ -20104,6 +21201,9 @@
          "factor" : "F45C12.2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_F45C12"
+         ],
          "submission" : "3378",
          "Strain" : "OP212",
          "label" : "F45C12.2;OP212;Larvae L3 stage;20 degree celsius;ChIP-seq",
@@ -20118,6 +21218,9 @@
          "factor" : "daf-12",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_DAF12/DAF12_GFP_L4"
+         ],
          "submission" : "3380",
          "Strain" : "OP222",
          "label" : "daf-12;OP222;Larvae L4 stage;20 degree celsius;ChIP-seq",
@@ -20132,6 +21235,9 @@
          "factor" : "daf-12",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_DAF12/DAF12_GFP_L3_OP222"
+         ],
          "submission" : "3381",
          "Strain" : "OP222",
          "label" : "daf-12;OP222;Larvae L3 stage;20 degree celsius;ChIP-seq",
@@ -20146,6 +21252,9 @@
          "factor" : "aly-2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_ALY2/ALY2_GFP_L3"
+         ],
          "submission" : "3382",
          "Strain" : "OP217",
          "label" : "aly-2;OP217;Larvae L3 stage;20 degree celsius;ChIP-seq",
@@ -20160,6 +21269,9 @@
          "factor" : "aly-2",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_ALY2/ALY2_GFP_L1"
+         ],
          "submission" : "3384",
          "Strain" : "OP217",
          "label" : "aly-2;OP217;Fed L1 stage larvae;20 degree celsius;ChIP-seq",
@@ -20174,6 +21286,9 @@
          "factor" : "R02D3.7",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_R02D3"
+         ],
          "submission" : "3385",
          "Strain" : "OP218",
          "label" : "R02D3.7;OP218;Larvae L2 stage;20 degree celsius;ChIP-seq",
@@ -20188,6 +21303,9 @@
          "factor" : "nhr-28",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_NHR28/NHR28_GFP_L3"
+         ],
          "submission" : "3386",
          "Strain" : "OP317",
          "label" : "nhr-28;OP317;Larvae L3 stage;20 degree celsius;ChIP-seq",
@@ -20202,6 +21320,9 @@
          "factor" : "fos-1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "Snyder, M.",
+         "Tracks" : [
+            "worm/SNYDER_ANTIGFP_CHIPCHIP_FOS1/FOS1_GFP_L1"
+         ],
          "submission" : "3387",
          "Strain" : "OP304",
          "label" : "fos-1;OP304;Fed L1 stage larvae;20 degree celsius;ChIP-seq",
@@ -20230,6 +21351,9 @@
          "factor" : "LEM-2",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHROMNUC_ENV/SDQ3891_LEM2_SP646_MXEMB"
+         ],
          "submission" : "3389",
          "Strain" : "SP646",
          "label" : "LEM-2;SP646;Mixed Embryos;20 degree celsius;ChIP-chip",
@@ -20244,6 +21368,9 @@
          "factor" : "Hr39",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRANSFACT/E16-24h_Hr39"
+         ],
          "submission" : "3390",
          "label" : "Hr39;Embryos 16-24 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -20256,6 +21383,9 @@
          "factor" : "HP1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRANSFACT/E16-24h_HP1_Abcam"
+         ],
          "submission" : "3391",
          "label" : "HP1;Embryos 16-24 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -20268,6 +21398,9 @@
          "factor" : "HP1",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRANSFACT/E16-24h_HP1_Covance"
+         ],
          "submission" : "3392",
          "label" : "HP1;Embryos 16-24 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -20280,6 +21413,9 @@
          "factor" : "bonus",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRANSFACT/E16-24h_bon"
+         ],
          "submission" : "3393",
          "label" : "bonus;Embryos 16-24 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -20292,6 +21428,9 @@
          "factor" : "Kruppel",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_GAP/E16-24h_Kr-D2"
+         ],
          "submission" : "3394",
          "label" : "Kruppel;Embryos 16-24 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -20304,6 +21443,9 @@
          "factor" : "Dichaete",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRANSFACT/E0-8h_D"
+         ],
          "submission" : "3395",
          "label" : "Dichaete;Embryos 0-8 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -20316,6 +21458,9 @@
          "factor" : "Su(var)3-9",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRANSFACT/E0-12h_SuVar3-9"
+         ],
          "submission" : "3396",
          "label" : "Su(var)3-9;Embryos 0-12 hr;ChIP-seq",
          "category" : "TF binding sites",
@@ -20328,6 +21473,9 @@
          "factor" : "trem",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRANSFACT/A.Female_Trem"
+         ],
          "submission" : "3399",
          "label" : "trem;Adult Female;ChIP-seq",
          "category" : "TF binding sites",
@@ -20337,12 +21485,15 @@
       },
       {
          "technique" : "ChIP-seq",
-         "factor" : "set2",
+         "factor" : "eve",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRANSFACT/R13_E1-6h_Set2"
+         ],
          "submission" : "3400",
          "Strain" : "R13-YFP",
-         "label" : "set2;R13-YFP;Embryos 1-6 hr;ChIP-seq",
+         "label" : "eve;R13-YFP;Embryos 1-6 hr;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 1-6 hr",
@@ -20350,12 +21501,15 @@
       },
       {
          "technique" : "ChIP-seq",
-         "factor" : "nw",
+         "factor" : "eve",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_TRANSFACT/5T_8-16_NW_GFP"
+         ],
          "submission" : "3401",
          "Strain" : "5T-eve-GFP",
-         "label" : "nw;5T-eve-GFP;Embryos 8-16 hr;ChIP-seq",
+         "label" : "eve;5T-eve-GFP;Embryos 8-16 hr;ChIP-seq",
          "category" : "TF binding sites",
          "type" : "data set",
          "Developmental-Stage" : "Embryos 8-16 hr",
@@ -20366,6 +21520,9 @@
          "factor" : "cad",
          "target" : "Transcriptional Factor",
          "principal_investigator" : "White, K.",
+         "Tracks" : [
+            "fly/White_CS_SG_GAP/7T_W3L_GFP"
+         ],
          "submission" : "3403",
          "Strain" : "7T-CAD",
          "label" : "cad;7T-CAD;Larvae L3 stage;ChIP-seq",
@@ -20397,6 +21554,9 @@
          "factor" : "AMA-1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_POL2/SDQ2357_AMA1_N2_MXEMB"
+         ],
          "submission" : "3432",
          "label" : "AMA-1;Mixed Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -20410,6 +21570,9 @@
          "factor" : "H4K20me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H4/DISN147_H4K20ME1_001_N2_EEMB"
+         ],
          "submission" : "3434",
          "label" : "H4K20me1;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -20423,6 +21586,9 @@
          "factor" : "DPY-27",
          "target" : "Non TF Chromatin binding factor",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_DC/JL00001_DPY27_N2_EEMB"
+         ],
          "submission" : "3435",
          "label" : "DPY-27;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Other chromatin binding sites",
@@ -20436,6 +21602,9 @@
          "factor" : "HPL-2",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_CHROMSIL/SDQ2324_HPL2_N2_LTEMB"
+         ],
          "submission" : "3438",
          "label" : "HPL-2;Late Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -20449,6 +21618,9 @@
          "factor" : "LIN-15B",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_TF_"
+         ],
          "submission" : "3439",
          "label" : "LIN-15B;Late Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21732,6 +22904,9 @@
          "factor" : "H4K20me1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H4/DISN147_H4K20ME1_001_N2_L3"
+         ],
          "submission" : "3538",
          "label" : "H4K20me1;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21745,6 +22920,9 @@
          "factor" : "pol2",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_POL2/ABAB817_8WG16_N2_EEMB"
+         ],
          "submission" : "3544",
          "label" : "pol2;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21758,6 +22936,9 @@
          "factor" : "pol2",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_POL2/ABAB817_8WG16_N2_LTEMB"
+         ],
          "submission" : "3545",
          "label" : "pol2;Late Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21771,6 +22952,9 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/WA30534819_H3K4ME3_N2_EEMB_s1"
+         ],
          "submission" : "3546",
          "label" : "H3K4me3;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21784,6 +22968,9 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/WA30534819_H3K4ME3_N2_LTEMB_s2"
+         ],
          "submission" : "3547",
          "label" : "H3K4me3;Late Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21797,6 +22984,9 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/WA30534819_H3K4ME3_N2_L1_s3"
+         ],
          "submission" : "3548",
          "label" : "H3K4me3;Larvae L1 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21810,6 +23000,9 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/WA30534819_H3K4ME3_N2_L2_s4"
+         ],
          "submission" : "3549",
          "label" : "H3K4me3;Larvae L2 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21823,6 +23016,9 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/WA30534819_H3K4ME3_N2_L3_s5"
+         ],
          "submission" : "3550",
          "label" : "H3K4me3;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21836,6 +23032,9 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/WA30534819_H3K4ME3_N2_L4_s6"
+         ],
          "submission" : "3551",
          "label" : "H3K4me3;Larvae L4 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21849,6 +23048,9 @@
          "factor" : "H3K4me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K4/WA30534819_H3K4ME3_N2_YA_s7"
+         ],
          "submission" : "3552",
          "label" : "H3K4me3;Germline containing young adult;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21862,6 +23064,9 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/HK00001_H3K36ME3_13C9_N2_EEMB_s1"
+         ],
          "submission" : "3553",
          "label" : "H3K36me3;Early Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21875,6 +23080,9 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/HK00001_H3K36ME3_13C9_N2_LTEMB_s2"
+         ],
          "submission" : "3554",
          "label" : "H3K36me3;Late Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21888,6 +23096,9 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/HK00001_H3K36ME3_13C9_N2_L1_s3"
+         ],
          "submission" : "3555",
          "label" : "H3K36me3;Larvae L1 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21901,6 +23112,9 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/HK00001_H3K36ME3_13C9_N2_L2_s4"
+         ],
          "submission" : "3556",
          "label" : "H3K36me3;Larvae L2 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21914,6 +23128,9 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/HK00001_H3K36ME3_13C9_N2_L3_s5"
+         ],
          "submission" : "3557",
          "label" : "H3K36me3;Larvae L3 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21927,6 +23144,9 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/HK00001_H3K36ME3_13C9_N2_L4_s6"
+         ],
          "submission" : "3558",
          "label" : "H3K36me3;Larvae L4 stage;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21940,6 +23160,9 @@
          "factor" : "H3K36me3",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_H3K36/HK00001_H3K36ME3_13C9_N2_YA_s7"
+         ],
          "submission" : "3559",
          "label" : "H3K36me3;Germline containing young adult;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",
@@ -21953,6 +23176,9 @@
          "factor" : "ZFP-1",
          "target" : "Histone Modification",
          "principal_investigator" : "Lieb, J.",
+         "Tracks" : [
+            "worm/LIEB_WIG_CHIPCHIP_CHR_ZFP1/SDQ3517_ZFP1_N2_MXEMB"
+         ],
          "submission" : "3561",
          "label" : "ZFP-1;Mixed Embryos;20 degree celsius;ChIP-chip",
          "category" : "Histone modification and replacement",

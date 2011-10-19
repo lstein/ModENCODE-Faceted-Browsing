@@ -8,7 +8,7 @@ td {
     left: 10em;
 }
 div.header {
-    background: #6ECCF8 url('../top_gradient.png') repeat-x;
+    background: #6ECCF8 url('/top_gradient.png') repeat-x;
     height:60;
     color: white;
 }

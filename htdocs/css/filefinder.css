@@ -83,7 +83,7 @@ tr:hover{
 }
 
 div.header {
-	background: #6ECCF8 url('http://gbrowse.lincolnstein.org/modencode/top_gradient.png') repeat-x;
+	background: #6ECCF8 url('/top_gradient.png') repeat-x;
 	height: 60;
 	color: white;
 	text-align: left;

@@ -2,22 +2,23 @@ package FacetedBrowsingUtils;
 use strict;
 
 use base 'Exporter';
-use FindBin '$Bin';
+use FindBin '$RealBin';
 
 our @EXPORT_OK = qw(
-                    METADATA_URL MODENCODE_ROOT MODENCODE_DATA
+                    METADATA_URL METADATA_FIXED MODENCODE_ROOT MODENCODE_DATA
                     fix_original_name fix_organism fix_stage fix_factor find_category 
                     fix_factor fix_pi fix_target fix_build
                     fix_condition fix_repset);
 our @EXPORT    = @EXPORT_OK;
 
 # Data file with metadata, filenames, etc. Can be a URL
-use constant METADATA_URL     => "file:$Bin/../data/modencode-22August2011.csv";
 use constant MODENCODE_ROOT   => '/modencode';  
 
 # This is the root of the anonymous FTP account
 # top level links, such as D.melanogaster are found here
 use constant MODENCODE_DATA     => MODENCODE_ROOT .'/data';
+use constant METADATA_URL       => 'file:'.MODENCODE_ROOT .'/release/spreadsheet.csv';
+use constant METADATA_FIXED     => '/modencode/release/metadata_fixed.csv';
 
 my %Factor_map = (
 	'BEAF32A and B' => 'BEAF-32',
@@ -225,7 +226,7 @@ sub fix_condition {
 sub fix_build {
     my $b = shift;
     return 'Dmel_R5'     if $b eq 'Dmel_r5.4';
-    return 'Cele_WS220'  if $b eq 'Cele_WS190';
+#    return 'Cele_WS220'  if $b eq 'Cele_WS190';
     return $b;
 }
 

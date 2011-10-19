@@ -1,0 +1,404 @@
+<html>
+<head>
+<title>modENCODE on the EC2 Cloud</title>
+<link rel='stylesheet' href="css/common.css" type='text/css' />
+<link rel='stylesheet' href="css/me.css" type='text/css' />
+
+</head>
+<body style="margin:2em">
+
+<div class="header">
+    <h1><a href="http://www.modencode.org"><img src="http://www.modencode.org/static/img/logo.png" height="60" align="middle" border="0"/></a>
+      modENCODE on the EC2 Cloud</h1>
+</div>
+
+<p>
+Quick Summary:
+<table border="0" style="background-color:white;border:1px solid black">
+<tr><td align="right">Latest modENCODE Public AMI</td><th align="left"><!--image--></th></tr>
+<tr><td align="right">Latest modENCODE Public Data Snapshot</td><th align="left"><!--snapshot--></th></tr>
+</table>
+</p>
+
+<h2>What is it?</h2>
+<p>
+  The entire <a href="http://www.modencode.org">modENCODE</a> data corpus is
+  now available on the <a href="http://aws.amazon.com/">Amazon Web
+  Services</a> EC2 cloud. What this means is that virtual machines and
+  virtual compute clusters that you run within the EC2 cloud can mount
+  the modENCODE data set in whole or in part. Your software can run analyses against
+  the data files directly without experiencing the long waits and logistics associated 
+  with copying the datasets
+  over to your local hardware.
+</p>
+
+<h2>How does it work?</h2>
+
+<p>
+The <a href="http://www.modencode.org/publications/dcc/index.shtml">modENCODE DCC</a>
+has created a series of EC2 snapshots of the modENCODE data sets. Each
+snapshot is between 100 and 1000 GB in size, due to Amazon's 1 TB
+maximum volume size. There are currently 12 such volumes; although
+they are currently a mixture of C. elegans and D. melanogaster date,
+we are in the process of reorganizing the volume contents into
+logically related sets, and the number will change. To manage these
+volumes, we have created a small "root" snapshot that contains
+utilities to mount the large volumes.
+</p>
+
+<p>
+There are two paths for working with the modENCODE data in the
+cloud:
+
+<ol>
+<li>Launch a custom modENCODE AMI (Amazon Machine
+  Image) that has the entire data set pre-mounted. This is the
+  most convenient way, but gives you no flexibility in choosing
+  the machine image or the datasets that will be loaded. The image
+  is derived from a vanilla Ubuntu Maverick image (10.10), 64-bit
+  architecture, with minimal enhancements. The main additions are
+  the existence of FTP and Apache servers that can be used to
+  browse, search and bulk download the datasets.
+</li>
+<li>Launch the machine image of your choice, then attach and mount the
+  modENCODE data root volume. You then run a small script that locates
+  and mounts the other data volumes. This gives you flexibility over
+  which machine image to run and allows you to include only the
+  modENCODE datasets that you care about</li>
+</ol>
+
+<p>
+
+<p>
+Because AWS is a commercial service, you pay for your usage. All fees
+go to Amazon Web Services; neither the modENCODE project nor its
+funding agency (National Institutes of Health, USA) receive
+compensation for this service.
+</p>
+<p>
+
+You will be paying for two main items:
+</p>
+<dl>
+<dt><b>CPU usage</b>
+
+<dd>You pay Amazon for every full or partial hour of virtual machine
+run time you use. The fees range from a few cents per hour to a
+dollar/hr, depending on the type of virtual machine you choose to
+run. See <a href="http://aws.amazon.com/ec2/pricing/">AWS Pricing</a>
+for details.
+
+<dt><b>Disk storage</b>
+
+<dd>You pay Amazon for every GB-month of storage you use. This means
+you will be charged for every copy of the modENCODE data set you make
+for use with your virtual machines. The price is roughly
+$0.10/GB-month of storage, or $400/mo if you mount the entire data set
+(given that the set is currently 4 TB in size).  However, because it
+is quick to create the volumes, you can easily create them from
+snapshot as needed, run them for a few hours or days, and then dispose
+of them.
+</dl>
+
+<p>
+If you are careful to use only what you need, AWS can be much more
+convenient, and often less expensive, than working with the data
+locally.
+</p>
+
+<h2>How do I get started?</h2>
+
+<p>Before you begin, you will need to obtain an Amazon AWS account if
+  you do not already have one. Select the "Sign Up Now" button on
+  the <a href="http://aws.amazon.com">AWS home page</a>.</p>
+
+<p>During the account creation process, you will be given an Access
+  Key ID and an Access Secret Key. Please be sure to record them both,
+  as you will need them to mount modENCODE data snapshots (these data
+  will remain private and will not be seen by modENCODE staff). The
+  scripts do not need the X.509 credentials that certain other AWS
+  applications use.</p>
+
+<h3>Running the modENCODE AMI</h3>
+
+<p>Here are step-by-step instructions for running the modENCODE AMI
+  with all the data sets preloaded. </p>
+<ol>
+
+  <li>Use
+    the <a href="https://console.aws.amazon.com/ec2/home">AWS Console</a> to locate public AMI 
+    <!--image-->.</li>
+
+  <li>Right-click on the image entry and select "Launch Instance". Alternatively, just
+  click on the link at the end of the previous step.</li>
+
+  <li>The launch wizard will guide you through selecting the number of
+  instances to launch, the availability region in which to launch the
+  instance(s), and the SSH keypair to use for login. You may use your
+  default SSH keypair or create a new one.</li>
+
+  <li>When you select the security group, you can decide whether you
+    wish to support the built-in web and FTP servers. If you wish to
+    do so, then create a security group that has the following rules
+    defined:
+    <p>
+    <table border="0">
+      <tr><th>Port</th><th>Source</th><th>Status</th></tr>
+      <tr><td>20 (FTP-data)</td><td>0.0.0.0/0</td><td>Open</td></tr>
+      <tr><td>21 (FTP-comm)</td><td>0.0.0.0/0</td><td>Open</td></tr>
+      <tr><td>22 (SSH)</td><td>0.0.0.0/0</td><td>Open</td></tr>
+      <tr><td>80 (HTTP)</td><td>0.0.0.0/0</td><td>Open</td></tr>
+      <tr><td>12000-12200 (FTP PASV)</td><td>0.0.0.0/0</td><td>Open</td></tr>
+    </table>
+    </p>
+    <p>
+      You may also defer the creation of these rules till later. Just
+      create a security group that has the SSH port open at the time
+      of instance creation. When you are ready to open up the web and
+      FTP ports, log into the instance and run
+      <code><b>/modencode/bin/open_ports.pl</b></code>.
+    </p>
+
+  <li>By default, when you launch the modENCODE image a brief
+    message is logged to modENCODE staff indicating the time and date that
+    the resource was used. More information about why we do this, and instructions
+    to disable it, can be found under
+    <a href="#registration">Logging Usage of the modENCODE Image</a>.
+  </li>
+
+  <li>When the console indicates that the instance is running ssh to
+  its public DNS address using your ssh key and the username "ubuntu":
+    <br>
+    <code>ssh -i <i>path_to_key.pem</i> ubuntu@<i>ec2-xx-xx-xx-xx.compute-1.amazonaws.com</i></code>
+  </li>
+</ol>
+<p>
+See <a href="#layout">Layout of the modENCODE data image</a> for
+information on where the files are located.
+</p>
+
+
+<h3>Attaching the modENCODE Data Root to the Instance of your Choice</h3>
+
+<p>If you wish to attach the modENCODE data to your own instance, there are several steps.</p>
+
+<ol>
+
+  <li>Using the Amazon Console, Elastic Firefox, or the command-line
+    tools of your choice, launch one or more virtual machine instances
+    in the availability zone of your choice. While you are free to
+    use any Amazon Machine Image (AMI) you care to, the modENCODE data
+    management scripts have only been tested on Ubuntu images version
+    10.10 (Maverick) and 11.04 (Natty), both 32-bit and 64-bit
+    versions. The scripts will likely work with other Linux
+    distributions, although some features (such as automatic web
+    server management) will need tweaking. Windows images
+    will <b>not</b> work.
+    The <a href="http://www.bionimbus.org">Bionimbus virtual
+    machine</a> is a nice starting place, as it contains pipelines for
+    peak calling and other common operations. The current Bionimbus
+    AMI is <a href="https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-efa24c86">ami-efa24c86</a> (available in AWS US Eastern region only).
+    For generic Ubuntu choices, see the <a href="http://cloud.ubuntu.com/ami/">Ubuntu AMI Locator</a>.
+  </li>
+
+  <li>During the instance launching process, you will be asked to select an SSH keypair for login,
+    as well as a security group to assign the instance to. You can use your default AWS keypair for
+    this. However, you may wish to create a new security group with just the SSH port open. The reason for this
+    is that the ModENCODE image setup script will open up the FTP and HTTP ports in order to give you
+    browse-level access to the data, and you may not wish to have these ports opened up in your default
+    security group.
+    
+  <li>Once the instance is up and running, create a volume from the modENCODE root snapshot. 
+    With the Amazon Console or tool of your choice, locate public
+    snapshot <b><!--snapshot--></b>. 
+    Be sure to place your volume in the same
+    availability zone as the instance created in the previous step. The root snapshot is small
+    (1 GB) and the volume will be ready to use almost instantly.
+  </li>
+
+  <li>Attach the newly-created volume to your instance. From the
+  console (or other tool), find the volume you just created and attach
+  it to the instance. You may specify any device. The default /dev/sdf works, but we recommend
+  using /dev/sdf1 in order to be consistent with other mountable volumes. This step should complete
+  very quickly.
+  </li>
+
+  <li>Using ssh and the private key selected in step (3), 
+    log onto the instance. Create a mount point called /modencode, and mount the
+    volume:
+<pre>
+sudo mkdir /modencode
+sudo mount /dev/sdf1 /modencode
+</pre>
+  </li>
+
+  <li>[Optional] Edit the file /modencode/DATA_SNAPSHOTS.txt. This
+  contains the list of data snapshots to mount as volumes. To deselect a
+  volume, comment it out by placing a "#" in front of the line. For example:
+<pre>
+# snap-14031774	modENCODE D. melanogaster signal data from 5 September 2011, part 1
+</pre>
+Currently the data is spread out among the volumes without rhyme or reason (it was done
+in order to maximize disk usage efficiency), so you can't choose among functionally-significant
+data sets. However, we are reorganizing the files during September 2011, at which time the
+data snapshot volumes will be sorted by organism and data type.</li>
+
+  <li>Now run the setup script to mount the data volumes:
+<pre>
+  /modencode/bin/setup.pl
+</pre>
+
+This will install a few libraries and then configure the data
+volumes. The script uses "sudo" when necessary, and you may be asked
+for your login password if your instance requires you to do so.
+During the snapshot mounting steps, you will also be asked to provide
+your EC2 Access Key ID and Secret Key. Please enter them. You will be
+given the option to save these keys to a file in your home directory
+to avoid the prompts in the future. Neither the sudo password, nor the
+EC2 secret key ever leaves the instance, and they are not available to
+modENCODE staff.</li>
+
+<li>During the setup process, the script will ask you whether you are willing
+to have a <a href="#registration">log entry</a> sent to the modENCODE staff
+so that we can assess the usage of the AWS resources. This records minimal,
+non-identifying information such as the time and date you mounted the dataset(s).
+Simply answer "no" if you wish to skip this.</li>
+
+<li>That's it! You will find a flat listing of the data at
+/modencode/data/all_files, and a hierarchically-organized set of
+symbolic links (by organism, data type, and technique) at
+/modencode/data.</li>
+</ol>
+
+<h2>Web Services</h2>
+
+<p>
+The default install creates a data browser running on your instance,
+accessible at http://instance-address/. Using the data browser, you
+can quickly browse through the datasets installed on the machine, link
+through the ModMine, and the modENCODE genome browser. If you choose,
+you may download selected datasets as .tar.gz files. In addition,
+there will be an anonymous FTP server running at ftp://instance-address. You may
+choose to turn one or both of these services off:
+</p>
+
+<pre>
+sudo /etc/init.d/apache2 stop
+sudo /etc/init.d/vsftpd stop
+</pre>
+
+<p>To disable them permanently, simply rename the services' startup scripts:</p>
+
+<pre>
+sudo mv /etc/init.d/apache2 /etc/init.d/apache2.off
+sudo mv /etc/init/vsftpd.conf /etc/init/vsftpd.conf.off
+</pre>
+
+<a name="layout">&nbsp;</a>
+<h2>Layout of the modENCODE data image</h2>
+
+<p>
+Regardless of whether you launched the preconfigured modENCODE AMI or
+attached the data volumes to your own instance, the layout is as
+follows:
+
+<dl>
+
+<dt><code><b>/modencode</b></code></dt>
+<dd>The root of all the data and utilities</dd>
+
+<dt><code><b>/modencode/data</b></code></dt>
+<dd>All the data is mounted under this directory. It is also the root
+  for anonymous login of the image's FTP server.
+</dd>
+
+<dt><code><b>/modencode/data/C.elegans, /modencode/data/D.melanogaster,
+  /modencode/data/D.yakuba, ... </b></code></dt>
+<dd>All the datasets, organized hierarchically by species, experiment
+  and datatype. These are actually symbolic links into
+  /modencode/data/all_files. See /modencode/data/README for
+  organization, filenaming scheme and data formats.</dd>
+
+<dt><code><b>/modencode/data/all_files/cele-raw-1,
+  /modencode/data/all_files/cele-raw-2 ...</b></code></dt>
+<dd>These are the mountpoints for the big datasets, organized by
+   species and datatype.</dd>
+
+<dt><code><b>/modencode/data/MANIFEST.txt</b></code></dt>
+<dd>This is a three-column tab-separated file that maps modENCODE accession numbers
+  to their files names. The three columns are:
+  MODENCODE_ACCESSION,ORIGINAL_FILENAME,UNIFORM_FILENAME. The original
+  filename is exactly as submitted by the web lab group, and may be
+  cryptic. In particular, the original filenames sometimes make
+  reference to a genome build, such as C. elegans WS170, on which the
+  data was originally mapped. However, all genome coordinates have
+  been updated to the most recent freeze, WS220 for worm, and R5 for
+  fly. The "uniform" filename is a long, but consistent name that describes the 
+  organism, the target factor, the teechnique, the file format and conditions
+  such as developmental stage. See the README at the top level of /modencode/data
+  for a full description.
+</dd>
+
+<dt><code><b>/modencode/data/metadata.csv</b></code></dt>
+<dd>This is a longer tab-separated file that contains metadata in addition to
+  the filenames. The format is described in
+  /modencode/data/README.</dd>
+
+<dt><code><b>/modencode/bin</b></code></dt>
+<dd>These are Perl scripts that are used for mounting the datasets,
+  initializing the instance, and building the Web and FTP sites.</dd>
+
+<dt><code><b>/modencode/htdocs</b></code></dt>
+<dd>This is the root of the image's Web server.</dd>
+
+<dt><code><b>/modencode/release</b></code></dt>
+<dd>This directory contains files and utilities used by modENCODE
+  staff to create and maintain the image.</dd>
+</dl>
+
+<p>For full information about a dataset of interest, you can retrieve the full experimental protocols and other metadata
+using the following URL:</p>
+<pre>
+    http://intermine.modencode.org/release-25/keywordSearchResults.do?searchTerm=modencode_XXXX&searchSubmit=GO
+</pre>
+
+<p>Replace "XXXX" with the accession number from column 1 of either MANIFEST.txt of metadata.csv. The accession number is also present in the uniform filename.
+</p>
+
+<a name="registration">&nbsp;</a>
+<h2>Logging Usage of the modENCODE Image and/or Snapshot</h2>
+
+<p>
+
+By default we log the first time someone attaches the modENCODE
+datasets or launches an instance based on the modENCODE image. We
+record only the time and date this occurred, the version of the
+snapshot or image that was launched, the availability zone in which
+the resource was used, and the type of machine instance that was used,
+such as "m1.small". The purpose of this logging is assess the usage
+of the resource, and to justify the cost of storing these datasets
+in the cloud.
+
+<p>
+
+If you do not wish this initial logging to occur, you can disable it
+as follows:
+
+<ol>
+  <li>When launching the modENCODE AMI, pass the following line of user-data to the instance:
+    <code><b>#!/bin/echo noregister</b></code>. This will disable the registration step 
+    which otherwise occurs.
+  <li>When attaching the modENCODE data to an existing image via the <code>setup.pl</code> script,
+    simply answer "no" when the script asks you whether you are willing to register your usage.
+</ol>
+
+
+<h2>Feedback Requested</h2>
+
+<p>If you have questions, comments or suggestions, please contact us at the link below. Thanks, and have fun!</p>
+
+<hr>
+<p size="small">For assistance, please contact <a href="mailto:help@modencode.org">help@modencode.org</a></p>
+
+</body>
+</html>

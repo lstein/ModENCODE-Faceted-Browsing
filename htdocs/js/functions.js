@@ -111,7 +111,7 @@ function shopping_cart_check () {
 	});
 	
 	var download_url = '/cgi-bin/findFiles.cgi?download='+accessions.map(
-	    function (a) {return a.toString()}).join(';');
+	    function (a) {return a.toString()}).join(',');
 	var acc   = accessions.toString().split(',');
 	var modmine_url  = 'http://intermine.modencode.org/query/portal.do?class=Submission&externalids='+
 	    acc.map(function (a) { return 'modENCODE_'+a}).join(',');

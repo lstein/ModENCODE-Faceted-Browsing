@@ -1,0 +1,18 @@
+The modencode image uses a patched version of vsftpd which shows the
+targets of symbolic links in all listings rather than the symbolic link
+itself. This is to make it easier for users to see the sizes of the
+files before they download them.
+
+The patch consists of the following:
+
+--- vsftpd-2.3.0~pre2/ls.c	2011-09-29 16:45:42.262348906 +0000
++++ vsftpd-2.3.0~pre2/ls.c.new	2011-09-29 16:45:17.112345793 +0000
+@@ -134,7 +134,7 @@
+        * directory entry may have gone away whilst we read it, so
+        * ignore failure to stat
+        */
+-      int retval = str_lstat(&s_next_path_and_filename_str, &s_p_statbuf);
++      int retval = str_stat(&s_next_path_and_filename_str, &s_p_statbuf);
+       if (vsf_sysutil_retval_is_error(retval))
+       {
+         continue;

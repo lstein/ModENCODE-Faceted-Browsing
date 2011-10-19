@@ -25,7 +25,8 @@ my @AccessionId = grep {!$seenit{$_}++} split(',', $idList);
 my $Database = read_manifest(MANIFEST);
 
 my %DataFiles;
-my @found_accessions = grep {$Database->{$_}} @AccessionId;
+my @found_accessions   = grep {$Database->{$_}}  @AccessionId;
+my @missing_accessions = grep {!$Database->{$_}} @AccessionId;
 
 for my $id (@found_accessions) {
     my $records        = $Database->{$id} or next;
@@ -66,6 +67,10 @@ print ("<div id=\"checkout\"></div>");
 #Calling the startControl function inside controller.js and passing it the JSON string
 print "<script language='javascript' type='text/javascript'>startControl('$jsonString')</script>";
 print ('</div><div id="finished">Your files are now downloading...</div></body>');
+
+my $missing = join (', ',map {"modENCODE_$_"} sort {$a<=>$b} @missing_accessions);
+print "<div style='font-weight:bold;text-align:left'>Data for some accessions are not available on this server: $missing</div><p/>"
+    if $missing;
 
 exit 0;
 
@@ -121,7 +126,7 @@ sub header {
 		</head>
               <body>
 		<div class="header">
-	    <h1><a href="www.modencode.org"><img src="http://www.modencode.org/img/modENCODE_logo_small.png" height="60" align="middle" border="0"></a>
+	    <h1><a href="www.modencode.org"><img src="http://www.modencode.org/static/img/logo.png" height="60" align="middle" border="0"></a>
 	      Download modENCODE Data Sets</h1>
 	</div><p><p>
 	<div id="fileMenu">};

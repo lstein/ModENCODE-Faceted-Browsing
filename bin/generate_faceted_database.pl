@@ -11,31 +11,21 @@ use JSON;
 use FindBin '$RealBin';
 use lib "$RealBin/../lib","$RealBin/../perl/lib/perl","$RealBin/../perl/lib/perl/5.10";
 use FacetedBrowsingUtils;
-use LWP::Simple 'get','getprint';
+use LWP::Simple 'get','getprint','mirror';
 use Text::ParseWords 'shellwords';
 use constant BROWSER => 'http://modencode.oicr.on.ca/fgb2/gbrowse/';
 use constant SOURCES => [qw(fly worm fly_ananas fly_dmoj fly_dp fly_simul fly_virilis fly_yakuba)];
 use constant DEST    => "$RealBin/../htdocs/modencode.js";
 
-use constant DEBUG=>0;
-
 my %DATA;
 
-if (DEBUG) {
-    open FH,"$RealBin/../data/modencode-22August2011.csv" or die $!;
-} 
-else {
-    # This opens a pipe named FH which fetches the CSV database, cleans it up (fixes capitalization etc)
-    # and returns a new CSV.
-    # Location of METADATA_URL is currently hard-coded in lib/FacetedBrowsingUtils.pm
-    unless (open FH, '-|') { # in child
-	$DB::inhibit_exit = 0;  # allow me to debug in perl debugger
-	$DB::inhibit_exit = 0;  # allow me to debug in perl debugger (repeat again to avoid perl warning)
-	open FIX,"|$RealBin/fix_spreadsheet.pl";
-	select \*FIX;
-	getprint(METADATA_URL);
-	exit 0;
-    }
+# Location of METADATA_URL and METADATA_FIXED is currently hard-coded in lib/FacetedBrowsingUtils.pm
+my $mirror = '/modencode/release/metadata_mirror.csv';
+mirror(METADATA_URL,$mirror);
+unless (-e METADATA_FIXED && (-M METADATA_FIXED <= -M $mirror)) {
+    open FH,"$RealBin/fix_spreadsheet.pl <$mirror| tee ".METADATA_FIXED."|" or die "Couldn't open pipe to fix raw spreadsheet: $!";
+} else {
+    open FH,METADATA_FIXED or die METADATA_FIXED,": $!";
 }
 
 while (<FH>) {
@@ -81,6 +71,7 @@ for my $source (@{SOURCES()}) {
 	my @ds     = shellwords($ff->{$l}{'data source'});  # tracks without subtracks
 	for my $s (@select) {
 	    my ($subtrack,$id) = split ';',$s;
+	    next unless defined $id;
 	    $id2track{$id}{"$source/$l/$subtrack"}++;
 	    $seenit{"$source/$l/$id"}++;
 	}
