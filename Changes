@@ -1,0 +1,8 @@
+v3 Fri Sep 30 17:23:08 UTC 2011
+   - Fixed transcription factor associated with 3400 and 3401. It is "eve".
+
+v2 2011-09-28 12:38 EST
+   - Added optional notifications when image is launched or snapshot is mounted.
+
+v1 2011-09-27 11:58 EST
+   - Initial release.

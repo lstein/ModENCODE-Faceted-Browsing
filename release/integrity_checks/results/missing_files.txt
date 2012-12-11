@@ -1,0 +1,734 @@
+## these are files that are found in spreadsheet.csv, but not in filesystem
+
+** DUBIOUS REGEX MATCH (18) **
+      709 Kc_early_origins_peaks.gff                                                         3441_709_Kc_early_origins_peaks.gff.gz                                          
+      709 Kc_early_origins_MA2Cscore.wig                                                     3441_709_Kc_early_origins_MA2Cscore.wig.gz                                      
+      710 S2_early_origins_peaks.gff                                                         3441_710_S2_early_origins_peaks.gff.gz                                          
+      710 S2_early_origins_MA2Cscore.wig                                                     3441_710_S2_early_origins_MA2Cscore.wig.gz                                      
+      711 Bg3_early_origins_peaks.gff                                                        3441_711_Bg3_early_origins_peaks.gff.gz                                         
+      711 Bg3_early_origins_MA2Cscore.wig                                                    3441_711_Bg3_early_origins_MA2Cscore.wig.gz                                     
+      723 cgh_s2.wig                                                                         725_cgh_s2.wig.gz                                                               
+     2753 S2_2.bed.gff3                                                                      3388_2753_S2_2.bed.gff3.gz                                                      
+     2753 S2_2.wig                                                                           3388_2753_S2_2.wig.gz                                                           
+     2753 S2.bed.gff3                                                                        3388_2753_S2.bed.gff3.gz                                                        
+     2754 BG3_7.bed.gff3                                                                     3388_2754_BG3_7.bed.gff3.gz                                                     
+     2754 BG3_7.wig                                                                          3388_2754_BG3_7.wig.gz                                                          
+     2754 BG3.bed.gff3                                                                       3388_2754_BG3.bed.gff3.gz                                                       
+     2754 BG3.wig                                                                            3388_2754_BG3.wig.gz                                                            
+     2755 KC.bed.gff3                                                                        3388_2755_KC.bed.gff3.gz                                                        
+     2755 KC.wig                                                                             3388_2755_KC.wig.gz                                                             
+     2755 KC_1.wig                                                                           3388_2755_KC_1.wig.gz                                                           
+     2755 KC_1.bed.gff3                                                                      3388_2755_KC_1.bed.gff3.gz                                                      
+
+** NOT FOUND (101) **
+       34 2008-03-26.1.gff                                                                                                                                                   
+      214 DMG1_RTPCR.gff                                                                                                                                                     
+      215 DMG2_RTPCR.gff3                                                                                                                                                    
+      323 pirrota_242_S12_Input(14_cycles).85.CEL.zip                                                                                                                        
+      339 DMG3_RTPCR.gff3                                                                                                                                                    
+      340 DMG4_RTPCR.gff3                                                                                                                                                    
+      983 SRR031709.fastq.gz                                                                                                                                                 
+      983 SRR031710.fastq.gz                                                                                                                                                 
+      983 SRR031717.fastq.gz                                                                                                                                                 
+      983 SRR031711.fastq.gz                                                                                                                                                 
+      983 SRR031713.fastq.gz                                                                                                                                                 
+      983 SRR031712.fastq.gz                                                                                                                                                 
+      983 SRR031716.fastq.gz                                                                                                                                                 
+      983 SRR031708.fastq.gz                                                                                                                                                 
+      983 SRR031714.fastq.gz                                                                                                                                                 
+      983 SRR031715.fastq.gz                                                                                                                                                 
+      992 GSM443964                                                                                                                                                          
+      992 GSM443961                                                                                                                                                          
+      992 GSM443959                                                                                                                                                          
+      992 GSM443963                                                                                                                                                          
+      992 GSM443962                                                                                                                                                          
+      992 GSM443960                                                                                                                                                          
+     2270 MB6-RTPCR.gff3                                                                                                                                                     
+     2379 GSM280087                                                                                                                                                          
+     2379 GSM280087.sam                                                                                                                                                      
+     2380 GSM280088                                                                                                                                                          
+     2380 GSM280088.sam                                                                                                                                                      
+     2455 GSM446652                                                                                                                                                          
+     2456 GSM446653                                                                                                                                                          
+     2457 GSM446654                                                                                                                                                          
+     2458 GSM446655                                                                                                                                                          
+     2459 GSM446657                                                                                                                                                          
+     2460 GSM446656                                                                                                                                                          
+     2461 GSM446658                                                                                                                                                          
+     2462 GSM446659                                                                                                                                                          
+     2463 GSM446660                                                                                                                                                          
+     2464 GSM446661                                                                                                                                                          
+     2465 GSM446651                                                                                                                                                          
+     2482 GSM469976                                                                                                                                                          
+     2484 GSM469439                                                                                                                                                          
+     2598 2011-01-25 14:20 SRR013612.fastq.gz                                                                                                                                
+     2598 2011-01-25 14:20 SRR013610.fastq.gz                                                                                                                                
+     2598 2011-01-25 14:20 SRR013611.fastq.gz                                                                                                                                
+     2612 091210_MARPLE_FC434TD_L3_ACGT_pf.fastq.gz                                                                                                                          
+     2612 091208_ROCKFORD_FC434NY_L6_GTAT_pf.fastq.gz                                                                                                                        
+     2612 091208_ROCKFORD_FC434NY_L6_ACGT_pf.fastq.gz                                                                                                                        
+     2612 091210_MARPLE_FC434TD_L3_GTAT_pf.fastq.gz                                                                                                                          
+     2613 091210_MARPLE_FC434TD_L4_GTAT_pf.fastq.gz                                                                                                                          
+     2613 091208_ROCKFORD_FC434NY_L7_GTAT_pf.fastq.gz                                                                                                                        
+     2622 100114_MARPLE_FC6109H_L4_ACGT_pf.fastq.gz                                                                                                                          
+     2622 100114_MARPLE_FC6109H_L4_TGCT_pf.fastq.gz                                                                                                                          
+     2821 GSM510086                                                                                                                                                          
+     2822 GSM510087                                                                                                                                                          
+     2823 GSM510089                                                                                                                                                          
+     2825 GSM510088                                                                                                                                                          
+     2826 GSM510085                                                                                                                                                          
+     2827 GSM509929                                                                                                                                                          
+     2828 GSM509930                                                                                                                                                          
+     2829 GSM509932                                                                                                                                                          
+     2830 GSM510090                                                                                                                                                          
+     2831 GSM509931                                                                                                                                                          
+     2832 GSM509933                                                                                                                                                          
+     2961 Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.genelets.ws170.gff3                                                                                           
+     3155 Snyder_EOR-1_GFP_L3_rep2.1_ACGT.fastq.gz                                                                                                                           
+     3155 Snyder_EOR-1_Input_L3_rep2.1_TGCT.fastq.gz                                                                                                                         
+     3155 Snyder_EOR-1_Input_L3_rep1.2_ACGT.fastq.gz                                                                                                                         
+     3155 Snyder_EOR-1_Input_L3_rep2.2_TGCT.fastq.gz                                                                                                                         
+     3155 Snyder_EOR-1_GFP_L3_rep2.2_ACGT.fastq.gz                                                                                                                           
+     3155 Snyder_EOR-1_GFP_L3_rep1.1_GTAT.fastq.gz                                                                                                                           
+     3155 Snyder_EOR-1_Input_L3_rep1.1_CATT.fastq.gz                                                                                                                         
+     3155 Snyder_EOR-1_GFP_L3_rep1.2_GTAT.fastq.gz                                                                                                                           
+     3234 E0-4h_8T(tll)-GFP-tll_peaks.bed.gff3                                                                                                                               
+     3234 E0-4h_8T(tll)-GFP-tll_density.wig                                                                                                                                  
+     3236 E0-8h_10T(Dfd)-GFP_peaks.bed.gff3                                                                                                                                  
+     3236 E0-8h_10T(Dfd)-GFP_density.wig                                                                                                                                     
+     3285 pirrota_1501_Elate14_H4K20me(2ndlot).1221.CEL.zip                                                                                                                  
+     3285 pirrota_1400_Elate12_H4K20me(2ndlot).1220.CEL.zip                                                                                                                  
+     3287 pirrota_1496_Kc4_H4K20me(2ndlot).1216.CEL.zip                                                                                                                      
+     3288 pirrota_477_C18-1_Input(14cyc).288.CEL.zip                                                                                                                         
+     3288 pirrota_478_C18-2_Input(14cyc).289.CEL.zip                                                                                                                         
+     3288 pirrota_1518_CI8(2)_H4K8ac.1250.CEL.zip                                                                                                                            
+     3288 pirrota_1517_CI8(1)_H4K8ac.1249.CEL.zip                                                                                                                            
+     3293 pirrota_1507_A21_MSL1(Q4453).1238.CEL.zip                                                                                                                          
+     3293 pirrota_1506_A20_MSL1(Q4453).1237.CEL.zip                                                                                                                          
+     3295 pirrota_1012_A21_Input(20cyc).774.CEL.zip                                                                                                                          
+     3295 pirrota_1011_A20_Input(20cyc).773.CEL.zip                                                                                                                          
+     3296 pirrota_1041_Kc5_Input(20cyc).815.CEL.zip                                                                                                                          
+     3296 pirrota_1040_Kc4_Input(20cyc).814.CEL.zip                                                                                                                          
+     3297 pirrota_1152_Elate7_Input(20cyc).974.CEL.zip                                                                                                                       
+     3297 pirrota_1153_Elate8_Input(20cyc).975.CEL.zip                                                                                                                       
+     3297 pirrota_1376_Elate8_Su(var)3-7.1128.CEL.zip                                                                                                                        
+     3297 pirrota_1375_Elate7_Su(var)3-7.1127.CEL.zip                                                                                                                        
+     3298 pirrota_1568_S15_Input(20cyc).1280.CEL.zip                                                                                                                         
+     3298 pirrota_1564_S17_XNP(Fed).1276.CEL.zip                                                                                                                             
+     3298 pirrota_1569_S17_Input(20cyc).1281.CEL.zip                                                                                                                         
+     3298 pirrota_1563_S15_XNP(Fed).1275.CEL.zip                                                                                                                             
+     3299 pirrota_481_B1_Input(14cyc).292.CEL.zip                                                                                                                            
+     3299 pirrota_482_B2_Input(14cyc).293.CEL.zip                                                                                                                            
+     3302 pirrota_797_B5_Input(14cyc).564.CEL.zip                                                                                                                            
+     3302 pirrota_1242_B3_Input(14cyc).1000.CEL.zip                                                                                                                          
+     3388 S2.wig                                                                                                                                                             
+
+** SRR match (253) **
+      582 SRR013609.fastq.gz                                                                 586_SRR013609.fastq.gz                                                          
+      582 SRR013608.fastq.gz                                                                 586_SRR013608.fastq.gz                                                          
+      584 SRR013614.fastq.gz                                                                 588_SRR013614.fastq.gz                                                          
+      584 SRR013615.fastq.gz                                                                 588_SRR013615.fastq.gz                                                          
+      584 SRR013613.fastq.gz                                                                 588_SRR013613.fastq.gz                                                          
+      584 SRR013616.fastq.gz                                                                 588_SRR013616.fastq.gz                                                          
+      586 SRR017617.fastq.gz                                                                 588_SRR017617.fastq.gz                                                          
+      589 SRR017596.fastq.gz                                                                 590_SRR017596.fastq.gz                                                          
+      589 SRR017599.fastq.gz                                                                 590_SRR017599.fastq.gz                                                          
+      591 SRR017605.fastq.gz                                                                 592_SRR017605.fastq.gz                                                          
+      591 SRR017603.fastq.gz                                                                 592_SRR017603.fastq.gz                                                          
+      591 SRR017602.fastq.gz                                                                 592_SRR017602.fastq.gz                                                          
+      593 SRR017609.fastq.gz                                                                 594_SRR017609.fastq.gz                                                          
+      593 SRR017607.fastq.gz                                                                 594_SRR017607.fastq.gz                                                          
+      633 SRR015084.fastq.gz                                                                 2593_SRR015084_1.fastq.gz                                                       
+      633 SRR015090.fastq.gz                                                                 2593_SRR015090_1.fastq.gz                                                       
+      633 SRR015088.fastq.gz                                                                 2593_SRR015088_2.fastq.gz                                                       
+      634 SRR014966.fastq.gz                                                                 2776_SRR014966.fastq.gz                                                         
+      635 SRR014967.fastq.gz                                                                 2777_SRR014967.fastq.gz                                                         
+      636 SRR014968.fastq.gz                                                                 2778_SRR014968.fastq.gz                                                         
+      637 SRR014969.fastq.gz                                                                 2779_SRR014969.fastq.gz                                                         
+      638 SRR014970.fastq.gz                                                                 2780_SRR014970.fastq.gz                                                         
+      639 SRR014971.fastq.gz                                                                 2781_SRR014971.fastq.gz                                                         
+      640 SRR014972.fastq.gz                                                                 2782_SRR014972.fastq.gz                                                         
+      650 SRR015112.fastq.gz                                                                 2586_SRR015112_1.fastq.gz                                                       
+      650 SRR015104.fastq.gz                                                                 2586_SRR015104.fastq.gz                                                         
+      650 SRR015106.fastq.gz                                                                 2586_SRR015106_2.fastq.gz                                                       
+      650 SRR015108.fastq.gz                                                                 2586_SRR015108_2.fastq.gz                                                       
+      651 SRR015096.fastq.gz                                                                 2594_SRR015096.fastq.gz                                                         
+      651 SRR015102.fastq.gz                                                                 2594_SRR015102_2.fastq.gz                                                       
+      651 SRR015098.fastq.gz                                                                 2594_SRR015098.fastq.gz                                                         
+      651 SRR015094.fastq.gz                                                                 2594_SRR015094.fastq.gz                                                         
+      651 SRR015100.fastq.gz                                                                 2594_SRR015100_2.fastq.gz                                                       
+      652 SRR015082.fastq.gz                                                                 2592_SRR015082.fastq.gz                                                         
+      652 SRR015078.fastq.gz                                                                 2592_SRR015078.fastq.gz                                                         
+      652 SRR015074.fastq.gz                                                                 2592_SRR015074.fastq.gz                                                         
+      652 SRR015080.fastq.gz                                                                 2592_SRR015080_1.fastq.gz                                                       
+      652 SRR015076.fastq.gz                                                                 2592_SRR015076_1.fastq.gz                                                       
+      777 SRR030270.fastq.gz                                                                 834_SRR030270.fastq.gz                                                          
+      811 SRR030288.fastq.gz                                                                 822_SRR030288.fastq.gz                                                          
+      821 SRR030270.fastq.gz                                                                 834_SRR030270.fastq.gz                                                          
+      823 SRR030346.fastq.gz                                                                 836_SRR030346.fastq.gz                                                          
+      824 SRR030344.fastq.gz                                                                 837_SRR030344.fastq.gz                                                          
+      825 SRR030272.fastq.gz                                                                 838_SRR030272.fastq.gz                                                          
+      826 SRR030286.fastq.gz                                                                 839_SRR030286.fastq.gz                                                          
+      827 SRR030276.fastq.gz                                                                 840_SRR030276.fastq.gz                                                          
+      829 SRR030274.fastq.gz                                                                 842_SRR030274.fastq.gz                                                          
+      830 SRR030278.fastq.gz                                                                 843_SRR030278.fastq.gz                                                          
+      831 SRR030284.fastq.gz                                                                 844_SRR030284.fastq.gz                                                          
+      832 SRR030280.fastq.gz                                                                 845_SRR030280.fastq.gz                                                          
+      841 SRR030307.fastq.gz                                                                 895_SRR030307.fastq.gz                                                          
+      841 SRR030282.fastq.gz                                                                 895_SRR030282.fastq.gz                                                          
+      849 SRR030333.fastq.gz                                                                 857_SRR030333.fastq.gz                                                          
+      851 SRR030338.fastq.gz                                                                 984_SRR030338.fastq.gz                                                          
+      851 SRR030347.fastq.gz                                                                 984_SRR030347.fastq.gz                                                          
+     1011 SRR031766.fastq.gz                                                                 3089_SRR031766.fastq.gz                                                         
+     1011 SRR031767.fastq.gz                                                                 3089_SRR031767.fastq.gz                                                         
+     1012 SRR031755.fastq.gz                                                                 3101_SRR031755.fastq.gz                                                         
+     1012 SRR031754.fastq.gz                                                                 3101_SRR031754.fastq.gz                                                         
+     1013 SRR031761.fastq.gz                                                                 3124_SRR031761.fastq.gz                                                         
+     1013 SRR031760.fastq.gz                                                                 3124_SRR031760.fastq.gz                                                         
+     1014 SRR031739.fastq.gz                                                                 3142_SRR031739.fastq.gz                                                         
+     1014 SRR031738.fastq.gz                                                                 3142_SRR031738.fastq.gz                                                         
+     1015 SRR031744.fastq.gz                                                                 3112_SRR031744.fastq.gz                                                         
+     1015 SRR031745.fastq.gz                                                                 3112_SRR031745.fastq.gz                                                         
+     1015 SRR074420.fastq.gz                                                                 3112_SRR074420.fastq.gz                                                         
+     1016 SRR031773.fastq.gz                                                                 3129_SRR031773.fastq.gz                                                         
+     1016 SRR031772.fastq.gz                                                                 3129_SRR031772.fastq.gz                                                         
+     1017 SRR031743.fastq.gz                                                                 3111_SRR031743.fastq.gz                                                         
+     1017 SRR031742.fastq.gz                                                                 3111_SRR031742.fastq.gz                                                         
+     1018 SRR031757.fastq.gz                                                                 3137_SRR031757.fastq.gz                                                         
+     1018 SRR031756.fastq.gz                                                                 3137_SRR031756.fastq.gz                                                         
+     1019 SRR031741.fastq.gz                                                                 3099_SRR031741.fastq.gz                                                         
+     1019 SRR031740.fastq.gz                                                                 3099_SRR031740.fastq.gz                                                         
+     1020 SRR031762.fastq.gz                                                                 3141_SRR031762.fastq.gz                                                         
+     1020 SRR031763.fastq.gz                                                                 3141_SRR031763.fastq.gz                                                         
+     1021 SRR031752.fastq.gz                                                                 3133_SRR031752.fastq.gz                                                         
+     1021 SRR031753.fastq.gz                                                                 3133_SRR031753.fastq.gz                                                         
+     1022 SRR031747.fastq.gz                                                                 3117_SRR031747.fastq.gz                                                         
+     1022 SRR031746.fastq.gz                                                                 3117_SRR031746.fastq.gz                                                         
+     1023 SRR031768.fastq.gz                                                                 3136_SRR031768.fastq.gz                                                         
+     1023 SRR031769.fastq.gz                                                                 3136_SRR031769.fastq.gz                                                         
+     1024 SRR031778.fastq.gz                                                                 3145_SRR031778.fastq.gz                                                         
+     1024 SRR031779.fastq.gz                                                                 3145_SRR031779.fastq.gz                                                         
+     1024 SRR031780.fastq.gz                                                                 3145_SRR031780.fastq.gz                                                         
+     1024 SRR074424.fastq.gz                                                                 3145_SRR074424.fastq.gz                                                         
+     1024 SRR074425.fastq.gz                                                                 3145_SRR074425.fastq.gz                                                         
+     1025 SRR031748.fastq.gz                                                                 3105_SRR031748.fastq.gz                                                         
+     1025 SRR031749.fastq.gz                                                                 3105_SRR031749.fastq.gz                                                         
+     1026 SRR031735.fastq.gz                                                                 3125_SRR031735.fastq.gz                                                         
+     1026 SRR031734.fastq.gz                                                                 3125_SRR031734.fastq.gz                                                         
+     1027 SRR074423.fastq.gz                                                                 3108_SRR074423.fastq.gz                                                         
+     1027 SRR074422.fastq.gz                                                                 3108_SRR074422.fastq.gz                                                         
+     1028 SRR031750.fastq.gz                                                                 3096_SRR031750.fastq.gz                                                         
+     1028 SRR031751.fastq.gz                                                                 3096_SRR031751.fastq.gz                                                         
+     1028 SRR074421.fastq.gz                                                                 3096_SRR074421.fastq.gz                                                         
+     1029 SRR031775.fastq.gz                                                                 3103_SRR031775.fastq.gz                                                         
+     1029 SRR031774.fastq.gz                                                                 3103_SRR031774.fastq.gz                                                         
+     1030 SRR031777.fastq.gz                                                                 3144_SRR031777.fastq.gz                                                         
+     1030 SRR031776.fastq.gz                                                                 3144_SRR031776.fastq.gz                                                         
+     1031 SRR031731.fastq.gz                                                                 3132_SRR031731.fastq.gz                                                         
+     1031 SRR031730.fastq.gz                                                                 3132_SRR031730.fastq.gz                                                         
+     1033 SRR074426.fastq.gz                                                                 3143_SRR074426.fastq.gz                                                         
+     1033 SRR074427.fastq.gz                                                                 3143_SRR074427.fastq.gz                                                         
+     1033 SRR031781.fastq.gz                                                                 3143_SRR031781.fastq.gz                                                         
+     1033 SRR031782.fastq.gz                                                                 3143_SRR031782.fastq.gz                                                         
+     1033 SRR031783.fastq.gz                                                                 3143_SRR031783.fastq.gz                                                         
+     1034 SRR031765.fastq.gz                                                                 3120_SRR031765.fastq.gz                                                         
+     1034 SRR031764.fastq.gz                                                                 3120_SRR031764.fastq.gz                                                         
+     2301 SRR031737.fastq.gz                                                                 3134_SRR031737.fastq.gz                                                         
+     2301 SRR031736.fastq.gz                                                                 3134_SRR031736.fastq.gz                                                         
+     2302 SRR031732.fastq.gz                                                                 3090_SRR031732.fastq.gz                                                         
+     2302 SRR031733.fastq.gz                                                                 3090_SRR031733.fastq.gz                                                         
+     2305 SRR031728.fastq.gz                                                                 3138_SRR031728.fastq.gz                                                         
+     2305 SRR031729.fastq.gz                                                                 3138_SRR031729.fastq.gz                                                         
+     2321 SRR016670.fastq.gz                                                                 2840_SRR016670.fastq.gz                                                         
+     2321 SRR016669.fastq.gz                                                                 2840_SRR016669.fastq.gz                                                         
+     2324 SRR016674.fastq.gz                                                                 2842_SRR016674.fastq.gz                                                         
+     2324 SRR016675.fastq.gz                                                                 2842_SRR016675.fastq.gz                                                         
+     2325 SRR016684.fastq.gz                                                                 2844_SRR016684.fastq.gz                                                         
+     2325 SRR016685.fastq.gz                                                                 2844_SRR016685.fastq.gz                                                         
+     2325 SRR016686.fastq.gz                                                                 2844_SRR016686.fastq.gz                                                         
+     2326 SRR016683.fastq.gz                                                                 2845_SRR016683.fastq.gz                                                         
+     2326 SRR016680.fastq.gz                                                                 2845_SRR016680.fastq.gz                                                         
+     2326 SRR016679.fastq.gz                                                                 2845_SRR016679.fastq.gz                                                         
+     2326 SRR016681.fastq.gz                                                                 2845_SRR016681.fastq.gz                                                         
+     2343 SRR016691.fastq.gz                                                                 2843_SRR016691.fastq.gz                                                         
+     2343 SRR016689.fastq.gz                                                                 2843_SRR016689.fastq.gz                                                         
+     2343 SRR016690.fastq.gz                                                                 2843_SRR016690.fastq.gz                                                         
+     2343 SRR016688.fastq.gz                                                                 2843_SRR016688.fastq.gz                                                         
+     2345 SRR023537.fastq.gz                                                                 2835_SRR023537.fastq.gz                                                         
+     2345 SRR023535.fastq.gz                                                                 2835_SRR023535.fastq.gz                                                         
+     2345 SRR023536.fastq.gz                                                                 2835_SRR023536.fastq.gz                                                         
+     2345 SRR023534.fastq.gz                                                                 2835_SRR023534.fastq.gz                                                         
+     2346 SRR027904.fastq.gz                                                                 2841_SRR027904.fastq.gz                                                         
+     2346 SRR027905.fastq.gz                                                                 2841_SRR027905.fastq.gz                                                         
+     2347 SRR027188.fastq.gz                                                                 2837_SRR027188.fastq.gz                                                         
+     2347 SRR027187.fastq.gz                                                                 2837_SRR027187.fastq.gz                                                         
+     2349 SRR027191.fastq.gz                                                                 2839_SRR027191.fastq.gz                                                         
+     2349 SRR027192.fastq.gz                                                                 2839_SRR027192.fastq.gz                                                         
+     2351 SRR006513.fastq.gz                                                                 2846_SRR006513.fastq.gz                                                         
+     2351 SRR006511.fastq.gz                                                                 2846_SRR006511.fastq.gz                                                         
+     2351 SRR006512.fastq.gz                                                                 2846_SRR006512.fastq.gz                                                         
+     2352 SRR006520.fastq.gz                                                                 2847_SRR006520.fastq.gz                                                         
+     2352 SRR006519.fastq.gz                                                                 2847_SRR006519.fastq.gz                                                         
+     2353 SRR006518.fastq.gz                                                                 2848_SRR006518.fastq.gz                                                         
+     2353 SRR006517.fastq.gz                                                                 2848_SRR006517.fastq.gz                                                         
+     2354 SRR006515.fastq.gz                                                                 2836_SRR006515.fastq.gz                                                         
+     2354 SRR006514.fastq.gz                                                                 2836_SRR006514.fastq.gz                                                         
+     2354 SRR006516.fastq.gz                                                                 2836_SRR006516.fastq.gz                                                         
+     2387 SRR027190.fastq.gz                                                                 2838_SRR027190.fastq.gz                                                         
+     2387 SRR027189.fastq.gz                                                                 2838_SRR027189.fastq.gz                                                         
+     2418 SRR032449.fastq.gz                                                                 2597_SRR032449.fastq.gz                                                         
+     2418 SRR032447.fastq.gz                                                                 2597_SRR032447.fastq.gz                                                         
+     2580 SRR031113.fastq.gz                                                                 2587_SRR031113.fastq.gz                                                         
+     2580 SRR031114.fastq.gz                                                                 2587_SRR031114.fastq.gz                                                         
+     2582 SRR031118.fastq.gz                                                                 2589_SRR031118.fastq.gz                                                         
+     2582 SRR031117.fastq.gz                                                                 2589_SRR031117.fastq.gz                                                         
+     2582 SRR031119.fastq.gz                                                                 2589_SRR031119.fastq.gz                                                         
+     2583 SRR031122.fastq.gz                                                                 2590_SRR031122.fastq.gz                                                         
+     2583 SRR031123.fastq.gz                                                                 2590_SRR031123.fastq.gz                                                         
+     2584 SRR031120.fastq.gz                                                                 2591_SRR031120.fastq.gz                                                         
+     2584 SRR031121.fastq.gz                                                                 2591_SRR031121.fastq.gz                                                         
+     2586 SRR015110.fastq.gz                                                                 2586_SRR015110_1.fastq.gz                                                       
+     2588 SRR031115.fastq.gz                                                                 2961_SRR031115.fastq.gz                                                         
+     2588 SRR031116.fastq.gz                                                                 2961_SRR031116.fastq.gz                                                         
+     2593 SRR015092.fastq.gz                                                                 2593_SRR015092_2.fastq.gz                                                       
+     2593 SRR015086.fastq.gz                                                                 2593_SRR015086_1.fastq.gz                                                       
+     2635 SRR034695.fastq.gz                                                                 2636_SRR034695.fastq.gz                                                         
+     2730 SRR032279.fastq.gz                                                                 2785_SRR032279.fastq.gz                                                         
+     2730 SRR032283.fastq.gz                                                                 2785_SRR032283.fastq.gz                                                         
+     2732 SRR032280.fastq.gz                                                                 2786_SRR032280.fastq.gz                                                         
+     2733 SRR032284.fastq.gz                                                                 2787_SRR032284.fastq.gz                                                         
+     2733 SRR032281.fastq.gz                                                                 2787_SRR032281.fastq.gz                                                         
+     2734 SRR032282.fastq.gz                                                                 2788_SRR032282.fastq.gz                                                         
+     2753 SRR037519.fastq.gz                                                                 3388_SRR037519.fastq.gz                                                         
+     2754 SRR037522.fastq.gz                                                                 3388_SRR037522.fastq.gz                                                         
+     2755 SRR037528.fastq.gz                                                                 3388_SRR037528.fastq.gz                                                         
+     2974 SRR069233.fastq                                                                    2975_SRR069233.fastq.gz                                                         
+     3192 SRR069506.fastq.gz                                                                 3512_SRR069506.fastq.gz                                                         
+     3194 SRR069508.fastq.gz                                                                 3514_SRR069508.fastq.gz                                                         
+     3235 SRR063873.fastq                                                                    3395_SRR063873.fastq.gz                                                         
+     3255 SRR070272.fastq                                                                    3471_SRR070272_1.fastq.gz                                                       
+     3255 SRR070272_2.fastq                                                                  3471_SRR070272_2.fastq.gz                                                       
+     3255 SRR070272_1.fastq                                                                  3471_SRR070272_1.fastq.gz                                                       
+     3256 SRR070289_2.fastq                                                                  3479_SRR070289_2.fastq.gz                                                       
+     3256 SRR070289_1.fastq                                                                  3479_SRR070289_1.fastq.gz                                                       
+     3256 SRR070289.fastq                                                                    3479_SRR070289.fastq.gz                                                         
+     3256 SRR070283.fastq                                                                    3479_SRR070283.fastq.gz                                                         
+     3257 SRR070274.fastq                                                                    3485_SRR070274_1.fastq.gz                                                       
+     3257 SRR070274_2.fastq                                                                  3485_SRR070274_2.fastq.gz                                                       
+     3257 SRR070274_1.fastq                                                                  3485_SRR070274_1.fastq.gz                                                       
+     3258 SRR070277_2.fastq                                                                  3484_SRR070277_2.fastq.gz                                                       
+     3258 SRR070277.fastq                                                                    3484_SRR070277_2.fastq.gz                                                       
+     3258 SRR070277_1.fastq                                                                  3484_SRR070277_1.fastq.gz                                                       
+     3259 SRR070287_1.fastq                                                                  3482_SRR070287_1.fastq.gz                                                       
+     3259 SRR070287_2.fastq                                                                  3482_SRR070287_2.fastq.gz                                                       
+     3259 SRR070287.fastq                                                                    3482_SRR070287_2.fastq.gz                                                       
+     3259 SRR070281.fastq                                                                    3482_SRR070281.fastq.gz                                                         
+     3260 SRR070278.fastq                                                                    3473_SRR070278.fastq.gz                                                         
+     3260 SRR070265_1.fastq                                                                  3473_SRR070265_1.fastq.gz                                                       
+     3260 SRR070265.fastq                                                                    3473_SRR070265_1.fastq.gz                                                       
+     3260 SRR070265_2.fastq                                                                  3473_SRR070265_2.fastq.gz                                                       
+     3261 SRR070276.fastq                                                                    3481_SRR070276_2.fastq.gz                                                       
+     3261 SRR070276_1.fastq                                                                  3481_SRR070276_1.fastq.gz                                                       
+     3261 SRR070276_2.fastq                                                                  3481_SRR070276_2.fastq.gz                                                       
+     3262 SRR070262.fastq                                                                    3474_SRR070262.fastq.gz                                                         
+     3262 SRR070270.fastq                                                                    3474_SRR070270.fastq.gz                                                         
+     3262 SRR070270_1.fastq                                                                  3474_SRR070270_1.fastq.gz                                                       
+     3262 SRR070270_2.fastq                                                                  3474_SRR070270_2.fastq.gz                                                       
+     3263 SRR070269_2.fastq                                                                  3493_SRR070269_2.fastq.gz                                                       
+     3263 SRR070269_1.fastq                                                                  3493_SRR070269_1.fastq.gz                                                       
+     3263 SRR070269.fastq                                                                    3493_SRR070269_2.fastq.gz                                                       
+     3263 SRR070261.fastq                                                                    3493_SRR070261.fastq.gz                                                         
+     3264 SRR070268_2.fastq                                                                  3472_SRR070268_2.fastq.gz                                                       
+     3264 SRR070268.fastq                                                                    3472_SRR070268_2.fastq.gz                                                       
+     3264 SRR070268_1.fastq                                                                  3472_SRR070268_1.fastq.gz                                                       
+     3264 SRR070260.fastq                                                                    3472_SRR070260.fastq.gz                                                         
+     3265 SRR070258.fastq                                                                    3492_SRR070258.fastq.gz                                                         
+     3266 SRR070286_1.fastq                                                                  3486_SRR070286_1.fastq.gz                                                       
+     3266 SRR070286.fastq                                                                    3486_SRR070286_1.fastq.gz                                                       
+     3266 SRR070286_2.fastq                                                                  3486_SRR070286_2.fastq.gz                                                       
+     3266 SRR070280.fastq                                                                    3486_SRR070280.fastq.gz                                                         
+     3267 SRR070279.fastq                                                                    3487_SRR070279.fastq.gz                                                         
+     3267 SRR070266_1.fastq                                                                  3487_SRR070266_1.fastq.gz                                                       
+     3267 SRR070266_2.fastq                                                                  3487_SRR070266_2.fastq.gz                                                       
+     3267 SRR070266.fastq                                                                    3487_SRR070266.fastq.gz                                                         
+     3268 SRR070291.fastq                                                                    3480_SRR070291_2.fastq.gz                                                       
+     3268 SRR070291_2.fastq                                                                  3480_SRR070291_2.fastq.gz                                                       
+     3268 SRR070285.fastq                                                                    3480_SRR070285.fastq.gz                                                         
+     3268 SRR070291_1.fastq                                                                  3480_SRR070291_1.fastq.gz                                                       
+     3270 SRR070284.fastq                                                                    3478_SRR070284.fastq.gz                                                         
+     3270 SRR070290_2.fastq                                                                  3478_SRR070290_2.fastq.gz                                                       
+     3270 SRR070290.fastq                                                                    3478_SRR070290.fastq.gz                                                         
+     3270 SRR070290_1.fastq                                                                  3478_SRR070290_1.fastq.gz                                                       
+     3271 SRR070273_1.fastq                                                                  3483_SRR070273_1.fastq.gz                                                       
+     3271 SRR070273.fastq                                                                    3483_SRR070273.fastq.gz                                                         
+     3271 SRR070273_2.fastq                                                                  3483_SRR070273_2.fastq.gz                                                       
+     3272 SRR070275.fastq                                                                    3477_SRR070275_2.fastq.gz                                                       
+     3272 SRR070275_2.fastq                                                                  3477_SRR070275_2.fastq.gz                                                       
+     3272 SRR070275_1.fastq                                                                  3477_SRR070275_1.fastq.gz                                                       
+     3273 SRR070259.fastq                                                                    3494_SRR070259.fastq.gz                                                         
+     3274 SRR070267_2.fastq                                                                  3475_SRR070267_2.fastq.gz                                                       
+     3274 SRR070267_1.fastq                                                                  3475_SRR070267_1.fastq.gz                                                       
+     3274 SRR070267.fastq                                                                    3475_SRR070267_2.fastq.gz                                                       
+     3391 SRR073935.fastq                                                                    3392_SRR073935.fastq.gz                                                         
+     3447 SRR100278.fastq                                                                    3451_SRR100278_2.fastq.gz                                                       
+     3447 SRR100278_1.fastq                                                                  3451_SRR100278_1.fastq.gz                                                       
+     3447 SRR100278_2.fastq                                                                  3451_SRR100278_2.fastq.gz                                                       
+     3453 SRR100274_2.fastq                                                                  3457_SRR100274_2.fastq.gz                                                       
+     3453 SRR100274_1.fastq                                                                  3457_SRR100274_1.fastq.gz                                                       
+     3453 SRR100274.fastq                                                                    3457_SRR100274_2.fastq.gz                                                       
+     3520 SRR089795.fastq                                                                    3526_SRR089795.fastq.gz                                                         
+
+** found after C. elegans liftover munging (147) **
+       43 HTZIP2_WS180.wig                                                                   43_HTZIP2_WS220.wig.gz                                                          
+       43 HTZIP4_WS180.wig                                                                   43_HTZIP4_WS220.wig.gz                                                          
+       43 HTZIP3_WS180.wig                                                                   43_HTZIP3_WS220.wig.gz                                                          
+       43 HTZIP_chipotle_peaks_WS180.gff3                                                    43_HTZIP_chipotle_peaks_WS220.gff3.gz                                           
+       43 HTZIP5_dyeswap_WS180.wig                                                           43_HTZIP5_dyeswap_WS220.wig.gz                                                  
+       44 RNAPIIIP1_WS180.wig                                                                44_RNAPIIIP1_WS220.wig.gz                                                       
+       44 RNAPIIIP2_dyeswap_WS180.wig                                                        44_RNAPIIIP2_dyeswap_WS220.wig.gz                                               
+      515 UTRome_ABI.WS180.CEUP1.20090422.gff3                                               515_UTRome_ABI.WS220.CEUP1.20090422.gff3.gz                                     
+      634 Egg_s_3.S-3.WS180.soap.sam                                                         634_Egg_s_3.S-3.WS220.soap.sam.gz                                               
+      635 L1_s_5.S-3.WS180.soap.sam                                                          635_L1_s_5.S-3.WS220.soap.sam.gz                                                
+      636 L2_s_6.S-3.WS180.soap.sam1_header.sam                                              636_L2_s_6.S-3.WS220.soap.sam1_header.sam.gz                                    
+      637 L3_s_7.S-3.WS180.soap.sam1_header.sam                                              637_L3_s_7.S-3.WS220.soap.sam1_header.sam.gz                                    
+      638 L4_s_8.S-3.WS180.soap.sam1_header.sam                                              638_L4_s_8.S-3.WS220.soap.sam1_header.sam.gz                                    
+      639 Adult_s_1.S-3.WS180.soap.sam1_header.sam                                           639_Adult_s_1.S-3.WS220.soap.sam1_header.sam.gz                                 
+      640 yMale_dpyhim_s_6.S-3.WS180.soap.sam                                                640_yMale_dpyhim_s_6.S-3.WS220.soap.sam.gz                                      
+     2304 set.20090921.2_3_2_2_4_3_3_2_2.ws180.gff                                           2304_set.20090921.2_3_2_2_4_3_3_2_2.ws220.gff.gz                                
+     2321 early_embryo.win_covg.ws170.wig                                                    2321_early_embryo.win_covg.ws220.wig.gz                                         
+     2321 early_embryo.raw_covg.ws170.wig                                                    2321_early_embryo.raw_covg.ws220.wig.gz                                         
+     2324 late_embryo.raw_covg.ws170.wig                                                     2324_late_embryo.raw_covg.ws220.wig.gz                                          
+     2324 late_embryo.win_covg.ws170.wig                                                     2324_late_embryo.win_covg.ws220.wig.gz                                          
+     2325 male_mid-L4_25dC_30hrs_post-L1.raw_covg.ws170.wig                                  2325_male_mid-L4_25dC_30hrs_post-L1.raw_covg.ws220.wig.gz                       
+     2325 male_mid-L4_25dC_30hrs_post-L1.win_covg.ws170.wig                                  2325_male_mid-L4_25dC_30hrs_post-L1.win_covg.ws220.wig.gz                       
+     2326 mid-L1_20dC_4hrs_post-L1.win_covg.ws170.wig                                        2326_mid-L1_20dC_4hrs_post-L1.win_covg.ws220.wig.gz                             
+     2326 mid-L1_20dC_4hrs_post-L1.raw_covg.ws170.wig                                        2326_mid-L1_20dC_4hrs_post-L1.raw_covg.ws220.wig.gz                             
+     2327 L1.ws190.sam                                                                       2327_L1.ws220.sam.gz                                                            
+     2328 L2.ws190.sam                                                                       2328_L2.ws220.sam.gz                                                            
+     2329 L3.ws190.sam                                                                       2329_L3.ws220.sam.gz                                                            
+     2330 L4.ws190.sam                                                                       2330_L4.ws220.sam.gz                                                            
+     2331 emb.ws190.sam                                                                      2331_emb.ws220.sam.gz                                                           
+     2332 herm.ws190.sam                                                                     2332_herm.ws220.sam.gz                                                          
+     2333 male.ws190.sam                                                                     2333_male.ws220.sam.gz                                                          
+     2334 daf11.ws190.sam                                                                    2334_daf11.ws220.sam.gz                                                         
+     2335 daf2.ws190.sam                                                                     2335_daf2.ws220.sam.gz                                                          
+     2336 daf7.ws190.sam                                                                     2336_daf7.ws220.sam.gz                                                          
+     2337 daf9.ws190.sam                                                                     2337_daf9.ws220.sam.gz                                                          
+     2343 lin-35(n745)_mid-L1_25dC_4.0hrs_post-L1.win_covg.ws170.wig                         2343_lin-35(n745)_mid-L1_25dC_4.0hrs_post-L1.win_covg.ws220.wig.gz              
+     2343 lin-35(n745)_mid-L1_25dC_4.0hrs_post-L1.raw_covg.ws170.wig                         2343_lin-35(n745)_mid-L1_25dC_4.0hrs_post-L1.raw_covg.ws220.wig.gz              
+     2345 Adult_spe-9_23dC_8days_post-L4_molt.win_covg.ws170.wig                             2345_Adult_spe-9_23dC_8days_post-L4_molt.win_covg.ws220.wig.gz                  
+     2345 Adult_spe-9_23dC_8days_post-L4_molt.raw_covg.ws170.wig                             2345_Adult_spe-9_23dC_8days_post-L4_molt.raw_covg.ws220.wig.gz                  
+     2346 embryo_him-8_20dC_post-L1.win_covg.ws170.wig                                       2346_embryo_him-8_20dC_post-L1.win_covg.ws220.wig.gz                            
+     2346 embryo_him-8_20dC_post-L1.raw_covg.ws170.wig                                       2346_embryo_him-8_20dC_post-L1.raw_covg.ws220.wig.gz                            
+     2347 dauer_daf-2_25dC_91hrs_post-L1.win_covg.ws170.wig                                  2347_dauer_daf-2_25dC_91hrs_post-L1.win_covg.ws220.wig.gz                       
+     2347 dauer_daf-2_25dC_91hrs_post-L1.raw_covg.ws170.wig                                  2347_dauer_daf-2_25dC_91hrs_post-L1.raw_covg.ws220.wig.gz                       
+     2349 dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.raw_covg.ws170.wig                  2349_dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.raw_covg.ws220.wig.gz       
+     2349 dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.win_covg.ws170.wig                  2349_dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.win_covg.ws220.wig.gz       
+     2351 mid-L2_25dC_14hrs_post-L1.win_covg.ws170.wig                                       2351_mid-L2_25dC_14hrs_post-L1.win_covg.ws220.wig.gz                            
+     2351 mid-L2_25dC_14hrs_post-L1.raw_covg.ws170.wig                                       2351_mid-L2_25dC_14hrs_post-L1.raw_covg.ws220.wig.gz                            
+     2352 mid-L3_25dC_25hrs_post-L1.raw_covg.ws170.wig                                       2352_mid-L3_25dC_25hrs_post-L1.raw_covg.ws220.wig.gz                            
+     2352 mid-L3_25dC_25hrs_post-L1.win_covg.ws170.wig                                       2352_mid-L3_25dC_25hrs_post-L1.win_covg.ws220.wig.gz                            
+     2353 mid-L4_25dC_36hrs_post-L1.raw_covg.ws170.wig                                       2353_mid-L4_25dC_36hrs_post-L1.raw_covg.ws220.wig.gz                            
+     2353 mid-L4_25dC_36hrs_post-L1.win_covg.ws170.wig                                       2353_mid-L4_25dC_36hrs_post-L1.win_covg.ws220.wig.gz                            
+     2354 Young_Adult_25dC_46hrs_post-L1.win_covg.ws170.wig                                  2354_Young_Adult_25dC_46hrs_post-L1.win_covg.ws220.wig.gz                       
+     2354 Young_Adult_25dC_46hrs_post-L1.raw_covg.ws170.wig                                  2354_Young_Adult_25dC_46hrs_post-L1.raw_covg.ws220.wig.gz                       
+     2387 dauer_entry_daf-2_25dC_48hrs_post-L1.win_covg.ws170.wig                            2387_dauer_entry_daf-2_25dC_48hrs_post-L1.win_covg.ws220.wig.gz                 
+     2387 dauer_entry_daf-2_25dC_48hrs_post-L1.raw_covg.ws170.wig                            2387_dauer_entry_daf-2_25dC_48hrs_post-L1.raw_covg.ws220.wig.gz                 
+     2531 SOH18_80_vs_SOH18_MT_247382-3_cy3_cy5_WS190.wig                                    2531_SOH18_80_vs_SOH18_MT_247382-3_cy3_cy5_WS220.wig.gz                         
+     2531 SOH36_80_vs_SOH36_MT_247383-2_cy3_cy5_WS190.wig                                    2531_SOH36_80_vs_SOH36_MT_247383-2_cy3_cy5_WS220.wig.gz                         
+     2532 SOH20_p6M_vs_SOH20_MT_247384-3_cy3_cy5_WS190.wig                                   2532_SOH20_p6M_vs_SOH20_MT_247384-3_cy3_cy5_WS220.wig.gz                        
+     2532 SOH39_p6_vs_SOH39_MT_269834-3_cy3_cy5_WS190.wig                                    2532_SOH39_p6_vs_SOH39_MT_269834-3_cy3_cy5_WS220.wig.gz                         
+     2533 SOH40_6pel_vs_SOH40_MT_269738-5_cy3_cy5_WS190.wig                                  2533_SOH40_6pel_vs_SOH40_MT_269738-5_cy3_cy5_WS220.wig.gz                       
+     2533 SOH44_p6pe_vs_SOH44_MT_269738-6_cy3_cy5_WS190.wig                                  2533_SOH44_p6pe_vs_SOH44_MT_269738-6_cy3_cy5_WS220.wig.gz                       
+     2534 SOH37_80PD_vs_SOH37_80_269834-2_cy3_cy5_WS190.wig                                  2534_SOH37_80PD_vs_SOH37_80_269834-2_cy3_cy5_WS220.wig.gz                       
+     2534 SOH25_80PD_vs_SOH25_80IN_247382-4_cy3_cy5_WS190.wig                                2534_SOH25_80PD_vs_SOH25_80IN_247382-4_cy3_cy5_WS220.wig.gz                     
+     2535 SOH12C3_30_vs_SOH12C5_29_247381-2_cy3_cy5_WS190.wig                                2535_SOH12C3_30_vs_SOH12C5_29_247381-2_cy3_cy5_WS220.wig.gz                     
+     2535 SOH54_PD_vs_SOH54_p3IN_365610_cy3_cy5_WS190.wig                                    2535_SOH54_PD_vs_SOH54_p3IN_365610_cy3_cy5_WS220.wig.gz                         
+     2536 SOH21_p6PD_vs_SOH21_p6IN_269767-3_cy3_cy5_WS190.wig                                2536_SOH21_p6PD_vs_SOH21_p6IN_269767-3_cy3_cy5_WS220.wig.gz                     
+     2536 SOH41_p6PD_vs_SOH41_p6_247678-5_cy3_cy5_WS190.wig                                  2536_SOH41_p6PD_vs_SOH41_p6_247678-5_cy3_cy5_WS220.wig.gz                       
+     2537 SOH52_80g_vs_SOH52_MT_365604_cy3_cy5_WS190.wig                                     2537_SOH52_80g_vs_SOH52_MT_365604_cy3_cy5_WS220.wig.gz                          
+     2537 SOH53_80g_vs_SOH53_MT_365607_cy3_cy5_WS190.wig                                     2537_SOH53_80g_vs_SOH53_MT_365607_cy3_cy5_WS220.wig.gz                          
+     2537 SOH59_80g_vs_SOH59_MT_365680-2_cy3_cy5_WS190.wig                                   2537_SOH59_80g_vs_SOH59_MT_365680-2_cy3_cy5_WS220.wig.gz                        
+     2538 SOH28_80g_vs_SOH28_MT_269738-4_cy3_cy5_WS190.wig                                   2538_SOH28_80g_vs_SOH28_MT_269738-4_cy3_cy5_WS220.wig.gz                        
+     2538 SOH35_80g_vs_SOH35_MT_269834_cy3_cy5_WS190.wig                                     2538_SOH35_80g_vs_SOH35_MT_269834_cy3_cy5_WS220.wig.gz                          
+     2538 SOH34_80g_vs_SOH34_MT_247383_cy3_cy5_WS190.wig                                     2538_SOH34_80g_vs_SOH34_MT_247383_cy3_cy5_WS220.wig.gz                          
+     2580 Adult_Harposporium_exposed_2_24hrs.win_covg.ws170.wig                              2580_Adult_Harposporium_exposed_2_24hrs.win_covg.ws220.wig.gz                   
+     2580 Adult_Harposporium_exposed_2_24hrs.raw_covg.ws170.wig                              2580_Adult_Harposporium_exposed_2_24hrs.raw_covg.ws220.wig.gz                   
+     2581 Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.raw_covg.ws170.wig            2581_Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.raw_covg.ws220.wig.gz 
+     2581 Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.win_covg.ws170.wig            2581_Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.win_covg.ws220.wig.gz 
+     2582 Adult_S_macescens_Db10_exposed_1_24hrs.win_covg.ws170.wig                          2582_Adult_S_macescens_Db10_exposed_1_24hrs.win_covg.ws220.wig.gz               
+     2582 Adult_S_macescens_Db10_exposed_1_24hrs.raw_covg.ws170.wig                          2582_Adult_S_macescens_Db10_exposed_1_24hrs.raw_covg.ws220.wig.gz               
+     2583 L4_soma_JK1107_no_DNaseI.raw_covg.ws170.wig                                        2583_L4_soma_JK1107_no_DNaseI.raw_covg.ws220.wig.gz                             
+     2583 L4_soma_JK1107_no_DNaseI.win_covg.ws170.wig                                        2583_L4_soma_JK1107_no_DNaseI.win_covg.ws220.wig.gz                             
+     2584 Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.raw_covg.ws170.wig        2584_Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.raw_covg.ws220.wig.gz
+     2584 Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.win_covg.ws170.wig        2584_Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.win_covg.ws220.wig.gz
+     2587 Adult_Harposporium_exposed_2_24hrs.wormbase_transcripts.ws170.gff3                 2587_Adult_Harposporium_exposed_2_24hrs.wormbase_transcripts.ws220.gff3.gz      
+     2587 Adult_Harposporium_exposed_2_24hrs.genelets.RNASEQ.ws170.gff3                      2587_Adult_Harposporium_exposed_2_24hrs.genelets.RNASEQ.ws220.gff3.gz           
+     2588 Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.genelets.RNASEQ.ws170.gff3    2588_Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.genelets.RNASEQ.ws220.gff3.gz
+     2588 Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.wormbase_transcripts.ws170.gff3   2588_Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.wormbase_transcripts.ws220.gff3.gz
+     2589 Adult_S_macescens_Db10_exposed_1_24hrs.wormbase_transcripts.ws170.gff3             2589_Adult_S_macescens_Db10_exposed_1_24hrs.wormbase_transcripts.ws220.gff3.gz  
+     2589 Adult_S_macescens_Db10_exposed_1_24hrs.genelets.RNASEQ.ws170.gff3                  2589_Adult_S_macescens_Db10_exposed_1_24hrs.genelets.RNASEQ.ws220.gff3.gz       
+     2590 L4_soma_JK1107_no_DNaseI.genelets.RNASEQ.ws170.gff3                                2590_L4_soma_JK1107_no_DNaseI.genelets.RNASEQ.ws220.gff3.gz                     
+     2590 L4_soma_JK1107_no_DNaseI.wormbase_transcripts.ws170.gff3                           2590_L4_soma_JK1107_no_DNaseI.wormbase_transcripts.ws220.gff3.gz                
+     2591 Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.wormbase_transcripts.ws170.gff3   2591_Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.wormbase_transcripts.ws220.gff3.gz
+     2591 Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.genelets.RNASEQ.ws170.gff3   2591_Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.genelets.RNASEQ.ws220.gff3.gz
+     2718 set.20100126.2_3_2_2_4_3_3_2_2_2.ws180.gff                                         2718_set.20100126.2_3_2_2_4_3_3_2_2_2.ws220.gff.gz                              
+     2720 set.20100203.2_3_2_2_4_3_3_2_3_3.ws180.gff                                         2720_set.20100203.2_3_2_2_4_3_3_2_3_3.ws220.gff.gz                              
+     2730 spe9day0_rep_s_6.S3_ws190.soap.sam                                                 2730_spe9day0_rep_s_6.S3_ws220.soap.sam.gz                                      
+     2730 spe9day0_s_1.S3_ws190.soap.sam                                                     2730_spe9day0_s_1.S3_ws220.soap.sam.gz                                          
+     2732 spe9day5_s_2.S3_ws190.soap.sam                                                     2732_spe9day5_s_2.S3_ws220.soap.sam.gz                                          
+     2733 spe9day8_s_3.S3_ws190.soap.sam                                                     2733_spe9day8_s_3.S3_ws220.soap.sam.gz                                          
+     2733 spe9day8_rep_s_7.S3_ws190.soap.sam                                                 2733_spe9day8_rep_s_7.S3_ws220.soap.sam.gz                                      
+     2734 spe9day12_s_5.S3_ws190.soap.sam                                                    2734_spe9day12_s_5.S3_ws220.soap.sam.gz                                         
+     2762 SOH10C3_24_vs_SOH10C5_23_247382-2_cy3_cy5_WS190.wig                                2762_SOH10C3_24_vs_SOH10C5_23_247382-2_cy3_cy5_WS220.wig.gz                     
+     2762 SOH11C3_26_vs_SOH11C5_25_247384_cy3_cy5_WS190.wig                                  2762_SOH11C3_26_vs_SOH11C5_25_247384_cy3_cy5_WS220.wig.gz                       
+     2821 miRNA_eri-1_solexa.ws190.sam.gz                                                    2821_miRNA_eri-1_solexa.ws220.sam.gz                                            
+     2822 miRNA-glp-4_solexa.ws190.sam.gz                                                    2822_miRNA-glp-4_solexa.ws220.sam.gz                                            
+     2823 miRNA_spermatids_solexa.ws190.sam.gz                                               2823_miRNA_spermatids_solexa.ws220.sam.gz                                       
+     2825 miRNA_mixed_stage_solexa.ws190.sam.gz                                              2825_miRNA_mixed_stage_solexa.ws220.sam.gz                                      
+     2826 miRNA_embryos_solexa.ws190.sam.gz                                                  2826_miRNA_embryos_solexa.ws220.sam.gz                                          
+     2827 miRNA_eri-1.ws190.sam.gz                                                           2827_miRNA_eri-1.ws220.sam.gz                                                   
+     2828 miRNA-glp-4.ws190.sam.gz                                                           2828_miRNA-glp-4.ws220.sam.gz                                                   
+     2829 miRNA_spermatids.ws190.sam.gz                                                      2829_miRNA_spermatids.ws220.sam.gz                                              
+     2830 miRNA_oocytes_solexa.ws190.sam.gz                                                  2830_miRNA_oocytes_solexa.ws220.sam.gz                                          
+     2831 miRNA_young_adult.ws190.sam.gz                                                     2831_miRNA_young_adult.ws220.sam.gz                                             
+     2832 miRNA_oocytes.ws190.sam.gz                                                         2832_miRNA_oocytes.ws220.sam.gz                                                 
+     2835 Adult_spe-9_23dC_8days_post-L4_molt.wormbase_transcripts.ws170.gff3                2835_Adult_spe-9_23dC_8days_post-L4_molt.wormbase_transcripts.ws220.gff3.gz     
+     2835 Adult_spe-9_23dC_8days_post-L4_molt.genelets.RNASEQ.ws170.gff3                     2835_Adult_spe-9_23dC_8days_post-L4_molt.genelets.RNASEQ.ws220.gff3.gz          
+     2836 Young_Adult_25dC_46hrs_post-L1.genelets.RNASEQ.ws170.gff3                          2836_Young_Adult_25dC_46hrs_post-L1.genelets.RNASEQ.ws220.gff3.gz               
+     2836 Young_Adult_25dC_46hrs_post-L1.wormbase_transcripts.ws170.gff3                     2836_Young_Adult_25dC_46hrs_post-L1.wormbase_transcripts.ws220.gff3.gz          
+     2837 dauer_daf-2_25dC_91hrs_post-L1.genelets.RNASEQ.ws170.gff3                          2837_dauer_daf-2_25dC_91hrs_post-L1.genelets.RNASEQ.ws220.gff3.gz               
+     2837 dauer_daf-2_25dC_91hrs_post-L1.wormbase_transcripts.ws170.gff3                     2837_dauer_daf-2_25dC_91hrs_post-L1.wormbase_transcripts.ws220.gff3.gz          
+     2838 dauer_entry_daf-2_25dC_48hrs_post-L1.wormbase_transcripts.ws170.gff3               2838_dauer_entry_daf-2_25dC_48hrs_post-L1.wormbase_transcripts.ws220.gff3.gz    
+     2838 dauer_entry_daf-2_25dC_48hrs_post-L1.genelets.RNASEQ.ws170.gff3                    2838_dauer_entry_daf-2_25dC_48hrs_post-L1.genelets.RNASEQ.ws220.gff3.gz         
+     2839 dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.genelets.RNASEQ.ws170.gff3          2839_dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.genelets.RNASEQ.ws220.gff3.gz
+     2839 dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.wormbase_transcripts.ws170.gff3     2839_dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.wormbase_transcripts.ws220.gff3.gz
+     2840 early_embryo.genelets.RNASEQ.ws170.gff3                                            2840_early_embryo.genelets.RNASEQ.ws220.gff3.gz                                 
+     2840 early_embryo.wormbase_transcripts.ws170.gff3                                       2840_early_embryo.wormbase_transcripts.ws220.gff3.gz                            
+     2841 embryo_him-8_20dC_post-L1.wormbase_transcripts.ws170.gff3                          2841_embryo_him-8_20dC_post-L1.wormbase_transcripts.ws220.gff3.gz               
+     2841 embryo_him-8_20dC_post-L1.genelets.RNASEQ.ws170.gff3                               2841_embryo_him-8_20dC_post-L1.genelets.RNASEQ.ws220.gff3.gz                    
+     2842 late_embryo_20dC_4.5hrs_post-early_embryo.wormbase_transcripts.ws170.gff3          2842_late_embryo_20dC_4.5hrs_post-early_embryo.wormbase_transcripts.ws220.gff3.gz
+     2842 late_embryo_20dC_4.5hrs_post-early_embryo.genelets.RNASEQ.ws170.gff3               2842_late_embryo_20dC_4.5hrs_post-early_embryo.genelets.RNASEQ.ws220.gff3.gz    
+     2843 lin-35(n745)_mid-L1_25dC_4.0hrs_post-L1.genelets.RNASEQ.ws170.gff3                 2843_lin-35(n745)_mid-L1_25dC_4.0hrs_post-L1.genelets.RNASEQ.ws220.gff3.gz      
+     2843 lin-35(n745)_mid-L1_25dC_4.0hrs_post-L1.wormbase_transcripts.ws170.gff3            2843_lin-35(n745)_mid-L1_25dC_4.0hrs_post-L1.wormbase_transcripts.ws220.gff3.gz 
+     2844 male_mid-L4_25dC_30hrs_post-L1.genelets.RNASEQ.ws170.gff3                          2844_male_mid-L4_25dC_30hrs_post-L1.genelets.RNASEQ.ws220.gff3.gz               
+     2844 male_mid-L4_25dC_30hrs_post-L1.wormbase_transcripts.ws170.gff3                     2844_male_mid-L4_25dC_30hrs_post-L1.wormbase_transcripts.ws220.gff3.gz          
+     2845 mid-L1_20dC_4hrs_post-L1.genelets.RNASEQ.ws170.gff3                                2845_mid-L1_20dC_4hrs_post-L1.genelets.RNASEQ.ws220.gff3.gz                     
+     2845 mid-L1_20dC_4hrs_post-L1.wormbase_transcripts.ws170.gff3                           2845_mid-L1_20dC_4hrs_post-L1.wormbase_transcripts.ws220.gff3.gz                
+     2846 mid-L2_25dC_14hrs_post-L1.genelets.RNASEQ.ws170.gff3                               2846_mid-L2_25dC_14hrs_post-L1.genelets.RNASEQ.ws220.gff3.gz                    
+     2846 mid-L2_25dC_14hrs_post-L1.wormbase_transcripts.ws170.gff3                          2846_mid-L2_25dC_14hrs_post-L1.wormbase_transcripts.ws220.gff3.gz               
+     2847 mid-L3_25dC_25hrs_post-L1.genelets.RNASEQ.ws170.gff3                               2847_mid-L3_25dC_25hrs_post-L1.genelets.RNASEQ.ws220.gff3.gz                    
+     2847 mid-L3_25dC_25hrs_post-L1.wormbase_transcripts.ws170.gff3                          2847_mid-L3_25dC_25hrs_post-L1.wormbase_transcripts.ws220.gff3.gz               
+     2848 mid-L4_25dC_36hrs_post-L1.genelets.RNASEQ.ws170.gff3                               2848_mid-L4_25dC_36hrs_post-L1.genelets.RNASEQ.ws220.gff3.gz                    
+     2848 mid-L4_25dC_36hrs_post-L1.wormbase_transcripts.ws170.gff3                          2848_mid-L4_25dC_36hrs_post-L1.wormbase_transcripts.ws220.gff3.gz               
+     3312 set.20101124.2_3_2_2_4_3_3_2_4_4.ws180.gff                                         3312_set.20101124.2_3_2_2_4_3_3_2_4_4.ws220.gff.gz                              
+     3326 Control_Day1_wt_FC42B89HM_s_1_elegans.WS190.dna_SOAP_S3w5.sam                      3326_Control_Day1_wt_FC42B89HM_s_1_elegans.WS220.dna_SOAP_S3w5.sam.gz           
+     3327 Heatshock_Day1_wt_FC42B89HM_s_2_elegans.WS190.dna_SOAP_S3w5.sam                    3327_Heatshock_Day1_wt_FC42B89HM_s_2_elegans.WS220.dna_SOAP_S3w5.sam.gz         
+     3328 PA14_Day1_wt_FC42B89HM_s_5_elegans.WS190.dna_SOAP_S3w5.sam                         3328_PA14_Day1_wt_FC42B89HM_s_5_elegans.WS220.dna_SOAP_S3w5.sam.gz              
+     3329 L1_arrest_FC42B89HM_s_4_elegans.WS190.dna_SOAP_S3w5.sam                            3329_L1_arrest_FC42B89HM_s_4_elegans.WS220.dna_SOAP_S3w5.sam.gz                 
+
+** found after regex match (31) **
+      526 GSM280083                                                                          526_GSM280083.sam.gz                                                            
+      740 GSM286605                                                                          740_GSM286605.gff.sam.gz                                                        
+      751 GSM322543                                                                          751_GSM322543.gff.sam.gz                                                        
+      752 GSM286606                                                                          752_GSM286606.gff.sam.gz                                                        
+      755 GSM286604                                                                          755_GSM286604.gff.sam.gz                                                        
+      762 GSM360256                                                                          762_GSM360256.gff.sam.gz                                                        
+      772 GSM280085                                                                          772_GSM280085.gff.sam.gz                                                        
+      773 GSM280082                                                                          773_GSM280082.gff.sam.gz                                                        
+      774 GSM280084                                                                          774_GSM280084.gff.sam.gz                                                        
+     2381 GSM280086                                                                          2381_GSM280086.sam.gz                                                           
+     2543 GSM360260                                                                          2543_GSM360260.sam.gz                                                           
+     2546 GSM360257                                                                          2546_GSM360257.sam.gz                                                           
+     2556 GSM360262                                                                          2556_GSM360262.sam.gz                                                           
+     3094 100420_61046AAXX_CG6779_2_s_4_sequence.txt.gz                                      3094_100420_61046AAXX_CG6779_2_s_4_sequence.txt_unique.sam.gz                   
+     3388 BG3_7.bed.gff3                                                                     3388_2754_BG3_7.bed.gff3.gz                                                     
+     3388 BG3_7.wig                                                                          3388_2754_BG3_7.wig.gz                                                          
+     3388 BG3.bed.gff3                                                                       3388_2754_BG3.bed.gff3.gz                                                       
+     3388 S2_2.bed.gff3                                                                      3388_2753_S2_2.bed.gff3.gz                                                      
+     3388 KC.bed.gff3                                                                        3388_2755_KC.bed.gff3.gz                                                        
+     3388 S2_2.wig                                                                           3388_2753_S2_2.wig.gz                                                           
+     3388 S2.bed.gff3                                                                        3388_2753_S2.bed.gff3.gz                                                        
+     3388 KC.wig                                                                             3388_2755_KC.wig.gz                                                             
+     3388 BG3.wig                                                                            3388_2754_BG3.wig.gz                                                            
+     3388 KC_1.wig                                                                           3388_2755_KC_1.wig.gz                                                           
+     3388 KC_1.bed.gff3                                                                      3388_2755_KC_1.bed.gff3.gz                                                      
+     3441 Bg3_early_origins_peaks.gff                                                        3441_711_Bg3_early_origins_peaks.gff.gz                                         
+     3441 S2_early_origins_peaks.gff                                                         3441_710_S2_early_origins_peaks.gff.gz                                          
+     3441 S2_early_origins_MA2Cscore.wig                                                     3441_710_S2_early_origins_MA2Cscore.wig.gz                                      
+     3441 Bg3_early_origins_MA2Cscore.wig                                                    3441_711_Bg3_early_origins_MA2Cscore.wig.gz                                     
+     3441 Kc_early_origins_peaks.gff                                                         3441_709_Kc_early_origins_peaks.gff.gz                                          
+     3441 Kc_early_origins_MA2Cscore.wig                                                     3441_709_Kc_early_origins_MA2Cscore.wig.gz                                      
+
+** found after removing extension altogether (170) **
+       40 Dro2_AS_1182-4H_C01_B3_T1.CEL.bz2                                                  40_Dro2_AS_1182-4H_C01_B3_T1.CEL.bz2                                            
+       40 Dro2_AS_1182-4H_C01_B2_T1.CEL.bz2                                                  40_Dro2_AS_1182-4H_C01_B2_T1.CEL.bz2                                            
+       40 Dro2_AS_1182-4H_C01_B1_T1.CEL.bz2                                                  40_Dro2_AS_1182-4H_C01_B1_T1.CEL.bz2                                            
+       48 Dro2_AS_CME-L1_C01_B3_T1.CEL.bz2                                                   48_Dro2_AS_CME-L1_C01_B3_T1.CEL.bz2                                             
+       48 Dro2_AS_CME-L1_C01_B1_T1.CEL.bz2                                                   48_Dro2_AS_CME-L1_C01_B1_T1.CEL.bz2                                             
+       48 Dro2_AS_CME-L1_C01_B2_T1.CEL.bz2                                                   48_Dro2_AS_CME-L1_C01_B2_T1.CEL.bz2                                             
+       49 Dro2_AS_CME-W1-CL8_C01_B1_T1.CEL.bz2                                               49_Dro2_AS_CME-W1-CL8_C01_B1_T1.CEL.bz2                                         
+       49 Dro2_AS_CME-W1-CL8_C01_B2_T1.CEL.bz2                                               49_Dro2_AS_CME-W1-CL8_C01_B2_T1.CEL.bz2                                         
+       49 Dro2_AS_CME-W1-CL8_C01_B3_T1.CEL.bz2                                               49_Dro2_AS_CME-W1-CL8_C01_B3_T1.CEL.bz2                                         
+       50 Dro2_AS_GM2_C01_B3_T1.CEL.bz2                                                      50_Dro2_AS_GM2_C01_B3_T1.CEL.bz2                                                
+       50 Dro2_AS_GM2_C01_B1_T1.CEL.bz2                                                      50_Dro2_AS_GM2_C01_B1_T1.CEL.bz2                                                
+       50 Dro2_AS_GM2_C01_B2_T1.CEL.bz2                                                      50_Dro2_AS_GM2_C01_B2_T1.CEL.bz2                                                
+       51 Dro2_AS_Kc167_C01_B2_T1.CEL.bz2                                                    51_Dro2_AS_Kc167_C01_B2_T1.CEL.bz2                                              
+       51 Dro2_AS_Kc167_C01_B1_T1.CEL.bz2                                                    51_Dro2_AS_Kc167_C01_B1_T1.CEL.bz2                                              
+       51 Dro2_AS_Kc167_C01_B3_T1.CEL.bz2                                                    51_Dro2_AS_Kc167_C01_B3_T1.CEL.bz2                                              
+       52 Dro2_AS_ML-DmBG1c1_C01_B1_T1.CEL.bz2                                               52_Dro2_AS_ML-DmBG1c1_C01_B1_T1.CEL.bz2                                         
+       52 Dro2_AS_ML-DmBG1c1_C01_B3_T1.CEL.bz2                                               52_Dro2_AS_ML-DmBG1c1_C01_B3_T1.CEL.bz2                                         
+       52 Dro2_AS_ML-DmBG1c1_C01_B2_T1.CEL.bz2                                               52_Dro2_AS_ML-DmBG1c1_C01_B2_T1.CEL.bz2                                         
+       53 Dro2_AS_MLDmBG3-c2_RW_C01_B3_T1.CEL.bz2                                            53_Dro2_AS_MLDmBG3-c2_RW_C01_B3_T1.CEL.bz2                                      
+       53 Dro2_AS_MLDmBG3-c2_RW_C01_B1_T1.CEL.bz2                                            53_Dro2_AS_MLDmBG3-c2_RW_C01_B1_T1.CEL.bz2                                      
+       53 Dro2_AS_MLDmBG3-c2_RW_C01_B2_T1.CEL.bz2                                            53_Dro2_AS_MLDmBG3-c2_RW_C01_B2_T1.CEL.bz2                                      
+       54 Dro2_AS_ML-DmD11_C01_B3_T1.CEL.bz2                                                 54_Dro2_AS_ML-DmD11_C01_B3_T1.CEL.bz2                                           
+       54 Dro2_AS_ML-DmD11_C01_B2_T1.CEL.bz2                                                 54_Dro2_AS_ML-DmD11_C01_B2_T1.CEL.bz2                                           
+       54 Dro2_AS_ML-DmD11_C01_B1_T1.CEL.bz2                                                 54_Dro2_AS_ML-DmD11_C01_B1_T1.CEL.bz2                                           
+       55 Dro2_AS_ML-DmD17c3_C01_B3_T1.CEL.bz2                                               55_Dro2_AS_ML-DmD17c3_C01_B3_T1.CEL.bz2                                         
+       55 Dro2_AS_ML-DmD17c3_C01_B1_T1.CEL.bz2                                               55_Dro2_AS_ML-DmD17c3_C01_B1_T1.CEL.bz2                                         
+       55 Dro2_AS_ML-DmD17c3_C01_B2_T1.CEL.bz2                                               55_Dro2_AS_ML-DmD17c3_C01_B2_T1.CEL.bz2                                         
+       56 Dro2_AS_ML-DmD20c2_C01_B1_T1.CEL.bz2                                               56_Dro2_AS_ML-DmD20c2_C01_B1_T1.CEL.bz2                                         
+       56 Dro2_AS_ML-DmD20c2_C01_B2_T1.CEL.bz2                                               56_Dro2_AS_ML-DmD20c2_C01_B2_T1.CEL.bz2                                         
+       56 Dro2_AS_ML-DmD20c2_C01_B3_T1.CEL.bz2                                               56_Dro2_AS_ML-DmD20c2_C01_B3_T1.CEL.bz2                                         
+       57 Dro2_AS_ML-DmD20c5_C01_B1_T1.CEL.bz2                                               57_Dro2_AS_ML-DmD20c5_C01_B1_T1.CEL.bz2                                         
+       57 Dro2_AS_ML-DmD20c5_C01_B2_T1.CEL.bz2                                               57_Dro2_AS_ML-DmD20c5_C01_B2_T1.CEL.bz2                                         
+       57 Dro2_AS_ML-DmD20c5_C01_B3_T1.CEL.bz2                                               57_Dro2_AS_ML-DmD20c5_C01_B3_T1.CEL.bz2                                         
+       58 Dro2_AS_ML-DmD21_C01_B3_T1.CEL.bz2                                                 58_Dro2_AS_ML-DmD21_C01_B3_T1.CEL.bz2                                           
+       58 Dro2_AS_ML-DmD21_C01_B2_T1.CEL.bz2                                                 58_Dro2_AS_ML-DmD21_C01_B2_T1.CEL.bz2                                           
+       58 Dro2_AS_ML-DmD21_C01_B1_T1.CEL.bz2                                                 58_Dro2_AS_ML-DmD21_C01_B1_T1.CEL.bz2                                           
+       59 Dro2_AS_ML-DmD32_C01_B1_T1.CEL.bz2                                                 59_Dro2_AS_ML-DmD32_C01_B1_T1.CEL.bz2                                           
+       59 Dro2_AS_ML-DmD32_C01_B2_T1.CEL.bz2                                                 59_Dro2_AS_ML-DmD32_C01_B2_T1.CEL.bz2                                           
+       59 Dro2_AS_ML-DmD32_C01_B3_T1.CEL.bz2                                                 59_Dro2_AS_ML-DmD32_C01_B3_T1.CEL.bz2                                           
+       60 Dro2_AS_MLDmD4-c1_RW_C01_B1_T1.CEL.bz2                                             60_Dro2_AS_MLDmD4-c1_RW_C01_B1_T1.CEL.bz2                                       
+       60 Dro2_AS_MLDmD4-c1_RW_C01_B2_T1.CEL.bz2                                             60_Dro2_AS_MLDmD4-c1_RW_C01_B2_T1.CEL.bz2                                       
+       60 Dro2_AS_MLDmD4-c1_RW_C01_B3_T1.CEL.bz2                                             60_Dro2_AS_MLDmD4-c1_RW_C01_B3_T1.CEL.bz2                                       
+       61 Dro2_AS_ML-DmD8_C01_B3_T1.CEL.bz2                                                  61_Dro2_AS_ML-DmD8_C01_B3_T1.CEL.bz2                                            
+       61 Dro2_AS_ML-DmD8_C01_B2_T1.CEL.bz2                                                  61_Dro2_AS_ML-DmD8_C01_B2_T1.CEL.bz2                                            
+       61 Dro2_AS_ML-DmD8_C01_B1_T1.CEL.bz2                                                  61_Dro2_AS_ML-DmD8_C01_B1_T1.CEL.bz2                                            
+       62 Dro2_AS_ML-DmD9_C01_B1_T1.CEL.bz2                                                  62_Dro2_AS_ML-DmD9_C01_B1_T1.CEL.bz2                                            
+       62 Dro2_AS_ML-DmD9_C01_B2_T1.CEL.bz2                                                  62_Dro2_AS_ML-DmD9_C01_B2_T1.CEL.bz2                                            
+       62 Dro2_AS_ML-DmD9_C01_B3_T1.CEL.bz2                                                  62_Dro2_AS_ML-DmD9_C01_B3_T1.CEL.bz2                                            
+       63 Dro2_AS_S1_C01_B3_T1.CEL.bz2                                                       63_Dro2_AS_S1_C01_B3_T1.CEL.bz2                                                 
+       63 Dro2_AS_S1_C01_B1_T1.CEL.bz2                                                       63_Dro2_AS_S1_C01_B1_T1.CEL.bz2                                                 
+       63 Dro2_AS_S1_C01_B2_T1.CEL.bz2                                                       63_Dro2_AS_S1_C01_B2_T1.CEL.bz2                                                 
+       64 Dro2_AS_S2-DRSC_C01_B2_T1.CEL.bz2                                                  64_Dro2_AS_S2-DRSC_C01_B2_T1.CEL.bz2                                            
+       64 Dro2_AS_S2-DRSC_C01_B3_T1.CEL.bz2                                                  64_Dro2_AS_S2-DRSC_C01_B3_T1.CEL.bz2                                            
+       64 Dro2_AS_S2-DRSC_C01_B1_T1.CEL.bz2                                                  64_Dro2_AS_S2-DRSC_C01_B1_T1.CEL.bz2                                            
+       65 Dro2_AS_S2R+_C01_B3_T1.CEL.bz2                                                     65_Dro2_AS_S2R+_C01_B3_T1.CEL.bz2                                               
+       65 Dro2_AS_S2R+_C01_B2_T1.CEL.bz2                                                     65_Dro2_AS_S2R+_C01_B2_T1.CEL.bz2                                               
+       65 Dro2_AS_S2R+_C01_B1_T1.CEL.bz2                                                     65_Dro2_AS_S2R+_C01_B1_T1.CEL.bz2                                               
+       66 Dro2_AS_S3_RW_C01_B2_T1.CEL.bz2                                                    66_Dro2_AS_S3_RW_C01_B2_T1.CEL.bz2                                              
+       66 Dro2_AS_S3_RW_C01_B1_T1.CEL.bz2                                                    66_Dro2_AS_S3_RW_C01_B1_T1.CEL.bz2                                              
+       66 Dro2_AS_S3_RW_C01_B3_T1.CEL.bz2                                                    66_Dro2_AS_S3_RW_C01_B3_T1.CEL.bz2                                              
+       67 Dro2_AS_Sg4_C01_B1_T1.CEL.bz2                                                      67_Dro2_AS_Sg4_C01_B1_T1.CEL.bz2                                                
+       67 Dro2_AS_Sg4_C01_B2_T1.CEL.bz2                                                      67_Dro2_AS_Sg4_C01_B2_T1.CEL.bz2                                                
+       67 Dro2_AS_Sg4_C01_B3_T1.CEL.bz2                                                      67_Dro2_AS_Sg4_C01_B3_T1.CEL.bz2                                                
+       69 Dro2_AS_ML-DmD16c3_C01_B2_T1.CEL.bz2                                               69_Dro2_AS_ML-DmD16c3_C01_B2_T1.CEL.bz2                                         
+       69 Dro2_AS_ML-DmD16c3_C01_B3_T1.CEL.bz2                                               69_Dro2_AS_ML-DmD16c3_C01_B3_T1.CEL.bz2                                         
+       69 Dro2_AS_ML-DmD16c3_C01_B1_T1.CEL.bz2                                               69_Dro2_AS_ML-DmD16c3_C01_B1_T1.CEL.bz2                                         
+       93 Dro2_AS_Dm_L1_larvae_RW_C01_B2_T1.CEL.bz2                                          93_Dro2_AS_Dm_L1_larvae_RW_C01_B2_T1.CEL.bz2                                    
+       93 Dro2_AS_Dm_L1_larvae_RW_C01_B1_T1.CEL.bz2                                          93_Dro2_AS_Dm_L1_larvae_RW_C01_B1_T1.CEL.bz2                                    
+       93 Dro2_AS_Dm_L1_larvae_RW_C01_B3_T1.CEL.bz2                                          93_Dro2_AS_Dm_L1_larvae_RW_C01_B3_T1.CEL.bz2                                    
+       94 Dro2_AS_Dm_L2_larvae_RW_C01_B2_T1.CEL.bz2                                          94_Dro2_AS_Dm_L2_larvae_RW_C01_B2_T1.CEL.bz2                                    
+       94 Dro2_AS_Dm_L2_larvae_RW_C01_B1_T1.CEL.bz2                                          94_Dro2_AS_Dm_L2_larvae_RW_C01_B1_T1.CEL.bz2                                    
+       94 Dro2_AS_Dm_L2_larvae_RW_C01_B3_T1.CEL.bz2                                          94_Dro2_AS_Dm_L2_larvae_RW_C01_B3_T1.CEL.bz2                                    
+       95 Dro2_AS_Dm_WPP_RW_C01_B1_T1.CEL.bz2                                                95_Dro2_AS_Dm_WPP_RW_C01_B1_T1.CEL.bz2                                          
+       95 Dro2_AS_Dm_WPP_RW_C01_B2_T1.CEL.bz2                                                95_Dro2_AS_Dm_WPP_RW_C01_B2_T1.CEL.bz2                                          
+       95 Dro2_AS_Dm_WPP_RW_C01_B3_T1.CEL.bz2                                                95_Dro2_AS_Dm_WPP_RW_C01_B3_T1.CEL.bz2                                          
+       96 Dro2_AS_DroAdF-Ecl+1day_RW_C01_B2_T1.CEL.bz2                                       96_Dro2_AS_DroAdF-Ecl+1day_RW_C01_B2_T1.CEL.bz2                                 
+       96 Dro2_AS_DroAdF-Ecl+1day_RW_C01_B3_T1.CEL.bz2                                       96_Dro2_AS_DroAdF-Ecl+1day_RW_C01_B3_T1.CEL.bz2                                 
+       96 Dro2_AS_DroAdF-Ecl+1day_RW_C01_B1_T1.CEL.bz2                                       96_Dro2_AS_DroAdF-Ecl+1day_RW_C01_B1_T1.CEL.bz2                                 
+       97 Dro2_AS_DroAdF-Ecl+5day_RW_C01_B1_T1.CEL.bz2                                       97_Dro2_AS_DroAdF-Ecl+5day_RW_C01_B1_T1.CEL.bz2                                 
+       97 Dro2_AS_DroAdF-Ecl+5day_RW_C01_B2_T1.CEL.bz2                                       97_Dro2_AS_DroAdF-Ecl+5day_RW_C01_B2_T1.CEL.bz2                                 
+       97 Dro2_AS_DroAdF-Ecl+5day_RW_C01_B3_T1.CEL.bz2                                       97_Dro2_AS_DroAdF-Ecl+5day_RW_C01_B3_T1.CEL.bz2                                 
+       98 Dro2_AS_DroAdM-Ecl+1day_RW_C01_B2_T1.CEL.bz2                                       98_Dro2_AS_DroAdM-Ecl+1day_RW_C01_B2_T1.CEL.bz2                                 
+       98 Dro2_AS_DroAdM-Ecl+1day_RW_C01_B1_T1.CEL.bz2                                       98_Dro2_AS_DroAdM-Ecl+1day_RW_C01_B1_T1.CEL.bz2                                 
+       98 Dro2_AS_DroAdM-Ecl+1day_RW_C01_B3_T1.CEL.bz2                                       98_Dro2_AS_DroAdM-Ecl+1day_RW_C01_B3_T1.CEL.bz2                                 
+       99 Dro2_AS_DroAdM-Ecl+5day_RW_C01_B1_T1.CEL.bz2                                       99_Dro2_AS_DroAdM-Ecl+5day_RW_C01_B1_T1.CEL.bz2                                 
+       99 Dro2_AS_DroAdM-Ecl+5day_RW_C01_B3_T1.CEL.bz2                                       99_Dro2_AS_DroAdM-Ecl+5day_RW_C01_B3_T1.CEL.bz2                                 
+       99 Dro2_AS_DroAdM-Ecl+5day_RW_C01_B2_T1.CEL.bz2                                       99_Dro2_AS_DroAdM-Ecl+5day_RW_C01_B2_T1.CEL.bz2                                 
+      100 Dro2_AS_L3-larvae-dark-blue_RW_C01_B2_T1.CEL.bz2                                   100_Dro2_AS_L3-larvae-dark-blue_RW_C01_B2_T1.CEL.bz2                            
+      100 Dro2_AS_L3-larvae-dark-blue_RW_C01_B1_T1.CEL.bz2                                   100_Dro2_AS_L3-larvae-dark-blue_RW_C01_B1_T1.CEL.bz2                            
+      100 Dro2_AS_L3-larvae-dark-blue_RW_C01_B3_T1.CEL.bz2                                   100_Dro2_AS_L3-larvae-dark-blue_RW_C01_B3_T1.CEL.bz2                            
+      101 Dro2_AS_Dm_emb_2h_C01_B2_T1.CEL.bz2                                                101_Dro2_AS_Dm_emb_2h_C01_B2_T1.CEL.bz2                                         
+      101 Dro2_AS_Dm_emb_2h_C01_B3_T1.CEL.bz2                                                101_Dro2_AS_Dm_emb_2h_C01_B3_T1.CEL.bz2                                         
+      101 Dro2_AS_Dm_emb_2h_C01_B1_T1.CEL.bz2                                                101_Dro2_AS_Dm_emb_2h_C01_B1_T1.CEL.bz2                                         
+      102 Dro2_AS_Dm_emb_2h_RWP+_C01_B2_T1.CEL.bz2                                           102_Dro2_AS_Dm_emb_2h_RWP+_C01_B2_T1.CEL.bz2                                    
+      102 Dro2_AS_Dm_emb_2h_RWP+_C01_B1_T1.CEL.bz2                                           102_Dro2_AS_Dm_emb_2h_RWP+_C01_B1_T1.CEL.bz2                                    
+      102 Dro2_AS_Dm_emb_2h_RWP+_C01_B3_T1.CEL.bz2                                           102_Dro2_AS_Dm_emb_2h_RWP+_C01_B3_T1.CEL.bz2                                    
+      103 Dro2_AS_Dm_emb_10h_RW_C01_B3_T1.CEL.bz2                                            103_Dro2_AS_Dm_emb_10h_RW_C01_B3_T1.CEL.bz2                                     
+      103 Dro2_AS_Dm_emb_10h_RW_C01_B2_T1.CEL.bz2                                            103_Dro2_AS_Dm_emb_10h_RW_C01_B2_T1.CEL.bz2                                     
+      103 Dro2_AS_Dm_emb_10h_RW_C01_B1_T1.CEL.bz2                                            103_Dro2_AS_Dm_emb_10h_RW_C01_B1_T1.CEL.bz2                                     
+      104 Dro2_AS_Dm_emb_10h_RWP+_C01_B2_T1.CEL.bz2                                          104_Dro2_AS_Dm_emb_10h_RWP+_C01_B2_T1.CEL.bz2                                   
+      104 Dro2_AS_Dm_emb_10h_RWP+_C01_B3_T1.CEL.bz2                                          104_Dro2_AS_Dm_emb_10h_RWP+_C01_B3_T1.CEL.bz2                                   
+      104 Dro2_AS_Dm_emb_10h_RWP+_C01_B1_T1.CEL.bz2                                          104_Dro2_AS_Dm_emb_10h_RWP+_C01_B1_T1.CEL.bz2                                   
+      105 Dro2_AS_Dm_emb_12h_RW_C01_B1_T1.CEL.bz2                                            105_Dro2_AS_Dm_emb_12h_RW_C01_B1_T1.CEL.bz2                                     
+      105 Dro2_AS_Dm_emb_12h_RW_C01_B3_T1.CEL.bz2                                            105_Dro2_AS_Dm_emb_12h_RW_C01_B3_T1.CEL.bz2                                     
+      105 Dro2_AS_Dm_emb_12h_RW_C01_B2_T1.CEL.bz2                                            105_Dro2_AS_Dm_emb_12h_RW_C01_B2_T1.CEL.bz2                                     
+      106 Dro2_AS_Dm_emb_12h_RWP+_C01_B1_T1.CEL.bz2                                          106_Dro2_AS_Dm_emb_12h_RWP+_C01_B1_T1.CEL.bz2                                   
+      106 Dro2_AS_Dm_emb_12h_RWP+_C01_B3_T1.CEL.bz2                                          106_Dro2_AS_Dm_emb_12h_RWP+_C01_B3_T1.CEL.bz2                                   
+      106 Dro2_AS_Dm_emb_12h_RWP+_C01_B2_T1.CEL.bz2                                          106_Dro2_AS_Dm_emb_12h_RWP+_C01_B2_T1.CEL.bz2                                   
+      107 Dro2_AS_Dm_emb_14h_RW_C01_B2_T1.CEL.bz2                                            107_Dro2_AS_Dm_emb_14h_RW_C01_B2_T1.CEL.bz2                                     
+      107 Dro2_AS_Dm_emb_14h_RW_C01_B3_T1.CEL.bz2                                            107_Dro2_AS_Dm_emb_14h_RW_C01_B3_T1.CEL.bz2                                     
+      107 Dro2_AS_Dm_emb_14h_RW_C01_B1_T1.CEL.bz2                                            107_Dro2_AS_Dm_emb_14h_RW_C01_B1_T1.CEL.bz2                                     
+      108 Dro2_AS_Dm_emb_14h_RWP+_C01_B2_T1.CEL.bz2                                          108_Dro2_AS_Dm_emb_14h_RWP+_C01_B2_T1.CEL.bz2                                   
+      108 Dro2_AS_Dm_emb_14h_RWP+_C01_B1_T1.CEL.bz2                                          108_Dro2_AS_Dm_emb_14h_RWP+_C01_B1_T1.CEL.bz2                                   
+      108 Dro2_AS_Dm_emb_14h_RWP+_C01_B3_T1.CEL.bz2                                          108_Dro2_AS_Dm_emb_14h_RWP+_C01_B3_T1.CEL.bz2                                   
+      109 Dro2_AS_Dm_emb_16h_RW_C01_B1_T1.CEL.bz2                                            109_Dro2_AS_Dm_emb_16h_RW_C01_B1_T1.CEL.bz2                                     
+      109 Dro2_AS_Dm_emb_16h_RW_C01_B2_T1.CEL.bz2                                            109_Dro2_AS_Dm_emb_16h_RW_C01_B2_T1.CEL.bz2                                     
+      109 Dro2_AS_Dm_emb_16h_RW_C01_B3_T1.CEL.bz2                                            109_Dro2_AS_Dm_emb_16h_RW_C01_B3_T1.CEL.bz2                                     
+      110 Dro2_AS_Dm_emb_16h_RWP+_C01_B2_T1.CEL.bz2                                          110_Dro2_AS_Dm_emb_16h_RWP+_C01_B2_T1.CEL.bz2                                   
+      110 Dro2_AS_Dm_emb_16h_RWP+_C01_B1_T1.CEL.bz2                                          110_Dro2_AS_Dm_emb_16h_RWP+_C01_B1_T1.CEL.bz2                                   
+      111 Dro2_AS_Dm_emb_18h_RW_C01_B2_T1.CEL.bz2                                            111_Dro2_AS_Dm_emb_18h_RW_C01_B2_T1.CEL.bz2                                     
+      111 Dro2_AS_Dm_emb_18h_RW_C01_B3_T1.CEL.bz2                                            111_Dro2_AS_Dm_emb_18h_RW_C01_B3_T1.CEL.bz2                                     
+      111 Dro2_AS_Dm_emb_18h_RW_C01_B1_T1.CEL.bz2                                            111_Dro2_AS_Dm_emb_18h_RW_C01_B1_T1.CEL.bz2                                     
+      112 Dro2_AS_Dm_emb_18h_RWP+_C01_B1_T1.CEL.bz2                                          112_Dro2_AS_Dm_emb_18h_RWP+_C01_B1_T1.CEL.bz2                                   
+      112 Dro2_AS_Dm_emb_18h_RWP+_C01_B2_T1.CEL.bz2                                          112_Dro2_AS_Dm_emb_18h_RWP+_C01_B2_T1.CEL.bz2                                   
+      112 Dro2_AS_Dm_emb_18h_RWP+_C01_B3_T1.CEL.bz2                                          112_Dro2_AS_Dm_emb_18h_RWP+_C01_B3_T1.CEL.bz2                                   
+      113 Dro2_AS_Dm_emb_20h_RW_C01_B3_T1.CEL.bz2                                            113_Dro2_AS_Dm_emb_20h_RW_C01_B3_T1.CEL.bz2                                     
+      113 Dro2_AS_Dm_emb_20h_RW_C01_B2_T1.CEL.bz2                                            113_Dro2_AS_Dm_emb_20h_RW_C01_B2_T1.CEL.bz2                                     
+      113 Dro2_AS_Dm_emb_20h_RW_C01_B1_T1.CEL.bz2                                            113_Dro2_AS_Dm_emb_20h_RW_C01_B1_T1.CEL.bz2                                     
+      114 Dro2_AS_Dm_emb_20h_RWP+_C01_B2_T1.CEL.bz2                                          114_Dro2_AS_Dm_emb_20h_RWP+_C01_B2_T1.CEL.bz2                                   
+      114 Dro2_AS_Dm_emb_20h_RWP+_C01_B1_T1.CEL.bz2                                          114_Dro2_AS_Dm_emb_20h_RWP+_C01_B1_T1.CEL.bz2                                   
+      115 Dro2_AS_Dm_emb_22h_RWP+_C01_B3_T1.CEL.bz2                                          115_Dro2_AS_Dm_emb_22h_RWP+_C01_B3_T1.CEL.bz2                                   
+      115 Dro2_AS_Dm_emb_22h_RWP+_C01_B1_T1.CEL.bz2                                          115_Dro2_AS_Dm_emb_22h_RWP+_C01_B1_T1.CEL.bz2                                   
+      115 Dro2_AS_Dm_emb_22h_RWP+_C01_B2_T1.CEL.bz2                                          115_Dro2_AS_Dm_emb_22h_RWP+_C01_B2_T1.CEL.bz2                                   
+      116 Dro2_AS_Dm_emb_22h_RW_C01_B1_T1.CEL.bz2                                            116_Dro2_AS_Dm_emb_22h_RW_C01_B1_T1.CEL.bz2                                     
+      116 Dro2_AS_Dm_emb_22h_RW_C01_B2_T1.CEL.bz2                                            116_Dro2_AS_Dm_emb_22h_RW_C01_B2_T1.CEL.bz2                                     
+      117 Dro2_AS_Dm_emb_24h_RW_C01_B1_T1.CEL.bz2                                            117_Dro2_AS_Dm_emb_24h_RW_C01_B1_T1.CEL.bz2                                     
+      117 Dro2_AS_Dm_emb_24h_RW_C01_B2_T1.CEL.bz2                                            117_Dro2_AS_Dm_emb_24h_RW_C01_B2_T1.CEL.bz2                                     
+      117 Dro2_AS_Dm_emb_24h_RW_C01_B3_T1.CEL.bz2                                            117_Dro2_AS_Dm_emb_24h_RW_C01_B3_T1.CEL.bz2                                     
+      118 Dro2_AS_Dm_emb_4h_C01_B3_T1.CEL.bz2                                                118_Dro2_AS_Dm_emb_4h_C01_B3_T1.CEL.bz2                                         
+      118 Dro2_AS_Dm_emb_4h_C01_B2_T1.CEL.bz2                                                118_Dro2_AS_Dm_emb_4h_C01_B2_T1.CEL.bz2                                         
+      118 Dro2_AS_Dm_emb_4h_C01_B1_T1.CEL.bz2                                                118_Dro2_AS_Dm_emb_4h_C01_B1_T1.CEL.bz2                                         
+      119 Dro2_AS_Dm_emb_4h_RWP+_C01_B1_T1.CEL.bz2                                           119_Dro2_AS_Dm_emb_4h_RWP+_C01_B1_T1.CEL.bz2                                    
+      119 Dro2_AS_Dm_emb_4h_RWP+_C01_B2_T1.CEL.bz2                                           119_Dro2_AS_Dm_emb_4h_RWP+_C01_B2_T1.CEL.bz2                                    
+      119 Dro2_AS_Dm_emb_4h_RWP+_C01_B3_T1.CEL.bz2                                           119_Dro2_AS_Dm_emb_4h_RWP+_C01_B3_T1.CEL.bz2                                    
+      120 Dro2_AS_Dm_emb_6h_C01_B3_T1.CEL.bz2                                                120_Dro2_AS_Dm_emb_6h_C01_B3_T1.CEL.bz2                                         
+      120 Dro2_AS_Dm_emb_6h_C01_B2_T1.CEL.bz2                                                120_Dro2_AS_Dm_emb_6h_C01_B2_T1.CEL.bz2                                         
+      120 Dro2_AS_Dm_emb_6h_C01_B1_T1.CEL.bz2                                                120_Dro2_AS_Dm_emb_6h_C01_B1_T1.CEL.bz2                                         
+      121 Dro2_AS_Dm_emb_6h_RWP+_C01_B2_T1.CEL.bz2                                           121_Dro2_AS_Dm_emb_6h_RWP+_C01_B2_T1.CEL.bz2                                    
+      121 Dro2_AS_Dm_emb_6h_RWP+_C01_B3_T1.CEL.bz2                                           121_Dro2_AS_Dm_emb_6h_RWP+_C01_B3_T1.CEL.bz2                                    
+      121 Dro2_AS_Dm_emb_6h_RWP+_C01_B1_T1.CEL.bz2                                           121_Dro2_AS_Dm_emb_6h_RWP+_C01_B1_T1.CEL.bz2                                    
+      122 Dro2_AS_Dm_emb_8h_RWP+_C01_B3_T1.CEL.bz2                                           122_Dro2_AS_Dm_emb_8h_RWP+_C01_B3_T1.CEL.bz2                                    
+      122 Dro2_AS_Dm_emb_8h_RWP+_C01_B2_T1.CEL.bz2                                           122_Dro2_AS_Dm_emb_8h_RWP+_C01_B2_T1.CEL.bz2                                    
+      122 Dro2_AS_Dm_emb_8h_RWP+_C01_B1_T1.CEL.bz2                                           122_Dro2_AS_Dm_emb_8h_RWP+_C01_B1_T1.CEL.bz2                                    
+      139 Dro2_AS_mbn2_RW_C01_B3_T1.CEL.bz2                                                  139_Dro2_AS_mbn2_RW_C01_B3_T1.CEL.bz2                                           
+      139 Dro2_AS_mbn2_RW_C01_B2_T1.CEL.bz2                                                  139_Dro2_AS_mbn2_RW_C01_B2_T1.CEL.bz2                                           
+      139 Dro2_AS_mbn2_RW_C01_B1_T1.CEL.bz2                                                  139_Dro2_AS_mbn2_RW_C01_B1_T1.CEL.bz2                                           
+      140 Dro2_AS_CME-W2_RW_C01_B2_T1.CEL.bz2                                                140_Dro2_AS_CME-W2_RW_C01_B2_T1.CEL.bz2                                         
+      140 Dro2_AS_CME-W2_RW_C01_B1_T1.CEL.bz2                                                140_Dro2_AS_CME-W2_RW_C01_B1_T1.CEL.bz2                                         
+      140 Dro2_AS_CME-W2_RW_C01_B3_T1.CEL.bz2                                                140_Dro2_AS_CME-W2_RW_C01_B3_T1.CEL.bz2                                         
+      541 Dro2_AS_Dm_WPP+2days_RW_C01_B2_T1.CEL.bz2                                          541_Dro2_AS_Dm_WPP+2days_RW_C01_B2_T1.CEL.bz2                                   
+      541 Dro2_AS_Dm_WPP+2days_RW_C01_B1_T1.CEL.bz2                                          541_Dro2_AS_Dm_WPP+2days_RW_C01_B1_T1.CEL.bz2                                   
+      541 Dro2_AS_Dm_WPP+2days_RW_C01_B3_T1.CEL.bz2                                          541_Dro2_AS_Dm_WPP+2days_RW_C01_B3_T1.CEL.bz2                                   
+      544 Dro2_AS_Dm_WPP+12hr_RW_C01_B2_T1.cel.bz2                                           544_Dro2_AS_Dm_WPP+12hr_RW_C01_B2_T1.cel.bz2                                    
+      544 Dro2_AS_Dm_WPP+12hr_RW_C01_B3_T1.cel.bz2                                           544_Dro2_AS_Dm_WPP+12hr_RW_C01_B3_T1.cel.bz2                                    
+      544 Dro2_AS_Dm_WPP+12hr_RW_C01_B1_T1.cel.bz2                                           544_Dro2_AS_Dm_WPP+12hr_RW_C01_B1_T1.cel.bz2                                    
+      716 Dro2_AS_MLDmBG3-c2_RNu_C01_B1_T1.cel.bz2                                           716_Dro2_AS_MLDmBG3-c2_RNu_C01_B1_T1.cel.bz2                                    
+      716 Dro2_AS_MLDmBG3-c2_RNu_C01_B2_T1.cel.bz2                                           716_Dro2_AS_MLDmBG3-c2_RNu_C01_B2_T1.cel.bz2                                    
+      716 Dro2_AS_MLDmBG3-c2_RNu_C01_B3_T1.cel.bz2                                           716_Dro2_AS_MLDmBG3-c2_RNu_C01_B3_T1.cel.bz2                                    
+      763 Dro2_AS_Dm_emb_8h_RW_C01_B1_T1.CEL.bz2                                             763_Dro2_AS_Dm_emb_8h_RW_C01_B1_T1.CEL.bz2                                      
+      763 Dro2_AS_Dm_emb_8h_RW_C01_B2_T1.CEL.bz2                                             763_Dro2_AS_Dm_emb_8h_RW_C01_B2_T1.CEL.bz2                                      
+
