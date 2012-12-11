@@ -9,6 +9,8 @@ use FacetedBrowsingUtils;
 
 use constant MAX_FILENAME => 255;
 
+print STDERR "Adjusting spreadsheet...\n";
+
 my (%seenline,%records);
 while (<>) {
     chomp;

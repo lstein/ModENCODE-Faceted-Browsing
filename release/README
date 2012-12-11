@@ -1,2 +1,30 @@
 These are files and utilities used by the modencode staff to
 manage cloud releases.
+
+
+Procedure for Creating New Data Volumes  
+---------------------------------------
+
+N) Snapshot each data volume using the following description format:
+
+     modENCODE S. SSSSSSS TTT data, part X (DD MMMMM YYYYY)
+
+  where S. SSSSSSS is the species (e.g. D. melanogaster)
+               TTT is the data type, one of "raw", "interpreted" or "signal"
+                DD is the data release day
+            MMMMMM is the data release month
+              YYYY is the data release year
+
+ There is a script named "create_new_data_volume_snapshots.pl" in 
+ /modencode/release/util that will help you do this. The volumes
+ must previously be mounted using correct naming system "cele-raw-4"
+ and you must change the hard-coded release date constant at the
+ top of the script.
+
+Procedure for Creating & Attaching New Data Snapshots to Data Image
+-------------------------------------------------------------------
+
+1) Initiate a COPY of the data image using a recent AMI.
+
+2) Mount the new data volumes 
+

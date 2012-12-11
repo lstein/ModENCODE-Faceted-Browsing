@@ -97,13 +97,13 @@ my $public_image = $root_snap->register_image(-name        => $ImageName,
 					      -description => $ImageDescription,
 					      @args) or die $ec2->error_str;
 
-print STDERR "Fixing the HTML cloud guide page...\n";
-fix_cloud_guide($public_image,$modencode_root_snap);
-
 print STDERR "Making image public...\n";
 $public_image->add_tag(Name    => $ImageName);
 $public_image->make_public('true');
 print "Created new modENCODE public image $public_image\n";
+
+print STDERR "Fixing the HTML cloud guide page...\n";
+fix_cloud_guide();
 
 1;
 
@@ -298,17 +298,5 @@ sub copy_shadow {
 }
 
 sub fix_cloud_guide {
-    my ($image,$snap) = @_;
-    my $src = '/modencode/htdocs/modencode-cloud.template';
-    my $dest = '/modencode/htdocs/modencode-cloud.html.new';
-    open my $f,'<', $src or die "$src: $!";
-    open my $o,'>',$dest or die "$dest: $!";
-    while (<$f>) {
-	s^<!--image-->^<a href="https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=$image" target="_blank"><b>$image</b></a>^g;
-	s^<!--snapshot-->^<b>$snap</b>^g;
-    } continue {
-        print $o $_;
-    }
-    close $o;
-    rename $dest,'/modencode/htdocs/modencode-cloud.html';
+    system "/modencode/release/bin/update_cloud_image_page.pl";
 }

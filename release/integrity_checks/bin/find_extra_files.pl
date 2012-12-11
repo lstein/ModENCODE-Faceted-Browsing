@@ -6,13 +6,12 @@
 
 use strict;
 use File::Find;
-use File::Find;
 use lib '/modencode/lib';
 use MatchMeFile 'match_me';
 use constant DATA => '/modencode/data/all_files';
 
 my %FILES;
-my @directories = @ARGV ? @ARGV : glob(DATA.'/volume*');
+my @directories = @ARGV ? @ARGV : glob(DATA.'/*');
 find(sub { return unless -f $_;
 	   $FILES{$_} = $File::Find::name;},
      @directories);

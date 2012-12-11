@@ -2,8 +2,9 @@ package EC2Utils;
 use strict;
 
 use base 'Exporter';
+use Carp 'croak';
 
-our @EXPORT_OK = qw(setup_credentials unused_block_device);
+our @EXPORT_OK = qw(setup_credentials unused_block_device ebs_to_local);
 our @EXPORT    = @EXPORT_OK;
 
 sub setup_credentials {
@@ -47,8 +48,12 @@ sub yes_no {
     return $result =~ /^[yY]/;
 }
 
-# this should be in a library
+my %Used;
+
+# find an unused block device
 sub unused_block_device {
+    my $major_start = shift || 'f';
+
     # find a device that isn't in use.
     my $base =   -e "/dev/sda1"   ? "/dev/sd"
 	       : -e "/dev/xvda1"  ? "/dev/xvd"
@@ -56,15 +61,28 @@ sub unused_block_device {
     my $ebs = '/dev/sd';
     die "Don't know what kind of disk device to use; neither /dev/sda1 nor /dev/xvda1 exists" unless $base;
 
-    for my $major ('f'..'p') {
+    for my $major ($major_start..'p') {
 	for my $minor (1..15) {
 	    my $local_device = "${base}${major}${minor}";
 	    next if -e $local_device;
+	    next if $Used{$local_device}++;
 	    my $ebs_device = "/dev/sd${major}${minor}";
 	    return ($local_device,$ebs_device);
 	}
     }
     return;
+}
+
+# possibly transform /dev/sdXX to /dev/xvdXX
+sub ebs_to_local {
+    my $ebs_device = shift;
+    my ($major,$minor) = $ebs_device =~ m!(?:sd|xvd)([a-z])(\d+)!
+	or croak "device $ebs_device is not in a known format";
+    my $base =   -e "/dev/sda1"   ? "/dev/sd"
+	       : -e "/dev/xvda1"  ? "/dev/xvd"
+	       : '';
+    $base or croak "Don't know what kind of disk device to use; neither /dev/sda1 nor /dev/xvda1 exists";
+    return "$base$major$minor";
 }
 
 

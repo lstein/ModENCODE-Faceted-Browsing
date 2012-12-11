@@ -35,9 +35,8 @@ while (<$in>) {
 	$_ = 'ftpd_banner=Welcome to the modENCODE data server. Please login using the username "anonymous" and your email address. This data is also available as an Amazon cloud image. See http://data.modencode.org/modencode-cloud.html.';
     }
     $ports_already_handled++ if /^pasv_(?:min|max)_port/;
-    $pasv_already_handled++ if /^pasv_address/;
 } continue {
-    print $out $_,"\n";
+    print $out $_,"\n" unless /^pasv_address/;
 }
 
 print $out <<END unless $ports_already_handled;
@@ -46,11 +45,9 @@ pasv_min_port=12000
 pasv_max_port=12200
 END
     ;
-print $out <<END unless $pasv_already_handled;
-pasv_address=$public_ip
-END
-    ;
+print $out "pasv_address=$public_ip\n";
 close $out;
+
 rename $vsftpd_conf,"$vsftpd_conf.orig";
 rename $new,$vsftpd_conf;
 system 'sudo','/etc/init.d/vsftpd','restart';

@@ -20,6 +20,7 @@ use constant MODENCODE_DATA     => MODENCODE_ROOT .'/data';
 use constant METADATA_URL       => 'file:'.MODENCODE_ROOT .'/release/spreadsheet.csv';
 use constant METADATA_FIXED     => '/modencode/release/metadata_fixed.csv';
 
+# Assay Factor
 my %Factor_map = (
 	'BEAF32A and B' => 'BEAF-32',
         'BEAF32A and BEAF32B' => 'BEAF-32',
@@ -31,7 +32,10 @@ my %Factor_map = (
 	'H4tetraac' => 'H4acTetra',
 	'Histone H3' => 'H3',
 	'histone H3' => 'H3',
-	'MCM2-7 complex' => 'mcm2-7',
+        'h3'   => 'H3',
+	'MCM2-7 complex' => 'MCM2-7',
+        'mcm2-7'  => 'MCM2-7',
+        'Mcm2-7'  => 'MCM2-7',
 	'MOD(MDG4)67.2' => 'mod(mdg4)',
 	'na' => 'no-antibody-control',
 	'Not Applicable' => 'no-antibody-control', 
@@ -40,12 +44,31 @@ my %Factor_map = (
 	'RNA polII CTD domain unphosophorylated' => 'pol2', 
 	'RNA Polymerase II' => 'pol2',
 	'RNA polymerase II CTD repeat YSPTSPS' => 'pol2', 
-	'Drosophila ORC2p' => 'orc2',
-	'H4K20me' => 'h4k20me1',
-	'Histone H3' => 'h3',
+	'Drosophila ORC2p' => 'ORC2',
+        'orc2'    => 'ORC2',
+	'H4K20me' => 'H4K20me1',
+	'h4k20me1' => 'H4K20me1',
 	'JIL1' => 'jil-1',
+        'EOR1' => 'eor-1',
+        'ALR1' => 'ALR-1',
+        'ASH1' => 'ASH-1',
+        'cad'  => 'Caudal',
+        'ELT3' => 'ELT-3',
+        'MAB5' => 'MAB-5',
+        'MES4' => 'MES-4',
+        'MDL1' => 'MDL-1',
+        'MEP1' => 'MEP-1',
+        'Nurf301' => 'NURF301',
+        'PES1'    => 'PES-1',
+        'PHA4'    => 'PHA-4',
+        'PQM1'    => 'PQM-1',
+        'sens'    => 'senseless',
+        'SKN1'    => 'SKN-1',
+        'UNC130'  => 'UNC-130',
+        'HLH1'  => 'HLH-1',
 	'N/A (negative control IgG)' => 'IgG control',
     );
+
 my %Stage_map = ('E0-4' => 'Embryo 0-4h',
 	'E12-16' => 'Embryo 12-16h',
 	'E16-20' => 'Embryo 16-20h',
@@ -122,7 +145,9 @@ sub fix_factor {
     $factor =~ s!Trimethylated Lys-9 o[fn] histone H3!H3K9me3!i;
     $factor =~ s!Trimethylated Lys-36 o[fn] histone H3!H3K36me3!i;
     $factor =~ s!SU\(HW\)!Su(Hw)!i;
-    return $Factor_map{$factor} || $factor;
+    my $f   = $Factor_map{$factor} || $factor;
+    $f      =~ s/^([a-z]+)-(\d+)/uc($1)."-$2"/eg;
+    return $f;
 }
 
 sub find_category {
@@ -204,7 +229,7 @@ sub fix_target {
 sub fix_pi {
     my $pi = shift;
     $pi       =~ s/^(\w)\w+\s*(\w+)/$2, $1./;
-    $pi      ||= 'Oliver B.';   # nasty fix
+    $pi      ||= 'Oliver, B.';   # nasty fix
     return $pi;
 }
 

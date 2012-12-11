@@ -23,7 +23,8 @@ open my $new,  '>','/etc/fstab.new'  or die "/etc/fstab.new: $!";
 while (<$fstab>) {
     chomp;
     my ($device,$mtpoint,@rest) = split /\s+/;
-    print $new $_,"\n" unless $mounts{$device} || $mountpoints{$mtpoint} || /^## Added by.+update_fstab\.pl/;
+    last if /^## Added by.+update_fstab\.pl/;
+    print $new $_,"\n" unless $mounts{$device} || $mountpoints{$mtpoint};
 }
 print $new "## Added by /modencode/bin/update_fstab.pl\n";
 for my $device (sort keys %mounts) {
