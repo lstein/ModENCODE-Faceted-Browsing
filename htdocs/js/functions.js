@@ -112,12 +112,19 @@ function shopping_cart_check () {
 	
 	var download_url = '/cgi-bin/findFiles.cgi?download='+accessions.map(
 	    function (a) {return a.toString()}).join(',');
+	var cloud_url = '/cgi-bin/cloud_list.pl?accessions='+accessions.map(
+	    function (a) {return a.toString()}).join(',');
+	var url_list_url = cloud_url + '&urls=1';
 	var acc   = accessions.toString().split(',');
 	var modmine_url  = 'http://intermine.modencode.org/query/portal.do?class=Submission&externalids='+
 	    acc.map(function (a) { return 'modENCODE_'+a}).join(',');
 
 	if ($('modmine') == null)
 	    buttons.insert(new Element('button',{id:'modmine'}).update('View in ModMine'));
+	if ($('cloud') == null)
+	    buttons.insert(new Element('button',{id:'cloud'}).update('List Cloud Files'));
+	if ($('urls') == null)
+	    buttons.insert(new Element('button',{id:'urls'}).update('List Download URLs'));
 	if ($('download') == null)
 	    buttons.insert(new Element('button',{id:'download'}).update('Download Datasets'));
 	if ($('clear_all') == null)
@@ -127,6 +134,10 @@ function shopping_cart_check () {
 	$('clear_all').enable();
 	$('download').onclick  = function() {window.open(download_url,'download')};
 	$('download').enable();
+	$('cloud').onclick  = function() {window.open(cloud_url,'cloud_list')};
+	$('cloud').enable();
+	$('urls').onclick  = function() {window.open(url_list_url,'url_list')};
+	$('urls').enable();
 	$('modmine').onclick   = function() {window.open(modmine_url,'modmine')};
 	$('modmine').enable();
 	$('retrieve_buttons').select('button').each(function (b) {

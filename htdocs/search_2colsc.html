@@ -27,6 +27,20 @@
     <script src="js/functions.js"
 	    type="text/javascript">
     </script>
+
+    <!-- Google analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25200492-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
  </head> 
 
 <body>
@@ -56,8 +70,10 @@
 	<div id="retrieve_buttons">
 	  <button id="browse_worm" disabled="1">Browse Worm Tracks</button>
 	  <button id="browse_fly" disabled="1">Browse Fly Tracks</button>
-	  <button id="download" disabled="1">Download</button>
 	  <button id="modmine" disabled="1">View in ModMine</button>
+	  <button id="download" disabled="1">Download</button>
+	  <button id="urls" disabled="1">List Download URLs</button>
+	  <button id="cloud" disabled="1">List Cloud Files</button>
 	  <button id="clear_all" disabled="1">Clear All</button>
 	</div>
       </th>
@@ -97,7 +113,7 @@
     <div id="data-table"
 	 ex:role="view" 
 	 ex:viewClass="Tabular" 
-	 ex:showToolbox="false"
+	 ex:showToolbox="true"
          ex:maxRows = "20"
 	 ex:columnLabels="Dataset,Organism,Technique,Target Element,Assay Factor,Conditions,PI,ID"
 	 ex:tableMunger="add_selectall_checkbox"

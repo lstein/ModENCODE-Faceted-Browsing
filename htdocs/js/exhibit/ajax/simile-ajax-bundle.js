@@ -1944,7 +1944,8 @@ SimileAjax.Graphics._FontRenderingContext.prototype.getLineHeight=function(){ret
 
 
 /* history.js */
-SimileAjax.History={maxHistoryLength:10,historyFile:"__history__.html",enabled:true,_initialized:false,_listeners:new SimileAjax.ListenerQueue(),_actions:[],_baseIndex:0,_currentIndex:0,_plainDocumentTitle:document.title};
+// July 31, 2012: Added absolute path to __history__.html file location for compatibilty with galaxy_listener.pl in /modencode/cgi-bin/
+SimileAjax.History={maxHistoryLength:10,historyFile:"\/__history__.html",enabled:true,_initialized:false,_listeners:new SimileAjax.ListenerQueue(),_actions:[],_baseIndex:0,_currentIndex:0,_plainDocumentTitle:document.title};
 SimileAjax.History.formatHistoryEntryTitle=function(A){return SimileAjax.History._plainDocumentTitle+" {"+A+"}";
 };
 SimileAjax.History.initialize=function(){if(SimileAjax.History._initialized){return ;

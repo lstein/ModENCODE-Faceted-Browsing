@@ -15,7 +15,8 @@
 <p>
 Quick Summary:
 <table border="0" style="background-color:white;border:1px solid black">
-<tr><td align="right">Latest modENCODE Public AMI</td><th align="left"><!--image--></th></tr>
+<tr><td align="right">Latest modENCODE Public AMI</td><th align="left"><a href="https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=<!--image-->" target="_blank"><b><!--image--></b></a></th></tr>
+<tr><td align="right">Latest modENCODE Genome Browser AMI</td><th align="left"><a href="https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=<!--browse_image-->" target="_blank"><b><!--browse_image--></b></a></th></tr>
 <tr><td align="right">Latest modENCODE Public Data Snapshot</td><th align="left"><!--snapshot--></th></tr>
 </table>
 </p>
@@ -47,7 +48,7 @@ utilities to mount the large volumes.
 </p>
 
 <p>
-There are two paths for working with the modENCODE data in the
+There are three ways to work with the modENCODE data in the
 cloud:
 
 <ol>
@@ -60,6 +61,14 @@ cloud:
   the existence of FTP and Apache servers that can be used to
   browse, search and bulk download the datasets.
 </li>
+
+<li>Launch a machine image running the modENCODE Genome Browser. This
+has exactly the same data and user interface as the
+public <a href="http://modencode.oicr.on.ca/fgb2/gbrowse/">modENCODE
+genome browser</a>, but you will have privileged access to it and can
+customize and configure it.
+</li>
+
 <li>Launch the machine image of your choice, then attach and mount the
   modENCODE data root volume. You then run a small script that locates
   and mounts the other data volumes. This gives you flexibility over
@@ -106,6 +115,8 @@ convenient, and often less expensive, than working with the data
 locally.
 </p>
 
+<hr>
+
 <h2>How do I get started?</h2>
 
 <p>Before you begin, you will need to obtain an Amazon AWS account if
@@ -127,7 +138,7 @@ locally.
 
   <li>Use
     the <a href="https://console.aws.amazon.com/ec2/home">AWS Console</a> to locate public AMI 
-    <!--image-->.</li>
+    <a href="https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=<!--image-->" target="_blank"><b><!--image--></b></a>.</li>
 
   <li>Right-click on the image entry and select "Launch Instance". Alternatively, just
   click on the link at the end of the previous step.</li>
@@ -177,6 +188,62 @@ See <a href="#layout">Layout of the modENCODE data image</a> for
 information on where the files are located.
 </p>
 
+<hr>
+
+<h3>Running the modENCODE Genome Browser</h3>
+
+  <li>Use
+    the <a href="https://console.aws.amazon.com/ec2/home">AWS Console</a> to locate public AMI 
+    <a href="https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=<!--browse_image-->" target="_blank"><b><!--browse_image--></b></a>.
+  <li>Right-click on the image entry and select "Launch Instance". Alternatively, just
+  click on the link at the end of the previous step.</li>
+
+  <li>The launch wizard will guide you through selecting the number of
+  instances to launch, the availability region in which to launch the
+  instance(s), and the SSH keypair to use for login. You may use your
+  default SSH keypair or create a new one.</li>
+
+  <li>The free tier-eligible "t1.micro" instance type will function, but it will be
+    slow and some tracks may time out. For acceptable performance, we suggest you 
+    run at least an "m1.large" type.
+
+<li>When you select the security group, you should assign a security
+  group that allows for secure shell and web access:
+    <p>
+    <table border="0">
+      <tr><th>Port</th><th>Source</th><th>Status</th></tr>
+      <tr><td>22 (SSH)</td><td>0.0.0.0/0</td><td>Open</td></tr>
+      <tr><td>80 (HTTP)</td><td>0.0.0.0/0</td><td>Open</td></tr>
+      <tr><td>443 (HTTPS)</td><td>0.0.0.0/0</td><td>Open</td></tr>
+    </table>
+    </p>
+
+<li>When the console indicates that the instance is running, cut and
+  paste its public DNS address into your favorite browser. After a brief
+  pause, the browser interface will come up. On newly-created instances,
+  the browser will start a bit slowly because data is still being written
+  into the instance's virtual disks, but it will speed up after a short
+  while.
+
+<li>To log into the instance, ssh to the instance using your public key pair
+and the username "ubuntu":
+<br>
+    <code>ssh -i <i>path_to_key.pem</i> ubuntu@<i>ec2-xx-xx-xx-xx.compute-1.amazonaws.com</i></code>
+<br>
+The main browser configuration file can be found at /etc/gbrowse2/GBrowse.conf. The various
+databases and data files needed to run the browser are located under /modencode.
+</ol>
+
+<p>
+
+The browser is based on the standard Generic Genome Browser
+(GBrowse). The configuration files are located under /etc/gbrowse2,
+and the datafiles are located in
+/modencode. See <a href="http://gmod.org/wiki/GBrowse_2.0_HOWTO">the
+GBrowse 2.0 HOWTO</a> for tips on customizing and extending the
+browser software.
+
+<hr>
 
 <h3>Attaching the modENCODE Data Root to the Instance of your Choice</h3>
 
@@ -270,6 +337,8 @@ symbolic links (by organism, data type, and technique) at
 /modencode/data.</li>
 </ol>
 
+<hr>
+
 <h2>Web Services</h2>
 
 <p>
@@ -359,7 +428,7 @@ follows:
 <p>For full information about a dataset of interest, you can retrieve the full experimental protocols and other metadata
 using the following URL:</p>
 <pre>
-    http://intermine.modencode.org/release-25/keywordSearchResults.do?searchTerm=modencode_XXXX&searchSubmit=GO
+    http://intermine.modencode.org/query/portal.do?class=Submission&externalids=modENCODE_XXXX
 </pre>
 
 <p>Replace "XXXX" with the accession number from column 1 of either MANIFEST.txt of metadata.csv. The accession number is also present in the uniform filename.
