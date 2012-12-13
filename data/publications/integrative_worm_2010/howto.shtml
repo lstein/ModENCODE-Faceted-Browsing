@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <title>modENCODE Integrative Worm Paper Companion Page - modENCODE data file formats</title>
+<!--
+ <link rel="stylesheet" href="/css/modencode.css">
+ <script type="text/javascript" src="/js/yahoo-dom-event.js">intermine.modencode.org</script>
+ <script type="text/javascript" src="/js/balloon.js">intermine.modencode.org</script>
+ <script type="text/javascript" src="/js/modencode.js"> </script>
+ <script type="text/javascript">var balloon = new Balloon;</script>
+-->
+</head>
+
+<body vlink="black" link="black">
+
+
+<table width="100%">
+  <tr valign="top">
+    <td width="160px">
+      <!--#include virtual="/menu.html" -->
+    </td>
+
+    <td align="left">
+      <!--#include virtual="/banner.html" -->
+      <div id="main">
+
+<h3>modENCODE data file formats and quick start guide</h3>
+
+
+If you clicked on a link provided from the integrative worm paper companion page, you probably arrived at a page like this: (screen capture)
+
+<img src="/img/step2.jpg" border=0 alt="modmine example"/>
+
+<p>This experiment summary page provides all the available information about the experiment and resulting data. There are 2 choices for getting straight to the data:
+<ol>
+<li> Click on the "GBrowse tracks" link - this will load a new window with gbrowse displaying the data as a track. You can use Gbrowse to navigate the dataset, compare with other datasets, export track views and customize your viewing preferences.</li> 
+
+<li>There is a list of "Data files" > right click and save as to download the data file. This can be used as input to your own analysis and can always be viewed later using gbrowse at modencode.org, wormbase or ucsc.</li> 
+</ol>
+</p>
+<h3>Summary of accessing modencode data and modmine resources</h3>
+
+modENCODE data can be viewed using several different options. It can be viewed using the modencode, WormBase and UCSC gbrowsers. 
+
+<ul>
+<li><a href="http://www.modencode.org/gb2/gbrowse/worm/">www.modencode.org/gb2/gbrowse/worm</a> <-- click select tracks to find modencode released data, or click upload and share tracks to upload the data file you want to view.</li>
+
+<li><a href="http://www.wormbase.org/db/gb2/gbrowse/c_elegans/">www.wormbase.org/db/gb2/gbrowse/c_elegans</a> <-- click select tracks to find modencode released data, or click upload and share tracks to upload the data file you want to view.</li>
+
+<li><a href="http://genome.ucsc.edu/cgi-bin/hgGateway">genome.ucsc.edu/cgi-bin/hgGateway</a> <-- click add custom tracks to upload the data file you want to view.</li> 
+</ul>
+Using any of the above options enables you to visually compare a range of experiment conditions by uploading (or selecting) data files of interest. 
+
+ 
+
+modENCODE data is available in GFF3 and wiggle track (.wig) formats, depending on the source experiment. Using the gbrowse / modmine interfaces, it is also possible to export some subsets of data into other formats such as high resolution .pdf for other purposes. 
+
+<h3>GFF3 data files</h3>
+GFF = Generic Feature Format, and GFF3 is the most recent version. 
+GFF3 files are plain text tab-delimited files used to represent genomic data. GFF3 files are commonly used to represent alignments, transcripts, genes, operons and numerous other features. There is a standardized format for columns, definitions and metadata that make a GFF3 file. 
+More detailed information about GFF3 is available at
+<ul>
+<li><a href="http://gmod.org/wiki/GFF3">gmod.org/wiki/GFF3</a></li>
+<li><a href="http://www.sequenceontology.org/gff3.shtml">www.sequenceontology.org/gff3.shtml</a></li>
+</ul>
+
+<h3>WIG data files</h3>
+WIG = wiggle track format
+WIG files are used to display genomic data in a track format. 
+WIG files are commonly used to display transcriptome data, GC percent and probability scores as values for a genomic position. 
+More detailed information about WIG format files is available at
+<ul>
+<li><a href="http://gmod.org/wiki/GBrowse/Uploading_Wiggle_Tracks">gmod.org/wiki/GBrowse/Uploading_Wiggle_Tracks</a></li>
+<li><a href="http://genome.ucsc.edu/goldenPath/help/wiggle.html">genome.ucsc.edu/goldenPath/help/wiggle.html</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
+

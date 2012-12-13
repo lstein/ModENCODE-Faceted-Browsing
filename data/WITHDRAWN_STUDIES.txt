@@ -1,0 +1,19 @@
+The following studies were withdrawn after publication:
+
+1) ACCESSION: modENCODE_332
+   STUDY: Trx;S2-DRSC;Late Embryonic stage;embryo-derived cell-line;ChIP-chip
+   ORGANISM: D. melanogaster
+   PI: Karpen G.
+   DATE: 8 December 2011
+   REASON: Study did not pass internal QC but was released inadverently.
+
+ Files withdrawn:
+  ./all_files/dmel-interpreted-1/332_repset.3211337.smoothedM.clusters.gff3.gz
+  ./all_files/dmel-raw-1/332_116.pirrota_264_S13_Input.CEL.zip
+  ./all_files/dmel-raw-1/332_120.pirrota_268_S13_TrxC.CEL.zip
+  ./all_files/dmel-raw-1/332_40.pirrota_182_S8_Input_HD.CEL.zip
+  ./all_files/dmel-raw-2/332_54.pirrota_204_S8_TrxC.CEL.zip
+  ./all_files/dmel-signal-1/332_120.Mvalues.wig.gz
+  ./all_files/dmel-signal-1/332_54.Mvalues.wig.gz
+  ./all_files/dmel-signal-1/332_repset.3211337.smoothedM.wig.gz
+

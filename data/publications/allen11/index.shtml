@@ -1,0 +1,1686 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="/css/modencode.css">
+ <title>modENCODE Integrative Worm Paper Companion Page</title>
+ <script type="text/javascript" src="/js/yahoo-dom-event.js">intermine.modencode.org</script>
+ <script type="text/javascript" src="/js/balloon.js">intermine.modencode.org</script>
+ <script type="text/javascript" src="/js/modencode.js"> </script>
+ <script type="text/javascript">var balloon = new Balloon;</script>
+</head>
+
+<body vlink="black" link="black">
+
+
+<table width="100%">
+  <tr valign="top">
+    <td width="160px">
+      <!--#include virtual="/menu.html" -->
+    </td>
+
+    <td align="left">
+      <!--#include virtual="/banner.html" -->
+      <div id="main">
+
+<h3>Companion Page for modENCODE Integrative Worm Paper</h3>
+
+<h4><a href="http://www.modencode.org/publications/integrative_worm_2010/howto.shtml">modENCODE data file formats</a> </h4>
+A guide to the data file formats, which describes WIG file format, GFF3 format, and provides an introduction on how to upload and view them on WormBase, modENCODE and UCSC browsers.
+
+
+<h3>Figures</h3>
+
+
+<h4>Figure 1: Transcriptome Features and Alternative Splicing</h4>
+<h5>Analysis completed using WormBase version WS209 and WS170</h5>
+<h5>Parts A and B</h5>
+<h6>Interpreted data:</h6>
+<ul>
+<li><a href="http://submit.modencode.org/submit/public/get_file/2934/extracted/Aggregate_1003.integrated_transcripts.ws170.gff3">Aggregate Integrated Transcripts</a></li>
+<h6>External data source</h6>
+<li><a href=http://genome.cshlp.org/content/19/4/657.long">Genome Res. 2009 Apr;19(4):657-66</a></li>
+</ul>
+
+
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2321&class=Submission">RNA-seq - early embryo sequences & alignments 2321</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2324&class=Submission">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments 2324</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2346&class=Submission">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments 2346</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2326&class=Submission">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments 2326</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2343&class=Submission">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments 2343</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2352&class=Submission">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2347&class=Submission">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments 2347</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2349&class=Submission">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments 2349</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2351&class=Submission">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments 2351</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2353&class=Submission">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2353</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2354&class=Submission">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments 2354</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2583&class=Submission">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments 2583</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2325&class=Submission">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments 2325</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2387&class=Submission">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment 2387</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2345&class=Submission">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment 2345</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2580&class=Submission">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments 2580</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2581&class=Submission">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2581</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2582&class=Submission">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment 2582</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2584&class=Submission">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2584</a></li>
+</ul>
+
+
+<h5>Part C</h5>
+<h6>Interpreted data:</h6>
+<ul>
+<li><a href="http://submit.modencode.org/submit/public/get_file/2934/extracted/Aggregate_1003.integrated_transcripts.ws170.gff3">Aggregate Integrated Transcripts</a></li>
+</ul>
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2321&class=Submission">RNA-seq - early embryo sequences & alignments 2321</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2324&class=Submission">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments 2324</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2326&class=Submission">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments 2326</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2352&class=Submission">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2353&class=Submission">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2353</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2354&class=Submission">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments 2354</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2387&class=Submission">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment 2387</a></li>
+</ul>
+
+<h5>Part D</h5>
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2326&class=Submission">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments 2326</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2343&class=Submission">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments 2343</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2352&class=Submission">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2347&class=Submission">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments 2347</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2349&class=Submission">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments 2349</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2351&class=Submission">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments 2351</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2353&class=Submission">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2353</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2354&class=Submission">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments 2354</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2325&class=Submission">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments 2325</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2387&class=Submission">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment 2387</a></li>
+</ul>
+
+
+<h4>Figure 2: Expression & Binding Dynamics</h4>
+<h5>Analysis completed using WormBase version WS180</h5>
+
+<h5>Parts A and B</h5>
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2435&class=Submission">ChIP-seq - N2_POLII_eemb 2435</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2436&class=Submission">ChIP-seq - N2_POLII_lemb 2436</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2437&class=Submission">ChIP-seq - N2_POLII_L1 2437</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2438&class=Submission">ChIP-seq - N2_POLII_L2 2438</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2439&class=Submission">ChIP-seq - N2_POLII_L3 2439</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2440&class=Submission">ChIP-seq - N2_POLII_L4 2440</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2441&class=Submission">ChIP-seq - N2_POLII_YA 2441</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2855&class=Submission">early embryo N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2855</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2857&class=Submission">late embryo N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2857</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2860&class=Submission">L1 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2860</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2861&class=Submission">L2 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2861</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2862&class=Submission">L3 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2862</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2863&class=Submission">L4 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2863</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2851&class=Submission">Young Adult N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2851</a></li>
+</ul>
+
+<h5>Part C</h5>
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_654&class=Submission">embryo A-class motor neurons tiling array 654</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_455&class=Submission">embryo panneural tiling array 455</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_468&class=Submission">embryo GABA motor neurons tiling array 468</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_470&class=Submission">embryo body wall muscle tiling array (v2) 470</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_458&class=Submission">embryo coelomocytes tiling array 458</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_457&class=Submission">embryo intestine tiling array 457</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_469&class=Submission">L2 A-class neuron tiling array 469</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_462&class=Submission">L2 panneural tiling array 462</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_466&class=Submission">L2 GABA neurons tiling array 466</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_465&class=Submission">L2 body wall muscle tiling array 465</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_657&class=Submission">L2 coelomocytes tiling array 657</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_463&class=Submission">L2 intestine tiling array 463</a></li>
+</ul>
+
+
+<h4>Figure 3: Highly Occupied Target (HOT) Regions</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h5>Part A and B</h5>
+
+<h6>Interpreted data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
+</ul>
+
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_582&class=Submission">ChIP-seq - PHA4_GFP_emb 582</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_584&class=Submission">ChIP-seq - PHA4_StarvedL1_GFP 584</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_585&class=Submission">ChIP-seq - PHA4_GFP_FedL1 585</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_586&class=Submission">ChIP-seq - PHA4_POLII_emb 586</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_587&class=Submission">ChIP-seq - PHA4_POLII_FedL1 587</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_588&class=Submission">ChIP-seq - PHA4_StarvedL1_POLII 588</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_589&class=Submission">ChIP-seq - AMA1_GFP_L4YA 589</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_590&class=Submission">ChIP-seq - AMA1_POLII_L4YA 590</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_591&class=Submission">ChIP-seq - DAF16_GFP_L4YA 591</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_592&class=Submission">ChIP-seq - DAF16_POLII_L4YA 592</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_593&class=Submission">ChIP-seq - MAB5_GFP_L3 593</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_594&class=Submission">ChIP-seq - MAB5_POLII_L3 594</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_734&class=Submission">ChIP-seq - CEH-14_GFP_L2 734</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2416&class=Submission">ChIP-seq - DPY27_GFP_emb 2416</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2417&class=Submission">ChIP-seq - EOR-1_GFP_L3 2417</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2418&class=Submission">ChIP-seq - HLH-8_GFP_L3 2418</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2429&class=Submission">ChIP-seq - LIN-11_GFP_L2 2429</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2430&class=Submission">ChIP-seq - UNC-130_GFP_L1 2430</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2431&class=Submission">ChIP-seq - HLH-1_GFP_emb 2431</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2432&class=Submission">ChIP-seq - LIN-39_GFP_L3 2432</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2433&class=Submission">ChIP-seq - NHR-6_GFP_L2 2433</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2434&class=Submission">ChIP-seq - ALR-1_GFP_L2 2434</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2435&class=Submission">ChIP-seq - N2_POLII_eemb 2435</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2436&class=Submission">ChIP-seq - N2_POLII_lemb 2436</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2437&class=Submission">ChIP-seq - N2_POLII_L1 2437</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2438&class=Submission">ChIP-seq - N2_POLII_L2 2438</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2439&class=Submission">ChIP-seq - N2_POLII_L3 2439</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2440&class=Submission">ChIP-seq - N2_POLII_L4 2440</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2441&class=Submission">ChIP-seq - N2_POLII_YA 2441</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2450&class=Submission">ChIP-seq - PES1_GFP_L4 2450</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2451&class=Submission">ChIP-seq - GEI11_GFP_L4 2451</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2452&class=Submission">ChIP-seq - PHA4_GFP_L2 2452</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2453&class=Submission">ChIP-seq - EGL5_GFP_L3 2453</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2596&class=Submission">ChIP-seq - EOR-1_POLII_L3 2596</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2597&class=Submission">ChIP-seq - HLH-8_POLII_L3 2597</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2598&class=Submission">ChIP-seq - PHA4_GFP_lemb 2598</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2599&class=Submission">ChIP-seq - PHA4_GFP_YA 2599</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2600&class=Submission">ChIP-seq - MEP-1_GFP_emb 2600</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2601&class=Submission">ChIP-seq - MDL-1_GFP_L1 2601</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2610&class=Submission">ChIP-seq - LIN-15B_GFP_L3 2610</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2612&class=Submission">ChIP-seq - BLMP-1_GFP_L1 2612</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2613&class=Submission">ChIP-seq - LIN-13_GFP_emb 2613</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2614&class=Submission">ChIP-seq - ELT-3_GFP_L1 2614</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2616&class=Submission">ChIP-seq - EGL5_POLII_L3 2616</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2617&class=Submission">ChIP-seq - NHR-105_GFP_L3 2617</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2620&class=Submission">ChIP-seq - CEH-30_GFP_lemb 2620</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2621&class=Submission">ChIP-seq - EGL-27_GFP_L1 2621</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2622&class=Submission">ChIP-seq - SKN-1_GFP_L1 2622</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2623&class=Submission">ChIP-seq - PQM-1_GFP_L3 2623</a></li>
+</ul>
+
+<h5>Part C</h5>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_654&class=Submission">embryo A-class motor neurons tiling array 654</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_456&class=Submission">embryo all cells reference tiling array 456</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_459&class=Submission">embryo AVA neurons tiling array 459</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_470&class=Submission">embryo body wall muscle tiling array (v2) 470</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_458&class=Submission">embryo coelomocytes tiling array 458</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_467&class=Submission">embryo dopaminergic neurons tiling array 467</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_468&class=Submission">embryo GABA motor neurons tiling array 468</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_661&class=Submission">embryo germline precursor cells tiling array 661</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_662&class=Submission">embryo hypodermal cells tiling array 662</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_457&class=Submission">embryo intestine tiling array 457</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_455&class=Submission">embryo panneural tiling array 455</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_481&class=Submission">gonad from young adult 20dC 42hrs post-L1 N2 tiling array 481</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_469&class=Submission">L2 A-class neuron tiling array 469</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_465&class=Submission">L2 body wall muscle tiling array 465</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_657&class=Submission">L2 coelomocytes tiling array 657</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_464&class=Submission">L2 excretory cell tiling array 464</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_466&class=Submission">L2 GABA neurons tiling array 466</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_658&class=Submission">L2 glutamate receptor expressing neurons tiling array 658</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_463&class=Submission">L2 intestine tiling array 463</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_462&class=Submission">L2 panneural tiling array 462</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_655&class=Submission">L3-L4 dopaminergic neuron tiling array 655</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_460&class=Submission">L3-L4 PVD & OLL neurons tiling array 460</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_485&class=Submission">soma-only mid-L4 25dC 36hrs post-L1 JK1107 tiling array 485</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_475&class=Submission">young adult 25dC 42hrs post-L1 N2 tiling array 475</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_660&class=Submission">Young Adult Cephalic sheath (CEPsh) tiling array 660</a></li>
+</ul>
+
+<h6>Additional Data Sources</h6>
+<ul>
+<li><a href="http://www.cell.com/abstract/S0092-8674(09)01118-0">X. Liu et al., Analysis of Cell Fate from Single-Cell Gene Expression Profiles in C. elegans. Cell 139, 623-633 (2009).</a></li>
+</ul>
+
+
+<h4>Figure 4: Integrated Regulatory Network</h4>
+<h5>Analysis completed using WormBase version WS170</h5>
+
+<h6>Interpreted data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:S23ws190.tgz">Integrated Regulatory Network Analysis</a></li>
+</ul>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_582&class=Submission">ChIP-seq - PHA4_GFP_emb 582</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_584&class=Submission">ChIP-seq - PHA4_StarvedL1_GFP 584</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_585&class=Submission">ChIP-seq - PHA4_GFP_FedL1 585</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_586&class=Submission">ChIP-seq - PHA4_POLII_emb 586</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_587&class=Submission">ChIP-seq - PHA4_POLII_FedL1 587</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_588&class=Submission">ChIP-seq - PHA4_StarvedL1_POLII 588</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_589&class=Submission">ChIP-seq - AMA1_GFP_L4YA 589</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_590&class=Submission">ChIP-seq - AMA1_POLII_L4YA 590</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_591&class=Submission">ChIP-seq - DAF16_GFP_L4YA 591</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_592&class=Submission">ChIP-seq - DAF16_POLII_L4YA 592</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_593&class=Submission">ChIP-seq - MAB5_GFP_L3 593</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_594&class=Submission">ChIP-seq - MAB5_POLII_L3 594</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_734&class=Submission">ChIP-seq - CEH-14_GFP_L2 734</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2416&class=Submission">ChIP-seq - DPY27_GFP_emb 2416</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2417&class=Submission">ChIP-seq - EOR-1_GFP_L3 2417</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2418&class=Submission">ChIP-seq - HLH-8_GFP_L3 2418</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2429&class=Submission">ChIP-seq - LIN-11_GFP_L2 2429</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2430&class=Submission">ChIP-seq - UNC-130_GFP_L1 2430</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2431&class=Submission">ChIP-seq - HLH-1_GFP_emb 2431</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2432&class=Submission">ChIP-seq - LIN-39_GFP_L3 2432</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2433&class=Submission">ChIP-seq - NHR-6_GFP_L2 2433</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2434&class=Submission">ChIP-seq - ALR-1_GFP_L2 2434</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2435&class=Submission">ChIP-seq - N2_POLII_eemb 2435</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2436&class=Submission">ChIP-seq - N2_POLII_lemb 2436</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2437&class=Submission">ChIP-seq - N2_POLII_L1 2437</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2438&class=Submission">ChIP-seq - N2_POLII_L2 2438</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2439&class=Submission">ChIP-seq - N2_POLII_L3 2439</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2440&class=Submission">ChIP-seq - N2_POLII_L4 2440</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2441&class=Submission">ChIP-seq - N2_POLII_YA 2441</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2450&class=Submission">ChIP-seq - PES1_GFP_L4 2450</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2451&class=Submission">ChIP-seq - GEI11_GFP_L4 2451</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2452&class=Submission">ChIP-seq - PHA4_GFP_L2 2452</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2453&class=Submission">ChIP-seq - EGL5_GFP_L3 2453</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2596&class=Submission">ChIP-seq - EOR-1_POLII_L3 2596</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2597&class=Submission">ChIP-seq - HLH-8_POLII_L3 2597</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2598&class=Submission">ChIP-seq - PHA4_GFP_lemb 2598</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2599&class=Submission">ChIP-seq - PHA4_GFP_YA 2599</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2600&class=Submission">ChIP-seq - MEP-1_GFP_emb 2600</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2601&class=Submission">ChIP-seq - MDL-1_GFP_L1 2601</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2610&class=Submission">ChIP-seq - LIN-15B_GFP_L3 2610</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2612&class=Submission">ChIP-seq - BLMP-1_GFP_L1 2612</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2613&class=Submission">ChIP-seq - LIN-13_GFP_emb 2613</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2614&class=Submission">ChIP-seq - ELT-3_GFP_L1 2614</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2616&class=Submission">ChIP-seq - EGL5_POLII_L3 2616</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2617&class=Submission">ChIP-seq - NHR-105_GFP_L3 2617</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2620&class=Submission">ChIP-seq - CEH-30_GFP_lemb 2620</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2621&class=Submission">ChIP-seq - EGL-27_GFP_L1 2621</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2622&class=Submission">ChIP-seq - SKN-1_GFP_L1 2622</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2623&class=Submission">ChIP-seq - PQM-1_GFP_L3 2623</a></li>
+</ul>
+
+<h4>Figure 5: Chromosome-scale Domains of Chromatin Organization</h4>
+<h5>Analysis completed using WormBase version WS170</h5>
+
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2352&class=Submission">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2321&class=Submission">RNA-seq - early embryo sequences & alignments 2321</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2726&class=Submission">ChIP-chip - Histone_H3K4me1_N2_EEMB_(AB8895_H3K4ME1733246_N2_EEMB) 2726</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2775&class=Submission">ChIP-chip - Histone_H3K4me1_N2_L3_(AB8895_H3K4ME1733246_N2_L3) 2775</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2445&class=Submission">ChIP-chip - Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB) 2445</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2402&class=Submission">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3) 2402</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2311&class=Submission">ChIP-chip - Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB) 2311</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_176&class=Submission">ChIP-chip - Histone_H3K4me3_from_N2_L3_larvae_(AR0169_H3K4me3_N2_L3) 176</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2646&class=Submission">ChIP-chip - Histone_H3K9me1_N2_EEMB_(AB9045_H3K9ME1291918_N2_EEMB) 2646</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2770&class=Submission">ChIP-chip - Histone_H3K9me1_N2_L3_(AB9045_H3K9ME1291918_N2_L3) 2770</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2444&class=Submission">ChIP-chip - Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB) 2444</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2406&class=Submission">ChIP-chip - Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3) 2406</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2339&class=Submission">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2398&class=Submission">ChIP-chip - Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3) 2398</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2727&class=Submission">ChIP-chip - Histone_H3K27ac_N2_EEMB_(WA30634849_H3K27AC_N2_EEMB) 2727</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2771&class=Submission">ChIP-chip - Histone_H3K27ac_N2_L3_(AB4729_H3K27AC361571_N2_L3) 2771</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2400&class=Submission">ChIP-chip - Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3) 2400</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2604&class=Submission">ChIP-chip - Histone_H3K36me1_N2_EEMB_(AB9048_H3K36ME1206009_N2_EEMB) 2604</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2338&class=Submission">ChIP-chip - Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB) 2338</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2399&class=Submission">ChIP-chip - Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3) 2399</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_973&class=Submission">ChIP-chip - Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB) 973</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2401&class=Submission">ChIP-chip - Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3) 2401</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2410&class=Submission">ChIP-chip - Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB) 2410</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2442&class=Submission">ChIP-chip - Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB) 2442</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2443&class=Submission">ChIP-chip - Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB) 2443</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2774&class=Submission">ChIP-chip - Histone_H4K8ac_N2_L3_(AB15823_H4K8AC487128_N2_L3) 2774</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2766&class=Submission">ChIP-chip - Histone_H4_Tetra_ac_N2_EEMB_(LPAR109_H4TETRAAC109_N2_EEMB) 2766</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2765&class=Submission">ChIP-chip - Histone_H3K20me1_N2_EEMB_(AB9051_H4K20ME1104513_N2_EEMB) 2765</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3171">ChIP-chip - HK00013_H3K27ME31E7_N2_EEMB 3171</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3179">ChIP-chip - UP07448_H3K27ME124439_N2_EEMB 3179</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3181">ChIP-chip - AB15823_H4K8AC487128_N2_EEMB 3181</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3182">ChIP-chip - MP07329_H4K16ACDAM1612187_N2_EEMB 3182</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3203">3203 </a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3205">3205</a></li>
+</ul>
+
+<h4>Figure 6: Chromatin Patterns around Genes</h4>
+<h5>Analysis completed using WormBase version WS170</h5>
+
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2352&class=Submission">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2321&class=Submission">RNA-seq - early embryo sequences & alignments 2321</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2726&class=Submission">ChIP-chip - Histone_H3K4me1_N2_EEMB_(AB8895_H3K4ME1733246_N2_EEMB) 2726</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2775&class=Submission">ChIP-chip - Histone_H3K4me1_N2_L3_(AB8895_H3K4ME1733246_N2_L3) 2775</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2445&class=Submission">ChIP-chip - Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB) 2445</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2402&class=Submission">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3) 2402</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2311&class=Submission">ChIP-chip - Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB) 2311</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_176&class=Submission">ChIP-chip - Histone_H3K4me3_from_N2_L3_larvae_(AR0169_H3K4me3_N2_L3) 176</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2646&class=Submission">ChIP-chip - Histone_H3K9me1_N2_EEMB_(AB9045_H3K9ME1291918_N2_EEMB) 2646</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2770&class=Submission">ChIP-chip - Histone_H3K9me1_N2_L3_(AB9045_H3K9ME1291918_N2_L3) 2770</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2444&class=Submission">ChIP-chip - Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB) 2444</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2406&class=Submission">ChIP-chip - Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3) 2406</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2339&class=Submission">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2398&class=Submission">ChIP-chip - Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3) 2398</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2727&class=Submission">ChIP-chip - Histone_H3K27ac_N2_EEMB_(WA30634849_H3K27AC_N2_EEMB) 2727</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2771&class=Submission">ChIP-chip - Histone_H3K27ac_N2_L3_(AB4729_H3K27AC361571_N2_L3) 2771</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2400&class=Submission">ChIP-chip - Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3) 2400</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2604&class=Submission">ChIP-chip - Histone_H3K36me1_N2_EEMB_(AB9048_H3K36ME1206009_N2_EEMB) 2604</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2338&class=Submission">ChIP-chip - Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB) 2338</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2399&class=Submission">ChIP-chip - Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3) 2399</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_973&class=Submission">ChIP-chip - Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB) 973</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2401&class=Submission">ChIP-chip - Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3) 2401</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2410&class=Submission">ChIP-chip - Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB) 2410</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2442&class=Submission">ChIP-chip - Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB) 2442</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2443&class=Submission">ChIP-chip - Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB) 2443</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2774&class=Submission">ChIP-chip - Histone_H4K8ac_N2_L3_(AB15823_H4K8AC487128_N2_L3) 2774</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2766&class=Submission">ChIP-chip - Histone_H4_Tetra_ac_N2_EEMB_(LPAR109_H4TETRAAC109_N2_EEMB) 2766</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2765&class=Submission">ChIP-chip - Histone_H3K20me1_N2_EEMB_(AB9051_H4K20ME1104513_N2_EEMB) 2765</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3171">ChIP-chip - HK00013_H3K27ME31E7_N2_EEMB 3171</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3179">ChIP-chip - UP07448_H3K27ME124439_N2_EEMB 3179</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3181">ChIP-chip - AB15823_H4K8AC487128_N2_EEMB 3181</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3182">ChIP-chip - MP07329_H4K16ACDAM1612187_N2_EEMB 3182</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3203">3203 </a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3205">3205</a></li>
+</ul>
+
+<h4>Figure 7: Statistical Models Predicting TF-binding and Gene Expression from Chromatin Features </h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+<h6>Aggregated Data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:S34toS43HOT.tgz">HOT data used to build supplement figures S34 to S42 (.bed format)</a></li>
+</ul>
+
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2409&class=Submission">ChIP-chip - Histone_H3_N2_L3_(AB1791_H3_N2_L3_new) 2409</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2313&class=Submission">ChIP-chip - Histone_H3_N2_EEMB_2_(AB1791_H3609253_N2_EEMB) 2313</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2443&class=Submission">ChIP-chip - Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB) 2443</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2410&class=Submission">ChIP-chip - Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB) 2410</a></li> 
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2442&class=Submission">ChIP-chip - Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB) 2442</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2339&class=Submission">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(AB8898_H3K9ME3339901_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2338&class=Submission">ChIP-chip - Histone_H3K36me2_N2_EEMB_(AB9049_H3K36ME2608457_N2_EEMB) 2338</a></li>  
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_174&class=Submission">ChIP-chip - POL-2_CTD_Mixed_Embryos (ABAB5408_4H8_N2_MXEMB) 174</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2312&class=Submission">ChIP-chip - Histone_H3_N2_EEMB_1_(AR0144_H3144_N2_EEMB) 2312</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2407&class=Submission">ChIP-chip - Histone_H3_N2_L3_2_(AR0144_H3144_N2_L3) 2407</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2408&class=Submission">ChIP-chip - Histone_H3_N2_L3_1_(AR0144_H3144_N2_L3_LM) 2408</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_599&class=Submission">ChIP-chip - POL-2_N2_L4_(CVMMS126R_8WG16_N2_L4) 599</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_973&class=Submission">ChIP-chip - Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB) 973</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2401&class=Submission">ChIP-chip - Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3) 2401</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2444&class=Submission">ChIP-chip - Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB) 2444</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2406&class=Submission">ChIP-chip - Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3) 2406</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2339&class=Submission">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2398&class=Submission">ChIP-chip - Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3) 2398</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_909&class=Submission">ChIP-chip - Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB) 909</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2399&class=Submission">ChIP-chip - Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3) 2399</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2400&class=Submission">ChIP-chip - Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3) 2400</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_630&class=Submission">ChIP-chip - DPY-27_N2_L4(JL00001_DPY27_N2_L4) 630</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_696&class=Submission">ChIP-chip - DPY27_YPT47(V;X)_MXEMB(JL00001_DPY27_YPT47_MXEMB) 696</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_701&class=Submission">ChIP-chip - SDC3_YPT47(V;X)_MXEMB(JL00002_SDC3_YPT47_MXEMB) 701</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_334&class=Submission">ChIP-chip - DPY-26_N2_Mixed_Embryos_(JL00003_DPY26_N2_MXEMB) 334</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_336&class=Submission">ChIP-chip - MIX-1_N2_Mixed_Embryos_(JL00004_MIX1_N2_MXEMB) 336</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_644&class=Submission">ChIP-chip - DPY-28_N2_MXEMB_(JL00012_DPY28_N2_MXEMB) 644</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_194&class=Submission">ChIP-chip - HCP-3_CENP-A_Mixed_Embryos_(OD00001_HCP3_N2_MXEMB) 194</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_897&class=Submission">ChIP-chip - MRG-1_N2_EEMB_(SDQ0790_MRG1_N2_EEMB) 897</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_911&class=Submission">ChIP-chip - MES-4_N2_EEMB_(SDQ0791_MES4_N2_EEMB) 911</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_645&class=Submission">ChIP-chip - SDC-2_N2_MXEMB_(SDQ3146_SDC2_N2_MXEMB) 645</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2311&class=Submission">ChIP-chip - Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB) 2311</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2445&class=Submission">ChIP-chip - Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB) 2445</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2402&class=Submission">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3) 2402</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2434&class=Submission">ChIP-seq - ALR-1_GFP_L2 2434</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2612&class=Submission">ChIP-seq - BLMP-1_GFP_L1 2612</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_734&class=Submission">ChIP-seq - CEH-14_GFP_L2 734</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2620&class=Submission">ChIP-seq - CEH-30_GFP_lemb 2620</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2010&class=Submission">ChIP-seq - DAF16_GFP_L4YA 2010</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2416&class=Submission">ChIP-seq - DPY27_GFP_emb 2416</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2453&class=Submission">ChIP-seq - EGL5_GFP_L3 2453</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2621&class=Submission">ChIP-seq - EGL-27_GFP_L1 2621</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2614&class=Submission">ChIP-seq - ELT-3_GFP_L1 2614</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2417&class=Submission">ChIP-seq - EOR-1_GFP_L3 2417</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2451&class=Submission">ChIP-seq - GEI11_GFP_L4 2451</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2431&class=Submission">ChIP-seq - HLH-1_GFP_emb 2431</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2418&class=Submission">ChIP-seq - HLH-8_GFP_L3 2418</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2429&class=Submission">ChIP-seq - LIN-11_GFP_L2 2429</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2613&class=Submission">ChIP-seq - LIN-13_GFP_emb 2613</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2610&class=Submission">ChIP-seq - LIN-15B_GFP_L3 2610</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2432&class=Submission">ChIP-seq - LIN-39_GFP_L3 2432</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_593&class=Submission">ChIP-seq - MAB5_GFP_L3 593</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2601&class=Submission">ChIP-seq - MDL-1_GFP_L1 2601</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2600&class=Submission">ChIP-seq - MEP-1_GFP_emb 2600</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2433&class=Submission">ChIP-seq - NHR-6_GFP_L2 2433</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2617&class=Submission">ChIP-seq - NHR-105_GFP_L3 2617</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2450&class=Submission">ChIP-seq - PES1_GFP_L4 2450</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_582&class=Submission">ChIP-seq - PHA4_GFP_emb 582</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_585&class=Submission">ChIP-seq - PHA4_GFP_FedL1 585</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2452&class=Submission">ChIP-seq - PHA4_GFP_L2 2452</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2598&class=Submission">ChIP-seq - PHA4_GFP_lemb 2598</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_584&class=Submission">ChIP-seq - PHA4_StarvedL1_GFP 584</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2599&class=Submission">ChIP-seq - PHA4_GFP_YA 2599</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2623&class=Submission">ChIP-seq - PQM-1_GFP_L3 2623</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2622&class=Submission">ChIP-seq - SKN-1_GFP_L1 2622</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2437&class=Submission">ChIP-seq - N2_POLII_L1 2437</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2438&class=Submission">ChIP-seq - N2_POLII_L2 2438</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2439&class=Submission">ChIP-seq - N2_POLII_L3 2439</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2440&class=Submission">ChIP-seq - N2_POLII_L4 2440</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2441&class=Submission">ChIP-seq - N2_POLII_YA 2441</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2435&class=Submission">ChIP-seq - N2_POLII_eemb 2435</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2436&class=Submission">ChIP-seq - N2_POLII_lemb 2436</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2430&class=Submission">ChIP-seq - UNC-130_GFP_L1 2430</a></li>
+</ul>
+
+<h4>Figure 8: Relative proportion of annotations among constrained sequences</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+
+
+
+
+
+
+
+
+
+<h3>Supplementary Figures</h3>
+
+
+<h4>Figure S1: ChIP-chip and ChIP-seq comparison</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2435&class=Submission">ChIP-seq - N2_POLII_eemb 2435</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2440&class=Submission">ChIP-seq - N2_POLII_L4 2440</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_663&class=Submission">ChIP-chip - Pol_II_CTD_N2_EEMB_(ABAB817_8WG16_N2_EEMB) 663</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_599&class=Submission">ChIP-chip - POL-2_N2_L4_(CVMMS126R_8WG16_N2_L4) 599</a></li>
+
+<h4>Figure S2: Correlation of RNA expression levels for young adult between RNA-seq and tiling array platforms</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_475&class=Submission">young adult 25dC 42hrs post-L1 N2 tiling array 475</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2354&class=Submission">RNAseq - Young Adult 25dC 46hrs post-L1 sequences & alignment 2354</a></li>
+</ul>
+
+<h4>Figure S3: Numbers of RNA-seq reads</h4>
+<h5>Analysis completed using WormBase version WS170</h5>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2321&class=Submission">RNA-seq - early embryo sequences & alignments 2321</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2324&class=Submission">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments 2324</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2346&class=Submission">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments 2346</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2326&class=Submission">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments 2326</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2343&class=Submission">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments 2343</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2352&class=Submission">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2347&class=Submission">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments 2347</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2349&class=Submission">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments 2349</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2351&class=Submission">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments 2351</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2353&class=Submission">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2353</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2354&class=Submission">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments 2354</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2583&class=Submission">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments 2583</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2325&class=Submission">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments 2325</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2387&class=Submission">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment 2387</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2345&class=Submission">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment 2345</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2580&class=Submission">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments 2580</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2581&class=Submission">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2581</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2582&class=Submission">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment 2582</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2584&class=Submission">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2584</a></li>
+</ul>
+
+<h4>Figure S4: RNA sequencing depth analysis</h4>
+
+<h5>Part A: Density plots of 20,051 genes in WormBase190</h5>
+<h5>Analysis completed using WormBase version WS190</h5>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2352&class=Submission">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+</ul>
+
+<h5>Part B: Pair-wise comparison of the density plots</h5>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2352&class=Submission">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+</ul>
+
+
+<h5>Part C: Rate of gene discovery</h5>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2352&class=Submission">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+</ul>
+
+<h4>Figure S5: Transcript building</h4>
+<h6>Interpreted data:</h6>
+<ul>
+<li><a href="http://submit.modencode.org/submit/public/get_file/2934/extracted/Aggregate_1003.integrated_transcripts.ws170.gff3">Aggregate Integrated Transcripts</a></li>
+</ul>
+
+
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2321&class=Submission">RNA-seq - early embryo sequences & alignments 2321</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2324&class=Submission">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments 2324</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2346&class=Submission">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments 2346</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2326&class=Submission">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments 2326</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2343&class=Submission">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments 2343</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2352&class=Submission">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2347&class=Submission">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments 2347</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2349&class=Submission">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments 2349</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2351&class=Submission">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments 2351</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2353&class=Submission">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2353</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2354&class=Submission">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments 2354</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2583&class=Submission">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments 2583</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2325&class=Submission">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments 2325</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2387&class=Submission">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment 2387</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2345&class=Submission">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment 2345</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2580&class=Submission">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments 2580</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2581&class=Submission">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2581</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2582&class=Submission">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment 2582</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2584&class=Submission">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2584</a></li>
+</ul>
+
+<h4>Figure S6: A complex isoform example</h4>
+<h6>Interpreted data:</h6>
+<ul>
+<li><a href="http://submit.modencode.org/submit/public/get_file/2934/extracted/Aggregate_1003.integrated_transcripts.ws170.gff3">Aggregate Integrated Transcripts</a></li>
+</ul>
+
+
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2321&class=Submission">RNA-seq - early embryo sequences & alignments 2321</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2324&class=Submission">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments 2324</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2346&class=Submission">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments 2346</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2326&class=Submission">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments 2326</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2343&class=Submission">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments 2343</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2352&class=Submission">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2347&class=Submission">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments 2347</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2349&class=Submission">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments 2349</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2351&class=Submission">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments 2351</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2353&class=Submission">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2353</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2354&class=Submission">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments 2354</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2583&class=Submission">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments 2583</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2325&class=Submission">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments 2325</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2387&class=Submission">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment 2387</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2345&class=Submission">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment 2345</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2580&class=Submission">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments 2580</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2581&class=Submission">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2581</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2582&class=Submission">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment 2582</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2584&class=Submission">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2584</a></li>
+</ul>
+
+<h4>Figure S7: Features defined by RNAseq as compared to WormBase as of January, 2007 (WS170)</h4>
+<h5>Analysis completed using WormBase version WS170</h5>
+
+<h4>Figure S8: Number of confirmed splice junctions over time</h4>
+<h5>Analysis completed using WormBase version WS170</h5>
+
+<h4>Figure S9: Proportion of splice junctions confirmed by various methods</h4>
+
+<h4>Figure S10: Saturation of discovery of additional ncRNAs and coding exons with additional RNA-seq data sets</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h4>Figure S11: Number of stages and samples where a given gene or splice junction is observed</h4>
+<h5>Analysis completed using WormBase version WS170</h5>
+
+<h4>Figure S12: Developmental stage-specific expression</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Interpreted data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS112S13-mRNA_expression_filtered.mat.gz">expression levels of all worm transcripts at 7 developmental stages</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS12S13-worm_stage_specific_genes.txt">stage specific transcripts</a></li>
+</ul>
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2321&class=Submission">RNA-seq - early embryo sequences & alignments 2321</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2324&class=Submission">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments 2324</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2346&class=Submission">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments 2346</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2326&class=Submission">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments 2326</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2343&class=Submission">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments 2343</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2352&class=Submission">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2347&class=Submission">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments 2347</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2349&class=Submission">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments 2349</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2351&class=Submission">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments 2351</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2353&class=Submission">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2353</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2354&class=Submission">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments 2354</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2583&class=Submission">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments 2583</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2325&class=Submission">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments 2325</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2387&class=Submission">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment 2387</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2345&class=Submission">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment 2345</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2580&class=Submission">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments 2580</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2581&class=Submission">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2581</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2582&class=Submission">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment 2582</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2584&class=Submission">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2584</a></li>
+</ul>
+
+
+<h5>Part B: Expression profiles of the meta-genes for developmental stage-specific transcripts</h5>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Interpreted data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS112S13-mRNA_expression_filtered.mat.gz">expression levels of all worm transcripts at 7 developmental stages</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS12S13-worm_stage_specific_genes.txt">stage specific transcripts</a></li>
+</ul>
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2321&class=Submission">RNA-seq - early embryo sequences & alignments 2321</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2324&class=Submission">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments 2324</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2346&class=Submission">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments 2346</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2326&class=Submission">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments 2326</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2343&class=Submission">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments 2343</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2352&class=Submission">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2347&class=Submission">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments 2347</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2349&class=Submission">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments 2349</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2351&class=Submission">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments 2351</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2353&class=Submission">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2353</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2354&class=Submission">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments 2354</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2583&class=Submission">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments 2583</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2325&class=Submission">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments 2325</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2387&class=Submission">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment 2387</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2345&class=Submission">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment 2345</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2580&class=Submission">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments 2580</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2581&class=Submission">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2581</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2582&class=Submission">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment 2582</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2584&class=Submission">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2584</a></li>
+</ul>
+
+
+<h5>Part C: Enrichment of promoter motifs</h5>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Interpreted data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS14-worm_ws170_selected_gene_up1000.fa.gz">upstream 1000bp regions (promoters) for selected genes, used for motif identification by MEME</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS14-SSmotifs_enrich_in_SSgenes.xls">The enrichement of motifs in promoters of stage specific genes</a></li>
+</ul>
+From left to right are: motif.stage, motif.name, stage, #genes with the motif, #of specific genes at the stage, #stage specifc genes with the motif, p-value from hypergeometric test
+
+<h4>Figure S13: Lab batch effects</h4>
+<h5>Analysis completed using WormBase version WS180</h5>
+
+<h5>Parts A and B</h5>
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2435&class=Submission078">ChIP-seq - N2_POLII_eemb </a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2436&class=Submission086">ChIP-seq - N2_POLII_lemb </a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2437&class=Submission090">ChIP-seq - N2_POLII_L1 </a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2438&class=Submission092">ChIP-seq - N2_POLII_L2 </a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2439&class=Submission094">ChIP-seq - N2_POLII_L3 </a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2440&class=Submission096">ChIP-seq - N2_POLII_L4 </a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2441&class=Submission100">ChIP-seq - N2_POLII_YA </a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2855&class=Submission84">early embryo N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs </a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2857&class=Submission86">late embryo N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs </a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2860&class=Submission89">L1 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs </a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2861&class=Submission90">L2 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs </a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2862&class=Submission91">L3 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs </a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2863&class=Submission93">L4 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2851&class=Submission80">Young Adult N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs</a></li>
+</ul>
+
+<h5>Part C</h5>
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_654&class=Submission">embryo A-class motor neurons tiling array 654</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_455&class=Submission">embryo panneural tiling array 455</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_468&class=Submission">embryo GABA motor neurons tiling array 468</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_470&class=Submission">embryo body wall muscle tiling array (v2) 470</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_458&class=Submission">embryo coelomocytes tiling array 458</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_457&class=Submission">embryo intestine tiling array 457</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_469&class=Submission">L2 A-class neuron tiling array 469</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_462&class=Submission">L2 panneural tiling array 462</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_466&class=Submission">L2 GABA neurons tiling array 466</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_465&class=Submission">L2 body wall muscle tiling array 465</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_657&class=Submission">L2 coelomocytes tiling array 657</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_463&class=Submission">L2 intestine tiling array 463</a></li>
+</ul>
+
+
+
+<h4>Figure S14: Cumulative plot of isoform composition distribution</h4>
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2326&class=Submission">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2321&class=Submission">RNA-seq - early embryo sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2324&class=Submission">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2351&class=Submission">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2325&class=Submission">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2354&class=Submission">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment</a></li>
+</ul>
+
+<h4>Figure S15: SOM clusters of transcripts with different developmental expression profiles</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h4>Figure S16: Number of genes and transcripts shared between pairs of SOM clusters</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h4>Figure S17: Classes of distinguishing features between isoforms with different developmental expression profiles based on SOM clustering</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h4>Figure S18: Examples of read count distributions supporting differential expression of alternative transcript isoforms among developmental stages</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h4>Figure S19: A breakdown on how the updated list of C. elegans pseudogenes was created</h4>
+<h5>Analysis completed using WormBase version WS200</h5>
+<h6>Interpreted data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FinalPPWBpgeneList.txt">Pseudogenes list</a></li>
+</ul>
+
+<h4>Figure S20: Binning of long TARs built from tiling arrays</h4>
+Graphics only, no data used
+
+<h4>Figure S21: Predicting ncRNAs</h4>
+<h5>Analysis completed using WormBase version WS200 and WS170</h5>
+
+<h6>Interpreted data:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/0/0a/NcRNA_known_nochrM.ws190.gff">Known ncRNAs</a></li>
+</ul>
+<h6>Source experimental data</h6>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2351&class=Submission">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
+</ul>
+
+
+
+<h4>Figure S22: TF binding around non-coding RNAs</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/features.do?type=experiment&action=export&experiment=Definition%20of%20comprehensive%20set%20of%20C.%20elegans%20transcripts%20and%20expression%20for%20various%20stages%20and%20conditions&feature=PolyASite&format=gff3">poly-A RNA sequencing data</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_634&class=Submission">small RNA N2 embryos RNA-seq 634</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_635&class=Submission">small RNA N2 mid-L1 RNA-seq 635</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_636&class=Submission">small RNA N2 mid-L2 RNA-seq 636</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_637&class=Submission">small RNA N2 mid-L3 RNA-seq 637</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_638&class=Submission">small RNA N2 mid-L4 RNA-seq 638</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_639&class=Submission">small RNA N2 young adult RNA-seq 639</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_640&class=Submission">small RNA him-8 males RNA-seq 640</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2740&class=Submission">ChIP-chip - Histone_H3K27ac_N2_EEMB_(AB4729_H3K27AC361571_N2_EEMB) 2740 </a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2726&class=Submission">ChIP-chip - Histone_H3K4me1_N2_EEMB_(AB8895_H3K4ME1733246_N2_EEMB) 2726</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_582&class=Submission">ChIP-seq - PHA4_GFP_emb 582</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_584&class=Submission">ChIP-seq - PHA4_StarvedL1_GFP 584</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_585&class=Submission">ChIP-seq - PHA4_GFP_FedL1 585</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_586&class=Submission">ChIP-seq - PHA4_POLII_emb 586</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_587&class=Submission">ChIP-seq - PHA4_POLII_FedL1 587</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_588&class=Submission">ChIP-seq - PHA4_StarvedL1_POLII 588</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_589&class=Submission">ChIP-seq - AMA1_GFP_L4YA 589</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_590&class=Submission">ChIP-seq - AMA1_POLII_L4YA 590</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_591&class=Submission">ChIP-seq - DAF16_GFP_L4YA 591</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_592&class=Submission">ChIP-seq - DAF16_POLII_L4YA 592</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_593&class=Submission">ChIP-seq - MAB5_GFP_L3 593</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_594&class=Submission">ChIP-seq - MAB5_POLII_L3 594</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_734&class=Submission">ChIP-seq - CEH-14_GFP_L2 734</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2416&class=Submission">ChIP-seq - DPY27_GFP_emb 2416</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2417&class=Submission">ChIP-seq - EOR-1_GFP_L3 2417</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2418&class=Submission">ChIP-seq - HLH-8_GFP_L3 2418</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2429&class=Submission">ChIP-seq - LIN-11_GFP_L2 2429</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2430&class=Submission">ChIP-seq - UNC-130_GFP_L1 2430</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2431&class=Submission">ChIP-seq - HLH-1_GFP_emb 2431</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2432&class=Submission">ChIP-seq - LIN-39_GFP_L3 2432</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2433&class=Submission">ChIP-seq - NHR-6_GFP_L2 2433</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2434&class=Submission">ChIP-seq - ALR-1_GFP_L2 2434</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2435&class=Submission">ChIP-seq - N2_POLII_eemb 2435</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2436&class=Submission">ChIP-seq - N2_POLII_lemb 2436</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2437&class=Submission">ChIP-seq - N2_POLII_L1 2437</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2438&class=Submission">ChIP-seq - N2_POLII_L2 2438</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2439&class=Submission">ChIP-seq - N2_POLII_L3 2439</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2440&class=Submission">ChIP-seq - N2_POLII_L4 2440</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2441&class=Submission">ChIP-seq - N2_POLII_YA 2441</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2450&class=Submission">ChIP-seq - PES1_GFP_L4 2450</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2451&class=Submission">ChIP-seq - GEI11_GFP_L4 2451</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2452&class=Submission">ChIP-seq - PHA4_GFP_L2 2452</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2453&class=Submission">ChIP-seq - EGL5_GFP_L3 2453</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2596&class=Submission">ChIP-seq - EOR-1_POLII_L3 2596</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2597&class=Submission">ChIP-seq - HLH-8_POLII_L3 2597</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2598&class=Submission">ChIP-seq - PHA4_GFP_lemb 2598</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2599&class=Submission">ChIP-seq - PHA4_GFP_YA 2599</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2600&class=Submission">ChIP-seq - MEP-1_GFP_emb 2600</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2601&class=Submission">ChIP-seq - MDL-1_GFP_L1 2601</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2610&class=Submission">ChIP-seq - LIN-15B_GFP_L3 2610</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2612&class=Submission">ChIP-seq - BLMP-1_GFP_L1 2612</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2613&class=Submission">ChIP-seq - LIN-13_GFP_emb 2613</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2614&class=Submission">ChIP-seq - ELT-3_GFP_L1 2614</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2616&class=Submission">ChIP-seq - EGL5_POLII_L3 2616</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2617&class=Submission">ChIP-seq - NHR-105_GFP_L3 2617</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2620&class=Submission">ChIP-seq - CEH-30_GFP_lemb 2620</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2621&class=Submission">ChIP-seq - EGL-27_GFP_L1 2621</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2622&class=Submission">ChIP-seq - SKN-1_GFP_L1 2622</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2623&class=Submission">ChIP-seq - PQM-1_GFP_L3 2623</a></li>
+</ul>
+
+
+<h4>Figure S23: Co-occurrence of transcription factors</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Interpreted data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:S23ws190.tgz">Analysis Files</a></li>
+</ul>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_582&class=Submission">ChIP-seq - PHA4_GFP_emb 582</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_584&class=Submission">ChIP-seq - PHA4_StarvedL1_GFP 584</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_585&class=Submission">ChIP-seq - PHA4_GFP_FedL1 585</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_586&class=Submission">ChIP-seq - PHA4_POLII_emb 586</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_587&class=Submission">ChIP-seq - PHA4_POLII_FedL1 587</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_588&class=Submission">ChIP-seq - PHA4_StarvedL1_POLII 588</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_589&class=Submission">ChIP-seq - AMA1_GFP_L4YA 589</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_590&class=Submission">ChIP-seq - AMA1_POLII_L4YA 590</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_591&class=Submission">ChIP-seq - DAF16_GFP_L4YA 591</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_592&class=Submission">ChIP-seq - DAF16_POLII_L4YA 592</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_593&class=Submission">ChIP-seq - MAB5_GFP_L3 593</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_594&class=Submission">ChIP-seq - MAB5_POLII_L3 594</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_734&class=Submission">ChIP-seq - CEH-14_GFP_L2 734</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2416&class=Submission">ChIP-seq - DPY27_GFP_emb 2416</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2417&class=Submission">ChIP-seq - EOR-1_GFP_L3 2417</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2418&class=Submission">ChIP-seq - HLH-8_GFP_L3 2418</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2429&class=Submission">ChIP-seq - LIN-11_GFP_L2 2429</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2430&class=Submission">ChIP-seq - UNC-130_GFP_L1 2430</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2431&class=Submission">ChIP-seq - HLH-1_GFP_emb 2431</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2432&class=Submission">ChIP-seq - LIN-39_GFP_L3 2432</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2433&class=Submission">ChIP-seq - NHR-6_GFP_L2 2433</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2434&class=Submission">ChIP-seq - ALR-1_GFP_L2 2434</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2435&class=Submission">ChIP-seq - N2_POLII_eemb 2435</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2436&class=Submission">ChIP-seq - N2_POLII_lemb 2436</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2437&class=Submission">ChIP-seq - N2_POLII_L1 2437</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2438&class=Submission">ChIP-seq - N2_POLII_L2 2438</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2439&class=Submission">ChIP-seq - N2_POLII_L3 2439</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2440&class=Submission">ChIP-seq - N2_POLII_L4 2440</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2441&class=Submission">ChIP-seq - N2_POLII_YA 2441</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2450&class=Submission">ChIP-seq - PES1_GFP_L4 2450</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2451&class=Submission">ChIP-seq - GEI11_GFP_L4 2451</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2452&class=Submission">ChIP-seq - PHA4_GFP_L2 2452</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2453&class=Submission">ChIP-seq - EGL5_GFP_L3 2453</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2596&class=Submission">ChIP-seq - EOR-1_POLII_L3 2596</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2597&class=Submission">ChIP-seq - HLH-8_POLII_L3 2597</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2598&class=Submission">ChIP-seq - PHA4_GFP_lemb 2598</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2599&class=Submission">ChIP-seq - PHA4_GFP_YA 2599</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2600&class=Submission">ChIP-seq - MEP-1_GFP_emb 2600</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2601&class=Submission">ChIP-seq - MDL-1_GFP_L1 2601</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2610&class=Submission">ChIP-seq - LIN-15B_GFP_L3 2610</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2612&class=Submission">ChIP-seq - BLMP-1_GFP_L1 2612</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2613&class=Submission">ChIP-seq - LIN-13_GFP_emb 2613</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2614&class=Submission">ChIP-seq - ELT-3_GFP_L1 2614</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2616&class=Submission">ChIP-seq - EGL5_POLII_L3 2616</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2617&class=Submission">ChIP-seq - NHR-105_GFP_L3 2617</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2620&class=Submission">ChIP-seq - CEH-30_GFP_lemb 2620</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2621&class=Submission">ChIP-seq - EGL-27_GFP_L1 2621</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2622&class=Submission">ChIP-seq - SKN-1_GFP_L1 2622</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2623&class=Submission">ChIP-seq - PQM-1_GFP_L3 2623</a></li>
+</ul>
+
+
+<h4>Figure S24: Comparison of PeakSeq and PeakRanger peak calls</h4>
+
+
+<h4>Figure S25: Distribution of TF binding numbers</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Interpreted data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
+</ul>
+
+<h4>Figure S26: Control experiments for HOT regions</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h5>Part B: DPY-27 only binds to HOT regions on the X chromosome</h5>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2416&class=Submission">ChIP-seq - DPY27_GFP_emb 2416</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2610&class=Submission">ChIP-seq - LIN-15B_GFP_L3 2610</a></li>
+</ul>
+<h6>Interpreted data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
+</ul>
+
+<h4>Figure 27: HOT regions enrichments</h4>
+<h5>Part A</h5>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2431&class=Submission">ChIP-seq - HLH-1_GFP_emb 2431</a></li>
+</ul>
+
+<h5>Part B</h5>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_582&class=Submission">ChIP-seq - PHA4_GFP_emb 582</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_584&class=Submission">ChIP-seq - PHA4_StarvedL1_GFP 584</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_585&class=Submission">ChIP-seq - PHA4_GFP_FedL1 585</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_586&class=Submission">ChIP-seq - PHA4_POLII_emb 586</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_587&class=Submission">ChIP-seq - PHA4_POLII_FedL1 587</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_588&class=Submission">ChIP-seq - PHA4_StarvedL1_POLII 588</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_589&class=Submission">ChIP-seq - AMA1_GFP_L4YA 589</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_590&class=Submission">ChIP-seq - AMA1_POLII_L4YA 590</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_591&class=Submission">ChIP-seq - DAF16_GFP_L4YA 591</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_592&class=Submission">ChIP-seq - DAF16_POLII_L4YA 592</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_593&class=Submission">ChIP-seq - MAB5_GFP_L3 593</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_594&class=Submission">ChIP-seq - MAB5_POLII_L3 594</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_734&class=Submission">ChIP-seq - CEH-14_GFP_L2 734</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2416&class=Submission">ChIP-seq - DPY27_GFP_emb 2416</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2417&class=Submission">ChIP-seq - EOR-1_GFP_L3 2417</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2418&class=Submission">ChIP-seq - HLH-8_GFP_L3 2418</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2429&class=Submission">ChIP-seq - LIN-11_GFP_L2 2429</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2430&class=Submission">ChIP-seq - UNC-130_GFP_L1 2430</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2431&class=Submission">ChIP-seq - HLH-1_GFP_emb 2431</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2432&class=Submission">ChIP-seq - LIN-39_GFP_L3 2432</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2433&class=Submission">ChIP-seq - NHR-6_GFP_L2 2433</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2434&class=Submission">ChIP-seq - ALR-1_GFP_L2 2434</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2435&class=Submission">ChIP-seq - N2_POLII_eemb 2435</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2436&class=Submission">ChIP-seq - N2_POLII_lemb 2436</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2437&class=Submission">ChIP-seq - N2_POLII_L1 2437</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2438&class=Submission">ChIP-seq - N2_POLII_L2 2438</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2439&class=Submission">ChIP-seq - N2_POLII_L3 2439</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2440&class=Submission">ChIP-seq - N2_POLII_L4 2440</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2441&class=Submission">ChIP-seq - N2_POLII_YA 2441</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2450&class=Submission">ChIP-seq - PES1_GFP_L4 2450</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2451&class=Submission">ChIP-seq - GEI11_GFP_L4 2451</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2452&class=Submission">ChIP-seq - PHA4_GFP_L2 2452</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2453&class=Submission">ChIP-seq - EGL5_GFP_L3 2453</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2596&class=Submission">ChIP-seq - EOR-1_POLII_L3 2596</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2597&class=Submission">ChIP-seq - HLH-8_POLII_L3 2597</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2598&class=Submission">ChIP-seq - PHA4_GFP_lemb 2598</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2599&class=Submission">ChIP-seq - PHA4_GFP_YA 2599</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2600&class=Submission">ChIP-seq - MEP-1_GFP_emb 2600</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2601&class=Submission">ChIP-seq - MDL-1_GFP_L1 2601</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2610&class=Submission">ChIP-seq - LIN-15B_GFP_L3 2610</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2612&class=Submission">ChIP-seq - BLMP-1_GFP_L1 2612</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2613&class=Submission">ChIP-seq - LIN-13_GFP_emb 2613</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2614&class=Submission">ChIP-seq - ELT-3_GFP_L1 2614</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2616&class=Submission">ChIP-seq - EGL5_POLII_L3 2616</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2617&class=Submission">ChIP-seq - NHR-105_GFP_L3 2617</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2620&class=Submission">ChIP-seq - CEH-30_GFP_lemb 2620</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2621&class=Submission">ChIP-seq - EGL-27_GFP_L1 2621</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2622&class=Submission">ChIP-seq - SKN-1_GFP_L1 2622</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2623&class=Submission">ChIP-seq - PQM-1_GFP_L3 2623</a></li>
+</ul>
+
+<h5>Part A</h5>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2431&class=Submission">ChIP-seq - HLH-1_GFP_emb 2431</a></li>
+</ul>
+
+<h4>Figure S28: Higher gene expression level in HOT regions in RNA-seq</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2324&class=Submission">RNAseq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments 2324</a></li>
+</ul>
+<h6>Interpreted data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
+</ul>
+
+<h5>Part B: Higher gene expression level in HOT regions in tiling arrays</h5>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_654&class=Submission">embryo A-class motor neurons tiling array 654</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_456&class=Submission">embryo all cells reference tiling array 456</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_459&class=Submission">embryo AVA neurons tiling array 459</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_470&class=Submission">embryo body wall muscle tiling array (v2) 470</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_458&class=Submission">embryo coelomocytes tiling array 458</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_467&class=Submission">embryo dopaminergic neurons tiling array 467</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_468&class=Submission">embryo GABA motor neurons tiling array 468</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_661&class=Submission">embryo germline precursor cells tiling array 661</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_662&class=Submission">embryo hypodermal cells tiling array 662</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_457&class=Submission">embryo intestine tiling array 457</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_455&class=Submission">embryo panneural tiling array 455</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_481&class=Submission">gonad from young adult 20dC 42hrs post-L1 N2 tiling array 481</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_469&class=Submission">L2 A-class neuron tiling array 469</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_465&class=Submission">L2 body wall muscle tiling array 465</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_657&class=Submission">L2 coelomocytes tiling array 657</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_464&class=Submission">L2 excretory cell tiling array 464</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_466&class=Submission">L2 GABA neurons tiling array 466</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_658&class=Submission">L2 glutamate receptor expressing neurons tiling array 658</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_463&class=Submission">L2 intestine tiling array 463</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_462&class=Submission">L2 panneural tiling array 462</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_655&class=Submission">L3-L4 dopaminergic neuron tiling array 655</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_460&class=Submission">L3-L4 PVD & OLL neurons tiling array 460</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_485&class=Submission">soma-only mid-L4 25dC 36hrs post-L1 JK1107 tiling array 485</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_475&class=Submission">young adult 25dC 42hrs post-L1 N2 tiling array 475</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_660&class=Submission">Young Adult Cephalic sheath (CEPsh) tiling array 660</a></li>
+</ul>
+
+<h4>Figure S29: HOT regions are broadly expressed</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Interpreted data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
+</ul>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_654&class=Submission">embryo A-class motor neurons tiling array 654</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_456&class=Submission">embryo all cells reference tiling array 456</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_459&class=Submission">embryo AVA neurons tiling array 459</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_470&class=Submission">embryo body wall muscle tiling array (v2) 470</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_458&class=Submission">embryo coelomocytes tiling array 458</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_467&class=Submission">embryo dopaminergic neurons tiling array 467</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_468&class=Submission">embryo GABA motor neurons tiling array 468</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_661&class=Submission">embryo germline precursor cells tiling array 661</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_662&class=Submission">embryo hypodermal cells tiling array 662</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_457&class=Submission">embryo intestine tiling array 457</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_455&class=Submission">embryo panneural tiling array 455</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_481&class=Submission">gonad from young adult 20dC 42hrs post-L1 N2 tiling array 481</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_469&class=Submission">L2 A-class neuron tiling array 469</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_465&class=Submission">L2 body wall muscle tiling array 465</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_657&class=Submission">L2 coelomocytes tiling array 657</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_464&class=Submission">L2 excretory cell tiling array 464</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_466&class=Submission">L2 GABA neurons tiling array 466</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_658&class=Submission">L2 glutamate receptor expressing neurons tiling array 658</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_463&class=Submission">L2 intestine tiling array 463</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_462&class=Submission">L2 panneural tiling array 462</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_655&class=Submission">L3-L4 dopaminergic neuron tiling array 655</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_460&class=Submission">L3-L4 PVD & OLL neurons tiling array 460</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_485&class=Submission">soma-only mid-L4 25dC 36hrs post-L1 JK1107 tiling array 485</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_475&class=Submission">young adult 25dC 42hrs post-L1 N2 tiling array 475</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_660&class=Submission">Young Adult Cephalic sheath (CEPsh) tiling array 660</a></li>
+</ul>
+<h6>Additional Data Sources</h6>
+<ul>
+<li><a href="doi:10.1016/j.cell.2009.08.044">X. Liu et al., Analysis of Cell Fate from Single-Cell Gene Expression Profiles in C. elegans. Cell 139, 623-633 (2009).</a></li>
+</ul>
+
+<h4>Figure S30: Pair-wise correlations of PHA-4 binding signal across different stages</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2409&class=Submission">ChIP-chip - Histone_H3_N2_L3_(AB1791_H3_N2_L3_new) 2409</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2313&class=Submission">ChIP-chip - Histone_H3_N2_EEMB_2_(AB1791_H3609253_N2_EEMB) 2313</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2443&class=Submission">ChIP-chip - Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB) 2443</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2410&class=Submission">ChIP-chip - Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB) 2410</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2442&class=Submission">ChIP-chip - Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB) 2442</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2339&class=Submission">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(AB8898_H3K9ME3339901_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2338&class=Submission">ChIP-chip - Histone_H3K36me2_N2_EEMB_(AB9049_H3K36ME2608457_N2_EEMB) 2338</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_174&class=Submission">ChIP-chip - POL-2_CTD_Mixed_Embryos (ABAB5408_4H8_N2_MXEMB) 174</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2312&class=Submission">ChIP-chip - Histone_H3_N2_EEMB_1_(AR0144_H3144_N2_EEMB) 2312</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2407&class=Submission">ChIP-chip - Histone_H3_N2_L3_2_(AR0144_H3144_N2_L3) 2407</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2408&class=Submission">ChIP-chip - Histone_H3_N2_L3_1_(AR0144_H3144_N2_L3_LM) 2408</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_599&class=Submission">ChIP-chip - POL-2_N2_L4_(CVMMS126R_8WG16_N2_L4) 599</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_973&class=Submission">ChIP-chip - Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB) 973</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2401&class=Submission">ChIP-chip - Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3) 2401</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2444&class=Submission">ChIP-chip - Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB) 2444</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2406&class=Submission">ChIP-chip - Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3) 2406</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2339&class=Submission">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2398&class=Submission">ChIP-chip - Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3) 2398</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_909&class=Submission">ChIP-chip - Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB) 909</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2399&class=Submission">ChIP-chip - Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3) 2399</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2400&class=Submission">ChIP-chip - Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3) 2400</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_630&class=Submission">ChIP-chip - DPY-27_N2_L4(JL00001_DPY27_N2_L4) 630</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_696&class=Submission">ChIP-chip - DPY27_YPT47(V;X)_MXEMB(JL00001_DPY27_YPT47_MXEMB) 696</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_701&class=Submission">ChIP-chip - SDC3_YPT47(V;X)_MXEMB(JL00002_SDC3_YPT47_MXEMB) 701</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_334&class=Submission">ChIP-chip - DPY-26_N2_Mixed_Embryos_(JL00003_DPY26_N2_MXEMB) 334</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_336&class=Submission">ChIP-chip - MIX-1_N2_Mixed_Embryos_(JL00004_MIX1_N2_MXEMB) 336</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_644&class=Submission">ChIP-chip - DPY-28_N2_MXEMB_(JL00012_DPY28_N2_MXEMB) 644</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_194&class=Submission">ChIP-chip - HCP-3_CENP-A_Mixed_Embryos_(OD00001_HCP3_N2_MXEMB) 194</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_897&class=Submission">ChIP-chip - MRG-1_N2_EEMB_(SDQ0790_MRG1_N2_EEMB) 897</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_911&class=Submission">ChIP-chip - MES-4_N2_EEMB_(SDQ0791_MES4_N2_EEMB) 911</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_645&class=Submission">ChIP-chip - SDC-2_N2_MXEMB_(SDQ3146_SDC2_N2_MXEMB) 645</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2311&class=Submission">ChIP-chip - Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB) 2311</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2445&class=Submission">ChIP-chip - Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB) 2445</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2402&class=Submission">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3) 2402</a></li>
+</ul>
+
+<h4>Figure S31: Examples of Pol II binding and expression</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2409&class=Submission">ChIP-chip - Histone_H3_N2_L3_(AB1791_H3_N2_L3_new) 2409</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2313&class=Submission">ChIP-chip - Histone_H3_N2_EEMB_2_(AB1791_H3609253_N2_EEMB) 2313</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2443&class=Submission">ChIP-chip - Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB) 2443</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2410&class=Submission">ChIP-chip - Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB) 2410</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2442&class=Submission">ChIP-chip - Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB) 2442</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2339&class=Submission">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(AB8898_H3K9ME3339901_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2338&class=Submission">ChIP-chip - Histone_H3K36me2_N2_EEMB_(AB9049_H3K36ME2608457_N2_EEMB) 2338</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_174&class=Submission">ChIP-chip - POL-2_CTD_Mixed_Embryos (ABAB5408_4H8_N2_MXEMB) 174</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2312&class=Submission">ChIP-chip - Histone_H3_N2_EEMB_1_(AR0144_H3144_N2_EEMB) 2312</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2407&class=Submission">ChIP-chip - Histone_H3_N2_L3_2_(AR0144_H3144_N2_L3) 2407</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2408&class=Submission">ChIP-chip - Histone_H3_N2_L3_1_(AR0144_H3144_N2_L3_LM) 2408</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_599&class=Submission">ChIP-chip - POL-2_N2_L4_(CVMMS126R_8WG16_N2_L4) 599</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_973&class=Submission">ChIP-chip - Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB) 973</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2401&class=Submission">ChIP-chip - Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3) 2401</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2444&class=Submission">ChIP-chip - Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB) 2444</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2406&class=Submission">ChIP-chip - Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3) 2406</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2339&class=Submission">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2398&class=Submission">ChIP-chip - Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3) 2398</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_909&class=Submission">ChIP-chip - Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB) 909</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2399&class=Submission">ChIP-chip - Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3) 2399</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2400&class=Submission">ChIP-chip - Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3) 2400</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_630&class=Submission">ChIP-chip - DPY-27_N2_L4(JL00001_DPY27_N2_L4) 630</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_696&class=Submission">ChIP-chip - DPY27_YPT47(V;X)_MXEMB(JL00001_DPY27_YPT47_MXEMB) 696</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_701&class=Submission">ChIP-chip - SDC3_YPT47(V;X)_MXEMB(JL00002_SDC3_YPT47_MXEMB) 701</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_334&class=Submission">ChIP-chip - DPY-26_N2_Mixed_Embryos_(JL00003_DPY26_N2_MXEMB) 334</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_336&class=Submission">ChIP-chip - MIX-1_N2_Mixed_Embryos_(JL00004_MIX1_N2_MXEMB) 336</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_644&class=Submission">ChIP-chip - DPY-28_N2_MXEMB_(JL00012_DPY28_N2_MXEMB) 644</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_194&class=Submission">ChIP-chip - HCP-3_CENP-A_Mixed_Embryos_(OD00001_HCP3_N2_MXEMB) 194</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_897&class=Submission">ChIP-chip - MRG-1_N2_EEMB_(SDQ0790_MRG1_N2_EEMB) 897</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_911&class=Submission">ChIP-chip - MES-4_N2_EEMB_(SDQ0791_MES4_N2_EEMB) 911</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_645&class=Submission">ChIP-chip - SDC-2_N2_MXEMB_(SDQ3146_SDC2_N2_MXEMB) 645</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2311&class=Submission">ChIP-chip - Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB) 2311</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2445&class=Submission">ChIP-chip - Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB) 2445</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2402&class=Submission">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3) 2402</a></li>
+</ul>
+
+<h4>Figure S32: Histone marks distribution over repetitive elements</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2409&class=Submission">ChIP-chip - Histone_H3_N2_L3_(AB1791_H3_N2_L3_new) 2409</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2313&class=Submission">ChIP-chip - Histone_H3_N2_EEMB_2_(AB1791_H3609253_N2_EEMB) 2313</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2443&class=Submission">ChIP-chip - Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB) 2443</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2410&class=Submission">ChIP-chip - Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB) 2410</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2442&class=Submission">ChIP-chip - Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB) 2442</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2339&class=Submission">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(AB8898_H3K9ME3339901_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2338&class=Submission">ChIP-chip - Histone_H3K36me2_N2_EEMB_(AB9049_H3K36ME2608457_N2_EEMB) 2338</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_174&class=Submission">ChIP-chip - POL-2_CTD_Mixed_Embryos (ABAB5408_4H8_N2_MXEMB) 174</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2312&class=Submission">ChIP-chip - Histone_H3_N2_EEMB_1_(AR0144_H3144_N2_EEMB) 2312</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2407&class=Submission">ChIP-chip - Histone_H3_N2_L3_2_(AR0144_H3144_N2_L3) 2407</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2408&class=Submission">ChIP-chip - Histone_H3_N2_L3_1_(AR0144_H3144_N2_L3_LM) 2408</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_599&class=Submission">ChIP-chip - POL-2_N2_L4_(CVMMS126R_8WG16_N2_L4) 599</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_973&class=Submission">ChIP-chip - Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB) 973</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2401&class=Submission">ChIP-chip - Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3) 2401</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2444&class=Submission">ChIP-chip - Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB) 2444</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2406&class=Submission">ChIP-chip - Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3) 2406</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2339&class=Submission">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2398&class=Submission">ChIP-chip - Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3) 2398</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_909&class=Submission">ChIP-chip - Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB) 909</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2399&class=Submission">ChIP-chip - Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3) 2399</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2400&class=Submission">ChIP-chip - Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3) 2400</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_630&class=Submission">ChIP-chip - DPY-27_N2_L4(JL00001_DPY27_N2_L4) 630</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_696&class=Submission">ChIP-chip - DPY27_YPT47(V;X)_MXEMB(JL00001_DPY27_YPT47_MXEMB) 696</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_701&class=Submission">ChIP-chip - SDC3_YPT47(V;X)_MXEMB(JL00002_SDC3_YPT47_MXEMB) 701</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_334&class=Submission">ChIP-chip - DPY-26_N2_Mixed_Embryos_(JL00003_DPY26_N2_MXEMB) 334</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_336&class=Submission">ChIP-chip - MIX-1_N2_Mixed_Embryos_(JL00004_MIX1_N2_MXEMB) 336</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_644&class=Submission">ChIP-chip - DPY-28_N2_MXEMB_(JL00012_DPY28_N2_MXEMB) 644</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_194&class=Submission">ChIP-chip - HCP-3_CENP-A_Mixed_Embryos_(OD00001_HCP3_N2_MXEMB) 194</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_897&class=Submission">ChIP-chip - MRG-1_N2_EEMB_(SDQ0790_MRG1_N2_EEMB) 897</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_911&class=Submission">ChIP-chip - MES-4_N2_EEMB_(SDQ0791_MES4_N2_EEMB) 911</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_645&class=Submission">ChIP-chip - SDC-2_N2_MXEMB_(SDQ3146_SDC2_N2_MXEMB) 645</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2311&class=Submission">ChIP-chip - Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB) 2311</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2445&class=Submission">ChIP-chip - Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB) 2445</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2402&class=Submission">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3) 2402</a></li>
+</ul>
+
+<h4>Figure S33: Promoters of chromosome X genes have higher GC content compared to autosomes</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2409&class=Submission">ChIP-chip - Histone_H3_N2_L3_(AB1791_H3_N2_L3_new) 2409</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2313&class=Submission">ChIP-chip - Histone_H3_N2_EEMB_2_(AB1791_H3609253_N2_EEMB) 2313</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2443&class=Submission">ChIP-chip - Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB) 2443</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2410&class=Submission">ChIP-chip - Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB) 2410</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2442&class=Submission">ChIP-chip - Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB) 2442</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2339&class=Submission">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(AB8898_H3K9ME3339901_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2338&class=Submission">ChIP-chip - Histone_H3K36me2_N2_EEMB_(AB9049_H3K36ME2608457_N2_EEMB) 2338</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_174&class=Submission">ChIP-chip - POL-2_CTD_Mixed_Embryos (ABAB5408_4H8_N2_MXEMB) 174</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2312&class=Submission">ChIP-chip - Histone_H3_N2_EEMB_1_(AR0144_H3144_N2_EEMB) 2312</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2407&class=Submission">ChIP-chip - Histone_H3_N2_L3_2_(AR0144_H3144_N2_L3) 2407</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2408&class=Submission">ChIP-chip - Histone_H3_N2_L3_1_(AR0144_H3144_N2_L3_LM) 2408</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_599&class=Submission">ChIP-chip - POL-2_N2_L4_(CVMMS126R_8WG16_N2_L4) 599</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_973&class=Submission">ChIP-chip - Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB) 973</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2401&class=Submission">ChIP-chip - Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3) 2401</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2444&class=Submission">ChIP-chip - Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB) 2444</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2406&class=Submission">ChIP-chip - Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3) 2406</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2339&class=Submission">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2398&class=Submission">ChIP-chip - Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3) 2398</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_909&class=Submission">ChIP-chip - Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB) 909</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2399&class=Submission">ChIP-chip - Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3) 2399</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2400&class=Submission">ChIP-chip - Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3) 2400</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_630&class=Submission">ChIP-chip - DPY-27_N2_L4(JL00001_DPY27_N2_L4) 630</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_696&class=Submission">ChIP-chip - DPY27_YPT47(V;X)_MXEMB(JL00001_DPY27_YPT47_MXEMB) 696</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_701&class=Submission">ChIP-chip - SDC3_YPT47(V;X)_MXEMB(JL00002_SDC3_YPT47_MXEMB) 701</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_334&class=Submission">ChIP-chip - DPY-26_N2_Mixed_Embryos_(JL00003_DPY26_N2_MXEMB) 334</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_336&class=Submission">ChIP-chip - MIX-1_N2_Mixed_Embryos_(JL00004_MIX1_N2_MXEMB) 336</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_644&class=Submission">ChIP-chip - DPY-28_N2_MXEMB_(JL00012_DPY28_N2_MXEMB) 644</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_194&class=Submission">ChIP-chip - HCP-3_CENP-A_Mixed_Embryos_(OD00001_HCP3_N2_MXEMB) 194</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_897&class=Submission">ChIP-chip - MRG-1_N2_EEMB_(SDQ0790_MRG1_N2_EEMB) 897</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_911&class=Submission">ChIP-chip - MES-4_N2_EEMB_(SDQ0791_MES4_N2_EEMB) 911</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_645&class=Submission">ChIP-chip - SDC-2_N2_MXEMB_(SDQ3146_SDC2_N2_MXEMB) 645</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2311&class=Submission">ChIP-chip - Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB) 2311</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2445&class=Submission">ChIP-chip - Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB) 2445</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2402&class=Submission">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3) 2402</a></li>
+</ul>
+
+<h4>Figure S34: Histone marks aggregation around TSSs and TTSs</h4>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission187">ChIP-chip - Histone_H3K4me1_N2_EEMB_(AB8895_H3K4ME1733246_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission386">ChIP-chip - Histone_H3K4me1_N2_L3_(AB8895_H3K4ME1733246_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission170">ChIP-chip - Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission143">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission084">ChIP-chip - Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission051">ChIP-chip - Histone_H3K4me3_from_N2_L3_larvae_(AR0169_H3K4me3_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission183">ChIP-chip - Histone_H3K9me1_N2_EEMB_(AB9045_H3K9ME1291918_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission376">ChIP-chip - Histone_H3K9me1_N2_L3_(AB9045_H3K9ME1291918_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission168">ChIP-chip - Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission147">ChIP-chip - Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission351">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission121">ChIP-chip - Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission191">ChIP-chip - Histone_H3K27ac_N2_EEMB_(WA30634849_H3K27AC_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission378">ChIP-chip - Histone_H3K27ac_N2_L3_(AB4729_H3K27AC361571_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission135">ChIP-chip - Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission353">ChIP-chip - Histone_H3K36me1_N2_EEMB_(AB9048_H3K36ME1206009_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission335">ChIP-chip - Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission131">ChIP-chip - Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission349">ChIP-chip - Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission139">ChIP-chip - Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission157">ChIP-chip - Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission160">ChIP-chip - Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission164">ChIP-chip - Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission382">ChIP-chip - Histone_H4K8ac_N2_L3_(AB15823_H4K8AC487128_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission361">ChIP-chip - Histone_H4_Tetra_ac_N2_EEMB_(LPAR109_H4TETRAAC109_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission357">ChIP-chip - Histone_H3K20me1_N2_EEMB_(AB9051_H4K20ME1104513_N2_EEMB)</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3171">ChIP-chip - HK00013_H3K27ME31E7_N2_EEMB</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3179">ChIP-chip - UP07448_H3K27ME124439_N2_EEMB</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3181">ChIP-chip - AB15823_H4K8AC487128_N2_EEMB</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3182">ChIP-chip - MP07329_H4K16ACDAM1612187_N2_EEMB</a></li>
+</ul>
+
+
+
+<h4>Figure S35: TF sequence motif discovery</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+
+<h4>Figure S36: TFs in the larval network</h4>
+
+<h4>Figure S37: Network motifs</h4>
+<h5>Analysis completed using WormBase version WS170</h5>
+
+<h6>Interpreted data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:S23ws190.tgz">Integrated Regulatory Network Analysis</a></li>
+</ul>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission179">ChIP-seq - PHA4_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission182">ChIP-seq - PHA4_StarvedL1_GFP</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission186">ChIP-seq - PHA4_GFP_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission188">ChIP-seq - PHA4_POLII_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission191">ChIP-seq - PHA4_POLII_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission193">ChIP-seq - PHA4_StarvedL1_POLII</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission195">ChIP-seq - AMA1_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission201">ChIP-seq - AMA1_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission204">ChIP-seq - DAF16_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission213">ChIP-seq - DAF16_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission216">ChIP-seq - MAB5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission224">ChIP-seq - MAB5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission226">ChIP-seq - CEH-14_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission000">ChIP-seq - DPY27_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission021">ChIP-seq - EOR-1_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission030">ChIP-seq - HLH-8_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission038">ChIP-seq - LIN-11_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission046">ChIP-seq - UNC-130_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission054">ChIP-seq - HLH-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission060">ChIP-seq - LIN-39_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission066">ChIP-seq - NHR-6_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission072">ChIP-seq - ALR-1_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission078">ChIP-seq - N2_POLII_eemb</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission086">ChIP-seq - N2_POLII_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission090">ChIP-seq - N2_POLII_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission092">ChIP-seq - N2_POLII_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission094">ChIP-seq - N2_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission096">ChIP-seq - N2_POLII_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission100">ChIP-seq - N2_POLII_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission103">ChIP-seq - PES1_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission109">ChIP-seq - GEI11_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission115">ChIP-seq - PHA4_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission121">ChIP-seq - EGL5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission127">ChIP-seq - EOR-1_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission130">ChIP-seq - HLH-8_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission132">ChIP-seq - PHA4_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission235">ChIP-seq - PHA4_GFP_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission237">ChIP-seq - MEP-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission243">ChIP-seq - MDL-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission249">ChIP-seq - LIN-15B_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission136">ChIP-seq - BLMP-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission143">ChIP-seq - LIN-13_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission255">ChIP-seq - ELT-3_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission261">ChIP-seq - EGL5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission149">ChIP-seq - NHR-105_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission155">ChIP-seq - CEH-30_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission161">ChIP-seq - EGL-27_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission167">ChIP-seq - SKN-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission173">ChIP-seq - PQM-1_GFP_L3</a></li>
+</ul>
+
+
+
+
+<h4>Figure S38: TF binding and chromatin features</h4>
+<h5>Analysis completed using WormBase version WS182</h5>
+
+
+<h5>Part A: Correlations between whole-genome transcription factor binding signals and chromatin features</h5>
+<h5>Analysis completed using WormBase version WS182</h5>
+
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission155">ChIP-chip - Histone_H3_N2_L3_(AB1791_H3_N2_L3_new)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission100">ChIP-chip - Histone_H3_N2_EEMB_2_(AB1791_H3609253_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission164">ChIP-chip - Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission157">ChIP-chip - Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission160">ChIP-chip - Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission109">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(AB8898_H3K9ME3339901_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission105">ChIP-chip - Histone_H3K36me2_N2_EEMB_(AB9049_H3K36ME2608457_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission024">ChIP-chip - POL-2_CTD_Mixed_Embryos (ABAB5408_4H8_N2_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission093">ChIP-chip - Histone_H3_N2_EEMB_1_(AR0144_H3144_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission151">ChIP-chip - Histone_H3_N2_L3_2_(AR0144_H3144_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission153">ChIP-chip - Histone_H3_N2_L3_1_(AR0144_H3144_N2_L3_LM)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission290">ChIP-chip - POL-2_N2_L4_(CVMMS126R_8WG16_N2_L4)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission349">ChIP-chip - Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission139">ChIP-chip - Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission168">ChIP-chip - Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission147">ChIP-chip - Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission351">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission121">ChIP-chip - Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission335">ChIP-chip - Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission131">ChIP-chip - Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission135">ChIP-chip - Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission297">ChIP-chip - DPY-27_N2_L4(JL00001_DPY27_N2_L4)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission327">ChIP-chip - DPY27_YPT47(V;X)_MXEMB(JL00001_DPY27_YPT47_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission329">ChIP-chip - SDC3_YPT47(V;X)_MXEMB(JL00002_SDC3_YPT47_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission238">ChIP-chip - DPY-26_N2_Mixed_Embryos_(JL00003_DPY26_N2_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission245">ChIP-chip - MIX-1_N2_Mixed_Embryos_(JL00004_MIX1_N2_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission299">ChIP-chip - DPY-28_N2_MXEMB_(JL00012_DPY28_N2_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission061">ChIP-chip - HCP-3_CENP-A_Mixed_Embryos_(OD00001_HCP3_N2_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission331">ChIP-chip - MRG-1_N2_EEMB_(SDQ0790_MRG1_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission345">ChIP-chip - MES-4_N2_EEMB_(SDQ0791_MES4_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission304">ChIP-chip - SDC-2_N2_MXEMB_(SDQ3146_SDC2_N2_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission084">ChIP-chip - Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission170">ChIP-chip - Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission143">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3)</a></li>
+</ul>
+
+<h5>Part B: Modeling accuracy of models involving either all features or individual features</h5>
+<h5>Analysis completed using WormBase version WS182</h5>
+
+
+
+<h4>Figure S39: Machine learning procedure for modeling TF binding peaks</h4>
+Graphics only, no data used
+
+
+
+<h4>Figure S40: TF binding model accuracy</h4>
+<h5>Analysis completed using WormBase version WS182</h5>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission155">Histone_H3_N2_L3_(AB1791_H3_N2_L3_new)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission100">Histone_H3_N2_EEMB_2_(AB1791_H3609253_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission164">Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission157">Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission160">Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission109">Histone_H3K9me3_N2_EEMB_2_(AB8898_H3K9ME3339901_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission105">Histone_H3K36me2_N2_EEMB_(AB9049_H3K36ME2608457_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission024">POL-2_CTD_Mixed_Embryos (ABAB5408_4H8_N2_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission093">Histone_H3_N2_EEMB_1_(AR0144_H3144_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission151">Histone_H3_N2_L3_2_(AR0144_H3144_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission153">Histone_H3_N2_L3_1_(AR0144_H3144_N2_L3_LM)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission290">POL-2_N2_L4_(CVMMS126R_8WG16_N2_L4)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission349">Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission139">Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission168">Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission147">Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission351">Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission121">Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission335">Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission131">Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission135">Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission297">DPY-27_N2_L4(JL00001_DPY27_N2_L4)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission327">DPY27_YPT47(V;X)_MXEMB(JL00001_DPY27_YPT47_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission329">SDC3_YPT47(V;X)_MXEMB(JL00002_SDC3_YPT47_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission238">DPY-26_N2_Mixed_Embryos_(JL00003_DPY26_N2_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission245">MIX-1_N2_Mixed_Embryos_(JL00004_MIX1_N2_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission299">DPY-28_N2_MXEMB_(JL00012_DPY28_N2_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission061">HCP-3_CENP-A_Mixed_Embryos_(OD00001_HCP3_N2_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission331">MRG-1_N2_EEMB_(SDQ0790_MRG1_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission345">MES-4_N2_EEMB_(SDQ0791_MES4_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission304">SDC-2_N2_MXEMB_(SDQ3146_SDC2_N2_MXEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission084">Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission170">Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_&class=Submission143">Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3)</a></li>
+</ul>
+
+<h4>Figure S41: Average signals of some chromatin marks at the binding- peaks and non-binding-peaks of TFs</h4>
+
+<h4>Figure S42: Developmental stage-specific models</h4>
+<h5>Analysis completed using WormBase version WS182</h5>
+
+
+<h4>Figure S43: Combination of chromatin and sequence features</h4>
+<h5>Analysis completed using WormBase version WS190</h5>
+
+<h6>Interpreted data:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS40-hlh1-brad_pwm.matrix.gz">positional weighted matrix for HLH-1</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS40-hlh1-db_pwm.matrix.gz">positional weighted matrix for HLH-1 from database</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS40-Fig_hlh1_brad.dat.gz">PPV at different cut-off values</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS40-Fig_hlh1_db.dat.gz">PPV at different cut-off values</a></li>
+</ul>
+
+<h4>Figure S44: Coverage of evolutionarily constrained regions by genomic features</h4>
+<h5>Analysis completed using WormBase version WS182</h5>
+
+
+<h4>Figure S45: Conservation enrichment analysis</h4>
+
+<h4>Figure S46: PhastCons score correlation with peak centers in modENCODE peak calls</h4>
+
+<h4>Figure S47: Saturation of TF binding</h4>
+<h5>Analysis completed using WormBase version WS182</h5>
+
+<h4>Figure S48: Comparison of coverage between ENCODE pilot and modENCODE C. elegans project</h4>
+
+<h4>Figure S49: RNAPII ChIP-seq signal aggregation in human and C. elegans</h4>
+
+<h4>Figure S50: Comparison of histone marks in C. elegans early embryos and human CD4T cells</h4>
+
+<h3>Supplementary Tables</h3>
+
+<h4>Supplement Table 1: Data overview for RNA sequencing and expression tiling arrays</h5>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+<h4>Supplement Table 1b: ChIP-chip, ChIP-seq, and other chromatin-characterization experiments</h5>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+<h4>Supplement Table 1c: Inferred genomic elements</h5>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+
+
+<h4>Supplement Table 2a: Sources of polyA sites in final integrated transcript set</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+<h4>Supplement Table 2b: C. elegans genes not identified as “transcribed” in 19 polyA RNA-seq samples</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+
+<h4>Supplement Table 3: Developmental stages and tissue samples of small RNA-seq and tiling array experiments</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+
+<h4>Supplement Table 4: Summary of cell and stage specific tiling array results</h4>
+Interpreted data: 
+<br/>
+Source experimental data:
+<br/>
+
+<h4>Supplement Table 5: Different types of known ncRNAs</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+<h4>Supplement Table 6: Annotated regions used for the training of machine learning methods (21K- set) – tiling array TARs</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+<h4>Supplement Table 7: Performance of our integrated method (21K-set) on tiling array TARsa with three different ways to define element classes in the gold-standard set</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+<h4>Supplement Table 8: Annotated and novel tiling array TARs going into 21K-set of ncRNAs</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+<h4>Supplement Table 9: Co-expression clusters of coding transcripts and novel ncRNA candidates (7K-set)</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<h4>Supplement Table 10: Total mapped reads, numbers of peaks bound by each of 23 factors (22 TFs and one dosage compensation factor, 28 experiments in total) from ChIP-seq</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+
+<h4>Supplement Table 11: GO analysis of genes associated with HOT regions</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+
+<h4>Supplement Table 12: Expression correlation of transcription factors with target genes and non- target genes</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+
+
+<h4>Supplement Table 13: Overview of PicTar-predicted miRNA target sites within 3'UTRs of the aggregated integrated transcript set</h4>
+Interpreted data: 
+<br/>
+Source experimental data:
+<br/>
+
+<h4>Supplement Table 14: Overlap of 4.1 Mb of residual constrained blocks with various genomic elements</h4>
+Interpreted data: 
+<br/>
+Source experimental data:
+<br/>
+
+<h4>Supplement Table 15: Sample comparison of C. elegans and human TF binding regions </h4>
+Interpreted data: 
+<br/>
+Source experimental data:
+<br/>
+
+<h4>Supplement Table 16: Sample comparison of C. elegans and human transcription </h4>
+Interpreted data: 
+<br/>
+Source experimental data:
+<br/>
+
+<h4>Supplement Table 17: Table of Wormbase versions used </h4>
+Interpreted data: 
+<br/>
+Source experimental data:
+<br/>
+
+
+<h3>Supplementary Files</h3>
+
+
+<h4>Supplement File 1</h4>
+<a href="http://wiki.modencode.org/project/uploads/d/d5/Predicted_ncRNA_21K.gff">Genome positions and predicted scores of predicted long ncRNA TARs (set-21K)</a>
+
+<h4>Supplement File 2</h4>
+<a href="http://wiki.modencode.org/project/index.php/File:P5_analysis_uniq_3utr.txt">(Dataset S#) Coordinates for PicTar-predicted miRNA target sites within 3'UTRs of the ag1003 transcript set</a>
+
+<h4>Supplement File 3</h4>
+<a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">Coordinates for HOT regions</a>
+
+<h4>Supplement File 4</h4>
+<a href="http://wiki.modencode.org/project/uploads/5/57/Predicted_ncRNA_7K.gff">Predicted ncRNAs, 7K set</a>
+
+<h3>Analysis Tools</h3>
+<ul>
+<li><a href="http://compgen.bscb.cornell.edu/phast">Phylogenetic analysis with space/time models (PHAST) software</a></li>
+<li><a href="http://tyna.gersteinlab.org">The Yale Network Analyzer (tYNA)</a></li>
+<li><a href="http://cytoscape.org">Cytoscape</a></li>
+<li><a href="http://act.gersteinlab.org">Aggregation and Correlation Toolbox</a></li>
+<li><a href="http://archive.gersteinlab.org/proj/rnaseq/IQSeq">IQseq</a></li>
+<li><a href="http://archive.gersteinlab.org/proj/rnaseq/rseqtools">RSEQtools</a></li>
+<li><a href="http://genome.ucsc.edu">UCSC Genome Browser</a></li>
+<li><a href="http://compbio.cs.toronto.edu/shrimp">SHRiMP aligner v1.3</a></li>
+<li><a href="http://www.broadinstitute.org/igv/v1.2">Integrative Genomics Viewer</a></li>
+<li><a href="http://www.aceview.org">AceView</a></li>
+<li><a href="http://deepseq9.sourceforge.net">documented source code for Deepseq9 algorithm at SourceForge, http://deepseq9.sourceforge.net</a></li>
+</ul>
+
+<h3>Companion Papers</h3>
+<ul>
+<li>M. Kato, X. Chen, S. Inukai, H. Zao, F. Slack, Age-associated changes in expression of small, non-coding RNAs, including microRNAs, in C. elegans. Genome Res.,  (submitted).</li>
+<li>X. Feng, L. Stein, High resolution peak calling for Chromatin IP Sequencing.  (submitted).</li>
+<li>S. Contrino et al., Accessing modENCODE data. Genome Res.,  (submitted).</li>
+<li>H. Lei et al., A widespread distribution of genomic CeMyoD binding sites revealed and cross-validated by ChIP-chip and ChIP-Seq techniques. PLoS One,  (submitted).</li>
+<li>M. Friedlander, S. Mackowiak, N. Rajewsky, miRDeep 2.0.  (manuscript in preparation).</li>
+<li>W. Chung et al., Computational and experimental identification of mirtrons in Drosophila melanogaster and Caenorhabditis elegans. Genome Res.,  (submitted).</li>
+<li>B. Ewing, A. Leahey, L. Hillier, C. Davis, P. Green, Targeted closure of the C. elegans transcriptome.  (manuscript in preparation).</li>
+<li>N. L. Washington et al., The modENCODE Data Coordination Center: Lessons in harvesting comprehensive experimental details. Genome Res.,  (submitted).</li>
+<li>W. C. Spencer et al., A spatial and temporal map of C. elegans gene expression.  (manuscript in preparation).</li>
+<li>W. Niu et al., Systematic dissection of regulatory networks dictated by C. elegans sequence-specific transcription factors.  (manuscript in preparation).</li>
+<li>W. Niu, ..., V. Reinke, Diverse transcription factor binding features revealed by genome-wide ChIP-Seq in C. elegans. Genome Res.,  (submitted).</li>
+<li>Z. J. Lu et al., Prediction and characterization of non-coding RNAs in C. elegans by integrating conservation, secondary structure and high throughput sequencing and array data. Genome Res.,  (submitted).</li>
+<li>T. Liu et al., Broad chromosomal domains of histone modification patterns in C. elegans. Genome Res,  (submitted).</li>
+<li>C. H. Jan, R. C. Friedman, J. G. Ruby, C. B. Burge, D. P. Bartel, Formation and regulation of 3´ untranslated regions in Caenorhabditis elegans.  (manuscript in preparation).</li>
+<li>S. Ercan, Y. Lubling, E. Segal, J. D. Lieb, High nucleosome occupancy is encoded at X-linked gene promoters in C. elegans Genome Res,  (submitted).</li>
+<li>M. A. Allen, L. W. Hillier, R. H. Waterston, T. Blumenthal, A global analysis of trans-splicing in C. elegans. Genome Res.,  (submitted).</li>
+</ul>
+
+<h3>All listed URLs</h3>
+<ul>
+<li><a href="http://www.ncbi.nlm.nih.gov/sra">Short Read Archive</a></li>
+<li><a href="http://www.ncbi.nlm.nih.gov/geo">Gene Expression Omnibus</a></li>
+<li><a href="http://www.wormbase.org">WormBase</a></li>
+<li><a href="http://cbio.mskcc.org/leslielab/mirtrons/ce_mirtrons">Full analysis of C. elegans mirtrons</a></li>
+<li><a href="http://intermine.modencode.org">modMine</a></li>
+<li><a href="http://genome.ucsc.edu/cgi-bin/hgc?g=multiz6way">Methods used to build six-way nematode genome alignments</a></li>
+<li><a href="http://genome.wustl.edu/genomes/view/caenorhabditis_briggsae">Genome sequence of Caenorhabditis briggsae</a></li>
+<li><a href="http://genome.wustl.edu/genomes/view/caenorhabditis_remanei">Genome sequence of Caenorhabditis remanei</a></li>
+<li><a href="http://genome.wustl.edu/genomes/view/caenorhabditis_brenneri">Genome sequence of Caenorhabditis brenneri</a></li>
+<li><a href="http://genome.wustl.edu/genomes/view/pristionchus_pacificus_var._california">Genome sequence of Pristionchus pacificus</a></li>
+<li><a href="http://genome.wustl.edu/genomes/view/caenorhabditis_japonica">Genome sequence of Caenorhabditis japonica</a></li>
+<li><a href="http://compgen.bscb.cornell.edu/phast">Phylogenetic analysis with space/time models (PHAST) software</a></li>
+<li><a href="http://tyna.gersteinlab.org">The Yale Network Analyzer (tYNA)</a></li>
+<li><a href="http://cytoscape.org">Cytoscape</a></li>
+<li><a href="http://act.gersteinlab.org">Aggregation and Correlation Toolbox</a></li>
+<li><a href="http://archive.gersteinlab.org/proj/rnaseq/IQSeq">IQseq</a></li>
+<li><a href="http://archive.gersteinlab.org/proj/rnaseq/rseqtools">RSEQtools</a></li>
+<li><a href="http://genome.ucsc.edu">UCSC Genome Browser</a></li>
+<li><a href="http://compbio.cs.toronto.edu/shrimp">SHRiMP aligner v1.3</a></li>
+<li><a href="http://www.broadinstitute.org/igv/v1.2">Integrative Genomics Viewer</a></li>
+<li><a href="http://www.aceview.org">AceView</a></li>
+<li><a href="http://deepseq9.sourceforge.net">documented source code for Deepseq9 algorithm at SourceForge, http://deepseq9.sourceforge.net</a></li>
+</ul>
+
+
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

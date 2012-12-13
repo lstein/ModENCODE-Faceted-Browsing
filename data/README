@@ -1,0 +1,208 @@
+This is the September 2011 release of the ModENCODE dataset.
+
+ModENCODE is a National Human Genome Research Institute-led project to
+identify all of the sequence-based functional elements in the
+Caenorhabditis elegans and Drosophila melanogaster genomes. Full
+information can be found at http://www.modencode.org.
+
+Please be aware that some of the datasets contained at this site are
+embargoed, which means that while you are free to use them, you may
+not publish genome-wide analyses using the data until their embargo
+period has passed or certain other conditions apply.  Full details can
+be found at modENCODE_publication_policy.pdf, located in this
+directory or ftp://ftp.modencode.org/modENCODE_publication_policy.pdf.
+
+To find out the embargo date for a particular data set, please go to
+http://intermine.modencode.org and search for the data set by its
+accession number (modENCODE_XXXX) or dataset name. This site will also
+provide you with information on the protocols, conditions and other
+metadata associated with the data set.
+
+Layout of the FTP Directory
+---------------------------
+
+Each dataset is present in two places: in flattened format under
+"all_files", where the data are arbitrarily divided among multiple
+volumes, and in this directory organized in hierarchical fashion under
+top level directories named after the species. The hierarchical
+organization of the directories is as follows:
+
+ Level 1 -- Species name, e.g. "D.melanogaster"
+     Level 2 -- Genomic element type, e.g. "Histone-Modification"
+         Level 3 -- Technique, e.g. "ChIP-seq"
+	     Level 4 -- File format, e.g. "coverage-graph_wiggle"
+
+The data files themselves can be found below the level 4
+directory. They are symbolic links to the real data files located in
+"all_files".
+
+File Names
+----------
+
+As ModENCODE consortium members complete experiments, they submit
+their data files to the Data Coordinating Center (DCC). These files
+usually bear internal names that are meaningful to the originating
+lab, but are cryptic to the rest of the world. The DCC does not change
+the names of the files or their contents, EXCEPT that we periodically
+lift genomic coordinates to the latest stable genome build, currently
+WS220 for C. elegans and R5 for D. melanogaster. These
+minimally-modified files are located in the directories between
+"all_files". Note that some of the files contain the names of the
+genome builds they were originally mapped against, such as WS170, but
+all such files (including .sam files) have been lifted to the current
+stable build. The exception to this rule is a number of C. elegans
+files that had not been lifted at press time, the list of which can be
+found in UNLIFTED.txt. These files are being updated.
+
+To make the data easier to work with, the names used in the
+symbolic links located under species-name directories use a uniform,
+if verbose, naming system, as follows:
+
+alr-1:Developmental-Stage=Larvae-L2-stage#Strain=OP200#temperature=20-degree-celsius:\
+      ChIP-seq:Rep-1:ChIP:WS220:modENCODE_3156:1.fastq.gz
+
+The name has been line-broken for readability. The "\" is not part of
+the filename.
+
+There are 8 components to the name, separated by the ":" character:
+
+  1) Name of the biological target, such as a transcription factor or
+     histone modification type. For transcriptome studies, it will be
+     "mRNA", "whole-RNA", "small-RNA", etc.
+
+  2) Key experimental conditions, including developmental stage,
+  strain, and cell line. The condition names are separated from the
+  values by "=" signs, and the condition name/value pairs are
+  separated by "#" marks.
+
+  3) Experimental technique, such as ChIP-seq.
+
+  4) Replicate number, in the format Rep-1, Rep-2, etc.
+
+  5) For ChIP experiments, the role of the dataset, either "Input" or
+  "ChIP" for distinguishing no-antibody control from antibody IP. In
+  the case of tiling arrays, this field will also contain the
+  dye used, such as Cy3, in order to distinguish dye-swap experiments.
+  
+  6) The accession number of the submission, in the format
+  modENCODE_XXXX.
+
+  7) Additional distinguishing characters, such as the part number in
+  multi-part submissions, followed by the format and compression.
+
+NOTE ON FILENAME SIZE: The uniform file names are never longer than
+255 characters, which is the limit on most filesystems. However, there
+are a handful of common filesystems that cannot accomodate files
+longer than 150 characters. On such filesystmes, you may be unable to
+download and open these files. The workaround is to download or unpack
+the files on another filesystem, such as a thumb drive or the /tmp
+directory, then copy them to the desired destination under a shorter
+name.
+
+MANIFEST.txt and metadata.csv
+-----------------------------
+
+These two files, contained within this directory, provide additional
+information about each file. 
+
+MANIFEST.txt is a three-column tab-separated file that maps ModENCODE
+accession numbers to their files names. The three columns are:
+MODENCODE_ACCESSION,ORIGINAL_FILENAME,UNIFORM_FILENAME. The original
+and uniform filenames match the filenames located under "all_files"
+and the species-specific directories as described above.
+
+metadata.csv is a longer tab-separated file that includes all the
+information in MANIFEST.txt, as well as additional metadata:
+
+ Column  Name              Description
+ ------  ----             -----------
+   1     DCC id           Abbreviated ModENCODE accession number, the
+         	          numeric portion only.
+
+   2     Original name    Original filename as submitted by the
+                          experimental laboratory
+
+   3     Uniform filename File renamed to the uniform filenaming
+                          system described earlier.
+
+   4     File format      Description of the file format, see below.
+
+   5     Organism         Species name.
+
+   6     Target           Biological element, such as "TF factor"
+
+   7     Technique        Experimental technique, such as ChIP-chip
+
+   8     Factor           Major experimental factor assayed, such as the
+   	                  name of the transcription factor.
+
+   9     Stage            Developmental stage of the organism, if
+                          applicable.
+
+  10     Condition        Other conditions applicable to the
+                          experiment.
+
+  11     ReplicateSetNum  Replicate number, in format Rep-1, Rep-2...
+  
+  12     Build            Genome build used for coordinate mapping.
+
+  13     Principal Investigator   PI last name and first initial.
+ 
+  14     Category         Broad category of the experiment, such as 
+                          "RNA expression profiling"
+
+File Formats Used
+-----------------
+
+The following standard file formats are used in this repository:
+
+ 1) FASTQ. This format, distinguished by the extension .fastq,
+ contains raw sequence read base calls and their quality scores.
+ The format is described here: http://en.wikipedia.org/wiki/FASTQ_format
+
+ 2) CEL.  This format, distinguished by the extension .CEL, is used
+ for Affymetrix tiling arrays. It is described here:
+ http://www.stat.lsa.umich.edu/~kshedden/Courses/Stat545/Notes/AffxFileFormats/cel.html
+
+ 3) PAIR. This format, distinguished by the extension .pair, is used
+ for Nimblegen arrays. It is best described in the Nimblegen user's
+ guide, Appendix A:
+ http://www.nimblegen.com/products/lit/expression_userguide_v5p0.pdf
+
+ 4) SAM. This format, distinguished by the extension .sam, was
+ developed for next generation sequencing and combines
+ sequence alignments, sequence read data, base quality scores, and
+ alignment quality scores. Documentation and libraries for woking with
+ it can be found at http://samtools.sourceforge.net/.
+
+ 5) WIGGLE. This format, distinguished by the extension .wig, was
+ developed by the UCSC Genome Browser staff
+ for representing continuously variable quantitative values
+ mapped to the genome. ModENCODE uses it extensively to describe the
+ results of ChIP experiments. The wiggle format is described at:
+ http://genome.ucsc.edu/goldenPath/help/wiggle.html
+
+ 6) GFF3. This format, distinguished by the extension .gff3, is used
+ to represent interpreted features on the genome, including gene
+ models, transcription factor binding peaks, and histone modification
+ enriched regions. It is described at:
+ http://www.sequenceontology.org/gff3.shtml
+
+This Site is Cloud Enabled!
+---------------------------
+
+This site runs completely off the Amazon EC2 cloud, using disk volumes
+that have been made available as public snapshots. You can easily
+mount a mirror of this site and have direct access to the data files
+without needing to download them to your local computers. Please see
+http://data.modencode.org/modencode-cloud.html for details. 
+
+For Assistance
+--------------
+
+Please contact the helpdesk at help@modencode.org. Your inquiries will
+be answered within 24 hrs during the working week.
+
+--
+
+Last modified: 22 September 2011
