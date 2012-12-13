@@ -94,6 +94,7 @@ sub fix_original_name {
 sub fix_organism {
     my $org = shift;
     return $org =~ /^Cele/ ? 'C. elegans'
+	  :$org =~ /^Cbri/ ? 'C. briggsae'
 	  :$org =~ /^Dmel/ ? 'D. melanogaster'
 	  :$org =~ /^Dmoj/ ? 'D. mojavensis'
 	  :$org =~ /^Dyak/ ? 'D. yakuba'
