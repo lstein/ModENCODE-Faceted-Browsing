@@ -36,6 +36,7 @@ my %Factor_map = (
         'h3'   => 'H3',
 	'His2A' => 'H2A',
 	'His2Av' => 'H2Av',
+	'H2AV' => 'H2Av',
 	'His3.3A' => 'H3.3A',
 	'His3:CG33815' => 'H3K36me3',
 	'MCM2-7 complex' => 'MCM2-7',
@@ -89,6 +90,9 @@ my %Stage_map = ('E0-4' => 'Embryo 0-4h',
 	'2-18 hr Embryos'               => 'Embryos 2-18 hr',
     );
 
+my %Tissue_map = (
+    );
+
 sub fix_original_name {
     my $name = shift;
     $name =~ s/^\s+//;
@@ -108,6 +112,20 @@ sub fix_organism {
 	  :$org =~ /^Dsim/ ? 'D. simulans'
 	  :$org =~ /^Dvir/ ? 'D. virilis'
 	  :$org;
+}
+
+sub fix_tissue {
+    my $tissue = shift;
+    $tissue =~ s/Mated adult ovaries/Mated Adult Ovaries/ig;
+    $tissue =~ s/Pan-neural/Panneural/ig;
+    $tissue =~ s/^Ovaries/Ovary/ig;
+    $tissue = $Tissue_map{$tissue} || $tissue;
+    return ucfirst($tissue);
+}
+sub fix_compound {
+    my $compound = shift;
+    $compound =~ s/^rotenone/Rotenone/;
+    return ucfirst($compound);
 }
 
 sub fix_stage {
@@ -137,10 +155,17 @@ sub fix_stage {
     $stage   =~ s/^Pupae, WPP/WPP/;
     $stage   =~ s/^WPP/White prepupae (WPP)/;
     $stage   =~ s/^White Prepupae/White prepupae/;
-    $stage   =~ s/^dmel\s+//;
+    $stage   =~ s/^Dmel\s+//i;
+    $stage   =~ s/^Dmoj\s+//i;
+    $stage   =~ s/^Dana\s+//i;
+    $stage   =~ s/^Dsim\s+//i;
+    $stage   =~ s/^Dpse\s+//i;
+    $stage   =~ s/^Dvir\s+//i;
+    $stage   =~ s/^Dyak\s+//i;
     $stage   =~ s/^\s+//;
     $stage   =~ s/adult female/Adult Female/ig;
     $stage   =~ s/adult male/Adult Male/ig;
+    $stage   =~ s/adult-mated female/Adult mated female,/ig;
     $stage   =~ s/virgin female eclosion/Virgin female, eclosion/ig;
     $stage   =~ s/^(\d+-\d+) day old pupae/Pupae $1 day/; 
     $stage   =~ s/^(\w+) instar larvae/Larvae $1 instar/i;
@@ -254,6 +279,10 @@ sub fix_condition {
 	    $value .= ' salt';
 	} elsif ($key eq 'Developmental-Stage') {
 	    $value  = fix_stage($value);
+	} elsif ($key eq 'Tissue') {
+	    $value  = fix_tissue($value);
+	} elsif ($key eq 'Compound') {
+	    $value  = fix_compound($value);
 	}
 	push @conditions,[$key,$value] if (defined $key && defined $value);
     }
