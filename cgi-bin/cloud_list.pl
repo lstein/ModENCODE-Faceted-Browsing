@@ -13,17 +13,24 @@ my $Database = read_manifest(MANIFEST);
 my $Snaps    = read_snapshot_list(SNAPSHOTS);
 my $idList = param("accessions");
 my $urls   = param('urls');
+my $html = param('html');
 my %seenit;
 my @AccessionId = grep {!$seenit{$_}++} split(',', $idList);
 
 my @found_accessions   = grep {$Database->{$_}}  @AccessionId;
 my @missing_accessions = grep {!$Database->{$_}} @AccessionId;
 
-print header('text/plain');
-if ($urls) {
+if ($html) {
+    print header('text/html');
+    print "\<html\>\n";
+    print "\<table border=\"1\" align=\"center\"\>\n";
+    print "\<tr\>\<th\>submission ID\</th\>\<th\>URL\</th\>\</tr\>\n";
+} elsif ($urls) {
+    print header('text/plain');
     print "## This is a list of download URLs corresponding to data files in the selected submissions.\n";
     printf "#%-4s %-50s\n",'ID','Url';
 } else {
+    print header('text/plain');
     print "## This information will help you locate the data files on the modENCODE Amazon Cloud Image\n";
     print "## and data snapshots. See http://data.modencode.org/modencode-cloud.html for more information.\n\n";
     printf "#%-4s %-15s %-20s %-50s\n",'ID','Snapshot','Volume','File';
@@ -37,13 +44,20 @@ for my $id (@found_accessions) {
 	my $volname        = dirname($original_name);
 	my $snap           = $Snaps->{$volname};
 	my $url            = "ftp://data.modencode.org/all_files/$volname/$basename";
-	if ($urls) {
+	if ($html) {
+	    printf "\<tr\>\<td align=\"center\"\>%5d\</td\>\<td\>\<a href=\"%s\"\>%s\</a\>\<\/td\>\</tr\>\n",$id,$url,$url;
+	} elsif ($urls) {
 	    printf "%5d %-50s\n",$id,$url;
 	} else {
 	    printf "%5d %-15s %-20s %-50s\n",$id,$snap,$volname,$basename;
 	}
     }
 }
+if ($html) {
+    print "\n\</table\>";
+    print "\n\</html\>";
+}
+
 
 
 
