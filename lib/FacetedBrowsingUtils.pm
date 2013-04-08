@@ -146,6 +146,7 @@ sub fix_stage {
     $stage   =~ s/^early/Early/;
     $stage   =~ s/^larva L(\d)/L$1/i;
     $stage   =~ s/^yAdult/Young adult/i;
+    $stage   =~ s/Young Adult/Young adult/i;
     $stage   =~ s/(\d)\s?hr?/$1 hr/g;
     $stage   =~ s/larvae?(.+stage larvae)/$1/;
     $stage   =~ s/\s+\d+dc//i;
@@ -166,6 +167,7 @@ sub fix_stage {
     $stage   =~ s/adult female/Adult Female/ig;
     $stage   =~ s/adult male/Adult Male/ig;
     $stage   =~ s/adult-mated female/Adult mated female,/ig;
+    $stage   =~ s/adult mated female/Adult mated female,/ig;
     $stage   =~ s/virgin female eclosion/Virgin female, eclosion/ig;
     $stage   =~ s/^(\d+-\d+) day old pupae/Pupae $1 day/; 
     $stage   =~ s/^(\w+) instar larvae/Larvae $1 instar/i;

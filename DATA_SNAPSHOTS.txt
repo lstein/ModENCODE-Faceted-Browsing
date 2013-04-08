@@ -1,24 +1,55 @@
+#
+#
 snap-00b2057f	modENCODE D. virilis raw data, part 1 (1 March 2012)
+#
 #
 snap-de2887a1	modENCODE D. ananassae raw data, part 1 (1 March 2012)
 #
+#
 snap-e80bbc97	modENCODE D. yakuba raw data, part 1 (1 March 2012)
 #
+#
 snap-868a3df9	modENCODE D. simulans raw data, part 1 (1 March 2012)
+#
 #
 snap-a8d678d7	modENCODE D. mojavensis raw data, part 1 (1 March 2012)
 snap-509b352f	modENCODE D. mojavensis signal data, part 1 (1 March 2012)
 #
-snap-aa369ed5	modENCODE D. pseudoobscura raw data, part 1 (1 March 2012)
-snap-cab019b5	modENCODE D. pseudoobscura signal data, part 1 (1 March 2012)
 #
-snap-4729fc0f	modENCODE C. elegans raw data, part 1 (1 December 2012)
-snap-0a8f3d42	modENCODE C. elegans interpreted data, part 1 (1 December 2012)
-snap-2d45ce65	modENCODE C. elegans signal data, part 1 (1 December 2012)
+snap-b5e7eef3	modENCODE D. pseudoobscura interpreted data, part 1 (1 April 2013)
+snap-f5cec0b3	modENCODE D. pseudoobscura signal data, part 1 (1 April 2013)
+snap-5f696719	modENCODE D. pseudoobscura raw data, part 1 (1 April 2013)
+#
+#
+snap-08bdb24e	modENCODE C. japonica interpreted data, part 1 (1 April 2013)
+snap-6f9a9529	modENCODE C. japonica raw data, part 1 (1 April 2013)
+snap-46777800	modENCODE C. japonica signal data, part 1 (1 April 2013)
+#
+#
+snap-27370b61	modENCODE C. remanei signal data, part 1 (1 April 2013)
+snap-af1d20e9	modENCODE C. remanei raw data, part 1 (1 April 2013)
+snap-1dead95b	modENCODE C. remanei interpreted data, part 1 (1 April 2013)
+#
+#
+snap-05ab9a43	modENCODE C. brenneri interpreted data, part 1 (1 April 2013)
+snap-c813248e	modENCODE C. brenneri raw data, part 1 (1 April 2013)
+snap-ec9ca8aa	modENCODE C. brenneri signal data, part 1 (1 April 2013)
+#
+#
+snap-1decd85b	modENCODE C. briggsae interpreted data, part 1 (1 April 2013)
+snap-d78da891	modENCODE C. briggsae raw data, part 1 (1 April 2013)
+snap-56281c10	modENCODE C. briggsae signal data, part 1 (1 April 2013)
+#
+#
+snap-187a1a5e	modENCODE C. elegans raw data, part 1 (1 April 2011)
+snap-3b0a757d	modENCODE C. elegans interpreted data, part 1 (1 April 2013)
+snap-b21c65f4	modENCODE C. elegans signal data, part 1 (1 April 2013)
+#
 #
 snap-26ad5959	modENCODE D. melanogaster raw data, part 1 (1 March 2012)
 snap-fe52a081	modENCODE D. melanogaster raw data, part 2 (1 March 2012)
 snap-d0c818af	modENCODE D. melanogaster raw data, part 3 (1 March 2012)
 snap-40adb508	modENCODE D. melanogaster raw data, part 4 (2 December 2012)
-snap-00088748	modENCODE D. melanogaster interpreted data, part 1 (1 December 2012)
-snap-d55cd29d	modENCODE D. melanogaster signal data, part 1 (1 December 2012)
+snap-122d5154	modENCODE D. melanogaster raw data, part 5 (1 April 2013)
+snap-58aeba1e	modENCODE D. melanogaster interpreted data, part 1 (1 April 2013)
+snap-7b64373d	modENCODE D. melanogaster signal data, part 1 (1 April 2013)
