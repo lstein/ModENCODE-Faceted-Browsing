@@ -6,7 +6,7 @@ use FindBin '$RealBin';
 
 our @EXPORT_OK = qw(
                     METADATA_URL METADATA_FIXED MODENCODE_ROOT MODENCODE_DATA
-                    fix_original_name fix_organism fix_stage fix_factor find_category 
+                    fix_original_name fix_organism fix_compound fix_stage fix_factor find_category 
                     fix_factor fix_pi fix_target fix_build
                     fix_condition fix_repset);
 our @EXPORT    = @EXPORT_OK;
@@ -125,6 +125,7 @@ sub fix_tissue {
 sub fix_compound {
     my $compound = shift;
     $compound =~ s/^rotenone/Rotenone/;
+    $compound =~ s/([0-9]*\.?[0-9]+M) CdCl2/CdCl2 $1/i;
     return ucfirst($compound);
 }
 
@@ -292,6 +293,12 @@ sub fix_condition {
 	my ($key,$value) = split '_',$c;
 	if ($key eq 'Compound' && $value =~ /mM/) {
 	    $value .= ' salt';
+	    #$value =~ s/([0-9]*\.?[0-9]+) mM Copper salt/Copper salt $1 mM/i;
+	    #$value =~ s/([0-9]*\.?\-?[0-9]+) mM ([\w+]+)/$2 $1 mM/i;
+	    $value =~ s/([0-9]*\.?\-?[0-9]+) mM Copper salt/Copper salt $1 mM/i;
+	    $value =~ s/([0-9]*\.?\-?[0-9]+) mM salt/Salt $1 mM/i;
+	    $value =~ s/([0-9]*\.?\-?[0-9]+) mM Zinc salt/Zinc salt $1 mM/i;
+	    $value =~ s/([0-9]*\.?\-?[0-9]+) mM CdCl2 salt/CdCl2 $1 mM/i;
 	} elsif ($key eq 'Developmental-Stage') {
 	    $value  = fix_stage($value);
 	} elsif ($key eq 'Tissue') {
