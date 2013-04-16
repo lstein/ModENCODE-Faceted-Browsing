@@ -295,10 +295,7 @@ sub fix_condition {
 	    $value .= ' salt';
 	    #$value =~ s/([0-9]*\.?[0-9]+) mM Copper salt/Copper salt $1 mM/i;
 	    #$value =~ s/([0-9]*\.?\-?[0-9]+) mM ([\w+]+)/$2 $1 mM/i;
-	    $value =~ s/([0-9]*\.?\-?[0-9]+) mM Copper salt/Copper salt $1 mM/i;
-	    $value =~ s/([0-9]*\.?\-?[0-9]+) mM salt/Salt $1 mM/i;
-	    $value =~ s/([0-9]*\.?\-?[0-9]+) mM Zinc salt/Zinc salt $1 mM/i;
-	    $value =~ s/([0-9]*\.?\-?[0-9]+) mM CdCl2 salt/CdCl2 $1 mM/i;
+	    $value =~ s/(\d*\.?\-?\d* mM) (\w+( \w+)*)/$2 $1/i;
 	} elsif ($key eq 'Developmental-Stage') {
 	    $value  = fix_stage($value);
 	} elsif ($key eq 'Tissue') {

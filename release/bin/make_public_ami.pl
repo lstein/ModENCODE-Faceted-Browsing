@@ -8,7 +8,7 @@ use VM::EC2;
 use EC2Utils;
 use Filesys::Df 'df';
 
-@ARGV == 2 or die "Usage: clean_ami.pl <release number in format 'v3'> <data date in format 'dd Mon YYYY>";
+@ARGV == 2 or die "Usage: make_public_ami.pl <release number in format 'v3'> <data date in format 'dd Mon YYYY>";
 my $release   = shift;
 my $data_date = shift;
 
@@ -38,7 +38,19 @@ my @block_device_mapping = grep {defined $_} map {to_block_string($_)} @block_de
 
 # make clean copies of the /modencode root as well as the root volume
 print STDERR "Copying / and /modencode....\n";
-my $modencode_root_vol = clean_copy('/modencode','/mnt/modencode_root',[]);
+my $modencode_root_vol = clean_copy('/modencode','/mnt/modencode_root',['/modencode/DATA_SNAPSHOTS.txt.1.March.2012',
+									'/modencode/DATA_SNAPSHOTS.txt.bak',
+									'/modencode/DATA_SNAPSHOTS.txt.16.December.2012',
+									'/modencode/DATA_SNAPSHOTS.txt.7.December.2012',
+									'/modencode/release/README',
+									'/modencode/release/05.september.2011.spreadsheet.csv', 
+									'/modencode/release/07.december.2011.spreadsheet.csv',
+									'/modencode/release/10.December.2012.spreadsheet.csv',
+									'/modencode/release/27.november.2011.spreadsheet.csv', 
+									'/modencode/release/ws220-spreadsheet-4_sep_2011.csv',
+									'/modencode/release/spreadsheet.csv.16.December.2012'
+]);
+
 my $root_vol           = clean_copy('/',         '/mnt/root',          ['/home/*','/root/.ssh','/var/log/apache2/*',
 									'/var/log/vsftpd.log','/var/log/debug',
 									'/var/log/lastlog','/var/log/wtmp',
