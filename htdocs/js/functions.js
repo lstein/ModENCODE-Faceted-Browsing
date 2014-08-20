@@ -287,7 +287,7 @@ function format_url() {
 	var source = s;
 	var tracks = tra.get(s);
 	if (url.get(source)==null)
-	    url.set(source,'http://modencode.oicr.on.ca/fgb2/gbrowse/'+source+'/?l=Genes');
+	    url.set(source,'http://gbrowse.modencode.org/fgb2/gbrowse/'+source+'/?l=Genes');
 	var v = url.get(source);
 	tracks.keys().each(function (t) {
 	    var subtracks = tracks.get(t).keys();

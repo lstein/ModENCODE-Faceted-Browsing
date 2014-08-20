@@ -13,7 +13,7 @@ use lib "$RealBin/../lib","$RealBin/../perl/lib/perl","$RealBin/../perl/lib/perl
 use FacetedBrowsingUtils;
 use LWP::Simple 'get','getprint','mirror';
 use Text::ParseWords 'shellwords';
-use constant BROWSER => 'http://modencode.oicr.on.ca/fgb2/gbrowse/';
+use constant BROWSER => 'http://gbrowse.modencode.org/fgb2/gbrowse/';
 use constant SOURCES => [qw(fly worm fly_ananas fly_dmoj fly_dp fly_simul fly_virilis fly_yakuba)];
 use constant DEST    => "$RealBin/../htdocs/modencode.js";
 

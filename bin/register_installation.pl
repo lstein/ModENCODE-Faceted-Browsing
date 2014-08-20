@@ -11,7 +11,7 @@ use HTTP::Request::Common;
 use LWP::UserAgent;
 use Module::Build;
 
-use constant REGISTRATION_SERVER=>'http://modencode.oicr.on.ca/cgi-bin/modencode_ami_registration';
+use constant REGISTRATION_SERVER=>'http://gbrowse.modencode.org/cgi-bin/modencode_ami_registration';
 
 my $is_image = shift;
 

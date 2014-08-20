@@ -64,7 +64,7 @@ cloud:
 
 <li>Launch a machine image running the modENCODE Genome Browser. This
 has exactly the same data and user interface as the
-public <a href="http://modencode.oicr.on.ca/fgb2/gbrowse/">modENCODE
+public <a href="http://gbrowse.modencode.org/fgb2/gbrowse/">modENCODE
 genome browser</a>, but you will have privileged access to it and can
 customize and configure it.
 </li>
